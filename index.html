@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>人间不延迟 · 工作台</title>
+<title>内容工作台 · Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -1589,6 +1589,41 @@ button.ai-btn:hover {
 }
 .diff-opt:hover { background: var(--gold-dim); border-color: var(--gold-dim); }
 .diff-opt-icon { font-size: 14px; width: 20px; text-align: center; }
+
+/* ============ Onboarding ============ */
+.onboard-modal .modal { max-width: 520px; }
+.onboard-steps {
+  display: flex; align-items: center; gap: 6px;
+  margin-bottom: 28px;
+}
+.onboard-step-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--bg-elev); transition: background 0.2s;
+}
+.onboard-step-dot.active { background: var(--gold); }
+.onboard-step-dot.done { background: var(--gold-soft); }
+.onboard-hero {
+  font-size: 32px; text-align: center; margin-bottom: 12px;
+}
+.onboard-title {
+  font-size: 15px; font-weight: 600; text-align: center;
+  margin-bottom: 8px; color: var(--text);
+}
+.onboard-body {
+  font-size: 12px; color: var(--text-dim);
+  text-align: center; line-height: 1.7; margin-bottom: 24px;
+}
+.onboard-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 8px;
+}
+.onboard-skip { font-size: 11px; color: var(--text-faint); cursor: pointer; }
+.onboard-skip:hover { color: var(--text-dim); }
+.kbd-hint {
+  font-size: 11px; color: var(--text-faint);
+  background: var(--bg-elev); border-radius: 4px;
+  padding: 2px 5px; display: inline-block; font-family: var(--mono);
+}
 </style>
 </head>
 <body>
@@ -1597,7 +1632,7 @@ button.ai-btn:hover {
   <!-- ============ HEADER ============ -->
   <header class="header stagger">
     <div class="brand">
-      <span class="brand-name">人间不延迟</span>
+      <span class="brand-name">内容工作台</span>
       <span class="brand-mark">✦</span>
       <span class="brand-tag">Studio</span>
     </div>
@@ -1748,6 +1783,7 @@ button.ai-btn:hover {
         <button class="ghost hidden" id="edUndo" title="撤销上次 Skill 替换">↩ 撤销</button>
         <button class="ghost" id="edClear">清空</button>
         <button class="ghost" id="edCopy">复制</button>
+        <button class="ghost" id="edCheck" title="检查内容是否符合平台规范">✓ 检查</button>
         <button id="edSave">存为草稿</button>
         <button class="ai-btn" id="edSkill">Skill 写</button>
         <button class="ai-btn" id="edPolish">改写</button>
@@ -1908,7 +1944,7 @@ button.ai-btn:hover {
       </div>
       <div class="field-group">
         <div class="field-label">个人介绍（AI 写东西时会读）</div>
-        <textarea id="setProfile" rows="4" placeholder="例：19 岁文科生，主线人间不延迟 IP，写给同样在用 AI 学习的普通人。语气真诚、反鸡汤、有具体动作。"></textarea>
+        <textarea id="setProfile" rows="4" placeholder="例：25 岁产品经理，主做职场成长内容，目标读者是刚毕业的大学生。语气直接有判断，不废话，给具体方法。"></textarea>
         <div class="desc">写得越具体，AI 越像你。</div>
       </div>
       <div class="field-group">
@@ -1922,14 +1958,14 @@ button.ai-btn:hover {
         <div class="desc">这句话会一直显示在编辑器上方，提醒你不要用「准备」逃避「开始」。</div>
       </div>
       <div class="field-group">
-        <div class="field-label">数据备份</div>
+        <div class="field-label">数据备份 <span style="font-size:10px;color:var(--red);font-weight:400;">⚠ 换浏览器/清缓存前必须先导出</span></div>
         <div style="display:flex; gap:8px;">
-          <button class="ghost" id="setExport" style="flex:1;">导出 JSON</button>
-          <button class="ghost" id="setImport" style="flex:1;">导入 JSON</button>
+          <button class="ghost" id="setExport" style="flex:1;">⬇ 导出 JSON</button>
+          <button class="ghost" id="setImport" style="flex:1;">⬆ 导入 JSON</button>
           <button class="ghost danger" id="setReset">重置全部</button>
         </div>
         <input type="file" id="setImportFile" accept="application/json,.json" style="display:none;">
-        <div class="desc">所有数据存在浏览器 localStorage 里。换电脑 / 清浏览器前先导出。</div>
+        <div class="desc">所有数据仅存在本机浏览器里。换电脑、换浏览器、清缓存前必须先导出。导入的 JSON 必须是本工具导出的格式。</div>
       </div>
     </div>
     <div class="modal-footer">
@@ -1981,6 +2017,69 @@ button.ai-btn:hover {
   </div>
 </div>
 
+<!-- ============ ONBOARDING MODAL ============ -->
+<div class="modal-backdrop onboard-modal" id="onboardModal">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="num">✦</span>
+      <span class="modal-title">欢迎使用内容工作台</span>
+    </div>
+    <div class="modal-body">
+      <div class="onboard-steps">
+        <div class="onboard-step-dot active" id="obDot0"></div>
+        <div class="onboard-step-dot" id="obDot1"></div>
+        <div class="onboard-step-dot" id="obDot2"></div>
+      </div>
+
+      <!-- Step 0 -->
+      <div id="obStep0">
+        <div class="onboard-hero">✍</div>
+        <div class="onboard-title">一个让你真正写出东西的工具</div>
+        <div class="onboard-body">
+          收件箱收想法 → 选题池管优先级 → 编辑器写初稿 → AI Boost 一稿多平台。<br>
+          所有数据存在你自己的浏览器里，不上传，不需要注册。<br><br>
+          <strong>开始只需要一个 DeepSeek API key。</strong>
+        </div>
+      </div>
+
+      <!-- Step 1 -->
+      <div id="obStep1" style="display:none;">
+        <div class="onboard-hero">🔑</div>
+        <div class="onboard-title">填入 DeepSeek API Key</div>
+        <div class="onboard-body">
+          在 <strong>platform.deepseek.com</strong> 注册并创建 key（新用户有免费额度）。<br>
+          Key 只存在本机浏览器，不会上传到任何服务器。
+        </div>
+        <div class="field-group">
+          <input type="password" id="obKey" placeholder="sk-..." style="width:100%;">
+          <div class="desc" style="margin-top:4px;">可以先跳过，之后在设置里填。</div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div id="obStep2" style="display:none;">
+        <div class="onboard-hero">👤</div>
+        <div class="onboard-title">告诉 AI 你是谁（可选）</div>
+        <div class="onboard-body">
+          一段关于你和你内容方向的介绍，AI 写东西时会参考。<br>
+          写得越具体，AI 越像你。
+        </div>
+        <div class="field-group">
+          <textarea id="obProfile" rows="3" placeholder="例：25 岁产品经理，写职场成长内容，目标读者是应届生。语气直接，不废话，给具体方法。" style="width:100%;"></textarea>
+        </div>
+        <div style="margin-top:12px; padding:10px 12px; background:var(--bg-elev); border-radius:6px; font-size:11px; color:var(--text-dim);">
+          <strong>快捷键</strong>：<span class="kbd-hint">⌘S</span> 保存草稿 &nbsp; <span class="kbd-hint">⌘N</span> 新建想法 &nbsp; <span class="kbd-hint">Esc</span> 停止 AI / 关闭弹窗
+        </div>
+      </div>
+
+      <div class="onboard-nav">
+        <span class="onboard-skip" id="obSkip">跳过，直接开始</span>
+        <button class="primary" id="obNext">下一步 →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ============ TOASTS ============ -->
 <div class="toast-container" id="toastContainer"></div>
 
@@ -1990,58 +2089,45 @@ button.ai-btn:hover {
 // ============================================================
 //   CONSTANTS
 // ============================================================
-const STORAGE_KEY = 'rjbyy_data';
+const STORAGE_KEY = 'workbench_v1';
 const PLATFORMS = ['公众号', '小红书', '知乎', '微博', '抖音', 'B站'];
 const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
 const JINA_URL = 'https://r.jina.ai/';
 
 const SKILLS = [
   {
-    id: 'wuyue',
-    name: '吴越 · 人间不延迟',
-    icon: '人',
-    desc: '面向文科生/普通人。反焦虑、反工具幻觉，给具体行动。主阵地：小红书/公众号。',
-    tags: ['人间不延迟', 'AI行动方法', '文科生'],
-    system: `你是「人间不延迟」账号的写作搭档。主理人：吴越，法学专业大二学生，文科生。
+    id: 'action',
+    name: '清醒写作法',
+    icon: '✍',
+    desc: '戳破幻觉，逼近真实行动。给具体动作，不给鸡汤。文章有判断、有场景、有人味。',
+    tags: ['清醒写作', '行动方法', '反焦虑'],
+    system: `你是创作者的写作搭档。核心信念：好内容=真实判断+具体场景+一个可行动作。
 
-【账号定位】
-写给普通文科生和普通大学生的 AI 时代清醒指南。核心是：戳破 AI 幻觉，逼近真实行动。
-
-【目标读者】
-文科生、普通大学生（18-25 岁）、想用 AI 但不知道怎么开始、被 AI 焦虑裹挟、收藏了很多工具但没有真实产出的人。他们不是缺工具，而是缺判断。
-
-【内容方向】
-① AI 时代焦虑拆解 ② 文科生如何使用 AI ③ AI 工具幻觉 ④ 国外 AI 热点中文化解释 ⑤ 普通人如何用 AI 形成作品 ⑥ AI 与个人成长 ⑦ 人和机器之间的关系
+【写作原则】
+内容必须有立场，不能两边讨好。
+每一段都有信息量，不说废话不铺垫。
+结尾给读者一个今天就能做的动作，而不是一句感叹。
 
 【文章母结构】
-1. 标题：一句话戳破幻觉
-2. 开头：指出一个常见 AI 错觉（必须具体场景，禁用"在这个时代"）
-3. 现实：为什么很多人会被它骗
-4. 拆解：真正的问题是什么
-5. 转折：普通人该怎么重新理解
-6. 方法：给一个可执行动作
-7. 结尾：一句清醒但有力量的话
+1. 标题：一句话点出判断或反常识
+2. 开头：一个具体场景或冲突，禁用"在这个时代""我们正在见证"
+3. 现实：为什么这件事被大多数人误解
+4. 拆解：真正的问题在哪里
+5. 转折：重新理解之后，该怎么想
+6. 方法：给一个可执行的具体动作
+7. 结尾：一句清醒但有力量的话，不煽情
 
 【调性】
-温和真诚，有点哲学感，不说教。有具体场景和细节，不空泛。带希望，不贩卖焦虑。像一个稍微想清楚了一点的朋友在说话，不像博主在表演。文字有质感，不用烂大街的互联网黑话。
-
-【代表句式】（可直接使用或延伸）
-- 你不是被 AI 淘汰，你是被自己的幻觉拖住了。
-- 真正危险的不是不会用 AI，而是误以为自己已经在进步。
-- 工具不会自动改变你，作品才会。
-- 普通人面对 AI，最重要的不是追热点，而是留下完成物。
-- 只要你学得够慢，就不用学了——因为迟早会有更新的东西出现。
+真诚，有点哲学感，不说教。有细节，不空泛。像一个想清楚了一点的朋友在说话，不是博主在表演。
 
 【禁止事项】
 - 不写空洞鸡汤
-- 不装懂技术
 - 不贩卖焦虑
-- 不用堆工具清单冒充深度
-- 不写"人人都能逆袭"的廉价爽文
-- 不直接搬运别人的内容
-- 不写"我们正在见证""值得深思""不得不说"这类废话`,
+- 不用"值得深思""不得不说""我们正在见证"
+- 不写"人人都能逆袭"的爽文
+- 不堆工具清单冒充深度`,
     short: '写一条 100-280 字的短文，单一犀利观点，无废话开场，结尾一个可执行动作。',
-    long: '写一篇 800-1500 字的公众号/小红书长文初稿，按文章母结构七步走，写出完整初稿。',
+    long: '写一篇 800-1500 字的长文初稿，按七步结构走，写出完整初稿。',
     script: '写一段 60-90 秒口播脚本，前 3 秒必须给钩子，中间 2-3 个节拍，结尾一个具体动作。'
   },
   {
@@ -2125,12 +2211,12 @@ const SKILLS = [
     icon: '⟳',
     desc: '先判断选题归谁写，再切换语气。不确定就问。',
     tags: ['自动', '路由'],
-    system: `你是「人间不延迟」内容路由助手。
+    system: `你是内容风格路由助手。
 
 收到选题后，先用一句话判断该用哪种风格写：
-- AI 工具 / 行动方法 / 普通人视角 / 文科生故事 → 吴越（人间不延迟）
-- AI / 产品 / 科技深度 / 商业逻辑 → 卡兹克
-- 人文 / 反思 / 个人成长 / 情绪内观 → 树林（五轮提问法）
+- 实用 / 行动 / 工具 / 普通人视角 → 清醒写作法（直接、有判断、给动作）
+- 深度 / 分析 / 产品 / 商业逻辑 → 深度解析风（结构化论证、信息密度高）
+- 人文 / 反思 / 成长 / 情绪内观 → 树林五轮法（从追问出发，让读者自己悟）
 
 然后直接以那种风格写出初稿。开头先用一行写「→ 选了：XX 风格，原因：YY」。再写正文。
 
@@ -2173,7 +2259,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-1',
     name: '标题公式：你不是……你是在……',
     platform: '通用标题',
-    account: '人间不延迟',
+    account: '',
     hook: '用对比揭穿自欺欺人',
     logic: ['指出表面上在做的事', '点出真实状态/动机', '让读者产生"说的就是我"的刺痛感'],
     template: '你不是在______，你是在______。'
@@ -2182,7 +2268,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-2',
     name: '标题公式：很多人以为……其实……',
     platform: '通用标题',
-    account: '人间不延迟',
+    account: '',
     hook: '反常识，挑战默认认知',
     logic: ['说出大多数人持有的误判', '给出反常识的真相', '让读者想知道为什么'],
     template: '很多人以为______，其实______。'
@@ -2191,7 +2277,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-3',
     name: '标题公式：最大的问题不是……而是……',
     platform: '通用标题',
-    account: '人间不延迟',
+    account: '',
     hook: '转移焦点，指向更深层问题',
     logic: ['说出大家以为的问题', '转向真正的问题', '制造认知落差'],
     template: '最大的问题不是______，而是______。'
@@ -2200,7 +2286,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-4',
     name: '标题公式：别再……了，真正重要的是……',
     platform: '通用标题',
-    account: '人间不延迟',
+    account: '',
     hook: '否定常见做法，给出替代方向',
     logic: ['否定一个流行但无效的行为', '指出真正有价值的方向', '让读者有行动冲动'],
     template: '别再______了，真正重要的是______。'
@@ -2209,7 +2295,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-5',
     name: '标题公式：……不是努力，是自我感动',
     platform: '通用标题',
-    account: '人间不延迟',
+    account: '',
     hook: '直接戳痛点，制造认知冲击',
     logic: ['指出一个看起来努力实际上没效果的行为', '用"自我感动"揭示本质', '让读者有被看穿的感觉'],
     template: '______不是努力，是自我感动。'
@@ -2218,7 +2304,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-s1',
     name: '反直觉翻转',
     platform: '通用',
-    account: '人间不延迟',
+    account: '',
     hook: '开头说一个大家觉得对的事，然后翻转',
     logic: ['抛出一个被默认为对的结论', '说「但其实」并给出反例', '提出一个新的判断框架'],
     template: '【大家都说】______，听起来很对。\n\n但其实，______。\n\n真正的判断方式是：______。'
@@ -2227,7 +2313,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-s2',
     name: '我经历了 X，发现 Y',
     platform: '通用',
-    account: '人间不延迟',
+    account: '',
     hook: '从一个真实的个人经历切入，抽出规律',
     logic: ['描述一个具体场景或事件', '抽象出一条规律或心得', '给读者一个可以马上做的动作'],
     template: '前几天我______。\n\n这件事让我意识到：______。\n\n如果你也在 ______ 的状态里，可以试试 ______。'
@@ -2236,7 +2322,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-s3',
     name: '幻觉拆解 · 七步结构',
     platform: '公众号 / 小红书',
-    account: '人间不延迟',
+    account: '',
     hook: '指出一个常见 AI 错觉，逐步拆到根',
     logic: ['标题：一句话戳破幻觉', '开头：指出一个常见 AI 错觉', '现实：为什么很多人会被它骗', '拆解：真正的问题是什么', '转折：普通人该怎么重新理解', '方法：给一个可执行动作', '结尾：一句清醒但有力量的话'],
     template: '【标题】______（戳破幻觉）\n\n【开头】很多人______（具体错觉场景）\n\n【现实】这件事骗人，因为______\n\n【拆解】真正的问题是______\n\n【转折】如果重新理解，应该______\n\n【方法】今天就可以做的一件事：______\n\n【结尾】______（一句有力量但不鸡汤的话）'
@@ -2327,18 +2413,20 @@ function escapeHtml(s) {
 // ============================================================
 //   TOAST
 // ============================================================
-function toast(msg, type) {
+function toast(msg, type, duration) {
   const c = document.getElementById('toastContainer');
   const el = document.createElement('div');
   el.className = 'toast' + (type ? ' ' + type : '');
+  el.style.whiteSpace = 'pre-wrap';
   el.textContent = msg;
   c.appendChild(el);
+  const delay = duration || (type === 'error' ? 4200 : 2400);
   setTimeout(() => {
     el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
     el.style.opacity = '0';
     el.style.transform = 'translateY(8px)';
     setTimeout(() => el.remove(), 400);
-  }, type === 'error' ? 4200 : 2400);
+  }, delay);
 }
 
 // ============================================================
@@ -2653,6 +2741,7 @@ function renderDrafts() {
         </div>
         <div class="draft-actions">
           <button class="ghost" data-load="${d.id}" title="回到编辑器">↻</button>
+          <button class="ghost" data-dmd="${d.id}" title="下载 .md 文件">↓</button>
           <button class="ghost danger" data-ddel="${d.id}" title="删除">×</button>
         </div>
       </div>
@@ -2811,7 +2900,7 @@ function buildBoostMessages(content, platform, srcType) {
    - 第一段：一句话核心结论（读者不往下看也能得到信息）
    - 展开：每段 ≤3 行，单句单独成段，共 4-6 段
    - 结尾：引导评论的开放问题，格式「你有没有……」或「你觉得……」
-③ 末尾话题标签：5-8 个，格式 #AI学习 #文科生 #人间不延迟 等
+③ 末尾话题标签：5-8 个，格式 #AI学习 #干货分享 等（贴合内容主题）
 ④ 禁止：大段落连续文字、书面语长句、"总结一下"等过渡`,
 
     '知乎': `改写为知乎回答/专栏文章。
@@ -2866,7 +2955,7 @@ function buildBoostMessages(content, platform, srcType) {
 
 要求：每段台词口语化，章节感清晰，观众从任何时间点跳进来都能理解`
   };
-  const sys = ['你是「人间不延迟」的多平台内容改写专家。任务：把同一段内容改写成对应平台的版本，保留核心观点和真诚感，严格按平台结构约束执行，而不仅仅是调整语气。', buildSystemPreamble()].filter(Boolean).join('\n\n');
+  const sys = ['你是多平台内容改写专家。任务：把同一段内容改写成对应平台的版本，保留核心观点和真诚感，严格按平台结构约束执行，而不仅仅是调整语气。', buildSystemPreamble()].filter(Boolean).join('\n\n');
   const guide = platformGuide[platform] || ('改写成' + platform + '平台适合的风格。');
   const user = guide + '\n\n原内容：\n"""\n' + content + '\n"""\n\n直接给出改写后的全文，不要解释。';
   return [{ role: 'system', content: sys }, { role: 'user', content: user }];
@@ -3050,7 +3139,7 @@ async function fetchUrlToInbox(url) {
 //   CHAT
 // ============================================================
 function buildChatMessages(userText) {
-  const sys = ['你是「人间不延迟」的写作搭档。回答要简洁、具体、有判断。遇到 @ 引用，把它当作上下文，但不要复述。', buildSystemPreamble()].filter(Boolean).join('\n\n');
+  const sys = ['你是创作者的写作搭档。回答要简洁、具体、有判断。遇到 @ 引用，把它当作上下文，但不要复述。', buildSystemPreamble()].filter(Boolean).join('\n\n');
   const messages = [{ role: 'system', content: sys }];
   // attach context from refs
   let contextChunk = '';
@@ -3209,7 +3298,7 @@ function wireEvents() {
     const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = '人间不延迟-备份-' + getToday() + '.json';
+    a.download = '内容工作台-备份-' + getToday() + '.json';
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     toast('已导出', 'success');
@@ -3543,6 +3632,7 @@ function wireEvents() {
   });
   document.getElementById('edSave').addEventListener('click', () => persistDraft(false));
   document.getElementById('edQueue').addEventListener('click', () => persistDraft(true));
+  document.getElementById('edCheck').addEventListener('click', () => checkPlatformRules());
 
   // editor AI buttons
   document.getElementById('edSkill').addEventListener('click', () => openSkillPicker());
@@ -3728,6 +3818,20 @@ function wireEvents() {
       toast('已回到编辑器');
       return;
     }
+    const dmd = e.target.closest('[data-dmd]');
+    if (dmd) {
+      const d = state.drafts.find(x => x.id === dmd.dataset.dmd);
+      if (!d) return;
+      const frontmatter = '---\ntitle: ' + (d.title || '(未命名)') + '\ntype: ' + (d.type || 'short') + '\ncreated: ' + (d.created_at || '') + '\n---\n\n';
+      const blob = new Blob([frontmatter + (d.content || '')], { type: 'text/markdown;charset=utf-8' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = (d.title || 'draft').slice(0, 40).replace(/[\\/:*?"<>|]/g, '_') + '.md';
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+      toast('已下载 .md');
+      return;
+    }
     const ddel = e.target.closest('[data-ddel]');
     if (ddel) {
       const id = ddel.dataset.ddel;
@@ -3808,6 +3912,18 @@ function wireEvents() {
 
   // ESC closes any open thing — and aborts active AI stream first
   document.addEventListener('keydown', e => {
+    // Cmd+S / Ctrl+S → save draft
+    if ((e.metaKey || e.ctrlKey) && e.key === 's') {
+      e.preventDefault();
+      persistDraft(true);
+      return;
+    }
+    // Cmd+N / Ctrl+N → open new inbox item
+    if ((e.metaKey || e.ctrlKey) && e.key === 'n') {
+      e.preventDefault();
+      document.getElementById('btnAddInbox').click();
+      return;
+    }
     if (e.key === 'Escape') {
       if (activeStream) {
         abortStream();
@@ -3911,20 +4027,141 @@ function openSkillPicker(extras) {
 }
 
 // ============================================================
+//   PLATFORM RULE CHECKER
+// ============================================================
+const PLATFORM_RULES = {
+  '微博':   { maxChars: 140, name: '微博' },
+  '小红书': { maxChars: 1000, minChars: 100, minTags: 3, name: '小红书' },
+  '公众号': { maxChars: 50000, minChars: 300, name: '公众号' },
+  '知乎':   { maxChars: 10000, minChars: 300, name: '知乎' },
+  '抖音':   { maxChars: 1000, name: '抖音脚本' },
+  'B站':    { maxChars: 2000, name: 'B站脚本' }
+};
+const SPAM_WORDS = ['不得不说', '值得深思', '我们正在见证', '在这个时代', '令人深思', '引人深思', '总的来说', '综上所述', '好了', '总结一下'];
+
+function checkPlatformRules() {
+  const text = document.getElementById('edText').value;
+  if (!text.trim()) { toast('编辑区是空的', 'error'); return; }
+  const len = text.length;
+  const lines = text.split('\n');
+  const issues = [];
+  const passes = [];
+
+  // detect which platform (from draft platforms or guess)
+  const title = document.getElementById('edTitle').value;
+
+  // spam words check
+  const found = SPAM_WORDS.filter(w => text.includes(w));
+  if (found.length) {
+    issues.push('发现废话词：' + found.map(w => '「' + w + '」').join(' '));
+  } else {
+    passes.push('无废话词 ✓');
+  }
+
+  // long sentence check
+  const sentences = text.split(/[。！？.!?]/);
+  const longSentences = sentences.filter(s => s.trim().length > 60);
+  if (longSentences.length > 0) {
+    issues.push('有 ' + longSentences.length + ' 个句子超过 60 字，建议拆短');
+  } else {
+    passes.push('句子长度正常 ✓');
+  }
+
+  // platform specific
+  let platformChecks = '';
+  Object.entries(PLATFORM_RULES).forEach(([p, r]) => {
+    if (len > r.maxChars) {
+      platformChecks += `\n• ${r.name}：超出字数限制（${len}/${r.maxChars}）`;
+    }
+    if (r.minChars && len < r.minChars) {
+      platformChecks += `\n• ${r.name}：字数偏少（${len}，建议 ${r.minChars}+ 字）`;
+    }
+  });
+
+  // hashtag count
+  const tagCount = (text.match(/#[^\s#]+/g) || []).length;
+
+  // build result toast
+  const issueText = issues.length ? '⚠ ' + issues.join('\n⚠ ') : '';
+  const passText = passes.join(' · ');
+  const lines2 = [
+    '字数：' + len,
+    tagCount ? '话题标签：' + tagCount + ' 个' : '',
+    passText,
+    issueText,
+    platformChecks ? '平台适配：' + platformChecks : ''
+  ].filter(Boolean).join('\n');
+
+  // show in a toast-like panel
+  const type = issues.length ? 'error' : 'success';
+  toast(lines2, type, 6000);
+}
+
+// ============================================================
+//   ONBOARDING
+// ============================================================
+let obStep = 0;
+function obGo(step) {
+  [0,1,2].forEach(i => {
+    const el = document.getElementById('obStep' + i);
+    if (el) el.style.display = i === step ? '' : 'none';
+    const dot = document.getElementById('obDot' + i);
+    if (dot) {
+      dot.classList.remove('active', 'done');
+      if (i < step) dot.classList.add('done');
+      else if (i === step) dot.classList.add('active');
+    }
+  });
+  const btn = document.getElementById('obNext');
+  if (btn) btn.textContent = step < 2 ? '下一步 →' : '开始使用 ✦';
+  obStep = step;
+}
+function obFinish() {
+  const key = (document.getElementById('obKey').value || '').trim();
+  const profile = (document.getElementById('obProfile').value || '').trim();
+  if (key) state.settings.deepseek_key = key;
+  if (profile) state.settings.profile = profile;
+  state.settings._onboarded = true;
+  saveDataNow();
+  document.getElementById('onboardModal').classList.remove('open');
+  if (state.settings.deepseek_key) {
+    toast('✓ 已就绪，开始写吧', 'success');
+  } else {
+    setTimeout(() => toast('点右上角 ⚙ 填 DeepSeek key，AI 功能才能启用'), 400);
+  }
+}
+function wireOnboarding() {
+  document.getElementById('obNext').addEventListener('click', () => {
+    if (obStep < 2) obGo(obStep + 1);
+    else obFinish();
+  });
+  document.getElementById('obSkip').addEventListener('click', () => {
+    state.settings._onboarded = true;
+    saveDataNow();
+    document.getElementById('onboardModal').classList.remove('open');
+    if (!state.settings.deepseek_key) {
+      setTimeout(() => toast('点右上角 ⚙ 填 DeepSeek key，AI 功能才能启用'), 400);
+    }
+  });
+}
+
+// ============================================================
 //   INIT
 // ============================================================
 loadData();
 renderAll();
 wireEvents();
+wireOnboarding();
 if (state.ui.drawer_open) {
   document.getElementById('drawer').classList.add('open');
   document.getElementById('drawerToggleLabel').textContent = '收起';
 }
-// First-run: open settings if no key
-if (!state.settings.deepseek_key) {
+// First-run onboarding
+if (!state.settings._onboarded) {
   setTimeout(() => {
-    toast('点右上角 ⚙ 填 DeepSeek key，AI 功能才能启用');
-  }, 800);
+    obGo(0);
+    document.getElementById('onboardModal').classList.add('open');
+  }, 300);
 }
 </script>
 </body>
