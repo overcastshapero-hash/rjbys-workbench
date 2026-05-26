@@ -26,9 +26,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.AIHOT_TOKEN }}
         run: |
-          # Get current file SHA (needed for update)
-          SHA=$(gh api repos/${{ github.repository }}/contents/aihot-feed.json \
-            --jq '.sha' 2>/dev/null || echo "")
+          # Get current file SHA from public branch (needed for update)
+          SHA=$(gh api "repos/${{ github.repository }}/contents/aihot-feed.json?ref=public" \
+            --jq '.sha // empty' 2>/dev/null || true)
 
           CONTENT=$(base64 -w 0 aihot-feed.json)
           TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
