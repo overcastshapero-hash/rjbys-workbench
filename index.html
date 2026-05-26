@@ -1590,6 +1590,231 @@ button.ai-btn:hover {
 .diff-opt:hover { background: var(--gold-dim); border-color: var(--gold-dim); }
 .diff-opt-icon { font-size: 14px; width: 20px; text-align: center; }
 
+/* ============ Phase 2: Feedback Layer ============ */
+
+.draft-feedback-row {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  gap: 8px;
+}
+
+.draft-status-area { display: flex; align-items: center; gap: 6px; }
+
+.draft-status-badge {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+.status-drafting { background: rgba(28,23,16,0.07); color: var(--text-dim); }
+.status-ready    { background: rgba(56,100,40,0.12); color: var(--g-pub); }
+.status-published{ background: rgba(43,95,128,0.13); color: var(--b-active); }
+
+.draft-platform-icons { font-size: 12px; letter-spacing: 1px; opacity: 0.75; }
+
+.draft-perf-area { display: flex; align-items: center; gap: 2px; }
+
+.perf-btn {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 1px 5px;
+  cursor: pointer;
+  font-size: 13px;
+  opacity: 0.3;
+  transition: all 0.15s;
+  line-height: 1.6;
+}
+.perf-btn:hover { opacity: 0.65; background: var(--paper); }
+.perf-btn.active         { opacity: 1; border-color: var(--gold); background: var(--gold-dim); }
+.perf-btn.active.fire    { border-color: #c96a30; background: rgba(201,106,48,0.10); }
+.perf-btn.active.ok      { border-color: #5a7a3a; background: rgba(90,122,58,0.10); }
+.perf-btn.active.cold    { border-color: #4a6a9a; background: rgba(74,106,154,0.10); }
+
+.perf-note-input {
+  display: none;
+  width: 88px;
+  font-size: 11px;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg-warm);
+  color: var(--text-dim);
+  margin-left: 4px;
+  font-family: var(--mono);
+}
+.perf-note-input.visible { display: inline-block; }
+
+.perf-summary {
+  background: var(--bg-elev);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 0 16px 10px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.perf-summary h4 {
+  font-size: 12px; font-weight: 600; color: var(--text);
+  margin: 0 0 8px 0; font-family: var(--mono);
+}
+.perf-summary-grid {
+  display: flex; gap: 14px; flex-wrap: wrap;
+}
+.perf-summary-stat { display: flex; align-items: center; gap: 3px; font-size: 12px; }
+.perf-summary-stat .pnum { font-weight: 700; color: var(--text); font-size: 14px; }
+.perf-top3 { margin-top: 8px; font-size: 11px; line-height: 1.7; color: var(--text-dim); }
+
+.platform-select-popup {
+  position: fixed;
+  background: var(--bg);
+  border: 1px solid var(--border-hi);
+  border-radius: 8px;
+  padding: 14px 16px;
+  box-shadow: 0 8px 28px var(--gray-drop);
+  z-index: 1500;
+  min-width: 200px;
+}
+.platform-select-popup h4 {
+  margin: 0 0 10px 0; font-size: 13px; color: var(--text);
+  font-family: var(--mono);
+}
+.platform-check-row {
+  display: flex; align-items: center;
+  gap: 8px; padding: 4px 0; cursor: pointer;
+  font-size: 12px; color: var(--text);
+}
+.platform-check-row input { accent-color: var(--gold); }
+.platform-confirm-btn {
+  margin-top: 12px; width: 100%;
+  padding: 6px; background: var(--gold); color: white;
+  border: none; border-radius: 5px;
+  cursor: pointer; font-size: 12px; font-weight: 500;
+  font-family: var(--mono);
+}
+.platform-confirm-btn:hover { background: var(--gold-soft); }
+
+/* ============ Phase 3: Series + Calendar ============ */
+
+.series-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 9px;
+  font-size: 10.5px;
+  font-weight: 500;
+  margin-left: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.series-filter-bar {
+  display: flex; align-items: center;
+  gap: 6px; padding: 6px 16px 8px;
+  border-bottom: 1px dashed var(--border);
+}
+.series-filter-bar select {
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--bg-warm);
+  color: var(--text);
+  font-size: 11.5px;
+  font-family: var(--mono);
+}
+
+.series-mgmt-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+.series-mgmt-row:last-child { border-bottom: none; }
+.series-mgmt-row input[type="color"] { width: 28px; height: 24px; padding: 0; cursor: pointer; border: none; }
+.series-mgmt-row input[type="text"] {
+  padding: 3px 8px; border: 1px solid var(--border); border-radius: 4px;
+  font-size: 12px; background: var(--bg-warm); color: var(--text);
+}
+.series-mgmt-row .series-del { background: none; border: none; color: var(--red); cursor: pointer; font-size: 14px; padding: 0 3px; }
+
+.series-picker-popup { min-width: 180px; }
+
+/* Calendar */
+.calendar-nav {
+  display: flex; align-items: center;
+  justify-content: center; gap: 12px;
+  padding: 8px 0 10px;
+}
+.calendar-nav button {
+  background: none; border: 1px solid var(--border);
+  border-radius: 4px; padding: 3px 10px;
+  cursor: pointer; font-size: 13px; color: var(--text);
+}
+.calendar-nav button:hover { border-color: var(--gold); color: var(--gold); }
+.calendar-nav .month-label {
+  font-weight: 600; font-size: 13px;
+  min-width: 90px; text-align: center;
+  color: var(--text);
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px; padding: 0 8px 12px;
+}
+.calendar-day-header {
+  text-align: center; font-size: 10px;
+  color: var(--text-faint); padding: 4px 0;
+}
+.calendar-day {
+  min-height: 52px; border: 1px solid var(--border);
+  border-radius: 4px; padding: 3px 4px;
+  font-size: 10px; background: var(--bg-warm);
+}
+.calendar-day.today { border-color: var(--gold); background: var(--gold-dim); }
+.calendar-day.other-month { opacity: 0.35; }
+.calendar-day .day-num {
+  font-weight: 600; color: var(--text-dim);
+  margin-bottom: 2px; font-size: 10px;
+}
+.cal-draft {
+  background: var(--bg-elev);
+  border-radius: 3px; padding: 1px 4px;
+  margin: 1px 0; font-size: 9px;
+  cursor: pointer; white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis;
+  color: var(--text-dim);
+}
+.cal-draft:hover { background: var(--gold-dim); color: var(--gold); }
+
+.schedule-row {
+  display: flex; align-items: center;
+  gap: 8px; padding: 6px 0 4px;
+  font-size: 11.5px; color: var(--text-dim);
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.schedule-row input[type="date"] {
+  padding: 2px 7px; border: 1px solid var(--border);
+  border-radius: 4px; font-size: 11px;
+  background: var(--bg-warm); color: var(--text);
+  font-family: var(--mono);
+}
+.schedule-row .clear-sch {
+  background: none; border: none;
+  cursor: pointer; font-size: 11px;
+  color: var(--text-faint); padding: 0;
+}
+.schedule-row .clear-sch:hover { color: var(--red); }
+
 /* ============ Onboarding ============ */
 .onboard-modal .modal { max-width: 520px; }
 .onboard-steps {
@@ -1775,6 +2000,11 @@ button.ai-btn:hover {
           <button class="ghost editor-ref-clear hidden" id="edRefClear" title="清除参考">×</button>
           <div class="ref-pop" id="refPop"></div>
         </div>
+        <div class="schedule-row" id="scheduleRow">
+          <span>📅 计划发布</span>
+          <input type="date" id="scheduleDateInput">
+          <button class="clear-sch" id="clearScheduleBtn">清除</button>
+        </div>
         <textarea class="editor-textarea" id="edText" placeholder="此刻在想的——写下来。"></textarea>
       </div>
 
@@ -1880,6 +2110,10 @@ button.ai-btn:hover {
         <span>AI 对话</span>
         <span class="count" id="chatCount">0</span>
       </button>
+      <button class="drawer-tab-btn" data-dtab="calendar">
+        <span class="label-num">VI —</span>
+        <span>日历</span>
+      </button>
       <div class="drawer-spacer"></div>
       <button class="drawer-toggle" id="drawerToggle">
         <span id="drawerToggleLabel">展开</span>
@@ -1890,11 +2124,23 @@ button.ai-btn:hover {
     <div class="drawer-body">
       <!-- Drafts panel -->
       <div class="drawer-panel active" id="dpDrafts">
+        <div id="perfSummaryPanel" class="perf-summary hidden"></div>
+        <div class="series-filter-bar" id="seriesFilterBar">
+          <select id="seriesFilterSelect">
+            <option value="">📚 全部系列</option>
+          </select>
+        </div>
         <div class="drawer-controls">
-          <span class="hint">勾选目标平台 · 发布后点击「✓」标记已发</span>
+          <span class="hint">点状态徽章切换 · 发布后标记效果</span>
           <button class="ghost" id="markAllPub">全部标记已发</button>
         </div>
         <div class="drafts-content" id="draftsList"></div>
+      </div>
+
+      <!-- Calendar panel -->
+      <div class="drawer-panel" id="dpCalendar">
+        <div class="calendar-nav" id="calNav"></div>
+        <div class="calendar-grid" id="calGrid"></div>
       </div>
 
       <!-- Chat panel -->
@@ -1956,6 +2202,12 @@ button.ai-btn:hover {
         <div class="field-label">核心主张（编辑器常驻）</div>
         <input type="text" id="setCoreThesis" placeholder="别用「准备」逃避「开始」。写完就发。">
         <div class="desc">这句话会一直显示在编辑器上方，提醒你不要用「准备」逃避「开始」。</div>
+      </div>
+      <div class="field-group">
+        <div class="field-label">系列管理</div>
+        <div id="seriesMgmtList"></div>
+        <button id="addSeriesBtn" style="margin-top:8px;padding:4px 12px;border:1px dashed var(--border-hi);border-radius:5px;background:none;cursor:pointer;font-size:11.5px;color:var(--text-dim);font-family:var(--mono);">+ 新建系列</button>
+        <div class="desc">系列用来归类草稿，便于批量回顾。</div>
       </div>
       <div class="field-group">
         <div class="field-label">数据备份 <span style="font-size:10px;color:var(--red);font-weight:400;">⚠ 换浏览器/清缓存前必须先导出</span></div>
@@ -2345,6 +2597,9 @@ let editorSnapshot = null;        // snapshot before last Skill replace
 let editorRefId = null;           // inbox item id linked as reference
 let currentTopicId = null;        // topic currently loaded in editor
 let diffPopPending = null;        // { inboxId } waiting for difficulty pick
+let currentLoadedDraftId = null;  // draft currently in editor (for schedule date)
+let calendarMonth = new Date().getMonth();
+let calendarYear  = new Date().getFullYear();
 
 function loadData() {
   let raw = null;
@@ -2363,7 +2618,18 @@ function loadData() {
   state.voice = state.voice || { samples: [], distilled: '' };
   state.chats = state.chats || { messages: [] };
   state.topics = Array.isArray(state.topics) ? state.topics : [];
+  state.series = Array.isArray(state.series) ? state.series : [];
   state.settings.core_thesis = state.settings.core_thesis || '别用「准备」逃避「开始」。写完就发。';
+  // migrate drafts: add Phase 2+3 fields
+  state.drafts.forEach(d => {
+    if (!d.publish_status) d.publish_status = 'drafting';
+    if (!d.published_platforms) d.published_platforms = [];
+    if (d.published_at === undefined) d.published_at = null;
+    if (d.performance === undefined) d.performance = null;
+    if (!d.performance_note) d.performance_note = '';
+    if (!d.scheduled_date) d.scheduled_date = null;
+    if (!d.series) d.series = null;
+  });
 
   // resets
   const today = getToday();
@@ -2521,6 +2787,8 @@ function renderAll() {
   renderVoice();
   renderSkills();
   renderDrafts();
+  renderPerfSummary();
+  renderSeriesFilter();
   renderChat();
   renderEditorMeta();
   renderEditorRef();
@@ -2712,22 +2980,44 @@ function renderSkills() {
 }
 
 // ----- DRAFTS -----
-function renderDrafts() {
+function renderDrafts(draftsToRender) {
   const list = document.getElementById('draftsList');
+  const drafts = draftsToRender || state.drafts;
   document.getElementById('draftCount').textContent = String(state.drafts.length).padStart(2,'0');
-  if (!state.drafts.length) {
+  if (!drafts.length) {
     list.innerHTML = '<div class="empty"><span class="ornament">❦</span>还没有草稿。<br>写完一篇，先放进来。</div>';
     return;
   }
-  list.innerHTML = state.drafts.map(d => {
+  list.innerHTML = drafts.map(d => {
     const preview = (d.content||'').replace(/\s+/g,' ').slice(0,70);
     const typeLabel = { short:'短推', long:'长文', script:'脚本' }[d.type] || '短推';
     const refItem = d.reference_id ? state.inbox.find(x => x.id === d.reference_id) : null;
     const refBadge = refItem ? `<div class="draft-ref-tag">${escapeHtml(refItem.title.slice(0,30))}${refItem.title.length>30?'…':''}</div>` : '';
+    // Series badge
+    const seriesInfo = d.series ? state.series.find(s => s.id === d.series) : null;
+    const seriesBadge = seriesInfo
+      ? `<span class="series-tag" style="background:${seriesInfo.color}22;color:${seriesInfo.color};border:1px solid ${seriesInfo.color}44;" data-daction="change-series" data-did="${d.id}">${escapeHtml(seriesInfo.name)}</span>`
+      : `<span class="series-tag" style="border:1px dashed var(--border-hi);color:var(--text-faint);" data-daction="change-series" data-did="${d.id}">+ 系列</span>`;
+    // Status badge
+    const statusClass = d.publish_status === 'published' ? 'status-published' : d.publish_status === 'ready' ? 'status-ready' : 'status-drafting';
+    const statusLabel = d.publish_status === 'published' ? '已发布' : d.publish_status === 'ready' ? '待发布' : '写作中';
+    // Platform icons (shown when published)
+    const PLAT_ICON = { wechat:'💬', xiaohongshu:'📕', douyin:'🎵', bilibili:'📺', zhihu:'💡', weibo:'🐦' };
+    const platIcons = (d.publish_status === 'published' && d.published_platforms && d.published_platforms.length)
+      ? d.published_platforms.map(p => PLAT_ICON[p] || '').join('') : '';
+    // Perf buttons (only when published)
+    const perfSection = d.publish_status === 'published'
+      ? `<div class="draft-perf-area">
+          <button class="perf-btn fire${d.performance==='fire'?' active fire':''}" data-daction="perf" data-did="${d.id}" data-perf="fire" title="爆了">🔥</button>
+          <button class="perf-btn ok${d.performance==='ok'?' active ok':''}" data-daction="perf" data-did="${d.id}" data-perf="ok" title="还行">👍</button>
+          <button class="perf-btn cold${d.performance==='cold'?' active cold':''}" data-daction="perf" data-did="${d.id}" data-perf="cold" title="扑了">🥶</button>
+          <input class="perf-note-input${d.performance_note?' visible':''}" data-daction="perf-note" data-did="${d.id}" placeholder="备注" value="${escapeHtml(d.performance_note||'')}">
+        </div>`
+      : `<div class="draft-perf-area"></div>`;
     return `
       <div class="draft-row" data-id="${d.id}">
         <div class="draft-info">
-          <div class="draft-title"><span class="draft-type-tag">${typeLabel}</span>${escapeHtml(d.title||'(未命名)')}</div>
+          <div class="draft-title"><span class="draft-type-tag">${typeLabel}</span>${escapeHtml(d.title||'(未命名)')}${seriesBadge}</div>
           <div class="draft-preview">${escapeHtml(preview)}${preview.length>=70?'…':''}</div>
           ${refBadge}
         </div>
@@ -2743,6 +3033,13 @@ function renderDrafts() {
           <button class="ghost" data-load="${d.id}" title="回到编辑器">↻</button>
           <button class="ghost" data-dmd="${d.id}" title="下载 .md 文件">↓</button>
           <button class="ghost danger" data-ddel="${d.id}" title="删除">×</button>
+        </div>
+        <div class="draft-feedback-row">
+          <div class="draft-status-area">
+            <span class="draft-status-badge ${statusClass}" data-daction="cycle-status" data-did="${d.id}">${statusLabel}</span>
+            <span class="draft-platform-icons">${platIcons}</span>
+          </div>
+          ${perfSection}
         </div>
       </div>
     `;
@@ -3292,6 +3589,7 @@ function wireEvents() {
     document.getElementById('setProfile').value = state.settings.profile || '';
     document.getElementById('setTemp').value = state.settings.temperature != null ? String(state.settings.temperature) : '0.7';
     document.getElementById('setCoreThesis').value = state.settings.core_thesis || '';
+    renderSeriesMgmt();
     openModal('settingsModal');
   });
   document.getElementById('setExport').addEventListener('click', () => {
@@ -3791,6 +4089,54 @@ function wireEvents() {
 
   // drafts list
   document.getElementById('draftsList').addEventListener('click', e => {
+    // Phase 2+3 actions via data-daction
+    const da = e.target.closest('[data-daction]');
+    if (da) {
+      const action = da.dataset.daction;
+      const did = da.dataset.did;
+      const draft = state.drafts.find(x => x.id === did);
+      if (action === 'cycle-status' && draft) {
+        if (draft.publish_status === 'drafting') {
+          draft.publish_status = 'ready';
+          saveData(); renderDrafts(); renderPerfSummary();
+        } else if (draft.publish_status === 'ready') {
+          showPlatformSelector(draft);
+        } else {
+          draft.publish_status = 'drafting';
+          draft.published_platforms = [];
+          draft.published_at = null;
+          saveData(); renderDrafts(); renderPerfSummary();
+        }
+        return;
+      }
+      if (action === 'perf' && draft) {
+        const perf = da.dataset.perf;
+        draft.performance = draft.performance === perf ? null : perf;
+        // show perf-note input when a perf is set
+        saveData(); renderDrafts(); renderPerfSummary();
+        return;
+      }
+      if (action === 'change-series') {
+        showSeriesPicker(did);
+        return;
+      }
+      if (action === 'load-draft') {
+        const d = state.drafts.find(x => x.id === did);
+        if (d) {
+          document.getElementById('edTitle').value = d.title || '';
+          document.getElementById('edText').value = d.content || '';
+          setEditorType(d.type || 'short');
+          editorRefId = d.reference_id || null;
+          currentLoadedDraftId = d.id;
+          document.getElementById('scheduleDateInput').value = d.scheduled_date || '';
+          renderEditorRef(); renderEditorMeta();
+          document.getElementById('edText').focus();
+          toast('已回到编辑器');
+        }
+        return;
+      }
+    }
+
     const chip = e.target.closest('[data-pchip]');
     if (chip) {
       const [id, platform] = chip.dataset.pchip.split('|');
@@ -3812,6 +4158,8 @@ function wireEvents() {
       document.getElementById('edText').value = d.content || '';
       setEditorType(d.type || 'short');
       editorRefId = d.reference_id || null;
+      currentLoadedDraftId = d.id;
+      document.getElementById('scheduleDateInput').value = d.scheduled_date || '';
       renderEditorRef();
       renderEditorMeta();
       document.getElementById('edText').focus();
@@ -3910,6 +4258,93 @@ function wireEvents() {
     renderChat(); renderChatRefs(); saveDataNow();
   });
 
+  // perf-note save on blur (delegated)
+  document.addEventListener('blur', e => {
+    if (e.target.dataset.daction === 'perf-note') {
+      const did = e.target.dataset.did;
+      const draft = state.drafts.find(d => d.id === did);
+      if (draft) { draft.performance_note = e.target.value.trim(); saveData(); }
+    }
+  }, true);
+
+  // perf-note: toggle visibility when perf is set (re-render handles it, but show on focus)
+  document.addEventListener('focus', e => {
+    if (e.target.classList.contains('perf-note-input')) e.target.classList.add('visible');
+  }, true);
+
+  // series filter
+  document.getElementById('seriesFilterSelect').addEventListener('change', e => {
+    const val = e.target.value;
+    const filtered = val ? state.drafts.filter(d => d.series === val) : null;
+    renderDrafts(filtered);
+  });
+
+  // calendar grid delegate
+  document.getElementById('calGrid').addEventListener('click', e => {
+    const cd = e.target.closest('[data-daction="load-draft"]');
+    if (cd) {
+      const d = state.drafts.find(x => x.id === cd.dataset.did);
+      if (d) {
+        document.getElementById('edTitle').value = d.title || '';
+        document.getElementById('edText').value = d.content || '';
+        setEditorType(d.type || 'short');
+        editorRefId = d.reference_id || null;
+        currentLoadedDraftId = d.id;
+        document.getElementById('scheduleDateInput').value = d.scheduled_date || '';
+        renderEditorRef(); renderEditorMeta();
+        document.getElementById('edText').focus();
+        toast('已回到编辑器');
+      }
+    }
+  });
+
+  // drawer tab → render calendar on switch
+  document.querySelectorAll('.drawer-tab-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      if (b.dataset.dtab === 'calendar') renderCalendar();
+    });
+  });
+
+  // series mgmt
+  document.getElementById('seriesMgmtList').addEventListener('input', e => {
+    const id = e.target.dataset.smid;
+    const s = state.series.find(x => x.id === id);
+    if (!s) return;
+    if (e.target.classList.contains('sc-color')) s.color = e.target.value;
+    if (e.target.classList.contains('sc-name'))  s.name  = e.target.value;
+    if (e.target.classList.contains('sc-desc'))  s.description = e.target.value;
+    saveData();
+  });
+  document.getElementById('seriesMgmtList').addEventListener('click', e => {
+    if (e.target.classList.contains('series-del')) {
+      const id = e.target.dataset.smid;
+      state.series = state.series.filter(s => s.id !== id);
+      state.drafts.forEach(d => { if (d.series === id) d.series = null; });
+      state.topics.forEach(t => { if (t.series === id) t.series = null; });
+      saveData(); renderSeriesMgmt(); renderSeriesFilter(); renderDrafts();
+    }
+  });
+  document.getElementById('addSeriesBtn').addEventListener('click', () => {
+    const colors = ['#8c6010','#2b5f80','#386428','#7a3a6a','#a82618','#5a5a9a'];
+    const color = colors[state.series.length % colors.length];
+    state.series.push({ id: 's' + Date.now(), name: '新系列', color, description: '' });
+    saveData(); renderSeriesMgmt(); renderSeriesFilter();
+  });
+
+  // schedule date
+  document.getElementById('scheduleDateInput').addEventListener('change', e => {
+    if (!currentLoadedDraftId) return;
+    const d = state.drafts.find(x => x.id === currentLoadedDraftId);
+    if (d) { d.scheduled_date = e.target.value || null; saveData(); }
+  });
+  document.getElementById('clearScheduleBtn').addEventListener('click', () => {
+    document.getElementById('scheduleDateInput').value = '';
+    if (currentLoadedDraftId) {
+      const d = state.drafts.find(x => x.id === currentLoadedDraftId);
+      if (d) { d.scheduled_date = null; saveData(); }
+    }
+  });
+
   // ESC closes any open thing — and aborts active AI stream first
   document.addEventListener('keydown', e => {
     // Cmd+S / Ctrl+S → save draft
@@ -3949,6 +4384,7 @@ function persistDraft(openDrawer) {
   const title = document.getElementById('edTitle').value.trim();
   if (!text && !title) { toast('编辑区是空的', 'error'); return null; }
   const finalTitle = title || (text.trim().slice(0,24) || '(未命名)');
+  const schedVal = document.getElementById('scheduleDateInput').value;
   const draft = {
     id: generateId(),
     title: finalTitle,
@@ -3957,6 +4393,13 @@ function persistDraft(openDrawer) {
     platforms: [],
     published: [],
     reference_id: editorRefId || null,
+    publish_status: 'drafting',
+    published_platforms: [],
+    published_at: null,
+    performance: null,
+    performance_note: '',
+    scheduled_date: schedVal || null,
+    series: null,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   };
@@ -4024,6 +4467,202 @@ function openSkillPicker(extras) {
     });
   };
   openModal('skillModal');
+}
+
+// ============================================================
+//   PHASE 2: FEEDBACK LAYER
+// ============================================================
+function renderPerfSummary() {
+  const panel = document.getElementById('perfSummaryPanel');
+  if (!panel) return;
+  const thirtyAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
+  const recent = state.drafts.filter(d =>
+    d.publish_status === 'published' && d.published_at &&
+    new Date(d.published_at).getTime() > thirtyAgo
+  );
+  if (!recent.length) { panel.classList.add('hidden'); return; }
+  panel.classList.remove('hidden');
+  const fire = recent.filter(d => d.performance === 'fire');
+  const ok   = recent.filter(d => d.performance === 'ok');
+  const cold = recent.filter(d => d.performance === 'cold');
+  let top3 = '';
+  if (fire.length) {
+    top3 += '🔥 ';
+    fire.slice(0,2).forEach(d => { top3 += `<span>· ${escapeHtml(d.title?.slice(0,28)||'无标题')}</span> `; });
+    top3 += '<br>';
+  }
+  if (cold.length) {
+    top3 += '🥶 ';
+    cold.slice(0,2).forEach(d => { top3 += `<span>· ${escapeHtml(d.title?.slice(0,28)||'无标题')}</span> `; });
+  }
+  panel.innerHTML = `
+    <h4>📊 最近 30 天</h4>
+    <div class="perf-summary-grid">
+      <span class="perf-summary-stat">发布 <span class="pnum">${recent.length}</span> 篇</span>
+      <span class="perf-summary-stat">🔥 <span class="pnum">${fire.length}</span></span>
+      <span class="perf-summary-stat">👍 <span class="pnum">${ok.length}</span></span>
+      <span class="perf-summary-stat">🥶 <span class="pnum">${cold.length}</span></span>
+    </div>
+    ${top3 ? `<div class="perf-top3">${top3}</div>` : ''}
+  `;
+}
+
+function showPlatformSelector(draft) {
+  document.querySelector('.platform-select-popup')?.remove();
+  const platforms = [
+    { id: 'wechat',      label: '💬 微信公众号' },
+    { id: 'xiaohongshu', label: '📕 小红书' },
+    { id: 'douyin',      label: '🎵 抖音' },
+    { id: 'bilibili',    label: '📺 B站' },
+    { id: 'zhihu',       label: '💡 知乎' },
+    { id: 'weibo',       label: '🐦 微博' },
+  ];
+  const popup = document.createElement('div');
+  popup.className = 'platform-select-popup';
+  popup.innerHTML = `
+    <h4>发布到哪些平台？</h4>
+    ${platforms.map(p => `
+      <label class="platform-check-row">
+        <input type="checkbox" value="${p.id}" ${(draft.published_platforms||[]).includes(p.id)?'checked':''}>
+        ${p.label}
+      </label>
+    `).join('')}
+    <button class="platform-confirm-btn">确认发布</button>
+  `;
+  document.body.appendChild(popup);
+  const badge = document.querySelector(`[data-daction="cycle-status"][data-did="${draft.id}"]`);
+  if (badge) {
+    const r = badge.getBoundingClientRect();
+    popup.style.top = (r.bottom + 6) + 'px';
+    popup.style.left = Math.min(r.left, window.innerWidth - 220) + 'px';
+  } else {
+    popup.style.top = '40%'; popup.style.left = '40%';
+  }
+  popup.querySelector('.platform-confirm-btn').onclick = () => {
+    const checked = [...popup.querySelectorAll('input:checked')].map(cb => cb.value);
+    draft.publish_status = 'published';
+    draft.published_platforms = checked;
+    draft.published_at = new Date().toISOString();
+    popup.remove();
+    saveData(); renderDrafts(); renderPerfSummary();
+  };
+  setTimeout(() => {
+    const close = e => {
+      if (!popup.contains(e.target)) { popup.remove(); document.removeEventListener('click', close); }
+    };
+    document.addEventListener('click', close);
+  }, 0);
+}
+
+// ============================================================
+//   PHASE 3: SERIES + CALENDAR
+// ============================================================
+function renderSeriesFilter() {
+  const sel = document.getElementById('seriesFilterSelect');
+  if (!sel) return;
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">📚 全部系列</option>';
+  state.series.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s.id; opt.textContent = s.name;
+    if (s.id === cur) opt.selected = true;
+    sel.appendChild(opt);
+  });
+}
+
+function showSeriesPicker(draftId) {
+  const draft = state.drafts.find(d => d.id === draftId);
+  if (!draft) return;
+  document.querySelector('.series-picker-popup')?.remove();
+  const popup = document.createElement('div');
+  popup.className = 'platform-select-popup series-picker-popup';
+  popup.innerHTML = `
+    <h4>选择系列</h4>
+    <div style="max-height:200px;overflow-y:auto;">
+      <div class="platform-check-row" data-sid="" style="color:var(--text-dim);">— 无系列 —</div>
+      ${state.series.map(s => `
+        <div class="platform-check-row" data-sid="${s.id}">
+          <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${s.color};margin-right:6px;flex-shrink:0;"></span>
+          ${escapeHtml(s.name)}
+        </div>
+      `).join('')}
+    </div>
+  `;
+  document.body.appendChild(popup);
+  const badge = document.querySelector(`[data-daction="change-series"][data-did="${draftId}"]`);
+  if (badge) {
+    const r = badge.getBoundingClientRect();
+    popup.style.top = (r.bottom + 4) + 'px';
+    popup.style.left = Math.min(r.left, window.innerWidth - 200) + 'px';
+  }
+  popup.addEventListener('click', e => {
+    const row = e.target.closest('[data-sid]');
+    if (!row) return;
+    draft.series = row.dataset.sid || null;
+    popup.remove();
+    saveData(); renderDrafts(); renderSeriesFilter();
+  });
+  setTimeout(() => {
+    const close = e => {
+      if (!popup.contains(e.target)) { popup.remove(); document.removeEventListener('click', close); }
+    };
+    document.addEventListener('click', close);
+  }, 0);
+}
+
+function renderSeriesMgmt() {
+  const list = document.getElementById('seriesMgmtList');
+  if (!list) return;
+  if (!state.series.length) {
+    list.innerHTML = '<div style="font-size:11.5px;color:var(--text-faint);padding:6px 0;">还没有系列。</div>';
+    return;
+  }
+  list.innerHTML = state.series.map(s => `
+    <div class="series-mgmt-row">
+      <input type="color" value="${s.color}" data-smid="${s.id}" class="sc-color">
+      <input type="text" value="${escapeHtml(s.name)}" data-smid="${s.id}" class="sc-name" placeholder="系列名称" style="width:90px;">
+      <input type="text" value="${escapeHtml(s.description||'')}" data-smid="${s.id}" class="sc-desc" placeholder="简述（可选）" style="flex:1;">
+      <button class="series-del" data-smid="${s.id}" title="删除">✕</button>
+    </div>
+  `).join('');
+}
+
+function renderCalendar() {
+  const nav  = document.getElementById('calNav');
+  const grid = document.getElementById('calGrid');
+  if (!nav || !grid) return;
+  const y = calendarYear, m = calendarMonth;
+  const months = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+  nav.innerHTML = `
+    <button id="calPrev">◀</button>
+    <span class="month-label">${y}年 ${months[m]}</span>
+    <button id="calNext">▶</button>
+  `;
+  document.getElementById('calPrev').onclick = () => {
+    if (calendarMonth === 0) { calendarMonth = 11; calendarYear--; } else calendarMonth--;
+    renderCalendar();
+  };
+  document.getElementById('calNext').onclick = () => {
+    if (calendarMonth === 11) { calendarMonth = 0; calendarYear++; } else calendarMonth++;
+    renderCalendar();
+  };
+  const today = getToday();
+  const daysInMonth = new Date(y, m + 1, 0).getDate();
+  const firstDay = new Date(y, m, 1).getDay();
+  const headers = ['日','一','二','三','四','五','六'];
+  let html = headers.map(h => `<div class="calendar-day-header">${h}</div>`).join('');
+  for (let i = 0; i < firstDay; i++) html += '<div class="calendar-day other-month"></div>';
+  for (let d = 1; d <= daysInMonth; d++) {
+    const ds = `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const isToday = ds === today;
+    const sched = state.drafts.filter(dr => dr.scheduled_date === ds);
+    html += `
+      <div class="calendar-day${isToday?' today':''}">
+        <div class="day-num">${d}</div>
+        ${sched.map(dr => `<div class="cal-draft" data-daction="load-draft" data-did="${dr.id}">${escapeHtml((dr.title||'').slice(0,14))}</div>`).join('')}
+      </div>`;
+  }
+  grid.innerHTML = html;
 }
 
 // ============================================================
