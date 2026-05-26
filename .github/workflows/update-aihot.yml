@@ -24,7 +24,7 @@ jobs:
 
       - name: Update file via GitHub API
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.AIHOT_TOKEN }}
         run: |
           # Get current file SHA (needed for update)
           SHA=$(gh api repos/${{ github.repository }}/contents/aihot-feed.json \
