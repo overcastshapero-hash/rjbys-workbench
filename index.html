@@ -16,11 +16,11 @@
   --paper: rgba(28, 22, 10, 0.030);
   --paper-hi: rgba(28, 22, 10, 0.056);
   --paper-act: rgba(28, 22, 10, 0.082);
-  --border: rgba(28, 22, 10, 0.09);
-  --border-hi: rgba(28, 22, 10, 0.22);
+  --border: rgba(28, 22, 10, 0.13);
+  --border-hi: rgba(28, 22, 10, 0.30);
   --text: #1c1710;
   --text-dim: rgba(28, 23, 16, 0.60);
-  --text-faint: rgba(28, 23, 16, 0.38);
+  --text-faint: rgba(28, 23, 16, 0.46);
   --gold: #8c6010;
   --gold-soft: rgba(140, 96, 16, 0.82);
   --gold-dim: rgba(140, 96, 16, 0.13);
@@ -39,7 +39,7 @@ html, body {
   height: 100vh;
   overflow: hidden;
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--text);
   background: var(--bg);
@@ -228,7 +228,7 @@ body::after {
   font-size: 12px; color: var(--gold); letter-spacing: 0.05em;
 }
 .section-title {
-  font-family: var(--display); font-size: 15.5px;
+  font-family: var(--display); font-size: 17px;
   font-weight: 500; letter-spacing: 0.01em;
 }
 .section-rule {
@@ -346,7 +346,7 @@ button.muted { color: var(--text-dim); border-color: var(--border); }
 .inbox-item.dropped .inbox-item-title { color: var(--text-faint); text-decoration: line-through; }
 
 .inbox-item-title {
-  font-family: var(--display); font-size: 14.5px;
+  font-family: var(--display); font-size: 15.5px;
   color: var(--text); font-weight: 500;
   margin-bottom: 8px; line-height: 1.45;
 }
@@ -1486,6 +1486,31 @@ button.ai-btn:hover {
 .btn-start.active .caret {
   display: inline-block; margin-left: 4px;
   animation: blink 1s steps(1) infinite;
+}
+
+/* ============ Create-mode flash overlay ============ */
+.create-flash {
+  position: fixed; inset: 0; z-index: 9999;
+  display: flex; align-items: center; justify-content: center;
+  pointer-events: none;
+  animation: cfBg 1.6s ease forwards;
+}
+.create-flash span {
+  font-family: var(--display); font-style: italic;
+  font-size: 36px; color: var(--gold);
+  letter-spacing: 0.12em;
+  animation: cfText 1.6s ease forwards;
+}
+@keyframes cfBg {
+  0%   { background: rgba(201,168,76,0); }
+  20%  { background: rgba(201,168,76,0.10); }
+  100% { background: rgba(201,168,76,0); }
+}
+@keyframes cfText {
+  0%   { opacity: 0; transform: scale(0.88) translateY(12px); }
+  25%  { opacity: 1; transform: scale(1) translateY(0); }
+  70%  { opacity: 1; transform: scale(1) translateY(0); }
+  100% { opacity: 0; transform: scale(1.06) translateY(-6px); }
 }
 
 /* Toast */
@@ -3835,6 +3860,13 @@ function wireEvents() {
     state.ui.started_today = !state.ui.started_today;
     state.ui.last_started_day = getToday();
     renderHeader(); saveData();
+    if (state.ui.started_today) {
+      const el = document.createElement('div');
+      el.className = 'create-flash';
+      el.innerHTML = '<span>● 创作中</span>';
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 1600);
+    }
   });
 
   // settings
@@ -3955,9 +3987,8 @@ function wireEvents() {
       created_at: new Date().toISOString()
     });
     saveData();
+    renderInbox();
     btn.textContent = '✓'; btn.disabled = true;
-    // flash count
-    document.getElementById('inboxCount').textContent = state.inbox.length;
     toast('✓ 已加入收件箱');
   });
 
