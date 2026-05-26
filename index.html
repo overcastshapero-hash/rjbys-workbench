@@ -1849,6 +1849,80 @@ button.ai-btn:hover {
   background: var(--bg-elev); border-radius: 4px;
   padding: 2px 5px; display: inline-block; font-family: var(--mono);
 }
+
+/* ============ VP Update Banner ============ */
+.vp-update-banner {
+  background: rgba(158,108,8,0.10);
+  border: 1px solid var(--y-pending);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 11.5px;
+  color: var(--y-pending);
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
+}
+
+/* ============ Rule Checker Modal ============ */
+.rule-platform-tabs { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
+.rule-tab {
+  padding: 4px 11px; border-radius: 12px; border: 1px solid var(--border);
+  background: none; font-family: var(--mono); font-size: 11px;
+  cursor: pointer; color: var(--text-dim); transition: all 0.15s;
+}
+.rule-tab.active { background: var(--gold-dim); border-color: var(--gold); color: var(--gold); }
+.rule-global-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; font-size: 12px; border-bottom: 1px solid var(--border); }
+.rule-global-row:last-child { border-bottom: none; }
+.rule-pass { color: var(--g-pub); }
+.rule-warn { color: var(--y-pending); }
+.rule-fail { color: var(--red); }
+.rule-icon { width: 16px; flex-shrink: 0; font-size: 13px; }
+.rule-platform-results { background: var(--bg-warm); border-radius: 6px; padding: 12px 14px; margin-top: 12px; }
+.rule-plat-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin-bottom: 10px; }
+
+/* ============ Shortcut Help Modal ============ */
+.shortcut-table { width: 100%; border-collapse: collapse; }
+.shortcut-table td { padding: 7px 10px; font-size: 12px; border-bottom: 1px solid var(--border); }
+.shortcut-table tr:last-child td { border-bottom: none; }
+.shortcut-table td:first-child {
+  font-family: var(--mono); color: var(--gold); font-weight: 500;
+  white-space: nowrap; width: 110px;
+}
+
+/* ============ Export Dropdown ============ */
+.draft-export-wrap { position: relative; flex-shrink: 0; }
+.draft-export-btn {
+  background: none; border: none; cursor: pointer; padding: 2px 5px;
+  color: var(--text-faint); font-size: 13px; border-radius: 3px;
+  font-family: var(--mono); transition: color 0.15s;
+}
+.draft-export-btn:hover { color: var(--text-dim); background: var(--paper); }
+.export-drop {
+  position: absolute; right: 0; top: 100%; margin-top: 2px;
+  background: var(--bg); border: 1px solid var(--border-hi);
+  border-radius: 6px; padding: 4px 0; z-index: 300;
+  min-width: 150px; box-shadow: 0 4px 16px var(--gray-drop);
+  display: none;
+}
+.export-drop.open { display: block; }
+.export-drop-item {
+  display: block; width: 100%; padding: 7px 13px; text-align: left;
+  background: none; border: none; font-family: var(--mono); font-size: 11px;
+  cursor: pointer; color: var(--text);
+}
+.export-drop-item:hover { background: var(--paper); }
+
+/* ============ Data Dashboard ============ */
+.data-dashboard { padding: 12px 16px; overflow-y: auto; max-height: 100%; }
+.data-stats-row { display: flex; gap: 10px; margin-bottom: 16px; }
+.data-stat { flex: 1; background: var(--bg-warm); border-radius: 6px; padding: 10px 8px; text-align: center; }
+.data-num { font-size: 20px; font-weight: 700; color: var(--gold); font-family: var(--display); }
+.data-lbl { font-size: 10px; color: var(--text-faint); margin-top: 3px; letter-spacing: 0.04em; }
+.data-section-title { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-faint); margin: 14px 0 8px; }
+.data-bars { display: flex; flex-direction: column; gap: 7px; }
+.data-bar-row { display: flex; align-items: center; gap: 8px; font-size: 11px; }
+.data-bar-lbl { width: 72px; flex-shrink: 0; color: var(--text-dim); text-align: right; font-size: 10.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.data-bar-track { flex: 1; height: 7px; background: var(--bg-elev); border-radius: 4px; overflow: hidden; }
+.data-bar-fill { height: 100%; background: linear-gradient(90deg, rgba(140,96,16,0.5), rgba(140,96,16,0.2)); border-radius: 4px; transition: width 0.5s ease; min-width: 2px; }
+.data-bar-num { width: 22px; text-align: right; color: var(--text-faint); font-size: 10px; }
 </style>
 </head>
 <body>
@@ -2114,6 +2188,10 @@ button.ai-btn:hover {
         <span class="label-num">VI —</span>
         <span>日历</span>
       </button>
+      <button class="drawer-tab-btn" data-dtab="data">
+        <span class="label-num">VII —</span>
+        <span>数据</span>
+      </button>
       <div class="drawer-spacer"></div>
       <button class="drawer-toggle" id="drawerToggle">
         <span id="drawerToggleLabel">展开</span>
@@ -2141,6 +2219,11 @@ button.ai-btn:hover {
       <div class="drawer-panel" id="dpCalendar">
         <div class="calendar-nav" id="calNav"></div>
         <div class="calendar-grid" id="calGrid"></div>
+      </div>
+
+      <!-- Data dashboard panel -->
+      <div class="drawer-panel" id="dpData">
+        <div class="data-dashboard" id="dataDashboard"></div>
       </div>
 
       <!-- Chat panel -->
@@ -2203,6 +2286,27 @@ button.ai-btn:hover {
         <input type="text" id="setCoreThesis" placeholder="别用「准备」逃避「开始」。写完就发。">
         <div class="desc">这句话会一直显示在编辑器上方，提醒你不要用「准备」逃避「开始」。</div>
       </div>
+      <div class="field-group" id="vpUpdateBanner" style="display:none;">
+        <div class="vp-update-banner">
+          🔄 你已累计发布 <strong><span id="vpPostCount">0</span></strong> 篇新内容——语气档案可能跟不上了。
+          <button class="ghost" id="vpReExtract" style="margin-left:4px;font-size:11px;padding:2px 10px;">重新提炼</button>
+        </div>
+      </div>
+      <div class="field-group">
+        <div class="field-label">核心观点</div>
+        <textarea id="setVpCoreIdeas" rows="3" placeholder="你反复表达的 3-5 个信念或立场。例：真正的行动力来自清醒而非焦虑；普通人不缺工具，缺的是动手的理由。"></textarea>
+        <div class="desc">AI 写东西时会对齐这些观点，避免立场跑偏。</div>
+      </div>
+      <div class="field-group">
+        <div class="field-label">禁用词 / 句式</div>
+        <textarea id="setVpAvoidWords" rows="2" placeholder="例：不要用「赋能」「内卷」「躺平」；不要用排比套话；不要以「在这个时代」「我们正在见证」开头。"></textarea>
+        <div class="desc">这里列的 AI 会主动回避。</div>
+      </div>
+      <div class="field-group">
+        <div class="field-label">锚点故事 / 常用素材</div>
+        <textarea id="setVpAnchorStories" rows="3" placeholder="你经常引用的那个故事、经历或细节。直接粘贴几句话——AI 会在合适时候引用，让文章更像你。"></textarea>
+        <div class="desc">你独有的素材，别人没有。</div>
+      </div>
       <div class="field-group">
         <div class="field-label">系列管理</div>
         <div id="seriesMgmtList"></div>
@@ -2223,6 +2327,46 @@ button.ai-btn:hover {
     <div class="modal-footer">
       <button class="ghost" data-close="settingsModal">取消</button>
       <button class="primary" id="setSave">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ RULE CHECKER MODAL ============ -->
+<div class="modal-backdrop" id="ruleModal">
+  <div class="modal" style="max-width:580px;">
+    <div class="modal-header">
+      <span class="num">✓</span>
+      <span class="modal-title">内容体检</span>
+      <button class="close" data-close="ruleModal">×</button>
+    </div>
+    <div class="modal-body" id="ruleModalBody"></div>
+    <div class="modal-footer">
+      <button class="ghost" data-close="ruleModal">关闭</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SHORTCUT HELP MODAL ============ -->
+<div class="modal-backdrop" id="shortcutModal">
+  <div class="modal" style="max-width:420px;">
+    <div class="modal-header">
+      <span class="num">⌘</span>
+      <span class="modal-title">键盘快捷键</span>
+      <button class="close" data-close="shortcutModal">×</button>
+    </div>
+    <div class="modal-body">
+      <table class="shortcut-table">
+        <tr><td>⌘ S</td><td>保存草稿</td></tr>
+        <tr><td>⌘ N / ⌘ I</td><td>聚焦收件箱输入框</td></tr>
+        <tr><td>⌘ B</td><td>打开 Boost 弹窗</td></tr>
+        <tr><td>⌘ K</td><td>聚焦选题池输入框</td></tr>
+        <tr><td>⌘ ⇧ S</td><td>复制当前草稿</td></tr>
+        <tr><td>⌘ /</td><td>显示此快捷键帮助</td></tr>
+        <tr><td>ESC</td><td>停止 AI 生成 · 关闭弹窗</td></tr>
+      </table>
+    </div>
+    <div class="modal-footer">
+      <button class="ghost" data-close="shortcutModal">关闭</button>
     </div>
   </div>
 </div>
@@ -2615,7 +2759,14 @@ function loadData() {
   state.drafts = Array.isArray(state.drafts) ? state.drafts : [];
   state.ui = state.ui || { drawer_open: false, started_today: false, last_started_day: '' };
   state.settings = state.settings || { deepseek_key: '', model: 'deepseek-chat', profile: '', temperature: 0.7 };
-  state.voice = state.voice || { samples: [], distilled: '' };
+  state.voice = state.voice || {};
+  state.voice.samples = Array.isArray(state.voice.samples) ? state.voice.samples : [];
+  state.voice.distilled = state.voice.distilled || '';
+  state.voice.core_ideas = state.voice.core_ideas || '';
+  state.voice.avoid_words = state.voice.avoid_words || '';
+  state.voice.anchor_stories = state.voice.anchor_stories || '';
+  state.voice.post_count_since_update = typeof state.voice.post_count_since_update === 'number' ? state.voice.post_count_since_update : 0;
+  state.voice.updated_at = state.voice.updated_at || null;
   state.chats = state.chats || { messages: [] };
   state.topics = Array.isArray(state.topics) ? state.topics : [];
   state.series = Array.isArray(state.series) ? state.series : [];
@@ -3031,7 +3182,14 @@ function renderDrafts(draftsToRender) {
         </div>
         <div class="draft-actions">
           <button class="ghost" data-load="${d.id}" title="回到编辑器">↻</button>
-          <button class="ghost" data-dmd="${d.id}" title="下载 .md 文件">↓</button>
+          <div class="draft-export-wrap">
+            <button class="draft-export-btn" data-dexp="${d.id}" title="导出 / 复制">⬇</button>
+            <div class="export-drop" id="exp-${d.id}">
+              <button class="export-drop-item" data-expfmt="md" data-expdid="${d.id}">.md 文件</button>
+              <button class="export-drop-item" data-expfmt="txt" data-expdid="${d.id}">.txt 文件</button>
+              <button class="export-drop-item" data-expfmt="wechat" data-expdid="${d.id}">微信 HTML（复制）</button>
+            </div>
+          </div>
           <button class="ghost danger" data-ddel="${d.id}" title="删除">×</button>
         </div>
         <div class="draft-feedback-row">
@@ -3154,6 +3312,9 @@ function buildSystemPreamble() {
   const parts = [];
   if (state.settings.profile) parts.push('【创作者背景】\n' + state.settings.profile);
   if (state.voice.distilled) parts.push('【提炼出的语气】\n' + state.voice.distilled);
+  if (state.voice.core_ideas) parts.push('【核心观点/信念——必须对齐】\n' + state.voice.core_ideas);
+  if (state.voice.avoid_words) parts.push('【禁止使用的词/句式——严格回避】\n' + state.voice.avoid_words);
+  if (state.voice.anchor_stories) parts.push('【锚点故事/常用素材——可引用】\n' + state.voice.anchor_stories);
   return parts.join('\n\n');
 }
 
@@ -3589,6 +3750,12 @@ function wireEvents() {
     document.getElementById('setProfile').value = state.settings.profile || '';
     document.getElementById('setTemp').value = state.settings.temperature != null ? String(state.settings.temperature) : '0.7';
     document.getElementById('setCoreThesis').value = state.settings.core_thesis || '';
+    document.getElementById('setVpCoreIdeas').value = state.voice.core_ideas || '';
+    document.getElementById('setVpAvoidWords').value = state.voice.avoid_words || '';
+    document.getElementById('setVpAnchorStories').value = state.voice.anchor_stories || '';
+    const cnt = state.voice.post_count_since_update || 0;
+    document.getElementById('vpPostCount').textContent = String(cnt);
+    document.getElementById('vpUpdateBanner').style.display = cnt >= 10 ? '' : 'none';
     renderSeriesMgmt();
     openModal('settingsModal');
   });
@@ -3640,6 +3807,9 @@ function wireEvents() {
     state.settings.temperature = isNaN(t) ? 0.7 : Math.max(0, Math.min(2, t));
     const ct = document.getElementById('setCoreThesis').value.trim();
     if (ct) state.settings.core_thesis = ct;
+    state.voice.core_ideas = document.getElementById('setVpCoreIdeas').value.trim();
+    state.voice.avoid_words = document.getElementById('setVpAvoidWords').value.trim();
+    state.voice.anchor_stories = document.getElementById('setVpAnchorStories').value.trim();
     saveDataNow();
     renderHeader();
     renderCoreThesis();
@@ -3930,7 +4100,7 @@ function wireEvents() {
   });
   document.getElementById('edSave').addEventListener('click', () => persistDraft(false));
   document.getElementById('edQueue').addEventListener('click', () => persistDraft(true));
-  document.getElementById('edCheck').addEventListener('click', () => checkPlatformRules());
+  document.getElementById('edCheck').addEventListener('click', () => showRuleChecker());
 
   // editor AI buttons
   document.getElementById('edSkill').addEventListener('click', () => openSkillPicker());
@@ -4166,18 +4336,29 @@ function wireEvents() {
       toast('已回到编辑器');
       return;
     }
-    const dmd = e.target.closest('[data-dmd]');
-    if (dmd) {
-      const d = state.drafts.find(x => x.id === dmd.dataset.dmd);
-      if (!d) return;
-      const frontmatter = '---\ntitle: ' + (d.title || '(未命名)') + '\ntype: ' + (d.type || 'short') + '\ncreated: ' + (d.created_at || '') + '\n---\n\n';
-      const blob = new Blob([frontmatter + (d.content || '')], { type: 'text/markdown;charset=utf-8' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = (d.title || 'draft').slice(0, 40).replace(/[\\/:*?"<>|]/g, '_') + '.md';
-      a.click();
-      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-      toast('已下载 .md');
+    // export dropdown toggle
+    const dexp = e.target.closest('[data-dexp]');
+    if (dexp) {
+      const drop = document.getElementById('exp-' + dexp.dataset.dexp);
+      if (drop) {
+        const isOpen = drop.classList.contains('open');
+        document.querySelectorAll('.export-drop.open').forEach(d2 => d2.classList.remove('open'));
+        if (!isOpen) {
+          drop.classList.add('open');
+          setTimeout(() => {
+            const close = ev => { if (!drop.contains(ev.target) && ev.target !== dexp) { drop.classList.remove('open'); document.removeEventListener('click', close); } };
+            document.addEventListener('click', close);
+          }, 0);
+        }
+      }
+      return;
+    }
+    // export format item
+    const expItem = e.target.closest('[data-expfmt]');
+    if (expItem) {
+      const d = state.drafts.find(x => x.id === expItem.dataset.expdid);
+      if (d) exportDraft(d, expItem.dataset.expfmt);
+      document.querySelectorAll('.export-drop.open').forEach(dr => dr.classList.remove('open'));
       return;
     }
     const ddel = e.target.closest('[data-ddel]');
@@ -4298,10 +4479,11 @@ function wireEvents() {
     }
   });
 
-  // drawer tab → render calendar on switch
+  // drawer tab → render calendar / data on switch
   document.querySelectorAll('.drawer-tab-btn').forEach(b => {
     b.addEventListener('click', () => {
       if (b.dataset.dtab === 'calendar') renderCalendar();
+      if (b.dataset.dtab === 'data') renderData();
     });
   });
 
@@ -4348,15 +4530,39 @@ function wireEvents() {
   // ESC closes any open thing — and aborts active AI stream first
   document.addEventListener('keydown', e => {
     // Cmd+S / Ctrl+S → save draft
-    if ((e.metaKey || e.ctrlKey) && e.key === 's') {
+    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key === 's') {
       e.preventDefault();
       persistDraft(true);
       return;
     }
-    // Cmd+N / Ctrl+N → open new inbox item
-    if ((e.metaKey || e.ctrlKey) && e.key === 'n') {
+    // Cmd+Shift+S → duplicate draft
+    if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 's' || e.key === 'S')) {
       e.preventDefault();
-      document.getElementById('btnAddInbox').click();
+      duplicateDraft();
+      return;
+    }
+    // Cmd+N / Ctrl+N or Cmd+I → focus inbox input
+    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && (e.key === 'n' || e.key === 'i')) {
+      e.preventDefault();
+      document.getElementById('inbInput').focus();
+      return;
+    }
+    // Cmd+B → Boost
+    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key === 'b') {
+      e.preventDefault();
+      document.getElementById('edBoost').click();
+      return;
+    }
+    // Cmd+K → focus topic pool
+    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key === 'k') {
+      e.preventDefault();
+      document.getElementById('topicInput').focus();
+      return;
+    }
+    // Cmd+/ → shortcut help
+    if ((e.metaKey || e.ctrlKey) && e.key === '/') {
+      e.preventDefault();
+      openModal('shortcutModal');
       return;
     }
     if (e.key === 'Escape') {
@@ -4369,6 +4575,9 @@ function wireEvents() {
       hideMentionPop();
     }
   });
+
+  // VP Re-extract button in settings modal
+  document.getElementById('vpReExtract').addEventListener('click', vpReExtractFn);
 }
 
 function toggleDrawer(forceOpen) {
@@ -4543,6 +4752,7 @@ function showPlatformSelector(draft) {
     draft.publish_status = 'published';
     draft.published_platforms = checked;
     draft.published_at = new Date().toISOString();
+    state.voice.post_count_since_update = (state.voice.post_count_since_update || 0) + 1;
     popup.remove();
     saveData(); renderDrafts(); renderPerfSummary();
   };
@@ -4668,72 +4878,169 @@ function renderCalendar() {
 // ============================================================
 //   PLATFORM RULE CHECKER
 // ============================================================
-const PLATFORM_RULES = {
-  '微博':   { maxChars: 140, name: '微博' },
-  '小红书': { maxChars: 1000, minChars: 100, minTags: 3, name: '小红书' },
-  '公众号': { maxChars: 50000, minChars: 300, name: '公众号' },
-  '知乎':   { maxChars: 10000, minChars: 300, name: '知乎' },
-  '抖音':   { maxChars: 1000, name: '抖音脚本' },
-  'B站':    { maxChars: 2000, name: 'B站脚本' }
-};
 const SPAM_WORDS = ['不得不说', '值得深思', '我们正在见证', '在这个时代', '令人深思', '引人深思', '总的来说', '综上所述', '好了', '总结一下'];
 
-function checkPlatformRules() {
+const PLATFORM_CHECKS = {
+  '小红书': {
+    label: '小红书',
+    run(text, len, tags) {
+      const rows = [];
+      rows.push(len >= 100 && len <= 1000
+        ? { ok: true, msg: `字数 ${len} ✓（100-1000 字）` }
+        : { ok: false, warn: len < 100, msg: `字数 ${len}（建议 100-1000 字）` });
+      rows.push(tags >= 3
+        ? { ok: true, msg: `话题标签 ${tags} 个 ✓` }
+        : { ok: false, warn: true, msg: `话题标签 ${tags} 个（建议至少 3 个，格式 #话题#）` });
+      const hasEmoji = /[\u{1F300}-\u{1FFFF}]/u.test(text) || /[☀-➿]/.test(text);
+      rows.push(hasEmoji
+        ? { ok: true, msg: '有 emoji ✓（小红书偏爱）' }
+        : { ok: false, warn: true, msg: '没有 emoji（小红书建议加几个）' });
+      return rows;
+    }
+  },
+  '公众号': {
+    label: '微信公众号',
+    run(text, len) {
+      const rows = [];
+      rows.push(len >= 300
+        ? { ok: true, msg: `字数 ${len} ✓` }
+        : { ok: false, warn: true, msg: `字数 ${len}（公众号建议 300+ 字）` });
+      const hasSubhead = /^(#+\s|【|##|[一二三四五六七八九十]+[、．.])/m.test(text);
+      rows.push(hasSubhead
+        ? { ok: true, msg: '有小标题/分节结构 ✓' }
+        : { ok: false, warn: true, msg: '没有检测到小标题（建议用 ## 或【】分节）' });
+      return rows;
+    }
+  },
+  '微博': {
+    label: '微博',
+    run(text, len, tags) {
+      const rows = [];
+      rows.push(len <= 140
+        ? { ok: true, msg: `字数 ${len} ✓（140 字以内）` }
+        : { ok: false, warn: false, msg: `字数 ${len}，超出微博 140 字限制（超出 ${len-140} 字）` });
+      rows.push(tags >= 1 && tags <= 2
+        ? { ok: true, msg: `话题标签 ${tags} 个 ✓` }
+        : tags === 0
+          ? { ok: false, warn: true, msg: '建议加 1-2 个话题标签' }
+          : { ok: false, warn: true, msg: `话题标签 ${tags} 个（微博建议 1-2 个）` });
+      return rows;
+    }
+  },
+  '抖音': {
+    label: '抖音脚本',
+    run(text, len) {
+      const rows = [];
+      rows.push(len <= 1000
+        ? { ok: true, msg: `字数 ${len} ✓（60s 口播约 300-500 字）` }
+        : { ok: false, warn: false, msg: `字数 ${len}，60s 口播建议 300-500 字` });
+      const hasHook = text.slice(0,60).includes('？') || text.slice(0,60).includes('！') || text.slice(0,60).length > 10;
+      rows.push(hasHook
+        ? { ok: true, msg: '开头有钩子 ✓' }
+        : { ok: false, warn: true, msg: '开头前 3 秒要有钩子（疑问/冲突/直接结论）' });
+      return rows;
+    }
+  },
+  'B站': {
+    label: 'B站脚本',
+    run(text, len) {
+      const rows = [];
+      rows.push(len <= 2000
+        ? { ok: true, msg: `字数 ${len} ✓` }
+        : { ok: false, warn: true, msg: `字数 ${len}（B站脚本建议 2000 字以内）` });
+      const hasTimestamp = /^\d+[:：分秒]/.test(text) || /\[\d+:\d+\]/.test(text);
+      rows.push(hasTimestamp
+        ? { ok: true, msg: '有时间轴标记 ✓' }
+        : { ok: false, warn: true, msg: '建议加时间轴（[0:00] 格式便于剪辑）' });
+      return rows;
+    }
+  },
+  '知乎': {
+    label: '知乎',
+    run(text, len) {
+      const rows = [];
+      rows.push(len >= 300 && len <= 10000
+        ? { ok: true, msg: `字数 ${len} ✓` }
+        : { ok: false, warn: len < 300, msg: `字数 ${len}（知乎建议 300-10000 字）` });
+      const paras = text.split(/\n+/).filter(p => p.trim());
+      rows.push(paras.length >= 3
+        ? { ok: true, msg: `共 ${paras.length} 段 ✓（结构清晰）` }
+        : { ok: false, warn: true, msg: `只有 ${paras.length} 段，建议增加分段提升可读性` });
+      return rows;
+    }
+  }
+};
+
+function showRuleChecker() {
   const text = document.getElementById('edText').value;
   if (!text.trim()) { toast('编辑区是空的', 'error'); return; }
   const len = text.length;
-  const lines = text.split('\n');
-  const issues = [];
-  const passes = [];
-
-  // detect which platform (from draft platforms or guess)
-  const title = document.getElementById('edTitle').value;
-
-  // spam words check
-  const found = SPAM_WORDS.filter(w => text.includes(w));
-  if (found.length) {
-    issues.push('发现废话词：' + found.map(w => '「' + w + '」').join(' '));
-  } else {
-    passes.push('无废话词 ✓');
-  }
-
-  // long sentence check
-  const sentences = text.split(/[。！？.!?]/);
+  const tags = (text.match(/#[^\s#]+/g) || []).length;
+  const sentences = text.split(/[。！？.!?]/).filter(s => s.trim());
   const longSentences = sentences.filter(s => s.trim().length > 60);
-  if (longSentences.length > 0) {
-    issues.push('有 ' + longSentences.length + ' 个句子超过 60 字，建议拆短');
-  } else {
-    passes.push('句子长度正常 ✓');
+  const foundSpam = SPAM_WORDS.filter(w => text.includes(w));
+  const avoidMatch = state.voice.avoid_words
+    ? state.voice.avoid_words.split(/[；;,，\n]+/).map(w => w.trim()).filter(w => w && text.includes(w))
+    : [];
+
+  // Tab state
+  const platforms = Object.keys(PLATFORM_CHECKS);
+  let activeTab = platforms[0];
+
+  function buildBody() {
+    // Global checks
+    const globalRows = [];
+    globalRows.push(foundSpam.length === 0
+      ? { ok: true, msg: '无废话词 ✓' }
+      : { ok: false, warn: false, msg: '废话词：' + foundSpam.map(w => '「' + w + '」').join(' ') });
+    globalRows.push(longSentences.length === 0
+      ? { ok: true, msg: '句子长度正常（全部 ≤60 字）✓' }
+      : { ok: false, warn: true, msg: `${longSentences.length} 句超 60 字，建议拆短` });
+    if (avoidMatch.length > 0) {
+      globalRows.push({ ok: false, warn: false, msg: '匹配到禁用词：' + avoidMatch.map(w => '「' + w + '」').join(' ') });
+    }
+
+    const globalHtml = '<div style="margin-bottom:14px;">'
+      + '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-faint);margin-bottom:8px;">通用检查 · 字数 ' + len + ' · 标签 ' + tags + '</div>'
+      + globalRows.map(r => {
+          const cls = r.ok ? 'rule-pass' : r.warn ? 'rule-warn' : 'rule-fail';
+          const icon = r.ok ? '✓' : r.warn ? '⚠' : '✕';
+          return `<div class="rule-global-row"><span class="rule-icon ${cls}">${icon}</span><span class="${cls}">${escapeHtml(r.msg)}</span></div>`;
+        }).join('')
+      + '</div>';
+
+    // Platform tabs
+    const tabsHtml = '<div class="rule-platform-tabs">'
+      + platforms.map(p => `<button class="rule-tab${p === activeTab ? ' active' : ''}" data-rtab="${p}">${PLATFORM_CHECKS[p].label}</button>`).join('')
+      + '</div>';
+
+    // Active platform results
+    const platRows = PLATFORM_CHECKS[activeTab].run(text, len, tags);
+    const platHtml = '<div class="rule-platform-results">'
+      + `<div class="rule-plat-title">${PLATFORM_CHECKS[activeTab].label} 专项检查</div>`
+      + platRows.map(r => {
+          const cls = r.ok ? 'rule-pass' : r.warn ? 'rule-warn' : 'rule-fail';
+          const icon = r.ok ? '✓' : r.warn ? '⚠' : '✕';
+          return `<div class="rule-global-row"><span class="rule-icon ${cls}">${icon}</span><span class="${cls}">${escapeHtml(r.msg)}</span></div>`;
+        }).join('')
+      + '</div>';
+
+    return globalHtml + tabsHtml + platHtml;
   }
 
-  // platform specific
-  let platformChecks = '';
-  Object.entries(PLATFORM_RULES).forEach(([p, r]) => {
-    if (len > r.maxChars) {
-      platformChecks += `\n• ${r.name}：超出字数限制（${len}/${r.maxChars}）`;
-    }
-    if (r.minChars && len < r.minChars) {
-      platformChecks += `\n• ${r.name}：字数偏少（${len}，建议 ${r.minChars}+ 字）`;
-    }
+  const body = document.getElementById('ruleModalBody');
+  body.innerHTML = buildBody();
+  // Tab switching
+  body.querySelectorAll('.rule-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeTab = btn.dataset.rtab;
+      body.innerHTML = buildBody();
+      body.querySelectorAll('.rule-tab').forEach(b => {
+        b.addEventListener('click', () => { activeTab = b.dataset.rtab; body.innerHTML = buildBody(); });
+      });
+    });
   });
-
-  // hashtag count
-  const tagCount = (text.match(/#[^\s#]+/g) || []).length;
-
-  // build result toast
-  const issueText = issues.length ? '⚠ ' + issues.join('\n⚠ ') : '';
-  const passText = passes.join(' · ');
-  const lines2 = [
-    '字数：' + len,
-    tagCount ? '话题标签：' + tagCount + ' 个' : '',
-    passText,
-    issueText,
-    platformChecks ? '平台适配：' + platformChecks : ''
-  ].filter(Boolean).join('\n');
-
-  // show in a toast-like panel
-  const type = issues.length ? 'error' : 'success';
-  toast(lines2, type, 6000);
+  openModal('ruleModal');
 }
 
 // ============================================================
@@ -4782,6 +5089,171 @@ function wireOnboarding() {
       setTimeout(() => toast('点右上角 ⚙ 填 DeepSeek key，AI 功能才能启用'), 400);
     }
   });
+}
+
+// ============================================================
+//   PHASE 4: INTELLIGENCE LAYER
+// ============================================================
+
+// VP Re-extract (called from wireEvents, attached to vpReExtract button)
+async function vpReExtractFn() {
+  if (!state.settings.deepseek_key) { toast('需要先在设置里填 DeepSeek key', 'error'); return; }
+  const published = state.drafts.filter(d => d.publish_status === 'published' && d.content);
+  if (!published.length && !state.voice.samples.length) {
+    toast('还没有发布的内容或语气样本', 'error'); return;
+  }
+  const btn = document.getElementById('vpReExtract');
+  if (btn) { btn.disabled = true; btn.textContent = '提炼中…'; }
+  const samples = [
+    ...state.voice.samples.map(s => (s.title ? s.title + '\n' : '') + s.content),
+    ...published.slice(0, 10).map(d => (d.title ? d.title + '\n' : '') + d.content)
+  ].slice(0, 12);
+  const contextParts = [];
+  if (state.voice.core_ideas) contextParts.push('创作者核心观点：\n' + state.voice.core_ideas);
+  if (state.voice.avoid_words) contextParts.push('需要回避：\n' + state.voice.avoid_words);
+  const contextHint = contextParts.length ? '\n\n参考信息：\n' + contextParts.join('\n\n') : '';
+  try {
+    const result = await callDeepSeek({
+      messages: [
+        { role: 'system', content: '你是一位写作教练，专门分析内容创作者的语气特征。请根据文章样本，提炼创作者的核心语气风格，用 150-200 字描述：语速节奏、用词习惯、态度立场、句式特征。输出纯文字描述，不要分点列表。' + contextHint },
+        { role: 'user', content: '请分析以下样本，提炼语气风格：\n\n' + samples.join('\n\n---\n\n') }
+      ]
+    });
+    state.voice.distilled = result;
+    state.voice.post_count_since_update = 0;
+    state.voice.updated_at = new Date().toISOString();
+    saveDataNow();
+    const cntEl = document.getElementById('vpPostCount');
+    if (cntEl) cntEl.textContent = '0';
+    const banner = document.getElementById('vpUpdateBanner');
+    if (banner) banner.style.display = 'none';
+    const vp = document.getElementById('voiceProfile');
+    if (vp) { vp.classList.remove('empty'); vp.textContent = result; }
+    toast('✓ 语气档案已更新', 'success');
+  } catch (e) {
+    toast('提炼失败：' + e.message, 'error');
+  }
+  if (btn) { btn.disabled = false; btn.textContent = '重新提炼'; }
+}
+
+// ============================================================
+//   PHASE 6: POLISH LAYER
+// ============================================================
+
+function duplicateDraft() {
+  const text = document.getElementById('edText').value;
+  const title = document.getElementById('edTitle').value.trim();
+  if (!text && !title) { toast('编辑区是空的，没什么可复制的', 'error'); return; }
+  const finalTitle = (title || text.slice(0, 24)) + ' (副本)';
+  const d = {
+    id: generateId(), title: finalTitle, content: text,
+    type: editorType, platforms: [], published: [],
+    reference_id: editorRefId || null,
+    publish_status: 'drafting', published_platforms: [], published_at: null,
+    performance: null, performance_note: '',
+    scheduled_date: null, series: null,
+    created_at: new Date().toISOString(), updated_at: new Date().toISOString()
+  };
+  state.drafts.unshift(d);
+  saveData(); renderDrafts();
+  toast('✓ 已复制草稿');
+}
+
+function exportDraft(draft, format) {
+  if (!draft) return;
+  const safeName = (draft.title || '草稿').replace(/[^\w一-鿿\-\s]+/g, '').trim().slice(0, 40) || 'draft';
+  if (format === 'md') {
+    const md = (draft.title ? '# ' + draft.title + '\n\n' : '') + (draft.content || '');
+    const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+    a.download = safeName + '.md'; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    toast('✓ 已导出 .md');
+  } else if (format === 'txt') {
+    const txt = (draft.title ? draft.title + '\n\n' : '') + (draft.content || '');
+    const blob = new Blob([txt], { type: 'text/plain;charset=utf-8' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+    a.download = safeName + '.txt'; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    toast('✓ 已导出 .txt');
+  } else if (format === 'wechat') {
+    const paras = (draft.content || '').split(/\n+/).filter(p => p.trim());
+    const titleHtml = draft.title ? `<h2 style="font-size:20px;font-weight:bold;line-height:1.6;color:#222;margin:0 0 1em;">${draft.title}</h2>` : '';
+    const bodyHtml = paras.map(p => `<p style="font-size:16px;line-height:1.8;color:#333;margin:1em 0;letter-spacing:0.02em;">${p}</p>`).join('');
+    const html = `<section style="font-family:-apple-system,sans-serif;max-width:680px;margin:0 auto;">${titleHtml}${bodyHtml}</section>`;
+    navigator.clipboard.writeText(html).then(() => toast('✓ 已复制微信排版 HTML')).catch(() => toast('复制失败', 'error'));
+  }
+}
+
+function renderData() {
+  const el = document.getElementById('dataDashboard');
+  if (!el) return;
+  const drafts = state.drafts;
+  const total = drafts.length;
+  const totalChars = drafts.reduce((s, d) => s + (d.content ? d.content.length : 0), 0);
+  const published = drafts.filter(d => d.publish_status === 'published').length;
+  const ready = drafts.filter(d => d.publish_status === 'ready').length;
+
+  // Platform distribution
+  const platMap = {};
+  drafts.filter(d => d.publish_status === 'published').forEach(d => {
+    (d.published_platforms || []).forEach(p => { platMap[p] = (platMap[p] || 0) + 1; });
+  });
+  const platMax = Math.max(...Object.values(platMap), 1);
+
+  // Performance
+  const perfMap = { fire: 0, ok: 0, cold: 0, none: 0 };
+  drafts.filter(d => d.publish_status === 'published').forEach(d => {
+    perfMap[d.performance || 'none']++;
+  });
+  const perfMax = Math.max(...Object.values(perfMap), 1);
+
+  // Series
+  const seriesMap = {};
+  state.series.forEach(s => { seriesMap[s.id] = 0; });
+  seriesMap['__none__'] = 0;
+  drafts.forEach(d => {
+    const k = d.series && state.series.find(s => s.id === d.series) ? d.series : '__none__';
+    seriesMap[k] = (seriesMap[k] || 0) + 1;
+  });
+  const seriesMax = Math.max(...Object.values(seriesMap), 1);
+
+  const barsHtml = (entries, max, labelFn, colorFn) => entries
+    .filter(([, n]) => n > 0)
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, n]) => {
+      const w = Math.round(n / max * 100);
+      const color = colorFn ? colorFn(k) : '';
+      return `<div class="data-bar-row">
+        <span class="data-bar-lbl">${labelFn(k)}</span>
+        <div class="data-bar-track"><div class="data-bar-fill" style="width:${w}%;${color ? 'background:'+color+';' : ''}"></div></div>
+        <span class="data-bar-num">${n}</span>
+      </div>`;
+    }).join('') || '<div style="color:var(--text-faint);font-size:11px;padding:4px 0;">暂无数据</div>';
+
+  el.innerHTML = `
+    <div class="data-stats-row">
+      <div class="data-stat"><div class="data-num">${total}</div><div class="data-lbl">草稿</div></div>
+      <div class="data-stat"><div class="data-num">${(totalChars / 1000).toFixed(1)}k</div><div class="data-lbl">总字符</div></div>
+      <div class="data-stat"><div class="data-num">${published}</div><div class="data-lbl">已发布</div></div>
+      <div class="data-stat"><div class="data-num">${ready}</div><div class="data-lbl">待发布</div></div>
+    </div>
+    <div class="data-section-title">平台分布</div>
+    <div class="data-bars">${barsHtml(Object.entries(platMap), platMax, k => escapeHtml(k), null)}</div>
+    <div class="data-section-title">效果分布</div>
+    <div class="data-bars">${barsHtml(
+      [['fire','🔥 爆款'],['ok','👍 正常'],['cold','🥶 冷场'],['none','— 未标']].map(([k,l]) => [l, perfMap[k]]),
+      perfMax, k => k, null)}</div>
+    <div class="data-section-title">系列分布</div>
+    <div class="data-bars">${barsHtml(Object.entries(seriesMap), seriesMax,
+      k => {
+        const s = state.series.find(x => x.id === k);
+        if (!s) return '未分类';
+        return `<span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:${s.color};margin-right:4px;vertical-align:middle;"></span>${escapeHtml(s.name)}`;
+      },
+      k => { const s = state.series.find(x => x.id === k); return s ? s.color + '55' : null; }
+    )}</div>
+  `;
 }
 
 // ============================================================
