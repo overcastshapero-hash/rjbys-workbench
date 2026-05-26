@@ -178,13 +178,24 @@ body::after {
 .btn-start:hover { background: var(--gold-dim); transform: translateY(-1px); }
 .btn-start:hover::before { transform: translateX(100%); }
 .btn-start.active {
-  background: var(--gold-dim); color: var(--gold);
+  background: rgba(140, 96, 16, 0.18);
+  color: var(--gold);
   border-color: var(--gold);
-  animation: breathe 3.2s ease-in-out infinite;
+  box-shadow: 0 0 0 1px var(--gold-dim) inset;
+  animation: breathe 2.8s ease-in-out infinite;
+  font-weight: 500;
 }
 @keyframes breathe {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0); opacity: 1; }
-  50% { box-shadow: 0 0 0 6px rgba(201, 168, 76, 0.07); opacity: 0.88; }
+  0%, 100% { box-shadow: 0 0 0 1px var(--gold-dim) inset, 0 0 0 0 rgba(201, 168, 76, 0); }
+  50% { box-shadow: 0 0 0 1px var(--gold-dim) inset, 0 0 12px 2px rgba(201, 168, 76, 0.18); }
+}
+/* Header ambient glow when creating */
+.header.creating {
+  background: linear-gradient(180deg, rgba(201, 168, 76, 0.09), rgba(201, 168, 76, 0.02));
+  border-bottom-color: rgba(140, 96, 16, 0.25);
+}
+.header.creating::after {
+  background: linear-gradient(90deg, transparent, rgba(140, 96, 16, 0.28), transparent);
 }
 
 .icon-btn {
@@ -2249,6 +2260,8 @@ button.ai-btn:hover {
 
 </div>
 
+<div style="position:fixed;bottom:6px;right:12px;font-size:9px;color:var(--text-faint);opacity:0.35;pointer-events:none;z-index:2;letter-spacing:0.12em;">内容工作台 · v1.0</div>
+
 <!-- ============ SETTINGS MODAL ============ -->
 <div class="modal-backdrop" id="settingsModal">
   <div class="modal">
@@ -2953,12 +2966,15 @@ function renderHeader() {
   document.getElementById('articlesVal').textContent = state.stats.articles_week;
   const btn = document.getElementById('btnStart');
   const lbl = btn.querySelector('.btn-start-label');
+  const header = document.querySelector('.header');
   if (state.ui.started_today) {
     btn.classList.add('active');
-    lbl.innerHTML = '创作中 ✦<span class="caret">|</span>';
+    lbl.innerHTML = '● 创作中<span class="caret"> ✦</span>';
+    if (header) header.classList.add('creating');
   } else {
     btn.classList.remove('active');
     lbl.textContent = '▶ 开始今天';
+    if (header) header.classList.remove('creating');
   }
   document.getElementById('chatHint').textContent =
     (state.settings.deepseek_key ? '已就绪' : '需要先填 key') + ' · 模型：' + (state.settings.model || 'deepseek-chat');
@@ -4571,7 +4587,12 @@ function wireEvents() {
         toast('已停止 AI 生成');
         return;
       }
+      // close modals
       document.querySelectorAll('.modal-backdrop.open').forEach(m => m.classList.remove('open'));
+      // close floating popups
+      document.querySelectorAll('.export-drop.open').forEach(d => d.classList.remove('open'));
+      document.querySelector('.platform-select-popup')?.remove();
+      document.querySelector('.series-picker-popup')?.remove();
       hideMentionPop();
     }
   });
