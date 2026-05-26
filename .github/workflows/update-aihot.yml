@@ -1,0 +1,36 @@
+name: Update AI 热榜数据
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # 每小时整点运行
+  workflow_dispatch:        # 支持手动触发
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout public branch
+        uses: actions/checkout@v4
+        with:
+          ref: public
+
+      - name: Fetch aihot selected feed
+        run: |
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 aihot-skill/0.2.0"
+          SINCE=$(date -u -d '48 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          curl -sf \
+            -H "User-Agent: $UA" \
+            "https://aihot.virxact.com/api/public/items?mode=selected&take=50&since=${SINCE}" \
+            -o aihot-feed.json
+          echo "Fetched items: $(python3 -c "import json; d=json.load(open('aihot-feed.json')); print(len(d.get('items',[])))")"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add aihot-feed.json
+          git diff --staged --quiet || git commit -m "data: update aihot feed $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git diff HEAD~1 --quiet || git push

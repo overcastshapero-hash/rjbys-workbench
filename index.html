@@ -4721,20 +4721,22 @@ async function fetchAiHotItems() {
   const list = document.getElementById('aihotList');
   if (!btn || !list) return;
   btn.disabled = true; btn.textContent = '拉取中…';
-  list.innerHTML = '<div class="aihot-status">正在拉取 AI 热榜…</div>';
+  list.innerHTML = '<div class="aihot-status">正在加载…</div>';
   try {
-    const since = new Date(Date.now() - 48 * 3600 * 1000).toISOString();
-    let target = 'https://aihot.virxact.com/api/public/items?mode=selected&take=40&since=' + encodeURIComponent(since);
-    if (aihotCategory) target += '&category=' + aihotCategory;
-    const resp = await fetch('https://r.jina.ai/' + target, { headers: { 'Accept': 'text/plain' } });
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const text = await resp.text();
-    const m = text.match(/Markdown Content:\n([\s\S]+)/);
-    if (!m) throw new Error('返回格式异常');
-    const data = JSON.parse(m[1].trim());
-    renderAiHotItems(data.items || []);
+    // 优先读同源静态文件（GitHub Actions 每小时更新）
+    let data = null;
+    try {
+      const r = await fetch('./aihot-feed.json?t=' + Date.now());
+      if (r.ok) data = await r.json();
+    } catch (_) {}
+
+    if (!data) throw new Error('数据文件暂未生成，请稍后再试或手动触发 GitHub Actions');
+
+    let items = data.items || [];
+    if (aihotCategory) items = items.filter(x => x.category === aihotCategory);
+    renderAiHotItems(items);
   } catch (e) {
-    list.innerHTML = '<div class="aihot-status">拉取失败：' + escapeHtml(e.message) + '</div>';
+    list.innerHTML = '<div class="aihot-status">' + escapeHtml(e.message) + '</div>';
   }
   btn.disabled = false; btn.textContent = '✦ 拉今日精选';
 }
