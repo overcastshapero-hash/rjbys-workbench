@@ -388,6 +388,65 @@ button.muted { color: var(--text-dim); border-color: var(--border); }
   margin: 6px 0; line-height: 1.55;
 }
 
+/* AI 热榜 tab */
+#itabAihot.active {
+  flex: 1;
+  overflow: hidden;
+  display: flex !important;
+  flex-direction: column;
+  gap: 0;
+}
+.aihot-toolbar {
+  padding: 10px 16px 8px;
+  border-bottom: 1px solid var(--border);
+  display: flex; flex-direction: column; gap: 8px;
+  flex-shrink: 0;
+}
+.aihot-cats { display: flex; gap: 5px; flex-wrap: wrap; }
+.aihot-cat-btn {
+  padding: 3px 9px; border-radius: 9px;
+  border: 1px solid var(--border); background: none;
+  font-family: var(--mono); font-size: 10px; cursor: pointer;
+  color: var(--text-dim); text-transform: none; letter-spacing: 0;
+  transition: all 0.15s;
+}
+.aihot-cat-btn:hover { border-color: var(--gold); color: var(--gold); transform: none; }
+.aihot-cat-btn.active { background: var(--gold-dim); border-color: var(--gold); color: var(--gold); }
+.aihot-scroll { flex: 1; overflow-y: auto; }
+.aihot-item {
+  padding: 11px 16px;
+  border-bottom: 1px dashed var(--border);
+  transition: background 0.15s;
+}
+.aihot-item:hover { background: var(--paper); }
+.aihot-item-row { display: flex; align-items: flex-start; gap: 6px; }
+.aihot-item-title {
+  font-family: var(--display); font-size: 13.5px;
+  color: var(--text); font-weight: 500;
+  line-height: 1.42; flex: 1;
+}
+.aihot-add-btn {
+  background: none; border: 1px solid transparent;
+  color: var(--gold); font-size: 16px; line-height: 1;
+  padding: 0 3px; cursor: pointer; opacity: 0.45;
+  transition: opacity 0.15s; flex-shrink: 0; margin-top: 1px;
+}
+.aihot-add-btn:hover { opacity: 1; border-color: transparent; transform: none; }
+.aihot-add-btn:disabled { opacity: 0.2; cursor: default; }
+.aihot-item-meta {
+  display: flex; align-items: center; gap: 6px;
+  margin-top: 4px; font-size: 10px; color: var(--text-faint);
+}
+.aihot-summary {
+  margin-top: 5px; font-size: 11.5px;
+  color: var(--text-dim); line-height: 1.55;
+}
+.aihot-status {
+  padding: 20px 16px;
+  color: var(--text-faint); font-style: italic;
+  font-family: var(--display); font-size: 13px;
+}
+
 .filter-panel {
   margin-top: 10px;
   padding: 12px 0 4px;
@@ -1976,6 +2035,7 @@ button.ai-btn:hover {
     <div class="inbox-tabs">
       <button class="inbox-tab active" data-itab="manual">手动录入</button>
       <button class="inbox-tab" data-itab="url">URL 抓取</button>
+      <button class="inbox-tab" data-itab="aihot">AI 热榜</button>
     </div>
 
     <div class="inbox-tab-content active" id="itabManual">
@@ -2011,6 +2071,24 @@ button.ai-btn:hover {
         <button class="primary" id="urlAdd" style="align-self: flex-start;">
           <span id="urlAddLabel">✦ 抓取并入库</span>
         </button>
+      </div>
+    </div>
+
+    <!-- AI 热榜 tab -->
+    <div class="inbox-tab-content" id="itabAihot">
+      <div class="aihot-toolbar">
+        <div class="aihot-cats" id="aihotCats">
+          <button class="aihot-cat-btn active" data-cat="">全部</button>
+          <button class="aihot-cat-btn" data-cat="ai-models">模型</button>
+          <button class="aihot-cat-btn" data-cat="ai-products">产品</button>
+          <button class="aihot-cat-btn" data-cat="industry">行业</button>
+          <button class="aihot-cat-btn" data-cat="paper">论文</button>
+          <button class="aihot-cat-btn" data-cat="tip">技巧</button>
+        </div>
+        <button class="primary" id="aihotRefresh" style="align-self:flex-start;padding:5px 14px;">✦ 拉今日精选</button>
+      </div>
+      <div class="aihot-scroll" id="aihotList">
+        <div class="aihot-status">点「拉今日精选」获取最新 AI 动态，可直接加入收件箱。</div>
       </div>
     </div>
 
@@ -3848,7 +3926,39 @@ function wireEvents() {
       document.querySelectorAll('.inbox-tab').forEach(x => x.classList.toggle('active', x === t));
       document.querySelectorAll('.inbox-tab-content').forEach(x => x.classList.remove('active'));
       document.getElementById('itab' + t.dataset.itab.charAt(0).toUpperCase() + t.dataset.itab.slice(1)).classList.add('active');
+      // aihot tab takes over left-column scroll area; hide normal inbox-list
+      const isAihot = t.dataset.itab === 'aihot';
+      const inboxListEl = document.getElementById('inboxList');
+      if (inboxListEl) inboxListEl.style.display = isAihot ? 'none' : '';
+      const topicWrap = document.getElementById('topicPoolWrap');
+      if (topicWrap) topicWrap.style.display = isAihot ? 'none' : '';
     });
+  });
+
+  // AI 热榜
+  document.getElementById('aihotRefresh').addEventListener('click', fetchAiHotItems);
+  document.getElementById('aihotCats').addEventListener('click', e => {
+    const btn = e.target.closest('.aihot-cat-btn');
+    if (!btn) return;
+    aihotCategory = btn.dataset.cat || '';
+    document.querySelectorAll('.aihot-cat-btn').forEach(b => b.classList.toggle('active', b === btn));
+  });
+  document.getElementById('aihotList').addEventListener('click', e => {
+    const btn = e.target.closest('.aihot-add-btn');
+    if (!btn || btn.disabled) return;
+    const title = btn.dataset.ahtitle;
+    const src = btn.dataset.ahsrc;
+    if (!title) return;
+    state.inbox.push({
+      id: generateId(), title, source: src || 'AI HOT', instinct: '',
+      status: 'pending', filters: [], direction: 'short',
+      created_at: new Date().toISOString()
+    });
+    saveData();
+    btn.textContent = '✓'; btn.disabled = true;
+    // flash count
+    document.getElementById('inboxCount').textContent = state.inbox.length;
+    toast('✓ 已加入收件箱');
   });
 
   // inbox manual add
@@ -4599,6 +4709,68 @@ function wireEvents() {
 
   // VP Re-extract button in settings modal
   document.getElementById('vpReExtract').addEventListener('click', vpReExtractFn);
+}
+
+// ============================================================
+//   AI 热榜 (aihot.virxact.com via Jina proxy)
+// ============================================================
+let aihotCategory = '';
+
+async function fetchAiHotItems() {
+  const btn = document.getElementById('aihotRefresh');
+  const list = document.getElementById('aihotList');
+  if (!btn || !list) return;
+  btn.disabled = true; btn.textContent = '拉取中…';
+  list.innerHTML = '<div class="aihot-status">正在拉取 AI 热榜…</div>';
+  try {
+    const since = new Date(Date.now() - 48 * 3600 * 1000).toISOString();
+    let target = 'https://aihot.virxact.com/api/public/items?mode=selected&take=40&since=' + encodeURIComponent(since);
+    if (aihotCategory) target += '&category=' + aihotCategory;
+    const resp = await fetch('https://r.jina.ai/' + target, { headers: { 'Accept': 'text/plain' } });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const text = await resp.text();
+    const m = text.match(/Markdown Content:\n([\s\S]+)/);
+    if (!m) throw new Error('返回格式异常');
+    const data = JSON.parse(m[1].trim());
+    renderAiHotItems(data.items || []);
+  } catch (e) {
+    list.innerHTML = '<div class="aihot-status">拉取失败：' + escapeHtml(e.message) + '</div>';
+  }
+  btn.disabled = false; btn.textContent = '✦ 拉今日精选';
+}
+
+function renderAiHotItems(items) {
+  const list = document.getElementById('aihotList');
+  if (!list) return;
+  if (!items.length) { list.innerHTML = '<div class="aihot-status">暂无内容</div>'; return; }
+  const catLabel = { 'ai-models': '模型', 'ai-products': '产品', 'industry': '行业', 'paper': '论文', 'tip': '技巧' };
+  list.innerHTML = items.map(item => {
+    const ago = aihotTimeAgo(item.publishedAt);
+    const cat = catLabel[item.category] || '';
+    return `<div class="aihot-item">
+      <div class="aihot-item-row">
+        <div class="aihot-item-title">${escapeHtml(item.title || item.title_en || '(无标题)')}</div>
+        <button class="aihot-add-btn" title="加入收件箱"
+          data-ahtitle="${escapeHtml(item.title || item.title_en || '')}"
+          data-ahsrc="${escapeHtml(item.source || 'AI HOT')}">＋</button>
+      </div>
+      <div class="aihot-item-meta">
+        ${cat ? `<span class="tag tag-source" style="font-size:8px;">${cat}</span>` : ''}
+        <span>${escapeHtml(item.source || '')}</span>
+        <span>${ago}</span>
+      </div>
+      ${item.summary ? `<div class="aihot-summary">${escapeHtml(item.summary)}</div>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function aihotTimeAgo(iso) {
+  if (!iso) return '';
+  const diff = Date.now() - new Date(iso).getTime();
+  const h = Math.floor(diff / 3600000);
+  if (h < 1) return Math.floor(diff / 60000) + ' 分钟前';
+  if (h < 24) return h + ' 小时前';
+  return Math.floor(h / 24) + ' 天前';
 }
 
 function toggleDrawer(forceOpen) {
