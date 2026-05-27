@@ -2348,6 +2348,21 @@ function saveDataNow() {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
 }
 
+// Backup reminder: check if data hasn't been exported in 7+ days
+let _backupReminded = false;
+function checkBackupReminder() {
+  if (_backupReminded) return;
+  const lastExport = state.settings && state.settings.last_export_date;
+  const dataAge = state.drafts.length + state.inbox.length;
+  if (dataAge < 3) return; // not enough data to worry about
+  if (lastExport) {
+    const daysSince = (Date.now() - new Date(lastExport).getTime()) / 86400000;
+    if (daysSince < 7) return;
+  } else if (dataAge < 5) return; // new user, give them time
+  _backupReminded = true;
+  toast('⚠ 已 ' + (lastExport ? Math.floor((Date.now() - new Date(lastExport).getTime()) / 86400000) + ' 天' : '很久') + '没备份了，点 ⚙ 导出 JSON', 'error');
+}
+
 function generateId() {
   return 'id-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 8);
 }
@@ -3257,13 +3272,16 @@ function wireEvents() {
     openModal('settingsModal');
   });
   document.getElementById('setExport').addEventListener('click', () => {
+    state.settings.last_export_date = new Date().toISOString();
+    saveDataNow();
     const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = '人间不延迟-备份-' + getToday() + '.json';
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-    toast('已导出', 'success');
+    _backupReminded = false;
+    toast('已导出，下次提醒已重置', 'success');
   });
   document.getElementById('setImport').addEventListener('click', () => {
     document.getElementById('setImportFile').click();
@@ -4026,6 +4044,7 @@ renderAll();
 wireEvents();
 restoreColumns();
 updateDrawerBadge();
+checkBackupReminder();
 if (state.ui.drawer_open) {
   document.getElementById('drawer').classList.add('open');
   document.getElementById('drawerToggleLabel').textContent = '收起';
