@@ -81,10 +81,13 @@ body::after {
   grid-template-rows: 64px 1fr auto;
   grid-template-columns: 300px 1fr 300px;
   height: 100vh;
-  min-width: 1280px;
+  min-width: 900px;
   position: relative;
   z-index: 1;
 }
+.app:has(.col-left.collapsed) { grid-template-columns: 0px 1fr 300px; }
+.app:has(.col-right.collapsed) { grid-template-columns: 300px 1fr 0px; }
+.app:has(.col-left.collapsed):has(.col-right.collapsed) { grid-template-columns: 0px 1fr 0px; }
 
 .header {
   grid-column: 1 / -1; grid-row: 1;
@@ -229,6 +232,44 @@ body::after {
   font-size: 10px; letter-spacing: 0.18em;
   text-transform: uppercase; color: var(--text-faint);
 }
+
+/* ============ Header Nav ============ */
+.header-nav {
+  display: flex; gap: 2px; margin-right: 20px;
+}
+.nav-pill {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.06em;
+  padding: 4px 10px; border-radius: 4px; cursor: pointer;
+  color: var(--text-faint); background: transparent;
+  border: 1px solid transparent; transition: all 0.2s ease;
+  user-select: none;
+}
+.nav-pill:hover { color: var(--text-dim); background: var(--paper); }
+.nav-pill.active { color: var(--gold); border-color: var(--gold-dim); background: var(--gold-dim); }
+
+/* ============ Column Toggle ============ */
+.col-left.collapsed { width: 0; min-width: 0; overflow: hidden; border: none; opacity: 0; }
+.col-right.collapsed { width: 0; min-width: 0; overflow: hidden; border: none; opacity: 0; }
+.col-left, .col-right { transition: width 0.3s ease, opacity 0.3s ease; }
+
+.col-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px; border-radius: 3px; cursor: pointer;
+  font-size: 10px; color: var(--text-faint); background: transparent;
+  border: 1px solid var(--border); transition: all 0.2s ease;
+  margin-left: auto; flex-shrink: 0;
+}
+.col-toggle:hover { color: var(--gold); border-color: var(--gold-dim); }
+
+/* ============ Drawer Badge ============ */
+.drawer-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 16px; height: 16px; border-radius: 8px;
+  font-size: 9px; font-weight: 500; padding: 0 4px;
+  background: var(--gold); color: var(--bg);
+  margin-left: 6px; transition: transform 0.2s ease;
+}
+.drawer-badge:empty, .drawer-badge[data-count="0"] { display: none; }
 
 /* ============ Inputs ============ */
 .field { display: flex; flex-direction: column; gap: 4px; }
@@ -1602,6 +1643,11 @@ button.ai-btn:hover {
       <span class="brand-tag">Studio</span>
     </div>
     <div class="header-spacer"></div>
+    <nav class="header-nav">
+      <button class="nav-pill active" data-nav="left" title="选题收件箱 (1)">I 收件箱</button>
+      <button class="nav-pill active" data-nav="center" title="编辑桌 (2)">II 编辑桌</button>
+      <button class="nav-pill active" data-nav="right" title="资料柜 (3)">III 资料柜</button>
+    </nav>
     <div class="date" id="dateLabel">—</div>
     <div class="metric" id="metricTweets" title="点击 +1">
       <span class="metric-label">今日短推</span>
@@ -1626,6 +1672,7 @@ button.ai-btn:hover {
       <span class="section-title">选题收件箱</span>
       <span class="section-rule"></span>
       <span class="section-aux" id="inboxCount">0</span>
+      <button class="col-toggle" data-toggle-col="left" title="收起/展开 (1)">◀</button>
     </div>
 
     <div class="inbox-tabs">
@@ -1698,6 +1745,7 @@ button.ai-btn:hover {
     <div class="section-header">
       <span class="section-num">II.</span>
       <span class="section-title">编辑桌</span>
+      <button class="col-toggle" data-toggle-col="center" title="收起/展开 (2)" style="visibility:hidden;">◀</button>
       <span class="section-rule"></span>
       <span class="section-aux" id="editorState">空白稿纸</span>
     </div>
@@ -1763,6 +1811,7 @@ button.ai-btn:hover {
       <span class="section-num">III.</span>
       <span class="section-title">资料柜</span>
       <span class="section-rule"></span>
+      <button class="col-toggle" data-toggle-col="right" title="收起/展开 (3)">◀</button>
     </div>
 
     <div class="right-tabs">
@@ -1846,6 +1895,7 @@ button.ai-btn:hover {
       </button>
       <div class="drawer-spacer"></div>
       <button class="drawer-toggle" id="drawerToggle">
+        <span class="drawer-badge" id="drawerBadge"></span>
         <span id="drawerToggleLabel">展开</span>
         <span class="chev">▲</span>
       </button>
@@ -2627,6 +2677,7 @@ function renderSkills() {
 function renderDrafts() {
   const list = document.getElementById('draftsList');
   document.getElementById('draftCount').textContent = String(state.drafts.length).padStart(2,'0');
+  updateDrawerBadge();
   if (!state.drafts.length) {
     list.innerHTML = '<div class="empty"><span class="ornament">❦</span>还没有草稿。<br>写完一篇，先放进来。</div>';
     return;
@@ -3911,11 +3962,70 @@ function openSkillPicker(extras) {
 }
 
 // ============================================================
+//   COLUMN TOGGLE & NAV
+// ============================================================
+function toggleColumn(col) {
+  const el = document.querySelector('.col-' + col);
+  if (!el) return;
+  const collapsed = el.classList.toggle('collapsed');
+  // update nav pill
+  const pill = document.querySelector('.nav-pill[data-nav="' + col + '"]');
+  if (pill) pill.classList.toggle('active', !collapsed);
+  // update toggle button arrow
+  const btn = document.querySelector('.col-toggle[data-toggle-col="' + col + '"]');
+  if (btn) btn.textContent = collapsed ? '▶' : '◀';
+  // persist
+  state.ui = state.ui || {};
+  state.ui['col_' + col + '_collapsed'] = collapsed;
+  saveData();
+}
+
+function restoreColumns() {
+  ['left', 'right'].forEach(col => {
+    const collapsed = state.ui && state.ui['col_' + col + '_collapsed'];
+    if (collapsed) {
+      const el = document.querySelector('.col-' + col);
+      if (el) el.classList.add('collapsed');
+      const pill = document.querySelector('.nav-pill[data-nav="' + col + '"]');
+      if (pill) pill.classList.remove('active');
+      const btn = document.querySelector('.col-toggle[data-toggle-col="' + col + '"]');
+      if (btn) btn.textContent = '▶';
+    }
+  });
+}
+
+function updateDrawerBadge() {
+  const badge = document.getElementById('drawerBadge');
+  if (!badge) return;
+  const count = state.drafts ? state.drafts.length : 0;
+  badge.textContent = count > 0 ? count : '';
+  badge.dataset.count = count;
+}
+
+// Wire nav pills
+document.querySelectorAll('.nav-pill').forEach(pill => {
+  pill.addEventListener('click', () => toggleColumn(pill.dataset.nav));
+});
+// Wire column toggles
+document.querySelectorAll('.col-toggle').forEach(btn => {
+  btn.addEventListener('click', () => toggleColumn(btn.dataset.toggleCol));
+});
+// Keyboard shortcuts: 1/2/3 toggle columns
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+  if (e.key === '1') toggleColumn('left');
+  else if (e.key === '2') {} // center is always visible
+  else if (e.key === '3') toggleColumn('right');
+});
+
+// ============================================================
 //   INIT
 // ============================================================
 loadData();
 renderAll();
 wireEvents();
+restoreColumns();
+updateDrawerBadge();
 if (state.ui.drawer_open) {
   document.getElementById('drawer').classList.add('open');
   document.getElementById('drawerToggleLabel').textContent = '收起';
