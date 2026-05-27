@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>内容工作台 · Studio</title>
+<title>人间不延迟 · 工作台</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -16,11 +16,11 @@
   --paper: rgba(28, 22, 10, 0.030);
   --paper-hi: rgba(28, 22, 10, 0.056);
   --paper-act: rgba(28, 22, 10, 0.082);
-  --border: rgba(28, 22, 10, 0.13);
-  --border-hi: rgba(28, 22, 10, 0.30);
+  --border: rgba(28, 22, 10, 0.09);
+  --border-hi: rgba(28, 22, 10, 0.22);
   --text: #1c1710;
   --text-dim: rgba(28, 23, 16, 0.60);
-  --text-faint: rgba(28, 23, 16, 0.46);
+  --text-faint: rgba(28, 23, 16, 0.38);
   --gold: #8c6010;
   --gold-soft: rgba(140, 96, 16, 0.82);
   --gold-dim: rgba(140, 96, 16, 0.13);
@@ -39,7 +39,7 @@ html, body {
   height: 100vh;
   overflow: hidden;
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   color: var(--text);
   background: var(--bg);
@@ -81,10 +81,13 @@ body::after {
   grid-template-rows: 64px 1fr auto;
   grid-template-columns: 300px 1fr 300px;
   height: 100vh;
-  min-width: 1280px;
+  min-width: 900px;
   position: relative;
   z-index: 1;
 }
+.app:has(.col-left.collapsed) { grid-template-columns: 0px 1fr 300px; }
+.app:has(.col-right.collapsed) { grid-template-columns: 300px 1fr 0px; }
+.app:has(.col-left.collapsed):has(.col-right.collapsed) { grid-template-columns: 0px 1fr 0px; }
 
 .header {
   grid-column: 1 / -1; grid-row: 1;
@@ -178,24 +181,13 @@ body::after {
 .btn-start:hover { background: var(--gold-dim); transform: translateY(-1px); }
 .btn-start:hover::before { transform: translateX(100%); }
 .btn-start.active {
-  background: rgba(140, 96, 16, 0.18);
-  color: var(--gold);
+  background: var(--gold-dim); color: var(--gold);
   border-color: var(--gold);
-  box-shadow: 0 0 0 1px var(--gold-dim) inset;
-  animation: breathe 2.8s ease-in-out infinite;
-  font-weight: 500;
+  animation: breathe 3.2s ease-in-out infinite;
 }
 @keyframes breathe {
-  0%, 100% { box-shadow: 0 0 0 1px var(--gold-dim) inset, 0 0 0 0 rgba(201, 168, 76, 0); }
-  50% { box-shadow: 0 0 0 1px var(--gold-dim) inset, 0 0 12px 2px rgba(201, 168, 76, 0.18); }
-}
-/* Header ambient glow when creating */
-.header.creating {
-  background: linear-gradient(180deg, rgba(201, 168, 76, 0.09), rgba(201, 168, 76, 0.02));
-  border-bottom-color: rgba(140, 96, 16, 0.25);
-}
-.header.creating::after {
-  background: linear-gradient(90deg, transparent, rgba(140, 96, 16, 0.28), transparent);
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0); opacity: 1; }
+  50% { box-shadow: 0 0 0 6px rgba(201, 168, 76, 0.07); opacity: 0.88; }
 }
 
 .icon-btn {
@@ -228,7 +220,7 @@ body::after {
   font-size: 12px; color: var(--gold); letter-spacing: 0.05em;
 }
 .section-title {
-  font-family: var(--display); font-size: 17px;
+  font-family: var(--display); font-size: 15.5px;
   font-weight: 500; letter-spacing: 0.01em;
 }
 .section-rule {
@@ -240,6 +232,44 @@ body::after {
   font-size: 10px; letter-spacing: 0.18em;
   text-transform: uppercase; color: var(--text-faint);
 }
+
+/* ============ Header Nav ============ */
+.header-nav {
+  display: flex; gap: 2px; margin-right: 20px;
+}
+.nav-pill {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.06em;
+  padding: 4px 10px; border-radius: 4px; cursor: pointer;
+  color: var(--text-faint); background: transparent;
+  border: 1px solid transparent; transition: all 0.2s ease;
+  user-select: none;
+}
+.nav-pill:hover { color: var(--text-dim); background: var(--paper); }
+.nav-pill.active { color: var(--gold); border-color: var(--gold-dim); background: var(--gold-dim); }
+
+/* ============ Column Toggle ============ */
+.col-left.collapsed { width: 0; min-width: 0; overflow: hidden; border: none; opacity: 0; }
+.col-right.collapsed { width: 0; min-width: 0; overflow: hidden; border: none; opacity: 0; }
+.col-left, .col-right { transition: width 0.3s ease, opacity 0.3s ease; }
+
+.col-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px; border-radius: 3px; cursor: pointer;
+  font-size: 10px; color: var(--text-faint); background: transparent;
+  border: 1px solid var(--border); transition: all 0.2s ease;
+  margin-left: auto; flex-shrink: 0;
+}
+.col-toggle:hover { color: var(--gold); border-color: var(--gold-dim); }
+
+/* ============ Drawer Badge ============ */
+.drawer-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 16px; height: 16px; border-radius: 8px;
+  font-size: 9px; font-weight: 500; padding: 0 4px;
+  background: var(--gold); color: var(--bg);
+  margin-left: 6px; transition: transform 0.2s ease;
+}
+.drawer-badge:empty, .drawer-badge[data-count="0"] { display: none; }
 
 /* ============ Inputs ============ */
 .field { display: flex; flex-direction: column; gap: 4px; }
@@ -346,7 +376,7 @@ button.muted { color: var(--text-dim); border-color: var(--border); }
 .inbox-item.dropped .inbox-item-title { color: var(--text-faint); text-decoration: line-through; }
 
 .inbox-item-title {
-  font-family: var(--display); font-size: 15.5px;
+  font-family: var(--display); font-size: 14.5px;
   color: var(--text); font-weight: 500;
   margin-bottom: 8px; line-height: 1.45;
 }
@@ -386,65 +416,6 @@ button.muted { color: var(--text-dim); border-color: var(--border); }
   padding: 8px 14px;
   border-left: 2px solid var(--gold-dim);
   margin: 6px 0; line-height: 1.55;
-}
-
-/* AI 热榜 tab */
-#itabAihot.active {
-  flex: 1;
-  overflow: hidden;
-  display: flex !important;
-  flex-direction: column;
-  gap: 0;
-}
-.aihot-toolbar {
-  padding: 10px 16px 8px;
-  border-bottom: 1px solid var(--border);
-  display: flex; flex-direction: column; gap: 8px;
-  flex-shrink: 0;
-}
-.aihot-cats { display: flex; gap: 5px; flex-wrap: wrap; }
-.aihot-cat-btn {
-  padding: 3px 9px; border-radius: 9px;
-  border: 1px solid var(--border); background: none;
-  font-family: var(--mono); font-size: 10px; cursor: pointer;
-  color: var(--text-dim); text-transform: none; letter-spacing: 0;
-  transition: all 0.15s;
-}
-.aihot-cat-btn:hover { border-color: var(--gold); color: var(--gold); transform: none; }
-.aihot-cat-btn.active { background: var(--gold-dim); border-color: var(--gold); color: var(--gold); }
-.aihot-scroll { flex: 1; overflow-y: auto; }
-.aihot-item {
-  padding: 11px 16px;
-  border-bottom: 1px dashed var(--border);
-  transition: background 0.15s;
-}
-.aihot-item:hover { background: var(--paper); }
-.aihot-item-row { display: flex; align-items: flex-start; gap: 6px; }
-.aihot-item-title {
-  font-family: var(--display); font-size: 13.5px;
-  color: var(--text); font-weight: 500;
-  line-height: 1.42; flex: 1;
-}
-.aihot-add-btn {
-  background: none; border: 1px solid transparent;
-  color: var(--gold); font-size: 16px; line-height: 1;
-  padding: 0 3px; cursor: pointer; opacity: 0.45;
-  transition: opacity 0.15s; flex-shrink: 0; margin-top: 1px;
-}
-.aihot-add-btn:hover { opacity: 1; border-color: transparent; transform: none; }
-.aihot-add-btn:disabled { opacity: 0.2; cursor: default; }
-.aihot-item-meta {
-  display: flex; align-items: center; gap: 6px;
-  margin-top: 4px; font-size: 10px; color: var(--text-faint);
-}
-.aihot-summary {
-  margin-top: 5px; font-size: 11.5px;
-  color: var(--text-dim); line-height: 1.55;
-}
-.aihot-status {
-  padding: 20px 16px;
-  color: var(--text-faint); font-style: italic;
-  font-family: var(--display); font-size: 13px;
 }
 
 .filter-panel {
@@ -1488,31 +1459,6 @@ button.ai-btn:hover {
   animation: blink 1s steps(1) infinite;
 }
 
-/* ============ Create-mode flash overlay ============ */
-.create-flash {
-  position: fixed; inset: 0; z-index: 9999;
-  display: flex; align-items: center; justify-content: center;
-  pointer-events: none;
-  animation: cfBg 1.6s ease forwards;
-}
-.create-flash span {
-  font-family: var(--display); font-style: italic;
-  font-size: 36px; color: var(--gold);
-  letter-spacing: 0.12em;
-  animation: cfText 1.6s ease forwards;
-}
-@keyframes cfBg {
-  0%   { background: rgba(201,168,76,0); }
-  20%  { background: rgba(201,168,76,0.10); }
-  100% { background: rgba(201,168,76,0); }
-}
-@keyframes cfText {
-  0%   { opacity: 0; transform: scale(0.88) translateY(12px); }
-  25%  { opacity: 1; transform: scale(1) translateY(0); }
-  70%  { opacity: 1; transform: scale(1) translateY(0); }
-  100% { opacity: 0; transform: scale(1.06) translateY(-6px); }
-}
-
 /* Toast */
 .toast-container {
   position: fixed; bottom: 24px; left: 50%;
@@ -1684,340 +1630,6 @@ button.ai-btn:hover {
 }
 .diff-opt:hover { background: var(--gold-dim); border-color: var(--gold-dim); }
 .diff-opt-icon { font-size: 14px; width: 20px; text-align: center; }
-
-/* ============ Phase 2: Feedback Layer ============ */
-
-.draft-feedback-row {
-  grid-column: 1 / -1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 8px;
-  border-top: 1px solid var(--border);
-  font-size: 12px;
-  gap: 8px;
-}
-
-.draft-status-area { display: flex; align-items: center; gap: 6px; }
-
-.draft-status-badge {
-  padding: 2px 8px;
-  border-radius: 10px;
-  font-size: 11px;
-  font-weight: 500;
-  cursor: pointer;
-  user-select: none;
-  transition: background 0.15s;
-  white-space: nowrap;
-}
-.status-drafting { background: rgba(28,23,16,0.07); color: var(--text-dim); }
-.status-ready    { background: rgba(56,100,40,0.12); color: var(--g-pub); }
-.status-published{ background: rgba(43,95,128,0.13); color: var(--b-active); }
-
-.draft-platform-icons { font-size: 12px; letter-spacing: 1px; opacity: 0.75; }
-
-.draft-perf-area { display: flex; align-items: center; gap: 2px; }
-
-.perf-btn {
-  background: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  padding: 1px 5px;
-  cursor: pointer;
-  font-size: 13px;
-  opacity: 0.3;
-  transition: all 0.15s;
-  line-height: 1.6;
-}
-.perf-btn:hover { opacity: 0.65; background: var(--paper); }
-.perf-btn.active         { opacity: 1; border-color: var(--gold); background: var(--gold-dim); }
-.perf-btn.active.fire    { border-color: #c96a30; background: rgba(201,106,48,0.10); }
-.perf-btn.active.ok      { border-color: #5a7a3a; background: rgba(90,122,58,0.10); }
-.perf-btn.active.cold    { border-color: #4a6a9a; background: rgba(74,106,154,0.10); }
-
-.perf-note-input {
-  display: none;
-  width: 88px;
-  font-size: 11px;
-  padding: 2px 6px;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  background: var(--bg-warm);
-  color: var(--text-dim);
-  margin-left: 4px;
-  font-family: var(--mono);
-}
-.perf-note-input.visible { display: inline-block; }
-
-.perf-summary {
-  background: var(--bg-elev);
-  border-radius: 6px;
-  padding: 12px 16px;
-  margin: 0 16px 10px;
-  font-size: 12px;
-  color: var(--text-dim);
-}
-.perf-summary h4 {
-  font-size: 12px; font-weight: 600; color: var(--text);
-  margin: 0 0 8px 0; font-family: var(--mono);
-}
-.perf-summary-grid {
-  display: flex; gap: 14px; flex-wrap: wrap;
-}
-.perf-summary-stat { display: flex; align-items: center; gap: 3px; font-size: 12px; }
-.perf-summary-stat .pnum { font-weight: 700; color: var(--text); font-size: 14px; }
-.perf-top3 { margin-top: 8px; font-size: 11px; line-height: 1.7; color: var(--text-dim); }
-
-.platform-select-popup {
-  position: fixed;
-  background: var(--bg);
-  border: 1px solid var(--border-hi);
-  border-radius: 8px;
-  padding: 14px 16px;
-  box-shadow: 0 8px 28px var(--gray-drop);
-  z-index: 1500;
-  min-width: 200px;
-}
-.platform-select-popup h4 {
-  margin: 0 0 10px 0; font-size: 13px; color: var(--text);
-  font-family: var(--mono);
-}
-.platform-check-row {
-  display: flex; align-items: center;
-  gap: 8px; padding: 4px 0; cursor: pointer;
-  font-size: 12px; color: var(--text);
-}
-.platform-check-row input { accent-color: var(--gold); }
-.platform-confirm-btn {
-  margin-top: 12px; width: 100%;
-  padding: 6px; background: var(--gold); color: white;
-  border: none; border-radius: 5px;
-  cursor: pointer; font-size: 12px; font-weight: 500;
-  font-family: var(--mono);
-}
-.platform-confirm-btn:hover { background: var(--gold-soft); }
-
-/* ============ Phase 3: Series + Calendar ============ */
-
-.series-tag {
-  display: inline-block;
-  padding: 1px 7px;
-  border-radius: 9px;
-  font-size: 10.5px;
-  font-weight: 500;
-  margin-left: 6px;
-  cursor: pointer;
-  white-space: nowrap;
-  vertical-align: middle;
-  line-height: 1.5;
-}
-
-.series-filter-bar {
-  display: flex; align-items: center;
-  gap: 6px; padding: 6px 16px 8px;
-  border-bottom: 1px dashed var(--border);
-}
-.series-filter-bar select {
-  padding: 3px 8px;
-  border: 1px solid var(--border);
-  border-radius: 5px;
-  background: var(--bg-warm);
-  color: var(--text);
-  font-size: 11.5px;
-  font-family: var(--mono);
-}
-
-.series-mgmt-row {
-  display: flex; align-items: center; gap: 8px;
-  padding: 6px 0;
-  border-bottom: 1px solid var(--border);
-}
-.series-mgmt-row:last-child { border-bottom: none; }
-.series-mgmt-row input[type="color"] { width: 28px; height: 24px; padding: 0; cursor: pointer; border: none; }
-.series-mgmt-row input[type="text"] {
-  padding: 3px 8px; border: 1px solid var(--border); border-radius: 4px;
-  font-size: 12px; background: var(--bg-warm); color: var(--text);
-}
-.series-mgmt-row .series-del { background: none; border: none; color: var(--red); cursor: pointer; font-size: 14px; padding: 0 3px; }
-
-.series-picker-popup { min-width: 180px; }
-
-/* Calendar */
-.calendar-nav {
-  display: flex; align-items: center;
-  justify-content: center; gap: 12px;
-  padding: 8px 0 10px;
-}
-.calendar-nav button {
-  background: none; border: 1px solid var(--border);
-  border-radius: 4px; padding: 3px 10px;
-  cursor: pointer; font-size: 13px; color: var(--text);
-}
-.calendar-nav button:hover { border-color: var(--gold); color: var(--gold); }
-.calendar-nav .month-label {
-  font-weight: 600; font-size: 13px;
-  min-width: 90px; text-align: center;
-  color: var(--text);
-}
-
-.calendar-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 3px; padding: 0 8px 12px;
-}
-.calendar-day-header {
-  text-align: center; font-size: 10px;
-  color: var(--text-faint); padding: 4px 0;
-}
-.calendar-day {
-  min-height: 52px; border: 1px solid var(--border);
-  border-radius: 4px; padding: 3px 4px;
-  font-size: 10px; background: var(--bg-warm);
-}
-.calendar-day.today { border-color: var(--gold); background: var(--gold-dim); }
-.calendar-day.other-month { opacity: 0.35; }
-.calendar-day .day-num {
-  font-weight: 600; color: var(--text-dim);
-  margin-bottom: 2px; font-size: 10px;
-}
-.cal-draft {
-  background: var(--bg-elev);
-  border-radius: 3px; padding: 1px 4px;
-  margin: 1px 0; font-size: 9px;
-  cursor: pointer; white-space: nowrap;
-  overflow: hidden; text-overflow: ellipsis;
-  color: var(--text-dim);
-}
-.cal-draft:hover { background: var(--gold-dim); color: var(--gold); }
-
-.schedule-row {
-  display: flex; align-items: center;
-  gap: 8px; padding: 6px 0 4px;
-  font-size: 11.5px; color: var(--text-dim);
-  border-top: 1px solid var(--border);
-  margin-top: 4px;
-}
-.schedule-row input[type="date"] {
-  padding: 2px 7px; border: 1px solid var(--border);
-  border-radius: 4px; font-size: 11px;
-  background: var(--bg-warm); color: var(--text);
-  font-family: var(--mono);
-}
-.schedule-row .clear-sch {
-  background: none; border: none;
-  cursor: pointer; font-size: 11px;
-  color: var(--text-faint); padding: 0;
-}
-.schedule-row .clear-sch:hover { color: var(--red); }
-
-/* ============ Onboarding ============ */
-.onboard-modal .modal { max-width: 520px; }
-.onboard-steps {
-  display: flex; align-items: center; gap: 6px;
-  margin-bottom: 28px;
-}
-.onboard-step-dot {
-  width: 8px; height: 8px; border-radius: 50%;
-  background: var(--bg-elev); transition: background 0.2s;
-}
-.onboard-step-dot.active { background: var(--gold); }
-.onboard-step-dot.done { background: var(--gold-soft); }
-.onboard-hero {
-  font-size: 32px; text-align: center; margin-bottom: 12px;
-}
-.onboard-title {
-  font-size: 15px; font-weight: 600; text-align: center;
-  margin-bottom: 8px; color: var(--text);
-}
-.onboard-body {
-  font-size: 12px; color: var(--text-dim);
-  text-align: center; line-height: 1.7; margin-bottom: 24px;
-}
-.onboard-nav {
-  display: flex; justify-content: space-between; align-items: center;
-  margin-top: 8px;
-}
-.onboard-skip { font-size: 11px; color: var(--text-faint); cursor: pointer; }
-.onboard-skip:hover { color: var(--text-dim); }
-.kbd-hint {
-  font-size: 11px; color: var(--text-faint);
-  background: var(--bg-elev); border-radius: 4px;
-  padding: 2px 5px; display: inline-block; font-family: var(--mono);
-}
-
-/* ============ VP Update Banner ============ */
-.vp-update-banner {
-  background: rgba(158,108,8,0.10);
-  border: 1px solid var(--y-pending);
-  border-radius: 6px;
-  padding: 10px 14px;
-  font-size: 11.5px;
-  color: var(--y-pending);
-  display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
-}
-
-/* ============ Rule Checker Modal ============ */
-.rule-platform-tabs { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
-.rule-tab {
-  padding: 4px 11px; border-radius: 12px; border: 1px solid var(--border);
-  background: none; font-family: var(--mono); font-size: 11px;
-  cursor: pointer; color: var(--text-dim); transition: all 0.15s;
-}
-.rule-tab.active { background: var(--gold-dim); border-color: var(--gold); color: var(--gold); }
-.rule-global-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; font-size: 12px; border-bottom: 1px solid var(--border); }
-.rule-global-row:last-child { border-bottom: none; }
-.rule-pass { color: var(--g-pub); }
-.rule-warn { color: var(--y-pending); }
-.rule-fail { color: var(--red); }
-.rule-icon { width: 16px; flex-shrink: 0; font-size: 13px; }
-.rule-platform-results { background: var(--bg-warm); border-radius: 6px; padding: 12px 14px; margin-top: 12px; }
-.rule-plat-title { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin-bottom: 10px; }
-
-/* ============ Shortcut Help Modal ============ */
-.shortcut-table { width: 100%; border-collapse: collapse; }
-.shortcut-table td { padding: 7px 10px; font-size: 12px; border-bottom: 1px solid var(--border); }
-.shortcut-table tr:last-child td { border-bottom: none; }
-.shortcut-table td:first-child {
-  font-family: var(--mono); color: var(--gold); font-weight: 500;
-  white-space: nowrap; width: 110px;
-}
-
-/* ============ Export Dropdown ============ */
-.draft-export-wrap { position: relative; flex-shrink: 0; }
-.draft-export-btn {
-  background: none; border: none; cursor: pointer; padding: 2px 5px;
-  color: var(--text-faint); font-size: 13px; border-radius: 3px;
-  font-family: var(--mono); transition: color 0.15s;
-}
-.draft-export-btn:hover { color: var(--text-dim); background: var(--paper); }
-.export-drop {
-  position: absolute; right: 0; top: 100%; margin-top: 2px;
-  background: var(--bg); border: 1px solid var(--border-hi);
-  border-radius: 6px; padding: 4px 0; z-index: 300;
-  min-width: 150px; box-shadow: 0 4px 16px var(--gray-drop);
-  display: none;
-}
-.export-drop.open { display: block; }
-.export-drop-item {
-  display: block; width: 100%; padding: 7px 13px; text-align: left;
-  background: none; border: none; font-family: var(--mono); font-size: 11px;
-  cursor: pointer; color: var(--text);
-}
-.export-drop-item:hover { background: var(--paper); }
-
-/* ============ Data Dashboard ============ */
-.data-dashboard { padding: 12px 16px; overflow-y: auto; max-height: 100%; }
-.data-stats-row { display: flex; gap: 10px; margin-bottom: 16px; }
-.data-stat { flex: 1; background: var(--bg-warm); border-radius: 6px; padding: 10px 8px; text-align: center; }
-.data-num { font-size: 20px; font-weight: 700; color: var(--gold); font-family: var(--display); }
-.data-lbl { font-size: 10px; color: var(--text-faint); margin-top: 3px; letter-spacing: 0.04em; }
-.data-section-title { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-faint); margin: 14px 0 8px; }
-.data-bars { display: flex; flex-direction: column; gap: 7px; }
-.data-bar-row { display: flex; align-items: center; gap: 8px; font-size: 11px; }
-.data-bar-lbl { width: 72px; flex-shrink: 0; color: var(--text-dim); text-align: right; font-size: 10.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.data-bar-track { flex: 1; height: 7px; background: var(--bg-elev); border-radius: 4px; overflow: hidden; }
-.data-bar-fill { height: 100%; background: linear-gradient(90deg, rgba(140,96,16,0.5), rgba(140,96,16,0.2)); border-radius: 4px; transition: width 0.5s ease; min-width: 2px; }
-.data-bar-num { width: 22px; text-align: right; color: var(--text-faint); font-size: 10px; }
 </style>
 </head>
 <body>
@@ -2026,11 +1638,16 @@ button.ai-btn:hover {
   <!-- ============ HEADER ============ -->
   <header class="header stagger">
     <div class="brand">
-      <span class="brand-name">内容工作台</span>
+      <span class="brand-name">人间不延迟</span>
       <span class="brand-mark">✦</span>
       <span class="brand-tag">Studio</span>
     </div>
     <div class="header-spacer"></div>
+    <nav class="header-nav">
+      <button class="nav-pill active" data-nav="left" title="选题收件箱 (1)">I 收件箱</button>
+      <button class="nav-pill active" data-nav="center" title="编辑桌 (2)">II 编辑桌</button>
+      <button class="nav-pill active" data-nav="right" title="资料柜 (3)">III 资料柜</button>
+    </nav>
     <div class="date" id="dateLabel">—</div>
     <div class="metric" id="metricTweets" title="点击 +1">
       <span class="metric-label">今日短推</span>
@@ -2055,12 +1672,12 @@ button.ai-btn:hover {
       <span class="section-title">选题收件箱</span>
       <span class="section-rule"></span>
       <span class="section-aux" id="inboxCount">0</span>
+      <button class="col-toggle" data-toggle-col="left" title="收起/展开 (1)">◀</button>
     </div>
 
     <div class="inbox-tabs">
       <button class="inbox-tab active" data-itab="manual">手动录入</button>
       <button class="inbox-tab" data-itab="url">URL 抓取</button>
-      <button class="inbox-tab" data-itab="aihot">AI 热榜</button>
     </div>
 
     <div class="inbox-tab-content active" id="itabManual">
@@ -2099,24 +1716,6 @@ button.ai-btn:hover {
       </div>
     </div>
 
-    <!-- AI 热榜 tab -->
-    <div class="inbox-tab-content" id="itabAihot">
-      <div class="aihot-toolbar">
-        <div class="aihot-cats" id="aihotCats">
-          <button class="aihot-cat-btn active" data-cat="">全部</button>
-          <button class="aihot-cat-btn" data-cat="ai-models">模型</button>
-          <button class="aihot-cat-btn" data-cat="ai-products">产品</button>
-          <button class="aihot-cat-btn" data-cat="industry">行业</button>
-          <button class="aihot-cat-btn" data-cat="paper">论文</button>
-          <button class="aihot-cat-btn" data-cat="tip">技巧</button>
-        </div>
-        <button class="primary" id="aihotRefresh" style="align-self:flex-start;padding:5px 14px;">✦ 拉今日精选</button>
-      </div>
-      <div class="aihot-scroll" id="aihotList">
-        <div class="aihot-status">点「拉今日精选」获取最新 AI 动态，可直接加入收件箱。</div>
-      </div>
-    </div>
-
     <div class="inbox-list" id="inboxList"></div>
 
     <!-- Topic Pool -->
@@ -2146,6 +1745,7 @@ button.ai-btn:hover {
     <div class="section-header">
       <span class="section-num">II.</span>
       <span class="section-title">编辑桌</span>
+      <button class="col-toggle" data-toggle-col="center" title="收起/展开 (2)" style="visibility:hidden;">◀</button>
       <span class="section-rule"></span>
       <span class="section-aux" id="editorState">空白稿纸</span>
     </div>
@@ -2188,11 +1788,6 @@ button.ai-btn:hover {
           <button class="ghost editor-ref-clear hidden" id="edRefClear" title="清除参考">×</button>
           <div class="ref-pop" id="refPop"></div>
         </div>
-        <div class="schedule-row" id="scheduleRow">
-          <span>📅 计划发布</span>
-          <input type="date" id="scheduleDateInput">
-          <button class="clear-sch" id="clearScheduleBtn">清除</button>
-        </div>
         <textarea class="editor-textarea" id="edText" placeholder="此刻在想的——写下来。"></textarea>
       </div>
 
@@ -2201,7 +1796,6 @@ button.ai-btn:hover {
         <button class="ghost hidden" id="edUndo" title="撤销上次 Skill 替换">↩ 撤销</button>
         <button class="ghost" id="edClear">清空</button>
         <button class="ghost" id="edCopy">复制</button>
-        <button class="ghost" id="edCheck" title="检查内容是否符合平台规范">✓ 检查</button>
         <button id="edSave">存为草稿</button>
         <button class="ai-btn" id="edSkill">Skill 写</button>
         <button class="ai-btn" id="edPolish">改写</button>
@@ -2217,6 +1811,7 @@ button.ai-btn:hover {
       <span class="section-num">III.</span>
       <span class="section-title">资料柜</span>
       <span class="section-rule"></span>
+      <button class="col-toggle" data-toggle-col="right" title="收起/展开 (3)">◀</button>
     </div>
 
     <div class="right-tabs">
@@ -2298,16 +1893,9 @@ button.ai-btn:hover {
         <span>AI 对话</span>
         <span class="count" id="chatCount">0</span>
       </button>
-      <button class="drawer-tab-btn" data-dtab="calendar">
-        <span class="label-num">VI —</span>
-        <span>日历</span>
-      </button>
-      <button class="drawer-tab-btn" data-dtab="data">
-        <span class="label-num">VII —</span>
-        <span>数据</span>
-      </button>
       <div class="drawer-spacer"></div>
       <button class="drawer-toggle" id="drawerToggle">
+        <span class="drawer-badge" id="drawerBadge"></span>
         <span id="drawerToggleLabel">展开</span>
         <span class="chev">▲</span>
       </button>
@@ -2316,28 +1904,11 @@ button.ai-btn:hover {
     <div class="drawer-body">
       <!-- Drafts panel -->
       <div class="drawer-panel active" id="dpDrafts">
-        <div id="perfSummaryPanel" class="perf-summary hidden"></div>
-        <div class="series-filter-bar" id="seriesFilterBar">
-          <select id="seriesFilterSelect">
-            <option value="">📚 全部系列</option>
-          </select>
-        </div>
         <div class="drawer-controls">
-          <span class="hint">点状态徽章切换 · 发布后标记效果</span>
+          <span class="hint">勾选目标平台 · 发布后点击「✓」标记已发</span>
           <button class="ghost" id="markAllPub">全部标记已发</button>
         </div>
         <div class="drafts-content" id="draftsList"></div>
-      </div>
-
-      <!-- Calendar panel -->
-      <div class="drawer-panel" id="dpCalendar">
-        <div class="calendar-nav" id="calNav"></div>
-        <div class="calendar-grid" id="calGrid"></div>
-      </div>
-
-      <!-- Data dashboard panel -->
-      <div class="drawer-panel" id="dpData">
-        <div class="data-dashboard" id="dataDashboard"></div>
       </div>
 
       <!-- Chat panel -->
@@ -2363,8 +1934,6 @@ button.ai-btn:hover {
 
 </div>
 
-<div style="position:fixed;bottom:6px;right:12px;font-size:9px;color:var(--text-faint);opacity:0.35;pointer-events:none;z-index:2;letter-spacing:0.12em;">内容工作台 · v1.0</div>
-
 <!-- ============ SETTINGS MODAL ============ -->
 <div class="modal-backdrop" id="settingsModal">
   <div class="modal">
@@ -2389,7 +1958,7 @@ button.ai-btn:hover {
       </div>
       <div class="field-group">
         <div class="field-label">个人介绍（AI 写东西时会读）</div>
-        <textarea id="setProfile" rows="4" placeholder="例：25 岁产品经理，主做职场成长内容，目标读者是刚毕业的大学生。语气直接有判断，不废话，给具体方法。"></textarea>
+        <textarea id="setProfile" rows="4" placeholder="例：19 岁文科生，主线人间不延迟 IP，写给同样在用 AI 学习的普通人。语气真诚、反鸡汤、有具体动作。"></textarea>
         <div class="desc">写得越具体，AI 越像你。</div>
       </div>
       <div class="field-group">
@@ -2402,87 +1971,20 @@ button.ai-btn:hover {
         <input type="text" id="setCoreThesis" placeholder="别用「准备」逃避「开始」。写完就发。">
         <div class="desc">这句话会一直显示在编辑器上方，提醒你不要用「准备」逃避「开始」。</div>
       </div>
-      <div class="field-group" id="vpUpdateBanner" style="display:none;">
-        <div class="vp-update-banner">
-          🔄 你已累计发布 <strong><span id="vpPostCount">0</span></strong> 篇新内容——语气档案可能跟不上了。
-          <button class="ghost" id="vpReExtract" style="margin-left:4px;font-size:11px;padding:2px 10px;">重新提炼</button>
-        </div>
-      </div>
       <div class="field-group">
-        <div class="field-label">核心观点</div>
-        <textarea id="setVpCoreIdeas" rows="3" placeholder="你反复表达的 3-5 个信念或立场。例：真正的行动力来自清醒而非焦虑；普通人不缺工具，缺的是动手的理由。"></textarea>
-        <div class="desc">AI 写东西时会对齐这些观点，避免立场跑偏。</div>
-      </div>
-      <div class="field-group">
-        <div class="field-label">禁用词 / 句式</div>
-        <textarea id="setVpAvoidWords" rows="2" placeholder="例：不要用「赋能」「内卷」「躺平」；不要用排比套话；不要以「在这个时代」「我们正在见证」开头。"></textarea>
-        <div class="desc">这里列的 AI 会主动回避。</div>
-      </div>
-      <div class="field-group">
-        <div class="field-label">锚点故事 / 常用素材</div>
-        <textarea id="setVpAnchorStories" rows="3" placeholder="你经常引用的那个故事、经历或细节。直接粘贴几句话——AI 会在合适时候引用，让文章更像你。"></textarea>
-        <div class="desc">你独有的素材，别人没有。</div>
-      </div>
-      <div class="field-group">
-        <div class="field-label">系列管理</div>
-        <div id="seriesMgmtList"></div>
-        <button id="addSeriesBtn" style="margin-top:8px;padding:4px 12px;border:1px dashed var(--border-hi);border-radius:5px;background:none;cursor:pointer;font-size:11.5px;color:var(--text-dim);font-family:var(--mono);">+ 新建系列</button>
-        <div class="desc">系列用来归类草稿，便于批量回顾。</div>
-      </div>
-      <div class="field-group">
-        <div class="field-label">数据备份 <span style="font-size:10px;color:var(--red);font-weight:400;">⚠ 换浏览器/清缓存前必须先导出</span></div>
+        <div class="field-label">数据备份</div>
         <div style="display:flex; gap:8px;">
-          <button class="ghost" id="setExport" style="flex:1;">⬇ 导出 JSON</button>
-          <button class="ghost" id="setImport" style="flex:1;">⬆ 导入 JSON</button>
+          <button class="ghost" id="setExport" style="flex:1;">导出 JSON</button>
+          <button class="ghost" id="setImport" style="flex:1;">导入 JSON</button>
           <button class="ghost danger" id="setReset">重置全部</button>
         </div>
         <input type="file" id="setImportFile" accept="application/json,.json" style="display:none;">
-        <div class="desc">所有数据仅存在本机浏览器里。换电脑、换浏览器、清缓存前必须先导出。导入的 JSON 必须是本工具导出的格式。</div>
+        <div class="desc">所有数据存在浏览器 localStorage 里。换电脑 / 清浏览器前先导出。</div>
       </div>
     </div>
     <div class="modal-footer">
       <button class="ghost" data-close="settingsModal">取消</button>
       <button class="primary" id="setSave">保存</button>
-    </div>
-  </div>
-</div>
-
-<!-- ============ RULE CHECKER MODAL ============ -->
-<div class="modal-backdrop" id="ruleModal">
-  <div class="modal" style="max-width:580px;">
-    <div class="modal-header">
-      <span class="num">✓</span>
-      <span class="modal-title">内容体检</span>
-      <button class="close" data-close="ruleModal">×</button>
-    </div>
-    <div class="modal-body" id="ruleModalBody"></div>
-    <div class="modal-footer">
-      <button class="ghost" data-close="ruleModal">关闭</button>
-    </div>
-  </div>
-</div>
-
-<!-- ============ SHORTCUT HELP MODAL ============ -->
-<div class="modal-backdrop" id="shortcutModal">
-  <div class="modal" style="max-width:420px;">
-    <div class="modal-header">
-      <span class="num">⌘</span>
-      <span class="modal-title">键盘快捷键</span>
-      <button class="close" data-close="shortcutModal">×</button>
-    </div>
-    <div class="modal-body">
-      <table class="shortcut-table">
-        <tr><td>⌘ S</td><td>保存草稿</td></tr>
-        <tr><td>⌘ N / ⌘ I</td><td>聚焦收件箱输入框</td></tr>
-        <tr><td>⌘ B</td><td>打开 Boost 弹窗</td></tr>
-        <tr><td>⌘ K</td><td>聚焦选题池输入框</td></tr>
-        <tr><td>⌘ ⇧ S</td><td>复制当前草稿</td></tr>
-        <tr><td>⌘ /</td><td>显示此快捷键帮助</td></tr>
-        <tr><td>ESC</td><td>停止 AI 生成 · 关闭弹窗</td></tr>
-      </table>
-    </div>
-    <div class="modal-footer">
-      <button class="ghost" data-close="shortcutModal">关闭</button>
     </div>
   </div>
 </div>
@@ -2529,69 +2031,6 @@ button.ai-btn:hover {
   </div>
 </div>
 
-<!-- ============ ONBOARDING MODAL ============ -->
-<div class="modal-backdrop onboard-modal" id="onboardModal">
-  <div class="modal">
-    <div class="modal-header">
-      <span class="num">✦</span>
-      <span class="modal-title">欢迎使用内容工作台</span>
-    </div>
-    <div class="modal-body">
-      <div class="onboard-steps">
-        <div class="onboard-step-dot active" id="obDot0"></div>
-        <div class="onboard-step-dot" id="obDot1"></div>
-        <div class="onboard-step-dot" id="obDot2"></div>
-      </div>
-
-      <!-- Step 0 -->
-      <div id="obStep0">
-        <div class="onboard-hero">✍</div>
-        <div class="onboard-title">一个让你真正写出东西的工具</div>
-        <div class="onboard-body">
-          收件箱收想法 → 选题池管优先级 → 编辑器写初稿 → AI Boost 一稿多平台。<br>
-          所有数据存在你自己的浏览器里，不上传，不需要注册。<br><br>
-          <strong>开始只需要一个 DeepSeek API key。</strong>
-        </div>
-      </div>
-
-      <!-- Step 1 -->
-      <div id="obStep1" style="display:none;">
-        <div class="onboard-hero">🔑</div>
-        <div class="onboard-title">填入 DeepSeek API Key</div>
-        <div class="onboard-body">
-          在 <strong>platform.deepseek.com</strong> 注册并创建 key（新用户有免费额度）。<br>
-          Key 只存在本机浏览器，不会上传到任何服务器。
-        </div>
-        <div class="field-group">
-          <input type="password" id="obKey" placeholder="sk-..." style="width:100%;">
-          <div class="desc" style="margin-top:4px;">可以先跳过，之后在设置里填。</div>
-        </div>
-      </div>
-
-      <!-- Step 2 -->
-      <div id="obStep2" style="display:none;">
-        <div class="onboard-hero">👤</div>
-        <div class="onboard-title">告诉 AI 你是谁（可选）</div>
-        <div class="onboard-body">
-          一段关于你和你内容方向的介绍，AI 写东西时会参考。<br>
-          写得越具体，AI 越像你。
-        </div>
-        <div class="field-group">
-          <textarea id="obProfile" rows="3" placeholder="例：25 岁产品经理，写职场成长内容，目标读者是应届生。语气直接，不废话，给具体方法。" style="width:100%;"></textarea>
-        </div>
-        <div style="margin-top:12px; padding:10px 12px; background:var(--bg-elev); border-radius:6px; font-size:11px; color:var(--text-dim);">
-          <strong>快捷键</strong>：<span class="kbd-hint">⌘S</span> 保存草稿 &nbsp; <span class="kbd-hint">⌘N</span> 新建想法 &nbsp; <span class="kbd-hint">Esc</span> 停止 AI / 关闭弹窗
-        </div>
-      </div>
-
-      <div class="onboard-nav">
-        <span class="onboard-skip" id="obSkip">跳过，直接开始</span>
-        <button class="primary" id="obNext">下一步 →</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- ============ TOASTS ============ -->
 <div class="toast-container" id="toastContainer"></div>
 
@@ -2601,145 +2040,72 @@ button.ai-btn:hover {
 // ============================================================
 //   CONSTANTS
 // ============================================================
-const STORAGE_KEY = 'workbench_v1';
+const STORAGE_KEY = 'rjbyy_data';
 const PLATFORMS = ['公众号', '小红书', '知乎', '微博', '抖音', 'B站'];
 const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
 const JINA_URL = 'https://r.jina.ai/';
 
 const SKILLS = [
   {
-    id: 'action',
-    name: '吴越风格 · 人间不延迟',
-    icon: '✍',
-    desc: '写给同样迷茫的文科生。一个想清楚了一点的朋友在说话，不是博主在表演。',
-    tags: ['人间不延迟', '文科生', '反焦虑'],
-    system: `你是「人间不延迟」IP 的写作搭档，使用吴越风格写作。
+    id: 'wuyue',
+    name: '吴越 · 人间不延迟',
+    icon: '人',
+    desc: '面向文科生/普通人。反焦虑、反工具幻觉，给具体行动。主阵地：小红书/公众号。',
+    tags: ['人间不延迟', 'AI行动方法', '文科生'],
+    system: `你是「人间不延迟」账号的写作搭档。主理人：吴越，法学专业大二学生，文科生。
 
-【核心定位】
-写给同样迷茫的文科生。一个稍微想清楚了一点的朋友在说话，不是博主在表演。
-每篇文章动笔前先问：它戳破了什么幻觉？答不上来就不写。
+【账号定位】
+写给普通文科生和普通大学生的 AI 时代清醒指南。核心是：戳破 AI 幻觉，逼近真实行动。
 
-【开头：一件具体发生过的事，没有背景】
-直接进入一件具体发生过的事，不建立背景，不铺垫时代。
-✅ "故事是这样的。我一直有个执念。"
-✅ "我电脑的下载文件夹，是一个黑洞。"
-✅ "我有个毛病，看到感觉有用的东西，先收了再说。"
-❌ "在AI时代飞速发展的今天……"
-❌ "你有没有想过……"
-❌ "很多文科生都面临着……"
+【目标读者】
+文科生、普通大学生（18-25 岁）、想用 AI 但不知道怎么开始、被 AI 焦虑裹挟、收藏了很多工具但没有真实产出的人。他们不是缺工具，而是缺判断。
 
-【句子质地：截断、悬空、不说完】
-短句堆出节奏，不是排比。
-"万一删了有用的怎么办。" ← 不是完整句，就这么放着
-"然后就没有然后了。"
-"没什么，就是花了十分钟。" ← 先轻描淡写，再说真正的事
-并列事物不用逗号连，让每个东西都站着："各种AI教程。提示词模板。'文科生也能看懂的AI指南'。"
+【内容方向】
+① AI 时代焦虑拆解 ② 文科生如何使用 AI ③ AI 工具幻觉 ④ 国外 AI 热点中文化解释 ⑤ 普通人如何用 AI 形成作品 ⑥ AI 与个人成长 ⑦ 人和机器之间的关系
 
-【情绪：说身体状态，不贴情绪标签】
-❌ "我很震撼" / "我感到很迷茫"
-✅ "坐在那儿，有点发呆。" / "我有点坐不住。" / "当时就愣住了。"
+【文章母结构】
+1. 标题：一句话戳破幻觉
+2. 开头：指出一个常见 AI 错觉（必须具体场景，禁用"在这个时代"）
+3. 现实：为什么很多人会被它骗
+4. 拆解：真正的问题是什么
+5. 转折：普通人该怎么重新理解
+6. 方法：给一个可执行动作
+7. 结尾：一句清醒但有力量的话
 
-【洞察：让它自己出来，不要宣布它】
-❌ "我后来管这个叫'登记式学习'。"
-✅ "那三百多条，到底是我的积累，还是我假装自己在积累。" ← 问出来，不回答
-结尾可以没有答案。真实的困惑不需要被解决。
+【调性】
+温和真诚，有点哲学感，不说教。有具体场景和细节，不空泛。带希望，不贩卖焦虑。像一个稍微想清楚了一点的朋友在说话，不像博主在表演。文字有质感，不用烂大街的互联网黑话。
 
-【核心句式】
-直到……       → 叙事枢纽，之前/之后
-那一刻……      → 顿悟，低调说出来
-不是……是……   → 纠偏，来自具体经历，不是论断
-没什么，就是…… → 先轻描淡写，再说真正的重量
-我当时没有答案  → 结尾可以用，不强行解决
-
-【结构模板】
-开头：1-3句具体私人场景，直接进
-
-转折："直到……" / "然后有一天……"
-
-顿悟：一句点题（低调的，不宣告）
-
-正文节：
-01｜一个问题或主张（对话感展开，不是教程）
-02｜"为什么"或"怎么做"（带具体步骤，像给朋友讲）
-03｜文科生视角的重新理解（升维，给希望，不说教）
-
-结尾：一个今天能做的具体动作 + CTA（"评论区打「关键词」"）+ 收尾一句话 + 关注人间不延迟
+【代表句式】（可直接使用或延伸）
+- 你不是被 AI 淘汰，你是被自己的幻觉拖住了。
+- 真正危险的不是不会用 AI，而是误以为自己已经在进步。
+- 工具不会自动改变你，作品才会。
+- 普通人面对 AI，最重要的不是追热点，而是留下完成物。
+- 只要你学得够慢，就不用学了——因为迟早会有更新的东西出现。
 
 【禁止事项】
-- 在当今AI时代… / 随着…的发展 / 首先…其次…最后 / 让我们来看看 / 你有没有想过
-- 空洞鸡汤：只说问题不给方向，只讲道理不给动作
-- 贩卖焦虑：可以指出问题，但必须给出路
-- 情绪词替代体感："我很震撼" / "我非常感动" / "我感到迷茫"`,
-    short: '写一条 100-280 字的短文。具体私人场景开头，截断式短句，结尾一个可执行动作。',
-    long: '写一篇 800-1500 字的长文初稿，按吴越风格结构：私人场景→转折→顿悟→01/02/03正文节→结尾CTA。',
-    script: '写一段 60-90 秒口播脚本，前 3 秒具体私人场景，中间 2-3 个节拍，结尾一个具体动作。'
-  },
-  {
-    id: 'khazix',
-    name: '卡兹克风格 · 科技长文',
-    icon: '⚡',
-    desc: '有见识的普通人在认真聊一件打动他的事。AI/科技/产品内容，永远好奇，不焦虑。',
-    tags: ['卡兹克', 'AI科技', '产品体验'],
-    system: `你是「卡兹克」风格的写作搭档，专门写 AI/科技/产品类公众号长文。
-
-【核心定位】
-有见识的普通人在认真聊一件打动他的事。
-永远对世界保持好奇。不是问"我会被取代吗"，而是"我能用它玩点什么"。
-
-【开头四种打法（选一种）】
-1. 叙事启动："故事是这样的。"
-2. 荒诞事实：直接抛一个让人反应"???"的反常事实
-3. 热点破题："最近被xxx刷屏了。"
-4. 好奇心驱动："这两天刷到了一张图，很有意思。"
-❌ 绝不用："在当今AI快速发展的时代……" / "随着……的进步"
-
-【节奏】
-短句多，长短交替。一句话自成一段制造重点。偏出去的段落后面必须有一句话拉回主线。
-
-【知识处理】
-聊着聊着顺手掏出来，不是"下面我来科普一下"。引用/历史/学术都是"聊着想起来的"。
-
-【情绪：体感记忆，不是情绪标签】
-✅ "我当时就愣住了" / "鼻子一酸"
-❌ "我非常震撼" / "我感到很感动"
-
-【口语词：全文主动用，8-10个不同的】
-坦率的讲 / 说真的 / 反正我觉得 / 怎么说呢 / 其实吧 / 我跟你说 / 你想想看 / 愚钝如我 / 我自己也踩过坑 / 你敢信？？？ / 搞得我现在还有点懵
-
-【升番逻辑】
-多产品/案例对比时，从弱到强逐一展示，最炸的留最后，制造"我以为到顶了结果还能往上翻"的惊喜感。
-
-【回环呼应】
-开头埋的意象或细节，结尾以变体形式出现。让文章从"信息流"变成"作品"。
-
-【固定结尾格式（必须原样使用）】
-以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标⭐～
-谢谢你看我的文章，我们，下次再见。
-/ 作者：卡兹克
-
-【绝对禁区】
-禁用词：说白了 / 意味着什么 / 本质上 / 换句话说 / 不可否认 / 综上所述 / 值得注意的是 / 不难发现
-禁用标点：冒号":"→用逗号代替 / 破折号"——"→用逗号或句号代替 / 双引号""""→用「」代替
-禁用结构：bullet point罗列观点 / 大段加粗 / markdown标题分节（方法论分条目用1.2.3.数字）`,
-    short: '写一条 200-400 字的短文，叙事启动开头，有3个口语词，有体感情绪，结尾用卡兹克固定格式。',
-    long: '写一篇 1000-2000 字的科技/AI/产品长文。感性切入→聊天式科普→核心观点→升维→固定结尾，全程卡兹克风格。',
-    script: '写一段 60-90 秒口播脚本，好奇心驱动开头，有2-3个口语词，有体感描述，结尾行动号召。'
+- 不写空洞鸡汤
+- 不装懂技术
+- 不贩卖焦虑
+- 不用堆工具清单冒充深度
+- 不写"人人都能逆袭"的廉价爽文
+- 不直接搬运别人的内容
+- 不写"我们正在见证""值得深思""不得不说"这类废话`,
+    short: '写一条 100-280 字的短文，单一犀利观点，无废话开场，结尾一个可执行动作。',
+    long: '写一篇 800-1500 字的公众号/小红书长文初稿，按文章母结构七步走，写出完整初稿。',
+    script: '写一段 60-90 秒口播脚本，前 3 秒必须给钩子，中间 2-3 个节拍，结尾一个具体动作。'
   },
   {
     id: 'shulin',
     name: '树林 · 五轮提问写作法',
     icon: '林',
-    desc: '用树林的方法论把模糊想法变成可发布文章。动笔前四问诚实检验 + 五轮提问生产骨架。',
-    tags: ['五轮提问', '公众号', '诚实检验'],
-    system: `你是「树林写作法」的写作搭档。核心信念：从真实感受里溢出的内容，不是逼出来的。
+    desc: '用树林的方法论把模糊想法变成可发布文章。HKR 判断选题质量 + 五轮提问生产骨架。',
+    tags: ['五轮提问', '公众号', '选题方法'],
+    system: `你是「树林写作法」的写作搭档。核心信念：AI 给你弹药，开枪方向你来定。
 
-【动笔前四问（先过，再写）】
-1. 这是我相信的吗？（不相信 → 不写）
-2. 我在这里有没有真实的感受或经历？（没有 → 不写）
-3. 我是感受到了溢出，还是逼着自己写？（被逼的 → 先放着）
-4. 文章能落到一个今天能做的动作吗？（落不到 → 加上去）
+【工作流程】
 
-【HKR 判断选题质量（30 秒）】
+第一步：HKR 判断选题质量（30 秒）
+用三维判断这个选题值不值得写：
 - H（Hook）：有没有让人想继续看的悬念或反直觉？
 - K（Knowledge）：有没有真实的信息量，读者能学到什么？
 - R（Resonance）：目标读者会不会觉得"这说的是我"？
@@ -2748,43 +2114,31 @@ const SKILLS = [
 只有两条 → 告诉用户哪里薄，问是否要优化
 只有一条或没有 → 建议换选题，说清楚为什么
 
-【五轮提问，生产骨架】
+第二步：五轮提问，生产骨架
+
 轮 1 · 正观点：支持这个观点最有力的理由和案例是什么？（建立核心论点）
 轮 2 · 反观点：这个观点最大的漏洞是什么？能推翻它的例子？（增加深度）
 轮 3 · 本质观点：抛开正反，更底层的逻辑是什么？为什么会这样？（挖到根）
 轮 4 · 线索观点：来龙去脉是什么？历史上或其他领域有没有类似的事？（纵深感）
 轮 5 · 例子观点：用一个具体生活场景或类比，解释给完全不了解的人听。（有温度）
 
-五轮后告知用户需要自己补写的两件事：
+五轮后整理骨架，告知用户需要自己补写的两件事：
 ① 开头：必须是用户自己的真实故事/场景（AI 不知道你的生活）
 ② 结尾：用户对这件事的最终态度和判断（不能外包，否则文章没有灵魂）
 
-【拼接结构】
+第三步：拼接文章
+\`\`\`
 开头（用户自己的真实故事）→ 本质/问题（轮3）→ 为什么多数人没意识到（轮2）
 → 正确的理解（轮1）→ 更大的背景（轮4）→ 类比案例（轮5）→ 结尾（用户自己的判断）
-
-【树林写作 DNA】
-三段式：现象描述 → 底层逻辑 → 行动指令
-
-身体化表达：把抽象概念落地到身体感受。
-✅ "能量高的时候觉得新王降临，低的时候什么都不想干。"
-❌ "我的状态时好时坏。"
-
-精确数字：不说"很多"，说"5.5小时""三个月""七点吃一顿"。数字让抽象的东西变真实。
-
-短句节奏：句子短，节奏快，一个想法一段。
-
-反问收尾：在关键节点用反问拉住读者。"你懂我说的意思吗？" "对不对？" "你试过没有？"
-
-直接：不说正确的废话。观点可以刺耳，但必须是真信的。
+\`\`\`
 
 【绝对禁区】
 - 不替用户写开头故事
 - 不替用户写最终判断和态度
 - 不生成从头到尾完整的文章直接让用户发
 - 不用"总的来说""综上所述""不得不说"这类连接词`,
-    short: '先过动笔前四问，再用 HKR 三维快速判断这个选题，给出五轮提问的第一轮答案（正观点）。',
-    long: '完整走动笔前四问 + HKR判断 + 五轮提问流程，生成文章骨架，并告知用户需要自己补写的开头和结尾。',
+    short: '先用 HKR 三维快速判断这个选题，再给出五轮提问的第一轮答案（正观点）。',
+    long: '完整走五轮提问流程，生成文章骨架，并告知用户需要自己补写的开头和结尾。',
     script: '用五轮提问生成视频脚本的核心内容，格式化为口播节拍结构。'
   },
   {
@@ -2819,27 +2173,21 @@ const SKILLS = [
     id: 'router',
     name: '内容路由 · 自动选风格',
     icon: '⟳',
-    desc: '先判断选题归谁写，再切换语气。人间不延迟IP→吴越，AI/科技→卡兹克，成长/反思→树林。',
-    tags: ['自动路由', '风格判断'],
-    system: `你是内容风格路由助手。
+    desc: '先判断选题归谁写，再切换语气。不确定就问。',
+    tags: ['自动', '路由'],
+    system: `你是「人间不延迟」内容路由助手。
 
-收到选题后，先用一行写「→ 选了：XX 风格，原因：YY」，再以那种风格写出初稿。
+收到选题后，先用一句话判断该用哪种风格写：
+- AI 工具 / 行动方法 / 普通人视角 / 文科生故事 → 吴越（人间不延迟）
+- AI / 产品 / 科技深度 / 商业逻辑 → 卡兹克
+- 人文 / 反思 / 个人成长 / 情绪内观 → 树林（五轮提问法）
 
-【路由规则】
-- 人间不延迟 IP / 文科生视角 / 反焦虑 / 反工具幻觉 → 吴越风格（私人场景开头，截断短句，身体状态情绪，结尾具体动作+CTA）
-- AI / 科技 / 产品 / 工具测评 / 实验 / "我亲自去做了" → 卡兹克风格（好奇心驱动，口语词，体感情绪，固定结尾格式）
-- 成长 / 反思 / 认知 / 人文 / 个人经历 / "我一直觉得" → 树林风格（动笔前四问，三段式，身体化表达，精确数字）
-- 改写 / 润色 → 改写润色模式（保留原判断，拆长句，清AI味）
-
-【不确定时】
-- 有"我亲自去做了/试了/验证了"→ 卡兹克
-- 有"我一直觉得/一直以为"→ 树林
-- 明确是「人间不延迟」账号内容 → 吴越
+然后直接以那种风格写出初稿。开头先用一行写「→ 选了：XX 风格，原因：YY」。再写正文。
 
 如果选题模糊到没法判断，反问一句关键问题，而不是硬写。`,
-    short: '判断风格后写一条 200 字以内的短文。',
-    long: '判断风格后写一篇完整长文初稿，按对应风格的结构走。',
-    script: '判断风格后写一段 60-90 秒口播脚本。'
+    short: '判断后写一条短推。',
+    long: '判断后写一篇长文。',
+    script: '判断后写一段口播脚本。'
   },
   {
     id: 'polish',
@@ -2847,135 +2195,26 @@ const SKILLS = [
     icon: '✎',
     desc: '保留你的判断，改掉空话、长句、AI 味。',
     tags: ['改写', '清洁'],
-    system: `你是一个严格的中文编辑。任务：润色用户给出的文本，清除 AI 味，保留原判断。
+    system: `你是一个严格的中文编辑。任务：润色用户给出的文本。
 
-【绝不做】
+绝不做：
 - 加新观点（用户没说的不要硬加）
 - 改判断的方向
+- 加"我们正在见证""在这个时代""值得深思""不得不说"这类废话
 - 添加 emoji（除非原文已有同位置）
 - 把口语改成书面语
 
-【必须扫描并替换的禁用词】
-说白了→直接说 / 本质上→删掉或换成"其实" / 换句话说→删掉 / 不可否认→删掉
-值得注意的是→删掉 / 不难发现→删掉 / 意味着→删掉或换成"就是"
-在这个时代→删掉 / 我们正在见证→删掉 / 值得深思→删掉 / 不得不说→删掉
-首先…其次…最后→拆成独立段落 / 综上所述→删掉或换成结论句
-
-【情绪词替换】
-"我非常震撼"→"我当时就愣住了" / "我很感动"→"鼻子一酸" / "我感到迷茫"→"有点坐不住"
-凡是直接贴情绪标签的，改成身体状态描写。
-
-【应该做】
+应该做：
 - 拆长句（一句话超过 30 字就考虑拆）
 - 删多余的修饰词和铺垫
 - 把"很多""一些""相关的"换成具体的
-- 找出 AI 味重的句子，重写得更像真人说的话
+- 找出 AI 味重的句子，重写得更像人说的话
 - 保持原意和原语气
 
 回复格式：直接给改后的全文。不要解释做了什么，不要列改动清单。`,
     short: '润色这段短文，拆长句删废话，保留原观点。',
     long: '润色这篇长文，保留所有原观点，重点处理 AI 味和长句。',
     script: '润色这段脚本，让它更口语化、更像人说的话。'
-  },
-  {
-    id: 'remix',
-    name: '二创本地化',
-    icon: '↺',
-    desc: '把别人验证过的内容重写成你的表达：保留核心价值，注入你的语气和判断，变成可发的稿子。',
-    tags: ['二创', '素材', '改写'],
-    system: `你是一个擅长「二创本地化」的内容创作专家。核心原则：用别人已经验证过的信息，转成适合你受众的表达。
-
-【什么是好的二创】
-- 不是搬运：核心观点可以借用，但表达必须重写，角度必须是你的
-- 不是洗稿：你需要加入真实的判断，增加信息量
-- 是：把外部内容消化后重新表达，而不是复制粘贴后换词
-
-【工作流程】
-1. 判断精华：这个内容最有价值的 1-2 个点是什么（不是全部，是精华）
-2. 你的角度：你站在「人间不延迟」视角（AI 时代行动方法，反焦虑，面向文科生/普通人），对这件事的判断是什么
-3. 写新版本：第一行必须是强钩子（陈述句或反问，禁用"今天来聊"等废话开场），主体以精华点为骨架用你的语言重写，结尾给读者一个今天可以执行的具体动作
-
-【平台适配】
-- 公众号：800-1500 字，有深度展开，可以有小标题
-- 小红书：200-500 字，分段短，结尾留互动问题
-
-【禁止】
-- 不要 AI 翻译腔和"首先/其次/最后"结构
-- 不要结尾说"希望对你有帮助"`,
-    short: '把这段内容改写成一条 200-300 字的小红书帖，加上强钩子和互动问题。',
-    long: '把这段内容本地化为一篇 800-1200 字的公众号文章，加入你的判断和具体案例。',
-    script: '把这段内容改写成一段 60 秒口播稿，钩子在前 5 秒，结尾一个行动号召。'
-  },
-  {
-    id: 'framework',
-    name: '爆款框架提取',
-    icon: '⊞',
-    desc: '把一篇爆款粘进来，AI 提取可复用的写作骨架，让你下次直接套框架写新选题。',
-    tags: ['框架', '对标', '可复用'],
-    system: `你是爆款内容框架分析师。目标：把一篇爆款文章还原成「可复用的写作公式」，让用户套用这个框架写新选题。
-
-## 框架名称
-给这个写作框架起一个好记的名字（2-6 字）
-
-## 核心公式
-一行话概括底层逻辑（例：痛点场景→常见误区→真正答案→立刻能做的一件事）
-
-## 开头钩子
-- 类型：[好奇 / 共鸣 / 恐惧 / 反常识 / 反直觉]
-- 具体做法：前几字/句做了什么（精确到词句级）
-- 可复制格式：开头应该是「______」
-
-## 段落节拍
-每段承担什么情绪任务（用 3-7 个箭头节拍，例：建立共鸣→制造张力→给出方向→行动冲动）
-
-## 结尾钩子
-- 类型：[行动号召 / 开放式问题 / 判断式结语 / 共鸣收尾]
-- 可复制格式：「______」
-
-## 可套用的新选题
-给 2-3 个直接套用此框架的新选题方向（针对受众：AI 时代的文科生/普通人）
-
-## 套用注意事项
-使用这个框架时的坑
-
-要求：每个分析精确到词句，不写读后感，写结构分析。`,
-    short: '快速提取：钩子类型 + 核心公式 + 2 个可套用选题，不超过 300 字。',
-    long: '完整框架提取，覆盖所有维度，给出可直接套用的新选题和写法。',
-    script: '专门提取视频脚本的框架：开头钩子时机、信息节拍节奏、结尾 CTA 设计。'
-  },
-  {
-    id: 'story-launch',
-    name: '故事冷启动帖',
-    icon: '◉',
-    desc: '写账号「第一帖」。用一个真实故事让陌生人知道你是谁、你在经历什么、为什么值得关注。',
-    tags: ['冷启动', '故事', '人设'],
-    system: `你是账号起号专家。帮用户写「冷启动第一帖」——让陌生人在 30 秒内记住你是谁。
-
-【三类冷启动角度，根据用户情况选最合适的一个】
-
-A. 转折故事（反差感强）
-「我是____，但我正在经历____，这让我开始____」
-→ 适合：有明显身份跨界或人生转折的
-
-B. 正在进行时（带入感强）
-「我在____的路上，发现了一件很多人不知道的事」
-→ 适合：正在学习/尝试某件事，有实时进展的
-
-C. 锁定受众（精准感强）
-「如果你是____，我想跟你说一件事」
-→ 适合：受众非常明确，想吸引精准人群的
-
-【写作原则】
-- 第一句话必须是具体的，禁止"大家好，我是……"开头
-- 说清楚：你是谁 / 你在经历什么 / 你能帮谁
-- 结尾：给一个关注理由（不是"求关注"，是"如果你也在____，这里有你想要的"）
-
-【人间不延迟 IP 定位】
-面向文科生/普通人，讲 AI 时代的行动方法，反焦虑，反工具幻觉。
-19 岁法学生视角，不卖课，不贩焦虑，给完成物。`,
-    short: '写一条 200-350 字的小红书冷启动帖，让陌生人记住你是谁。',
-    long: '写一篇 600-800 字的公众号冷启动文章，包含真实故事、你的判断、为什么值得关注。',
-    script: '写一段 60-90 秒的自我介绍口播，前 5 秒必须抓住人。'
   }
 ];
 
@@ -2984,7 +2223,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-1',
     name: '标题公式：你不是……你是在……',
     platform: '通用标题',
-    account: '',
+    account: '人间不延迟',
     hook: '用对比揭穿自欺欺人',
     logic: ['指出表面上在做的事', '点出真实状态/动机', '让读者产生"说的就是我"的刺痛感'],
     template: '你不是在______，你是在______。'
@@ -2993,7 +2232,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-2',
     name: '标题公式：很多人以为……其实……',
     platform: '通用标题',
-    account: '',
+    account: '人间不延迟',
     hook: '反常识，挑战默认认知',
     logic: ['说出大多数人持有的误判', '给出反常识的真相', '让读者想知道为什么'],
     template: '很多人以为______，其实______。'
@@ -3002,7 +2241,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-3',
     name: '标题公式：最大的问题不是……而是……',
     platform: '通用标题',
-    account: '',
+    account: '人间不延迟',
     hook: '转移焦点，指向更深层问题',
     logic: ['说出大家以为的问题', '转向真正的问题', '制造认知落差'],
     template: '最大的问题不是______，而是______。'
@@ -3011,7 +2250,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-4',
     name: '标题公式：别再……了，真正重要的是……',
     platform: '通用标题',
-    account: '',
+    account: '人间不延迟',
     hook: '否定常见做法，给出替代方向',
     logic: ['否定一个流行但无效的行为', '指出真正有价值的方向', '让读者有行动冲动'],
     template: '别再______了，真正重要的是______。'
@@ -3020,7 +2259,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-title-5',
     name: '标题公式：……不是努力，是自我感动',
     platform: '通用标题',
-    account: '',
+    account: '人间不延迟',
     hook: '直接戳痛点，制造认知冲击',
     logic: ['指出一个看起来努力实际上没效果的行为', '用"自我感动"揭示本质', '让读者有被看穿的感觉'],
     template: '______不是努力，是自我感动。'
@@ -3029,7 +2268,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-s1',
     name: '反直觉翻转',
     platform: '通用',
-    account: '',
+    account: '人间不延迟',
     hook: '开头说一个大家觉得对的事，然后翻转',
     logic: ['抛出一个被默认为对的结论', '说「但其实」并给出反例', '提出一个新的判断框架'],
     template: '【大家都说】______，听起来很对。\n\n但其实，______。\n\n真正的判断方式是：______。'
@@ -3038,7 +2277,7 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-s2',
     name: '我经历了 X，发现 Y',
     platform: '通用',
-    account: '',
+    account: '人间不延迟',
     hook: '从一个真实的个人经历切入，抽出规律',
     logic: ['描述一个具体场景或事件', '抽象出一条规律或心得', '给读者一个可以马上做的动作'],
     template: '前几天我______。\n\n这件事让我意识到：______。\n\n如果你也在 ______ 的状态里，可以试试 ______。'
@@ -3047,55 +2286,10 @@ const DEFAULT_STRUCTURES = [
     id: 'seed-s3',
     name: '幻觉拆解 · 七步结构',
     platform: '公众号 / 小红书',
-    account: '',
+    account: '人间不延迟',
     hook: '指出一个常见 AI 错觉，逐步拆到根',
     logic: ['标题：一句话戳破幻觉', '开头：指出一个常见 AI 错觉', '现实：为什么很多人会被它骗', '拆解：真正的问题是什么', '转折：普通人该怎么重新理解', '方法：给一个可执行动作', '结尾：一句清醒但有力量的话'],
     template: '【标题】______（戳破幻觉）\n\n【开头】很多人______（具体错觉场景）\n\n【现实】这件事骗人，因为______\n\n【拆解】真正的问题是______\n\n【转折】如果重新理解，应该______\n\n【方法】今天就可以做的一件事：______\n\n【结尾】______（一句有力量但不鸡汤的话）'
-  },
-  {
-    id: 'seed-s4',
-    name: '故事冷启动 · 我的来路帖',
-    platform: '公众号 / 小红书',
-    account: '',
-    hook: '用真实故事让陌生人 30 秒内记住你',
-    logic: ['第一句：具体身份/场景，不说"大家好"', '转折：你正在经历什么变化/选择', '锚定：你能帮谁解决什么问题', '结尾：给一个关注你的理由，不说"求关注"'],
-    template: '（第一句：一个具体的身份或场景——不是自我介绍，是让人停住的开头）\n\n但我最近开始______。\n\n这件事让我意识到：______。\n\n如果你也是______，正在______，我接下来想专门聊这个。\n\n不卖课，不贩焦虑，只说我真正在用的东西。'
-  },
-  {
-    id: 'seed-s5',
-    name: '干货利他 · 工具/方法清单型',
-    platform: '小红书',
-    account: '',
-    hook: '看完立刻能照做，有收藏价值',
-    logic: ['标题点出受益人和具体数字', '开头一句话说痛点', 'N 个具体工具/方法（每条：名称 + 一句话说干什么 + 一句话怎么用）', '结尾一个可以今天就执行的动作'],
-    template: '标题：【受益人】用这 N 个工具/方法，______（具体收益）\n\n——————\n\n如果你______（痛点场景），这几个是我真正在用的：\n\n① ______\n用来______，具体操作：______\n\n② ______\n用来______，具体操作：______\n\n③ ______\n用来______，具体操作：______\n\n今天可以先从______开始，5 分钟能跑通。\n\n你现在在用什么？评论区告诉我 👇'
-  },
-  {
-    id: 'seed-s6',
-    name: '极端反差 · 颠覆三观',
-    platform: '公众号 / 小红书',
-    account: '',
-    hook: '颠覆一个大家默认为对的结论，制造认知冲击',
-    logic: ['标题：一个反直觉的判断，让人想点进去看为什么', '开头：说出那个"大家都这样认为"的默认', '转折：给出一个具体的反例或数据', '解释：为什么会有这个认知差', '落地：重新理解之后，你应该怎么做'],
-    template: '（标题：大家都觉得______，但______）\n\n很多人以为______。听起来很对，而且几乎所有人都这么做。\n\n但我最近发现了一件事：______。\n\n这件事说明______（为什么原来的认知是错的）。\n\n真正有效的方式是：______。\n\n不是更努力，是______。'
-  },
-  {
-    id: 'seed-s7',
-    name: '聚合帖 · 好内容汇总 N 件',
-    platform: '小红书',
-    account: '',
-    hook: '汇总同类好东西，让读者有一次性收藏价值',
-    logic: ['标题：数字 + 类别 + 具体收益', '每条：名称/来源 + 一句话精华 + 为什么推荐', '选择标准：只放真正用过/验证过的，不凑数', '结尾：引导互动，收集更多'],
-    template: 'N 个关于______的______，我真的在用的（不是凑数）\n\n——————\n\n① 【名称/来源】\n精华：______\n推荐理由：______\n\n② 【名称/来源】\n精华：______\n推荐理由：______\n\n③ 【名称/来源】\n精华：______\n推荐理由：______\n\n你还知道哪些？评论区补充 👇\n（收到好的我会更新到这里）'
-  },
-  {
-    id: 'seed-t6',
-    name: '标题公式：同样是……为什么……却……',
-    platform: '通用标题',
-    account: '',
-    hook: '用对比制造认知张力，让人想知道差距在哪里',
-    logic: ['设置两个看起来相似的对象', '指出它们结果的巨大差异', '暗示答案在文章里'],
-    template: '同样是______，为什么______却______？'
   }
 ];
 
@@ -3115,9 +2309,6 @@ let editorSnapshot = null;        // snapshot before last Skill replace
 let editorRefId = null;           // inbox item id linked as reference
 let currentTopicId = null;        // topic currently loaded in editor
 let diffPopPending = null;        // { inboxId } waiting for difficulty pick
-let currentLoadedDraftId = null;  // draft currently in editor (for schedule date)
-let calendarMonth = new Date().getMonth();
-let calendarYear  = new Date().getFullYear();
 
 function loadData() {
   let raw = null;
@@ -3130,34 +2321,13 @@ function loadData() {
   state.stats = state.stats || { date: getToday(), tweets_today: 0, articles_week: 0, last_week_reset: getMonday() };
   state.inbox = Array.isArray(state.inbox) ? state.inbox : [];
   state.structures = Array.isArray(state.structures) && state.structures.length ? state.structures : JSON.parse(JSON.stringify(DEFAULT_STRUCTURES));
-  // migrate: push any new seed structures that don't exist yet
-  { const existingIds = new Set(state.structures.map(s => s.id));
-    DEFAULT_STRUCTURES.forEach(ds => { if (!existingIds.has(ds.id)) state.structures.push(JSON.parse(JSON.stringify(ds))); }); }
   state.drafts = Array.isArray(state.drafts) ? state.drafts : [];
   state.ui = state.ui || { drawer_open: false, started_today: false, last_started_day: '' };
   state.settings = state.settings || { deepseek_key: '', model: 'deepseek-chat', profile: '', temperature: 0.7 };
-  state.voice = state.voice || {};
-  state.voice.samples = Array.isArray(state.voice.samples) ? state.voice.samples : [];
-  state.voice.distilled = state.voice.distilled || '';
-  state.voice.core_ideas = state.voice.core_ideas || '';
-  state.voice.avoid_words = state.voice.avoid_words || '';
-  state.voice.anchor_stories = state.voice.anchor_stories || '';
-  state.voice.post_count_since_update = typeof state.voice.post_count_since_update === 'number' ? state.voice.post_count_since_update : 0;
-  state.voice.updated_at = state.voice.updated_at || null;
+  state.voice = state.voice || { samples: [], distilled: '' };
   state.chats = state.chats || { messages: [] };
   state.topics = Array.isArray(state.topics) ? state.topics : [];
-  state.series = Array.isArray(state.series) ? state.series : [];
   state.settings.core_thesis = state.settings.core_thesis || '别用「准备」逃避「开始」。写完就发。';
-  // migrate drafts: add Phase 2+3 fields
-  state.drafts.forEach(d => {
-    if (!d.publish_status) d.publish_status = 'drafting';
-    if (!d.published_platforms) d.published_platforms = [];
-    if (d.published_at === undefined) d.published_at = null;
-    if (d.performance === undefined) d.performance = null;
-    if (!d.performance_note) d.performance_note = '';
-    if (!d.scheduled_date) d.scheduled_date = null;
-    if (!d.series) d.series = null;
-  });
 
   // resets
   const today = getToday();
@@ -3207,20 +2377,18 @@ function escapeHtml(s) {
 // ============================================================
 //   TOAST
 // ============================================================
-function toast(msg, type, duration) {
+function toast(msg, type) {
   const c = document.getElementById('toastContainer');
   const el = document.createElement('div');
   el.className = 'toast' + (type ? ' ' + type : '');
-  el.style.whiteSpace = 'pre-wrap';
   el.textContent = msg;
   c.appendChild(el);
-  const delay = duration || (type === 'error' ? 4200 : 2400);
   setTimeout(() => {
     el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
     el.style.opacity = '0';
     el.style.transform = 'translateY(8px)';
     setTimeout(() => el.remove(), 400);
-  }, delay);
+  }, type === 'error' ? 4200 : 2400);
 }
 
 // ============================================================
@@ -3315,8 +2483,6 @@ function renderAll() {
   renderVoice();
   renderSkills();
   renderDrafts();
-  renderPerfSummary();
-  renderSeriesFilter();
   renderChat();
   renderEditorMeta();
   renderEditorRef();
@@ -3330,15 +2496,12 @@ function renderHeader() {
   document.getElementById('articlesVal').textContent = state.stats.articles_week;
   const btn = document.getElementById('btnStart');
   const lbl = btn.querySelector('.btn-start-label');
-  const header = document.querySelector('.header');
   if (state.ui.started_today) {
     btn.classList.add('active');
-    lbl.innerHTML = '● 创作中<span class="caret"> ✦</span>';
-    if (header) header.classList.add('creating');
+    lbl.innerHTML = '创作中 ✦<span class="caret">|</span>';
   } else {
     btn.classList.remove('active');
     lbl.textContent = '▶ 开始今天';
-    if (header) header.classList.remove('creating');
   }
   document.getElementById('chatHint').textContent =
     (state.settings.deepseek_key ? '已就绪' : '需要先填 key') + ' · 模型：' + (state.settings.model || 'deepseek-chat');
@@ -3511,44 +2674,23 @@ function renderSkills() {
 }
 
 // ----- DRAFTS -----
-function renderDrafts(draftsToRender) {
+function renderDrafts() {
   const list = document.getElementById('draftsList');
-  const drafts = draftsToRender || state.drafts;
   document.getElementById('draftCount').textContent = String(state.drafts.length).padStart(2,'0');
-  if (!drafts.length) {
+  updateDrawerBadge();
+  if (!state.drafts.length) {
     list.innerHTML = '<div class="empty"><span class="ornament">❦</span>还没有草稿。<br>写完一篇，先放进来。</div>';
     return;
   }
-  list.innerHTML = drafts.map(d => {
+  list.innerHTML = state.drafts.map(d => {
     const preview = (d.content||'').replace(/\s+/g,' ').slice(0,70);
     const typeLabel = { short:'短推', long:'长文', script:'脚本' }[d.type] || '短推';
     const refItem = d.reference_id ? state.inbox.find(x => x.id === d.reference_id) : null;
     const refBadge = refItem ? `<div class="draft-ref-tag">${escapeHtml(refItem.title.slice(0,30))}${refItem.title.length>30?'…':''}</div>` : '';
-    // Series badge
-    const seriesInfo = d.series ? state.series.find(s => s.id === d.series) : null;
-    const seriesBadge = seriesInfo
-      ? `<span class="series-tag" style="background:${seriesInfo.color}22;color:${seriesInfo.color};border:1px solid ${seriesInfo.color}44;" data-daction="change-series" data-did="${d.id}">${escapeHtml(seriesInfo.name)}</span>`
-      : `<span class="series-tag" style="border:1px dashed var(--border-hi);color:var(--text-faint);" data-daction="change-series" data-did="${d.id}">+ 系列</span>`;
-    // Status badge
-    const statusClass = d.publish_status === 'published' ? 'status-published' : d.publish_status === 'ready' ? 'status-ready' : 'status-drafting';
-    const statusLabel = d.publish_status === 'published' ? '已发布' : d.publish_status === 'ready' ? '待发布' : '写作中';
-    // Platform icons (shown when published)
-    const PLAT_ICON = { wechat:'💬', xiaohongshu:'📕', douyin:'🎵', bilibili:'📺', zhihu:'💡', weibo:'🐦' };
-    const platIcons = (d.publish_status === 'published' && d.published_platforms && d.published_platforms.length)
-      ? d.published_platforms.map(p => PLAT_ICON[p] || '').join('') : '';
-    // Perf buttons (only when published)
-    const perfSection = d.publish_status === 'published'
-      ? `<div class="draft-perf-area">
-          <button class="perf-btn fire${d.performance==='fire'?' active fire':''}" data-daction="perf" data-did="${d.id}" data-perf="fire" title="爆了">🔥</button>
-          <button class="perf-btn ok${d.performance==='ok'?' active ok':''}" data-daction="perf" data-did="${d.id}" data-perf="ok" title="还行">👍</button>
-          <button class="perf-btn cold${d.performance==='cold'?' active cold':''}" data-daction="perf" data-did="${d.id}" data-perf="cold" title="扑了">🥶</button>
-          <input class="perf-note-input${d.performance_note?' visible':''}" data-daction="perf-note" data-did="${d.id}" placeholder="备注" value="${escapeHtml(d.performance_note||'')}">
-        </div>`
-      : `<div class="draft-perf-area"></div>`;
     return `
       <div class="draft-row" data-id="${d.id}">
         <div class="draft-info">
-          <div class="draft-title"><span class="draft-type-tag">${typeLabel}</span>${escapeHtml(d.title||'(未命名)')}${seriesBadge}</div>
+          <div class="draft-title"><span class="draft-type-tag">${typeLabel}</span>${escapeHtml(d.title||'(未命名)')}</div>
           <div class="draft-preview">${escapeHtml(preview)}${preview.length>=70?'…':''}</div>
           ${refBadge}
         </div>
@@ -3562,22 +2704,7 @@ function renderDrafts(draftsToRender) {
         </div>
         <div class="draft-actions">
           <button class="ghost" data-load="${d.id}" title="回到编辑器">↻</button>
-          <div class="draft-export-wrap">
-            <button class="draft-export-btn" data-dexp="${d.id}" title="导出 / 复制">⬇</button>
-            <div class="export-drop" id="exp-${d.id}">
-              <button class="export-drop-item" data-expfmt="md" data-expdid="${d.id}">.md 文件</button>
-              <button class="export-drop-item" data-expfmt="txt" data-expdid="${d.id}">.txt 文件</button>
-              <button class="export-drop-item" data-expfmt="wechat" data-expdid="${d.id}">微信 HTML（复制）</button>
-            </div>
-          </div>
           <button class="ghost danger" data-ddel="${d.id}" title="删除">×</button>
-        </div>
-        <div class="draft-feedback-row">
-          <div class="draft-status-area">
-            <span class="draft-status-badge ${statusClass}" data-daction="cycle-status" data-did="${d.id}">${statusLabel}</span>
-            <span class="draft-platform-icons">${platIcons}</span>
-          </div>
-          ${perfSection}
         </div>
       </div>
     `;
@@ -3692,9 +2819,6 @@ function buildSystemPreamble() {
   const parts = [];
   if (state.settings.profile) parts.push('【创作者背景】\n' + state.settings.profile);
   if (state.voice.distilled) parts.push('【提炼出的语气】\n' + state.voice.distilled);
-  if (state.voice.core_ideas) parts.push('【核心观点/信念——必须对齐】\n' + state.voice.core_ideas);
-  if (state.voice.avoid_words) parts.push('【禁止使用的词/句式——严格回避】\n' + state.voice.avoid_words);
-  if (state.voice.anchor_stories) parts.push('【锚点故事/常用素材——可引用】\n' + state.voice.anchor_stories);
   return parts.join('\n\n');
 }
 
@@ -3738,7 +2862,7 @@ function buildBoostMessages(content, platform, srcType) {
    - 第一段：一句话核心结论（读者不往下看也能得到信息）
    - 展开：每段 ≤3 行，单句单独成段，共 4-6 段
    - 结尾：引导评论的开放问题，格式「你有没有……」或「你觉得……」
-③ 末尾话题标签：5-8 个，格式 #AI学习 #干货分享 等（贴合内容主题）
+③ 末尾话题标签：5-8 个，格式 #AI学习 #文科生 #人间不延迟 等
 ④ 禁止：大段落连续文字、书面语长句、"总结一下"等过渡`,
 
     '知乎': `改写为知乎回答/专栏文章。
@@ -3793,7 +2917,7 @@ function buildBoostMessages(content, platform, srcType) {
 
 要求：每段台词口语化，章节感清晰，观众从任何时间点跳进来都能理解`
   };
-  const sys = ['你是多平台内容改写专家。任务：把同一段内容改写成对应平台的版本，保留核心观点和真诚感，严格按平台结构约束执行，而不仅仅是调整语气。', buildSystemPreamble()].filter(Boolean).join('\n\n');
+  const sys = ['你是「人间不延迟」的多平台内容改写专家。任务：把同一段内容改写成对应平台的版本，保留核心观点和真诚感，严格按平台结构约束执行，而不仅仅是调整语气。', buildSystemPreamble()].filter(Boolean).join('\n\n');
   const guide = platformGuide[platform] || ('改写成' + platform + '平台适合的风格。');
   const user = guide + '\n\n原内容：\n"""\n' + content + '\n"""\n\n直接给出改写后的全文，不要解释。';
   return [{ role: 'system', content: sys }, { role: 'user', content: user }];
@@ -3977,7 +3101,7 @@ async function fetchUrlToInbox(url) {
 //   CHAT
 // ============================================================
 function buildChatMessages(userText) {
-  const sys = ['你是创作者的写作搭档。回答要简洁、具体、有判断。遇到 @ 引用，把它当作上下文，但不要复述。', buildSystemPreamble()].filter(Boolean).join('\n\n');
+  const sys = ['你是「人间不延迟」的写作搭档。回答要简洁、具体、有判断。遇到 @ 引用，把它当作上下文，但不要复述。', buildSystemPreamble()].filter(Boolean).join('\n\n');
   const messages = [{ role: 'system', content: sys }];
   // attach context from refs
   let contextChunk = '';
@@ -4121,13 +3245,6 @@ function wireEvents() {
     state.ui.started_today = !state.ui.started_today;
     state.ui.last_started_day = getToday();
     renderHeader(); saveData();
-    if (state.ui.started_today) {
-      const el = document.createElement('div');
-      el.className = 'create-flash';
-      el.innerHTML = '<span>● 创作中</span>';
-      document.body.appendChild(el);
-      setTimeout(() => el.remove(), 1600);
-    }
   });
 
   // settings
@@ -4137,20 +3254,13 @@ function wireEvents() {
     document.getElementById('setProfile').value = state.settings.profile || '';
     document.getElementById('setTemp').value = state.settings.temperature != null ? String(state.settings.temperature) : '0.7';
     document.getElementById('setCoreThesis').value = state.settings.core_thesis || '';
-    document.getElementById('setVpCoreIdeas').value = state.voice.core_ideas || '';
-    document.getElementById('setVpAvoidWords').value = state.voice.avoid_words || '';
-    document.getElementById('setVpAnchorStories').value = state.voice.anchor_stories || '';
-    const cnt = state.voice.post_count_since_update || 0;
-    document.getElementById('vpPostCount').textContent = String(cnt);
-    document.getElementById('vpUpdateBanner').style.display = cnt >= 10 ? '' : 'none';
-    renderSeriesMgmt();
     openModal('settingsModal');
   });
   document.getElementById('setExport').addEventListener('click', () => {
     const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = '内容工作台-备份-' + getToday() + '.json';
+    a.download = '人间不延迟-备份-' + getToday() + '.json';
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     toast('已导出', 'success');
@@ -4194,9 +3304,6 @@ function wireEvents() {
     state.settings.temperature = isNaN(t) ? 0.7 : Math.max(0, Math.min(2, t));
     const ct = document.getElementById('setCoreThesis').value.trim();
     if (ct) state.settings.core_thesis = ct;
-    state.voice.core_ideas = document.getElementById('setVpCoreIdeas').value.trim();
-    state.voice.avoid_words = document.getElementById('setVpAvoidWords').value.trim();
-    state.voice.anchor_stories = document.getElementById('setVpAnchorStories').value.trim();
     saveDataNow();
     renderHeader();
     renderCoreThesis();
@@ -4219,38 +3326,7 @@ function wireEvents() {
       document.querySelectorAll('.inbox-tab').forEach(x => x.classList.toggle('active', x === t));
       document.querySelectorAll('.inbox-tab-content').forEach(x => x.classList.remove('active'));
       document.getElementById('itab' + t.dataset.itab.charAt(0).toUpperCase() + t.dataset.itab.slice(1)).classList.add('active');
-      // aihot tab takes over left-column scroll area; hide normal inbox-list
-      const isAihot = t.dataset.itab === 'aihot';
-      const inboxListEl = document.getElementById('inboxList');
-      if (inboxListEl) inboxListEl.style.display = isAihot ? 'none' : '';
-      const topicWrap = document.getElementById('topicPoolWrap');
-      if (topicWrap) topicWrap.style.display = isAihot ? 'none' : '';
     });
-  });
-
-  // AI 热榜
-  document.getElementById('aihotRefresh').addEventListener('click', fetchAiHotItems);
-  document.getElementById('aihotCats').addEventListener('click', e => {
-    const btn = e.target.closest('.aihot-cat-btn');
-    if (!btn) return;
-    aihotCategory = btn.dataset.cat || '';
-    document.querySelectorAll('.aihot-cat-btn').forEach(b => b.classList.toggle('active', b === btn));
-  });
-  document.getElementById('aihotList').addEventListener('click', e => {
-    const btn = e.target.closest('.aihot-add-btn');
-    if (!btn || btn.disabled) return;
-    const title = btn.dataset.ahtitle;
-    const src = btn.dataset.ahsrc;
-    if (!title) return;
-    state.inbox.push({
-      id: generateId(), title, source: src || 'AI HOT', instinct: '',
-      status: 'pending', filters: [], direction: 'short',
-      created_at: new Date().toISOString()
-    });
-    saveData();
-    renderInbox();
-    btn.textContent = '✓'; btn.disabled = true;
-    toast('✓ 已加入收件箱');
   });
 
   // inbox manual add
@@ -4518,7 +3594,6 @@ function wireEvents() {
   });
   document.getElementById('edSave').addEventListener('click', () => persistDraft(false));
   document.getElementById('edQueue').addEventListener('click', () => persistDraft(true));
-  document.getElementById('edCheck').addEventListener('click', () => showRuleChecker());
 
   // editor AI buttons
   document.getElementById('edSkill').addEventListener('click', () => openSkillPicker());
@@ -4677,54 +3752,6 @@ function wireEvents() {
 
   // drafts list
   document.getElementById('draftsList').addEventListener('click', e => {
-    // Phase 2+3 actions via data-daction
-    const da = e.target.closest('[data-daction]');
-    if (da) {
-      const action = da.dataset.daction;
-      const did = da.dataset.did;
-      const draft = state.drafts.find(x => x.id === did);
-      if (action === 'cycle-status' && draft) {
-        if (draft.publish_status === 'drafting') {
-          draft.publish_status = 'ready';
-          saveData(); renderDrafts(); renderPerfSummary();
-        } else if (draft.publish_status === 'ready') {
-          showPlatformSelector(draft);
-        } else {
-          draft.publish_status = 'drafting';
-          draft.published_platforms = [];
-          draft.published_at = null;
-          saveData(); renderDrafts(); renderPerfSummary();
-        }
-        return;
-      }
-      if (action === 'perf' && draft) {
-        const perf = da.dataset.perf;
-        draft.performance = draft.performance === perf ? null : perf;
-        // show perf-note input when a perf is set
-        saveData(); renderDrafts(); renderPerfSummary();
-        return;
-      }
-      if (action === 'change-series') {
-        showSeriesPicker(did);
-        return;
-      }
-      if (action === 'load-draft') {
-        const d = state.drafts.find(x => x.id === did);
-        if (d) {
-          document.getElementById('edTitle').value = d.title || '';
-          document.getElementById('edText').value = d.content || '';
-          setEditorType(d.type || 'short');
-          editorRefId = d.reference_id || null;
-          currentLoadedDraftId = d.id;
-          document.getElementById('scheduleDateInput').value = d.scheduled_date || '';
-          renderEditorRef(); renderEditorMeta();
-          document.getElementById('edText').focus();
-          toast('已回到编辑器');
-        }
-        return;
-      }
-    }
-
     const chip = e.target.closest('[data-pchip]');
     if (chip) {
       const [id, platform] = chip.dataset.pchip.split('|');
@@ -4746,37 +3773,10 @@ function wireEvents() {
       document.getElementById('edText').value = d.content || '';
       setEditorType(d.type || 'short');
       editorRefId = d.reference_id || null;
-      currentLoadedDraftId = d.id;
-      document.getElementById('scheduleDateInput').value = d.scheduled_date || '';
       renderEditorRef();
       renderEditorMeta();
       document.getElementById('edText').focus();
       toast('已回到编辑器');
-      return;
-    }
-    // export dropdown toggle
-    const dexp = e.target.closest('[data-dexp]');
-    if (dexp) {
-      const drop = document.getElementById('exp-' + dexp.dataset.dexp);
-      if (drop) {
-        const isOpen = drop.classList.contains('open');
-        document.querySelectorAll('.export-drop.open').forEach(d2 => d2.classList.remove('open'));
-        if (!isOpen) {
-          drop.classList.add('open');
-          setTimeout(() => {
-            const close = ev => { if (!drop.contains(ev.target) && ev.target !== dexp) { drop.classList.remove('open'); document.removeEventListener('click', close); } };
-            document.addEventListener('click', close);
-          }, 0);
-        }
-      }
-      return;
-    }
-    // export format item
-    const expItem = e.target.closest('[data-expfmt]');
-    if (expItem) {
-      const d = state.drafts.find(x => x.id === expItem.dataset.expdid);
-      if (d) exportDraft(d, expItem.dataset.expfmt);
-      document.querySelectorAll('.export-drop.open').forEach(dr => dr.classList.remove('open'));
       return;
     }
     const ddel = e.target.closest('[data-ddel]');
@@ -4857,214 +3857,18 @@ function wireEvents() {
     renderChat(); renderChatRefs(); saveDataNow();
   });
 
-  // perf-note save on blur (delegated)
-  document.addEventListener('blur', e => {
-    if (e.target.dataset.daction === 'perf-note') {
-      const did = e.target.dataset.did;
-      const draft = state.drafts.find(d => d.id === did);
-      if (draft) { draft.performance_note = e.target.value.trim(); saveData(); }
-    }
-  }, true);
-
-  // perf-note: toggle visibility when perf is set (re-render handles it, but show on focus)
-  document.addEventListener('focus', e => {
-    if (e.target.classList.contains('perf-note-input')) e.target.classList.add('visible');
-  }, true);
-
-  // series filter
-  document.getElementById('seriesFilterSelect').addEventListener('change', e => {
-    const val = e.target.value;
-    const filtered = val ? state.drafts.filter(d => d.series === val) : null;
-    renderDrafts(filtered);
-  });
-
-  // calendar grid delegate
-  document.getElementById('calGrid').addEventListener('click', e => {
-    const cd = e.target.closest('[data-daction="load-draft"]');
-    if (cd) {
-      const d = state.drafts.find(x => x.id === cd.dataset.did);
-      if (d) {
-        document.getElementById('edTitle').value = d.title || '';
-        document.getElementById('edText').value = d.content || '';
-        setEditorType(d.type || 'short');
-        editorRefId = d.reference_id || null;
-        currentLoadedDraftId = d.id;
-        document.getElementById('scheduleDateInput').value = d.scheduled_date || '';
-        renderEditorRef(); renderEditorMeta();
-        document.getElementById('edText').focus();
-        toast('已回到编辑器');
-      }
-    }
-  });
-
-  // drawer tab → render calendar / data on switch
-  document.querySelectorAll('.drawer-tab-btn').forEach(b => {
-    b.addEventListener('click', () => {
-      if (b.dataset.dtab === 'calendar') renderCalendar();
-      if (b.dataset.dtab === 'data') renderData();
-    });
-  });
-
-  // series mgmt
-  document.getElementById('seriesMgmtList').addEventListener('input', e => {
-    const id = e.target.dataset.smid;
-    const s = state.series.find(x => x.id === id);
-    if (!s) return;
-    if (e.target.classList.contains('sc-color')) s.color = e.target.value;
-    if (e.target.classList.contains('sc-name'))  s.name  = e.target.value;
-    if (e.target.classList.contains('sc-desc'))  s.description = e.target.value;
-    saveData();
-  });
-  document.getElementById('seriesMgmtList').addEventListener('click', e => {
-    if (e.target.classList.contains('series-del')) {
-      const id = e.target.dataset.smid;
-      state.series = state.series.filter(s => s.id !== id);
-      state.drafts.forEach(d => { if (d.series === id) d.series = null; });
-      state.topics.forEach(t => { if (t.series === id) t.series = null; });
-      saveData(); renderSeriesMgmt(); renderSeriesFilter(); renderDrafts();
-    }
-  });
-  document.getElementById('addSeriesBtn').addEventListener('click', () => {
-    const colors = ['#8c6010','#2b5f80','#386428','#7a3a6a','#a82618','#5a5a9a'];
-    const color = colors[state.series.length % colors.length];
-    state.series.push({ id: 's' + Date.now(), name: '新系列', color, description: '' });
-    saveData(); renderSeriesMgmt(); renderSeriesFilter();
-  });
-
-  // schedule date
-  document.getElementById('scheduleDateInput').addEventListener('change', e => {
-    if (!currentLoadedDraftId) return;
-    const d = state.drafts.find(x => x.id === currentLoadedDraftId);
-    if (d) { d.scheduled_date = e.target.value || null; saveData(); }
-  });
-  document.getElementById('clearScheduleBtn').addEventListener('click', () => {
-    document.getElementById('scheduleDateInput').value = '';
-    if (currentLoadedDraftId) {
-      const d = state.drafts.find(x => x.id === currentLoadedDraftId);
-      if (d) { d.scheduled_date = null; saveData(); }
-    }
-  });
-
   // ESC closes any open thing — and aborts active AI stream first
   document.addEventListener('keydown', e => {
-    // Cmd+S / Ctrl+S → save draft
-    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key === 's') {
-      e.preventDefault();
-      persistDraft(true);
-      return;
-    }
-    // Cmd+Shift+S → duplicate draft
-    if ((e.metaKey || e.ctrlKey) && e.shiftKey && (e.key === 's' || e.key === 'S')) {
-      e.preventDefault();
-      duplicateDraft();
-      return;
-    }
-    // Cmd+N / Ctrl+N or Cmd+I → focus inbox input
-    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && (e.key === 'n' || e.key === 'i')) {
-      e.preventDefault();
-      document.getElementById('inbInput').focus();
-      return;
-    }
-    // Cmd+B → Boost
-    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key === 'b') {
-      e.preventDefault();
-      document.getElementById('edBoost').click();
-      return;
-    }
-    // Cmd+K → focus topic pool
-    if ((e.metaKey || e.ctrlKey) && !e.shiftKey && e.key === 'k') {
-      e.preventDefault();
-      document.getElementById('topicInput').focus();
-      return;
-    }
-    // Cmd+/ → shortcut help
-    if ((e.metaKey || e.ctrlKey) && e.key === '/') {
-      e.preventDefault();
-      openModal('shortcutModal');
-      return;
-    }
     if (e.key === 'Escape') {
       if (activeStream) {
         abortStream();
         toast('已停止 AI 生成');
         return;
       }
-      // close modals
       document.querySelectorAll('.modal-backdrop.open').forEach(m => m.classList.remove('open'));
-      // close floating popups
-      document.querySelectorAll('.export-drop.open').forEach(d => d.classList.remove('open'));
-      document.querySelector('.platform-select-popup')?.remove();
-      document.querySelector('.series-picker-popup')?.remove();
       hideMentionPop();
     }
   });
-
-  // VP Re-extract button in settings modal
-  document.getElementById('vpReExtract').addEventListener('click', vpReExtractFn);
-}
-
-// ============================================================
-//   AI 热榜 (aihot.virxact.com via Jina proxy)
-// ============================================================
-let aihotCategory = '';
-
-async function fetchAiHotItems() {
-  const btn = document.getElementById('aihotRefresh');
-  const list = document.getElementById('aihotList');
-  if (!btn || !list) return;
-  btn.disabled = true; btn.textContent = '拉取中…';
-  list.innerHTML = '<div class="aihot-status">正在加载…</div>';
-  try {
-    // 优先读同源静态文件（GitHub Actions 每小时更新）
-    let data = null;
-    try {
-      const r = await fetch('./aihot-feed.json?t=' + Date.now());
-      if (r.ok) data = await r.json();
-    } catch (_) {}
-
-    if (!data) throw new Error('数据文件暂未生成，请稍后再试或手动触发 GitHub Actions');
-
-    let items = data.items || [];
-    if (aihotCategory) items = items.filter(x => x.category === aihotCategory);
-    renderAiHotItems(items);
-  } catch (e) {
-    list.innerHTML = '<div class="aihot-status">' + escapeHtml(e.message) + '</div>';
-  }
-  btn.disabled = false; btn.textContent = '✦ 拉今日精选';
-}
-
-function renderAiHotItems(items) {
-  const list = document.getElementById('aihotList');
-  if (!list) return;
-  if (!items.length) { list.innerHTML = '<div class="aihot-status">暂无内容</div>'; return; }
-  const catLabel = { 'ai-models': '模型', 'ai-products': '产品', 'industry': '行业', 'paper': '论文', 'tip': '技巧' };
-  list.innerHTML = items.map(item => {
-    const ago = aihotTimeAgo(item.publishedAt);
-    const cat = catLabel[item.category] || '';
-    return `<div class="aihot-item">
-      <div class="aihot-item-row">
-        <div class="aihot-item-title">${escapeHtml(item.title || item.title_en || '(无标题)')}</div>
-        <button class="aihot-add-btn" title="加入收件箱"
-          data-ahtitle="${escapeHtml(item.title || item.title_en || '')}"
-          data-ahsrc="${escapeHtml(item.source || 'AI HOT')}">＋</button>
-      </div>
-      <div class="aihot-item-meta">
-        ${cat ? `<span class="tag tag-source" style="font-size:8px;">${cat}</span>` : ''}
-        <span>${escapeHtml(item.source || '')}</span>
-        <span>${ago}</span>
-      </div>
-      ${item.summary ? `<div class="aihot-summary">${escapeHtml(item.summary)}</div>` : ''}
-    </div>`;
-  }).join('');
-}
-
-function aihotTimeAgo(iso) {
-  if (!iso) return '';
-  const diff = Date.now() - new Date(iso).getTime();
-  const h = Math.floor(diff / 3600000);
-  if (h < 1) return Math.floor(diff / 60000) + ' 分钟前';
-  if (h < 24) return h + ' 小时前';
-  return Math.floor(h / 24) + ' 天前';
 }
 
 function toggleDrawer(forceOpen) {
@@ -5080,7 +3884,6 @@ function persistDraft(openDrawer) {
   const title = document.getElementById('edTitle').value.trim();
   if (!text && !title) { toast('编辑区是空的', 'error'); return null; }
   const finalTitle = title || (text.trim().slice(0,24) || '(未命名)');
-  const schedVal = document.getElementById('scheduleDateInput').value;
   const draft = {
     id: generateId(),
     title: finalTitle,
@@ -5089,13 +3892,6 @@ function persistDraft(openDrawer) {
     platforms: [],
     published: [],
     reference_id: editorRefId || null,
-    publish_status: 'drafting',
-    published_platforms: [],
-    published_at: null,
-    performance: null,
-    performance_note: '',
-    scheduled_date: schedVal || null,
-    series: null,
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString()
   };
@@ -5166,582 +3962,61 @@ function openSkillPicker(extras) {
 }
 
 // ============================================================
-//   PHASE 2: FEEDBACK LAYER
+//   COLUMN TOGGLE & NAV
 // ============================================================
-function renderPerfSummary() {
-  const panel = document.getElementById('perfSummaryPanel');
-  if (!panel) return;
-  const thirtyAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
-  const recent = state.drafts.filter(d =>
-    d.publish_status === 'published' && d.published_at &&
-    new Date(d.published_at).getTime() > thirtyAgo
-  );
-  if (!recent.length) { panel.classList.add('hidden'); return; }
-  panel.classList.remove('hidden');
-  const fire = recent.filter(d => d.performance === 'fire');
-  const ok   = recent.filter(d => d.performance === 'ok');
-  const cold = recent.filter(d => d.performance === 'cold');
-  let top3 = '';
-  if (fire.length) {
-    top3 += '🔥 ';
-    fire.slice(0,2).forEach(d => { top3 += `<span>· ${escapeHtml(d.title?.slice(0,28)||'无标题')}</span> `; });
-    top3 += '<br>';
-  }
-  if (cold.length) {
-    top3 += '🥶 ';
-    cold.slice(0,2).forEach(d => { top3 += `<span>· ${escapeHtml(d.title?.slice(0,28)||'无标题')}</span> `; });
-  }
-  panel.innerHTML = `
-    <h4>📊 最近 30 天</h4>
-    <div class="perf-summary-grid">
-      <span class="perf-summary-stat">发布 <span class="pnum">${recent.length}</span> 篇</span>
-      <span class="perf-summary-stat">🔥 <span class="pnum">${fire.length}</span></span>
-      <span class="perf-summary-stat">👍 <span class="pnum">${ok.length}</span></span>
-      <span class="perf-summary-stat">🥶 <span class="pnum">${cold.length}</span></span>
-    </div>
-    ${top3 ? `<div class="perf-top3">${top3}</div>` : ''}
-  `;
-}
-
-function showPlatformSelector(draft) {
-  document.querySelector('.platform-select-popup')?.remove();
-  const platforms = [
-    { id: 'wechat',      label: '💬 微信公众号' },
-    { id: 'xiaohongshu', label: '📕 小红书' },
-    { id: 'douyin',      label: '🎵 抖音' },
-    { id: 'bilibili',    label: '📺 B站' },
-    { id: 'zhihu',       label: '💡 知乎' },
-    { id: 'weibo',       label: '🐦 微博' },
-  ];
-  const popup = document.createElement('div');
-  popup.className = 'platform-select-popup';
-  popup.innerHTML = `
-    <h4>发布到哪些平台？</h4>
-    ${platforms.map(p => `
-      <label class="platform-check-row">
-        <input type="checkbox" value="${p.id}" ${(draft.published_platforms||[]).includes(p.id)?'checked':''}>
-        ${p.label}
-      </label>
-    `).join('')}
-    <button class="platform-confirm-btn">确认发布</button>
-  `;
-  document.body.appendChild(popup);
-  const badge = document.querySelector(`[data-daction="cycle-status"][data-did="${draft.id}"]`);
-  if (badge) {
-    const r = badge.getBoundingClientRect();
-    popup.style.top = (r.bottom + 6) + 'px';
-    popup.style.left = Math.min(r.left, window.innerWidth - 220) + 'px';
-  } else {
-    popup.style.top = '40%'; popup.style.left = '40%';
-  }
-  popup.querySelector('.platform-confirm-btn').onclick = () => {
-    const checked = [...popup.querySelectorAll('input:checked')].map(cb => cb.value);
-    draft.publish_status = 'published';
-    draft.published_platforms = checked;
-    draft.published_at = new Date().toISOString();
-    state.voice.post_count_since_update = (state.voice.post_count_since_update || 0) + 1;
-    popup.remove();
-    saveData(); renderDrafts(); renderPerfSummary();
-  };
-  setTimeout(() => {
-    const close = e => {
-      if (!popup.contains(e.target)) { popup.remove(); document.removeEventListener('click', close); }
-    };
-    document.addEventListener('click', close);
-  }, 0);
-}
-
-// ============================================================
-//   PHASE 3: SERIES + CALENDAR
-// ============================================================
-function renderSeriesFilter() {
-  const sel = document.getElementById('seriesFilterSelect');
-  if (!sel) return;
-  const cur = sel.value;
-  sel.innerHTML = '<option value="">📚 全部系列</option>';
-  state.series.forEach(s => {
-    const opt = document.createElement('option');
-    opt.value = s.id; opt.textContent = s.name;
-    if (s.id === cur) opt.selected = true;
-    sel.appendChild(opt);
-  });
-}
-
-function showSeriesPicker(draftId) {
-  const draft = state.drafts.find(d => d.id === draftId);
-  if (!draft) return;
-  document.querySelector('.series-picker-popup')?.remove();
-  const popup = document.createElement('div');
-  popup.className = 'platform-select-popup series-picker-popup';
-  popup.innerHTML = `
-    <h4>选择系列</h4>
-    <div style="max-height:200px;overflow-y:auto;">
-      <div class="platform-check-row" data-sid="" style="color:var(--text-dim);">— 无系列 —</div>
-      ${state.series.map(s => `
-        <div class="platform-check-row" data-sid="${s.id}">
-          <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${s.color};margin-right:6px;flex-shrink:0;"></span>
-          ${escapeHtml(s.name)}
-        </div>
-      `).join('')}
-    </div>
-  `;
-  document.body.appendChild(popup);
-  const badge = document.querySelector(`[data-daction="change-series"][data-did="${draftId}"]`);
-  if (badge) {
-    const r = badge.getBoundingClientRect();
-    popup.style.top = (r.bottom + 4) + 'px';
-    popup.style.left = Math.min(r.left, window.innerWidth - 200) + 'px';
-  }
-  popup.addEventListener('click', e => {
-    const row = e.target.closest('[data-sid]');
-    if (!row) return;
-    draft.series = row.dataset.sid || null;
-    popup.remove();
-    saveData(); renderDrafts(); renderSeriesFilter();
-  });
-  setTimeout(() => {
-    const close = e => {
-      if (!popup.contains(e.target)) { popup.remove(); document.removeEventListener('click', close); }
-    };
-    document.addEventListener('click', close);
-  }, 0);
-}
-
-function renderSeriesMgmt() {
-  const list = document.getElementById('seriesMgmtList');
-  if (!list) return;
-  if (!state.series.length) {
-    list.innerHTML = '<div style="font-size:11.5px;color:var(--text-faint);padding:6px 0;">还没有系列。</div>';
-    return;
-  }
-  list.innerHTML = state.series.map(s => `
-    <div class="series-mgmt-row">
-      <input type="color" value="${s.color}" data-smid="${s.id}" class="sc-color">
-      <input type="text" value="${escapeHtml(s.name)}" data-smid="${s.id}" class="sc-name" placeholder="系列名称" style="width:90px;">
-      <input type="text" value="${escapeHtml(s.description||'')}" data-smid="${s.id}" class="sc-desc" placeholder="简述（可选）" style="flex:1;">
-      <button class="series-del" data-smid="${s.id}" title="删除">✕</button>
-    </div>
-  `).join('');
-}
-
-function renderCalendar() {
-  const nav  = document.getElementById('calNav');
-  const grid = document.getElementById('calGrid');
-  if (!nav || !grid) return;
-  const y = calendarYear, m = calendarMonth;
-  const months = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
-  nav.innerHTML = `
-    <button id="calPrev">◀</button>
-    <span class="month-label">${y}年 ${months[m]}</span>
-    <button id="calNext">▶</button>
-  `;
-  document.getElementById('calPrev').onclick = () => {
-    if (calendarMonth === 0) { calendarMonth = 11; calendarYear--; } else calendarMonth--;
-    renderCalendar();
-  };
-  document.getElementById('calNext').onclick = () => {
-    if (calendarMonth === 11) { calendarMonth = 0; calendarYear++; } else calendarMonth++;
-    renderCalendar();
-  };
-  const today = getToday();
-  const daysInMonth = new Date(y, m + 1, 0).getDate();
-  const firstDay = new Date(y, m, 1).getDay();
-  const headers = ['日','一','二','三','四','五','六'];
-  let html = headers.map(h => `<div class="calendar-day-header">${h}</div>`).join('');
-  for (let i = 0; i < firstDay; i++) html += '<div class="calendar-day other-month"></div>';
-  for (let d = 1; d <= daysInMonth; d++) {
-    const ds = `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-    const isToday = ds === today;
-    const sched = state.drafts.filter(dr => dr.scheduled_date === ds);
-    html += `
-      <div class="calendar-day${isToday?' today':''}">
-        <div class="day-num">${d}</div>
-        ${sched.map(dr => `<div class="cal-draft" data-daction="load-draft" data-did="${dr.id}">${escapeHtml((dr.title||'').slice(0,14))}</div>`).join('')}
-      </div>`;
-  }
-  grid.innerHTML = html;
-}
-
-// ============================================================
-//   PLATFORM RULE CHECKER
-// ============================================================
-const SPAM_WORDS = ['不得不说', '值得深思', '我们正在见证', '在这个时代', '令人深思', '引人深思', '总的来说', '综上所述', '好了', '总结一下'];
-
-const PLATFORM_CHECKS = {
-  '小红书': {
-    label: '小红书',
-    run(text, len, tags) {
-      const rows = [];
-      rows.push(len >= 100 && len <= 1000
-        ? { ok: true, msg: `字数 ${len} ✓（100-1000 字）` }
-        : { ok: false, warn: len < 100, msg: `字数 ${len}（建议 100-1000 字）` });
-      rows.push(tags >= 3
-        ? { ok: true, msg: `话题标签 ${tags} 个 ✓` }
-        : { ok: false, warn: true, msg: `话题标签 ${tags} 个（建议至少 3 个，格式 #话题#）` });
-      const hasEmoji = /[\u{1F300}-\u{1FFFF}]/u.test(text) || /[☀-➿]/.test(text);
-      rows.push(hasEmoji
-        ? { ok: true, msg: '有 emoji ✓（小红书偏爱）' }
-        : { ok: false, warn: true, msg: '没有 emoji（小红书建议加几个）' });
-      return rows;
-    }
-  },
-  '公众号': {
-    label: '微信公众号',
-    run(text, len) {
-      const rows = [];
-      rows.push(len >= 300
-        ? { ok: true, msg: `字数 ${len} ✓` }
-        : { ok: false, warn: true, msg: `字数 ${len}（公众号建议 300+ 字）` });
-      const hasSubhead = /^(#+\s|【|##|[一二三四五六七八九十]+[、．.])/m.test(text);
-      rows.push(hasSubhead
-        ? { ok: true, msg: '有小标题/分节结构 ✓' }
-        : { ok: false, warn: true, msg: '没有检测到小标题（建议用 ## 或【】分节）' });
-      return rows;
-    }
-  },
-  '微博': {
-    label: '微博',
-    run(text, len, tags) {
-      const rows = [];
-      rows.push(len <= 140
-        ? { ok: true, msg: `字数 ${len} ✓（140 字以内）` }
-        : { ok: false, warn: false, msg: `字数 ${len}，超出微博 140 字限制（超出 ${len-140} 字）` });
-      rows.push(tags >= 1 && tags <= 2
-        ? { ok: true, msg: `话题标签 ${tags} 个 ✓` }
-        : tags === 0
-          ? { ok: false, warn: true, msg: '建议加 1-2 个话题标签' }
-          : { ok: false, warn: true, msg: `话题标签 ${tags} 个（微博建议 1-2 个）` });
-      return rows;
-    }
-  },
-  '抖音': {
-    label: '抖音脚本',
-    run(text, len) {
-      const rows = [];
-      rows.push(len <= 1000
-        ? { ok: true, msg: `字数 ${len} ✓（60s 口播约 300-500 字）` }
-        : { ok: false, warn: false, msg: `字数 ${len}，60s 口播建议 300-500 字` });
-      const hasHook = text.slice(0,60).includes('？') || text.slice(0,60).includes('！') || text.slice(0,60).length > 10;
-      rows.push(hasHook
-        ? { ok: true, msg: '开头有钩子 ✓' }
-        : { ok: false, warn: true, msg: '开头前 3 秒要有钩子（疑问/冲突/直接结论）' });
-      return rows;
-    }
-  },
-  'B站': {
-    label: 'B站脚本',
-    run(text, len) {
-      const rows = [];
-      rows.push(len <= 2000
-        ? { ok: true, msg: `字数 ${len} ✓` }
-        : { ok: false, warn: true, msg: `字数 ${len}（B站脚本建议 2000 字以内）` });
-      const hasTimestamp = /^\d+[:：分秒]/.test(text) || /\[\d+:\d+\]/.test(text);
-      rows.push(hasTimestamp
-        ? { ok: true, msg: '有时间轴标记 ✓' }
-        : { ok: false, warn: true, msg: '建议加时间轴（[0:00] 格式便于剪辑）' });
-      return rows;
-    }
-  },
-  '知乎': {
-    label: '知乎',
-    run(text, len) {
-      const rows = [];
-      rows.push(len >= 300 && len <= 10000
-        ? { ok: true, msg: `字数 ${len} ✓` }
-        : { ok: false, warn: len < 300, msg: `字数 ${len}（知乎建议 300-10000 字）` });
-      const paras = text.split(/\n+/).filter(p => p.trim());
-      rows.push(paras.length >= 3
-        ? { ok: true, msg: `共 ${paras.length} 段 ✓（结构清晰）` }
-        : { ok: false, warn: true, msg: `只有 ${paras.length} 段，建议增加分段提升可读性` });
-      return rows;
-    }
-  }
-};
-
-function showRuleChecker() {
-  const text = document.getElementById('edText').value;
-  if (!text.trim()) { toast('编辑区是空的', 'error'); return; }
-  const len = text.length;
-  const tags = (text.match(/#[^\s#]+/g) || []).length;
-  const sentences = text.split(/[。！？.!?]/).filter(s => s.trim());
-  const longSentences = sentences.filter(s => s.trim().length > 60);
-  const foundSpam = SPAM_WORDS.filter(w => text.includes(w));
-  const avoidMatch = state.voice.avoid_words
-    ? state.voice.avoid_words.split(/[；;,，\n]+/).map(w => w.trim()).filter(w => w && text.includes(w))
-    : [];
-
-  // Tab state
-  const platforms = Object.keys(PLATFORM_CHECKS);
-  let activeTab = platforms[0];
-
-  function buildBody() {
-    // Global checks
-    const globalRows = [];
-    globalRows.push(foundSpam.length === 0
-      ? { ok: true, msg: '无废话词 ✓' }
-      : { ok: false, warn: false, msg: '废话词：' + foundSpam.map(w => '「' + w + '」').join(' ') });
-    globalRows.push(longSentences.length === 0
-      ? { ok: true, msg: '句子长度正常（全部 ≤60 字）✓' }
-      : { ok: false, warn: true, msg: `${longSentences.length} 句超 60 字，建议拆短` });
-    if (avoidMatch.length > 0) {
-      globalRows.push({ ok: false, warn: false, msg: '匹配到禁用词：' + avoidMatch.map(w => '「' + w + '」').join(' ') });
-    }
-
-    const globalHtml = '<div style="margin-bottom:14px;">'
-      + '<div style="font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-faint);margin-bottom:8px;">通用检查 · 字数 ' + len + ' · 标签 ' + tags + '</div>'
-      + globalRows.map(r => {
-          const cls = r.ok ? 'rule-pass' : r.warn ? 'rule-warn' : 'rule-fail';
-          const icon = r.ok ? '✓' : r.warn ? '⚠' : '✕';
-          return `<div class="rule-global-row"><span class="rule-icon ${cls}">${icon}</span><span class="${cls}">${escapeHtml(r.msg)}</span></div>`;
-        }).join('')
-      + '</div>';
-
-    // Platform tabs
-    const tabsHtml = '<div class="rule-platform-tabs">'
-      + platforms.map(p => `<button class="rule-tab${p === activeTab ? ' active' : ''}" data-rtab="${p}">${PLATFORM_CHECKS[p].label}</button>`).join('')
-      + '</div>';
-
-    // Active platform results
-    const platRows = PLATFORM_CHECKS[activeTab].run(text, len, tags);
-    const platHtml = '<div class="rule-platform-results">'
-      + `<div class="rule-plat-title">${PLATFORM_CHECKS[activeTab].label} 专项检查</div>`
-      + platRows.map(r => {
-          const cls = r.ok ? 'rule-pass' : r.warn ? 'rule-warn' : 'rule-fail';
-          const icon = r.ok ? '✓' : r.warn ? '⚠' : '✕';
-          return `<div class="rule-global-row"><span class="rule-icon ${cls}">${icon}</span><span class="${cls}">${escapeHtml(r.msg)}</span></div>`;
-        }).join('')
-      + '</div>';
-
-    return globalHtml + tabsHtml + platHtml;
-  }
-
-  const body = document.getElementById('ruleModalBody');
-  body.innerHTML = buildBody();
-  // Tab switching
-  body.querySelectorAll('.rule-tab').forEach(btn => {
-    btn.addEventListener('click', () => {
-      activeTab = btn.dataset.rtab;
-      body.innerHTML = buildBody();
-      body.querySelectorAll('.rule-tab').forEach(b => {
-        b.addEventListener('click', () => { activeTab = b.dataset.rtab; body.innerHTML = buildBody(); });
-      });
-    });
-  });
-  openModal('ruleModal');
-}
-
-// ============================================================
-//   ONBOARDING
-// ============================================================
-let obStep = 0;
-function obGo(step) {
-  [0,1,2].forEach(i => {
-    const el = document.getElementById('obStep' + i);
-    if (el) el.style.display = i === step ? '' : 'none';
-    const dot = document.getElementById('obDot' + i);
-    if (dot) {
-      dot.classList.remove('active', 'done');
-      if (i < step) dot.classList.add('done');
-      else if (i === step) dot.classList.add('active');
-    }
-  });
-  const btn = document.getElementById('obNext');
-  if (btn) btn.textContent = step < 2 ? '下一步 →' : '开始使用 ✦';
-  obStep = step;
-}
-function obFinish() {
-  const key = (document.getElementById('obKey').value || '').trim();
-  const profile = (document.getElementById('obProfile').value || '').trim();
-  if (key) state.settings.deepseek_key = key;
-  if (profile) state.settings.profile = profile;
-  state.settings._onboarded = true;
-  saveDataNow();
-  document.getElementById('onboardModal').classList.remove('open');
-  if (state.settings.deepseek_key) {
-    toast('✓ 已就绪，开始写吧', 'success');
-  } else {
-    setTimeout(() => toast('点右上角 ⚙ 填 DeepSeek key，AI 功能才能启用'), 400);
-  }
-}
-function wireOnboarding() {
-  document.getElementById('obNext').addEventListener('click', () => {
-    if (obStep < 2) obGo(obStep + 1);
-    else obFinish();
-  });
-  document.getElementById('obSkip').addEventListener('click', () => {
-    state.settings._onboarded = true;
-    saveDataNow();
-    document.getElementById('onboardModal').classList.remove('open');
-    if (!state.settings.deepseek_key) {
-      setTimeout(() => toast('点右上角 ⚙ 填 DeepSeek key，AI 功能才能启用'), 400);
-    }
-  });
-}
-
-// ============================================================
-//   PHASE 4: INTELLIGENCE LAYER
-// ============================================================
-
-// VP Re-extract (called from wireEvents, attached to vpReExtract button)
-async function vpReExtractFn() {
-  if (!state.settings.deepseek_key) { toast('需要先在设置里填 DeepSeek key', 'error'); return; }
-  const published = state.drafts.filter(d => d.publish_status === 'published' && d.content);
-  if (!published.length && !state.voice.samples.length) {
-    toast('还没有发布的内容或语气样本', 'error'); return;
-  }
-  const btn = document.getElementById('vpReExtract');
-  if (btn) { btn.disabled = true; btn.textContent = '提炼中…'; }
-  const samples = [
-    ...state.voice.samples.map(s => (s.title ? s.title + '\n' : '') + s.content),
-    ...published.slice(0, 10).map(d => (d.title ? d.title + '\n' : '') + d.content)
-  ].slice(0, 12);
-  const contextParts = [];
-  if (state.voice.core_ideas) contextParts.push('创作者核心观点：\n' + state.voice.core_ideas);
-  if (state.voice.avoid_words) contextParts.push('需要回避：\n' + state.voice.avoid_words);
-  const contextHint = contextParts.length ? '\n\n参考信息：\n' + contextParts.join('\n\n') : '';
-  try {
-    const result = await callDeepSeek({
-      messages: [
-        { role: 'system', content: '你是一位写作教练，专门分析内容创作者的语气特征。请根据文章样本，提炼创作者的核心语气风格，用 150-200 字描述：语速节奏、用词习惯、态度立场、句式特征。输出纯文字描述，不要分点列表。' + contextHint },
-        { role: 'user', content: '请分析以下样本，提炼语气风格：\n\n' + samples.join('\n\n---\n\n') }
-      ]
-    });
-    state.voice.distilled = result;
-    state.voice.post_count_since_update = 0;
-    state.voice.updated_at = new Date().toISOString();
-    saveDataNow();
-    const cntEl = document.getElementById('vpPostCount');
-    if (cntEl) cntEl.textContent = '0';
-    const banner = document.getElementById('vpUpdateBanner');
-    if (banner) banner.style.display = 'none';
-    const vp = document.getElementById('voiceProfile');
-    if (vp) { vp.classList.remove('empty'); vp.textContent = result; }
-    toast('✓ 语气档案已更新', 'success');
-  } catch (e) {
-    toast('提炼失败：' + e.message, 'error');
-  }
-  if (btn) { btn.disabled = false; btn.textContent = '重新提炼'; }
-}
-
-// ============================================================
-//   PHASE 6: POLISH LAYER
-// ============================================================
-
-function duplicateDraft() {
-  const text = document.getElementById('edText').value;
-  const title = document.getElementById('edTitle').value.trim();
-  if (!text && !title) { toast('编辑区是空的，没什么可复制的', 'error'); return; }
-  const finalTitle = (title || text.slice(0, 24)) + ' (副本)';
-  const d = {
-    id: generateId(), title: finalTitle, content: text,
-    type: editorType, platforms: [], published: [],
-    reference_id: editorRefId || null,
-    publish_status: 'drafting', published_platforms: [], published_at: null,
-    performance: null, performance_note: '',
-    scheduled_date: null, series: null,
-    created_at: new Date().toISOString(), updated_at: new Date().toISOString()
-  };
-  state.drafts.unshift(d);
-  saveData(); renderDrafts();
-  toast('✓ 已复制草稿');
-}
-
-function exportDraft(draft, format) {
-  if (!draft) return;
-  const safeName = (draft.title || '草稿').replace(/[^\w一-鿿\-\s]+/g, '').trim().slice(0, 40) || 'draft';
-  if (format === 'md') {
-    const md = (draft.title ? '# ' + draft.title + '\n\n' : '') + (draft.content || '');
-    const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
-    a.download = safeName + '.md'; a.click();
-    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-    toast('✓ 已导出 .md');
-  } else if (format === 'txt') {
-    const txt = (draft.title ? draft.title + '\n\n' : '') + (draft.content || '');
-    const blob = new Blob([txt], { type: 'text/plain;charset=utf-8' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
-    a.download = safeName + '.txt'; a.click();
-    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-    toast('✓ 已导出 .txt');
-  } else if (format === 'wechat') {
-    const paras = (draft.content || '').split(/\n+/).filter(p => p.trim());
-    const titleHtml = draft.title ? `<h2 style="font-size:20px;font-weight:bold;line-height:1.6;color:#222;margin:0 0 1em;">${draft.title}</h2>` : '';
-    const bodyHtml = paras.map(p => `<p style="font-size:16px;line-height:1.8;color:#333;margin:1em 0;letter-spacing:0.02em;">${p}</p>`).join('');
-    const html = `<section style="font-family:-apple-system,sans-serif;max-width:680px;margin:0 auto;">${titleHtml}${bodyHtml}</section>`;
-    navigator.clipboard.writeText(html).then(() => toast('✓ 已复制微信排版 HTML')).catch(() => toast('复制失败', 'error'));
-  }
-}
-
-function renderData() {
-  const el = document.getElementById('dataDashboard');
+function toggleColumn(col) {
+  const el = document.querySelector('.col-' + col);
   if (!el) return;
-  const drafts = state.drafts;
-  const total = drafts.length;
-  const totalChars = drafts.reduce((s, d) => s + (d.content ? d.content.length : 0), 0);
-  const published = drafts.filter(d => d.publish_status === 'published').length;
-  const ready = drafts.filter(d => d.publish_status === 'ready').length;
-
-  // Platform distribution
-  const platMap = {};
-  drafts.filter(d => d.publish_status === 'published').forEach(d => {
-    (d.published_platforms || []).forEach(p => { platMap[p] = (platMap[p] || 0) + 1; });
-  });
-  const platMax = Math.max(...Object.values(platMap), 1);
-
-  // Performance
-  const perfMap = { fire: 0, ok: 0, cold: 0, none: 0 };
-  drafts.filter(d => d.publish_status === 'published').forEach(d => {
-    perfMap[d.performance || 'none']++;
-  });
-  const perfMax = Math.max(...Object.values(perfMap), 1);
-
-  // Series
-  const seriesMap = {};
-  state.series.forEach(s => { seriesMap[s.id] = 0; });
-  seriesMap['__none__'] = 0;
-  drafts.forEach(d => {
-    const k = d.series && state.series.find(s => s.id === d.series) ? d.series : '__none__';
-    seriesMap[k] = (seriesMap[k] || 0) + 1;
-  });
-  const seriesMax = Math.max(...Object.values(seriesMap), 1);
-
-  const barsHtml = (entries, max, labelFn, colorFn) => entries
-    .filter(([, n]) => n > 0)
-    .sort((a, b) => b[1] - a[1])
-    .map(([k, n]) => {
-      const w = Math.round(n / max * 100);
-      const color = colorFn ? colorFn(k) : '';
-      return `<div class="data-bar-row">
-        <span class="data-bar-lbl">${labelFn(k)}</span>
-        <div class="data-bar-track"><div class="data-bar-fill" style="width:${w}%;${color ? 'background:'+color+';' : ''}"></div></div>
-        <span class="data-bar-num">${n}</span>
-      </div>`;
-    }).join('') || '<div style="color:var(--text-faint);font-size:11px;padding:4px 0;">暂无数据</div>';
-
-  el.innerHTML = `
-    <div class="data-stats-row">
-      <div class="data-stat"><div class="data-num">${total}</div><div class="data-lbl">草稿</div></div>
-      <div class="data-stat"><div class="data-num">${(totalChars / 1000).toFixed(1)}k</div><div class="data-lbl">总字符</div></div>
-      <div class="data-stat"><div class="data-num">${published}</div><div class="data-lbl">已发布</div></div>
-      <div class="data-stat"><div class="data-num">${ready}</div><div class="data-lbl">待发布</div></div>
-    </div>
-    <div class="data-section-title">平台分布</div>
-    <div class="data-bars">${barsHtml(Object.entries(platMap), platMax, k => escapeHtml(k), null)}</div>
-    <div class="data-section-title">效果分布</div>
-    <div class="data-bars">${barsHtml(
-      [['fire','🔥 爆款'],['ok','👍 正常'],['cold','🥶 冷场'],['none','— 未标']].map(([k,l]) => [l, perfMap[k]]),
-      perfMax, k => k, null)}</div>
-    <div class="data-section-title">系列分布</div>
-    <div class="data-bars">${barsHtml(Object.entries(seriesMap), seriesMax,
-      k => {
-        const s = state.series.find(x => x.id === k);
-        if (!s) return '未分类';
-        return `<span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:${s.color};margin-right:4px;vertical-align:middle;"></span>${escapeHtml(s.name)}`;
-      },
-      k => { const s = state.series.find(x => x.id === k); return s ? s.color + '55' : null; }
-    )}</div>
-  `;
+  const collapsed = el.classList.toggle('collapsed');
+  // update nav pill
+  const pill = document.querySelector('.nav-pill[data-nav="' + col + '"]');
+  if (pill) pill.classList.toggle('active', !collapsed);
+  // update toggle button arrow
+  const btn = document.querySelector('.col-toggle[data-toggle-col="' + col + '"]');
+  if (btn) btn.textContent = collapsed ? '▶' : '◀';
+  // persist
+  state.ui = state.ui || {};
+  state.ui['col_' + col + '_collapsed'] = collapsed;
+  saveData();
 }
+
+function restoreColumns() {
+  ['left', 'right'].forEach(col => {
+    const collapsed = state.ui && state.ui['col_' + col + '_collapsed'];
+    if (collapsed) {
+      const el = document.querySelector('.col-' + col);
+      if (el) el.classList.add('collapsed');
+      const pill = document.querySelector('.nav-pill[data-nav="' + col + '"]');
+      if (pill) pill.classList.remove('active');
+      const btn = document.querySelector('.col-toggle[data-toggle-col="' + col + '"]');
+      if (btn) btn.textContent = '▶';
+    }
+  });
+}
+
+function updateDrawerBadge() {
+  const badge = document.getElementById('drawerBadge');
+  if (!badge) return;
+  const count = state.drafts ? state.drafts.length : 0;
+  badge.textContent = count > 0 ? count : '';
+  badge.dataset.count = count;
+}
+
+// Wire nav pills
+document.querySelectorAll('.nav-pill').forEach(pill => {
+  pill.addEventListener('click', () => toggleColumn(pill.dataset.nav));
+});
+// Wire column toggles
+document.querySelectorAll('.col-toggle').forEach(btn => {
+  btn.addEventListener('click', () => toggleColumn(btn.dataset.toggleCol));
+});
+// Keyboard shortcuts: 1/2/3 toggle columns
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+  if (e.key === '1') toggleColumn('left');
+  else if (e.key === '2') {} // center is always visible
+  else if (e.key === '3') toggleColumn('right');
+});
 
 // ============================================================
 //   INIT
@@ -5749,17 +4024,17 @@ function renderData() {
 loadData();
 renderAll();
 wireEvents();
-wireOnboarding();
+restoreColumns();
+updateDrawerBadge();
 if (state.ui.drawer_open) {
   document.getElementById('drawer').classList.add('open');
   document.getElementById('drawerToggleLabel').textContent = '收起';
 }
-// First-run onboarding
-if (!state.settings._onboarded) {
+// First-run: open settings if no key
+if (!state.settings.deepseek_key) {
   setTimeout(() => {
-    obGo(0);
-    document.getElementById('onboardModal').classList.add('open');
-  }, 300);
+    toast('点右上角 ⚙ 填 DeepSeek key，AI 功能才能启用');
+  }, 800);
 }
 </script>
 </body>
