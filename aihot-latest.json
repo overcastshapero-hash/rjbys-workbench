@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T07:50:43.358Z",
+  "generatedAt": "2026-06-01T10:23:54.073Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-01",
   "daily": {
@@ -76,6 +76,16 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmpuzjn4q02bzsl0zm8pgfo93",
+      "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
+      "title_en": "🚀We're excited to officially release Hy-Memory - a powerful memory plugin built specifically for lo…",
+      "url": "https://x.com/TencentHunyuan/status/2061372535267357029",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "publishedAt": "2026-06-01T09:01:25.000Z",
+      "summary": "腾讯混元正式发布专为OpenClaw等长期协作智能体（Agent）设计的记忆插件 Hy-Memory。它基于6层记忆框架、System1/System2双系统与三层进化链构建，旨在成为智能体的\"第二大脑\"。该插件解决了记忆碎片化问题，实现了显著性能提升：记忆数量减少70%以上，单条记忆信息密度提升45%以上，在超长上下文场景中token消耗降低35%，记忆更新速度提升20%。",
+      "category": "ai-products"
+    },
     {
       "id": "cmpuv5v540180sl0zee33wa3b",
       "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
