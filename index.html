@@ -350,6 +350,20 @@ button.muted { color: var(--text-dim); border-color: var(--border); }
   display: flex;
   border-bottom: 1px solid var(--border);
 }
+.inbox-hot-btn {
+  flex: 1.2;
+  background: var(--gold-dim);
+  border: none;
+  border-bottom: 1px solid var(--gold-soft);
+  padding: 11px 10px;
+  font-size: 9.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.inbox-hot-btn:hover { background: var(--paper-hi); border-bottom-color: var(--gold); }
 .inbox-tab {
   flex: 1;
   background: transparent;
@@ -1772,6 +1786,7 @@ button.ai-btn:hover {
     </div>
 
     <div class="inbox-tabs">
+      <button class="inbox-hot-btn" id="btnAIHotSide" title="一键提取 AI HOT 当日热点，转成选题或文章">✦ 今日 AI 热点</button>
       <button class="inbox-tab active" data-itab="manual">手动录入</button>
       <button class="inbox-tab" data-itab="url">URL 抓取</button>
     </div>
@@ -4496,10 +4511,9 @@ function formatRelativeTime(iso) {
 // Wire the main trigger button (safe, runs after DOM ready via init)
 function wireAIHotButton() {
   const btn = document.getElementById('btnAIHot');
-  if (!btn) return;
-  btn.addEventListener('click', () => {
-    openAIHotModal();
-  });
+  if (btn) btn.addEventListener('click', openAIHotModal);
+  const sideBtn = document.getElementById('btnAIHotSide');
+  if (sideBtn) sideBtn.addEventListener('click', openAIHotModal);
 
   const ref = document.getElementById('hotRefresh');
   if (ref) ref.onclick = () => loadHot(currentHotMode);
