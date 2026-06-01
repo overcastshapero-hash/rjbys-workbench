@@ -4197,7 +4197,12 @@ document.addEventListener('keydown', e => {
 //   AI HOT 集成 (人间不延迟工作台)
 // ============================================================
 const AIHOT_BASE = 'https://aihot.virxact.com';
-const AIHOT_CACHE = './aihot-latest.json';
+const AIHOT_CACHE_PATHS = [
+  '/rjbys-workbench/aihot-latest.json',
+  new URL('aihot-latest.json', document.baseURI).href,
+  './aihot-latest.json',
+  '/rjbys-workbench/aihot-feed.json'
+];
 
 let currentHotMode = 'daily';
 let lastHotItems = [];
@@ -4241,22 +4246,28 @@ async function loadHot(mode) {
     console.warn('[AI HOT] fetch failed', e);
     listEl.innerHTML = '';
     emptyEl.style.display = 'block';
-    emptyEl.innerHTML = `<span class="ornament">✦</span>读取缓存失败。<br>请检查 aihot-latest.json 是否已发布，或打开 AI HOT 官网手动查看。`;
+    emptyEl.innerHTML = `<span class="ornament">✦</span>读取缓存失败。<br>已尝试站内缓存和旧缓存，请强刷页面或打开 AI HOT 官网手动查看。`;
   }
 
   wireHotModeButtons();
 }
 
 async function loadHotPayload() {
-  try {
-    const res = await fetch(AIHOT_CACHE + '?t=' + Date.now(), { cache: 'no-store' });
-    if (!res.ok) throw new Error('cache ' + res.status);
-    const data = await res.json();
-    return normalizeHotPayload(data);
-  } catch (cacheError) {
-    console.warn('[AI HOT] cache failed, trying direct API', cacheError);
-    return loadHotDirect();
+  const errors = [];
+  const uniquePaths = [...new Set(AIHOT_CACHE_PATHS)];
+  for (const path of uniquePaths) {
+    try {
+      const url = new URL(path, location.origin).href + '?t=' + Date.now();
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(url + ' ' + res.status);
+      const data = await res.json();
+      return normalizeHotPayload(data);
+    } catch (cacheError) {
+      errors.push(cacheError.message || String(cacheError));
+    }
   }
+  console.warn('[AI HOT] all cache paths failed', errors);
+  return loadHotDirect();
 }
 
 async function loadHotDirect() {
@@ -4291,7 +4302,7 @@ function normalizeHotPayload(data) {
   return {
     generatedAt: data.generatedAt || daily.generatedAt || new Date().toISOString(),
     date: data.date || daily.date || getToday(),
-    dailyItems,
+    dailyItems: dailyItems.length ? dailyItems : selectedItems,
     selectedItems
   };
 }
