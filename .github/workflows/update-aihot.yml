@@ -2,8 +2,8 @@ name: Update AI 热榜数据
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小时整点运行
-  workflow_dispatch:        # 支持手动触发
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-feed:
@@ -12,39 +12,30 @@ jobs:
       contents: write
 
     steps:
-      - name: Fetch aihot feed
-        run: |
-          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 aihot-skill/0.2.0"
-          SINCE=$(date -u -d '48 hours ago' +%Y-%m-%dT%H:%M:%SZ)
-          curl -sf -H "User-Agent: $UA" \
-            "https://aihot.virxact.com/api/public/items?mode=selected&take=50&since=${SINCE}" \
-            -o aihot-feed.json
-          COUNT=$(python3 -c "import json; d=json.load(open('aihot-feed.json')); print(len(d.get('items',[])))")
-          echo "Fetched $COUNT items"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node scripts/update-aihot.mjs
 
-      - name: Update file via GitHub API
+      - name: Update public branch cache
         env:
-          GH_TOKEN: ${{ secrets.AIHOT_TOKEN }}
+          GH_TOKEN: ${{ secrets.AIHOT_TOKEN || github.token }}
         run: |
-          # Get current file SHA from public branch (needed for update)
-          SHA=$(gh api "repos/${{ github.repository }}/contents/aihot-feed.json?ref=public" \
+          SHA=$(gh api "repos/${{ github.repository }}/contents/aihot-latest.json?ref=public" \
             --jq '.sha // empty' 2>/dev/null || true)
-
-          CONTENT=$(base64 -w 0 aihot-feed.json)
+          CONTENT=$(base64 -w 0 aihot-latest.json)
           TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
           if [ -z "$SHA" ]; then
-            # File doesn't exist yet, create it
-            gh api --method PUT repos/${{ github.repository }}/contents/aihot-feed.json \
-              --field message="data: create aihot feed $TIMESTAMP" \
+            gh api --method PUT repos/${{ github.repository }}/contents/aihot-latest.json \
+              --field message="data: create AI HOT cache $TIMESTAMP" \
               --field content="$CONTENT" \
               --field branch=public
           else
-            # File exists, update it
-            gh api --method PUT repos/${{ github.repository }}/contents/aihot-feed.json \
-              --field message="data: update aihot feed $TIMESTAMP" \
+            gh api --method PUT repos/${{ github.repository }}/contents/aihot-latest.json \
+              --field message="data: update AI HOT cache $TIMESTAMP" \
               --field content="$CONTENT" \
               --field sha="$SHA" \
               --field branch=public
           fi
-          echo "Updated aihot-feed.json on public branch"
