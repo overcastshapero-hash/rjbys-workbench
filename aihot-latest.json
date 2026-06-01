@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T03:30:52.283Z",
+  "generatedAt": "2026-06-01T04:25:25.266Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-01",
   "daily": {
@@ -77,6 +77,26 @@
   },
   "selectedItems": [
     {
+      "id": "cmpunu0g50002slbrlfonpoc3",
+      "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
+      "title_en": "MiniMax M3： Frontier Coding， 1M Context， Native Multimodality - All in One Model",
+      "url": "https://www.minimax.io/blog/minimax-m3",
+      "source": "MiniMax：Blog（网页）",
+      "publishedAt": "2026-06-01T03:39:41.634Z",
+      "summary": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmpuokbhx006jslbr3qxktcmy",
+      "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
+      "title_en": "NVIDIA DSX OS Delivers Open， Modular Software for Operating AI Factories at Scale",
+      "url": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "publishedAt": "2026-06-01T03:36:52.000Z",
+      "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。",
+      "category": "ai-products"
+    },
+    {
       "id": "cmpula55004pmslag0bkoy1lq",
       "title": "上海：支持多模态智能体开发与应用，有序推进智能驾驶在共享出行、物流运输等多场景应用",
       "title_en": null,
@@ -95,16 +115,6 @@
       "publishedAt": "2026-06-01T00:55:00.000Z",
       "summary": "全球首次\"人形机器人点球大战\"将于2026年6月在MWC上海举行。8支中国顶尖具身智能战队将进行自主对抗，无需人工操控或预设脚本。赛事旨在集中展示人形机器人在动态平衡、精准控制与自主决策等方面的技术突破。",
       "category": "industry"
-    },
-    {
-      "id": "cmpug8w9f03h4slagj2a0hyth",
-      "title": "MiniMax M3即将发布，可免费试用",
-      "title_en": "MiniMax M3 will be launching soon You can try it right now in OpenCode For free",
-      "url": "https://x.com/opencode/status/2061233503337906187",
-      "source": "X：opencode (@opencode)",
-      "publishedAt": "2026-05-31T23:48:57.000Z",
-      "summary": "MiniMax M3即将发布\n你现在就可以在OpenCode中免费试用",
-      "category": "ai-models"
     },
     {
       "id": "cmpu1hyyy00tosla8zp4xb8nj",
