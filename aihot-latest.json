@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T20:57:25.032Z",
+  "generatedAt": "2026-06-01T23:05:44.543Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-01",
   "daily": {
@@ -64,6 +64,36 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmpvs3efm015wslukv1os8v5x",
+      "title": "ChatGPT 新增长文编辑与保存功能",
+      "title_en": "Long-form writing works better with a little more space. Now you can edit longer pieces in full-sc…",
+      "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "publishedAt": "2026-06-01T22:11:55.000Z",
+      "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpvpam6b00h8sluknoirrj6e",
+      "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
+      "title_en": "Krea 2 LoRAs are now available to everyone. try this one below 👇",
+      "url": "https://x.com/krea_ai/status/2061554472925696128",
+      "source": "X：Krea AI (@krea_ai)",
+      "publishedAt": "2026-06-01T21:04:22.000Z",
+      "summary": "Krea 2 LoRAs 现已向所有人开放。\n试试下面这个 👇",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpvphtkh00j0slukzfwj1aez",
+      "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
+      "title_en": "Alphabet to Raise $80 Billion in Equity Capital for AI Spending",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-01T20:50:33.000Z",
+      "summary": "Alphabet正在通过发行股票等方式筹集800亿美元资金，其中包括与Berkshire Hathaway的投资协议，以资助其雄心勃勃的AI支出计划。",
+      "category": "industry"
+    },
     {
       "id": "cmpvmm0ab00ndslfpbxb2m5kh",
       "title": "Replit 用单个提示词构建完整业务",
@@ -303,6 +333,16 @@
       "publishedAt": "2026-06-01T10:24:49.447Z",
       "summary": "Runway 宣布在伦敦建立新的欧洲总部和专注于通用世界模型的研究中心。公司计划在未来18个月向英国AI生态投资$100M，到2028年投资额将翻倍以上。过去12个月，其在欧洲的订阅销量增长了50%，企业客户占比超20%。新总部将扩大其在欧洲的研究与商业布局，公司正招聘欧洲负责人以组建跨研究、产品、工程和销售的团队，并深化与BBC、Fremantle、WPP等企业的合作。世界模型是其研究的核心，旨在将生成式AI的应用扩展至机器人、科学研究与工业模拟等领域。",
       "category": "industry"
+    },
+    {
+      "id": "cmpvqq6bd00ubslukf8jsko23",
+      "title": "OpenAI前沿模型与Codex现可在AWS上使用",
+      "title_en": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-01T10:00:00.000Z",
+      "summary": "OpenAI的前沿模型与Codex现已在AWS上全面可用。企业客户可通过其现有的AWS环境、控制与采购流程来使用OpenAI的AI技术，从而加速从评估到生产部署的过程。",
+      "category": "ai-products"
     },
     {
       "id": "cmpuzjn4q02bzsl0zm8pgfo93",
