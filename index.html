@@ -190,6 +190,22 @@ body::after {
   50% { box-shadow: 0 0 0 6px rgba(201, 168, 76, 0.07); opacity: 0.88; }
 }
 
+.btn-hot {
+  font-family: var(--mono);
+  font-size: 10.5px; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--gold);
+  background: linear-gradient(135deg, rgba(201,168,76,0.08), transparent);
+  border: 1px solid var(--gold);
+  padding: 9px 18px; cursor: pointer;
+  transition: all 0.22s ease;
+  margin-right: 8px;
+}
+.btn-hot:hover {
+  background: var(--gold-dim);
+  transform: translateY(-1px);
+  box-shadow: 0 0 0 1px var(--gold);
+}
+
 .icon-btn {
   background: transparent; border: 1px solid var(--border);
   color: var(--text-dim);
@@ -1630,6 +1646,83 @@ button.ai-btn:hover {
 }
 .diff-opt:hover { background: var(--gold-dim); border-color: var(--gold-dim); }
 .diff-opt-icon { font-size: 14px; width: 20px; text-align: center; }
+
+/* ============ AI HOT Modal & Cards ============ */
+.hot-card {
+  border: 1px solid var(--border);
+  background: var(--paper);
+  padding: 12px 14px;
+  border-radius: 2px;
+  transition: all 0.18s ease;
+}
+.hot-card:hover {
+  border-color: var(--gold-dim);
+  background: var(--paper-hi);
+}
+.hot-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.hot-cat {
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border: 1px solid var(--gold-dim);
+  color: var(--gold-soft);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.hot-cat.models { border-color: #2b5f80; color: #5a8db3; }
+.hot-cat.products { border-color: #386428; color: #6a9a5a; }
+.hot-cat.industry { border-color: #8c6010; color: var(--gold); }
+.hot-cat.paper { border-color: #5c4a7a; color: #a38bc2; }
+.hot-cat.tip { border-color: #7a4a2a; color: #c28a6a; }
+.hot-title {
+  font-family: var(--display);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--text);
+  flex: 1;
+}
+.hot-summary {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.55;
+  font-family: var(--display);
+  font-style: italic;
+  margin: 6px 0 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hot-meta {
+  font-size: 10px;
+  color: var(--text-faint);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.hot-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+.hot-actions button {
+  font-size: 9px;
+  padding: 4px 9px;
+  letter-spacing: 0.12em;
+}
+.hot-actions .primary {
+  background: var(--gold-dim);
+  border-color: var(--gold-soft);
+  color: var(--gold);
+}
 </style>
 </head>
 <body>
@@ -1657,6 +1750,9 @@ button.ai-btn:hover {
       <span class="metric-label">本周长文</span>
       <span><span class="metric-val" id="articlesVal">0</span><span class="metric-sep"> / </span><span class="metric-target">3</span></span>
     </div>
+    <button class="btn-hot" id="btnAIHot" title="一键拉取 AI HOT 当日热点，转成人间不延迟选题或初稿">
+      ✦ 今日 AI 热点
+    </button>
     <button class="btn-start" id="btnStart">
       <span class="btn-start-label">▶ 开始今天</span>
     </button>
@@ -2028,6 +2124,52 @@ button.ai-btn:hover {
       <button class="close" data-close="skillModal">×</button>
     </div>
     <div class="modal-body" id="skillModalBody"></div>
+  </div>
+</div>
+
+<!-- ============ AI HOT MODAL ============ -->
+<div class="modal-backdrop" id="aiHotModal">
+  <div class="modal" style="max-width: 720px;">
+    <div class="modal-header">
+      <span class="num">✦</span>
+      <span class="modal-title">AI HOT · 今日热点（人间不延迟版）</span>
+      <button class="close" data-close="aiHotModal">×</button>
+    </div>
+    <div class="modal-body" style="padding: 16px 22px 22px;">
+
+      <div style="background:var(--paper); border:1px solid var(--gold-dim); padding:10px 12px; font-size:12px; line-height:1.6; margin-bottom:14px; font-family:var(--display); font-style:italic;">
+        数据来自 AI HOT，每天自动缓存到本站。<br>
+        先选热点，再一键转入编辑桌；如果已填 DeepSeek key，会直接起草成「人间不延迟」长文。
+      </div>
+
+      <div style="display:flex; gap:8px; margin-bottom:14px;">
+        <button class="primary" id="hotWriteToday" style="flex:1; padding:10px; font-size:12px; letter-spacing:0.05em;">
+          ✦ 一键生成今日热点文章
+        </button>
+        <button class="ghost" id="hotOpenSite" style="flex:1; padding:10px; font-size:12px;">
+          打开 AI HOT 官网
+        </button>
+      </div>
+
+      <div style="display:flex; gap:8px; margin-bottom:10px;">
+        <button class="ghost" id="hotModeDaily" style="flex:1; font-size:10.5px;">日报（结构化）</button>
+        <button class="ghost" id="hotModeItems" style="flex:1; font-size:10.5px;">最近 24h 精选</button>
+        <button class="ghost" id="hotRefresh" style="font-size:10.5px;">刷新</button>
+      </div>
+      <div id="hotMeta" style="font-size:10px; color:var(--text-faint); margin:0 0 10px;"></div>
+
+      <div id="hotList" style="max-height: 380px; overflow-y:auto; display:flex; flex-direction:column; gap:8px;"></div>
+
+      <div id="hotEmpty" class="empty" style="display:none; padding:16px 12px; font-size:13px;">
+        <span class="ornament">✦</span>
+        今天还没有缓存数据。<br>
+        可以打开官网，或稍后等 GitHub Action 自动更新。
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <button class="ghost" data-close="aiHotModal">关闭</button>
+    </div>
   </div>
 </div>
 
@@ -4035,6 +4177,340 @@ document.addEventListener('keydown', e => {
   else if (e.key === '2') {} // center is always visible
   else if (e.key === '3') toggleColumn('right');
 });
+
+// ============================================================
+//   AI HOT 集成 (人间不延迟工作台)
+// ============================================================
+const AIHOT_BASE = 'https://aihot.virxact.com';
+const AIHOT_CACHE = './aihot-latest.json';
+
+let currentHotMode = 'daily';
+let lastHotItems = [];
+let lastHotPayload = null;
+
+function openAIHotModal() {
+  const m = document.getElementById('aiHotModal');
+  m.classList.add('open');
+  loadHot('daily');
+}
+
+function closeAIHotModal() {
+  document.getElementById('aiHotModal').classList.remove('open');
+}
+
+async function loadHot(mode) {
+  currentHotMode = mode;
+  const listEl = document.getElementById('hotList');
+  const emptyEl = document.getElementById('hotEmpty');
+  const metaEl = document.getElementById('hotMeta');
+  listEl.innerHTML = '<div style="padding:18px 12px; color:var(--text-faint); font-style:italic;">正在拉取...</div>';
+  emptyEl.style.display = 'none';
+
+  try {
+    const payload = await loadHotPayload();
+    lastHotPayload = payload;
+    const items = mode === 'daily' ? payload.dailyItems : payload.selectedItems;
+    const metaText = mode === 'daily'
+      ? `${payload.date || '今日'} 日报 · ${items.length} 条 · 缓存 ${formatRelativeTime(payload.generatedAt)}`
+      : `最近 24 小时 · 精选 ${items.length} 条 · 缓存 ${formatRelativeTime(payload.generatedAt)}`;
+
+    lastHotItems = items;
+    metaEl.textContent = metaText;
+    renderHotCards(items, listEl);
+
+    if (!items.length) {
+      listEl.innerHTML = '';
+      emptyEl.style.display = 'block';
+    }
+  } catch (e) {
+    console.warn('[AI HOT] fetch failed', e);
+    listEl.innerHTML = '';
+    emptyEl.style.display = 'block';
+    emptyEl.innerHTML = `<span class="ornament">✦</span>读取缓存失败。<br>请检查 aihot-latest.json 是否已发布，或打开 AI HOT 官网手动查看。`;
+  }
+
+  wireHotModeButtons();
+}
+
+async function loadHotPayload() {
+  try {
+    const res = await fetch(AIHOT_CACHE + '?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('cache ' + res.status);
+    const data = await res.json();
+    return normalizeHotPayload(data);
+  } catch (cacheError) {
+    console.warn('[AI HOT] cache failed, trying direct API', cacheError);
+    return loadHotDirect();
+  }
+}
+
+async function loadHotDirect() {
+  const dailyRes = await fetch(`${AIHOT_BASE}/api/public/daily`);
+  if (!dailyRes.ok) throw new Error('daily ' + dailyRes.status);
+  const daily = await dailyRes.json();
+  const since = new Date(Date.now() - 24*3600*1000).toISOString();
+  const itemsRes = await fetch(`${AIHOT_BASE}/api/public/items?mode=selected&since=${encodeURIComponent(since)}&take=50`);
+  if (!itemsRes.ok) throw new Error('items ' + itemsRes.status);
+  const selected = await itemsRes.json();
+  return normalizeHotPayload({
+    generatedAt: new Date().toISOString(),
+    source: 'direct',
+    daily,
+    selectedItems: selected.items || []
+  });
+}
+
+function normalizeHotPayload(data) {
+  const daily = data.daily || data;
+  const dailyItems = (daily.sections || []).flatMap(sec =>
+    (sec.items || []).map(it => normalizeHotItem(it, {
+      categoryLabel: sec.label,
+      category: mapCategory(sec.label),
+      publishedAt: daily.generatedAt || data.generatedAt
+    }))
+  );
+  const selectedItems = (data.selectedItems || data.items || []).map(it => normalizeHotItem(it, {
+    categoryLabel: mapCategoryLabel(it.category),
+    category: it.category || 'industry'
+  }));
+  return {
+    generatedAt: data.generatedAt || daily.generatedAt || new Date().toISOString(),
+    date: data.date || daily.date || getToday(),
+    dailyItems,
+    selectedItems
+  };
+}
+
+function normalizeHotItem(it, fallback) {
+  return {
+    title: it.title || it.titleZh || '未命名热点',
+    summary: it.summary || it.summaryZh || '',
+    sourceUrl: it.sourceUrl || it.url || '',
+    sourceName: it.sourceName || it.source || 'AI HOT',
+    publishedAt: it.publishedAt || fallback.publishedAt || '',
+    _cat: fallback.category || mapCategory(fallback.categoryLabel),
+    _catLabel: fallback.categoryLabel || mapCategoryLabel(fallback.category)
+  };
+}
+
+function mapCategory(label) {
+  if (!label) return 'industry';
+  const l = label.toLowerCase();
+  if (l.includes('模型')) return 'models';
+  if (l.includes('产品')) return 'products';
+  if (l.includes('论文')) return 'paper';
+  if (l.includes('技巧')) return 'tip';
+  return 'industry';
+}
+function mapCategoryLabel(cat) {
+  const map = { 'ai-models':'模型发布/更新', 'ai-products':'产品发布/更新', 'paper':'论文研究', 'tip':'技巧与观点', 'industry':'行业动态' };
+  return map[cat] || '行业动态';
+}
+
+function renderHotCards(items, container) {
+  container.innerHTML = items.map((it, idx) => {
+    const cat = it._cat || 'industry';
+    const timeStr = it.publishedAt ? formatRelativeTime(it.publishedAt) : '';
+    const src = it.sourceName || it.source || '未知来源';
+    return `
+      <div class="hot-card" data-idx="${idx}">
+        <div class="hot-head">
+          <span class="hot-cat ${cat}">${escapeHtml(it._catLabel || '热点')}</span>
+          <div class="hot-title">${escapeHtml(it.title)}</div>
+        </div>
+        <div class="hot-summary">${escapeHtml((it.summary || '').slice(0, 180))}</div>
+        <div class="hot-meta">
+          <span>${escapeHtml(src)}</span>
+          ${timeStr ? `<span>· ${timeStr}</span>` : ''}
+          ${it.sourceUrl ? `<a href="${it.sourceUrl}" target="_blank" style="color:var(--gold-soft);">原文 ↗</a>` : ''}
+        </div>
+        <div class="hot-actions">
+          <button class="ghost hot-add-inbox" data-idx="${idx}">+ 加入收件箱</button>
+          <button class="primary hot-write" data-idx="${idx}">→ 一键写文</button>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  // wire actions
+  container.querySelectorAll('.hot-add-inbox').forEach(btn => {
+    btn.onclick = () => {
+      const item = lastHotItems[parseInt(btn.dataset.idx)];
+      addHotToInbox(item);
+      toast('已加入收件箱');
+    };
+  });
+  container.querySelectorAll('.hot-write').forEach(btn => {
+    btn.onclick = () => {
+      const item = lastHotItems[parseInt(btn.dataset.idx)];
+      writeFromHot(item);
+    };
+  });
+}
+
+function wireHotModeButtons() {
+  const d = document.getElementById('hotModeDaily');
+  const i = document.getElementById('hotModeItems');
+  if (!d || !i) return;
+
+  d.onclick = () => { d.style.borderColor = 'var(--gold)'; i.style.borderColor = 'var(--border)'; loadHot('daily'); };
+  i.onclick = () => { i.style.borderColor = 'var(--gold)'; d.style.borderColor = 'var(--border)'; loadHot('items'); };
+
+  // highlight current
+  if (currentHotMode === 'daily') {
+    d.style.borderColor = 'var(--gold)';
+    i.style.borderColor = 'var(--border)';
+  } else {
+    i.style.borderColor = 'var(--gold)';
+    d.style.borderColor = 'var(--border)';
+  }
+}
+
+function addHotToInbox(item) {
+  if (!state.inbox) state.inbox = [];
+  const newItem = {
+    id: 'hot-' + Date.now().toString(36),
+    title: item.title,
+    source: 'AI HOT',
+    status: 'pending',
+    instinct: item.summary ? ('这个 AI 变化对普通人/文科生真正意味着什么？' ) : '',
+    created_at: new Date().toISOString(),
+    direction: 'long',
+    from_hot: true,
+    hot_url: item.sourceUrl || ''
+  };
+  state.inbox.unshift(newItem);
+  saveData();
+  renderInbox();
+  // close modal so user sees it in inbox
+  closeAIHotModal();
+  // optional: auto open left if collapsed, but skip for minimal change
+}
+
+function switchToEditorLong() {
+  const centerNav = document.querySelector('.header-nav button[data-nav="center"]');
+  if (centerNav) centerNav.click();
+  const longTab = document.querySelector('.type-tab[data-type="long"]');
+  if (longTab) longTab.click();
+}
+
+function buildHotBrief(items) {
+  return items.map((it, idx) => {
+    return `${idx + 1}. ${it.title}
+摘要：${it.summary || '无'}
+来源：${it.sourceName || 'AI HOT'}${it.sourceUrl ? ' · ' + it.sourceUrl : ''}`;
+  }).join('\n\n');
+}
+
+function seedEditorFromHotItems(items, title) {
+  closeAIHotModal();
+  switchToEditorLong();
+
+  const titleInput = document.getElementById('edTitle');
+  const textArea = document.getElementById('edText');
+  if (titleInput) titleInput.value = title;
+  if (textArea) {
+    textArea.value = `【AI HOT 今日素材】\n\n${buildHotBrief(items)}\n\n---\n\n请把上面的热点写成一篇「人间不延迟」风格文章：\n\n- 先给结论，不写新闻复述\n- 解释它对普通人/文科生意味着什么\n- 戳破一个 AI 工具幻觉或准备幻觉\n- 给一个今天就能做的小动作\n- 结尾留一句清醒但有力量的话`;
+    textArea.dispatchEvent(new Event('input', { bubbles: true }));
+    textArea.focus();
+  }
+}
+
+function buildHotArticleMessages(items) {
+  const skill = getSkill('wuyue');
+  const sys = [skill.system, buildSystemPreamble()].filter(Boolean).join('\n\n');
+  const user = `今天 AI HOT 的素材如下：\n\n${buildHotBrief(items)}\n\n请写一篇 900-1300 字的「人间不延迟」长文初稿。\n\n要求：\n1. 标题要戳破一个具体幻觉，不要像新闻标题。\n2. 开头先给普通人的具体场景，不要说“在这个时代”。\n3. 不堆技术名词，不装懂技术细节。\n4. 把热点翻译成普通人能执行的判断：今天应该少做什么、多做什么。\n5. 结尾给一个当天可执行的小动作。\n\n直接输出文章，不要解释。`;
+  return [{ role: 'system', content: sys }, { role: 'user', content: user }];
+}
+
+async function generateHotArticle(items) {
+  if (!state.settings.deepseek_key) {
+    toast('已提取热点；填 DeepSeek key 后可自动起草', 'error');
+    return;
+  }
+  const ta = document.getElementById('edText');
+  ta.value = '';
+  ta.classList.add('streaming');
+  document.getElementById('editorState').innerHTML = '<span class="spinner"></span> AI HOT 正在生成文章…';
+  toggleAIButtons(true);
+  try {
+    await streamChat(buildHotArticleMessages(items), (token, full) => {
+      ta.value = full;
+      renderEditorMeta();
+      ta.scrollTop = ta.scrollHeight;
+    }, { max_tokens: 4200, temperature: 0.72 });
+    toast('✓ 今日热点文章已生成', 'success');
+  } catch (e) {
+    if (e.name !== 'AbortError') toast(e.message || 'AI HOT 写文失败', 'error');
+  } finally {
+    ta.classList.remove('streaming');
+    toggleAIButtons(false);
+    renderEditorMeta();
+  }
+}
+
+function writeTodayFromHot() {
+  const items = lastHotItems.length ? lastHotItems.slice(0, 6) : [];
+  if (!items.length) {
+    toast('还没有可用热点，先刷新一次', 'error');
+    return;
+  }
+  const title = '今天 AI 圈又在提醒普通人：别把工具当进步';
+  seedEditorFromHotItems(items, title);
+  generateHotArticle(items);
+}
+
+function writeFromHot(item) {
+  const rawTitle = item.title;
+  const goodTitle = makeHotTitle(rawTitle);
+  seedEditorFromHotItems([item], goodTitle);
+  generateHotArticle([item]);
+}
+
+// very light title humanizer for the IP voice
+function makeHotTitle(raw) {
+  const lower = raw.toLowerCase();
+  if (lower.includes('发布') || lower.includes('推出')) {
+    return raw.replace(/正式发布|发布|推出/, '来了，但别急着用');
+  }
+  if (lower.includes('放弃') || lower.includes('转向')) {
+    return '他们放弃了，但普通人该学什么？';
+  }
+  if (lower.includes('风险') || lower.includes('骗')) {
+    return '又一个 AI 幻觉被拆穿了';
+  }
+  // fallback: keep original but add a soft hook prefix if too plain
+  return raw.length > 18 ? raw : '这个 AI 新闻，普通人该怎么读？';
+}
+
+function formatRelativeTime(iso) {
+  try {
+    const d = new Date(iso);
+    const diff = (Date.now() - d.getTime()) / 1000;
+    if (diff < 3600) return Math.floor(diff/60) + '分钟前';
+    if (diff < 86400) return Math.floor(diff/3600) + '小时前';
+    return (d.getMonth()+1) + '/' + d.getDate();
+  } catch(e) { return ''; }
+}
+
+// Wire the main trigger button (safe, runs after DOM ready via init)
+function wireAIHotButton() {
+  const btn = document.getElementById('btnAIHot');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    openAIHotModal();
+  });
+
+  const ref = document.getElementById('hotRefresh');
+  if (ref) ref.onclick = () => loadHot(currentHotMode);
+  const writeToday = document.getElementById('hotWriteToday');
+  if (writeToday) writeToday.onclick = writeTodayFromHot;
+  const openSite = document.getElementById('hotOpenSite');
+  if (openSite) openSite.onclick = () => window.open(AIHOT_BASE, '_blank', 'noopener,noreferrer');
+}
+
+// call once during init
+setTimeout(wireAIHotButton, 300);
 
 // ============================================================
 //   INIT
