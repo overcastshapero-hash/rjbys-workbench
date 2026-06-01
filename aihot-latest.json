@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T04:25:25.266Z",
+  "generatedAt": "2026-06-01T07:50:43.358Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-01",
   "daily": {
@@ -76,6 +76,96 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmpuv5v540180sl0zee33wa3b",
+      "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/958/109.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-01T06:13:32.000Z",
+      "summary": null,
+      "category": "industry"
+    },
+    {
+      "id": "cmpurl8qd009dsl0zyghfa9kw",
+      "title": "介绍Cosmos Coalition",
+      "title_en": "Introducing the Cosmos Coalition",
+      "url": "https://runwayml.com/news/introducing-cosmos-coalition",
+      "source": "Runway：News（网页）",
+      "publishedAt": "2026-06-01T05:24:22.746Z",
+      "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。",
+      "category": "industry"
+    },
+    {
+      "id": "cmpu2kv1z001eslagcgl0irro",
+      "title": "NVIDIA与Google Cloud助力下一波AI构建者",
+      "title_en": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
+      "url": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
+      "source": "NVIDIA Blog：Generative AI（网页）",
+      "publishedAt": "2026-06-01T05:00:56.000Z",
+      "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
+      "category": "industry"
+    },
+    {
+      "id": "cmpuse81v00hrsl0zr2uqw9km",
+      "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
+      "title_en": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
+      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
+      "source": "NVIDIA Blog：Agentic AI（网页）",
+      "publishedAt": "2026-06-01T05:00:47.000Z",
+      "summary": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpuqq2mt0024sl0zyjxv22lw",
+      "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
+      "title_en": "How to Post-Train Autonomous Vehicle Models in Closed-Loop with NVIDIA Alpamayo",
+      "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "publishedAt": "2026-06-01T04:49:15.000Z",
+      "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpuqq2mt0025sl0z5qnshwpd",
+      "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
+      "title_en": "Develop Physical AI Reasoning， World， and Action Models with NVIDIA Cosmos 3",
+      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "publishedAt": "2026-06-01T04:43:58.000Z",
+      "summary": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmpuqjg2f002ysly7qhxq1oeq",
+      "title": "Nemotron 3 Ultra 本周即将发布",
+      "title_en": "Nemotron 3 Ultra is coming this week. ⌛️",
+      "url": "https://x.com/NVIDIAAI/status/2061305524700758050",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "publishedAt": "2026-06-01T04:35:08.000Z",
+      "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmpuse81w00husl0zx3yib4u9",
+      "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
+      "title_en": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
+      "source": "NVIDIA Blog：Agentic AI（网页）",
+      "publishedAt": "2026-06-01T04:30:11.000Z",
+      "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpuqq2mt0027sl0zrbpifgdh",
+      "title": "NVIDIA Vera CPU 为AI工厂的智能体工作负载设立新标准",
+      "title_en": "NVIDIA Vera CPU Sets a New Standard for Agentic Workloads in AI Factories",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "publishedAt": "2026-06-01T03:59:15.000Z",
+      "summary": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。",
+      "category": "ai-products"
+    },
     {
       "id": "cmpunu0g50002slbrlfonpoc3",
       "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
