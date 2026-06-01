@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const BASE = "https://aihot.virxact.com";
@@ -31,4 +31,13 @@ const outPath = path.join(process.cwd(), "aihot-latest.json");
 await mkdir(path.dirname(outPath), { recursive: true });
 await writeFile(outPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 
+const htmlPath = path.join(process.cwd(), "index.html");
+const html = await readFile(htmlPath, "utf8");
+const block = `<script type="application/json" id="aihotBootstrap">\n${JSON.stringify(payload)}\n</script>\n`;
+const nextHtml = html.match(/<script type="application\/json" id="aihotBootstrap">[\s\S]*?<\/script>\n?/)
+  ? html.replace(/<script type="application\/json" id="aihotBootstrap">[\s\S]*?<\/script>\n?/, block)
+  : html.replace("<script>\n'use strict';", `${block}<script>\n'use strict';`);
+await writeFile(htmlPath, nextHtml, "utf8");
+
 console.log(`updated ${outPath}`);
+console.log(`updated ${htmlPath}`);
