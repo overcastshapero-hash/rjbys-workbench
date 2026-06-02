@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T04:18:54.589Z",
+  "generatedAt": "2026-06-02T09:10:43.908Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-02",
   "daily": {
@@ -219,6 +219,36 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmpwey5ly02cfslsnb3g4n30a",
+      "title": "阿里云Qwen3.7模型登陆Vercel AI Gateway",
+      "title_en": "Thrilled to see Qwen3.7-Plus &amp； Max empowering the @vercel_dev community！ Dive in and test their …",
+      "url": "https://x.com/alibaba_cloud/status/2061734511935905841",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "publishedAt": "2026-06-02T08:59:47.000Z",
+      "summary": "很高兴看到 Qwen3.7-Plus 和 Max 为 @vercel_dev 社区赋能！即日起至6月4日，可在 AI Gateway 上免费测试其原生智能体能力。🚀",
+      "category": "industry"
+    },
+    {
+      "id": "cmpwf05rk02d5slsnyqog4n3x",
+      "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+      "title_en": "SK 会长崔泰源：计划未来五年内，SK 海力士晶圆产能实现翻倍",
+      "url": "https://www.ithome.com/0/958/810.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-02T08:31:12.000Z",
+      "summary": "SK海力士会长崔泰源宣布，计划在未来五年内将整体晶圆产能提高一倍，以应对AI普及带来的持续存储供应短缺。他预测AI数据中心和AI PC的普及将持续拉动存储需求，供需紧张局面可能延续至2030年。SK海力士将投入大规模资金用于设备、建设等扩张，尽管面临前置时间长（新建晶圆厂至少三年）和资源成本上涨等挑战。目前，SK海力士市值已首次突破1万亿美元。",
+      "category": "industry"
+    },
+    {
+      "id": "cmpw5sd9k00agsl1un4z8njv7",
+      "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
+      "title_en": "http：//x.com/i/article/2061667400723156992",
+      "url": "https://x.com/Khazix0918/status/2061669881725309048",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "publishedAt": "2026-06-02T04:42:58.000Z",
+      "summary": "作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）。为替代收费软件CleanMyMac，作者制作并开源了一个跨平台（支持Mac/Windows）的AI清理skill。该skill会扫描文件并生成可交互的HTML报告，通过三色分级（绿灯可放心清理、黄灯需人工判断、红灯禁止动）直观展示，并提供安全执行按钮。实测清理后释放了近120G空间，相比CleanMyMac仅扫描出的15.8G，其信息更透明、建议更详细。",
+      "category": "tip"
+    },
     {
       "id": "cmpw488y9049wslukkrk33tc9",
       "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
@@ -557,106 +587,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "summary": "OpenAI的前沿模型与Codex现已在AWS上全面可用。企业客户可通过其现有的AWS环境、控制与采购流程来使用OpenAI的AI技术，从而加速从评估到生产部署的过程。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpuzjn4q02bzsl0zm8pgfo93",
-      "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
-      "title_en": "🚀We're excited to officially release Hy-Memory - a powerful memory plugin built specifically for lo…",
-      "url": "https://x.com/TencentHunyuan/status/2061372535267357029",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "publishedAt": "2026-06-01T09:01:25.000Z",
-      "summary": "腾讯混元正式发布专为OpenClaw等长期协作智能体（Agent）设计的记忆插件 Hy-Memory。它基于6层记忆框架、System1/System2双系统与三层进化链构建，旨在成为智能体的\"第二大脑\"。该插件解决了记忆碎片化问题，实现了显著性能提升：记忆数量减少70%以上，单条记忆信息密度提升45%以上，在超长上下文场景中token消耗降低35%，记忆更新速度提升20%。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpvtskbb01lusluksydtav6e",
-      "title": "Cursor Teams计划定价方案更新",
-      "title_en": "Improvements to Teams Pricing",
-      "url": "https://cursor.com/blog/teams-pricing-june-2026",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-06-01T07:00:00.000Z",
-      "summary": "Cursor Teams计划推出三项更新：增加Composer特定使用池，将第一方模型（Composer和Auto）与第三方API的使用额度分开计费；推出Premium席位，提供5倍于标准席位（$40/月）的使用量，价格为$96/月（年付）；仪表盘现可实时显示用户额度使用情况，管理员可通过Slack或邮件配置智能提醒。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpuv5v540180sl0zee33wa3b",
-      "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/958/109.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-01T06:13:32.000Z",
-      "summary": null,
-      "category": "industry"
-    },
-    {
-      "id": "cmpurl8qd009dsl0zyghfa9kw",
-      "title": "介绍Cosmos Coalition",
-      "title_en": "Introducing the Cosmos Coalition",
-      "url": "https://runwayml.com/news/introducing-cosmos-coalition",
-      "source": "Runway：News（网页）",
-      "publishedAt": "2026-06-01T05:24:22.746Z",
-      "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpu2kv1z001eslagcgl0irro",
-      "title": "NVIDIA与Google Cloud助力下一波AI构建者",
-      "title_en": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
-      "url": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
-      "source": "NVIDIA Blog：Generative AI（网页）",
-      "publishedAt": "2026-06-01T05:00:56.000Z",
-      "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpuse81v00hrsl0zr2uqw9km",
-      "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
-      "title_en": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
-      "source": "NVIDIA Blog：Agentic AI（网页）",
-      "publishedAt": "2026-06-01T05:00:47.000Z",
-      "summary": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpuqq2mt0024sl0zyjxv22lw",
-      "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
-      "title_en": "How to Post-Train Autonomous Vehicle Models in Closed-Loop with NVIDIA Alpamayo",
-      "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "publishedAt": "2026-06-01T04:49:15.000Z",
-      "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpuqq2mt0025sl0z5qnshwpd",
-      "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
-      "title_en": "Develop Physical AI Reasoning， World， and Action Models with NVIDIA Cosmos 3",
-      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "publishedAt": "2026-06-01T04:43:58.000Z",
-      "summary": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpuqjg2f002ysly7qhxq1oeq",
-      "title": "Nemotron 3 Ultra 本周即将发布",
-      "title_en": "Nemotron 3 Ultra is coming this week. ⌛️",
-      "url": "https://x.com/NVIDIAAI/status/2061305524700758050",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "publishedAt": "2026-06-01T04:35:08.000Z",
-      "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpuse81w00husl0zx3yib4u9",
-      "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
-      "title_en": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
-      "source": "NVIDIA Blog：Agentic AI（网页）",
-      "publishedAt": "2026-06-01T04:30:11.000Z",
-      "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。",
       "category": "ai-products"
     }
   ]
