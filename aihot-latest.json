@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T09:10:43.908Z",
+  "generatedAt": "2026-06-02T14:07:22.231Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-02",
   "daily": {
@@ -220,14 +220,44 @@
   },
   "selectedItems": [
     {
-      "id": "cmpwey5ly02cfslsnb3g4n30a",
-      "title": "阿里云Qwen3.7模型登陆Vercel AI Gateway",
-      "title_en": "Thrilled to see Qwen3.7-Plus &amp； Max empowering the @vercel_dev community！ Dive in and test their …",
-      "url": "https://x.com/alibaba_cloud/status/2061734511935905841",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "publishedAt": "2026-06-02T08:59:47.000Z",
-      "summary": "很高兴看到 Qwen3.7-Plus 和 Max 为 @vercel_dev 社区赋能！即日起至6月4日，可在 AI Gateway 上免费测试其原生智能体能力。🚀",
+      "id": "cmpwoaoyd04pcslsnnqfm8490",
+      "title": "Anthropic扩展Project Glasswing计划",
+      "title_en": "Expanding Project Glasswing",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-06-02T13:28:13.607Z",
+      "summary": "Anthropic正将其Project Glasswing计划扩展至约150个新组织，此前首批约50个合作伙伴。新伙伴分布于十五个多国家，覆盖电力、水务、医疗、通信和硬件等关键基础设施行业。这些合作伙伴的共同点在于，其代码库若遭成功攻击，后果可能极其严重，影响或超1亿人。项目旨在利用Claude Mythos Preview等前沿模型扫描漏洞并协助修复，以应对AI驱动的网络安全挑战。同时，Anthropic推出了基于Claude Opus 4.8等公开模型的Claude Security产品，用于扫描代码并建议补丁。",
       "category": "industry"
+    },
+    {
+      "id": "cmpwndkv504h2slsnenpm5ynd",
+      "title": "Gemini Spark：最令人印象深刻也最可怕的AI体验",
+      "title_en": "Gemini Spark is the most impressive and terrifying AI experience I've had yet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
+      "source": "The Verge：订阅版科技（RSS）",
+      "publishedAt": "2026-06-02T12:38:08.000Z",
+      "summary": "Google DeepMind的AI模型Gemini Spark提供了一次极为深刻但同时令人感到不安的用户体验。该模型展现的强大能力令人印象深刻，但其带来的影响和潜力也引发了深刻的恐惧感。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpwgl5go02q3slsnw6pl0fs5",
+      "title": "Anthropic可解释性研究：区分因果效应相似的特征",
+      "title_en": "Circuits Updates - May 2026",
+      "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+      "source": "Anthropic：Transformer Circuits（可解释性研究）",
+      "publishedAt": "2026-06-02T09:52:20.287Z",
+      "summary": "Anthropic可解释性团队介绍了其Circuits研究的新进展。为区分那些激活模式相似但因果效应不同的模型特征，团队提出一种新方法。该方法通过分析特征的下游连接来预测其实际影响，并使用基于共激活统计的TWERA（虚拟权重）对连接进行加权排序。实验表明，借助下游连接信息能更准确地判断哪个特征会引导特定输出。此方法为识别模型内部真正的因果组件提供了新途径。",
+      "category": "paper"
+    },
+    {
+      "id": "cmpwh3lil02w7slsnbx42kvq2",
+      "title": "阿里云发布AgentScope Java 1.1及Claw等新功能",
+      "title_en": "🚀 AgentScope Java 1.1： Build Self-Evolving Agents ✨ Claw： Local \"MinQwenPaw\" with shell access ✨ Bu…",
+      "url": "https://x.com/alibaba_cloud/status/2061745401393291554",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "publishedAt": "2026-06-02T09:43:03.000Z",
+      "summary": "🚀 AgentScope Java 1.1：构建可自我进化的智能体\n✨ Claw：具备Shell访问权限的本地\"MinQwenPaw\"\n✨ Builder：多租户、零代码企业平台\n✨ 工作区驱动的进化与分布式隔离\n从笔记本电脑到集群无缝扩展。👇\nhttps：//int.alibabacloud.com/m/1000413896/\n\n#AgentScope #AIAgents #Java",
+      "category": "ai-products"
     },
     {
       "id": "cmpwf05rk02d5slsnyqog4n3x",
@@ -258,6 +288,16 @@
       "publishedAt": "2026-06-02T03:45:56.000Z",
       "summary": "阶跃星辰发布其推理优化型模型Step 3.7 Flash。该模型为196B MoE架构，从设计之初就专注于推理效率。其采用多矩阵分解注意力机制，使KV-cache成本仅为DeepSeek模型的约22%；同时通过注意力与FFN解耦技术，实现了硬件优化的高效服务。该模型已通过Fireworks AI提供，采用Apache 2.0许可，并可用于构建智能体应用。",
       "category": "ai-models"
+    },
+    {
+      "id": "cmpwf5ekt02dvslsnxsj6m2rp",
+      "title": "Codex正在成为每个人的生产力工具",
+      "title_en": "Codex is becoming a productivity tool for everyone",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-02T02:00:00.000Z",
+      "summary": "The Next Era of Knowledge Work报告指出，Codex正通过AI增强的研究、数据分析、工作流自动化与内容创作，变革知识工作的生产力。",
+      "category": "paper"
     },
     {
       "id": "cmpvzrkrk0347slukwn0rkg8r",
@@ -468,126 +508,6 @@
       "publishedAt": "2026-06-01T14:20:56.000Z",
       "summary": "视频教程：如何构建一个每周预算上限为1000美元的智能体，包含模型拒绝列表与自定义数据保留\n\n使用了新的、可堆叠的护栏架构：\n\n【引用 @OpenRouter】：OpenRouter 上的护栏是市场上最强大的：为您的 AI 流量提供集中式安全与治理\n\n预算限制、ZDR、模型与提供商限制、提示词注入防御以及 DLP / 敏感信息检测，分层为您控制的规则！🧵",
       "category": "tip"
-    },
-    {
-      "id": "cmpva42zm0501sl0z1dba5bm8",
-      "title": "AI Pulse 探讨智能体时代新指标 DAA",
-      "title_en": "ICYMI： Our latest AI Pulse looked at Daily Active Agents （DAA） - a metric for measuring value in the…",
-      "url": "https://x.com/Baidu_Inc/status/2061447687028039854",
-      "source": "X：百度 Baidu (@Baidu_Inc)",
-      "publishedAt": "2026-06-01T14:00:03.000Z",
-      "summary": "ICYMI：我们最新的 AI Pulse 探讨了日活跃智能体（DAA）--一个衡量智能体时代价值的指标--以及我们的智能体组合。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpvbcpap05btsl0z009cpj2r",
-      "title": "超越LLM：为何可扩展的企业AI采用取决于智能体逻辑",
-      "title_en": "Beyond LLMs： Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-01T13:51:18.000Z",
-      "summary": "可扩展的企业AI采用需超越大语言模型，依靠智能体逻辑来引导模型执行动态、长周期且受约束的企业工作流，从而提升质量、降低成本并建立信任。文中以IBM watsonx Code Assistant for Z为例，展示了智能体逻辑如何通过程序分析等技术，在理解大型遗留代码库时，相比纯LLM基线方法，能以约30倍更低的token消耗达到更优性能。在加速测试生成任务中，该方法亦能使代码覆盖度提升20%-45%，同时token消耗降低最高达15倍。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpva52tg050lsl0zkrhafd9j",
-      "title": "作者分享使用 Codex App 开发的开源项目合集",
-      "title_en": "http：//x.com/i/article/2061439796745297920",
-      "url": "https://x.com/vista8/status/2061443708374208769",
-      "source": "X：Vista (@vista8)",
-      "publishedAt": "2026-06-01T13:44:14.000Z",
-      "summary": "作者分享了使用 Codex App 等工具开发的一系列开源项目，包括4个 Chrome 插件（如快捷提示词、新标签页）、4个网站（如艺术家风格对比、音乐展示）和5个 AI Skill（如论文解读、阅读助手）。项目基于 GPT-Image-2 API、Suno 等技术，并整合了 Read-frog、Hyperframe 等开源项目。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpv9u8cg04wusl0z8612dg3n",
-      "title": "微软研究聚焦：智能体评估与价值对齐",
-      "title_en": "Evaluating agentic behaviors at scale， making the case for repositories over documents， and inviting…",
-      "url": "https://x.com/MSFTResearch/status/2061440352859361521",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "publishedAt": "2026-06-01T13:30:54.000Z",
-      "summary": "大规模评估智能体行为，论证代码库优于文档，并邀请全球研究人员共同解决价值对齐问题。深入了解最新研究焦点。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpva81zh051rsl0zxs0dee2n",
-      "title": "开源与闭源模型在不同的增长曲线上",
-      "title_en": "Open and closed models are on different exponentials",
-      "url": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "publishedAt": "2026-06-01T13:03:48.000Z",
-      "summary": "当模型智能的微小提升能直接转化为实际价值时，开源与闭源模型正沿着不同的增长路径发展。闭源模型通过在特定场景下提供更高的边际智能来创造价值，而开源模型则在其他维度寻找增长点，两者形成了差异化的竞争格局。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpv8b6wa04jvsl0zc4newlns",
-      "title": "OpenBMB发布UltraData两大开源数据集，登顶HuggingFace趋势榜",
-      "title_en": "🏆 Big news！ UltraData just hit #1 AND #2 on HuggingFace Trending worldwide！ 🎉 Released by OpenBMB …",
-      "url": "https://x.com/OpenBMB/status/2061432928492810535",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "publishedAt": "2026-06-01T13:01:24.000Z",
-      "summary": "OpenBMB联合清华NLP与Modelbest发布两个开源数据集：Ultra-FineWeb-L3（预训练合成数据）包含600B+ tokens（超400B英文、200B+中文），是迄今最大开源中文预训练合成数据集；UltraData-SFT-2605（后训练SFT数据）包含15M+样本，是中国首个开源且包含思考与非思考标注的大规模SFT数据集，覆盖数学、代码、知识和指令遵循。两者均基于UltraData L0-L4框架构建，并在MiniCPM5-1B训练中完成验证。数据集已在HuggingFace免费开放。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpv8241x04hdsl0zyngfkobk",
-      "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/958/410.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-01T12:34:05.000Z",
-      "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpv7freg04b4sl0zormcu964",
-      "title": "使用Claude Opus 4.8将书籍转化为AI技能的教程",
-      "title_en": "http：//x.com/i/article/2061406941541240838",
-      "url": "https://x.com/AYi_AInotes/status/2061419197154857286",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-06-01T12:06:50.000Z",
-      "summary": "本文以《非暴力沟通》为例，提供了一个将书籍转化为可调用AI技能（Skill）的六步教程。作者使用Claude Opus 4.8模型，因其具备100万token上下文窗口、结构化输出及多步智能体（Agent）能力，能一次性处理全书逻辑。流程包含文本准备、全局结构分析、五类提炼（框架/原则/技法/反模式/作者声音）、技能生成及关键的自检步骤。生成的技能保留了书中原始框架命名（如OFNR四要素、长颈鹿语言），并将触发词优化为\"怎么提意见不像在指责\"等日常表达。整个流程耗时约45分钟，消耗约30万token，成本不到20元人民币。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpvlaey600deslfpl35rf3t5",
-      "title": "OpenAI在密歇根州启动Stargate 1GW数据中心建设",
-      "title_en": "Building the infrastructure for the Intelligence Age in Michigan",
-      "url": "https://openai.com/index/stargate-michigan-data-center",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-01T12:00:00.000Z",
-      "summary": "OpenAI在密歇根州启动了名为Stargate的1GW数据中心项目。作为AI基础设施建设的一部分，该项目旨在扩大人工智能技术的可及性、为当地创造就业机会并支持社区发展。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpv3pmle03drsl0zpaegquwp",
-      "title": "Apache RocketMQ 发布 AI 专用消息引擎",
-      "title_en": "🚀 Apache RocketMQ just leveled up for AI！ Introducing RocketMQ for AI-a new message engine built fo…",
-      "url": "https://x.com/alibaba_cloud/status/2061400724018217381",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "publishedAt": "2026-06-01T10:53:26.000Z",
-      "summary": "🚀 Apache RocketMQ 为 AI 升级！推出 RocketMQ for AI--一个专为长时间会话、多智能体工作流和公平资源调度构建的新消息引擎。凭借 Lite-Topics、有序消息和智能流量整形，它解决了状态丢失、级联故障和突发负载问题。由阿里云大规模构建，现已开源。\n\n了解更多： https：//int.alibabacloud.com/m/1000413178/\n\n#RocketMQ #AI #CloudNative",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpv2byxq02zxsl0z1ea4vm86",
-      "title": "Runway 在伦敦设立欧洲总部及世界模型研究中心",
-      "title_en": "Runway Opens London HQ， Bringing World Model Research Hub to the UK and Europe",
-      "url": "https://runwayml.com/news/runway-opens-london-hq",
-      "source": "Runway：News（网页）",
-      "publishedAt": "2026-06-01T10:24:49.447Z",
-      "summary": "Runway 宣布在伦敦建立新的欧洲总部和专注于通用世界模型的研究中心。公司计划在未来18个月向英国AI生态投资$100M，到2028年投资额将翻倍以上。过去12个月，其在欧洲的订阅销量增长了50%，企业客户占比超20%。新总部将扩大其在欧洲的研究与商业布局，公司正招聘欧洲负责人以组建跨研究、产品、工程和销售的团队，并深化与BBC、Fremantle、WPP等企业的合作。世界模型是其研究的核心，旨在将生成式AI的应用扩展至机器人、科学研究与工业模拟等领域。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpvqq6bd00ubslukf8jsko23",
-      "title": "OpenAI前沿模型与Codex现可在AWS上使用",
-      "title_en": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-01T10:00:00.000Z",
-      "summary": "OpenAI的前沿模型与Codex现已在AWS上全面可用。企业客户可通过其现有的AWS环境、控制与采购流程来使用OpenAI的AI技术，从而加速从评估到生产部署的过程。",
-      "category": "ai-products"
     }
   ]
 }
