@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T14:45:34.180Z",
+  "generatedAt": "2026-06-03T18:48:32.399Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-03",
   "daily": {
@@ -212,6 +212,116 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmpydnyp4045mslaxffsskvf4",
+      "title": "黄仁勋与纳德拉共议智能体AI时代",
+      "title_en": "The agentic AI era is here. From Taipei， Jensen Huang joined @satyanadella at #MSBuild to show how …",
+      "url": "https://x.com/nvidia/status/2062228974273716457",
+      "source": "X：NVIDIA (@nvidia)",
+      "publishedAt": "2026-06-03T17:44:36.000Z",
+      "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpyd2ph203z9slaxfwx9nd13",
+      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "title_en": "introducing Ideogram v4.0. 2k native resolution， excellent text rendering， and support for JSON pr…",
+      "url": "https://x.com/krea_ai/status/2062227837130887567",
+      "source": "X：Krea AI (@krea_ai)",
+      "publishedAt": "2026-06-03T17:40:05.000Z",
+      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmpyc4uab03qgslaxgjm4awp6",
+      "title": "Anthropic 用 Claude 赋能自助数据分析",
+      "title_en": "How Anthropic enables self-service data analytics with Claude",
+      "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-03T17:23:16.528Z",
+      "summary": "Anthropic 使用 Claude 自动化了 95% 的业务分析查询，整体准确率约 95%。其关键在于构建智能体分析栈（agentic analytics stack），通过数据基础层、维护验证流程和技能（skills）分别解决概念-实体歧义、数据过时和检索失败三大错误来源。相比编码场景，数据分析的难点在于将用户问题映射到正确的数据实体，而执行 SQL 反而是简单的。Anthropic 的数据科学团队因此得以专注于因果建模、预测和机器学习等战略工作。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpyb991803i5slaxytpv888x",
+      "title": "Replit上线SEO Agent助应用被发现",
+      "title_en": "You shipped your app. Now what？ Your app may look great， but if no one can find it， it stays invisi…",
+      "url": "https://x.com/Replit/status/2062211976995188871",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-03T16:37:04.000Z",
+      "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpyayd9g03ebslaxqumvlu4w",
+      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+      "title_en": "Miso One is live： an open-weights voice model built to sound like a real person reading， with actual…",
+      "url": "https://x.com/kimmonismus/status/2062210845308780639",
+      "source": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-06-03T16:32:34.000Z",
+      "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmpyaf8yv039jslaxi30g4ylg",
+      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+      "title_en": "OpenShell v0.0.55 🧩 Google Vertex AI inference provider 🔒 Profile-backed policy visibility 🐳 B…",
+      "url": "https://x.com/NVIDIAAI/status/2062210034109677665",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "publishedAt": "2026-06-03T16:29:20.000Z",
+      "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpyblbsv03m0slaxnu9mkovt",
+      "title": "xAI Grok语音模型上线Vapi平台",
+      "title_en": "Try the most natural TTS and cost-effective STT APIs in @Vapi_AI",
+      "url": "https://x.com/xai/status/2062209374039499178",
+      "source": "X：xAI (@xai)",
+      "publishedAt": "2026-06-03T16:26:43.000Z",
+      "summary": "试试 @Vapi_AI 上最自然的TTS和性价比最高的STT API。\n\n来自 @xai 的Grok STT和Grok TTS现已在企业语音AI平台Vapi上线。基于Vapi构建自定义语音智能体，可让它们用客户的语言交流、在受监管的工作流中捕捉重要细节，并在每次通话中明显更具人性化。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpyacsh5038rslaxlh6udycy",
+      "title": "微软研究：装瓶厂AI从聊天到决策",
+      "title_en": "A three-month pilot in a Midwestern bottling plant shows what happens when AI moves beyond chat and …",
+      "url": "https://x.com/MSFTResearch/status/2062204914223169635",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "publishedAt": "2026-06-03T16:09:00.000Z",
+      "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN",
+      "category": "paper"
+    },
+    {
+      "id": "cmpy8a9ig02orslaxeqm8mkao",
+      "title": "NVIDIA CVPR 2026发布三篇Physical AI论文",
+      "title_en": "This week at #CVPR2026， NVIDIA Research is presenting three papers across physical ai that offer gro…",
+      "url": "https://x.com/nvidia/status/2062191093748523401",
+      "source": "X：NVIDIA (@nvidia)",
+      "publishedAt": "2026-06-03T15:14:05.000Z",
+      "summary": "NVIDIA Research在CVPR 2026展示三篇Physical AI论文：GraspGen-X是首个零样本抓取基础模型，基于数十亿模拟抓取训练；LCDrive用紧凑潜在表示取代昂贵文本推理；NitroGen是通用游戏AI基础模型，基于NVIDIA Isaac GR00T训练具身智能体。",
+      "category": "paper"
+    },
+    {
+      "id": "cmpy8aaoz02oxslaxh0ql786h",
+      "title": "Perplexity Personal Computer 登陆 Windows",
+      "title_en": "Personal Computer is coming to Windows. Personal Computer for Windows runs on your machine and orch…",
+      "url": "https://x.com/perplexity_ai/status/2062189045728596080",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "publishedAt": "2026-06-03T15:05:56.000Z",
+      "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpy7c7v402flslaxwaf0jfr1",
+      "title": "Suno完成4亿美元D轮融资",
+      "title_en": "We're thrilled to announce Suno's next chapter： a $400M Series D at a $5.4B valuation！ 🚀 Our missio…",
+      "url": "https://x.com/suno/status/2062183524887675243",
+      "source": "X：Suno (@suno)",
+      "publishedAt": "2026-06-03T14:44:00.000Z",
+      "summary": "我们激动地宣布Suno的新篇章：4亿美元D轮融资，估值54亿美元！🚀\n我们的使命一直很简单：让更多人能体验制作音乐的乐趣。非常感谢我们不可思议的社区和投资者与我们共同建设。\n\n点击此处阅读Mikey的博客：https：//suno.com/blog/series-d-announcement",
+      "category": "industry"
+    },
     {
       "id": "cmpy54eze01szslaxdx3t6qv4",
       "title": "微软与OpenAI分道扬镳--如今双方准备正面交锋",
@@ -471,146 +581,6 @@
       "publishedAt": "2026-06-02T19:02:21.000Z",
       "summary": "微软开源发布 Adaptive Spec-driven Scoring for Evaluation and Regression Testing 框架。开发者可通过文本描述快速生成 AI 行为测试，用于模型评估与回归测试。",
       "category": "ai-products"
-    },
-    {
-      "id": "cmpx0v4c202l6sl793y51zks8",
-      "title": "Alphabet拟融资800亿美元 Anthropic提交IPO申请",
-      "title_en": "Alphabet To Raise $80B in Equity， Anthropic Files For IPO | Bloomberg Tech 6/2/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-02/bloomberg-tech-6-2-2026-video",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-02T18:39:17.000Z",
-      "summary": "Alphabet宣布拟通过股权融资800亿美元，用于扩展AI基础设施。Anthropic已秘密提交IPO申请，在上市竞赛中领先于竞争对手OpenAI。此外，SpaceX正与华尔街机构协商其IPO的承销费用，HPE则因AI基础设施需求旺盛，年度销售预期超出市场估计。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpwzyueg02bcsl796alxq7x4",
-      "title": "Claude Platform 新增 CLI 工具",
-      "title_en": "We've added a CLI for Claude Platform to make every API endpoint runnable from your terminal. Call …",
-      "url": "https://x.com/ClaudeDevs/status/2061877343078244459",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "publishedAt": "2026-06-02T18:27:21.000Z",
-      "summary": "我们为 Claude Platform 添加了一个 CLI，使每个 API 端点都可以从你的终端运行。\n调用 Messages API，启动 Claude 托管智能体，并将结果直接管道传输到你的 shell。\nant CLI 被使用 claude-api 技能的编码智能体（Claude Code）很好地理解。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwzm8ij028gsl798th4vl54",
-      "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
-      "title_en": "Microsoft's first advanced reasoning AI is here",
-      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-06-02T18:12:44.000Z",
-      "summary": "微软在Build 2026上发布了其首款高级推理AI模型MAI-Thinking-1。该模型被定位为\"中等规模\"，能在\"关键\"软件工程基准测试中达到领先模型的水平。微软称其完全从头使用干净数据进行训练，未涉及从第三方模型进行知识蒸馏。这标志着微软在自研AI模型上迈出重要一步，此前其主要依赖OpenAI。近期两家公司已重新协商合作协议，关系有所松绑。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpwy18z701t8sl795u95o45d",
-      "title": "NVIDIA发布自进化Hermes智能体",
-      "title_en": "Self-Evolving Hermes Agents： Enterprise AI That Gets Better With Use | Nemotron Labs https：//x.com/i…",
-      "url": "https://x.com/NVIDIAAI/status/2061870499232190967",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "publishedAt": "2026-06-02T18:00:09.000Z",
-      "summary": "自进化Hermes智能体：随使用而改进的企业AI | Nemotron Labs",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwy5yga01v6sl7900pid5op",
-      "title": "OpenClaw 与微软合作进入企业生态",
-      "title_en": "\"You can run OpenClaw inside your company now.\" Annoucing our work with @Microsoft to bring OpenClaw…",
-      "url": "https://x.com/openclaw/status/2061869633624580452",
-      "source": "X：OpenClaw (@openclaw)",
-      "publishedAt": "2026-06-02T17:56:42.000Z",
-      "summary": "\"你现在可以在公司内部运行 OpenClaw 了。\" 宣布我们与 @Microsoft 的合作，将 OpenClaw 带入微软和 Windows 生态系统。Claws 现在可以在企业环境中安全运行。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwxvkik01qzsl79wf8zf34a",
-      "title": "GitHub Copilot应用：智能体原生的桌面体验",
-      "title_en": "GitHub Copilot app： The agent-native desktop experience",
-      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-06-02T17:30:03.000Z",
-      "summary": "在微软 Build 2026 大会上，GitHub 发布了新的工具和更新，并将 Copilot 应用定位为\"智能体原生的桌面体验\"。其核心目标是让 AI 智能体能够以用户已经习惯的方式进行工作。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwwzyh801j7sl79ct5sj0pa",
-      "title": "Google DeepMind 发布 Gemini 多智能体科研系统",
-      "title_en": "We believe AI can be a dedicated research partner to help discover the next breakthrough. Enter Co-…",
-      "url": "https://x.com/GoogleDeepMind/status/2061857539977842793",
-      "source": "X：Google DeepMind (@GoogleDeepMind)",
-      "publishedAt": "2026-06-02T17:08:39.000Z",
-      "summary": "我们相信 AI 可以成为专属研究伙伴，帮助发现下一个突破。\n\n隆重推出 Co-Scientist：我们最新的基于 Gemini 的多智能体系统，能够为复杂科学问题生成、辩论和演进新颖的假设 🧵",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwvc9sl012csl79zvo91150",
-      "title": "Claude Code团队实践：智能体编程如何重塑工程组织与流程",
-      "title_en": "Running an AI-native engineering org",
-      "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-02T16:45:23.372Z",
-      "summary": "在Code w/ Claude SF 2026活动上，Claude Code工程团队分享了将智能体编程设为默认工作方式后带来的流程与结构变革。核心变化包括：规划转向即时（JIT）模式，强调快速原型与反馈；上下文收集变为\"先问Claude\"；代码审查中Claude处理风格与测试，人工专注于法律、安全等专业判断。新范式下，工程瓶颈从编写代码转向验证、审查与安全维护。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpwv0pz000zusl79b2q9k21q",
-      "title": "OpenAI Codex 发布 Python SDK，可直接嵌入应用",
-      "title_en": "这个有点厉害，Codex 出 Python SDK了。 安装指令：pip install openai-codex 整合到自己的代码中，相当于直接内置了顶级编程和生图Agent？ 最关键的是，可…",
-      "url": "https://x.com/vista8/status/2061846741885018296",
-      "source": "X：Vista (@vista8)",
-      "publishedAt": "2026-06-02T16:25:45.000Z",
-      "summary": "这个有点厉害，Codex 出 Python SDK了。\n\n安装指令：pip install openai-codex\n\n整合到自己的代码中，相当于直接内置了顶级编程和生图Agent？\n\n最关键的是，可以复用 Codex 登录态。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwux2bp00ybsl79gk8k3m4c",
-      "title": "OpenAI Codex Sites 功能发布",
-      "title_en": "Building apps has never been easier. With Sites， Codex can turn your work， ideas， and plans into an…",
-      "url": "https://x.com/OpenAI/status/2061845949170045346",
-      "source": "X：OpenAI (@OpenAI)",
-      "publishedAt": "2026-06-02T16:22:36.000Z",
-      "summary": "构建应用从未如此简单。\n通过 Sites，Codex 可以将你的工作、想法和计划转化为一个交互式网站或应用，你的团队可以通过一个 URL 进行探索、使用和分享。\n该功能将首先向 Business 和 Enterprise 计划推出，之后会更广泛地扩展。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwurmxc00wcsl79be1mbjhr",
-      "title": "DigitalOcean AI云服务上线OpenRouter",
-      "title_en": "⚡ New provider drop： AI-Native Cloud from @digitalocean is now live on OpenRouter. High performance…",
-      "url": "https://x.com/OpenRouter/status/2061840338973806961",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-02T16:00:18.000Z",
-      "summary": "⚡ 新增服务商：DigitalOcean 的 AI-Native Cloud 现已在 OpenRouter 上线。\n提供高性能推理，覆盖热门开源权重模型。在 DeepSeek V3.2 的输出速度和延迟方面排名第一（数据来自 @ArtificialAnlys）。\n查看其数据并试用模型：https：//openrouter.ai/provider/digitalocean",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwuner100vnsl79pq06judg",
-      "title": "Replit Canvas 推出多项新功能",
-      "title_en": "Replit Canvas has a few new updates！ ⭐️ Learn more at： http：//replit.com/canvas Open thread 🧵 ↓",
-      "url": "https://x.com/Replit/status/2061840304534102036",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-02T16:00:10.000Z",
-      "summary": "Replit Canvas 有一些新更新！⭐️\n\n了解更多请访问：http：//replit.com/canvas\n\n展开讨论 🧵 ↓",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwuirwl00tisl79gfmq5mmf",
-      "title": "Gary Marcus：为什么事情终将崩塌",
-      "title_en": "Why things will eventually fall apart",
-      "url": "https://garymarcus.substack.com/p/why-things-will-eventually-fall-apart",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "publishedAt": "2026-06-02T15:41:57.000Z",
-      "summary": "知名人工智能批评者Gary Marcus在其关于可信赖AI的专栏中，探讨了人工智能发展面临的根本性挑战。文章开篇即指向问题的核心，指出相关数学理论的局限性与人类心理的复杂性，是导致AI系统最终可能出现问题的根源。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpwrs3jx004wsl79yv419af3",
-      "title": "商汤开源SenseNova-Skills AI办公技能套件",
-      "title_en": "Power smarter AI agents with #SenseNova-Skills 🚀 An open-source AI o…",
-      "url": "https://x.com/SenseTime_AI/status/2061822148076093625",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "publishedAt": "2026-06-02T14:48:01.000Z",
-      "summary": "商汤开源了AI办公技能套件SenseNova-Skills。这是一个为任何技能兼容智能体（如OpenClaw与HermesAgent）设计的开源技能集合，提供四大核心功能：图像信息图表生成（可镜像参考风格）、数据分析（支持多表解析、清洗与可视化）、PPT创建（生成大纲内容并智能排版，输出可编辑文件）以及深度研究（跨学术、技术、社交等多源搜索并生成报告）。该技能套件现已完全开源。",
-      "category": "tip"
     }
   ]
 }
