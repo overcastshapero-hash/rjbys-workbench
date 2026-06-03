@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T21:52:39.527Z",
+  "generatedAt": "2026-06-03T23:47:09.795Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-03",
   "daily": {
@@ -212,6 +212,26 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmpymcfaz01b5sli3o5nw1ytc",
+      "title": "Grok模型登陆Cloudflare AI Gateway",
+      "title_en": "Try Grok models on @Cloudflare's AI Gateway！",
+      "url": "https://x.com/xai/status/2062294202625696081",
+      "source": "X：xAI (@xai)",
+      "publishedAt": "2026-06-03T22:03:48.000Z",
+      "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpymda2v01bdsli35e5jhioh",
+      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+      "title_en": "OpenClaw 2026.6.1 is live 🦞 🪟 native Windows node host 🛠️ Skill Workshop for self-learning agent…",
+      "url": "https://x.com/openclaw/status/2062288421406785710",
+      "source": "X：OpenClaw (@openclaw)",
+      "publishedAt": "2026-06-03T21:40:49.000Z",
+      "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
+      "category": "ai-products"
+    },
     {
       "id": "cmpyfwtdf04rzslaxxzkal9na",
       "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
