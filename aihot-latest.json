@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T18:48:32.399Z",
+  "generatedAt": "2026-06-03T21:52:39.527Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-03",
   "daily": {
@@ -213,6 +213,46 @@
   },
   "selectedItems": [
     {
+      "id": "cmpyfwtdf04rzslaxxzkal9na",
+      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+      "title_en": "优步每月1，500美元的AI使用上限为AI工具定价提供了有价值的参考",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-03T19:00:08.294Z",
+      "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpygbyx004v6slax1d1lqpuz",
+      "title": "世界模型的功能分类",
+      "title_en": "http：//x.com/i/article/2062244283940544512",
+      "url": "https://x.com/drfeifei/status/2062247238143996275",
+      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "publishedAt": "2026-06-03T18:57:10.000Z",
+      "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpyf82jy04juslax1zjpx7gd",
+      "title": "洪水韧性新篇章：Google 开源水文建模框架",
+      "title_en": "The next chapter in flood resilience： Open sourcing Google's hydrology framework",
+      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
+      "source": "Google Research：Blog（网页）",
+      "publishedAt": "2026-06-03T18:49:39.703Z",
+      "summary": "Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据。该框架允许研究者和预报员训练 AI 洪水预报模型、添加新模型与数据，并已与捷克水文气象研究所（CHMI）等合作测试。开放模型架构和训练管线旨在让各国气象水文部门在保留数据完全控制权的同时，整合基于 AI 的洪水预报。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpyfj31g04nwslaxmex7d8l3",
+      "title": "Grok Imagine 1.5 预览版发布",
+      "title_en": "SpaceXAI is cooking.",
+      "url": "https://x.com/cb_doge/status/2062242490745594085",
+      "source": "X：cb_doge (@cb_doge)",
+      "publishedAt": "2026-06-03T18:38:19.000Z",
+      "summary": "Grok Imagine 1.5 预览版已发布，即日起可在 API 中体验。SpaceXAI 正在发力。",
+      "category": "ai-models"
+    },
+    {
       "id": "cmpydnyp4045mslaxffsskvf4",
       "title": "黄仁勋与纳德拉共议智能体AI时代",
       "title_en": "The agentic AI era is here. From Taipei， Jensen Huang joined @satyanadella at #MSBuild to show how …",
@@ -293,16 +333,6 @@
       "category": "paper"
     },
     {
-      "id": "cmpy8a9ig02orslaxeqm8mkao",
-      "title": "NVIDIA CVPR 2026发布三篇Physical AI论文",
-      "title_en": "This week at #CVPR2026， NVIDIA Research is presenting three papers across physical ai that offer gro…",
-      "url": "https://x.com/nvidia/status/2062191093748523401",
-      "source": "X：NVIDIA (@nvidia)",
-      "publishedAt": "2026-06-03T15:14:05.000Z",
-      "summary": "NVIDIA Research在CVPR 2026展示三篇Physical AI论文：GraspGen-X是首个零样本抓取基础模型，基于数十亿模拟抓取训练；LCDrive用紧凑潜在表示取代昂贵文本推理；NitroGen是通用游戏AI基础模型，基于NVIDIA Isaac GR00T训练具身智能体。",
-      "category": "paper"
-    },
-    {
       "id": "cmpy8aaoz02oxslaxh0ql786h",
       "title": "Perplexity Personal Computer 登陆 Windows",
       "title_en": "Personal Computer is coming to Windows. Personal Computer for Windows runs on your machine and orch…",
@@ -311,6 +341,16 @@
       "publishedAt": "2026-06-03T15:05:56.000Z",
       "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
       "category": "ai-products"
+    },
+    {
+      "id": "cmpyhoxxg002qsli30vj99h80",
+      "title": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
+      "title_en": "NVIDIA Research Unlocks Advanced Grasping， Smarter Autonomous Driving and Agent Training at Scale",
+      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
+      "source": "NVIDIA AI Blog",
+      "publishedAt": "2026-06-03T15:00:57.000Z",
+      "summary": "NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力。GraspGen-X 是首个零样本抓取基础模型，基于 20 亿次模拟抓取训练，可为任意末端执行器生成抓取姿态。LCDrive 用紧凑潜在表示替代文本推理，让自动驾驶在嵌入式硬件上更快推理。NitroGen 基于 Isaac GR00T 架构，在大量虚拟环境中训练具身智能体。此外还发布了新的物理 AI 智能体技能，以及配合 GraspGen-X 使用的 CUDA 加速运动规划库 curoboV2 和闭环抓取论文 Grasp-MPC。",
+      "category": "paper"
     },
     {
       "id": "cmpy7c7v402flslaxwaf0jfr1",
@@ -371,6 +411,16 @@
       "publishedAt": "2026-06-03T12:12:15.000Z",
       "summary": "欧盟公布一项全面技术主权计划，旨在扩大本土半导体、人工智能和云计算供应链，以减少对美国和亚洲的依赖。该计划覆盖芯片制造、AI基础设施及云计算服务等多个关键领域，目标是增强欧洲在核心技术上的自主能力。",
       "category": "industry"
+    },
+    {
+      "id": "cmpyia45j008gsli3u7h5u1jt",
+      "title": "Cursor Enterprise 推出 Organizations 组织管理功能",
+      "title_en": "Introducing organizations for Cursor Enterprise",
+      "url": "https://cursor.com/blog/organizations",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。",
+      "category": "ai-products"
     },
     {
       "id": "cmpxwnz6900slsliwlo35fqk0",
@@ -491,96 +541,6 @@
       "publishedAt": "2026-06-03T00:00:00.000Z",
       "summary": "微软在模型发布卡中首次加入平均token使用量指标。其模型在SWE-Bench Verified上达71.6分，仅消耗约Claude Haiku 4.5三分之一的token。Artificial Analysis的Intelligence Index显示GPT 5.5与Claude Opus 4.8得分相近（约60分），但Opus 4.8运行成本高出40%（$4，685 vs $3，357）。Uber因四个月内AI预算超支而限制员工使用；Salesforce花费$3亿购买Anthropic tokens并冻结工程招聘。模型公司如今需同时在性能和成本两个维度竞争。",
       "category": "tip"
-    },
-    {
-      "id": "cmpx6ljcj013yslck2447n70s",
-      "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
-      "title_en": "Weather forecasts thousands of times faster than traditional supercomputers. Hear from Kenji Takeda …",
-      "url": "https://x.com/MSFTResearch/status/2061927189977727450",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "publishedAt": "2026-06-02T21:45:25.000Z",
-      "summary": "天气预报速度比传统超级计算机快数千倍。听听Kenji Takeda在#MSBuild微软研究实验室关于Aurora的分享。了解更多：https：//msft.it/6018vjGUA",
-      "category": "paper"
-    },
-    {
-      "id": "cmpx6ffoc010yslckfofiel4y",
-      "title": "Anthropic支持美国AI行政令实施",
-      "title_en": "This Executive Order is an important step in strengthening America's leadership in AI. We look for…",
-      "url": "https://x.com/AnthropicAI/status/2061924580222968183",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "publishedAt": "2026-06-02T21:35:03.000Z",
-      "summary": "这项行政令是加强美国AI领导地位的重要一步。\n\n我们期待与白宫合作，支持其实施。\n\nhttps：//www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-      "category": "industry"
-    },
-    {
-      "id": "cmpx64ru900yoslckuec4q8ne",
-      "title": "Google DeepMind 开源科学智能体工具包",
-      "title_en": "Building autonomous agents for scientific discovery？ 🧬🤖 @GoogleDeepMind Science Skills is now ava…",
-      "url": "https://x.com/googleaidevs/status/2061924472245153863",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "publishedAt": "2026-06-02T21:34:37.000Z",
-      "summary": "构建用于科学发现的自主智能体？🧬🤖\n\n@GoogleDeepMind Science Skills 现已在 GitHub 上发布。我们已开源这个专用工具包，以科学基础和更高的 token 效率加速您的智能体工作流。\n\n立即下载 ↓\nhttps：//github.com/google-deepmind/science-skills",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpx3fvdq009rslckxcfsidbc",
-      "title": "NVIDIA DGX Station 开始交付开发者和研究人员",
-      "title_en": "NVIDIA DGX Station systems are beginning to arrive at the desks of developers and researchers. 📦 E…",
-      "url": "https://x.com/nvidia/status/2061904438478970985",
-      "source": "X：NVIDIA (@nvidia)",
-      "publishedAt": "2026-06-02T20:15:01.000Z",
-      "summary": "NVIDIA DGX Station 系统正开始送达开发者和研究人员的办公桌。📦\n\n企业团队可以本地部署数据中心级性能，搭载 GB300 的系统正从华硕、戴尔、技嘉、惠普、微星和超微等合作伙伴处发货。\n\n👉 阅读博客：https：//nvda.ws/4x3VdBr",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpx36moe005uslckmmw9hjlt",
-      "title": "Claude Code 自我检查与反馈闭环技巧",
-      "title_en": "How do you get Claude Code to check its own work before handing it back？ Watch how you can encode y…",
-      "url": "https://x.com/ClaudeDevs/status/2061900434722496604",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "publishedAt": "2026-06-02T19:59:06.000Z",
-      "summary": "如何让 Claude Code 在交回工作前检查自己的成果？\n看看如何编码你的手动检查，让 Claude 自己关闭反馈循环：",
-      "category": "tip"
-    },
-    {
-      "id": "cmpx2aezv00d8slgygrrq7o5v",
-      "title": "OpenRouter上线微软三款新模型",
-      "title_en": "Three new @MicrosoftAI models now live on OpenRouter！ Launching together： MAI-Image-2.5， MAI-Transc…",
-      "url": "https://x.com/OpenRouter/status/2061894672847671724",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-02T19:36:12.000Z",
-      "summary": "三款新的 @MicrosoftAI 模型现已在 OpenRouter 上线！\n同步推出：MAI-Image-2.5、MAI-Transcribe-1.5 和 MAI-Voice-2。详情见下文 🧵",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpx26aaw00b6slgyo930b0bu",
-      "title": "Replit 与微软合作发布 Fabric 集成",
-      "title_en": "Announcing our new collaboration with @Microsoft Organizations can now build internal tools， workf…",
-      "url": "https://x.com/Replit/status/2061892255028486435",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-02T19:26:36.000Z",
-      "summary": "宣布与 @Microsoft 的新合作\n\n组织现在可以在 Replit 中构建内部工具、工作流或数据仪表板，并直接发布到 Microsoft Fabric，内置安全、身份验证和治理功能。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpx11l8102mmsl7940fhk41n",
-      "title": "OpenAI Codex 推出团队专属插件",
-      "title_en": "Role-specific plugins in Codex are built around the work teams actually do. Plugins for Data Analyt…",
-      "url": "https://x.com/OpenAIDevs/status/2061888366791246071",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "publishedAt": "2026-06-02T19:11:09.000Z",
-      "summary": "Codex 中的角色专属插件围绕团队实际工作构建。\n\n数据分析、创意制作和产品设计插件为 Codex 提供了创建报告、创意方向和原型的工具与上下文。\n\n由 OpenAI 团队构建并使用。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpx0fzub02i1sl79g649uesx",
-      "title": "微软发布开源框架 Adaptive Spec-driven Scoring：支持用文本描述创建 AI 评估测试",
-      "title_en": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
-      "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-06-02T19:02:21.000Z",
-      "summary": "微软开源发布 Adaptive Spec-driven Scoring for Evaluation and Regression Testing 框架。开发者可通过文本描述快速生成 AI 行为测试，用于模型评估与回归测试。",
-      "category": "ai-products"
     }
   ]
 }
