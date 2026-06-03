@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T09:54:37.777Z",
+  "generatedAt": "2026-06-03T14:45:34.180Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-03",
   "daily": {
@@ -213,6 +213,66 @@
   },
   "selectedItems": [
     {
+      "id": "cmpy54eze01szslaxdx3t6qv4",
+      "title": "微软与OpenAI分道扬镳--如今双方准备正面交锋",
+      "title_en": "Microsoft and OpenAI broke up - now they're ready to fight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "source": "The Verge：订阅版科技（RSS）",
+      "publishedAt": "2026-06-03T14:04:00.000Z",
+      "summary": "微软与OpenAI的合作关系已彻底破裂，双方进入正面竞争态势。前DeepMind高管、现任微软AI主管Mustafa Suleyman明确表示，微软现在必须从头证明自己能独立完成所有必需的任务。这标志着两家科技巨头从紧密合作伙伴转变为直接竞争对手。",
+      "category": "industry"
+    },
+    {
+      "id": "cmpy4c9s101l0slaxcumea3tp",
+      "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
+      "title_en": "Meta's AI agent for WhatsApp Business is now available globally",
+      "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-03T13:40:00.000Z",
+      "summary": "Meta 为 WhatsApp Business 打造的 AI 智能体面向全球商家开放，将按照模型 token 使用量向企业收费。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpy3tdza01g9slaxmze2wjve",
+      "title": "介绍 Claude Partner Network 的 Services Track 和 Partner Hub",
+      "title_en": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-06-03T13:30:21.674Z",
+      "summary": "Anthropic 扩展 Claude Partner Network，推出 Services Track 分级体系和 Partner Hub 门户。Services Track 设 Select、Preferred、Global Premier 三级，按认证人数、投产客户数及客户推荐信量化评定。Partner Hub 提供每日更新仪表盘和公开目录，方便合作伙伴查看进展、客户寻找供应商。该网络三月启动以来已有超 4 万家公司申请，逾 1 万顾问获认证；Accenture 训练 3 万人，Cognizant 部署约 35 万员工，Deloitte 惠及 47 万人，KPMG 覆盖 27.6 万，Infosys 构建行业智能体，PwC 先在美推广再扩至全球。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpy47xxi01kislax812354vk",
+      "title": "超越聊天机器人的直接偏好优化",
+      "title_en": "Direct Preference Optimization Beyond Chatbots",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-03T12:55:11.000Z",
+      "summary": "Dharma-AI 在 Hugging Face 博客发文，探讨直接偏好优化（Direct Preference Optimization，DPO）在聊天机器人之外的更广泛应用场景。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpy1ckz600sgslaxrelv5loe",
+      "title": "欧盟公布全面技术主权计划，推动芯片与AI自主发展",
+      "title_en": "Europe Unveils Sweeping Tech Sovereignty Plan to Boost Chips， AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/europe-unveils-sweeping-tech-sovereignty-plan-to-boost-chips-ai",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-03T12:12:15.000Z",
+      "summary": "欧盟公布一项全面技术主权计划，旨在扩大本土半导体、人工智能和云计算供应链，以减少对美国和亚洲的依赖。该计划覆盖芯片制造、AI基础设施及云计算服务等多个关键领域，目标是增强欧洲在核心技术上的自主能力。",
+      "category": "industry"
+    },
+    {
+      "id": "cmpxwnz6900slsliwlo35fqk0",
+      "title": "Qwen Cloud全球AI黑客马拉松启动",
+      "title_en": "The first-ever Qwen Cloud Global AI Hackathon is LIVE！ Join 5 advanced tracks to push AI agent limi…",
+      "url": "https://x.com/alibaba_cloud/status/2062113338994172169",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "publishedAt": "2026-06-03T10:05:06.000Z",
+      "summary": "首届Qwen Cloud全球AI黑客马拉松现已启动！\n\n参与5大高级赛道，在全球舞台上挑战AI智能体极限。\n\n总奖金池超过70，000美元（赛道冠军1万美元）。\n\n立即在Devpost报名：https：//click.qwencloud.com/m/20000000281/",
+      "category": "industry"
+    },
+    {
       "id": "cmpxvzm7o00jqsliwbt1hnvae",
       "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
       "title_en": "What we learned mapping a year's worth of AI-enabled cyber threats",
@@ -303,6 +363,26 @@
       "category": "tip"
     },
     {
+      "id": "cmpy6d44o025vslaxzb4avsp2",
+      "title": "Reachy Mini 添加 MCP 工具",
+      "title_en": "Adding MCP Tools to Reachy Mini",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "summary": "Reachy Mini 推出了公开的 MCP canary Space，用于远程工具调用。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpy42n0t01jnslaxhzgxjmzh",
+      "title": "智能性价比",
+      "title_en": "Intelligence Per Dollar",
+      "url": "https://www.tomtunguz.com/tokens-per-result",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "summary": "微软在模型发布卡中首次加入平均token使用量指标。其模型在SWE-Bench Verified上达71.6分，仅消耗约Claude Haiku 4.5三分之一的token。Artificial Analysis的Intelligence Index显示GPT 5.5与Claude Opus 4.8得分相近（约60分），但Opus 4.8运行成本高出40%（$4，685 vs $3，357）。Uber因四个月内AI预算超支而限制员工使用；Salesforce花费$3亿购买Anthropic tokens并冻结工程招聘。模型公司如今需同时在性能和成本两个维度竞争。",
+      "category": "tip"
+    },
+    {
       "id": "cmpx6ljcj013yslck2447n70s",
       "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
       "title_en": "Weather forecasts thousands of times faster than traditional supercomputers. Hear from Kenji Takeda …",
@@ -333,16 +413,6 @@
       "category": "ai-products"
     },
     {
-      "id": "cmpx51hf700otslcksx7ng54n",
-      "title": "Claude Code 新增动态工作流功能",
-      "title_en": "A harness for every task： dynamic workflows in Claude Code",
-      "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-02T21:16:49.491Z",
-      "summary": "Claude Code 新增动态工作流功能，允许模型在运行时即兴创建和协调多智能体框架来处理复杂任务。该功能通过执行特定的 JavaScript 文件来生成和协调拥有独立上下文窗口的子代理，可解决单一上下文窗口中长时间执行任务可能出现的智能惰性等问题。工作流适用于研究、安全分析、代码审查等场景，通常消耗更多 token，更适合高价值复杂任务，其最佳实践仍在发展中。",
-      "category": "ai-products"
-    },
-    {
       "id": "cmpx3fvdq009rslckxcfsidbc",
       "title": "NVIDIA DGX Station 开始交付开发者和研究人员",
       "title_en": "NVIDIA DGX Station systems are beginning to arrive at the desks of developers and researchers. 📦 E…",
@@ -361,16 +431,6 @@
       "publishedAt": "2026-06-02T19:59:06.000Z",
       "summary": "如何让 Claude Code 在交回工作前检查自己的成果？\n看看如何编码你的手动检查，让 Claude 自己关闭反馈循环：",
       "category": "tip"
-    },
-    {
-      "id": "cmpx2idh8001aslckycuy1oby",
-      "title": "Runway API 推出 Aleph 2.0 视频编辑功能",
-      "title_en": "Aleph 2.0 is now available via the Runway API. Bring precise video editing directly into your apps， …",
-      "url": "https://x.com/runwayml/status/2061895998545244342",
-      "source": "X：Runway (@runwayml)",
-      "publishedAt": "2026-06-02T19:41:28.000Z",
-      "summary": "Aleph 2.0 现已通过 Runway API 提供。将精准视频编辑直接集成到您的应用、产品和平台中。支持在多镜头序列中编辑最长 30 秒、1080p 分辨率的视频，仅修改您想要的部分。\n\n请通过以下链接开始使用。",
-      "category": "ai-products"
     },
     {
       "id": "cmpx2aezv00d8slgygrrq7o5v",
@@ -550,66 +610,6 @@
       "source": "X：商汤 SenseTime (@SenseTime_AI)",
       "publishedAt": "2026-06-02T14:48:01.000Z",
       "summary": "商汤开源了AI办公技能套件SenseNova-Skills。这是一个为任何技能兼容智能体（如OpenClaw与HermesAgent）设计的开源技能集合，提供四大核心功能：图像信息图表生成（可镜像参考风格）、数据分析（支持多表解析、清洗与可视化）、PPT创建（生成大纲内容并智能排版，输出可编辑文件）以及深度研究（跨学术、技术、社交等多源搜索并生成报告）。该技能套件现已完全开源。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpwqvwfa05cqslsncgvlgd9q",
-      "title": "Holo3.1：快速本地计算机使用智能体",
-      "title_en": "Holo3.1： Fast & Local Computer Use Agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-02T14:13:23.000Z",
-      "summary": "Holo3.1 是基于 Qwen 模型家族的计算机使用智能体系列，旨在提升在桌面、网页和移动环境中的鲁棒性。新模型提供 0.8B、4B、9B 和 35B-A3B 四种尺寸，并首次发布量化检查点，包括 FP8、Q4 GGUF 和 NVFP4，以优化本地推理。在 AndroidWorld 基准测试中，35B-A3B 模型得分从 67% 提升至 79.3%。在 DGX Spark 上，NVFP4 量化相比 BF16 实现 1.74 倍 token 吞吐量提升，并将平均步骤时间从 6.8 秒缩短至 3.3 秒。模型支持函数调用协议，可在第三方智能体框架中部署。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpwqmim605awslsn13ybjfuw",
-      "title": "Nathan Lambert离开Ai2，结束2.5年OLMO等项目工作",
-      "title_en": "My time at Ai2 / @allen_ai has come to an end. Ai2 is a wonderful place. The last 2.5+ years build…",
-      "url": "https://x.com/natolambert/status/2061813361848029631",
-      "source": "X：Nathan Lambert (@natolambert)",
-      "publishedAt": "2026-06-02T14:13:06.000Z",
-      "summary": "Ai2（Allen Institute for AI）研究员Nathan Lambert宣布离职。他在Ai2工作超过2.5年，期间主导或参与了OLMO和Tulu等开源模型项目，称其为职业生涯的巅峰。他表示将暂时休息，未来仍会继续深耕开源模型与开放科学领域。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpwq7j6k0562slsn6jkahkn5",
-      "title": "MiniCPM-V 4.6 现已支持 vLLM v0.22.0",
-      "title_en": "MiniCPM-V 4.6 is now fully supported in vLLM v0.22.0！ No custom branch. No extra compile. Just pull …",
-      "url": "https://x.com/OpenBMB/status/2061810723169415205",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "publishedAt": "2026-06-02T14:02:37.000Z",
-      "summary": "MiniCPM-V 4.6 现已完全支持 vLLM v0.22.0！\n无需自定义分支，无需额外编译。\n只需拉取预构建包即可运行。\n非常感谢 @vllm_project 的顺畅集成！ 🤝\n🤗 http：//huggingface.co/openbmb/MiniCPM-V-4.6",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpwoaoyd04pcslsnnqfm8490",
-      "title": "Anthropic扩展Project Glasswing计划",
-      "title_en": "Expanding Project Glasswing",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-06-02T13:28:13.607Z",
-      "summary": "Anthropic正将其Project Glasswing计划扩展至约150个新组织，此前首批约50个合作伙伴。新伙伴分布于十五个多国家，覆盖电力、水务、医疗、通信和硬件等关键基础设施行业。这些合作伙伴的共同点在于，其代码库若遭成功攻击，后果可能极其严重，影响或超1亿人。项目旨在利用Claude Mythos Preview等前沿模型扫描漏洞并协助修复，以应对AI驱动的网络安全挑战。同时，Anthropic推出了基于Claude Opus 4.8等公开模型的Claude Security产品，用于扫描代码并建议补丁。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpxkya4604y3slck1oyytsxu",
-      "title": "世界模型与语言模型：论具体推理与抽象推理的互补性",
-      "title_en": "World Models Meet Language Models： On the Complementarity of Concrete and Abstract Reasoning",
-      "url": "https://arxiv.org/abs/2606.03603",
-      "source": "HuggingFace Daily Papers（社区热门论文）",
-      "publishedAt": "2026-06-02T13:07:49.000Z",
-      "summary": "本研究探讨了世界模型与多模态大语言模型在预测未来状态时的互补性。世界模型可生成具体的视觉未来轨迹，但可能视觉合理却任务错误；多模态大语言模型则擅长抽象推理。为此，研究提出了\"受控的具体推理\"框架，并构建了VRQABench和OpenWorldQA两个基准。同时，提出了Privileged-Future On-Policy Self-Distillation（PF-OPSD）方法，该方法在训练时利用真实未来视频作为特权上下文评估推理轨迹，但部署时无需真实未来。实验结果显示，PF-OPSD在两个基准上分别比基线高出10.6%和10.9%，并提升了对噪声或冲突轨迹的鲁棒性。",
-      "category": "paper"
-    },
-    {
-      "id": "cmpwndkv504h2slsnenpm5ynd",
-      "title": "Gemini Spark：最令人印象深刻也最可怕的AI体验",
-      "title_en": "Gemini Spark is the most impressive and terrifying AI experience I've had yet",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
-      "source": "The Verge：订阅版科技（RSS）",
-      "publishedAt": "2026-06-02T12:38:08.000Z",
-      "summary": "Google DeepMind的AI模型Gemini Spark提供了一次极为深刻但同时令人感到不安的用户体验。该模型展现的强大能力令人印象深刻，但其带来的影响和潜力也引发了深刻的恐惧感。",
       "category": "tip"
     }
   ]
