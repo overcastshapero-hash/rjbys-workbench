@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T15:36:13.935Z",
+  "generatedAt": "2026-06-04T18:21:51.134Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-04",
   "daily": {
@@ -231,6 +231,46 @@
   },
   "selectedItems": [
     {
+      "id": "cmpzt2dat0039sll37lufc7ax",
+      "title": "Replit Agent 联手 Shopify 快速建店",
+      "title_en": "We partnered with Shopify so you can go from idea to live store in minutes Just tell Replit Agent …",
+      "url": "https://x.com/Replit/status/2062594881625940379",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-04T17:58:35.000Z",
+      "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpzrtp0u06dxslkp7tqka277",
+      "title": "NotebookLM 推出福尔摩斯游戏笔记本",
+      "title_en": "PRO TIP： Gamify your notebooks Don't just read your notes- investigate them. Our new Sherlock Holme…",
+      "url": "https://x.com/NotebookLM/status/2062582348194197743",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "publishedAt": "2026-06-04T17:08:47.000Z",
+      "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpzqhv5y0607slkptes62n17",
+      "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
+      "title_en": "Blog Higgs Audio v3 TTS on SGLang-Omni： Real-Time， Controllable Speech for Voice Agents Today we are announcing end-to-end serving for Higgs Audio v3 TTS on SGLang-Omni. Higgs Audio v3 TTS is Boson AI's text-to-speech model for conversational voice agents： it generates natural and expres… Boson AI & SGLang-Omni Team",
+      "url": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-06-04T16:53:01.234Z",
+      "summary": "Boson AI 与 LMSYS 联合推出基于 SGLang-Omni 推理框架的 Higgs Audio v3 TTS 端到端服务。该模型约 4B 参数，基于 Qwen3-4B 骨干，支持 100 种语言（内部评测覆盖 111 种），在 Seed-TTS、CV3、MiniMax-Multilingual 及 Higgs-Multilingual 零样本语音克隆任务中达到单字级 WER/CER。开发者可通过文本内控制标签实时调整情感（20+种）、风格、韵律（语速/音高/停顿）及音效。模型支持流式合成，文本未完整时即可开始生成语音并保持一致性。SGLang-Omni 专为多阶段生成模型设计，统一调度 AR 解码与轻量计算，实现低延迟推理。",
+      "category": "tip"
+    },
+    {
+      "id": "cmpzqvd77063uslkpjlcqivws",
+      "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
+      "title_en": "Alex Imas and Phil Trammell - What remains scarce after AGI？",
+      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "publishedAt": "2026-06-04T16:14:49.000Z",
+      "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。",
+      "category": "tip"
+    },
+    {
       "id": "cmpzn05ag052vslkpo3cb21hq",
       "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
       "title_en": "Post-training is having a moment - Nex-N2-Pro from neolab @NexEcosystem proves it. Built on Qwen3.5-…",
@@ -321,6 +361,16 @@
       "category": "industry"
     },
     {
+      "id": "cmpzosigs05knslkpwrpnvf65",
+      "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
+      "title_en": "Dreaming： Better memory for a more helpful ChatGPT",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-04T09:00:00.000Z",
+      "summary": "ChatGPT 推出名为 Dreaming 的新记忆系统，能够更有效地记住用户偏好，并在跨对话场景中保持上下文的新鲜感和相关性，从而提升助手的个性化体验。",
+      "category": "ai-products"
+    },
+    {
       "id": "cmpz4ztc400a8slkpncco9ljl",
       "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
       "title_en": "Meet OpenJarvis： A Local-First Framework for On-Device Personal AI Agents with Tools， Memory， and Learning",
@@ -361,6 +411,16 @@
       "category": "industry"
     },
     {
+      "id": "cmpznzjs205baslkpa2lb0j2d",
+      "title": "Hugging Face 为编码智能体重塑 hf CLI 输出格式",
+      "title_en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "Hugging Face 重新设计 hf CLI，使其同时服务人类用户和编码智能体（Claude Code、Codex 等）。CLI 通过环境变量自动检测智能体驱动，输出紧凑无截断的 TSV 格式，避免 ANSI 和交互提示，大幅降低 token 消耗。复杂多步任务中，不使用 CLI 的智能体 token 消耗最高达 hf CLI 的 6 倍。2026 年 4 月起，Hugging Face 追踪 Hub 智能体流量，Claude Code 约 4 万用户、近 4900 万次请求，Codex 紧随其后。",
+      "category": "ai-products"
+    },
+    {
       "id": "cmpymcfaz01b5sli3o5nw1ytc",
       "title": "Grok模型登陆Cloudflare AI Gateway",
       "title_en": "Try Grok models on @Cloudflare's AI Gateway！",
@@ -399,86 +459,6 @@
       "publishedAt": "2026-06-03T18:57:10.000Z",
       "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
       "category": "tip"
-    },
-    {
-      "id": "cmpyf82jy04juslax1zjpx7gd",
-      "title": "洪水韧性新篇章：Google 开源水文建模框架",
-      "title_en": "The next chapter in flood resilience： Open sourcing Google's hydrology framework",
-      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
-      "source": "Google Research：Blog（网页）",
-      "publishedAt": "2026-06-03T18:49:39.703Z",
-      "summary": "Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据。该框架允许研究者和预报员训练 AI 洪水预报模型、添加新模型与数据，并已与捷克水文气象研究所（CHMI）等合作测试。开放模型架构和训练管线旨在让各国气象水文部门在保留数据完全控制权的同时，整合基于 AI 的洪水预报。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpydnyp4045mslaxffsskvf4",
-      "title": "黄仁勋与纳德拉共议智能体AI时代",
-      "title_en": "The agentic AI era is here. From Taipei， Jensen Huang joined @satyanadella at #MSBuild to show how …",
-      "url": "https://x.com/nvidia/status/2062228974273716457",
-      "source": "X：NVIDIA (@nvidia)",
-      "publishedAt": "2026-06-03T17:44:36.000Z",
-      "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpyd2ph203z9slaxfwx9nd13",
-      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
-      "title_en": "introducing Ideogram v4.0. 2k native resolution， excellent text rendering， and support for JSON pr…",
-      "url": "https://x.com/krea_ai/status/2062227837130887567",
-      "source": "X：Krea AI (@krea_ai)",
-      "publishedAt": "2026-06-03T17:40:05.000Z",
-      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpyc4uab03qgslaxgjm4awp6",
-      "title": "Anthropic 用 Claude 赋能自助数据分析",
-      "title_en": "How Anthropic enables self-service data analytics with Claude",
-      "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-03T17:23:16.528Z",
-      "summary": "Anthropic 使用 Claude 自动化了 95% 的业务分析查询，整体准确率约 95%。其关键在于构建智能体分析栈（agentic analytics stack），通过数据基础层、维护验证流程和技能（skills）分别解决概念-实体歧义、数据过时和检索失败三大错误来源。相比编码场景，数据分析的难点在于将用户问题映射到正确的数据实体，而执行 SQL 反而是简单的。Anthropic 的数据科学团队因此得以专注于因果建模、预测和机器学习等战略工作。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpyb991803i5slaxytpv888x",
-      "title": "Replit上线SEO Agent助应用被发现",
-      "title_en": "You shipped your app. Now what？ Your app may look great， but if no one can find it， it stays invisi…",
-      "url": "https://x.com/Replit/status/2062211976995188871",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-03T16:37:04.000Z",
-      "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpyayd9g03ebslaxqumvlu4w",
-      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
-      "title_en": "Miso One is live： an open-weights voice model built to sound like a real person reading， with actual…",
-      "url": "https://x.com/kimmonismus/status/2062210845308780639",
-      "source": "X：Kim (@kimmonismus)",
-      "publishedAt": "2026-06-03T16:32:34.000Z",
-      "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpyaf8yv039jslaxi30g4ylg",
-      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
-      "title_en": "OpenShell v0.0.55 🧩 Google Vertex AI inference provider 🔒 Profile-backed policy visibility 🐳 B…",
-      "url": "https://x.com/NVIDIAAI/status/2062210034109677665",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "publishedAt": "2026-06-03T16:29:20.000Z",
-      "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpyacsh5038rslaxlh6udycy",
-      "title": "微软研究：装瓶厂AI从聊天到决策",
-      "title_en": "A three-month pilot in a Midwestern bottling plant shows what happens when AI moves beyond chat and …",
-      "url": "https://x.com/MSFTResearch/status/2062204914223169635",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "publishedAt": "2026-06-03T16:09:00.000Z",
-      "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN",
-      "category": "paper"
     }
   ]
 }
