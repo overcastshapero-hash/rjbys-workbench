@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T08:52:18.650Z",
+  "generatedAt": "2026-06-04T11:58:07.445Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-04",
   "daily": {
@@ -230,6 +230,26 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmpzfevp50305slkpy89xsy0v",
+      "title": "Nemotron 预训练的任务种子合成问答生成",
+      "title_en": "Task-Seeded Synthetic Q&A Generation for Nemotron Pretraining",
+      "url": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T11:24:53.000Z",
+      "summary": "在 Nemotron-3 Nano 模型的 100B token 续训练实验中，任务种子合成数据生成（Task-Seeded SDG）使 MMLU-Pro 提升 1.8 分，平均代码提升 1.9 分，常识理解提升 1.6 分，GPQA 提升 11.1 分，数学成绩保持稳定。该流程利用 lm-eval-harness 中约 70 个公开任务（约 700 子任务）的训练集作为种子，生成新示例并补充推理和上下文，经过格式校验、去重和答案验证后得到精选合成数据集，用于 Nemotron Ultra 和 Super 训练。",
+      "category": "paper"
+    },
+    {
+      "id": "cmpzer05a02v8slkpi6r58kcw",
+      "title": "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型",
+      "title_en": "Microsoft's AI Chief Says Anthropic Models Are Too Expensive",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-04/microsoft-says-anthropic-models-are-too-expensive",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-04T11:02:01.000Z",
+      "summary": "微软AI部门负责人表示，Anthropic推出的模型成本过高，公司目前正在内部研发更廉价的替代模型，以降低成本。",
+      "category": "industry"
+    },
     {
       "id": "cmpz4ztc400a8slkpncco9ljl",
       "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
@@ -479,26 +499,6 @@
       "publishedAt": "2026-06-03T12:00:00.000Z",
       "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。",
       "category": "ai-products"
-    },
-    {
-      "id": "cmpxwnz6900slsliwlo35fqk0",
-      "title": "Qwen Cloud全球AI黑客马拉松启动",
-      "title_en": "The first-ever Qwen Cloud Global AI Hackathon is LIVE！ Join 5 advanced tracks to push AI agent limi…",
-      "url": "https://x.com/alibaba_cloud/status/2062113338994172169",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "publishedAt": "2026-06-03T10:05:06.000Z",
-      "summary": "首届Qwen Cloud全球AI黑客马拉松现已启动！\n\n参与5大高级赛道，在全球舞台上挑战AI智能体极限。\n\n总奖金池超过70，000美元（赛道冠军1万美元）。\n\n立即在Devpost报名：https：//click.qwencloud.com/m/20000000281/",
-      "category": "industry"
-    },
-    {
-      "id": "cmpxvzm7o00jqsliwbt1hnvae",
-      "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
-      "title_en": "What we learned mapping a year's worth of AI-enabled cyber threats",
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "publishedAt": "2026-06-03T09:51:21.088Z",
-      "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。",
-      "category": "paper"
     }
   ]
 }
