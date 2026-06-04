@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T20:59:16.348Z",
+  "generatedAt": "2026-06-04T22:40:36.370Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-04",
   "daily": {
@@ -231,6 +231,56 @@
   },
   "selectedItems": [
     {
+      "id": "cmq01ld46020ksltri2vkr5uv",
+      "title": "NotebookLM 来源归属功能上线",
+      "title_en": "Today we're launching another highly requested feature： Source Attribution！ 🥳 No more guessing. No…",
+      "url": "https://x.com/NotebookLM/status/2062653124326863077",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "publishedAt": "2026-06-04T21:50:01.000Z",
+      "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq01qi40023fsltru08k8zx9",
+      "title": "Gemini macOS 双击 Command 附加活动窗口",
+      "title_en": "Get tailored help for what's on your screen using the Gemini app for macOS. 💻 Simply press both Co…",
+      "url": "https://x.com/GeminiApp/status/2062652523945836770",
+      "source": "X：Gemini (@GeminiApp)",
+      "publishedAt": "2026-06-04T21:47:38.000Z",
+      "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq010okb01vbsltr3j2n6q5t",
+      "title": "Anthropic 开源 AI 驱动漏洞发现框架",
+      "title_en": "Anthropic 用于人工智能驱动漏洞发现的开源框架",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-04T21:32:05.585Z",
+      "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq00q1w401tvsltr2b8zysje",
+      "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
+      "title_en": "When laws and oversight depend on transcripts， 70-80% isn't enough. http：//Rafiqspace.ai hit 97.7% …",
+      "url": "https://x.com/nvidia/status/2062647600424128773",
+      "source": "X：NVIDIA (@nvidia)",
+      "publishedAt": "2026-06-04T21:28:04.000Z",
+      "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️",
+      "category": "industry"
+    },
+    {
+      "id": "cmq01c0eo01ycsltrs4arno27",
+      "title": "共存与协同智能的终结",
+      "title_en": "Co-Existence and the End of Co-Intelligence",
+      "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "publishedAt": "2026-06-04T21:13:42.000Z",
+      "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。",
+      "category": "tip"
+    },
+    {
       "id": "cmpzy33my014qsltrf163yi8g",
       "title": "Google Research 发布被动心率监测系统 PHRM",
       "title_en": "Towards passive heart health monitoring via smartphone camera",
@@ -391,6 +441,16 @@
       "category": "paper"
     },
     {
+      "id": "cmq02h5su02a7sltrhs0xegph",
+      "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
+      "title_en": "A Robot is Sprinting Towards You： Do You Want it Running on Claude or Grok？",
+      "url": "https://openrouter.ai/announcements/royale-last-agent-standing",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的\"大逃杀\"挑战中正面竞争。实验结果表明，传统的静态 benchmark 排名无法反映模型在需要即时反应的智能体任务（如自主控制机器人）中的真实表现，Claude 和 Grok 系列模型在决策速度与任务成功率上表现突出，而多项高分模型的实时调度能力未达预期。",
+      "category": "tip"
+    },
+    {
       "id": "cmpzfevp50305slkpy89xsy0v",
       "title": "Nemotron 预训练的任务种子合成问答生成",
       "title_en": "Task-Seeded Synthetic Q&A Generation for Nemotron Pretraining",
@@ -478,26 +538,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "publishedAt": "2026-06-04T00:00:00.000Z",
       "summary": "Hugging Face 重新设计 hf CLI，使其同时服务人类用户和编码智能体（Claude Code、Codex 等）。CLI 通过环境变量自动检测智能体驱动，输出紧凑无截断的 TSV 格式，避免 ANSI 和交互提示，大幅降低 token 消耗。复杂多步任务中，不使用 CLI 的智能体 token 消耗最高达 hf CLI 的 6 倍。2026 年 4 月起，Hugging Face 追踪 Hub 智能体流量，Claude Code 约 4 万用户、近 4900 万次请求，Codex 紧随其后。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpymcfaz01b5sli3o5nw1ytc",
-      "title": "Grok模型登陆Cloudflare AI Gateway",
-      "title_en": "Try Grok models on @Cloudflare's AI Gateway！",
-      "url": "https://x.com/xai/status/2062294202625696081",
-      "source": "X：xAI (@xai)",
-      "publishedAt": "2026-06-03T22:03:48.000Z",
-      "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpymda2v01bdsli35e5jhioh",
-      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
-      "title_en": "OpenClaw 2026.6.1 is live 🦞 🪟 native Windows node host 🛠️ Skill Workshop for self-learning agent…",
-      "url": "https://x.com/openclaw/status/2062288421406785710",
-      "source": "X：OpenClaw (@openclaw)",
-      "publishedAt": "2026-06-03T21:40:49.000Z",
-      "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
       "category": "ai-products"
     }
   ]
