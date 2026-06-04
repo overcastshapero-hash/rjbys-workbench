@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T18:21:51.134Z",
+  "generatedAt": "2026-06-04T20:59:16.348Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-04",
   "daily": {
@@ -231,6 +231,56 @@
   },
   "selectedItems": [
     {
+      "id": "cmpzy33my014qsltrf163yi8g",
+      "title": "Google Research 发布被动心率监测系统 PHRM",
+      "title_en": "Towards passive heart health monitoring via smartphone camera",
+      "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
+      "source": "Google Research：Blog（网页）",
+      "publishedAt": "2026-06-04T20:25:28.688Z",
+      "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。",
+      "category": "paper"
+    },
+    {
+      "id": "cmpzxaxqv00w8sltrueor0hp8",
+      "title": "OpenAI API 新增内容审核评分",
+      "title_en": "Moderation scores are now available in the Responses API and Completions API. Return moderation sig…",
+      "url": "https://x.com/OpenAIDevs/status/2062619558440267801",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "publishedAt": "2026-06-04T19:36:39.000Z",
+      "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmpzwl55v00pfsltr6bq95ouh",
+      "title": "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全",
+      "title_en": "Nemotron 3.5 Content Safety： Customizable Multimodal Safety for Global Enterprise AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T18:57:45.000Z",
+      "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmpzuuks4008tsltr89qxlntr",
+      "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
+      "title_en": "Play our new open-weights music model， @GoogleMagenta RealTime 2， using a MIDI keyboard， live text p…",
+      "url": "https://x.com/googleaidevs/status/2062603374789263646",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "publishedAt": "2026-06-04T18:32:20.000Z",
+      "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmpztzorc000vsltrtvxh4va3",
+      "title": "Codex 推出 iOS 应用构建插件",
+      "title_en": "More of the iOS app loop， now inside Codex. The Build iOS Apps plugin lets Codex view and test your…",
+      "url": "https://x.com/OpenAIDevs/status/2062599291479478275",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "publishedAt": "2026-06-04T18:16:06.000Z",
+      "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。",
+      "category": "ai-products"
+    },
+    {
       "id": "cmpzt2dat0039sll37lufc7ax",
       "title": "Replit Agent 联手 Shopify 快速建店",
       "title_en": "We partnered with Shopify so you can go from idea to live store in minutes Just tell Replit Agent …",
@@ -312,12 +362,12 @@
     },
     {
       "id": "cmpzjp7tw045aslkp6e927y5j",
-      "title": "如何在 Nemotron 3.5 ASR 上针对你的语言、领域或口音进行微调",
+      "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
       "title_en": "How to Fine-Tune Nemotron 3.5 ASR for Your Language， Domain， or Accent",
       "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
       "source": "Hugging Face：Blog（RSS）",
       "publishedAt": "2026-06-04T12:59:35.000Z",
-      "summary": "NVIDIA 在 Hugging Face 发布博客，介绍如何针对特定语言、领域或口音微调 Nemotron 3.5 ASR 模型。",
+      "summary": "Nemotron 3.5 ASR 是一个 600M 参数的多语言流式语音识别模型，单个检查点覆盖 40 种语言-地区（含英、西、德、法、意、日、韩、中、阿拉伯等）。采用 Cache-Aware FastConformer 编码器与 RNNT 解码器，缓存内部状态避免重复计算，实现低延迟流式转录且不损失精度。模型原生输出带标点和大写的生产级文本，无需后处理。支持指定语言（target_lang=es-ES）或自动语言检测（target_lang=auto）。通过注意力上下文大小（att_context_size）可在推理时直接调节延迟-准确率权衡，范围从 80ms 到 1.12s，无需重新训练。模型以 NeMo 检查点形式发布，可用于微调以适配特定语言、领域或口音。",
       "category": "tip"
     },
     {
@@ -332,12 +382,12 @@
     },
     {
       "id": "cmpzhk1rp03k5slkpmx3q7mp3",
-      "title": "EVA-Bench Data 2.0：3 大领域、121 个工具、213 个场景",
+      "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
       "title_en": "EVA-Bench Data 2.0： 3 Domains， 121 Tools， 213 Scenarios",
       "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
       "source": "Hugging Face：Blog（RSS）",
       "publishedAt": "2026-06-04T12:24:58.000Z",
-      "summary": "ServiceNow-AI 发布 EVA-Bench Data 2.0 数据集，覆盖 3 个领域、121 个工具和 213 个场景，用于评估 AI 智能体的工具使用能力。",
+      "summary": "EVA-Bench Data 2.0 将评估范围从单一企业领域扩展至航空公司客户服务管理（CSM）、企业 IT 服务管理（ITSM）和医疗 HR 服务交付（HRSD）三个领域，共涵盖 121 个工具、213 个场景，场景数较原始版本增长约 4 倍。每个场景均经 OpenAI GPT-5.4、Google Gemini 3.1 Pro 和 Anthropic Claude Opus 4.6 验证可解性。数据集遵循语音优先、真实性、多样性、认证流程和可复现性五项设计原则，包含单意图、多意图（最多 4 个意图）和对抗性呼叫类型。所有三个数据集已开源，可通过 `load_dataset` 从 Hugging Face 直接下载。后续将推出多语言扩展。",
       "category": "paper"
     },
     {
@@ -411,6 +461,16 @@
       "category": "industry"
     },
     {
+      "id": "cmpzz2tek01czsltr5e8t02lu",
+      "title": "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性",
+      "title_en": "Biodefense in the Intelligence Age",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "OpenAI 提出一项名为\"Biodefense in the Intelligence Age\"的行动计划，旨在利用 AI 增强生物防御与韧性。该计划聚焦于构建 AI 驱动的生物安全能力，以应对未来可能出现的生物威胁。",
+      "category": "tip"
+    },
+    {
       "id": "cmpznzjs205baslkpa2lb0j2d",
       "title": "Hugging Face 为编码智能体重塑 hf CLI 输出格式",
       "title_en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
@@ -439,26 +499,6 @@
       "publishedAt": "2026-06-03T21:40:49.000Z",
       "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
       "category": "ai-products"
-    },
-    {
-      "id": "cmpyfwtdf04rzslaxxzkal9na",
-      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
-      "title_en": "优步每月1，500美元的AI使用上限为AI工具定价提供了有价值的参考",
-      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-03T19:00:08.294Z",
-      "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpygbyx004v6slax1d1lqpuz",
-      "title": "世界模型的功能分类",
-      "title_en": "http：//x.com/i/article/2062244283940544512",
-      "url": "https://x.com/drfeifei/status/2062247238143996275",
-      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-      "publishedAt": "2026-06-03T18:57:10.000Z",
-      "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
-      "category": "tip"
     }
   ]
 }
