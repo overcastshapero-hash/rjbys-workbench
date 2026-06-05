@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T15:56:57.623Z",
+  "generatedAt": "2026-06-05T18:03:17.104Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-05",
   "daily": {
@@ -213,6 +213,66 @@
   },
   "selectedItems": [
     {
+      "id": "cmq16mdmy0d0hsltriwaiyzvh",
+      "title": "Google Colab CLI 发布",
+      "title_en": "Introducing the Google Colab CLI",
+      "url": "https://developers.googleblog.com/introducing-the-google-colab-cli",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-06-05T17:12:11.075Z",
+      "summary": "Google 推出 Colab 命令行界面（CLI），允许开发者和 AI 智能体将本地终端连接到远程 Colab 运行时，实现无摩擦执行。该轻量级 CLI 支持请求高性能 GPU、远程运行本地 Python 脚本，并检索工件日志或模型（如微调后的 Gemma 3 适配器）。工具可直接集成到标准终端环境，可被 Antigravity、Claude Code 等 AI 智能体调用以管理复杂机器学习流水线。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq16l9id0cz7sltrd5u9tevg",
+      "title": "Riverflow 2.5：可控制评分标准的图像模型",
+      "title_en": "Live on OpenRouter： Riverflow 2.5 from @Sourceful. The first image model with an independent scorin…",
+      "url": "https://x.com/OpenRouter/status/2062944965978992935",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-06-05T17:09:42.000Z",
+      "summary": "在OpenRouter上线：来自@Sourceful的Riverflow 2.5。\n\n首个具有独立评分标准的图像模型，你可控制该标准以引导其思维和编辑，并具备可控的推理努力，可在速度与质量之间进行权衡。\n\n免费至6月9日（周二）。Fast和Pro见下方🧵。",
+      "category": "ai-models"
+    },
+    {
+      "id": "cmq16lagb0czbsltr4d2whlpo",
+      "title": "ChatGPT 网页版支持从写作块发送邮件",
+      "title_en": "Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the…",
+      "url": "https://x.com/ChatGPTapp/status/2062944254591430917",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "publishedAt": "2026-06-05T17:06:52.000Z",
+      "summary": "草拟。调整。发送。\n\n现在你可以在网页版 ChatGPT 中直接从写作块发送邮件，无需离开对话。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq16wkmr0d1qsltrrxq2ijpb",
+      "title": "Google AI 本周产品更新：Nano Banana 2、Co-Scientist、dreambeans、Gemma 4 等",
+      "title_en": "Here's this week's shipping recap 👇 - Nano Banana 2 & Nano Banana Pro are now GA and available via…",
+      "url": "https://x.com/GoogleAI/status/2062942864288387430",
+      "source": "X：Google AI (@GoogleAI)",
+      "publishedAt": "2026-06-05T17:01:21.000Z",
+      "summary": "Google AI 本周发布多项更新：Nano Banana 2 及 Pro 正式 GA，可通过 Gemini Enterprise Agent Platform、Gemini API 和 Google AI Studio 获取；Co-Scientist 多智能体系统面向科研自动生成优化新假设；Google Labs 推出 dreambeans，根据用户 Google 应用数据每日生成个性化话题集；Gemma 4 12B 统一无编码器多模态模型可完全离线运行于笔记本；Gemma 4 系列及草稿模型引入 QAT 降低内存需求；Google Magenta RealTime 2 开源实时音乐模型，支持 MIDI 键盘、文本提示和手势演奏。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq15ifnr0comsltrb2vd53mu",
+      "title": "Gemini Live 支持实时创建编辑图像",
+      "title_en": "You can now create and edit images directly in Gemini Live. Whether testing out room decor， getting…",
+      "url": "https://x.com/GeminiApp/status/2062936486509785385",
+      "source": "X：Gemini (@GeminiApp)",
+      "publishedAt": "2026-06-05T16:36:00.000Z",
+      "summary": "你现可直接在 Gemini Live 中创建和编辑图像。\n\n无论是测试房间装饰、解决数学问题，还是制作可分享的梗图，所有操作都实时完成。\n\n只需打开 Gemini 应用，点击 Live 按钮，共享摄像头，告诉 Gemini 你想看到的。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq15u3mt0cqjsltrhb1ch36w",
+      "title": "AI热推高美国计算基建GDP占比翻倍",
+      "title_en": "The AI boom has doubled computing infrastructure's share of US GDP. Investment in AI-related data c…",
+      "url": "https://x.com/EpochAIResearch/status/2062933470373146828",
+      "source": "X：Epoch AI (@EpochAIResearch)",
+      "publishedAt": "2026-06-05T16:24:01.000Z",
+      "summary": "AI 热潮使计算基础设施占美国 GDP 比重翻倍。\n\n2026 年第一季度，与 AI 相关的数据中心建设、计算硬件和网络设备投资约占美国 GDP 的 0.8%，推动整个计算基础设施占 GDP 比重达到约 1.5%。",
+      "category": "industry"
+    },
+    {
       "id": "cmq13pme90c62sltraucjmvp2",
       "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
       "title_en": "Big congrats to our SAM 3D team for receiving a Best Paper Honorable Mention at #CVPR26！ This presti…",
@@ -423,6 +483,16 @@
       "category": "industry"
     },
     {
+      "id": "cmq15ezdt0cn9sltrl1ad2e8n",
+      "title": "AI的微型钢厂",
+      "title_en": "The Minimill of AI",
+      "url": "https://www.tomtunguz.com/using-local-ai-to-work-faster",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "publishedAt": "2026-06-05T00:00:00.000Z",
+      "summary": "作者通过技能蒸馏将78%的AI工作交由Mac本地模型处理，仅复杂任务发往云端。智能体自动分类任务：简单任务本地数秒完成，复杂任务路由至云端。过去一周本地处理峰值达88%。双车道设计使吞吐量提升约25%，平均任务时长从47秒降至19秒，队列等待时间从73秒降至4秒（降幅94%）。该模式类比Nucor小钢厂，每台能运行蒸馏模型的边缘设备都成为小型AI工厂，仅对那1/5困难任务支付云费用。未来几年，数以千万计的此类设备将在企业内部增殖，逐步取代现阶段云厂商账单上的大部分工作负载。",
+      "category": "tip"
+    },
+    {
       "id": "cmq05xm1y036msltrf77ju7y7",
       "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
       "title_en": "Elon Musk on taking SpaceX public： \"I've been asked for many years about taking SpaceX public， so i…",
@@ -483,16 +553,6 @@
       "category": "tip"
     },
     {
-      "id": "cmpzy33my014qsltrf163yi8g",
-      "title": "Google Research 发布被动心率监测系统 PHRM",
-      "title_en": "Towards passive heart health monitoring via smartphone camera",
-      "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
-      "source": "Google Research：Blog（网页）",
-      "publishedAt": "2026-06-04T20:25:28.688Z",
-      "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。",
-      "category": "paper"
-    },
-    {
       "id": "cmpzxaxqv00w8sltrueor0hp8",
       "title": "OpenAI API 新增内容审核评分",
       "title_en": "Moderation scores are now available in the Responses API and Completions API. Return moderation sig…",
@@ -531,46 +591,6 @@
       "publishedAt": "2026-06-04T18:16:06.000Z",
       "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。",
       "category": "ai-products"
-    },
-    {
-      "id": "cmpzt2dat0039sll37lufc7ax",
-      "title": "Replit Agent 联手 Shopify 快速建店",
-      "title_en": "We partnered with Shopify so you can go from idea to live store in minutes Just tell Replit Agent …",
-      "url": "https://x.com/Replit/status/2062594881625940379",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-04T17:58:35.000Z",
-      "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpzrtp0u06dxslkp7tqka277",
-      "title": "NotebookLM 推出福尔摩斯游戏笔记本",
-      "title_en": "PRO TIP： Gamify your notebooks Don't just read your notes- investigate them. Our new Sherlock Holme…",
-      "url": "https://x.com/NotebookLM/status/2062582348194197743",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "publishedAt": "2026-06-04T17:08:47.000Z",
-      "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpzqhv5y0607slkptes62n17",
-      "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
-      "title_en": "Blog Higgs Audio v3 TTS on SGLang-Omni： Real-Time， Controllable Speech for Voice Agents Today we are announcing end-to-end serving for Higgs Audio v3 TTS on SGLang-Omni. Higgs Audio v3 TTS is Boson AI's text-to-speech model for conversational voice agents： it generates natural and expres… Boson AI & SGLang-Omni Team",
-      "url": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-06-04T16:53:01.234Z",
-      "summary": "Boson AI 与 LMSYS 联合推出基于 SGLang-Omni 推理框架的 Higgs Audio v3 TTS 端到端服务。该模型约 4B 参数，基于 Qwen3-4B 骨干，支持 100 种语言（内部评测覆盖 111 种），在 Seed-TTS、CV3、MiniMax-Multilingual 及 Higgs-Multilingual 零样本语音克隆任务中达到单字级 WER/CER。开发者可通过文本内控制标签实时调整情感（20+种）、风格、韵律（语速/音高/停顿）及音效。模型支持流式合成，文本未完整时即可开始生成语音并保持一致性。SGLang-Omni 专为多阶段生成模型设计，统一调度 AR 解码与轻量计算，实现低延迟推理。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpzqvd77063uslkpjlcqivws",
-      "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
-      "title_en": "Alex Imas and Phil Trammell - What remains scarce after AGI？",
-      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "publishedAt": "2026-06-04T16:14:49.000Z",
-      "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。",
-      "category": "tip"
     }
   ]
 }
