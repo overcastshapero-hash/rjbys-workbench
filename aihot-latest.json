@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T00:13:25.607Z",
+  "generatedAt": "2026-06-05T05:21:18.299Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-05",
   "daily": {
@@ -212,6 +212,36 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq0h580h066psltrtxbfx6id",
+      "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
+      "title_en": null,
+      "url": "https://github.com/alibaba/open-code-review",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-05T05:16:06.561Z",
+      "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。",
+      "category": "tip"
+    },
+    {
+      "id": "cmq0cow5r050csltrm2m7furf",
+      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/960/323.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-05T03:04:23.000Z",
+      "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。",
+      "category": "industry"
+    },
+    {
+      "id": "cmq0ajq1h04eusltr7graqcb9",
+      "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+      "title_en": "Anthropic 称最新 AI 模型已显现可能脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+      "url": "https://www.ithome.com/0/960/218.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-05T01:16:34.000Z",
+      "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。",
+      "category": "industry"
+    },
     {
       "id": "cmq05xm1y036msltrf77ju7y7",
       "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
@@ -481,36 +511,6 @@
       "publishedAt": "2026-06-04T06:23:10.000Z",
       "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。",
       "category": "ai-products"
-    },
-    {
-      "id": "cmpyx4llm047vsli313nmjw1m",
-      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
-      "title_en": "📢 里程碑 机器人流量🤖 首次在互联网历史上超过了人类在线流量👨🦰 根据Cloudflare Radar的实时统计 过去一周（5月28日到6月4日），全球所有请求 HTML 网页的流…",
-      "url": "https://x.com/xiaohu/status/2062367357868355622",
-      "source": "X：小互 (@xiaohu)",
-      "publishedAt": "2026-06-04T02:54:29.000Z",
-      "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpyvxja303t6sli3dok90v7m",
-      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
-      "title_en": "Radiance fields are only as good as the images behind them. PPISP helps compensate for photometric…",
-      "url": "https://x.com/NVIDIAAI/status/2062358080222876041",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "publishedAt": "2026-06-04T02:17:37.000Z",
-      "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk",
-      "category": "paper"
-    },
-    {
-      "id": "cmpysu6gj030usli3gqo1qtsd",
-      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
-      "title_en": "联合国报告警示：AI 驱动下，2030 年数据中心水电消耗将翻倍",
-      "url": "https://www.ithome.com/0/959/607.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-04T00:50:46.000Z",
-      "summary": "联合国大学水、环境与健康研究所报告指出，受AI需求驱动，去年全球数据中心耗电448太瓦时（AI占五分之一），耗水4.5万亿升，碳排放1.89亿吨。预计到2030年，年耗电量将翻倍至945太瓦时（AI占40%），耗水增至9.3万亿升，碳排放升至3.99亿吨，占地面积从6900平方公里扩展至14500平方公里。报告警告若忽视环境成本，AI落地还将加剧土地紧张与电子废弃物问题。",
-      "category": "industry"
     }
   ]
 }
