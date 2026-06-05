@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T05:21:18.299Z",
+  "generatedAt": "2026-06-05T09:58:25.923Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-05",
   "daily": {
@@ -213,6 +213,56 @@
   },
   "selectedItems": [
     {
+      "id": "cmq0r283h08sisltrkzl1xuli",
+      "title": "Anthropic 表示 Claude 现在写 90% 以上的代码，并希望世界拥有 AI 暂停按钮",
+      "title_en": "Anthropic says Claude now writes over 90% of its code and wants the world to have an AI pause button",
+      "url": "https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-06-05T08:45:29.000Z",
+      "summary": "Anthropic 内部数据显示，Claude 承担了超过 80% 的生产代码编写，工程师每日代码产出是 2024 年的 8 倍。该公司目标是实现 AI 自我改进，这将引发巨大加速。为此 Anthropic 呼吁建立可验证的全球 AI 开发暂停机制，并表示若其他前沿实验室同样暂停，他们也会停止。",
+      "category": "industry"
+    },
+    {
+      "id": "cmq0msqwn07oisltr2sw1wjbg",
+      "title": "腾讯混元联合人大开源PlanningBench评估框架",
+      "title_en": "Planning is where LLMs move from \"saying\" to \"doing.\" Tencent Hy， in collaboration with the Gaoling…",
+      "url": "https://x.com/TencentHunyuan/status/2062803141314437391",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "publishedAt": "2026-06-05T07:46:08.000Z",
+      "summary": "腾讯混元（Tencent Hunyuan）与中国人民大学高瓴人工智能学院合作，开源PlanningBench--一个可扩展、可验证的LLM规划能力评估与训练框架。该框架包含30+真实世界规划任务，支持自动验证和训练。PlanningBench旨在推动LLM从\"说\"到\"做\"的规划能力发展。资源已发布于arXiv、GitHub及HuggingFace。",
+      "category": "tip"
+    },
+    {
+      "id": "cmq0jeh6o06sosltrqizuioxb",
+      "title": "PolarDB-X Zero 上线：30秒全分布式数据库",
+      "title_en": "PolarDB-X Zero is live！ No signup. No config. Just one API call. Get a full distributed database i…",
+      "url": "https://x.com/alibaba_cloud/status/2062781182417490310",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "publishedAt": "2026-06-05T06:18:53.000Z",
+      "summary": "PolarDB-X Zero 上线了！\n\n无需注册。无需配置。只需一次 API 调用。\n30 秒内获得一个全分布式数据库。\n原生 HNSW 向量索引--内置兼容 MySQL 的引擎。\n关系型 + 语义搜索--一条 SQL 语句。\nAI 智能体就绪--MCP 协议、AI IDE 兼容（Cursor、Claude、Qoder、Qodex 等）\n\n立即尝试：https：//zero.polardbx.com\n#AlibabaCloud #PolarDB #ApsaraDB",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq0jeh6o06sqsltretmigj6c",
+      "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
+      "title_en": "SkillClaw × Nacos： The Agent Skill Evolution Loop 🔄 Key Highlights： • Auto-Extraction： Captures exp…",
+      "url": "https://x.com/alibaba_cloud/status/2062777684120244656",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "publishedAt": "2026-06-05T06:04:59.000Z",
+      "summary": "阿里云推出SkillClaw与Nacos结合，构建AI智能体技能进化流水线。关键特性：自动从真实对话中提取经验并封装为可复用技能（Skill）；Nacos负责集中化版本管理、审核与审计；打破本地孤岛，实现团队安全共享与分发；形成完整的\"生成-治理-分发\"持续进化闭环。目标是将个人洞察转化为团队的AI资产。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq0irius06k5sltr35ji4gbi",
+      "title": "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来",
+      "title_en": "Seoul Purpose： How NVIDIA and South Korea Are Building the Future of AI",
+      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
+      "source": "NVIDIA AI Blog",
+      "publishedAt": "2026-06-05T05:38:37.000Z",
+      "summary": "NVIDIA 创始人兼 CEO 黄仁勋本周到访首尔，会见韩国的 AI 建造者、主权基础设施合作伙伴及游戏社区。黄仁勋表示，为应对下半年繁忙的 AI 基础设施建设，需对齐 AI 供应链。他指出 Grace Blackwell 系统表现良好，Vera Rubin 已全面投产。他还强调机器人技术将成为韩国的下一个重要产业，并呼吁韩国投资 AI。",
+      "category": "industry"
+    },
+    {
       "id": "cmq0h580h066psltrtxbfx6id",
       "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
       "title_en": null,
@@ -220,6 +270,16 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "publishedAt": "2026-06-05T05:16:06.561Z",
       "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。",
+      "category": "tip"
+    },
+    {
+      "id": "cmq0iv3og06mdsltrreibayr9",
+      "title": "375个公众号RSS源优化Agent输入",
+      "title_en": "如果你的 Agent 还在全网垃圾里捞内容，不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
+      "url": "https://x.com/hongming731/status/2062764845494317493",
+      "source": "X：洪明 (@hongming731)",
+      "publishedAt": "2026-06-05T05:13:58.000Z",
+      "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
       "category": "tip"
     },
     {
@@ -491,26 +551,6 @@
       "publishedAt": "2026-06-04T11:02:01.000Z",
       "summary": "微软AI部门负责人表示，Anthropic推出的模型成本过高，公司目前正在内部研发更廉价的替代模型，以降低成本。",
       "category": "industry"
-    },
-    {
-      "id": "cmpzosigs05knslkpwrpnvf65",
-      "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
-      "title_en": "Dreaming： Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-04T09:00:00.000Z",
-      "summary": "ChatGPT 推出名为 Dreaming 的新记忆系统，能够更有效地记住用户偏好，并在跨对话场景中保持上下文的新鲜感和相关性，从而提升助手的个性化体验。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmpz4ztc400a8slkpncco9ljl",
-      "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
-      "title_en": "Meet OpenJarvis： A Local-First Framework for On-Device Personal AI Agents with Tools， Memory， and Learning",
-      "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-06-04T06:23:10.000Z",
-      "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。",
-      "category": "ai-products"
     }
   ]
 }
