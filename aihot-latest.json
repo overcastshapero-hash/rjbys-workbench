@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T20:48:53.177Z",
+  "generatedAt": "2026-06-05T22:17:35.637Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-05",
   "daily": {
@@ -212,6 +212,26 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq1fw2bb0ffssltrvl691wnx",
+      "title": "Apollo 敲定 350 亿美元债务融资，为 Anthropic 采购 AI 芯片",
+      "title_en": "Apollo Wraps Up $35 Billion Debt to Buy AI Chips for Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-05T21:02:29.000Z",
+      "summary": "Apollo Global Management 和 Blackstone 已为 Anthropic 敲定 350 亿美元融资方案，用于扩充其 AI 基础设施。这是人工智能竞赛中最新的一笔巨额交易。",
+      "category": "industry"
+    },
+    {
+      "id": "cmq1eqdug0f4bsltr1nzlten4",
+      "title": "SpaceX与Google达成云计算新协议",
+      "title_en": "SpaceX just disclosed a new Cloud Service Agreement with Google. Google to pay SpaceX $920 million …",
+      "url": "https://x.com/rohanpaul_ai/status/2063000834045313314",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-06-05T20:51:42.000Z",
+      "summary": "SpaceX 刚刚披露了一份与 Google 的新云服务协议。\n\nGoogle 将每月向 SpaceX 支付 9.2 亿美元（约合每年 110 亿美元），用于 xAI 数据中心的计算能力。\n\n这再次表明，AI 算力正成为一种战略性商品，就像发射能力或能源一样，而那些能够为庞大的 GPU 集群提供资金、电力、冷却和运营的公司，可能会在其原有业务之外获得巨大的杠杆优势。",
+      "category": "industry"
+    },
     {
       "id": "cmq1dossi0ev7sltrrihfn7pb",
       "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
@@ -560,56 +580,6 @@
       "source": "X：cb_doge (@cb_doge)",
       "publishedAt": "2026-06-04T23:41:41.000Z",
       "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。",
-      "category": "tip"
-    },
-    {
-      "id": "cmq01ld46020ksltri2vkr5uv",
-      "title": "NotebookLM 来源归属功能上线",
-      "title_en": "Today we're launching another highly requested feature： Source Attribution！ 🥳 No more guessing. No…",
-      "url": "https://x.com/NotebookLM/status/2062653124326863077",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "publishedAt": "2026-06-04T21:50:01.000Z",
-      "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq01qi40023fsltru08k8zx9",
-      "title": "Gemini macOS 双击 Command 附加活动窗口",
-      "title_en": "Get tailored help for what's on your screen using the Gemini app for macOS. 💻 Simply press both Co…",
-      "url": "https://x.com/GeminiApp/status/2062652523945836770",
-      "source": "X：Gemini (@GeminiApp)",
-      "publishedAt": "2026-06-04T21:47:38.000Z",
-      "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq010okb01vbsltr3j2n6q5t",
-      "title": "Anthropic 开源 AI 驱动漏洞发现框架",
-      "title_en": "Anthropic 用于人工智能驱动漏洞发现的开源框架",
-      "url": "https://github.com/anthropics/defending-code-reference-harness",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-04T21:32:05.585Z",
-      "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq00q1w401tvsltr2b8zysje",
-      "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
-      "title_en": "When laws and oversight depend on transcripts， 70-80% isn't enough. http：//Rafiqspace.ai hit 97.7% …",
-      "url": "https://x.com/nvidia/status/2062647600424128773",
-      "source": "X：NVIDIA (@nvidia)",
-      "publishedAt": "2026-06-04T21:28:04.000Z",
-      "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️",
-      "category": "industry"
-    },
-    {
-      "id": "cmq01c0eo01ycsltrs4arno27",
-      "title": "共存与协同智能的终结",
-      "title_en": "Co-Existence and the End of Co-Intelligence",
-      "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
-      "publishedAt": "2026-06-04T21:13:42.000Z",
-      "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。",
       "category": "tip"
     }
   ]
