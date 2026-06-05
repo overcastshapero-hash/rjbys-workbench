@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T12:45:00.380Z",
+  "generatedAt": "2026-06-05T15:56:57.623Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-05",
   "daily": {
@@ -212,6 +212,126 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq13pme90c62sltraucjmvp2",
+      "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
+      "title_en": "Big congrats to our SAM 3D team for receiving a Best Paper Honorable Mention at #CVPR26！ This presti…",
+      "url": "https://x.com/AIatMeta/status/2062920724944507095",
+      "source": "X：AI at Meta (@AIatMeta)",
+      "publishedAt": "2026-06-05T15:33:22.000Z",
+      "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https：//arxiv.org/abs/2511.16624",
+      "category": "paper"
+    },
+    {
+      "id": "cmq12umcv0bxmsltr272hqb35",
+      "title": "Suno Voices 使用指南：6 个技巧打造高质量人声录制",
+      "title_en": "Your Voice， Reimagined By Henry Phipps·Jun 5， 2026 6 tips for a high quality Voice on Suno Product Update",
+      "url": "https://suno.com/blog/6-tips-for-voices",
+      "source": "Suno：Blog（网页）",
+      "publishedAt": "2026-06-05T15:26:17.111Z",
+      "summary": "Suno Voices 面向 Web 付费用户开放。提升人声质量的 6 个技巧：在安静环境录音以减少背景噪音；先练习歌词再正式录制；不必追求完美，保留真实情感；录音时长尽量超过 1 分钟以提供更多学习素材；将人声匹配到合适的音乐流派（如民谣、流行、死亡金属、波萨诺瓦等）；敢于尝试不同风格以发现惊喜。这些技巧旨在帮助用户获得更个性化、表现力更强的声音效果。",
+      "category": "tip"
+    },
+    {
+      "id": "cmq12z6ag0bzssltrkou6khap",
+      "title": "OpenAI 前 CTO 称若 Altman 未回归公司可能已\"瓦解\"",
+      "title_en": "OpenAI Would've 'Imploded' If Altman Didn't Return， Ex-CTO Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/openai-would-ve-imploded-if-altman-didn-t-return-ex-cto-says",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-05T15:18:30.000Z",
+      "summary": "Mira Murati 表示，如果 Sam Altman 在 2023 年被短暂罢免后没有回归 CEO 职位，OpenAI 很可能已经\"瓦解\"。这是她对那场硅谷最激烈的董事会斗争的最清晰描述。",
+      "category": "industry"
+    },
+    {
+      "id": "cmq12z1oz0bzfsltrea6bc8t4",
+      "title": "Hinton称AI拥有意识：人类最好接受非唯一智能生命",
+      "title_en": "Geoffrey Hinton claims that AI possesses consciousness-that it is very much like us （humans）. The i…",
+      "url": "https://x.com/kimmonismus/status/2062915287700090948",
+      "source": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-06-05T15:11:46.000Z",
+      "summary": "AI先驱Geoffrey Hinton表示，他认为AI拥有意识，人类应接受自己并非唯一智能生命。他指出AI\"非常像我们\"，AI聊天机器人必须理解问题才能作答，这种觉知等同于感知能力，智能不限于生物。主推文作者进一步讨论意识本质：笛卡尔的\"我思故我在\"和fMRI等实证手段都无法真正定义意识，人类对自身了解远不及想象。作者呼吁转向新哲学问题，厘清人与机器的区别与联系。",
+      "category": "tip"
+    },
+    {
+      "id": "cmq118d2f0bjmsltrjj0o010h",
+      "title": "Viggle_PINOC 免费动捕测试开启",
+      "title_en": "Mocap shouldn't require a suit， a studio， or thousands of dollars. With @Viggle_PINOC， anyone can s…",
+      "url": "https://x.com/ViggleAI/status/2062904007123714329",
+      "source": "X：Viggle AI (@ViggleAI)",
+      "publishedAt": "2026-06-05T14:26:56.000Z",
+      "summary": "Mocap 不需要套装、工作室或数千美元。\n\n使用 @Viggle_PINOC，任何人都可以简单地拍摄自己，并将该视频转换为动作捕捉。\n\n我们仍处于测试阶段，且对所有人完全免费。试试看，告诉我们你还想看什么！",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq10uuzu0bfasltril9vjxvg",
+      "title": "Sir Demis Hassabis vs Sir Demis Hassabis",
+      "title_en": null,
+      "url": "https://garymarcus.substack.com/p/sir-demis-hassabis-vs-sir-demis-hassabis",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-05T14:25:36.000Z",
+      "summary": null,
+      "category": "tip"
+    },
+    {
+      "id": "cmq11mu8l0bm6sltrht2tvv27",
+      "title": "一个非常狠的AI教学提示词：追问式检查清单教学",
+      "title_en": "一个非常狠的提示词 超级严厉的老师，会一直追问你，直到你学会某个知识或者搞懂某个问题为止才肯罢休 否则它会一直追问、不停验证，直到确认你完全搞懂为止😅 而且它不会一口气讲完，每讲完一个阶段，必…",
+      "url": "https://x.com/xiaohu/status/2062902972649222311",
+      "source": "X：小互 (@xiaohu)",
+      "publishedAt": "2026-06-05T14:22:50.000Z",
+      "summary": "这是一则AI提示词，让AI扮演极度严格的老师，通过逐阶段教学、持续维护MD检查清单来确保用户真正理解。AI先让用户复述当前理解，再填补漏洞，并用开放式或选择题（随机选项顺序，提交前不公布答案）测试。教学必须覆盖问题本身、解决方案、宏观背景三个层面，并不断深挖\"为什么\"。仅当用户通过清单上所有项目的验证，会话才算结束。提示词强调对理解程度的主动验证，而非一次性灌输。",
+      "category": "tip"
+    },
+    {
+      "id": "cmq12gsy20buksltr2nwivyhu",
+      "title": "苹果新版 Siri 不会被宣传为完成品，内部将其标记为\"Beta\"版",
+      "title_en": "古尔曼称苹果新版 Siri 不会被宣传为完成品，内部将其标记为\"Beta 版\"",
+      "url": "https://www.ithome.com/0/960/739.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-05T14:21:03.000Z",
+      "summary": "苹果新版Siri被内部标记为\"Beta\"版，不会作为完成品宣传；可能设置等待清单供用户尝试。iOS 27细节：通知到达重新设计，通知中心手势移至左上角；\"查找\"应用视觉重设计；照片\"清理\"功能改进；大量底层安全改进。部分Siri查询将通过Google Cloud调用授权版Gemini，并使用谷歌的NVIDIA Blackwell B200集群处理。",
+      "category": "industry"
+    },
+    {
+      "id": "cmq10bltr0b9ksltrs7mappfh",
+      "title": "Meta 智能眼镜 App 暗藏人脸识别代码，NameTag 功能已推送至超 5000 万设备",
+      "title_en": "Meta 智能眼镜 App 被曝暗藏 AI 人脸识别功能相关代码：影响超 5000 万设备，公司回应称仅为探索而已",
+      "url": "https://www.ithome.com/0/960/735.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-05T13:59:37.000Z",
+      "summary": "据《连线》今日报道，Meta 通过多次应用更新将人脸识别代码推送到智能眼镜配套 App 中，代号\"NameTag\"。该功能利用已部署的三个 AI 模型将人脸转换为\"人脸特征模板\"，与手机本地数据库匹配，识别成功后向佩戴者发送通知。App 下载量超 5000 万次。Meta 回应称代码仅为探索，尚未决定推出，且不会建立中央人脸数据库。此前 Meta 曾因人脸识别问题在伊利诺伊州和得克萨斯州分别达成 6.5 亿美元和 14 亿美元和解。",
+      "category": "industry"
+    },
+    {
+      "id": "cmq10blts0b9qsltr3hvk0fy1",
+      "title": "开源鸿蒙 OpenHarmony 具身智能版本 EmbodiedAI 1.0.1 发布",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/960/722.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-05T13:31:13.000Z",
+      "summary": "6月5日，开源鸿蒙具身智能PMC（筹）发布EmbodiedAI 1.0.1版本。该版本聚焦机器人控制与智能体应用，升级导航规划、运动控制、仿真开发、硬件适配等核心能力，兼容ROS生态、机器人模拟器及多种本体形态。集成开源鸿蒙原生模拟器、MuJoCo、Gazebo三大仿真环境，打通从代码开发到真机验证的全流程链路。人形机器人、四足机器狗、商用服务机器人等已完成适配验证。目前具身智能方向已组建18个专项SIG工作组，版本源码已正式开放。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq0yxent0avgsltr8x9ya6jn",
+      "title": "社区基于MiniCPM-V 4.6打造财务分析工具AccountingLLM",
+      "title_en": "A developer in our community recently built AccountingLLM （http：//quaesto.com/） using MiniCPM-V 4.6 …",
+      "url": "https://x.com/OpenBMB/status/2062889699056984281",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "publishedAt": "2026-06-05T13:30:05.000Z",
+      "summary": "社区开发者使用面壁智能MiniCPM-V 4.6构建了AccountingLLM（quaesto.com），用于自动化财务文档分析。该工具可上传IPO招股书、年报或审计文件，自动从复杂PDF中提取财务表格、重建跨页表格、对照会计等式检查关键数据，并标记可疑条目供人工审核。开发者已将其商业化，成为实际可用的产品。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq10uxf80bfesltrngu1lo15",
+      "title": "你的AI账单失控了。Cloudflare现在可以解决这个问题。",
+      "title_en": "Your AI bill is out of control. Cloudflare can fix it now.",
+      "url": "https://blog.cloudflare.com/ai-gateway-spend-limits",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-06-05T13:00:00.000Z",
+      "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。",
+      "category": "ai-products"
+    },
     {
       "id": "cmq0u0eel09ljsltrgblmk1xv",
       "title": "微软CEO Satya Nadella最新访谈上线",
@@ -450,66 +570,6 @@
       "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
       "publishedAt": "2026-06-04T16:14:49.000Z",
       "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpzn05ag052vslkpo3cb21hq",
-      "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
-      "title_en": "Post-training is having a moment - Nex-N2-Pro from neolab @NexEcosystem proves it. Built on Qwen3.5-…",
-      "url": "https://x.com/SiliconFlowAI/status/2062549952266723493",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-06-04T15:00:03.000Z",
-      "summary": "neolab 推出 Nex-N2-Pro，基于 Qwen3.5-397B-A17B，总参数 397B 的 MoE 推理模型，支持 262K 上下文与多模态（VLM），性能达到 GPT-5.5 和 Claude Opus 4.7 级别。模型可自动调节推理深度，减少 30-50% 思考 token 且无性能折损，在 Terminal Bench 2.1、GDPVal、SWE-Verified 上取得 SOTA。擅长智能体编码、深度搜索和工具使用，兼容 Claude Code、Cursor 等工具。硅基流动已提供 T+0 支持，前两周免费使用。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpzmsurk050jslkpxfuptzyp",
-      "title": "台积电难以跟上AI需求：\"我们只能支持这么多\"",
-      "title_en": "TSMC struggles to keep up with AI demand： 'We can only support so much'",
-      "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
-      "source": "The Verge：订阅版科技（RSS）",
-      "publishedAt": "2026-06-04T14:15:44.000Z",
-      "summary": "全球最大芯片制造商台积电表示，通过美国本土生产满足客户需求可能需要\"非常长的时间\"，凸显AI需求带来的产能压力。",
-      "category": "industry"
-    },
-    {
-      "id": "cmpzljcev04oyslkpirsh5gdy",
-      "title": "DeepSeek连续四周登顶Token份额榜",
-      "title_en": "DeepSeek has now topped our token share rankings 4 weeks in a row： https：//openrouter.ai/rankings",
-      "url": "https://x.com/OpenRouter/status/2062538625225548118",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-04T14:15:03.000Z",
-      "summary": "DeepSeek 现已连续四周在我们平台的 token 份额排行榜上位居第一： https：//openrouter.ai/rankings",
-      "category": "industry"
-    },
-    {
-      "id": "cmpzigjmt03udslkp0elkhz7c",
-      "title": "NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力",
-      "title_en": "NVIDIA Nemotron 3 Ultra Powers Faster， More Efficient Reasoning for Long-Running Agents",
-      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "publishedAt": "2026-06-04T13:02:49.000Z",
-      "summary": "NVIDIA 发布 Nemotron 3 Ultra 模型，专为长时间运行的 AI 智能体设计。该模型能够在多轮对话中保持上下文、调用工具、调用子智能体，并高效处理复杂工作流。随着多智能体协作导致模型 token 数量快速增长，Nemotron 3 Ultra 通过优化推理流程显著提升速度并降低计算成本，使长期运行的智能体任务更加可行。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmpzjp7tw045aslkp6e927y5j",
-      "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
-      "title_en": "How to Fine-Tune Nemotron 3.5 ASR for Your Language， Domain， or Accent",
-      "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-04T12:59:35.000Z",
-      "summary": "Nemotron 3.5 ASR 是一个 600M 参数的多语言流式语音识别模型，单个检查点覆盖 40 种语言-地区（含英、西、德、法、意、日、韩、中、阿拉伯等）。采用 Cache-Aware FastConformer 编码器与 RNNT 解码器，缓存内部状态避免重复计算，实现低延迟流式转录且不损失精度。模型原生输出带标点和大写的生产级文本，无需后处理。支持指定语言（target_lang=es-ES）或自动语言检测（target_lang=auto）。通过注意力上下文大小（att_context_size）可在推理时直接调节延迟-准确率权衡，范围从 80ms 到 1.12s，无需重新训练。模型以 NeMo 检查点形式发布，可用于微调以适配特定语言、领域或口音。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpzhy9nu03ooslkppckmwgn7",
-      "title": "OpenAI称AI递归自我改进迹象初现",
-      "title_en": "OpenAI just wrote： \"We also see early signs of recursive self-improvement （RSI） in today's systems： …",
-      "url": "https://x.com/kimmonismus/status/2062517474277675102",
-      "source": "X：Kim (@kimmonismus)",
-      "publishedAt": "2026-06-04T12:51:00.000Z",
-      "summary": "OpenAI刚刚写道：\"我们也看到了当今系统中递归自我改进（RSI）的早期迹象：AI开发本身正被AI加速。\n\n我们预计这将加剧开发者与国家之间的竞争压力，并带来现有机构无法应对的治理挑战。\n\n随着RSI的出现，社会将需要找到塑造AI发展轨迹的方法，确保其服务于人类利益。\"\n\n气氛变了，有事正在发生。",
       "category": "tip"
     }
   ]
