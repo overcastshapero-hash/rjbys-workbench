@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T09:58:25.923Z",
+  "generatedAt": "2026-06-05T12:45:00.380Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-05",
   "daily": {
@@ -213,14 +213,14 @@
   },
   "selectedItems": [
     {
-      "id": "cmq0r283h08sisltrkzl1xuli",
-      "title": "Anthropic 表示 Claude 现在写 90% 以上的代码，并希望世界拥有 AI 暂停按钮",
-      "title_en": "Anthropic says Claude now writes over 90% of its code and wants the world to have an AI pause button",
-      "url": "https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-05T08:45:29.000Z",
-      "summary": "Anthropic 内部数据显示，Claude 承担了超过 80% 的生产代码编写，工程师每日代码产出是 2024 年的 8 倍。该公司目标是实现 AI 自我改进，这将引发巨大加速。为此 Anthropic 呼吁建立可验证的全球 AI 开发暂停机制，并表示若其他前沿实验室同样暂停，他们也会停止。",
-      "category": "industry"
+      "id": "cmq0u0eel09ljsltrgblmk1xv",
+      "title": "微软CEO Satya Nadella最新访谈上线",
+      "title_en": "chat is he cooked",
+      "url": "https://x.com/swyx/status/2062854555562565741",
+      "source": "X：swyx (@swyx)",
+      "publishedAt": "2026-06-05T11:10:26.000Z",
+      "summary": "Satya Nadella 在 Latent Space 发布最新访谈，链接见原文。原推文仅评论\"chat is he cooked\"。",
+      "category": "tip"
     },
     {
       "id": "cmq0msqwn07oisltr2sw1wjbg",
@@ -511,46 +511,6 @@
       "publishedAt": "2026-06-04T12:51:00.000Z",
       "summary": "OpenAI刚刚写道：\"我们也看到了当今系统中递归自我改进（RSI）的早期迹象：AI开发本身正被AI加速。\n\n我们预计这将加剧开发者与国家之间的竞争压力，并带来现有机构无法应对的治理挑战。\n\n随着RSI的出现，社会将需要找到塑造AI发展轨迹的方法，确保其服务于人类利益。\"\n\n气氛变了，有事正在发生。",
       "category": "tip"
-    },
-    {
-      "id": "cmpzhk1rp03k5slkpmx3q7mp3",
-      "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
-      "title_en": "EVA-Bench Data 2.0： 3 Domains， 121 Tools， 213 Scenarios",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-04T12:24:58.000Z",
-      "summary": "EVA-Bench Data 2.0 将评估范围从单一企业领域扩展至航空公司客户服务管理（CSM）、企业 IT 服务管理（ITSM）和医疗 HR 服务交付（HRSD）三个领域，共涵盖 121 个工具、213 个场景，场景数较原始版本增长约 4 倍。每个场景均经 OpenAI GPT-5.4、Google Gemini 3.1 Pro 和 Anthropic Claude Opus 4.6 验证可解性。数据集遵循语音优先、真实性、多样性、认证流程和可复现性五项设计原则，包含单意图、多意图（最多 4 个意图）和对抗性呼叫类型。所有三个数据集已开源，可通过 `load_dataset` 从 Hugging Face 直接下载。后续将推出多语言扩展。",
-      "category": "paper"
-    },
-    {
-      "id": "cmq02h5su02a7sltrhs0xegph",
-      "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
-      "title_en": "A Robot is Sprinting Towards You： Do You Want it Running on Claude or Grok？",
-      "url": "https://openrouter.ai/announcements/royale-last-agent-standing",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的\"大逃杀\"挑战中正面竞争。实验结果表明，传统的静态 benchmark 排名无法反映模型在需要即时反应的智能体任务（如自主控制机器人）中的真实表现，Claude 和 Grok 系列模型在决策速度与任务成功率上表现突出，而多项高分模型的实时调度能力未达预期。",
-      "category": "tip"
-    },
-    {
-      "id": "cmpzfevp50305slkpy89xsy0v",
-      "title": "Nemotron 预训练的任务种子合成问答生成",
-      "title_en": "Task-Seeded Synthetic Q&A Generation for Nemotron Pretraining",
-      "url": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-04T11:24:53.000Z",
-      "summary": "在 Nemotron-3 Nano 模型的 100B token 续训练实验中，任务种子合成数据生成（Task-Seeded SDG）使 MMLU-Pro 提升 1.8 分，平均代码提升 1.9 分，常识理解提升 1.6 分，GPQA 提升 11.1 分，数学成绩保持稳定。该流程利用 lm-eval-harness 中约 70 个公开任务（约 700 子任务）的训练集作为种子，生成新示例并补充推理和上下文，经过格式校验、去重和答案验证后得到精选合成数据集，用于 Nemotron Ultra 和 Super 训练。",
-      "category": "paper"
-    },
-    {
-      "id": "cmpzer05a02v8slkpi6r58kcw",
-      "title": "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型",
-      "title_en": "Microsoft's AI Chief Says Anthropic Models Are Too Expensive",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-06-04/microsoft-says-anthropic-models-are-too-expensive",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-04T11:02:01.000Z",
-      "summary": "微软AI部门负责人表示，Anthropic推出的模型成本过高，公司目前正在内部研发更廉价的替代模型，以降低成本。",
-      "category": "industry"
     }
   ]
 }
