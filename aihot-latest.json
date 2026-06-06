@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T00:10:50.827Z",
+  "generatedAt": "2026-06-06T04:55:49.275Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-06",
   "daily": {
@@ -577,26 +577,6 @@
       "publishedAt": "2026-06-05T05:13:58.000Z",
       "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
       "category": "tip"
-    },
-    {
-      "id": "cmq0cow5r050csltrm2m7furf",
-      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/960/323.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-05T03:04:23.000Z",
-      "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。",
-      "category": "industry"
-    },
-    {
-      "id": "cmq0ajq1h04eusltr7graqcb9",
-      "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
-      "title_en": "Anthropic 称最新 AI 模型已显现可能脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
-      "url": "https://www.ithome.com/0/960/218.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-05T01:16:34.000Z",
-      "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。",
-      "category": "industry"
     }
   ]
 }
