@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T16:09:11.461Z",
+  "generatedAt": "2026-06-06T18:09:19.443Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-06",
   "daily": {
@@ -219,6 +219,16 @@
   },
   "selectedItems": [
     {
+      "id": "cmq2kpb9b01h1slbv07xan05v",
+      "title": "AI 的黑色星期五",
+      "title_en": "AI's Black Friday",
+      "url": "https://garymarcus.substack.com/p/ais-black-friday",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-06T16:24:04.000Z",
+      "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
+      "category": "tip"
+    },
+    {
       "id": "cmq2j2aqq0111slbv2442dsoa",
       "title": "Job Searcher",
       "title_en": null,
@@ -309,16 +319,6 @@
       "category": "industry"
     },
     {
-      "id": "cmq1dossi0ev7sltrrihfn7pb",
-      "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
-      "title_en": "Unlocking dependable responses with Gemini Enterprise Agent Platform's Agentic RAG",
-      "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag",
-      "source": "Google Research：Blog（网页）",
-      "publishedAt": "2026-06-05T20:30:02.046Z",
-      "summary": "Google Research 与 Google Cloud 合作推出跨语料库检索（Cross-Corpus Retrieval）框架，作为 Gemini Enterprise Agent Platform 的 Agentic RAG。该多智能体工作流将复杂企业查询分解为子任务，通过规划、重写和路由，迭代搜索多个数据源直至获得充分上下文，再生成可靠回答。与标准 RAG 相比，在事实性数据集上准确率最高提升 34%；在多个领域特定内部数据集上也实现了更好的接地与推理准确性。",
-      "category": "ai-products"
-    },
-    {
       "id": "cmq1d2vyt0epssltrsz0gvbky",
       "title": "微软Project Mosaic：micro-LED光学互连技术",
       "title_en": "During the Inside Azure Innovations breakout at Build 2026， Microsoft Azure CTO， deputy CISO and tec…",
@@ -347,76 +347,6 @@
       "publishedAt": "2026-06-05T19:07:35.749Z",
       "summary": "一篇 Hacker News 热门帖子（105 分）提出了 Claude 是否导致 rsync 工具中 bug 增加的问题，并附有分析链接。",
       "category": "tip"
-    },
-    {
-      "id": "cmq18rbp70dk3sltr7eqx8xil",
-      "title": "智能体协作应如同事般对话和手势",
-      "title_en": "Working with agents should feel like working with a colleague. You should be able \"speak to\" them no…",
-      "url": "https://x.com/mntruell/status/2062955210897801520",
-      "source": "X：Michael Truell (@mntruell)",
-      "publishedAt": "2026-06-05T17:50:24.000Z",
-      "summary": "与 AI 智能体协作应感觉像与同事协作一样。你应能\"与它们交谈\"--不仅通过文本聊天，还能一起对着屏幕做手势、实时对话等。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq16mdmy0d0hsltriwaiyzvh",
-      "title": "Google Colab CLI 发布",
-      "title_en": "Introducing the Google Colab CLI",
-      "url": "https://developers.googleblog.com/introducing-the-google-colab-cli",
-      "source": "Google Developers Blog（RSS）",
-      "publishedAt": "2026-06-05T17:12:11.075Z",
-      "summary": "Google 推出 Colab 命令行界面（CLI），允许开发者和 AI 智能体将本地终端连接到远程 Colab 运行时，实现无摩擦执行。该轻量级 CLI 支持请求高性能 GPU、远程运行本地 Python 脚本，并检索工件日志或模型（如微调后的 Gemma 3 适配器）。工具可直接集成到标准终端环境，可被 Antigravity、Claude Code 等 AI 智能体调用以管理复杂机器学习流水线。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq16l9id0cz7sltrd5u9tevg",
-      "title": "Riverflow 2.5：可控制评分标准的图像模型",
-      "title_en": "Live on OpenRouter： Riverflow 2.5 from @Sourceful. The first image model with an independent scorin…",
-      "url": "https://x.com/OpenRouter/status/2062944965978992935",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-05T17:09:42.000Z",
-      "summary": "在OpenRouter上线：来自@Sourceful的Riverflow 2.5。\n\n首个具有独立评分标准的图像模型，你可控制该标准以引导其思维和编辑，并具备可控的推理努力，可在速度与质量之间进行权衡。\n\n免费至6月9日（周二）。Fast和Pro见下方🧵。",
-      "category": "ai-models"
-    },
-    {
-      "id": "cmq16lagb0czbsltr4d2whlpo",
-      "title": "ChatGPT 网页版支持从写作块发送邮件",
-      "title_en": "Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the…",
-      "url": "https://x.com/ChatGPTapp/status/2062944254591430917",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "publishedAt": "2026-06-05T17:06:52.000Z",
-      "summary": "草拟。调整。发送。\n\n现在你可以在网页版 ChatGPT 中直接从写作块发送邮件，无需离开对话。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq16wkmr0d1qsltrrxq2ijpb",
-      "title": "Google AI 本周产品更新：Nano Banana 2、Co-Scientist、dreambeans、Gemma 4 等",
-      "title_en": "Here's this week's shipping recap 👇 - Nano Banana 2 & Nano Banana Pro are now GA and available via…",
-      "url": "https://x.com/GoogleAI/status/2062942864288387430",
-      "source": "X：Google AI (@GoogleAI)",
-      "publishedAt": "2026-06-05T17:01:21.000Z",
-      "summary": "Google AI 本周发布多项更新：Nano Banana 2 及 Pro 正式 GA，可通过 Gemini Enterprise Agent Platform、Gemini API 和 Google AI Studio 获取；Co-Scientist 多智能体系统面向科研自动生成优化新假设；Google Labs 推出 dreambeans，根据用户 Google 应用数据每日生成个性化话题集；Gemma 4 12B 统一无编码器多模态模型可完全离线运行于笔记本；Gemma 4 系列及草稿模型引入 QAT 降低内存需求；Google Magenta RealTime 2 开源实时音乐模型，支持 MIDI 键盘、文本提示和手势演奏。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq15ifnr0comsltrb2vd53mu",
-      "title": "Gemini Live 支持实时创建编辑图像",
-      "title_en": "You can now create and edit images directly in Gemini Live. Whether testing out room decor， getting…",
-      "url": "https://x.com/GeminiApp/status/2062936486509785385",
-      "source": "X：Gemini (@GeminiApp)",
-      "publishedAt": "2026-06-05T16:36:00.000Z",
-      "summary": "你现可直接在 Gemini Live 中创建和编辑图像。\n\n无论是测试房间装饰、解决数学问题，还是制作可分享的梗图，所有操作都实时完成。\n\n只需打开 Gemini 应用，点击 Live 按钮，共享摄像头，告诉 Gemini 你想看到的。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq15u3mt0cqjsltrhb1ch36w",
-      "title": "AI热推高美国计算基建GDP占比翻倍",
-      "title_en": "The AI boom has doubled computing infrastructure's share of US GDP. Investment in AI-related data c…",
-      "url": "https://x.com/EpochAIResearch/status/2062933470373146828",
-      "source": "X：Epoch AI (@EpochAIResearch)",
-      "publishedAt": "2026-06-05T16:24:01.000Z",
-      "summary": "AI 热潮使计算基础设施占美国 GDP 比重翻倍。\n\n2026 年第一季度，与 AI 相关的数据中心建设、计算硬件和网络设备投资约占美国 GDP 的 0.8%，推动整个计算基础设施占 GDP 比重达到约 1.5%。",
-      "category": "industry"
     }
   ]
 }
