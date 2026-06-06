@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T10:08:10.476Z",
+  "generatedAt": "2026-06-06T12:07:19.577Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-06",
   "daily": {
@@ -507,16 +507,6 @@
       "publishedAt": "2026-06-05T13:00:00.000Z",
       "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。",
       "category": "ai-products"
-    },
-    {
-      "id": "cmq0u0eel09ljsltrgblmk1xv",
-      "title": "微软CEO Satya Nadella最新访谈上线",
-      "title_en": "chat is he cooked",
-      "url": "https://x.com/swyx/status/2062854555562565741",
-      "source": "X：swyx (@swyx)",
-      "publishedAt": "2026-06-05T11:10:26.000Z",
-      "summary": "Satya Nadella 在 Latent Space 发布最新访谈，链接见原文。原推文仅评论\"chat is he cooked\"。",
-      "category": "tip"
     }
   ]
 }
