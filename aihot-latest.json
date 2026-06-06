@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T12:07:19.577Z",
+  "generatedAt": "2026-06-06T14:44:20.201Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-06",
   "daily": {
@@ -219,6 +219,36 @@
   },
   "selectedItems": [
     {
+      "id": "cmq2e53d100lpsl783tyjx1iw",
+      "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+      "title_en": "GitHub released Spec Kit， an open-source toolkit to fix vibe coding's biggest weakness： the AI often…",
+      "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-06-06T13:07:16.000Z",
+      "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq2doi6700hlsl78fk3tm0l4",
+      "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/960/969.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-06T12:48:12.000Z",
+      "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
+      "category": "ai-products"
+    },
+    {
+      "id": "cmq2ahm4y00o9slopm7hxc8ld",
+      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+      "title_en": "Persona Atlas： Mapping How Famous Minds Think",
+      "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-06T11:42:01.000Z",
+      "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
+      "category": "ai-products"
+    },
+    {
       "id": "cmq1jj4u00gejsltrelu93dbg",
       "title": "PixelDiT入选CVPR2026最佳论文决赛",
       "title_en": "Selected as a best paper finalist at #CVPR2026： PixelDiT from NVIDIA Research In most image generat…",
@@ -427,86 +457,6 @@
       "publishedAt": "2026-06-05T15:11:46.000Z",
       "summary": "AI先驱Geoffrey Hinton表示，他认为AI拥有意识，人类应接受自己并非唯一智能生命。他指出AI\"非常像我们\"，AI聊天机器人必须理解问题才能作答，这种觉知等同于感知能力，智能不限于生物。主推文作者进一步讨论意识本质：笛卡尔的\"我思故我在\"和fMRI等实证手段都无法真正定义意识，人类对自身了解远不及想象。作者呼吁转向新哲学问题，厘清人与机器的区别与联系。",
       "category": "tip"
-    },
-    {
-      "id": "cmq118d2f0bjmsltrjj0o010h",
-      "title": "Viggle_PINOC 免费动捕测试开启",
-      "title_en": "Mocap shouldn't require a suit， a studio， or thousands of dollars. With @Viggle_PINOC， anyone can s…",
-      "url": "https://x.com/ViggleAI/status/2062904007123714329",
-      "source": "X：Viggle AI (@ViggleAI)",
-      "publishedAt": "2026-06-05T14:26:56.000Z",
-      "summary": "Mocap 不需要套装、工作室或数千美元。\n\n使用 @Viggle_PINOC，任何人都可以简单地拍摄自己，并将该视频转换为动作捕捉。\n\n我们仍处于测试阶段，且对所有人完全免费。试试看，告诉我们你还想看什么！",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq10uuzu0bfasltril9vjxvg",
-      "title": "Sir Demis Hassabis vs Sir Demis Hassabis",
-      "title_en": null,
-      "url": "https://garymarcus.substack.com/p/sir-demis-hassabis-vs-sir-demis-hassabis",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "publishedAt": "2026-06-05T14:25:36.000Z",
-      "summary": null,
-      "category": "tip"
-    },
-    {
-      "id": "cmq11mu8l0bm6sltrht2tvv27",
-      "title": "一个非常狠的AI教学提示词：追问式检查清单教学",
-      "title_en": "一个非常狠的提示词 超级严厉的老师，会一直追问你，直到你学会某个知识或者搞懂某个问题为止才肯罢休 否则它会一直追问、不停验证，直到确认你完全搞懂为止😅 而且它不会一口气讲完，每讲完一个阶段，必…",
-      "url": "https://x.com/xiaohu/status/2062902972649222311",
-      "source": "X：小互 (@xiaohu)",
-      "publishedAt": "2026-06-05T14:22:50.000Z",
-      "summary": "这是一则AI提示词，让AI扮演极度严格的老师，通过逐阶段教学、持续维护MD检查清单来确保用户真正理解。AI先让用户复述当前理解，再填补漏洞，并用开放式或选择题（随机选项顺序，提交前不公布答案）测试。教学必须覆盖问题本身、解决方案、宏观背景三个层面，并不断深挖\"为什么\"。仅当用户通过清单上所有项目的验证，会话才算结束。提示词强调对理解程度的主动验证，而非一次性灌输。",
-      "category": "tip"
-    },
-    {
-      "id": "cmq12gsy20buksltr2nwivyhu",
-      "title": "苹果新版 Siri 不会被宣传为完成品，内部将其标记为\"Beta\"版",
-      "title_en": "古尔曼称苹果新版 Siri 不会被宣传为完成品，内部将其标记为\"Beta 版\"",
-      "url": "https://www.ithome.com/0/960/739.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-05T14:21:03.000Z",
-      "summary": "苹果新版Siri被内部标记为\"Beta\"版，不会作为完成品宣传；可能设置等待清单供用户尝试。iOS 27细节：通知到达重新设计，通知中心手势移至左上角；\"查找\"应用视觉重设计；照片\"清理\"功能改进；大量底层安全改进。部分Siri查询将通过Google Cloud调用授权版Gemini，并使用谷歌的NVIDIA Blackwell B200集群处理。",
-      "category": "industry"
-    },
-    {
-      "id": "cmq10bltr0b9ksltrs7mappfh",
-      "title": "Meta 智能眼镜 App 暗藏人脸识别代码，NameTag 功能已推送至超 5000 万设备",
-      "title_en": "Meta 智能眼镜 App 被曝暗藏 AI 人脸识别功能相关代码：影响超 5000 万设备，公司回应称仅为探索而已",
-      "url": "https://www.ithome.com/0/960/735.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-05T13:59:37.000Z",
-      "summary": "据《连线》今日报道，Meta 通过多次应用更新将人脸识别代码推送到智能眼镜配套 App 中，代号\"NameTag\"。该功能利用已部署的三个 AI 模型将人脸转换为\"人脸特征模板\"，与手机本地数据库匹配，识别成功后向佩戴者发送通知。App 下载量超 5000 万次。Meta 回应称代码仅为探索，尚未决定推出，且不会建立中央人脸数据库。此前 Meta 曾因人脸识别问题在伊利诺伊州和得克萨斯州分别达成 6.5 亿美元和 14 亿美元和解。",
-      "category": "industry"
-    },
-    {
-      "id": "cmq10blts0b9qsltr3hvk0fy1",
-      "title": "开源鸿蒙 OpenHarmony 具身智能版本 EmbodiedAI 1.0.1 发布",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/960/722.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-05T13:31:13.000Z",
-      "summary": "6月5日，开源鸿蒙具身智能PMC（筹）发布EmbodiedAI 1.0.1版本。该版本聚焦机器人控制与智能体应用，升级导航规划、运动控制、仿真开发、硬件适配等核心能力，兼容ROS生态、机器人模拟器及多种本体形态。集成开源鸿蒙原生模拟器、MuJoCo、Gazebo三大仿真环境，打通从代码开发到真机验证的全流程链路。人形机器人、四足机器狗、商用服务机器人等已完成适配验证。目前具身智能方向已组建18个专项SIG工作组，版本源码已正式开放。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq0yxent0avgsltr8x9ya6jn",
-      "title": "社区基于MiniCPM-V 4.6打造财务分析工具AccountingLLM",
-      "title_en": "A developer in our community recently built AccountingLLM （http：//quaesto.com/） using MiniCPM-V 4.6 …",
-      "url": "https://x.com/OpenBMB/status/2062889699056984281",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "publishedAt": "2026-06-05T13:30:05.000Z",
-      "summary": "社区开发者使用面壁智能MiniCPM-V 4.6构建了AccountingLLM（quaesto.com），用于自动化财务文档分析。该工具可上传IPO招股书、年报或审计文件，自动从复杂PDF中提取财务表格、重建跨页表格、对照会计等式检查关键数据，并标记可疑条目供人工审核。开发者已将其商业化，成为实际可用的产品。",
-      "category": "ai-products"
-    },
-    {
-      "id": "cmq10uxf80bfesltrngu1lo15",
-      "title": "你的AI账单失控了。Cloudflare现在可以解决这个问题。",
-      "title_en": "Your AI bill is out of control. Cloudflare can fix it now.",
-      "url": "https://blog.cloudflare.com/ai-gateway-spend-limits",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-06-05T13:00:00.000Z",
-      "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。",
-      "category": "ai-products"
     }
   ]
 }
