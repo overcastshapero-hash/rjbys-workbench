@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T20:12:08.991Z",
+  "generatedAt": "2026-06-06T22:05:54.757Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-06",
   "daily": {
@@ -219,6 +219,30 @@
   },
   "selectedItems": [
     {
+      "id": "cmq2w7jzd01ojsl97krih83rb",
+      "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+      "title_en": null,
+      "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-06T21:47:39.887Z",
+      "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。",
+      "category": "industry",
+      "score": 78,
+      "selected": true
+    },
+    {
+      "id": "cmq2rp55c00hlsl97h98gkd14",
+      "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+      "title_en": "Five labs， five minds： building a multi-model finance drama on small models",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-06T19:02:33.000Z",
+      "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
+      "category": "tip",
+      "score": 66,
+      "selected": true
+    },
+    {
       "id": "cmq2kpb9b01h1slbv07xan05v",
       "title": "AI 的黑色星期五",
       "title_en": "AI's Black Friday",
@@ -312,42 +336,6 @@
       "summary": "开发者用Qwen2.5-3B构建了五人森林生物多智能体经济体，每个智能体独立运行，通过vLLM部署在Modal，以Gradio为交互窗口。3B模型在100%调用中输出有效JSON，但经济判断能力弱。通过设计稀缺性（食物品种限制、易腐坏、冬季燃料危机）和优化提示词（禁止买入自产物品、给出示例）提升决策质量。15轮模拟中，蜜价从10跌至3、柴价从4涨至7、财富基尼系数从0.14扩至0.38。项目展示了小模型可靠格式化与不可靠推理之间的工程填补。",
       "category": "tip",
       "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmq1hy4wt0fyrsltrxx64boz8",
-      "title": "Arena 发布真实世界 AI 智能体排行榜 Agent Arena",
-      "title_en": "Arena just released a real-world agent leaderboard that ranks AI models by how well they complete ac…",
-      "url": "https://x.com/rohanpaul_ai/status/2063018358795300982",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-05T22:01:20.000Z",
-      "summary": "Arena 推出基于真实用户任务的智能体排行榜，评估模型在代码编写、应用构建、文档分析等工作中的表现，而非孤立基准。排行榜基于30万+任务、200万+工具调用和4000万行代码，综合任务成功、纠正遵从性、错误恢复、用户表扬与抱怨、工具幻觉等信号。前三名：GPT-5.5 High（+10.7%）、Claude Opus 4.7 Thinking（+9.5%）、GPT-5.4 High（+8.9%）。",
-      "category": "paper",
-      "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmq1fw2bb0ffssltrvl691wnx",
-      "title": "Apollo 敲定 350 亿美元债务融资，为 Anthropic 采购 AI 芯片",
-      "title_en": "Apollo Wraps Up $35 Billion Debt to Buy AI Chips for Anthropic",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-05T21:02:29.000Z",
-      "summary": "Apollo Global Management 和 Blackstone 已为 Anthropic 敲定 350 亿美元融资方案，用于扩充其 AI 基础设施。这是人工智能竞赛中最新的一笔巨额交易。",
-      "category": "industry",
-      "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmq1eqdug0f4bsltr1nzlten4",
-      "title": "SpaceX与Google达成云计算新协议",
-      "title_en": "SpaceX just disclosed a new Cloud Service Agreement with Google. Google to pay SpaceX $920 million …",
-      "url": "https://x.com/rohanpaul_ai/status/2063000834045313314",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-05T20:51:42.000Z",
-      "summary": "SpaceX 刚刚披露了一份与 Google 的新云服务协议。\n\nGoogle 将每月向 SpaceX 支付 9.2 亿美元（约合每年 110 亿美元），用于 xAI 数据中心的计算能力。\n\n这再次表明，AI 算力正成为一种战略性商品，就像发射能力或能源一样，而那些能够为庞大的 GPU 集群提供资金、电力、冷却和运营的公司，可能会在其原有业务之外获得巨大的杠杆优势。",
-      "category": "industry",
-      "score": 77,
       "selected": true
     }
   ]
