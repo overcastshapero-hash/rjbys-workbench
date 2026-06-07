@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T14:01:29.934Z",
+  "generatedAt": "2026-06-07T16:20:00.158Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-07",
   "daily": {
@@ -106,6 +106,30 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq3y2kf1004jslqvmbs4vuam",
+      "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
+      "title_en": "Slop， productivity， and why the AI-fueled world is going nowhere mighty fast",
+      "url": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-07T15:31:43.000Z",
+      "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。",
+      "category": "tip",
+      "score": 67,
+      "selected": true
+    },
+    {
+      "id": "cmq3uy43k022gsla9pazggsdm",
+      "title": "苹果秘密会议内幕：它终于认真对待AI",
+      "title_en": "Inside Apple's Secret Meeting That Led It to Finally Take AI Seriously",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-07T14:00:01.000Z",
+      "summary": "苹果在一次内部秘密会议后，终于决定将AI作为核心战略。这场会议促使公司全面转向AI领域，相关进展预计将在WWDC 2026上公布。",
+      "category": "tip",
+      "score": 79,
+      "selected": true
+    },
     {
       "id": "cmq3thx1f01pjsla9rsrrlqom",
       "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
@@ -248,18 +272,6 @@
       "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
       "category": "tip",
       "score": 69,
-      "selected": true
-    },
-    {
-      "id": "cmq2j2aqq0111slbv2442dsoa",
-      "title": "Job Searcher",
-      "title_en": null,
-      "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-06T15:36:51.000Z",
-      "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
-      "category": "tip",
-      "score": 65,
       "selected": true
     }
   ]
