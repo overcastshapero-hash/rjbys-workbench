@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T09:19:30.718Z",
+  "generatedAt": "2026-06-07T11:51:17.323Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-07",
   "daily": {
@@ -106,6 +106,30 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq3p62px00llsla9chtyvf4z",
+      "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
+      "title_en": "http：//x.com/i/article/2063531614047444992",
+      "url": "https://x.com/AYi_AInotes/status/2063573709672104286",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-06-07T10:48:06.000Z",
+      "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。",
+      "category": "tip",
+      "score": 78,
+      "selected": true
+    },
+    {
+      "id": "cmq3nuz12009bsla9rbw1qhyn",
+      "title": "Her · हेर - Claude Code 会话分析工具",
+      "title_en": "Her · हेर - a detective for your Claude Code sessions",
+      "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-07T10:13:41.000Z",
+      "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置\"Ask Her\"问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyPI 主流 CLI 工具数据库，自动识别会话中使用的工具，并对部署工具、数据库客户端等执行活动进行标记提醒。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
     {
       "id": "cmq3i394000ouslqlpcl2mnr6",
       "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
@@ -248,18 +272,6 @@
       "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
       "category": "ai-products",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmq2ahm4y00o9slopm7hxc8ld",
-      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
-      "title_en": "Persona Atlas： Mapping How Famous Minds Think",
-      "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-06T11:42:01.000Z",
-      "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
-      "category": "ai-products",
-      "score": 58,
       "selected": true
     }
   ]
