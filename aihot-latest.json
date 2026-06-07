@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T05:24:50.074Z",
+  "generatedAt": "2026-06-07T09:19:30.718Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-07",
   "daily": {
@@ -106,6 +106,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq3i394000ouslqlpcl2mnr6",
+      "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
+      "title_en": "NVIDIA， KRAFTON， NC and Reigning 'League of Legends' Champions T1 Celebrate RTX Spark at Korea's PC Bangs",
+      "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
+      "source": "NVIDIA AI Blog",
+      "publishedAt": "2026-06-07T07:00:15.000Z",
+      "summary": "继上周 GTC Taipei 发布后，NVIDIA CEO Jensen Huang 前往韩国，向当地游戏社区正式介绍 RTX Spark 超芯片。该芯片集成 30 年 NVIDIA 技术，可在 Windows 笔记本上实现全天续航，并以 1440p 分辨率、超过 100fps 运行 AAA 游戏，支持包括 DLSS 4.5 Ray Reconstruction（基于第二代 Transformer 模型）在内的全套 RTX 技术。KRAFTON、NC 与 Riot Games 正合作将旗下游戏适配 RTX Spark。周五，Huang 在 T1 电竞场馆与 Faker 共同亮相，并突袭江南区网吧，演示《PUBG： BATTLEGROUNDS》及基于 NVIDIA ACE 的\"PUBG Ally\"AI 队友、《CINDER CITY》《AION 2》等作品。《CINDER CITY》首发支持 DLSS 4.5 动态多帧生成与超分辨率。已有超过 100 家 Windows 软件与游戏开发商采纳 RTX Spark。",
+      "category": "ai-products",
+      "score": 56,
+      "selected": true
+    },
+    {
+      "id": "cmq3eppdj06j7sl97koo7u9xf",
+      "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
+      "title_en": "Meet Harness-1： A 20B Retrieval Subagent Trained With Reinforcement Learning Inside a Stateful Search Harness on gpt-oss-20b",
+      "url": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-06-07T06:25:18.000Z",
+      "summary": "UIUC与Chroma联合推出Harness-1，一个20B参数的检索子智能体。它通过强化学习在一个有状态搜索框架中训练，该框架维护候选池、重要性标注集、证据图和验证记录，由策略决定搜索、筛选、验证及停止的时机。Harness-1在8个基准测试上达到0.730平均curated recall，比下一个最佳开源子智能体高出11.4个百分点，仅落后于Opus-4.6。模型权重和框架代码均已公开。",
+      "category": "ai-models",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmq3e8n9k06evsl97fee4j5ki",
+      "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
+      "title_en": "How do different model providers differ on cache hit rate and effective price？ Now you can see real…",
+      "url": "https://x.com/OpenRouter/status/2063504950429147376",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-06-07T06:14:52.000Z",
+      "summary": "不同模型提供商在缓存命中率和有效价格上有什么差异？\n\n现在你可以从 Pricing 标签查看实时缓存命中率和历史流量。这里是 Opus 4.8：https：//openrouter.ai/anthropic/claude-opus-4.8/pricing",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true
+    },
     {
       "id": "cmq392v1i051osl97zxmhrco3",
       "title": "Harness 工程：在智能体优先的世界中运用 Codex",
@@ -224,18 +260,6 @@
       "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
       "category": "ai-products",
       "score": 58,
-      "selected": true
-    },
-    {
-      "id": "cmq2o63pf01dosl6n6n4wr3tr",
-      "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
-      "source": "公众号：阶跃星辰（Step）",
-      "publishedAt": "2026-06-06T06:46:02.000Z",
-      "summary": null,
-      "category": "industry",
-      "score": 57,
       "selected": true
     }
   ]
