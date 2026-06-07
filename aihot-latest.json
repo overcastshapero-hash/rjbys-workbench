@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T11:51:17.323Z",
+  "generatedAt": "2026-06-07T14:01:29.934Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-07",
   "daily": {
@@ -106,6 +106,18 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq3thx1f01pjsla9rsrrlqom",
+      "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
+      "title_en": null,
+      "url": "https://symbolica.io/posts/symbolica_2_0_release",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-07T12:59:12.136Z",
+      "summary": "Symbolica 2.0 发布，这是一款可编程符号系统，支持 Python 和 Rust 语言。该版本在 Hacker News 上获得 100 点热度。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
     {
       "id": "cmq3p62px00llsla9chtyvf4z",
       "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
@@ -248,30 +260,6 @@
       "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
       "category": "tip",
       "score": 65,
-      "selected": true
-    },
-    {
-      "id": "cmq2e53d100lpsl783tyjx1iw",
-      "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
-      "title_en": "GitHub released Spec Kit， an open-source toolkit to fix vibe coding's biggest weakness： the AI often…",
-      "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-06T13:07:16.000Z",
-      "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
-      "category": "ai-products",
-      "score": 80,
-      "selected": true
-    },
-    {
-      "id": "cmq2doi6700hlsl78fk3tm0l4",
-      "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/960/969.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-06T12:48:12.000Z",
-      "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
-      "category": "ai-products",
-      "score": 70,
       "selected": true
     }
   ]
