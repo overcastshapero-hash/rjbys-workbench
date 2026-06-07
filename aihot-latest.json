@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T16:20:00.158Z",
+  "generatedAt": "2026-06-07T18:06:52.697Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-07",
   "daily": {
@@ -106,6 +106,30 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq41cpfx00g9slr28fihcr5v",
+      "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
+      "title_en": "FT： The proposal suddenly of a sovereign-wealth-style fund got more attention inside the White House…",
+      "url": "https://x.com/rohanpaul_ai/status/2063662672835703126",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-06-07T16:41:36.000Z",
+      "summary": "据FT报道，特朗普政府正与OpenAI探讨通过公共财富基金机制让政府入股AI初创公司。方案是AI企业捐赠小部分股权至该基金，基金通过账户或分红将收益返还美国公民，而非政府直接运营公司。这不同于特朗普去年对Intel的90亿美元直接持股。OpenAI此前已提出公共财富基金概念，持有长期资产，让公民分享AI增长红利。政治背景方面，选民担忧失业、数据中心成本与企业控制，而AI公司需要华盛顿在基建、采购和监管上的支持。",
+      "category": "industry",
+      "score": 76,
+      "selected": true
+    },
+    {
+      "id": "cmq404ny5005mslr29n96iugc",
+      "title": "OpenAI 仍推进超级应用计划",
+      "title_en": "OpenAI is still working on that 'super app'",
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-07T16:23:22.000Z",
+      "summary": "OpenAI 一位高级员工表示\"聊天已死\"，同时公司仍在继续推进超级应用计划。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
     {
       "id": "cmq3y2kf1004jslqvmbs4vuam",
       "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
@@ -260,18 +284,6 @@
       "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
       "category": "tip",
       "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmq2kpb9b01h1slbv07xan05v",
-      "title": "AI 的黑色星期五",
-      "title_en": "AI's Black Friday",
-      "url": "https://garymarcus.substack.com/p/ais-black-friday",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "publishedAt": "2026-06-06T16:24:04.000Z",
-      "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
-      "category": "tip",
-      "score": 69,
       "selected": true
     }
   ]
