@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T18:32:00.364Z",
+  "generatedAt": "2026-06-08T21:11:56.782Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-08",
   "daily": {
@@ -111,6 +111,114 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq5p6pp6012bsl5ipbhrxnod",
+      "title": "苹果揭晓基于谷歌 Gemini 模型构建的新 AI 架构",
+      "title_en": "苹果揭晓基于谷歌Gemini模型构建的新AI架构",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-08T20:41:12.244Z",
+      "summary": "苹果推出新 AI 架构，核心基于谷歌 Gemini 模型构建。该架构由苹果研发，旨在整合 Gemini 的模型能力至苹果生态系统中，具体细节尚未披露。",
+      "category": "industry",
+      "score": 81,
+      "selected": true
+    },
+    {
+      "id": "cmq5p0eag0118sl5iydnwrhui",
+      "title": "Viggle API 上线：任意角色任意动作秒级生成",
+      "title_en": "Introducing the Viggle API. Give any character any motion， one API call - alive in seconds. Wire …",
+      "url": "https://x.com/ViggleAI/status/2064083087806390319",
+      "source": "X：Viggle AI (@ViggleAI)",
+      "publishedAt": "2026-06-08T20:32:11.000Z",
+      "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmq5kh0q200g7sl38uoitn0e3",
+      "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
+      "title_en": "Observability for developers building connectors",
+      "url": "https://claude.com/blog/observability-for-developers-building-connectors",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-08T18:50:51.580Z",
+      "summary": "Claude 为目录中已发布的 Connector 新增性能监控仪表盘（公开测试版）。所有者可追踪活跃用户、工具调用次数、目录排名、健康评分、错误率、延迟，并按工具细分错误归因；还能按 Claude、Claude Code、Cowork 等产品分解使用情况。访问需 Team 或 Enterprise 账号（Admin/Owner 权限或自定义角色）。基于 MCP 构建的 Connector 可直接在 Claude 应用内提交至目录，该目录已有超 300 个第三方 Connector，每日被数百万人使用。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmq5kh5ui00ghsl3849i05qae",
+      "title": "Anthropic：AI编码快于生物学的缘由",
+      "title_en": "New Science Blog： Why has AI advanced faster in coding than in biology？ To agents， bio databases a…",
+      "url": "https://x.com/AnthropicAI/status/2064054837294354677",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "publishedAt": "2026-06-08T18:39:56.000Z",
+      "summary": "新的科学博客：为什么 AI 在编码方面的进步比在生物学方面更快？\n\n对智能体而言，生物数据库就像汽车发明前建造的城市--开进去会让人抓狂，因为它们是针对不同的交通流量设计的。\n\n我们如何构建智能体可以使用的基础设施？\nhttps：//www.anthropic.com/research/agents-in-biology",
+      "category": "tip",
+      "score": 61,
+      "selected": true
+    },
+    {
+      "id": "cmq5lakyn00nasl382lj0ka6f",
+      "title": "Apple发布新一代Apple Intelligence和Siri AI",
+      "title_en": "Apple unveils next generation of Apple Intelligence， Siri AI， and more",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
+      "source": "Apple：Newsroom（RSS）",
+      "publishedAt": "2026-06-08T18:18:43.157Z",
+      "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。",
+      "category": "ai-products",
+      "score": 56,
+      "selected": true
+    },
+    {
+      "id": "cmq5lakyn00nbsl3832izqutm",
+      "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
+      "title_en": "Apple Intelligence brings powerful AI capabilities into everyday experiences",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences",
+      "source": "Apple：Newsroom（RSS）",
+      "publishedAt": "2026-06-08T18:17:44.449Z",
+      "summary": "Apple 发布下一代 Apple Intelligence，将 AI 能力集成到 iPhone、iPad 和 Mac 中，带来更个性化和有帮助的日常体验。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmq5js0wr009ksl38tvk1llo2",
+      "title": "苹果 WWDC 2026 直播",
+      "title_en": null,
+      "url": "https://www.apple.com/apple-events/event-stream",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-08T18:17:22.096Z",
+      "summary": "苹果 WWDC 2026 主题演讲通过官网进行直播，Hacker News 用户讨论热度达到 110 点。",
+      "category": "industry",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmq5lakyn00nesl38edfw2m19",
+      "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
+      "title_en": "Due to DMA， Siri AI delayed in EU for iOS 27 and iPadOS 27",
+      "url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27",
+      "source": "Apple：Newsroom（RSS）",
+      "publishedAt": "2026-06-08T18:13:26.639Z",
+      "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。",
+      "category": "industry",
+      "score": 65,
+      "selected": true
+    },
+    {
+      "id": "cmq5j7nkn002fsl385mhl7d2d",
+      "title": "样本效率黑洞：AI能力背后隐藏的数据需求深渊",
+      "title_en": "The sample efficiency black hole",
+      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "publishedAt": "2026-06-08T18:09:37.000Z",
+      "summary": "将AI比作一个闪耀着能力的星系，其核心存在一个肉眼不可见的巨大黑洞--数据。这个比喻揭示了AI模型惊人能力背后对海量数据的依赖，样本效率的瓶颈如同引力中心，将各色能力凝聚在一起。",
+      "category": "tip",
+      "score": 69,
+      "selected": true
+    },
     {
       "id": "cmq5i5o4g0861slt2rprafeu2",
       "title": "为生物学AI智能体铺路",
@@ -280,6 +388,18 @@
       "selected": true
     },
     {
+      "id": "cmq5oofrd00x3sl5iadjbb59k",
+      "title": "EU AI Act 合规：面向 AI 智能体的人工监督",
+      "title_en": "EU AI Act Compliance： Human Oversight for AI Agents",
+      "url": "https://openrouter.ai/blog/human-oversight-eu-ai-act-compliance-agent-sdk",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-08T12:00:00.000Z",
+      "summary": "使用智能体 SDK 的人机协作（HITL）工具，可满足 EU AI Act、Colorado AI Act 和 NIST AI RMF 对 AI 智能体的合规要求。",
+      "category": "ai-products",
+      "score": 64,
+      "selected": true
+    },
+    {
       "id": "cmq55gcok04r4slt26kmgs0xg",
       "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
       "title_en": "Building Pakistan Notice Helper： A Small AI Tool for a Very Local Safety Problem",
@@ -289,18 +409,6 @@
       "summary": "Pakistan Notice Helper 是一款安全工具，帮助巴基斯坦用户在点击链接、拨打电话、分享 OTP 或支付前识别可疑消息。它接受文本或截图输入，返回风险等级、简短解释、可见警示标志和安全下一步建议。工具支持英文和乌尔都语，乌尔都模式采用从右向左布局并全界面翻译。最终部署选用 Qwen3.5 4B Q8 模型（通过 llama.cpp + CUDA），在 10 个测试用例中通过了所有高风险诈骗和截图场景。此前曾测试 Qwen3.6 27B（质量高但成本高）和 MiniCPM-V 4.6 Q8（速度慢且不稳定），最终选择了精度、速度和成本平衡的 4B 模型。项目受限于 hackathon 的 32B 模型上限规则。",
       "category": "tip",
       "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmq51vfwz03rpslt225t051ui",
-      "title": "AgentScope Java 2.0 发布",
-      "title_en": "🚀 AgentScope Java 2.0 released！ Solving enterprise AI agent challenges： ✅ Distributed & Stateless： …",
-      "url": "https://x.com/alibaba_cloud/status/2063923881857945815",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "publishedAt": "2026-06-08T09:59:33.000Z",
-      "summary": "阿里云发布AgentScope Java 2.0，面向企业级AI智能体开发。新版本主要特性：分布式无状态架构，支持K8s弹性扩缩容与会话恢复；多租户隔离，通过Workspace抽象实现安全数据分离；长期稳定性，HarnessAgent负责上下文管理与容错；安全执行，提供细粒度权限控制和Human-in-the-Loop支持。适用于JVM生产环境。开源地址见推文链接。",
-      "category": "ai-products",
-      "score": 66,
       "selected": true
     },
     {
@@ -409,6 +517,18 @@
       "summary": "阿里巴巴旗下高德发布全球首个3D原生城市世界模型ABot-Earth0.5，已建成覆盖190多个国家和地区的3D地图。用户输入卫星图或文字描述，10分钟即可在消费级GPU上生成公里级3D城市，输出可编辑3DGS格式，可直接导入Unity等引擎。制图成本为传统百分之一，效率提升约千倍，可为具身智能、低空经济、应急救援等提供支撑。目前已开放内测，可前往abot-earth.amap.com提交申请。",
       "category": "ai-models",
       "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmq5olpvf00wjsl5iw1vr85vy",
+      "title": "OpenAI 公布让 AGI 造福所有人的计划",
+      "title_en": "Built to benefit everyone： our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-08T01:30:00.000Z",
+      "summary": "OpenAI 发布计划，阐述让 AGI 造福所有人的愿景。该计划聚焦于 AI 的可及性、安全性和共享繁荣，确保技术进步惠及每个人。",
+      "category": "tip",
+      "score": 56,
       "selected": true
     },
     {
