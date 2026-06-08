@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T21:11:56.782Z",
+  "generatedAt": "2026-06-08T23:13:42.605Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-08",
   "daily": {
@@ -112,15 +112,27 @@
   },
   "selectedItems": [
     {
-      "id": "cmq5p6pp6012bsl5ipbhrxnod",
-      "title": "苹果揭晓基于谷歌 Gemini 模型构建的新 AI 架构",
-      "title_en": "苹果揭晓基于谷歌Gemini模型构建的新AI架构",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-08T20:41:12.244Z",
-      "summary": "苹果推出新 AI 架构，核心基于谷歌 Gemini 模型构建。该架构由苹果研发，旨在整合 Gemini 的模型能力至苹果生态系统中，具体细节尚未披露。",
-      "category": "industry",
-      "score": 81,
+      "id": "cmq5s35qm01vksl5i8iuvz0zv",
+      "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
+      "title_en": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-08T22:24:02.356Z",
+      "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。",
+      "category": "ai-products",
+      "score": 63,
+      "selected": true
+    },
+    {
+      "id": "cmq5qlr8e01gjsl5i2dzdysvx",
+      "title": "OpenAI计划到2028年由AI主导研究",
+      "title_en": "Sam Altman's new blog about OpenAI's future path says by March-2028 a significant fraction of its ow…",
+      "url": "https://x.com/rohanpaul_ai/status/2064096574142390755",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-06-08T21:25:46.000Z",
+      "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。",
+      "category": "tip",
+      "score": 79,
       "selected": true
     },
     {
@@ -340,6 +352,18 @@
       "selected": true
     },
     {
+      "id": "cmq5pocki017bsl5ikjj1dzhk",
+      "title": "OpenAI 向 SEC 机密提交 S-1 草案，上市时间未定",
+      "title_en": "Confidential submission of draft S-1 to the SEC",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-08T14:00:00.000Z",
+      "summary": "OpenAI 近日向 SEC 机密提交了 S-1 草案（即首次公开募股注册声明），目前尚未决定上市时间。",
+      "category": "industry",
+      "score": 89,
+      "selected": true
+    },
+    {
       "id": "cmq5ae45j060nslt214k74uu3",
       "title": "微软AI CEO：超级智能即将到来，但不会取代你的工作",
       "title_en": "Microsoft's AI chief says superintelligence is near， but won't take your job",
@@ -529,6 +553,18 @@
       "summary": "OpenAI 发布计划，阐述让 AGI 造福所有人的愿景。该计划聚焦于 AI 的可及性、安全性和共享繁荣，确保技术进步惠及每个人。",
       "category": "tip",
       "score": 56,
+      "selected": true
+    },
+    {
+      "id": "cmq5pmqqc0166sl5icnriem6v",
+      "title": "苹果发布第三代 Apple Foundation Models（AFM）",
+      "title_en": "Introducing the Third Generation of Apple's Foundation Models",
+      "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "source": "Apple Machine Learning Research（RSS）",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "summary": "苹果推出第三代 Apple Foundation Models（AFM）基础模型家族，与 Google 合作定制，包含五个模型，覆盖从设备端到基于 Private Cloud Compute 的服务器端模型。这些模型旨在驱动 Apple Intelligence 功能，包括全新 Siri 和智能工具，以用户为中心深度融合操作系统，隐私为核心设计原则。",
+      "category": "ai-models",
+      "score": 79,
       "selected": true
     },
     {
