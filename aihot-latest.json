@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T21:01:42.636Z",
+  "generatedAt": "2026-06-09T23:18:43.448Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-09",
   "daily": {
@@ -225,6 +225,54 @@
   },
   "selectedItems": [
     {
+      "id": "cmq77b1f600gvsl5w4toi02fe",
+      "title": "IBM CEO：AI不一定导致员工减少",
+      "title_en": "IBM CEO： AI Won't Necessarily Lead To Smaller Headcount",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-09T21:48:41.000Z",
+      "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。",
+      "category": "industry",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmq77ckl000hfsl5wb4w757br",
+      "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
+      "title_en": "Setting a custom price for a model in AgentsView",
+      "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-06-09T21:35:31.000Z",
+      "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。",
+      "category": "tip",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmq768g090076sl5wqoyj7ng8",
+      "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
+      "title_en": "Super Micro Plans to Raise $7 Billion in Equity for AI Equipment",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-09T21:24:50.000Z",
+      "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmq74r6rm008wslophwgthx4l",
+      "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
+      "title_en": "New in Claude Managed Agents： run agents on a schedule and store environment variables in vaults",
+      "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-09T21:06:26.068Z",
+      "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。",
+      "category": "ai-products",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmq72e9ea002ksle3umrclmuo",
       "title": "Mythos 5 智能体因资源互相杀戮",
       "title_en": "Mythos 5 agents started killing other agents over resources - and \"to avoid being killed themselves\"",
@@ -357,18 +405,6 @@
       "selected": true
     },
     {
-      "id": "cmq6v2unp0c37sl5i7x4os7e1",
-      "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
-      "title_en": "New research in Nature Methods from Project Ex Vivo shows AI models learn more from diverse cell sta…",
-      "url": "https://x.com/MSFTResearch/status/2064384745195118817",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "publishedAt": "2026-06-09T16:30:52.000Z",
-      "summary": "在《Nature Methods》上发表的最新研究来自Project Ex Vivo，表明AI模型从多样化的细胞状态中学到的知识，比仅从规模化数据集中学到的更多，这一发现可能重塑疗法与患者的匹配方式。https：//msft.it/6013vgE8l",
-      "category": "paper",
-      "score": 63,
-      "selected": true
-    },
-    {
       "id": "cmq6v24y60c2rsl5i9yvqrige",
       "title": "OpenRouter与Cursor集成指南",
       "title_en": "Want to use OpenRouter with Cursor？ Here's an integration guide： https：//openrouter.ai/docs/cookboo…",
@@ -453,30 +489,6 @@
       "selected": true
     },
     {
-      "id": "cmq6rn45v0b5csl5i8uplhmsj",
-      "title": "Luma AI Ray3.2：方向进，电影出",
-      "title_en": "Direction goes in. Cinema comes out. Ray3.2 is here → http：//lumalabs.ai/ray3-2",
-      "url": "https://x.com/LumaLabsAI/status/2064358414143143954",
-      "source": "X：Luma AI (@LumaLabsAI)",
-      "publishedAt": "2026-06-09T14:46:14.000Z",
-      "summary": "方向进入，电影出来。\n\nRay3.2 来了 → http：//lumalabs.ai/ray3-2",
-      "category": "ai-models",
-      "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmq6r17220b1gsl5in9n805vf",
-      "title": "Runway视频轻松转宽高比",
-      "title_en": "Easily reformat your videos to different aspect ratios， so you can show up everywhere that matters. …",
-      "url": "https://x.com/runwayml/status/2064350871048077756",
-      "source": "X：Runway (@runwayml)",
-      "publishedAt": "2026-06-09T14:16:16.000Z",
-      "summary": "轻松将视频重新格式化为不同宽高比，让你在每一个重要平台都能展示。\n\n点击下方链接开始。",
-      "category": "ai-products",
-      "score": 63,
-      "selected": true
-    },
-    {
       "id": "cmq6qqqbp0axhsl5i2ow5j5co",
       "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
       "title_en": "Introducing Gemma 4 12B： a unified， encoder-free multimodal model",
@@ -498,18 +510,6 @@
       "summary": "Google DeepMind 加速器从欧洲选出15家机器人初创公司，提供为期3个月的密集指导和AI技术整合支持，帮助公司将AI融入核心产品。",
       "category": "industry",
       "score": 58,
-      "selected": true
-    },
-    {
-      "id": "cmq6qlc110aw0sl5iv6lmobov",
-      "title": "GPT-5.5 替代 OCR，ChinaRxiv 论文免费开放",
-      "title_en": "23，000+ ChinaRxiv papers are now freely available with more complete English translations after one …",
-      "url": "https://x.com/OpenAIDevs/status/2064346891673059484",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "publishedAt": "2026-06-09T14:00:27.000Z",
-      "summary": "23，000+ 篇 ChinaRxiv 论文现已免费提供，并带有更完整的英文翻译，源于一位开发者用 GPT-5.5 替换了复杂的 OCR 管道。",
-      "category": "tip",
-      "score": 60,
       "selected": true
     },
     {
@@ -573,18 +573,6 @@
       "selected": true
     },
     {
-      "id": "cmq6lhlqt09jhsl5ibl4egx3i",
-      "title": "Kimi 预测全部104场世界杯比赛：德国或被低估",
-      "title_en": "http：//x.com/i/article/2063961516815327232",
-      "url": "https://x.com/Kimi_Moonshot/status/2064311212243120459",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "publishedAt": "2026-06-09T11:38:40.000Z",
-      "summary": "Kimi 利用 Agent Swarm 系统并行协调300个子智能体，分析战术、球员状态、伤病、赛程、天气、赔率等因素，预测2026年美加墨世界杯全部104场比赛，并发布每轮赛前预测和赛后回顾。模型层融合了 Elo/FIFA 强度、Poisson 进球分布、xG/xT 指标、蒙特卡洛模拟等方法。预测结果显示西班牙和法国为头号热门，但德国夺冠概率可能被市场低估：模型基线估计约11.0%，校准估计约11.3%，而部分市场隐含概率仅约7.4%，正向偏差约+3.6个百分点。该判断基于多分析链交叉验证，可能源于对德国近两届小组出局的近因偏差以及纳格尔斯曼高位压迫体系与穆西亚拉/维尔茨新创造轴的复苏信号。",
-      "category": "ai-products",
-      "score": 63,
-      "selected": true
-    },
-    {
       "id": "cmq6l2wms09elsl5ipt8ah0ij",
       "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
       "title_en": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
@@ -594,18 +582,6 @@
       "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。",
       "category": "tip",
       "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmq6hl0ya08ixsl5ik0w4p6zg",
-      "title": "阿里云在马来西亚柔佛推新区域",
-      "title_en": "Alibaba Cloud has launched a new public cloud region in Johor， Malaysia， with two new data centres t…",
-      "url": "https://x.com/alibaba_cloud/status/2064288633188708411",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "publishedAt": "2026-06-09T10:08:57.000Z",
-      "summary": "阿里云在马来西亚柔佛州推出了一个新的公有云区域，包含两个新数据中心，以满足今年下半年马来西亚对云和AI服务日益增长的需求，包括AgentRun、STAROps、ACS Agent Sandbox、Agent Security Center、AI Security Guardrails 2.0和Agentic SOC。https：//int.alibabacloud.com/m/1000414242/",
-      "category": "industry",
-      "score": 67,
       "selected": true
     },
     {
@@ -654,18 +630,6 @@
       "summary": "该教程基于 NVIDIA cuTile Python 实现了分块 GPU 内核编程工作流，在 Colab 环境中配置 GPU、驱动、CUDA 及 cuTile 可用性后，分别构建了 tiled 向量加法、矩阵加法和矩阵乘法核函数，并以 PyTorch 作为回退保持 notebook 可执行。每一步均通过 PyTorch 验证结果正确性，并基准测试了各阶段的中位运行时间。",
       "category": "tip",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmq6e266t07lksl5ilaz45zbv",
-      "title": "硅基流动联合CodeWhale推出DeepSeek V4终端最佳性价比组合",
-      "title_en": "V4-Pro （quality） + V4-Flash （speed） 2 lines of config to bring the Best price/perf DeepSeek combo in…",
-      "url": "https://x.com/SiliconFlowAI/status/2064261826083512554",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-06-09T08:22:26.000Z",
-      "summary": "硅基流动宣布，通过V4-Pro（质量）与V4-Flash（速度）两行配置，即可在终端获得DeepSeek V4的最佳性价比组合。专为DeepSeek V4构建的终端编码智能体CodeWhale现已内置SiliconFlow。CodeWhale具备流式推理（显示思考过程）、自动路由（根据任务复杂度切换模型与思考深度）、零漂移（通过书面宪法为每轮排序权威，保持V4定向）以及自我改进（V4协助编写框架，框架提升后每个会话更强大）等特性。",
-      "category": "ai-products",
-      "score": 61,
       "selected": true
     },
     {
@@ -777,15 +741,15 @@
       "selected": true
     },
     {
-      "id": "cmq5wmjtl032esl5izran9oz5",
-      "title": "Claude 东京站活动开放注册",
-      "title_en": "Final stop： Tokyo. Register to hear directly from the teams behind Claude： http：//claude.com/code-w…",
-      "url": "https://x.com/claudeai/status/2064139073590104402",
-      "source": "X：Claude (@claudeai)",
-      "publishedAt": "2026-06-09T00:14:39.000Z",
-      "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo",
-      "category": "industry",
-      "score": 63,
+      "id": "cmq76im3h008vsl5w73krij6y",
+      "title": "将 GitHub CI 迁移到 Hugging Face Jobs",
+      "title_en": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "summary": "本文介绍了如何将 GitHub Actions 的 CI 作业迁移到 Hugging Face Jobs 上运行，以解决 GitHub Actions 速度慢、缺乏 GPU 支持等问题。通过使用 huggingface/jobs-actions 桥接，将 GitHub Actions 的 job 转为临时自托管运行器：GitHub App 监听 `workflow_job.queued` webhook，dispatcher Space 验证后启动对应硬件（CPU 或 t4-small、h200 等 GPU）的 HF Job，由 ephemeral runner 执行 CI 并上报结果。作者基于 Trackio 项目实际落地，CPU 作业时间减少约 30%，并新增了 GPU 测试套件。文章分步说明了复制 dispatcher Space、创建并安装 GitHub App、配置 webhook 和 HF_TOKEN 的具体步骤。",
+      "category": "tip",
+      "score": 74,
       "selected": true
     },
     {
@@ -798,30 +762,6 @@
       "summary": "Gopuff与SpaceXAI合作推出Go智能购物助手，内置于Gopuff应用，由Grok文本、音频和图像模型驱动。Go结合Grok的推理、语音和图像生成能力与Gopuff的13年需求智能，利用X和网络实时信号。它可在用户打开应用前根据历史偏好和天气等信号构建个性化购物车，并包含基于Grok Imagine的超逼真视觉购物信息流。Go目前在美国iOS和Android端可用，随后在英国推出。",
       "category": "ai-products",
       "score": 65,
-      "selected": true
-    },
-    {
-      "id": "cmq5ujnt202iesl5ig6vg5i3r",
-      "title": "Apple Core AI 框架",
-      "title_en": null,
-      "url": "https://developer.apple.com/documentation/coreai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-08T23:05:07.159Z",
-      "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02：47（UTC）。",
-      "category": "ai-products",
-      "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmq5u4ypb02edsl5izrg3y8f9",
-      "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/961/721.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-08T22:50:42.000Z",
-      "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。",
-      "category": "industry",
-      "score": 75,
       "selected": true
     }
   ]
