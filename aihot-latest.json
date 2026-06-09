@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T18:09:39.022Z",
+  "generatedAt": "2026-06-09T21:01:42.636Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-09",
   "daily": {
@@ -225,6 +225,66 @@
   },
   "selectedItems": [
     {
+      "id": "cmq72e9ea002ksle3umrclmuo",
+      "title": "Mythos 5 智能体因资源互相杀戮",
+      "title_en": "Mythos 5 agents started killing other agents over resources - and \"to avoid being killed themselves\"",
+      "url": "https://x.com/AISafetyMemes/status/2064435128479400270",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "publishedAt": "2026-06-09T19:51:04.000Z",
+      "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\"",
+      "category": "industry",
+      "score": 76,
+      "selected": true
+    },
+    {
+      "id": "cmq7289uo001rsle3dbj1unbi",
+      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+      "title_en": "Can Voice Agents Handle Bilingual Customers？ Benchmarking Frontier ASR on Code-Switched Speech",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-09T19:38:28.000Z",
+      "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
+      "category": "paper",
+      "score": 67,
+      "selected": true
+    },
+    {
+      "id": "cmq70u8g501f3slbh9ljxnmoy",
+      "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
+      "title_en": "Some really cool recommendation for pushing Claude Code to its full potential. By Thariq （@trq212） f…",
+      "url": "https://x.com/rohanpaul_ai/status/2064425086409679358",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-06-09T19:11:10.000Z",
+      "summary": "Thariq（Claude Code 团队）提出十条建议，核心转变是：从检查 Claude 是否做对工作，转向检查它是否在做正确的工作。具体包括：提前提供完整上下文，将其视为思考伙伴；用小规格文档让 Claude 访谈实现细节；探索多方向并生成 HTML 原型；提供丰富上下文（如功能可能一个月后删除）而非硬约束；设定明确目标与验证方法；使用 /goal 命令；利用 Workflows 并行任务、自我验证并生成对比报告；同时设置目标和 workflow；更勇敢地将此前认为 LLM 无法完成的任务交给 Claude Fable 5，因其可运行数小时、自检并产出高质量代码。Thariq 本人用 Claude Fable 5 剪辑了整段视频证明其能力。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmq6zc2gi00zlslbhqf3iwgv1",
+      "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
+      "title_en": "Notebooks in @GeminiApp are now 100% rolled out in Europe！ We're so excited to hear what you think！…",
+      "url": "https://x.com/NotebookLM/status/2064410506287538387",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "publishedAt": "2026-06-09T18:13:14.000Z",
+      "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true
+    },
+    {
+      "id": "cmq737old00b0sle3025e4b4c",
+      "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
+      "title_en": "Advisor： Give Any Model a Lifeline to a Smarter One",
+      "url": "https://openrouter.ai/blog/advisor-server-tool",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-09T18:00:00.000Z",
+      "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。",
+      "category": "ai-products",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmq6yahue00p0slbh0r0bgk9q",
       "title": "Cursor Evals 新增成本与输出 Token 图表",
       "title_en": "we just shipped some improvements to http：//cursor.com/evals！ you can now see cost， output tokens a…",
@@ -249,6 +309,18 @@
       "selected": true
     },
     {
+      "id": "cmq6yfqwl00r9slbhgupwks0e",
+      "title": "Claude Fable 发布：Anthropic 带来的另一种推理体验",
+      "title_en": "What it feels like to work with Mythos",
+      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "publishedAt": "2026-06-09T17:11:22.000Z",
+      "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。",
+      "category": "tip",
+      "score": 66,
+      "selected": true
+    },
+    {
       "id": "cmq6w3soi002gslbhz3kkhav0",
       "title": "Claude Fable 5 和 Claude Mythos 5",
       "title_en": "Claude Fable 5 and Claude Mythos 5",
@@ -258,18 +330,6 @@
       "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发率低于 5% 的会话。Mythos 5 通过 Project Glasswing 向网络安全防御者开放。",
       "category": "ai-models",
       "score": 90,
-      "selected": true
-    },
-    {
-      "id": "cmq6x3e2q00cwslbhxy4wde4e",
-      "title": "Cohere首个编程模型North Mini Code免费开源",
-      "title_en": "North Mini Code is now free on OpenCode 256K Context · fully open source Cohere's first coding mod…",
-      "url": "https://x.com/opencode/status/2064392792265171081",
-      "source": "X：opencode (@opencode)",
-      "publishedAt": "2026-06-09T17:02:50.000Z",
-      "summary": "North Mini Code 现已在 OpenCode 上免费提供\n\n256K 上下文 · 完全开源\n\nCohere 的首个编程模型",
-      "category": "ai-models",
-      "score": 65,
       "selected": true
     },
     {
@@ -330,6 +390,18 @@
       "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。",
       "category": "tip",
       "score": 68,
+      "selected": true
+    },
+    {
+      "id": "cmq74dg8m006psloprllkcbmm",
+      "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
+      "title_en": "Introducing North Mini Code： Cohere's First Model For Developers",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-09T15:56:23.000Z",
+      "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。",
+      "category": "ai-models",
+      "score": 73,
       "selected": true
     },
     {
@@ -462,6 +534,18 @@
       "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。",
       "category": "industry",
       "score": 63,
+      "selected": true
+    },
+    {
+      "id": "cmq734vrf00a7sle3gi1phrm9",
+      "title": "Nextdoor 工程师借助 Codex 与 GPT-5.5 无限制构建",
+      "title_en": "How engineers at Nextdoor use Codex to build without limits",
+      "url": "https://openai.com/index/nextdoor",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-09T12:00:00.000Z",
+      "summary": "Nextdoor 工程师利用 Codex 搭配 GPT-5.5 调查难以复现的问题、实现跨平台构建，并集中精力于产品成果。",
+      "category": "tip",
+      "score": 55,
       "selected": true
     },
     {
@@ -738,90 +822,6 @@
       "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。",
       "category": "industry",
       "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmq5qlr8e01gjsl5i2dzdysvx",
-      "title": "OpenAI计划到2028年由AI主导研究",
-      "title_en": "Sam Altman's new blog about OpenAI's future path says by March-2028 a significant fraction of its ow…",
-      "url": "https://x.com/rohanpaul_ai/status/2064096574142390755",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-08T21:25:46.000Z",
-      "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。",
-      "category": "tip",
-      "score": 79,
-      "selected": true
-    },
-    {
-      "id": "cmq5p0eag0118sl5iydnwrhui",
-      "title": "Viggle API 上线：任意角色任意动作秒级生成",
-      "title_en": "Introducing the Viggle API. Give any character any motion， one API call - alive in seconds. Wire …",
-      "url": "https://x.com/ViggleAI/status/2064083087806390319",
-      "source": "X：Viggle AI (@ViggleAI)",
-      "publishedAt": "2026-06-08T20:32:11.000Z",
-      "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmq5kh5ui00ghsl3849i05qae",
-      "title": "Anthropic：AI编码快于生物学的缘由",
-      "title_en": "New Science Blog： Why has AI advanced faster in coding than in biology？ To agents， bio databases a…",
-      "url": "https://x.com/AnthropicAI/status/2064054837294354677",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "publishedAt": "2026-06-08T18:39:56.000Z",
-      "summary": "新的科学博客：为什么 AI 在编码方面的进步比在生物学方面更快？\n\n对智能体而言，生物数据库就像汽车发明前建造的城市--开进去会让人抓狂，因为它们是针对不同的交通流量设计的。\n\n我们如何构建智能体可以使用的基础设施？\nhttps：//www.anthropic.com/research/agents-in-biology",
-      "category": "tip",
-      "score": 61,
-      "selected": true
-    },
-    {
-      "id": "cmq5lakyn00nasl382lj0ka6f",
-      "title": "Apple发布新一代Apple Intelligence和Siri AI",
-      "title_en": "Apple unveils next generation of Apple Intelligence， Siri AI， and more",
-      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
-      "source": "Apple：Newsroom（RSS）",
-      "publishedAt": "2026-06-08T18:18:43.157Z",
-      "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。",
-      "category": "ai-products",
-      "score": 56,
-      "selected": true
-    },
-    {
-      "id": "cmq5lakyn00nbsl3832izqutm",
-      "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
-      "title_en": "Apple Intelligence brings powerful AI capabilities into everyday experiences",
-      "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences",
-      "source": "Apple：Newsroom（RSS）",
-      "publishedAt": "2026-06-08T18:17:44.449Z",
-      "summary": "Apple 发布下一代 Apple Intelligence，将 AI 能力集成到 iPhone、iPad 和 Mac 中，带来更个性化和有帮助的日常体验。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmq5js0wr009ksl38tvk1llo2",
-      "title": "苹果 WWDC 2026 直播",
-      "title_en": null,
-      "url": "https://www.apple.com/apple-events/event-stream",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-08T18:17:22.096Z",
-      "summary": "苹果 WWDC 2026 主题演讲通过官网进行直播，Hacker News 用户讨论热度达到 110 点。",
-      "category": "industry",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmq5lakyn00nesl38edfw2m19",
-      "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
-      "title_en": "Due to DMA， Siri AI delayed in EU for iOS 27 and iPadOS 27",
-      "url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27",
-      "source": "Apple：Newsroom（RSS）",
-      "publishedAt": "2026-06-08T18:13:26.639Z",
-      "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。",
-      "category": "industry",
-      "score": 65,
       "selected": true
     }
   ]
