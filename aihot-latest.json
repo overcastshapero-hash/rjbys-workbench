@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T03:52:27.202Z",
+  "generatedAt": "2026-06-09T07:53:41.989Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-09",
   "daily": {
@@ -224,6 +224,18 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq69650406cmsl5iwf8zszhp",
+      "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/961/868.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-09T05:53:06.000Z",
+      "summary": "Cursor 将欧洲总部设在伦敦，计划招聘约 200 名员工，并在巴黎、慕尼黑等地开设小型办事处。SpaceX 拥有以 600 亿美元收购 Cursor 的选择权，或支付 100 亿美元开展全新合作。Cursor 目前 B2B 年化营收约 26 亿美元，客户包括英国航空、英国石油、诺基亚等。公司强调数据留存欧洲本地以满足监管合规，其平台支持用户用自然语言生成代码，主打模型中立，竞争对手包括 GitHub Copilot、OpenAI 和谷歌的同类产品。",
+      "category": "industry",
+      "score": 72,
+      "selected": true
+    },
     {
       "id": "cmq63dzew04srsl5ix1r8n4ne",
       "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
@@ -645,6 +657,18 @@
       "selected": true
     },
     {
+      "id": "cmq6ad1x406mnsl5icugz7p62",
+      "title": "Reasoning Arena：可验证奖励不足时的迹线锦标赛",
+      "title_en": "Reasoning Arena： Trace Tournaments When Verifiable Rewards Fall Short",
+      "url": "https://arxiv.org/abs/2606.09380",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "publishedAt": "2026-06-08T11:57:17.000Z",
+      "summary": "针对基于可验证奖励的强化学习（RLVR）在组级别奖励无信息时无法提供梯度信号的问题，提出Reasoning Arena自适应训练框架。该框架将非多样化奖励组路由至评判系统，通过迹线锦标赛（trace tournaments）对推理迹线进行头对头比较，转化为相对奖励信号。每个新迹线仅与动态更新的少量锚点比较，然后在不完全比较图上拟合Bradley-Terry模型。在竞赛数学和编程基准上，平均超越RLVR基线7.6%，训练加速27%至41%，节省近50%生成计算量。",
+      "category": "paper",
+      "score": 74,
+      "selected": true
+    },
+    {
       "id": "cmq55gcok04r4slt26kmgs0xg",
       "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
       "title_en": "Building Pakistan Notice Helper： A Small AI Tool for a Very Local Safety Problem",
@@ -726,42 +750,6 @@
       "summary": "CoreWeave 对当前计算市场进行了分析，指出推动增长的因素和限制增长的因素。该公司的市场看法即围绕这两个维度展开。",
       "category": "tip",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmq4xiqwk02l4slt2amhfh2do",
-      "title": "PixVerse Creative Partner Program 2.0 上线",
-      "title_en": "Thank you for the thoughtful sharing. Our chat at Berlinale was truly inspiring and rewarding！ Looki…",
-      "url": "https://x.com/PixVerse_/status/2063890444413706442",
-      "source": "X：PixVerse (@PixVerse_)",
-      "publishedAt": "2026-06-08T07:46:41.000Z",
-      "summary": "PixVerse 宣布 Creative Partner Program （CPP） 2.0 正式上线，面向 AI 视频创作者。该计划围绕真实创作：发布、测试、教学、故事片及公开推广新想法。核心福利包括：合格帖子每周最高可获得 150，000 credits；每周 $2，500 现金奖池，单个创作者单周最高 $850；对大项目、教程、测试内容和电影节投稿提供特别支持。参与者还可获得更多曝光、项目机会及与 PixVerse 共创的可能。申请可通过官网进行。",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true
-    },
-    {
-      "id": "cmq4tfme001jlslt2hle9mu5a",
-      "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
-      "title_en": "Can AI truly edit audio， not just generate it？ 🎧 Tencent Hy， in collaboration with SJTU， SII， NTU，…",
-      "url": "https://x.com/TencentHunyuan/status/2063862263434613237",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "publishedAt": "2026-06-08T05:54:42.000Z",
-      "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。",
-      "category": "paper",
-      "score": 69,
-      "selected": true
-    },
-    {
-      "id": "cmq4tna5301m5slt2fr7nmpp7",
-      "title": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
-      "title_en": "全球首个：高德发布 3D 原生城市世界模型 ABot-Earth0.5，单图 10 分钟重建 3D 城市",
-      "url": "https://www.ithome.com/0/961/378.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-08T05:53:46.000Z",
-      "summary": "阿里巴巴旗下高德发布全球首个3D原生城市世界模型ABot-Earth0.5，已建成覆盖190多个国家和地区的3D地图。用户输入卫星图或文字描述，10分钟即可在消费级GPU上生成公里级3D城市，输出可编辑3DGS格式，可直接导入Unity等引擎。制图成本为传统百分之一，效率提升约千倍，可为具身智能、低空经济、应急救援等提供支撑。目前已开放内测，可前往abot-earth.amap.com提交申请。",
-      "category": "ai-models",
-      "score": 73,
       "selected": true
     }
   ]
