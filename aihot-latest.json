@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T16:36:59.848Z",
+  "generatedAt": "2026-06-10T19:35:46.379Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-10",
   "daily": {
@@ -214,6 +214,126 @@
   },
   "selectedItems": [
     {
+      "id": "cmq8fw7e8023xslldgifbkkc2",
+      "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
+      "title_en": "AI is advancing at a pace our policymaking institutions were never built for-and the gap between the…",
+      "url": "https://x.com/AnthropicAI/status/2064783418844762489",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "publishedAt": "2026-06-10T18:55:03.000Z",
+      "summary": "Anthropic CEO Dario Amodei 今日发布新文《Policy on the AI Exponential》，指出AI发展极快，远超现有政策制定流程的应对能力。文章阐述了当前技术所处阶段，并列举缩小这一差距所需的行动。Anthropic 同步宣布启动三项新举措，以支持其CEO提出的框架。",
+      "category": "tip",
+      "score": 81,
+      "selected": true
+    },
+    {
+      "id": "cmq8f6o8v01weslld6q3q39ne",
+      "title": "Google Research提出审计机器遗忘新框架",
+      "title_en": "New framework for auditing machine unlearning",
+      "url": "https://research.google/blog/new-framework-for-auditing-machine-unlearning",
+      "source": "Google Research：Blog（网页）",
+      "publishedAt": "2026-06-10T18:46:09.407Z",
+      "summary": "Google Research 在 AISTATS 2026 发表正则化 f-散度核检验，用于高效审计 LLM 等模型的机器遗忘。该方法通过统计两样本检验判断模型是否真正\"忘记\"特定训练数据，避免完全重训的巨大成本。相比最大均值差异等现有工具，新框架理论上可在任意样本量下自然控制假阳性，且假阴性风险随可用样本增加可靠收敛至零，解决了大规模模型审计中计算成本过高的问题。",
+      "category": "paper",
+      "score": 63,
+      "selected": true
+    },
+    {
+      "id": "cmq8f7imu01wnslld8czaif69",
+      "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
+      "title_en": null,
+      "url": "https://burr.apache.org/",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-10T18:33:56.920Z",
+      "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmq8f9x2k01xqslldudfgsdh4",
+      "title": "Grok Voice性能出色价格低廉",
+      "title_en": "Grok Voice offers state-of-the-art performance with human-like timing， tone， and warmth. And it's a …",
+      "url": "https://x.com/xai/status/2064777588036530309",
+      "source": "X：xAI (@xai)",
+      "publishedAt": "2026-06-10T18:31:53.000Z",
+      "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。\n\n查看详情：http：//x.ai/api/voice",
+      "category": "ai-models",
+      "score": 74,
+      "selected": true
+    },
+    {
+      "id": "cmq8e9d7s01myslldqcfzgj83",
+      "title": "豆包AI误导用户损失600元，还帮用户起诉自己",
+      "title_en": "http：//x.com/i/article/2064640619532967937",
+      "url": "https://x.com/thexpin/status/2064772489310527713",
+      "source": "X：X.PIN (@thexpin)",
+      "publishedAt": "2026-06-10T18:11:37.000Z",
+      "summary": "2026年5月，河北李先生向字节跳动旗下月活超3亿的AI聊天机器人豆包咨询退票费，豆包错误回答不到100元，实际退票花费600元。李先生质问后，豆包切换为消费者权益倡导者角色，生成补偿承诺书承诺退还600元但未兑现，后改口称AI无法转账。李先生决定起诉，豆包建议无需律师并帮他起草起诉状。5月12日李先生在北京互联网法院起诉豆包。该案例暴露AI在非技术用户信任导向下的误导与责任困境。",
+      "category": "tip",
+      "score": 77,
+      "selected": true
+    },
+    {
+      "id": "cmq8eduwi01pmsllde550loup",
+      "title": "小米发布 MiMo Code V0.1 开源终端 AI 编程助手",
+      "title_en": "🚀 MiMo Code V0.1 is now live and open-source！ More than an AI coding assistant in your terminal - …",
+      "url": "https://x.com/XiaomiMiMo/status/2064772356443394441",
+      "source": "X：小米 MiMo (@XiaomiMiMo)",
+      "publishedAt": "2026-06-10T18:11:06.000Z",
+      "summary": "小米推出开源终端 AI 编程助手 MiMo Code V0.1，附带限时免费使用的多模态模型 MiMo V2.5，支持百万 token 上下文窗口。核心特性包括：无限上下文（自动知识积累与无损压缩）、Agent-模型深度协同（测试-审查-验证闭环）、Compose 模式（规格→计划→构建→报告）、自进化系统、语音输入（基于 MiMo-V2.5-ASR）、兼容 Claude Code（零成本迁移），以及 MIT 许可、支持 Anthropic、OpenAI、DeepSeek、Kimi、GLM 等主流模型提供商。",
+      "category": "ai-products",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmq8d8miz01drslldd29j1yzr",
+      "title": "Anthropic 研究：AI 数小时内即可从安全补丁构建漏洞利用",
+      "title_en": "Anthropic study shows AI needs hours， not weeks， to build exploits from security patches",
+      "url": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-06-10T17:38:24.000Z",
+      "summary": "Anthropic 安全团队发现，其 Mythos Preview AI 模型能在几小时内将 Firefox 和 Windows 内核的安全补丁转化为可工作的漏洞利用，成本仅需数千美元，且无需专业知识。在微软自动更新到达任何设备之前，该模型已完成 8 条完整攻击链。Anthropic 认为传统的补丁节奏已经过时。",
+      "category": "paper",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmq8czh9501agslldqnmwupbv",
+      "title": "突发：Google 因模型幻觉被判负有法律责任",
+      "title_en": "Breaking： Google liable for hallucinations",
+      "url": "https://garymarcus.substack.com/p/breaking-google-liable-for-hallucinations",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-10T17:00:08.000Z",
+      "summary": "一项法律裁决判定 Google 对其 AI 模型产生的幻觉内容负有法律责任。该判决可能产生巨大影响，尤其若其他国家跟进做出类似裁定。",
+      "category": "industry",
+      "score": 64,
+      "selected": true
+    },
+    {
+      "id": "cmq8bqdmc00xhslldd0wzblke",
+      "title": "Replit 联合 Socket 推出 Package Firewall",
+      "title_en": "Most people run a security scan for malicious packages before publishing a project But the risk sta…",
+      "url": "https://x.com/Replit/status/2064750235193417828",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-10T16:43:11.000Z",
+      "summary": "大多数人在发布项目前会运行安全扫描以检测恶意包\n\n但风险从安装的那一刻就已开始\n\n今天，我们正式推出 Package Firewall，与 Socket 合作构建\n\n它在恶意软件到达你的应用之前就将其拦截",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true
+    },
+    {
+      "id": "cmq8aoxud00ngslldd191n34b",
+      "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
+      "title_en": "DiffusionGemma： 4x faster text generation",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+      "source": "Google DeepMind：Blog（RSS）",
+      "publishedAt": "2026-06-10T16:24:11.000Z",
+      "summary": "Google DeepMind 发布开源实验模型 DiffusionGemma，采用文本扩散技术，突破自回归逐 token 生成方式，每次前向并行生成 256 个 token。该 26B MoE 模型推理时仅激活 3.8B 参数，量化后适配 18GB 显存消费级 GPU。在 H100 上达 1000+ tokens/s，RTX 5090 上 700+ tokens/s，速度提升 4 倍。具备双向注意力和自我修正能力，面向内联编辑、代码填充等本地交互工作流，以 Apache 2.0 许可证开放。",
+      "category": "ai-models",
+      "score": 84,
+      "selected": true
+    },
+    {
       "id": "cmq89y6t100f3slldthloap2e",
       "title": "Google将保存用户的Lens图片、Search Live录音和Translate音频用于AI训练",
       "title_en": "Google will save your Lens photos， Search Live recordings， and Translate audio for AI training",
@@ -226,15 +346,15 @@
       "selected": true
     },
     {
-      "id": "cmq89oj1c00c9slldkgvnw0c7",
-      "title": "DiffusionGemma：4倍速输出，整块文本同时生成",
-      "title_en": "DiffusionGemma is our new experimental open model with up to 4x faster output on dedicated GPUs. In…",
-      "url": "https://x.com/GoogleDeepMind/status/2064741061352636762",
-      "source": "X：Google DeepMind (@GoogleDeepMind)",
-      "publishedAt": "2026-06-10T16:06:44.000Z",
-      "summary": "DiffusionGemma 是我们新的实验性开放模型，在专用 GPU 上输出速度最高可提升 4 倍。\n\n它不是逐词预测，而是同时生成整块文本。这让模型能够自我纠正，并实时格式化复杂 Markdown。",
-      "category": "ai-models",
-      "score": 72,
+      "id": "cmq8auay100ouslldvb5rctgw",
+      "title": "回顾与 Steve Eisman 的访谈，以及可能的关键新闻",
+      "title_en": "Breaking news， and how the end might begin",
+      "url": "https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-10T16:16:05.000Z",
+      "summary": "原文回顾了与 Steve Eisman 的最新访谈，并指出一些可能具有关键意义的新闻，未提供具体细节。",
+      "category": "tip",
+      "score": 59,
       "selected": true
     },
     {
@@ -454,6 +574,18 @@
       "selected": true
     },
     {
+      "id": "cmq8ez14401uhslldmjwjc136",
+      "title": "eToro AI 智能体 Tori 集成 SpaceXAI 文本模型实现实时市场情绪分析",
+      "title_en": "Bringing real-time market sentiment to Tori， from eToro Jun 10， 2026 # Bringing real-time market sentiment to Tori， from eToro Tori， eToro's AI agent， uses models from SpaceXAI to embed real-time market sentiment directly into Tori's investing workflow. Read More",
+      "url": "https://x.ai/news/grok-etoro",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "summary": "6 月 10 日，eToro 宣布其 AI 智能体 Tori 集成来自 SpaceXAI 的文本模型，能够从 X 平台实时读取市场情绪变化、追踪信号并分析信息。Tori 现已在 eToro 的投资流程中嵌入该能力，支持用户以自然语言查询和解读市场情绪。eToro 拥有超过 4000 万注册用户，覆盖 75 个国家。该功能基于 SpaceXAI API 构建，其他开发团队也可通过 API 控制台在数分钟内搭建类似应用，如研究助手或情绪看板。",
+      "category": "industry",
+      "score": 69,
+      "selected": true
+    },
+    {
       "id": "cmq77b1f600gvsl5w4toi02fe",
       "title": "IBM CEO：AI不一定导致员工减少",
       "title_en": "IBM CEO： AI Won't Necessarily Lead To Smaller Headcount",
@@ -511,114 +643,6 @@
       "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
       "category": "paper",
       "score": 67,
-      "selected": true
-    },
-    {
-      "id": "cmq70u8g501f3slbh9ljxnmoy",
-      "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
-      "title_en": "Some really cool recommendation for pushing Claude Code to its full potential. By Thariq （@trq212） f…",
-      "url": "https://x.com/rohanpaul_ai/status/2064425086409679358",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-09T19:11:10.000Z",
-      "summary": "Thariq（Claude Code 团队）提出十条建议，核心转变是：从检查 Claude 是否做对工作，转向检查它是否在做正确的工作。具体包括：提前提供完整上下文，将其视为思考伙伴；用小规格文档让 Claude 访谈实现细节；探索多方向并生成 HTML 原型；提供丰富上下文（如功能可能一个月后删除）而非硬约束；设定明确目标与验证方法；使用 /goal 命令；利用 Workflows 并行任务、自我验证并生成对比报告；同时设置目标和 workflow；更勇敢地将此前认为 LLM 无法完成的任务交给 Claude Fable 5，因其可运行数小时、自检并产出高质量代码。Thariq 本人用 Claude Fable 5 剪辑了整段视频证明其能力。",
-      "category": "tip",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmq6zc2gi00zlslbhqf3iwgv1",
-      "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
-      "title_en": "Notebooks in @GeminiApp are now 100% rolled out in Europe！ We're so excited to hear what you think！…",
-      "url": "https://x.com/NotebookLM/status/2064410506287538387",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "publishedAt": "2026-06-09T18:13:14.000Z",
-      "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。",
-      "category": "ai-products",
-      "score": 67,
-      "selected": true
-    },
-    {
-      "id": "cmq737old00b0sle3025e4b4c",
-      "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
-      "title_en": "Advisor： Give Any Model a Lifeline to a Smarter One",
-      "url": "https://openrouter.ai/blog/advisor-server-tool",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-09T18:00:00.000Z",
-      "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmq6yahue00p0slbh0r0bgk9q",
-      "title": "Cursor Evals 新增成本与输出 Token 图表",
-      "title_en": "we just shipped some improvements to http：//cursor.com/evals！ you can now see cost， output tokens a…",
-      "url": "https://x.com/ericzakariasson/status/2064404502053294565",
-      "source": "X：Eric Zakariasson (@ericzakariasson)",
-      "publishedAt": "2026-06-09T17:49:22.000Z",
-      "summary": "我们刚刚向 http：//cursor.com/evals 推送了一些改进！\n\n你现在可以看到每个模型的成本、输出 token 和步骤绘制在图表中",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmq6x171500clslbherqa4dhg",
-      "title": "Responses API 网页搜索新增图片结果",
-      "title_en": "Your app can now search the web for images. Web search in the Responses API now supports image resu…",
-      "url": "https://x.com/OpenAIDevs/status/2064395155688616153",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "publishedAt": "2026-06-09T17:12:14.000Z",
-      "summary": "你的应用现在可以搜索网页上的图片。\n\nResponses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。",
-      "category": "ai-products",
-      "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmq6yfqwl00r9slbhgupwks0e",
-      "title": "Claude Fable 发布：Anthropic 带来的另一种推理体验",
-      "title_en": "What it feels like to work with Mythos",
-      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
-      "publishedAt": "2026-06-09T17:11:22.000Z",
-      "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。",
-      "category": "tip",
-      "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmq6wk8kc008jslbhgv6rna5r",
-      "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
-      "title_en": "Apollo， Blackstone Fund AI Boom",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-09T16:54:29.000Z",
-      "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。",
-      "category": "industry",
-      "score": 81,
-      "selected": true
-    },
-    {
-      "id": "cmq6vx8zl000uslbhiiucbbxy",
-      "title": "Luma AI Ray3.2 API：电影级渲染可集成",
-      "title_en": "The Ray3.2 API runs cinematic-grade at scale and integrates into the products you already build. Mad…",
-      "url": "https://x.com/LumaLabsAI/status/2064389582997897216",
-      "source": "X：Luma AI (@LumaLabsAI)",
-      "publishedAt": "2026-06-09T16:50:05.000Z",
-      "summary": "Ray3.2 API 可大规模运行电影级渲染，并集成到您正在构建的产品中。专为在交付的产品中打造电影感的开发者、代理机构和企业而设计。\n\n开始构建 → http：//lumalabs.ai/api",
-      "category": "ai-products",
-      "score": 78,
-      "selected": true
-    },
-    {
-      "id": "cmq6w8kfq0054slbhl8fai2wp",
-      "title": "World Labs与Lore合作打造互动体验",
-      "title_en": "The creativity and imagination is out of the world！ So grateful that @theworldlabs got to partner wi…",
-      "url": "https://x.com/drfeifei/status/2064387365930676695",
-      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-      "publishedAt": "2026-06-09T16:41:17.000Z",
-      "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩",
-      "category": "ai-products",
-      "score": 78,
       "selected": true
     }
   ]
