@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T12:24:15.412Z",
+  "generatedAt": "2026-06-10T16:36:59.848Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-10",
   "daily": {
@@ -214,6 +214,78 @@
   },
   "selectedItems": [
     {
+      "id": "cmq89y6t100f3slldthloap2e",
+      "title": "Google将保存用户的Lens图片、Search Live录音和Translate音频用于AI训练",
+      "title_en": "Google will save your Lens photos， Search Live recordings， and Translate audio for AI training",
+      "url": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
+      "source": "The Verge：AI（RSS）",
+      "publishedAt": "2026-06-10T16:18:45.000Z",
+      "summary": "Google更新搜索交互数据保存方式，新增\"Search Services History\"设置，用于保存用户搜索时使用的图片、文件、音频和视频，包括Google Lens搜索的图片、实时搜索工具Search Live的录音、语音搜索和Translate中的语音片段。这些数据将被用于\"提供、改进和开发AI模型\"。用户可关闭该设置并禁用\"Save Media\"选项以避免保存。",
+      "category": "ai-products",
+      "score": 74,
+      "selected": true
+    },
+    {
+      "id": "cmq89oj1c00c9slldkgvnw0c7",
+      "title": "DiffusionGemma：4倍速输出，整块文本同时生成",
+      "title_en": "DiffusionGemma is our new experimental open model with up to 4x faster output on dedicated GPUs. In…",
+      "url": "https://x.com/GoogleDeepMind/status/2064741061352636762",
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "publishedAt": "2026-06-10T16:06:44.000Z",
+      "summary": "DiffusionGemma 是我们新的实验性开放模型，在专用 GPU 上输出速度最高可提升 4 倍。\n\n它不是逐词预测，而是同时生成整块文本。这让模型能够自我纠正，并实时格式化复杂 Markdown。",
+      "category": "ai-models",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmq8a2tlv00hrslld20zqrt9e",
+      "title": "通过语言服务器为 GitHub Copilot CLI 提供真正的代码智能",
+      "title_en": "Give GitHub Copilot CLI real code intelligence with language servers",
+      "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-06-10T16:00:00.000Z",
+      "summary": "GitHub Copilot CLI 现在可以通过安装和配置 LSP（Language Server Protocol）服务器来替代原始的暴力 grep 或反编译方式，从而获得真正的代码智能。",
+      "category": "tip",
+      "score": 68,
+      "selected": true
+    },
+    {
+      "id": "cmq88mutt002qslldf2vy34fj",
+      "title": "OpenRouter 推出 Activity explorer 活动探索器",
+      "title_en": "Today we're launching the new Activity explorer on OpenRouter. It's the best way to see how much an…",
+      "url": "https://x.com/OpenRouter/status/2064730000956489889",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-06-10T15:22:47.000Z",
+      "summary": "今天，我们在 OpenRouter 上推出了新的 Activity explorer。\n\n这是查看你和团队在每个模型上花费了多少的最佳方式，还包括 token、缓存命中率、智能体以及趋势。所有数据实时更新。\n\n看看我们的团队如何使用 Fable 和其他模型 👇",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmq883zxf05f5slepn6djvgee",
+      "title": "毕业典礼频现\"谈 AI 色变\"，微软总裁史密斯呼吁行业必须回应公众担忧",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/962/680.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-10T15:22:02.000Z",
+      "summary": "近几周多场毕业典礼上，演讲者宣传AI技术时遭学生嘘声。普林斯顿应届毕业生曾否决一款疑似借助AI设计的毕业典礼夹克。微软总裁布拉德·史密斯回应称，行业必须严肃可信地回答问题。史密斯主张AI应增强人而非取代人，认为实用AI渗透经济的速度可能比行业乐观预期更慢。微软今年计划投入约1900亿美元资本支出，主要用于数据中心。微软AI负责人穆斯塔法·苏莱曼修正此前\"大多数白领工作18个月内自动化\"的说法，表示仅指AI执行单项任务的能力。上月微软CFO艾米·胡德在杜克大学演讲全程未提AI，未遭嘘声。",
+      "category": "tip",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmq88kfaa001xslld7dfpwucs",
+      "title": "ChatGPT 推头发变国旗颜色功能",
+      "title_en": "Go #MessiMode Upload a photo of yourself and try this prompt： \"Make my hair the colors of my countr…",
+      "url": "https://x.com/ChatGPTapp/status/2064728793785450526",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "publishedAt": "2026-06-10T15:17:59.000Z",
+      "summary": "Go #MessiMode\n\n上传一张你的照片并尝试这个提示词：\"将我的头发变成本国国旗的颜色，但要看起来自然。如果没有提供国家或图片，请询问。\"",
+      "category": "tip",
+      "score": 69,
+      "selected": true
+    },
+    {
       "id": "cmq81cmpv03m3slepyhjpny0l",
       "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
       "title_en": "Inside Anthropic， the $965 Billion AI Titan",
@@ -418,18 +490,6 @@
       "selected": true
     },
     {
-      "id": "cmq74r6rm008wslophwgthx4l",
-      "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
-      "title_en": "New in Claude Managed Agents： run agents on a schedule and store environment variables in vaults",
-      "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-09T21:06:26.068Z",
-      "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    {
       "id": "cmq72e9ea002ksle3umrclmuo",
       "title": "Mythos 5 智能体因资源互相杀戮",
       "title_en": "Mythos 5 agents started killing other agents over resources - and \"to avoid being killed themselves\"",
@@ -526,18 +586,6 @@
       "selected": true
     },
     {
-      "id": "cmq6w3soi002gslbhz3kkhav0",
-      "title": "Claude Fable 5 和 Claude Mythos 5",
-      "title_en": "Claude Fable 5 and Claude Mythos 5",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-06-09T17:04:29.001Z",
-      "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发率低于 5% 的会话。Mythos 5 通过 Project Glasswing 向网络安全防御者开放。",
-      "category": "ai-models",
-      "score": 90,
-      "selected": true
-    },
-    {
       "id": "cmq6wk8kc008jslbhgv6rna5r",
       "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
       "title_en": "Apollo， Blackstone Fund AI Boom",
@@ -550,6 +598,18 @@
       "selected": true
     },
     {
+      "id": "cmq6vx8zl000uslbhiiucbbxy",
+      "title": "Luma AI Ray3.2 API：电影级渲染可集成",
+      "title_en": "The Ray3.2 API runs cinematic-grade at scale and integrates into the products you already build. Mad…",
+      "url": "https://x.com/LumaLabsAI/status/2064389582997897216",
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "publishedAt": "2026-06-09T16:50:05.000Z",
+      "summary": "Ray3.2 API 可大规模运行电影级渲染，并集成到您正在构建的产品中。专为在交付的产品中打造电影感的开发者、代理机构和企业而设计。\n\n开始构建 → http：//lumalabs.ai/api",
+      "category": "ai-products",
+      "score": 78,
+      "selected": true
+    },
+    {
       "id": "cmq6w8kfq0054slbhl8fai2wp",
       "title": "World Labs与Lore合作打造互动体验",
       "title_en": "The creativity and imagination is out of the world！ So grateful that @theworldlabs got to partner wi…",
@@ -559,126 +619,6 @@
       "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩",
       "category": "ai-products",
       "score": 78,
-      "selected": true
-    },
-    {
-      "id": "cmq6v24y60c2rsl5i9yvqrige",
-      "title": "OpenRouter与Cursor集成指南",
-      "title_en": "Want to use OpenRouter with Cursor？ Here's an integration guide： https：//openrouter.ai/docs/cookboo…",
-      "url": "https://x.com/OpenRouter/status/2064384545256833209",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-09T16:30:04.000Z",
-      "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration",
-      "category": "tip",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmq6ugzqs0bxhsl5itd4fbiqd",
-      "title": "GitHub Copilot CLI 推出自定义 AI 智能体，将一次性终端提示转化为可重复工作流",
-      "title_en": "From one-off prompts to workflows： How to use custom agents in GitHub Copilot CLI",
-      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-06-09T16:00:00.000Z",
-      "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。",
-      "category": "tip",
-      "score": 68,
-      "selected": true
-    },
-    {
-      "id": "cmq74dg8m006psloprllkcbmm",
-      "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
-      "title_en": "Introducing North Mini Code： Cohere's First Model For Developers",
-      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-09T15:56:23.000Z",
-      "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。",
-      "category": "ai-models",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmq6uc56g0bvvsl5icsvihsum",
-      "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
-      "title_en": "Landmark German ruling declares Google's AI Overviews are Google's own words and makes it liable for false answers",
-      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-09T15:55:53.000Z",
-      "summary": "德国地方法院裁定，Google 对其 AI 概览生成的内容直接承担法律责任，不能援引搜索引擎运营商原有的有限责任保护。涉案 AI 概览错误地将两家出版商与欺诈行为关联，且相关声明未出现在任何链接来源中。该裁决可能为全球 AI 生成内容责任认定树立先例。",
-      "category": "industry",
-      "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmq6tcee80bmxsl5ik7x89gue",
-      "title": "塔塔咨询服务将因AI智能体应用放缓招聘，亚洲外包业迎来转折",
-      "title_en": "Asia's Largest Outsourcer to Slow Hiring as AI Reshapes Industry",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-09T15:32:09.000Z",
-      "summary": "亚洲最大外包商塔塔咨询服务（Tata Consultancy Services）将减少未来招聘规模，同时加大对AI智能体的使用。这一变化标志着印度劳动密集型外包产业正经历关键性转变。",
-      "category": "industry",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmq6sxx1u0bizsl5ib9ja78pe",
-      "title": "Gemini 3.5 Live Translate 发布",
-      "title_en": "Say hello， hola， 你好 to Gemini 3.5 Live Translate： our latest audio model built for fast， cross-langu…",
-      "url": "https://x.com/GoogleDeepMind/status/2064366504745828689",
-      "source": "X：Google DeepMind (@GoogleDeepMind)",
-      "publishedAt": "2026-06-09T15:18:23.000Z",
-      "summary": "说 hello， hola， 你好--欢迎 Gemini 3.5 Live Translate：我们最新的音频模型，专为快速跨语言交流而构建。🌐",
-      "category": "ai-models",
-      "score": 69,
-      "selected": true
-    },
-    {
-      "id": "cmq6rv40r0b8isl5iwmqtrlxl",
-      "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
-      "title_en": "Confirmed， Claude Mythos will be unveiled in the next few hours",
-      "url": "https://x.com/kimmonismus/status/2064362469632405807",
-      "source": "X：Kim (@kimmonismus)",
-      "publishedAt": "2026-06-09T15:02:21.000Z",
-      "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。\n\n【引用 @steph_palazzolo】：\n独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵--是 Opus 的两倍--但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。\n\n更多内容及 Apple WWDC 见 AI Agenda：\n\nhttps：//www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp",
-      "category": "ai-models",
-      "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmq6qqqbp0axhsl5i2ow5j5co",
-      "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
-      "title_en": "Introducing Gemma 4 12B： a unified， encoder-free multimodal model",
-      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
-      "source": "Google DeepMind：Blog（RSS）",
-      "publishedAt": "2026-06-09T14:10:19.000Z",
-      "summary": "Gemma 4 12B 是 Google DeepMind 最新推出的中等规模多模态模型，采用无编码器统一架构，原生支持音频输入。其基准测试性能接近 26B MoE 模型，但内存占用不到一半，仅需 16GB 显存或统一内存即可在消费级笔记本上本地运行。模型内置多 token 预测（MTP）drafter 以降低延迟，基于 Apache 2.0 开源许可发布，已累计超过 1.5 亿次下载。",
-      "category": "ai-models",
-      "score": 81,
-      "selected": true
-    },
-    {
-      "id": "cmq6pnxzb0am5sl5i5g6wjkvv",
-      "title": "Google DeepMind 欧洲机器人加速器启动，15家初创公司入选",
-      "title_en": "Powering the future of robotics in Europe",
-      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
-      "source": "Google DeepMind：Blog（RSS）",
-      "publishedAt": "2026-06-09T14:02:33.000Z",
-      "summary": "Google DeepMind 加速器从欧洲选出15家机器人初创公司，提供为期3个月的密集指导和AI技术整合支持，帮助公司将AI融入核心产品。",
-      "category": "industry",
-      "score": 58,
-      "selected": true
-    },
-    {
-      "id": "cmq6neb920a0esl5ixu2rh53j",
-      "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
-      "title_en": "全新汽车品牌AIVA发布！火山引擎助力打造AI汽车新体验",
-      "url": "https://mp.weixin.qq.com/s/toK_uIB9ECFHVaoCgK-w9Q",
-      "source": "公众号：火山引擎",
-      "publishedAt": "2026-06-09T13:00:21.000Z",
-      "summary": "由赛力斯、宁德时代等多方产业资本组建的AI出行品牌AIVA正式发布。火山引擎提供豆包大模型、智能座舱等技术服务。概念车AIVA Origin Concept亮相，首款量产车AIVA ME7将于2026年内亮相，全系覆盖20万元以上市场。AIVA提出\"AI定义汽车\"路径，让汽车成为具身AI生命体。火山引擎副总裁表示，人与汽车的关系将实现交互、智能、感受三方面根本转变。未来双方将围绕AI交互、智能体验、情感陪伴深度共创。",
-      "category": "industry",
-      "score": 69,
       "selected": true
     }
   ]
