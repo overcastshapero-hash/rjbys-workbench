@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T19:35:46.379Z",
+  "generatedAt": "2026-06-10T22:06:11.395Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-10",
   "daily": {
@@ -214,6 +214,18 @@
   },
   "selectedItems": [
     {
+      "id": "cmq8gzpbb02egslld4b5zy63k",
+      "title": "MiniMax M3 上链 0G，限时免费运行",
+      "title_en": "M3 on-chain with @0G_labs . verifiable + private compute， and it's free to run June 15-18",
+      "url": "https://x.com/MiniMax_AI/status/2064791800884363286",
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "publishedAt": "2026-06-10T19:28:21.000Z",
+      "summary": "M3 在 @0G_labs 上链。\n\n可验证 + 私有计算，6 月 15-18 日免费运行。",
+      "category": "ai-products",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmq8fw7e8023xslldgifbkkc2",
       "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
       "title_en": "AI is advancing at a pace our policymaking institutions were never built for-and the gap between the…",
@@ -418,6 +430,18 @@
       "selected": true
     },
     {
+      "id": "cmq8in7os02thslldqocefanu",
+      "title": "Cursor Bugbot 更新：速度提升超 3 倍、成本降低 22%、发现更多 Bug",
+      "title_en": "Bugbot is now over 3x faster， 22% cheaper， and finds 10% more bugs",
+      "url": "https://cursor.com/blog/bugbot-updates-june-2026",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "summary": "Cursor 的代码审查工具 Bugbot 迎来重大更新：运行速度提升超 3 倍，成本降低 22%，每轮审查多发现 10% 的 bug，90% 的运行在三分钟内完成。新增 `/review` 命令，可在推送代码前运行 Bugbot 和安全审查，并与 GitHub/GitLab 同步--若已通过 `/review` 审查过同一 diff，打开 PR 时 Bugbot 会自动跳过并备注。支持配置仅审查 PR 中新增内容。性能提升源于驱动 Bugbot 的 Composer 2.5 模型训练改进。Bugbot 遵循模型阻止列表，若组织禁用 Composer 2.5 则自动回退。该功能已在 Cursor 3.7+ 和 cursor.com/agents 上线，CLI 支持即将推出。",
+      "category": "ai-products",
+      "score": 74,
+      "selected": true
+    },
+    {
       "id": "cmq7w1nzi028nslepn0azwdsg",
       "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
       "title_en": "顶会入选！百度百舸联合复旦大学刷新KV Cache压缩SOTA",
@@ -583,66 +607,6 @@
       "summary": "6 月 10 日，eToro 宣布其 AI 智能体 Tori 集成来自 SpaceXAI 的文本模型，能够从 X 平台实时读取市场情绪变化、追踪信号并分析信息。Tori 现已在 eToro 的投资流程中嵌入该能力，支持用户以自然语言查询和解读市场情绪。eToro 拥有超过 4000 万注册用户，覆盖 75 个国家。该功能基于 SpaceXAI API 构建，其他开发团队也可通过 API 控制台在数分钟内搭建类似应用，如研究助手或情绪看板。",
       "category": "industry",
       "score": 69,
-      "selected": true
-    },
-    {
-      "id": "cmq77b1f600gvsl5w4toi02fe",
-      "title": "IBM CEO：AI不一定导致员工减少",
-      "title_en": "IBM CEO： AI Won't Necessarily Lead To Smaller Headcount",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-09T21:48:41.000Z",
-      "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。",
-      "category": "industry",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmq77ckl000hfsl5wb4w757br",
-      "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
-      "title_en": "Setting a custom price for a model in AgentsView",
-      "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
-      "source": "Simon Willison 博客",
-      "publishedAt": "2026-06-09T21:35:31.000Z",
-      "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。",
-      "category": "tip",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmq768g090076sl5wqoyj7ng8",
-      "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
-      "title_en": "Super Micro Plans to Raise $7 Billion in Equity for AI Equipment",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-09T21:24:50.000Z",
-      "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmq72e9ea002ksle3umrclmuo",
-      "title": "Mythos 5 智能体因资源互相杀戮",
-      "title_en": "Mythos 5 agents started killing other agents over resources - and \"to avoid being killed themselves\"",
-      "url": "https://x.com/AISafetyMemes/status/2064435128479400270",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "publishedAt": "2026-06-09T19:51:04.000Z",
-      "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\"",
-      "category": "industry",
-      "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmq7289uo001rsle3dbj1unbi",
-      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
-      "title_en": "Can Voice Agents Handle Bilingual Customers？ Benchmarking Frontier ASR on Code-Switched Speech",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-09T19:38:28.000Z",
-      "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
-      "category": "paper",
-      "score": 67,
       "selected": true
     }
   ]
