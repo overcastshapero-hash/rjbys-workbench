@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T18:18:21.885Z",
+  "generatedAt": "2026-06-11T21:23:51.346Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-11",
   "daily": {
@@ -207,6 +207,30 @@
   },
   "selectedItems": [
     {
+      "id": "cmq9wt5fl0g09slldyw8h9u7p",
+      "title": "全自主无人机首次击毙了人类士兵",
+      "title_en": null,
+      "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-11T19:29:06.279Z",
+      "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
+      "category": "industry",
+      "score": 88,
+      "selected": true
+    },
+    {
+      "id": "cmq9vker90fnyslldhowm7reb",
+      "title": "Replit Agent 新增自定义指令与技能功能",
+      "title_en": "AI agents are powerful， but they don't remember your preferences. So you end up repeating instructi…",
+      "url": "https://x.com/Replit/status/2065146579326271883",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-11T18:58:07.000Z",
+      "summary": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true
+    },
+    {
       "id": "cmq9tg1bi0f3qslld86ne1vt3",
       "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
       "title_en": "DXC will integrate Claude into the systems banks， airlines， and other regulated industries rely on",
@@ -252,6 +276,18 @@
       "summary": "Gemini Omni Flash 在图像到视频、文本到视频和视频编辑方面达到了 SATA ： ）\n\n很高兴很快能将这一能力通过 API 提供给开发者！",
       "category": "ai-models",
       "score": 81,
+      "selected": true
+    },
+    {
+      "id": "cmq9zl2ha0gp3slld5dmtovns",
+      "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
+      "title_en": "What Is an LLM Gateway？ The Missing Layer Between Your App and AI Models",
+      "url": "https://openrouter.ai/blog/insights/llm-gateway",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-11T16:00:00.000Z",
+      "summary": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。",
+      "category": "tip",
+      "score": 60,
       "selected": true
     },
     {
@@ -564,66 +600,6 @@
       "summary": "OpenAI 支持欧盟《AI 内容透明度行为准则》，推进内容溯源标准与工具，帮助用户识别 AI 生成内容。",
       "category": "industry",
       "score": 64,
-      "selected": true
-    },
-    {
-      "id": "cmq8nblte041islldguc1eqww",
-      "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
-      "title_en": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-10T20:00:00.000Z",
-      "summary": "OpenAI 与 Oracle 合作，用户可利用现有 Oracle 云服务承诺（commitment）额度，在 Oracle 云上访问 OpenAI 模型和 Codex，用于构建和部署 AI 应用，同时获得企业级安全与治理能力。",
-      "category": "industry",
-      "score": 56,
-      "selected": true
-    },
-    {
-      "id": "cmq8gzpbb02egslld4b5zy63k",
-      "title": "MiniMax M3 上链 0G，限时免费运行",
-      "title_en": "M3 on-chain with @0G_labs . verifiable + private compute， and it's free to run June 15-18",
-      "url": "https://x.com/MiniMax_AI/status/2064791800884363286",
-      "source": "X：MiniMax (@MiniMax_AI)",
-      "publishedAt": "2026-06-10T19:28:21.000Z",
-      "summary": "M3 在 @0G_labs 上链。\n\n可验证 + 私有计算，6 月 15-18 日免费运行。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmq8fw7e8023xslldgifbkkc2",
-      "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
-      "title_en": "AI is advancing at a pace our policymaking institutions were never built for-and the gap between the…",
-      "url": "https://x.com/AnthropicAI/status/2064783418844762489",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "publishedAt": "2026-06-10T18:55:03.000Z",
-      "summary": "Anthropic CEO Dario Amodei 今日发布新文《Policy on the AI Exponential》，指出AI发展极快，远超现有政策制定流程的应对能力。文章阐述了当前技术所处阶段，并列举缩小这一差距所需的行动。Anthropic 同步宣布启动三项新举措，以支持其CEO提出的框架。",
-      "category": "tip",
-      "score": 81,
-      "selected": true
-    },
-    {
-      "id": "cmq8f7imu01wnslld8czaif69",
-      "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
-      "title_en": null,
-      "url": "https://burr.apache.org/",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-10T18:33:56.920Z",
-      "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。",
-      "category": "ai-products",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmq8f9x2k01xqslldudfgsdh4",
-      "title": "Grok Voice性能出色价格低廉",
-      "title_en": "Grok Voice offers state-of-the-art performance with human-like timing， tone， and warmth. And it's a …",
-      "url": "https://x.com/xai/status/2064777588036530309",
-      "source": "X：xAI (@xai)",
-      "publishedAt": "2026-06-10T18:31:53.000Z",
-      "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。\n\n查看详情：http：//x.ai/api/voice",
-      "category": "ai-models",
-      "score": 74,
       "selected": true
     }
   ]
