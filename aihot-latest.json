@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T21:23:51.346Z",
+  "generatedAt": "2026-06-11T23:26:32.679Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-11",
   "daily": {
@@ -206,6 +206,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqa38qfw0hrsslld9n3v1pzf",
+      "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
+      "title_en": "我们来玩个游戏吧？--在95%的模拟中，大型语言模型都会使用战术核武器",
+      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-11T22:23:17.154Z",
+      "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
+      "category": "paper",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmqa20ewf0hf8slldlq4bawrp",
+      "title": "Replit 专家级提示词技巧",
+      "title_en": "How to prompt like a pro with Replit 🤖 Vague prompts just mean more rewrites. Here's how to get Ag…",
+      "url": "https://x.com/Replit/status/2065192392718733327",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-11T22:00:10.000Z",
+      "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
+      "category": "tip",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqa20ewf0hf9slldu9bj1rhz",
+      "title": "Replit 与 Databricks 集成升级，公开预览开放",
+      "title_en": "Replit and @databricks integration just leveled up. Build apps where every user sees only what they…",
+      "url": "https://x.com/Replit/status/2065189762365813089",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-11T21:49:43.000Z",
+      "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true
+    },
     {
       "id": "cmq9wt5fl0g09slldyw8h9u7p",
       "title": "全自主无人机首次击毙了人类士兵",
