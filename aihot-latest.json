@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T00:19:01.235Z",
+  "generatedAt": "2026-06-11T05:52:01.912Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-11",
   "daily": {
@@ -207,6 +207,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmq8zcaxy076fslldrds65pvu",
+      "title": "Midjourney V8.1 已成为默认模型",
+      "title_en": "V8.1 is now the default model on Midjourney！",
+      "url": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
+      "source": "Midjourney：Updates（RSS）",
+      "publishedAt": "2026-06-11T04:08:51.000Z",
+      "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。",
+      "category": "ai-models",
+      "score": 64,
+      "selected": true
+    },
+    {
+      "id": "cmq8whekl06eyslldxzkd9dzi",
+      "title": "从0到1速通WorkBuddy：国内通用Agent产品教程",
+      "title_en": "从0到1带你速通WorkBuddy，这可能是最适合国内的Agent产品。",
+      "url": "https://mp.weixin.qq.com/s/nFSSzluc57xPv50Zbh4owg",
+      "source": "公众号：数字生命卡兹克",
+      "publishedAt": "2026-06-11T01:58:00.000Z",
+      "summary": "WorkBuddy是面向国内用户的通用Agent产品，支持Windows和Mac，提供免费版和58元/月个人专业版，企业版已推出。内置代码开发、日常办公、设计创意三种场景模式及100多个行业领域AI专家。模型集成腾讯混元、DeepSeek（推荐V4 Pro）、GLM、Kimi等国产大模型，也支持接入兼容OpenAI协议的外部API。拥有Skills市场和MCP连接器生态，可打通QQ邮箱、腾讯会议、腾讯文档等服务。教程通过公众号周报生成和功能网页开发两个案例演示实际用法。",
+      "category": "tip",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmq8svjva05grslldediy0tpk",
+      "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
+      "title_en": "Prince Canuma直接把Google刚发布的DiffusionGemma和Cohere North Mini Code当天塞进Mac本地MLX，零等待直接把玩咯！ mlx-vlm v0.6….",
+      "url": "https://x.com/berryxia/status/2064875107278098769",
+      "source": "X：Berry Xia (@berryxia)",
+      "publishedAt": "2026-06-11T00:59:23.000Z",
+      "summary": "mlx-vlm v0.6.3 上线，首发支持 DiffusionGemma 和 North Mini Code 1.0。DiffusionGemma 采用全新架构：以 256 token 块为单位并行生成、双向注意力、迭代自纠错；26B MoE 仅激活 3.8B，量化后 18GB 即可运行。North Mini Code 1.0 为 30B MoE，仅激活 3B，BF16 下约 66 tok/s。两款模型均通过深度合作实现 Day-0 MLX 支持，可在 Mac 本地运行。可通过 `uv pip install -U mlx-vlm` 安装体验。",
+      "category": "ai-products",
+      "score": 76,
+      "selected": true
+    },
+    {
       "id": "cmq8qsjfr04wqslld2epey16c",
       "title": "在写完这篇文章后 我把配图过程蒸馏成了一个「橙线插画」Skill 免费开源 安装地址： https：//github.com/orange2ai/orange-line-illustration",
       "title_en": null,
@@ -303,15 +339,15 @@
       "selected": true
     },
     {
-      "id": "cmq8eduwi01pmsllde550loup",
-      "title": "小米发布 MiMo Code V0.1 开源终端 AI 编程助手",
-      "title_en": "🚀 MiMo Code V0.1 is now live and open-source！ More than an AI coding assistant in your terminal - …",
-      "url": "https://x.com/XiaomiMiMo/status/2064772356443394441",
-      "source": "X：小米 MiMo (@XiaomiMiMo)",
-      "publishedAt": "2026-06-10T18:11:06.000Z",
-      "summary": "小米推出开源终端 AI 编程助手 MiMo Code V0.1，附带限时免费使用的多模态模型 MiMo V2.5，支持百万 token 上下文窗口。核心特性包括：无限上下文（自动知识积累与无损压缩）、Agent-模型深度协同（测试-审查-验证闭环）、Compose 模式（规格→计划→构建→报告）、自进化系统、语音输入（基于 MiMo-V2.5-ASR）、兼容 Claude Code（零成本迁移），以及 MIT 许可、支持 Anthropic、OpenAI、DeepSeek、Kimi、GLM 等主流模型提供商。",
+      "id": "cmq8whf5x06f2slld2conqwg5",
+      "title": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议",
+      "title_en": "MiMo Code 发布并开源|模型 Agent 协同优化，迈向自进化时代",
+      "url": "https://mp.weixin.qq.com/s/WkMPz-eBK2Hz0ZTQEwtx6w",
+      "source": "公众号：小米 MiMo",
+      "publishedAt": "2026-06-10T18:06:35.000Z",
+      "summary": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议。内置限时免费MiMo-V2.5多模态模型，性能比肩Claude Sonnet 4.6；支持接入DeepSeek、Kimi、GLM等模型。核心能力包括持久记忆系统（项目记忆、会话检查点、任务进度）和无限上下文--通过独立subagent自动保存状态解决长会话遗忘。独创Compose模式实现模型与Agent协同优化，SWE-Bench Pro达62%（Claude Code 57%），Terminal Bench 2达73%（68%）。内置语音输入和/dream命令，每7天自动合并记忆。终端输入`mimo`即可使用，所有设置中文汉化。",
       "category": "ai-products",
-      "score": 79,
+      "score": 74,
       "selected": true
     },
     {
@@ -564,54 +600,6 @@
       "summary": "Anthropic 在谷歌（其早期投资者之一）的帮助下，正在五个数据中心租赁高性能计算机芯片。谷歌同意为每个地点的租赁付款提供兜底担保，从而帮助 Anthropic 获得相当于 350 亿美元的融资。",
       "category": "industry",
       "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmq7kyzxh0435sl5wh21ncfun",
-      "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
-      "source": "公众号：火山引擎",
-      "publishedAt": "2026-06-10T04:30:00.000Z",
-      "summary": "火山引擎今日上线火山方舟版权商业化平台，推出行业首个覆盖\"授权-保护-审核-分发-变现\"全链路的版权合作机制。平台搭载视频生成模型Seedance 2.0及版权治理体系，已获周星驰旗下比高集团《喜剧之王》《食神》《长江七号》三部影片在AI视频创作场景下的版权使用权，并基于Seedance 2.0打造经典桥段AI创作模板。模板已在火山方舟体验中心、火山引擎Kickart上线，同步开放给LibTV、筷子科技丽帧引擎等工具合作伙伴。平台面向UGC和商业广告场景提供分润制、项目制等变现路径，未来还将提供版权管理后台，实现授权可见、使用可查、收入透明。",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true
-    },
-    {
-      "id": "cmq7esdai02hdsl5wq2pe6o5v",
-      "title": "Magnetar用数百AI智能体替代分析师",
-      "title_en": "Bloomberg： Magnetar Capital， the $18B hedge fund company， will avoid human analysts in its newest of…",
-      "url": "https://x.com/rohanpaul_ai/status/2064524448582267047",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-10T01:46:00.000Z",
-      "summary": "Bloomberg：Magnetar Capital，这家 180 亿美元的对冲基金公司，将在其最新产品中避免使用人类分析师，转而依靠数百个 AI 智能体进行股票研究。\n\n这家 180 亿美元的对冲基金公司希望 AI 搜索投资想法、研究公司、推荐头寸并预测趋势，而人类仍负责批准交易。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmq7g8g6402tpsl5ws1zavnsj",
-      "title": "欧盟发布临时措施，要求 Meta 向第三方 AI 助手免费开放 WhatsApp",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/962/206.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-10T01:41:12.000Z",
-      "summary": "欧盟委员会6月9日宣布临时措施，责令Meta在反垄断调查结束前免费向第三方AI助手开放WhatsApp访问权限。Meta于2025年10月15日禁止第三方AI助手调用WhatsApp for Business API，意图让自家Meta AI独占市场；今年3月4日虽改为付费使用，但欧盟委员会认为这实质上延续了禁令，可能严重损害通用AI助手市场竞争，尤其危及小企业和新进入者。",
-      "category": "industry",
-      "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmq7cnl4q01x0sl5w2itvprtz",
-      "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
-      "title_en": "Text-To-Lottie： 一套 「Agent Skill + 本地预览 Harness」 的组合，让 Agent 生成 Lottie，在浏览器里实时验收 开源作者 @konstipaulus …",
-      "url": "https://x.com/shao__meng/status/2064508455051043008",
-      "source": "X：邵猛 (@shao__meng)",
-      "publishedAt": "2026-06-10T00:42:27.000Z",
-      "summary": "开源项目 Text-To-Lottie 提供一套 Agent Skill 和本地预览工具，让 Codex/Claude Code/Cursor 等 Agent 生成标准 Bodymovin JSON（public/lottie.json），通过 Skottie 渲染引擎在浏览器中实时验收。安装命令：`npx skills add diffusionstudio/lottie`。技术特点：输出标准 Lottie JSON，使用 Skottie 渲染（非 lottie-web）；基于 Vite 热重载实现自动刷新闭环；支持通过 Skottie Slots + controls.json 调整颜色、尺寸；Agent 可用 URL 参数 `？frame=60&paused=1` 精确定位帧截图。Prompt 指南包括：给具体素材、使用动效术语、pan/zoom/hold 模拟镜头、显式声明 Slots、锁定时间规格。适合单场景短时长 Motion Graphics、SVG→Lottie、数据可视化、透明背景矢量动效；不适合多镜头剪辑、复杂角色绑定、粒子、3D 或需 lottie-web 全特性的场景。",
-      "category": "tip",
-      "score": 77,
       "selected": true
     }
   ]
