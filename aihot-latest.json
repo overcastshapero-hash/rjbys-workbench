@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T10:42:47.581Z",
+  "generatedAt": "2026-06-11T14:40:49.623Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-11",
   "daily": {
@@ -206,6 +206,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmq9ljue40czuslldeag7dg21",
+      "title": "Runway与Lionsgate扩大战略合作",
+      "title_en": "Runway and Lionsgate Expand Partnership",
+      "url": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
+      "source": "Runway：News（网页）",
+      "publishedAt": "2026-06-11T14:31:51.811Z",
+      "summary": "全球内容巨头Lionsgate与生成式AI研究公司Runway今日宣布扩大战略合作。Lionsgate已取得Runway股权，双方将启动联合开发项目，共同创作并制作新IP，首推一部基于Lionsgate现有IP和Runway生成模型的短剧系列。此外，Lionsgate将作为主持伙伴参与6月举行的Runway AI电影节。这是双方继2024年9月首次合作后的深化，Lionsgate此前已在预可视化、故事板及最终帧制作中应用Runway工具。",
+      "category": "industry",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmq9jvb4g0ckisllddfpo3q18",
+      "title": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
+      "title_en": "Breaking： OpenAI is pondering \"drastic\" price cuts.",
+      "url": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-11T13:34:49.000Z",
+      "summary": "OpenAI 正考虑大幅降价，Gary Marcus 认为这暴露了公司的疲软竞争力。",
+      "category": "tip",
+      "score": 58,
+      "selected": true
+    },
+    {
+      "id": "cmq9ip4u40c8eslldarnso34b",
+      "title": "Anthropic 启动 Claude Corps 全国奖学金项目",
+      "title_en": "Introducing Claude Corps",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-06-11T13:12:25.934Z",
+      "summary": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。",
+      "category": "industry",
+      "score": 61,
+      "selected": true
+    },
     {
       "id": "cmq9ck1s90amsslldrz73effj",
       "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
@@ -588,30 +624,6 @@
       "summary": "Go #MessiMode\n\n上传一张你的照片并尝试这个提示词：\"将我的头发变成本国国旗的颜色，但要看起来自然。如果没有提供国家或图片，请询问。\"",
       "category": "tip",
       "score": 69,
-      "selected": true
-    },
-    {
-      "id": "cmq81cmpv03m3slepyhjpny0l",
-      "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
-      "title_en": "Inside Anthropic， the $965 Billion AI Titan",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-10/inside-anthropic-the-965-billion-ai-juggernaut-video",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-10T12:00:06.000Z",
-      "summary": "Emily Chang 与 Anthropic 联合创始人 Dario 和 Daniela Amodei 进行罕见深度对话，探讨创业起源、与五角大楼的摩擦，以及该公司如何在激烈的 AI 竞赛中将安全置于首位。",
-      "category": "tip",
-      "score": 78,
-      "selected": true
-    },
-    {
-      "id": "cmq8in7os02thslldqocefanu",
-      "title": "Cursor Bugbot 更新：速度提升超 3 倍、成本降低 22%、发现更多 Bug",
-      "title_en": "Bugbot is now over 3x faster， 22% cheaper， and finds 10% more bugs",
-      "url": "https://cursor.com/blog/bugbot-updates-june-2026",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-06-10T12:00:00.000Z",
-      "summary": "Cursor 的代码审查工具 Bugbot 迎来重大更新：运行速度提升超 3 倍，成本降低 22%，每轮审查多发现 10% 的 bug，90% 的运行在三分钟内完成。新增 `/review` 命令，可在推送代码前运行 Bugbot 和安全审查，并与 GitHub/GitLab 同步--若已通过 `/review` 审查过同一 diff，打开 PR 时 Bugbot 会自动跳过并备注。支持配置仅审查 PR 中新增内容。性能提升源于驱动 Bugbot 的 Composer 2.5 模型训练改进。Bugbot 遵循模型阻止列表，若组织禁用 Composer 2.5 则自动回退。该功能已在 Cursor 3.7+ 和 cursor.com/agents 上线，CLI 支持即将推出。",
-      "category": "ai-products",
-      "score": 74,
       "selected": true
     }
   ]
