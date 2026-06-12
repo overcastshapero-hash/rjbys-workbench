@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:50:06.994Z",
+  "generatedAt": "2026-06-12T23:21:10.529Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-12",
   "daily": {
@@ -201,15 +201,15 @@
   },
   "selectedItems": [
     {
-      "id": "cmqbgej4i019vslamev56gffo",
-      "title": "MiniMax M3 获 vLLM 日零支持，1M 上下文窗口与 MSA 稀疏注意力",
-      "title_en": "day-0 in @vllm_project and it comes with： dedicated MSA prefill/decode kernels， 1M-context serving …",
-      "url": "https://x.com/MiniMax_AI/status/2065543713032683843",
-      "source": "X：MiniMax (@MiniMax_AI)",
-      "publishedAt": "2026-06-12T21:16:11.000Z",
-      "summary": "MiniMax M3 发布，具备前沿编码与智能体能力，原生图像视频输入和计算机使用，1M-token 上下文。核心采用 MSA 稀疏注意力：每个 query 评分 128-token KV 块，仅对 top 块做注意力。vLLM 当日即支持 M3，包括专用 MSA prefill/decode 核、前缀缓存与分块 prefill、BF16 和 MXFP8 检查点、Hopper 与 Blackwell 的 MoE 后端，并在 NVIDIA 与 AMD 硬件上验证。同时支持原生多模态输入、工具调用、推理解析和思考模式控制等智能体工作负载。",
-      "category": "ai-models",
-      "score": 82,
+      "id": "cmqbjpkto024kslamjgm4tayw",
+      "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
+      "title_en": "今天凌晨五点的时候，我让 AI 帮我打磨一段文案，打磨三遍给我看。 AI 改完之后，我发现一遍比一遍讲究，但是一遍比一遍缺人味儿。 我已经用上最贵的 Claude Fable 5 了，还这样，让我很生…",
+      "url": "https://x.com/oran_ge/status/2065566882774868125",
+      "source": "X：Oran Ge (@oran_ge)",
+      "publishedAt": "2026-06-12T22:48:15.000Z",
+      "summary": "Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺\"人味儿\"。他与 AI 讨论后得出结论：人写的文字背后有\"存在感\"--作者在具体位置付出过具体代价，而 AI 无法复现。为此他制作了《人味儿写作心法.skill》，专用于自写文章或口述后让 AI 改稿的场景，旨在保留文字的人味。该技能已开源免费发布在 GitHub。",
+      "category": "tip",
+      "score": 75,
       "selected": true
     },
     {
@@ -366,30 +366,6 @@
       "summary": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置：",
       "category": "ai-products",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqa38qfw0hrsslld9n3v1pzf",
-      "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
-      "title_en": "我们来玩个游戏吧？--在95%的模拟中，大型语言模型都会使用战术核武器",
-      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-11T22:23:17.154Z",
-      "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
-      "category": "paper",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqa20ewf0hf8slldlq4bawrp",
-      "title": "Replit 专家级提示词技巧",
-      "title_en": "How to prompt like a pro with Replit 🤖 Vague prompts just mean more rewrites. Here's how to get Ag…",
-      "url": "https://x.com/Replit/status/2065192392718733327",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-11T22:00:10.000Z",
-      "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
-      "category": "tip",
-      "score": 72,
       "selected": true
     }
   ]
