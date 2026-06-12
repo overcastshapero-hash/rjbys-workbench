@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T19:08:05.929Z",
+  "generatedAt": "2026-06-12T21:50:06.994Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-12",
   "daily": {
@@ -201,6 +201,18 @@
   },
   "selectedItems": [
     {
+      "id": "cmqbgej4i019vslamev56gffo",
+      "title": "MiniMax M3 获 vLLM 日零支持，1M 上下文窗口与 MSA 稀疏注意力",
+      "title_en": "day-0 in @vllm_project and it comes with： dedicated MSA prefill/decode kernels， 1M-context serving …",
+      "url": "https://x.com/MiniMax_AI/status/2065543713032683843",
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "publishedAt": "2026-06-12T21:16:11.000Z",
+      "summary": "MiniMax M3 发布，具备前沿编码与智能体能力，原生图像视频输入和计算机使用，1M-token 上下文。核心采用 MSA 稀疏注意力：每个 query 评分 128-token KV 块，仅对 top 块做注意力。vLLM 当日即支持 M3，包括专用 MSA prefill/decode 核、前缀缓存与分块 prefill、BF16 和 MXFP8 检查点、Hopper 与 Blackwell 的 MoE 后端，并在 NVIDIA 与 AMD 硬件上验证。同时支持原生多模态输入、工具调用、推理解析和思考模式控制等智能体工作负载。",
+      "category": "ai-models",
+      "score": 82,
+      "selected": true
+    },
+    {
       "id": "cmqb4nt5t0116sl9zke56a7ml",
       "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
       "title_en": "Results from the first Anthropic Public Record",
@@ -210,6 +222,18 @@
       "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。",
       "category": "tip",
       "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmqbg9zu8017zslam3adnpkeb",
+      "title": "如何在OpenRouter上获得最低成本的LLM推理",
+      "title_en": "How to Get the Lowest-Cost LLM Inference on OpenRouter",
+      "url": "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-12T16:00:00.000Z",
+      "summary": "在OpenRouter上追加`：floor`可获取最便宜提供商，通过`max_price`设定花费上限，并可免费使用20多个零成本模型。同时需注意避免计费陷阱。",
+      "category": "tip",
+      "score": 59,
       "selected": true
     },
     {
@@ -366,30 +390,6 @@
       "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
       "category": "tip",
       "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqa20ewf0hf9slldu9bj1rhz",
-      "title": "Replit 与 Databricks 集成升级，公开预览开放",
-      "title_en": "Replit and @databricks integration just leveled up. Build apps where every user sees only what they…",
-      "url": "https://x.com/Replit/status/2065189762365813089",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-11T21:49:43.000Z",
-      "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true
-    },
-    {
-      "id": "cmq9wt5fl0g09slldyw8h9u7p",
-      "title": "全自主无人机首次击毙了人类士兵",
-      "title_en": null,
-      "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-11T19:29:06.279Z",
-      "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
-      "category": "industry",
-      "score": 88,
       "selected": true
     }
   ]
