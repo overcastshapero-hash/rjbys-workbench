@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T09:00:51.346Z",
+  "generatedAt": "2026-06-12T12:55:35.769Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-12",
   "daily": {
@@ -200,6 +200,18 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqas4pf30obzslldpvkbrqde",
+      "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
+      "title_en": "🌘 Kimi-K2.7-Code， our latest coding model， is now released and open-sourced！ 🔷 Improved coding & …",
+      "url": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "publishedAt": "2026-06-12T10:16:02.000Z",
+      "summary": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code。相比 K2.6，其在 Kimi Code Bench v2 上提升 +21.8%，Program Bench 提升 +11.0%，MLS Bench Lite 提升 +31.5%。推理效率改进，推理 token 使用量降低 30%，长时编码任务中指令遵循和端到端成功率均提升。6x 高速模式即将推出，即日起可通过 Kimi API 和 Kimi Code 使用。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true
+    },
     {
       "id": "cmqae79010kohslldooq3h2gk",
       "title": "小互开源公众号自动排版技能组合",
@@ -486,42 +498,6 @@
       "summary": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。",
       "category": "industry",
       "score": 61,
-      "selected": true
-    },
-    {
-      "id": "cmq9rpndz0emkslldcjukgjn5",
-      "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
-      "title_en": "Governing agent autonomy with Auto-review",
-      "url": "https://cursor.com/blog/auto-review",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-06-11T12:00:00.000Z",
-      "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。",
-      "category": "ai-products",
-      "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmq9ck1s90amsslldrz73effj",
-      "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
-      "title_en": "@NousResearch has shipped Hermes Agent Desktop - and it's now even easier to use frontier open-sourc…",
-      "url": "https://x.com/SiliconFlowAI/status/2065015632215912879",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-06-11T10:17:47.000Z",
-      "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵",
-      "category": "tip",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmq9ax93k0a7lslldcqadlkhv",
-      "title": "Codex 维护仓库：5分钟循环并行自治",
-      "title_en": "Here's a simple loop： Tell codex to maintain your repos， wake up every 5 minutes and direct work to …",
-      "url": "https://x.com/steipete/status/2064998499780084154",
-      "source": "X：Peter Steinberger (@steipete)",
-      "publishedAt": "2026-06-11T09:09:42.000Z",
-      "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。",
-      "category": "tip",
-      "score": 78,
       "selected": true
     }
   ]
