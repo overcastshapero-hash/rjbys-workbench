@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T16:16:16.709Z",
+  "generatedAt": "2026-06-13T18:11:19.618Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-13",
   "daily": {
@@ -152,6 +152,18 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqclfuji004mslpbagr29kg3",
+      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+      "title_en": "/架构师：将 Fable 代币减少 80%，Fable 负责协调/审核，Codex 负责构建",
+      "url": "https://github.com/DanMcInerney/architect-loop",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-13T16:46:05.572Z",
+      "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。",
+      "category": "tip",
+      "score": 70,
+      "selected": true
+    },
     {
       "id": "cmqca4a1900uxsl9izm7hb426",
       "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
