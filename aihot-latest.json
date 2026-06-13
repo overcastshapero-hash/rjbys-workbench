@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T11:17:20.855Z",
+  "generatedAt": "2026-06-13T14:07:14.345Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-13",
   "daily": {
@@ -152,6 +152,18 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqca4a1900uxsl9izm7hb426",
+      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "title_en": "Global Capitalism Bets It All on AI Future That Alarms Voters",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
+      "source": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-13T11:00:00.000Z",
+      "summary": "Anthropic，这家估值达 9650 亿美元的 AI 巨头、史上增长最快的初创公司之一，在秘密提交 IPO 申请后，再次投下重磅炸弹。",
+      "category": "industry",
+      "score": 77,
+      "selected": true
+    },
     {
       "id": "cmqc5usi000cbslt49vfrpgge",
       "title": "谷歌Android安全负责人因反对军事AI合作辞职",
