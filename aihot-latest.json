@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T18:11:19.618Z",
+  "generatedAt": "2026-06-13T20:18:35.174Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-13",
   "daily": {
@@ -152,6 +152,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqcoyrfo00ieslttjd60zi3a",
+      "title": "Suno 音轨分离：从零生成更纯净",
+      "title_en": "Major update： Stem separation on Suno just got a massive level up. 🚀 We're now regenerating stems …",
+      "url": "https://x.com/suno/status/2065862499765821916",
+      "source": "X：Suno (@suno)",
+      "publishedAt": "2026-06-13T18:22:56.000Z",
+      "summary": "重大更新：Suno 的音轨分离刚刚大幅升级。🚀\n\n我们现在从零重新生成音轨，而非仅仅隔离频率。结果如何？纯净无伪影的音轨，可直接拖入你的 DAW。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmqcpszqx00r5slttxgr6scpy",
+      "title": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
+      "title_en": "亚马逊首席执行官与美国官员的会谈引发了对Anthropic模型的整治",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-13T18:22:19.626Z",
+      "summary": "亚马逊 CEO 与美国官员的会谈直接导致美国政府对 Anthropic 公司的 AI 模型采取整治行动。此次事件涉及对 Anthropic 旗下大语言模型的监管升级，具体措施及模型版本细节尚未披露。",
+      "category": "industry",
+      "score": 76,
+      "selected": true
+    },
+    {
+      "id": "cmqcopoix00f8slttxcyouu31",
+      "title": "Fusion API：半价达Fable级智能",
+      "title_en": "Introducing the Fusion API， the smartest compound model in the market. Fusion achieves Fable-level …",
+      "url": "https://x.com/OpenRouter/status/2065856853989270011",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-06-13T18:00:30.000Z",
+      "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
     {
       "id": "cmqclfuji004mslpbagr29kg3",
       "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
