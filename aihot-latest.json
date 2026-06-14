@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:00:15.913Z",
+  "generatedAt": "2026-06-14T17:23:04.302Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-14",
   "daily": {
@@ -100,6 +100,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmqe0t4ci01r7slrd7j98j1za",
+      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+      "title_en": "What Washington must do",
+      "url": "https://garymarcus.substack.com/p/what-washington-must-do",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-14T16:15:35.000Z",
+      "summary": "白宫周五做出的AI监管决定被指偏袒OpenAI、亚马逊等企业，同时对Anthropic施压不足24小时，缺乏透明度和事实依据。Gary Marcus、Dean W Ball及卡托研究所Kevin Frazier等专家指出，这种由少数人闭门快速决策的做法带有腐败嫌疑，可能促使其他国家加速发展\"主权AI\"甚至中国AI，并导致美国人才流失。Anthropic声明称政府应在法定程序中基于技术事实阻止不安全部署，而非当前方式。Marcus呼吁建立独立机构负责AI监管，确保公平、清晰、基于证据的执行。",
+      "category": "tip",
+      "score": 65,
+      "selected": true
+    },
+    {
+      "id": "cmqdyt4ro019jslrde6w3jkxh",
+      "title": "Satya Nadella：没有生态的前沿不稳定",
+      "title_en": "http：//x.com/i/article/2065582894790365184",
+      "url": "https://x.com/satyanadella/status/2066182223213293753",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "publishedAt": "2026-06-14T15:33:24.000Z",
+      "summary": "微软CEO Satya Nadella认为，AI驱动的平台转变首次实现人与数字系统间的认知循环。企业需同时构建人力资本（知识、判断、关系）与token资本（自有的AI能力），且人力资本不会贬值，反而随token资本增长而增值。真正的机会在于建立人力资本与token资本复合增长的学习循环--企业应能替换通用模型而不丢失已内化的专家知识，通过私有评估和强化学习让模型从内部真实轨迹中持续提升。他警告，若所有价值被少数模型吞噬，将重演全球化空心化悲剧，呼吁构建前沿生态系统，让每家企业、行业和国家拥有自己的学习循环。",
+      "category": "tip",
+      "score": 65,
+      "selected": true
+    },
+    {
+      "id": "cmqdwb2rj00kkslrd8g9upvtv",
+      "title": "乔木小说创作 Skill 开源发布",
+      "title_en": "想写职场、武侠、修仙等任意风格小说？ 可自己完全没有思路，能创作吗？必须可以！ 今天开源一个乔木小说创作 Skill。 你只需说：\"我想写一个小说\" 或 \"想写一个类似xxx的小说\"。 AI自…",
+      "url": "https://x.com/vista8/status/2066165703443726749",
+      "source": "X：Vista (@vista8)",
+      "publishedAt": "2026-06-14T14:27:45.000Z",
+      "summary": "开源乔木小说创作 Skill，用户只需说\"我想写一个小说\"或指定风格，AI 自动生成剧情梗概、人物设定、钩子、经典桥段、人物欲望、冲突升级和结尾。与 AI 讨论确认后，可生成完整、低 AI 味的小说。安装命令：npx skills add joeseesun/qiaomu-novel-generator，Github 开源地址见评论区。",
+      "category": "tip",
+      "score": 82,
+      "selected": true
+    },
+    {
       "id": "cmqdcj53706qpslttlp0b4n9p",
       "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
       "title_en": "As Anthropic suspends access to new models， India debates its AI future",
@@ -148,18 +184,6 @@
       "selected": true
     },
     {
-      "id": "cmqcpszqx00r5slttxgr6scpy",
-      "title": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
-      "title_en": "亚马逊首席执行官与美国官员的会谈引发了对Anthropic模型的整治",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-13T18:22:19.626Z",
-      "summary": "亚马逊 CEO 与美国官员的会谈直接导致美国政府对 Anthropic 公司的 AI 模型采取整治行动。此次事件涉及对 Anthropic 旗下大语言模型的监管升级，具体措施及模型版本细节尚未披露。",
-      "category": "industry",
-      "score": 76,
-      "selected": true
-    },
-    {
       "id": "cmqcopoix00f8slttxcyouu31",
       "title": "Fusion API：半价达Fable级智能",
       "title_en": "Introducing the Fusion API， the smartest compound model in the market. Fusion achieves Fable-level …",
@@ -168,18 +192,6 @@
       "publishedAt": "2026-06-13T18:00:30.000Z",
       "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇",
       "category": "ai-products",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqclfuji004mslpbagr29kg3",
-      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
-      "title_en": "/架构师：将 Fable 代币减少 80%，Fable 负责协调/审核，Codex 负责构建",
-      "url": "https://github.com/DanMcInerney/architect-loop",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-13T16:46:05.572Z",
-      "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。",
-      "category": "tip",
       "score": 70,
       "selected": true
     }
