@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T17:23:04.302Z",
+  "generatedAt": "2026-06-14T19:41:30.719Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-14",
   "daily": {
@@ -169,30 +169,6 @@
       "summary": "据 TechCrunch 报道，Meta 已开始撤销对 Manus 的 20 亿美元收购交易，此前北京要求该交易必须反转。目前收购解除程序已启动。",
       "category": "industry",
       "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqcoyrfo00ieslttjd60zi3a",
-      "title": "Suno 音轨分离：从零生成更纯净",
-      "title_en": "Major update： Stem separation on Suno just got a massive level up. 🚀 We're now regenerating stems …",
-      "url": "https://x.com/suno/status/2065862499765821916",
-      "source": "X：Suno (@suno)",
-      "publishedAt": "2026-06-13T18:22:56.000Z",
-      "summary": "重大更新：Suno 的音轨分离刚刚大幅升级。🚀\n\n我们现在从零重新生成音轨，而非仅仅隔离频率。结果如何？纯净无伪影的音轨，可直接拖入你的 DAW。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqcopoix00f8slttxcyouu31",
-      "title": "Fusion API：半价达Fable级智能",
-      "title_en": "Introducing the Fusion API， the smartest compound model in the market. Fusion achieves Fable-level …",
-      "url": "https://x.com/OpenRouter/status/2065856853989270011",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-13T18:00:30.000Z",
-      "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇",
-      "category": "ai-products",
-      "score": 70,
       "selected": true
     }
   ]
