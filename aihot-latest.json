@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T00:11:07.899Z",
+  "generatedAt": "2026-06-14T05:52:38.958Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-14",
   "daily": {
@@ -99,6 +99,30 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqd77jxy05cwslttn9jua0ur",
+      "title": "Anthropic 上市前夕",
+      "title_en": "Anthropic 上市前夕 彭博社采访了Anthropic 公司俩兄妹，在这次采访中（Fable 5 还没有被封杀）Dario Amodei极度的渲染了Mythos的威力和AI的威胁 当然这也是…",
+      "url": "https://x.com/xiaohu/status/2065991805238497732",
+      "source": "X：小互 (@xiaohu)",
+      "publishedAt": "2026-06-14T02:56:45.000Z",
+      "summary": "Anthropic CEO Dario Amodei透露内部模型Mythos有上千漏洞，能黑银行、窃取国家机密；预言AI一到五年内砍掉一半入门级白领工作；称Claude已被美军用于对伊朗战争，涉及女校150人死亡拷问；解释离开OpenAI因信任崩塌；回怼黄仁勋末日营销指控；给出文明崩溃概率10%-25%。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqd1t7a003wgslttffgjyn8q",
+      "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+      "title_en": "Meta reportedly moves to unwind $2B Manus deal after Beijing's demand",
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-14T00:03:49.000Z",
+      "summary": "据 TechCrunch 报道，Meta 已开始撤销对 Manus 的 20 亿美元收购交易，此前北京要求该交易必须反转。目前收购解除程序已启动。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
     {
       "id": "cmqcoyrfo00ieslttjd60zi3a",
       "title": "Suno 音轨分离：从零生成更纯净",
@@ -205,30 +229,6 @@
       "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
       "category": "tip",
       "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmqbrjero04b5slamicgrz7kn",
-      "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
-      "title_en": "Anthropic's safety warnings may have just backfired - the government has pulled the plug on its most powerful AI",
-      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-06-13T02:26:30.000Z",
-      "summary": "Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理。",
-      "category": "industry",
-      "score": 87,
-      "selected": true
-    },
-    {
-      "id": "cmqbnjbai034islame1d5jkaf",
-      "title": "OpenAI 遭多州总检察长联合调查",
-      "title_en": "OpenAI Probed by Coalition of State Attorneys General",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-13T00:27:02.000Z",
-      "summary": "OpenAI 正被一个由多州总检察长组成的联盟调查，该联盟已向这家人工智能公司索取涵盖广泛主题的信息。",
-      "category": "industry",
-      "score": 72,
       "selected": true
     }
   ]
