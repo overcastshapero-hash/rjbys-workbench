@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T04:48:44.687Z",
+  "generatedAt": "2026-06-15T10:56:43.589Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-15",
   "daily": {
@@ -60,14 +60,50 @@
   },
   "selectedItems": [
     {
-      "id": "cmqeq904x04n3slunuhrb63fg",
-      "title": "美国禁止外国访问Anthropic最佳AI模型，标志政策逆转与对硅谷警告",
-      "title_en": "Anthropic Block Marks US Reversal， Warning to Silicon Valley",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-15/anthropic-block-marks-us-reversal-warning-to-silicon-valley",
+      "id": "cmqf3dgxd02fwslwaswi0zq0j",
+      "title": "Anthropic 出口禁令加剧对美国掌控 AI 的担忧",
+      "title_en": "Anthropic Export Ban Deepens Fears About US Stranglehold on AI",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-15/anthropic-export-ban-deepens-fears-about-us-stranglehold-on-ai",
       "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-15T04:25:20.000Z",
-      "summary": "美国采取非常规措施，禁止外国访问Anthropic PBC的最强AI模型，凸显特朗普政府开始愿意对关键行业施加控制。此举也提醒硅谷，他们正在处理一项尚未完全理解且影响不确定的技术。",
+      "publishedAt": "2026-06-15T10:30:58.000Z",
+      "summary": "Anthropic 的出口禁令本周末引发美国以外政治家和科技人士的强烈担忧，许多人认为其对 AI 最严重的恐惧已成现实--美国对 AI 技术的垄断格局正在加深。",
       "category": "industry",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqf2oucs027eslwayb6fe3ro",
+      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+      "title_en": "6 倍速！Kimi K2.7 Code 高速版已上线",
+      "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+      "source": "公众号：月之暗面（Kimi）",
+      "publishedAt": "2026-06-15T10:26:06.000Z",
+      "summary": "Kimi K2.7 Code 高速版上线，与普通版为同一模型，输出速度约 5-6 倍，常规编程场景约 180 Token/s，短上下文可达 260 Token/s。API 定价为普通版 2 倍，模型 ID：kimi-k2.7-code-highspeed。Kimi Code Plan 用户可通过「抢先体验计划」使用，用量消耗为普通版 3 倍。使用须开启思考模式，关闭会报错或回退至 K2.6。庆祝发布，Kimi API 开放平台推出为期三周充赠活动，充值 500 元及以上享 20%-30% 代金券。相比 K2.6，K2.7 Code 在长上下文编程指令遵循、长程任务性能提升，平均 token 消耗减少 30%，内部基准测试显著提升。普通版输入 6.5 元/百万 token、输出 27 元，缓存输入 1.3 元。非编程任务推荐 K2.6。",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true
+    },
+    {
+      "id": "cmqf0xl1601t7slwaf7eww3hm",
+      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+      "title_en": "Meet Flash-KMeans： An IO-Aware， Exact K-Means That Runs Over 200× Faster Than FAISS on GPUs",
+      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-06-15T09:16:09.000Z",
+      "summary": "UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd's k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O（NK）降至O（Nd+Kd），单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmqewgm5e00nzslwahr1rt9n1",
+      "title": "AI裁员浪潮成为火药桶",
+      "title_en": "The AI layoff wave is becoming a powder keg",
+      "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-15T07:25:41.000Z",
+      "summary": "今年科技公司已累计裁员约15万人，日均974人，速度比去年快44%；上月裁员近4万创两年新高，AI连续三个月被列为裁员首要原因。Block近半数员工被裁后，CEO Jack Dorsey否认AI是根源，Marc Andreessen则称AI只是\"银弹借口\"。Uber裁撤23%人事部门，但此前CTO透露AI编码预算四个月内耗尽。与此同时，AI芯片商Cerebras上市首日市值达670亿美元，SpaceX上市市值2.1万亿美元，Anthropic和OpenAI估值均约1万亿美元。Meta在扎克伯格购入1.7亿美元豪宅后宣布裁员8000人。民调显示65%选民认为中产阶级生活遥不可及，76%美国人将生活成本列为首要经济问题。",
+      "category": "tip",
       "score": 70,
       "selected": true
     },
