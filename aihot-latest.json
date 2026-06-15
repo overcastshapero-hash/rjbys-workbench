@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T20:26:58.768Z",
+  "generatedAt": "2026-06-15T23:04:28.123Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-15",
   "daily": {
@@ -59,6 +59,18 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqfp50sf0004sl002o8dcc7w",
+      "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+      "title_en": "GitHub Copilot CLI for Beginners： Overview of common slash commands",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-06-15T20:15:31.000Z",
+      "summary": "GitHub Copilot CLI 为初学者提供了常用斜杠命令的概述，帮助用户通过命令控制终端中的 AI 智能体。",
+      "category": "tip",
+      "score": 59,
+      "selected": true
+    },
     {
       "id": "cmqfjwpb500o2slq8vbryuxyg",
       "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
