@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T19:47:37.448Z",
+  "generatedAt": "2026-06-16T22:15:17.959Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-16",
   "daily": {
@@ -136,6 +136,30 @@
   },
   "selectedItems": [
     {
+      "id": "cmqh78bnl01mrsle11gmghtv0",
+      "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
+      "title_en": "Draft mode for V8.1 and new feature previews",
+      "url": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
+      "source": "Midjourney：Updates（RSS）",
+      "publishedAt": "2026-06-16T22:04:29.000Z",
+      "summary": "Midjourney V8.1 的 Draft mode 草稿模式每次生成24张低分辨率低质量图片。用户可对任意图片点击 \"Vary\"，将其渲染为全质量、全分辨率版本。草稿任务消耗的快速小时数减半。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmqh6wxfh01k6sle1y2xzcqjx",
+      "title": "OpenAI 的领先优势正在快速缩小",
+      "title_en": "OpenAI's lead is dwindling fast",
+      "url": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-16T21:54:47.000Z",
+      "summary": "评论认为 OpenAI 正面临多重危机：缺乏护城河导致市场领先地位下滑；最大投资者微软持续疏远，近期甚至公开考虑将主要产品外包给中国；亏损速度远超预期，年亏损额以 8 倍增长。华盛顿方面可能打压 Anthropic，但也可能反而帮助其崛起，而 Elon Musk 成为另一个潜在的竞标者。",
+      "category": "tip",
+      "score": 62,
+      "selected": true
+    },
+    {
       "id": "cmqh1kwnx002asle1lo0di435",
       "title": "Anthropic：智能体编码中专业知识回报持续存在",
       "title_en": "Agentic coding and persistent returns to expertise",
@@ -156,7 +180,7 @@
       "publishedAt": "2026-06-16T18:37:24.744Z",
       "summary": "6月16日，一篇标题为\"Why is Meta destroying its engineering organization？\"的博客文章出现在 Hacker News，获得110个点赞。文章指出 Meta 正在解散其工程组织，引发业界广泛讨论。具体原因和后续影响尚未明确。",
       "category": "tip",
-      "score": 79,
+      "score": 80,
       "selected": true
     },
     {
@@ -172,6 +196,18 @@
       "selected": true
     },
     {
+      "id": "cmqh269tl004esle1vztceb34",
+      "title": "公开聊天数据能否预测真实世界AI失调？",
+      "title_en": "Can public chat data predict real-world AI misalignments？",
+      "url": "https://alignment.openai.com/validating-public-evals",
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "publishedAt": "2026-06-16T18:00:00.000Z",
+      "summary": "OpenAI利用WildChat公开数据集（2023年4月至2024年5月收集的100万条对话）模拟模型部署，预测GPT-5.1、GPT-5.2、GPT-5.4在真实生产环境中的不良行为率。与私有生产数据对比发现，WildChat模拟的平均预测误差约3倍；但对技术性和智能体型失调的预测精度下降。研究验证了公开数据集作为外部审计工具的可行性。",
+      "category": "paper",
+      "score": 73,
+      "selected": true
+    },
+    {
       "id": "cmqgvsb7s00z8slpu7p31yn17",
       "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
       "title_en": "《Fable》的封禁从来就不是因为越狱吗？",
@@ -180,7 +216,7 @@
       "publishedAt": "2026-06-16T16:45:18.627Z",
       "summary": "美国政府对 Anthropic 的模型 Fable 实施封禁，但 TechCrunch 发文质疑，实际原因可能并非此前认为的\"模型越狱\"问题。该文章在 Hacker News 引发讨论，获得 103 个点赞。",
       "category": "industry",
-      "score": 77,
+      "score": 75,
       "selected": true
     },
     {
@@ -229,18 +265,6 @@
       "summary": "美国司法部在一份驳回诉讼的动议中称，xAI的聊天机器人Grok对军事行动至关重要，以此为其在密西西比州Southaven的Colossus 2设施运行未经许可的燃气轮机辩护。NAACP已提起诉讼，指控xAI的燃气轮机数量从4月的27台增至57台，导致氮氧化物排放飙升111%。国防部首席数字与人工智能官Cameron Stanley表示，Grok是支持机密和绝密网络军事任务的四款AI模型之一，包括近期针对伊朗的打击。",
       "category": "industry",
       "score": 80,
-      "selected": true
-    },
-    {
-      "id": "cmqgo34he01ftslic80znicuh",
-      "title": "2025年OpenAI亏损额激增近8倍，支出高达340亿美元",
-      "title_en": null,
-      "url": "https://www.wheresyoured.at/exclusive-openai-financials",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-16T13:01:23.690Z",
-      "summary": "据Hacker News热门文章，OpenAI在2025年亏损额激增近8倍，年度总支出达到340亿美元。原文来自wheresyoured.at的独家财务分析报道，该信息在Hacker News上获得超过100个点赞。",
-      "category": "industry",
-      "score": 78,
       "selected": true
     },
     {
@@ -312,7 +336,7 @@
       "publishedAt": "2026-06-16T04:29:10.241Z",
       "summary": "微软旗下GitHub面临AI算力短缺，微软因此转向亚马逊AWS寻求计算资源支持。原文来自Hacker News热门讨论，标题为\"Microsoft turns to AWS as GitHub faces AI capacity crunch\"。",
       "category": "industry",
-      "score": 75,
+      "score": 76,
       "selected": true
     },
     {
@@ -445,18 +469,6 @@
       "summary": "苹果AI版Siri迟迟未上线，项目负责人迈克·罗克韦尔在WWDC技术分享会上透露，去年团队曾做出在原有Siri基础上小幅改良、新增工具调用的可运行版本，但因无法达到产品愿景，最终选择推倒重来，完整从零重构系统，依托全新大模型搭建。重构后的Siri拥有独立应用程序，原生支持多模态交互，隐私保护贯穿底层架构，并覆盖iPhone、iPad、Mac、Apple Watch、Vision Pro、CarPlay、AirPods等全平台，提供统一连贯体验。",
       "category": "tip",
       "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmqfp50sf0004sl002o8dcc7w",
-      "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
-      "title_en": "GitHub Copilot CLI for Beginners： Overview of common slash commands",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-06-15T20:15:31.000Z",
-      "summary": "GitHub Copilot CLI 为初学者提供了常用斜杠命令的概述，帮助用户通过命令控制终端中的 AI 智能体。",
-      "category": "tip",
-      "score": 59,
       "selected": true
     }
   ]
