@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T15:58:40.979Z",
+  "generatedAt": "2026-06-16T19:47:37.448Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-16",
   "daily": {
@@ -136,6 +136,66 @@
   },
   "selectedItems": [
     {
+      "id": "cmqh1kwnx002asle1lo0di435",
+      "title": "Anthropic：智能体编码中专业知识回报持续存在",
+      "title_en": "Agentic coding and persistent returns to expertise",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "publishedAt": "2026-06-16T19:35:22.252Z",
+      "summary": "Anthropic 基于约40万次 Claude Code 交互会话（2025年10月至2026年4月）分析发现：人类主导规划决策（做什么），Claude 主导执行决策（怎么做）。领域专业知识越强，模型每次指令完成的工作量越多。各类职业完成任务的成功率与软件工程师平均相近；领域专家成功率更高，但与中级用户差距不大。七个月间调试会话占比下降近一半，使用转向端到端智能体任务（部署运行代码、分析数据、编写非代码文档），典型任务价值平均上升约25%。",
+      "category": "paper",
+      "score": 76,
+      "selected": true
+    },
+    {
+      "id": "cmqh02ula025kslpus6x0agms",
+      "title": "Meta 解散工程部门引发热议",
+      "title_en": "Meta为什么要解散其工程部门？",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-16T18:37:24.744Z",
+      "summary": "6月16日，一篇标题为\"Why is Meta destroying its engineering organization？\"的博客文章出现在 Hacker News，获得110个点赞。文章指出 Meta 正在解散其工程组织，引发业界广泛讨论。具体原因和后续影响尚未明确。",
+      "category": "tip",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmqgz178201wfslpu25xb10dm",
+      "title": "微软考虑为 Copilot Cowork 集成 DeepSeek V4",
+      "title_en": "Axios reports that Microsoft is considering a Microsoft-hosted version of DeepSeek V4 as a cheaper m…",
+      "url": "https://x.com/kimmonismus/status/2066946013026263110",
+      "source": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-06-16T18:08:26.000Z",
+      "summary": "微软正考虑为 Copilot Cowork 提供微软托管的 DeepSeek V4 版本，作为更便宜的模型选项。Copilot Cowork 将放弃无限定价，转向按使用量计费，原因是成本过高（用户每周执行数百项任务导致费用激增）。若采用 DeepSeek，该模型将是可选的、经过微调与安全防护，并完全托管于 Azure。Axios 报道称微软已微调了一个可用模型，最终决定待定。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqgvsb7s00z8slpu7p31yn17",
+      "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
+      "title_en": "《Fable》的封禁从来就不是因为越狱吗？",
+      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-16T16:45:18.627Z",
+      "summary": "美国政府对 Anthropic 的模型 Fable 实施封禁，但 TechCrunch 发文质疑，实际原因可能并非此前认为的\"模型越狱\"问题。该文章在 Hacker News 引发讨论，获得 103 个点赞。",
+      "category": "industry",
+      "score": 77,
+      "selected": true
+    },
+    {
+      "id": "cmqguowxx00nuslpuulayglav",
+      "title": "Copilot Cowork 全球正式可用，支持多模型",
+      "title_en": "Copilot Cowork is now generally available worldwide， now with multi-model support！ Every organizati…",
+      "url": "https://x.com/satyanadella/status/2066911399494963335",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "publishedAt": "2026-06-16T15:50:53.000Z",
+      "summary": "Copilot Cowork 现已全球正式可用，并支持多模型！\n每个组织都可以让长期运行的智能体处理复杂的多步骤任务，基于你组织的独特知识和专有技术。 https：//www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/？v=15",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
+    {
       "id": "cmqgq6dmf01zlslic1ulg3iq5",
       "title": "马斯克：AI将达Stockfish级编码",
       "title_en": "AI will achieve Stockfish-level coding and generalized computer use",
@@ -244,6 +304,18 @@
       "selected": true
     },
     {
+      "id": "cmqg5imdd003gslnc6gteye02",
+      "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
+      "title_en": "随着GitHub面临AI算力短缺，微软转而寻求AWS的支持",
+      "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-16T04:29:10.241Z",
+      "summary": "微软旗下GitHub面临AI算力短缺，微软因此转向亚马逊AWS寻求计算资源支持。原文来自Hacker News热门讨论，标题为\"Microsoft turns to AWS as GitHub faces AI capacity crunch\"。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmqg20v1a02rtslspl2co5zge",
       "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
       "title_en": null,
@@ -265,18 +337,6 @@
       "summary": "当前毕业生面临论文AIGC率检测荒诞困境。学生手写摘要被判定99%AI率，纯AI写部分却为0%。学校要求AIGC率不超40%，学生用Claude反复修改并花上百元检测费（维普20元/篇，知网/万方2元/千字符），最终降至36.1%。答辩时老师要求改回学术表达，AI率回升至37.21%。同一论文在不同平台检测结果差异巨大（48%、44%、59%）。部分平台提供降重收费服务，少数学校已改用AI使用声明表替代一刀切检测。",
       "category": "tip",
       "score": 69,
-      "selected": true
-    },
-    {
-      "id": "cmqfzukav0264slspmybg065u",
-      "title": "伯克利RDI发布Agents' Last Exam基准",
-      "title_en": "Agents' Last Exam",
-      "url": "https://rdi.berkeley.edu/blog/agents-last-exam",
-      "source": "Berkeley RDI：Blog（AI 安全与评测）",
-      "publishedAt": "2026-06-16T01:59:10.841Z",
-      "summary": "2026年6月，伯克利RDI发布Agents' Last Exam（ALE）基准，包含1，500余项源于真实工作的任务，覆盖55个非体力职业。对Fable 5、GPT-5.5、Composer 2.5等前沿智能体的测评显示：在最困难层级成功率均为0%；整体任务表现接近，但单任务成本差异巨大（Fable 5约$15.70，GPT-5.5约$3.80，Composer 2.5约$1.33）。CLI子集ALE-CLI最佳通过率仅25.2%。主要失败模式是智能体未验证输出即宣称完成。数据集、代码及CLI子集已开源。",
-      "category": "paper",
-      "score": 83,
       "selected": true
     },
     {
@@ -313,6 +373,30 @@
       "summary": "五角大楼宣布已将超2/3日常AI工作流从Anthropic转移，目标9月前清零。起因是年初五角大楼要求Anthropic签署协议允许Claude用于大规模监控和全自动武器，CEO Dario Amodei以模型不可靠为由拒绝。五角大楼将其列为\"供应链风险\"，起诉未果。OpenAI调整立场获得订单。Polymarket预测6月底前和解概率仅9%。此事件凸显AI公司需在原则与政府合作间抉择。",
       "category": "industry",
       "score": 78,
+      "selected": true
+    },
+    {
+      "id": "cmqh18jbq02jwslpuwfn5km0q",
+      "title": "OpenAI 发布 Deployment Simulation 方法：通过模拟部署预测模型发布前行为",
+      "title_en": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-16T00:00:00.000Z",
+      "summary": "OpenAI 近日发布 Deployment Simulation 方法，通过在隐私保护下重放历史对话、用新候选模型重新生成回复，模拟模型上线后的实际表现。在多个 GPT-5-series Thinking 部署中，该方法比传统评估更准确地估计了不良行为频率，发现新型对齐问题，并降低模型识别测试的风险。它还能扩展至涉及工具使用的智能体场景。传统评估存在覆盖不足、选择偏差和模型可识别测试等局限，而 Deployment Simulation 使用真实对话分布缓解了这些问题，但无法测量频率低于每 20 万条消息 1 次的行为。",
+      "category": "paper",
+      "score": 74,
+      "selected": true
+    },
+    {
+      "id": "cmqguqu9r00rqslpuu5cpfao3",
+      "title": "Grok for PowerPoint 发布：在 Microsoft PowerPoint 内直接生成和编辑幻灯片",
+      "title_en": "Grok for PowerPoint Jun 16， 2026 # Grok for PowerPoint Grok now works inside Microsoft PowerPoint - turn outlines into slides， expand the deck， and tighten the narrative without leaving the app. Read More",
+      "url": "https://x.ai/news/introducing-powerpoint-addin",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-06-16T00:00:00.000Z",
+      "summary": "xAI 于 6 月 16 日发布 Grok for PowerPoint，作为免费 Microsoft 365 插件上线。用户无需离开应用即可利用 Grok 将大纲转为完整幻灯片，进行内容研究、撰写、排版，并支持添加单张幻灯片、调整样式主题、重构章节。插件还能调用 Grok 连接器，从邮件或 SharePoint 中获取信息。该插件同样适用于 Word 和 Excel。",
+      "category": "ai-products",
+      "score": 64,
       "selected": true
     },
     {
@@ -373,66 +457,6 @@
       "summary": "GitHub Copilot CLI 为初学者提供了常用斜杠命令的概述，帮助用户通过命令控制终端中的 AI 智能体。",
       "category": "tip",
       "score": 59,
-      "selected": true
-    },
-    {
-      "id": "cmqfjwpb500o2slq8vbryuxyg",
-      "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
-      "title_en": "Meta's new 'AI Mode' on Facebook pulls from public info across its platforms",
-      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-06-15T18:30:58.000Z",
-      "summary": "Meta 宣布在 Facebook 推出\"AI Mode\"搜索功能，利用 Meta AI 从公开帖子（含群组和 Reels）提取信息并合成答案，用户可用自然语言提问获得摘要。同时新增视频拼贴剪辑、过渡效果及 AI 照片预设（可更换服装、发型和配饰），体育迷可在 Stories 中点击\"AI Edit\"虚拟穿上队服。这些更新延续了此前动态头像、Marketplace 自动回复和创作者 AI 助手的部署节奏。此外，Meta 近期启动了 Facebook、Instagram 和 WhatsApp 的全球订阅计划（每月 3.99 美元起），更多 AI 订阅层级正在规划中。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqfjwkcg00nsslq8hl0hy4hc",
-      "title": "OpenRouter新增免费模型gpt-oss-20b和Gemma4 26B",
-      "title_en": "New Free capacity on OpenRouter， served by @eigenlabs's Darkbloom： gpt-oss-20b and Gemma 4 26B Star…",
-      "url": "https://x.com/OpenRouter/status/2066585705581797616",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-15T18:16:42.000Z",
-      "summary": "OpenRouter 上新增免费容量，由 @eigenlabs 的 Darkbloom 提供：gpt-oss-20b 和 Gemma 4 26B。\n今天就开始使用这些模型吧 ↓",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true
-    },
-    {
-      "id": "cmqfhhoq001hksl2aw53w2wz8",
-      "title": "下一代投机解码：DFlash 与 Spec V2",
-      "title_en": "Blog The next generation of speculative decoding： DFlash and Spec V2 Using Modal and Z Lab's DFlash speculative decoding models with SGLang's newly default Spec V2 engine， you can achieve state-of-the-art latencies for LLM inference serving. Our new， jointly-released D… Z Lab， Modal， and SGLang Teams",
-      "url": "https://www.lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-06-15T17:25:17.048Z",
-      "summary": "Z Lab、Modal 与 SGLang 团队联合发布 DFlash 投机解码模型和 SGLang 的默认 Spec V2 引擎。DFlash 采用块扩散+KV 注入并行生成整块 draft token，在 Qwen 3.5 397B-A17B（BF16）的 HumanEval 数据集上、并发 1 时吞吐量达到基线的 4.3",
-      "category": "ai-models",
-      "score": 67,
-      "selected": true
-    },
-    {
-      "id": "cmqg8eidi00c8sl9syvs6mwbm",
-      "title": "免费LLM API比较：速率限制、模型与真实成本（2026）",
-      "title_en": "Free LLM APIs Compared： Rate Limits， Models， and Real Costs （2026）",
-      "url": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-15T17:00:00.000Z",
-      "summary": "13个平台提供免费LLM API，含永久免费层与试用额度。OpenRouter拥有20+免费模型，单密钥无需信用卡；Groq以约320 tokens/秒运行Llama 3.3 70B；Google AI Studio支持1M上下文；Mistral实验层约10亿token/月但需同意数据训练；Cerebras约1M token/天；GitHub Models提供GPT-4o、Claude 3.5 Sonnet等前沿模型。各免费层有速率限制、数据训练授权、上下文缩减等隐藏成本，建议早期测试2-3个方案并设置故障转移。",
-      "category": "tip",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqg8eidi00c9sl9sb4cjwewg",
-      "title": "智能体AI治理：你的API密钥就是护栏",
-      "title_en": "Agentic AI Governance： Your API Key Is a Guardrail",
-      "url": "https://openrouter.ai/blog/insights/agentic-ai-governance",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-15T16:00:00.000Z",
-      "summary": "智能体AI使用量将在未来两年急剧上升，但治理滞后--仅五分之一企业拥有成熟治理模型。典型事故：销售智能体重试失败调用后自行升级到GPT-5.5，一夜消耗200美元。API路由层位于智能体与模型之间，是强制执行预算上限、模型白名单、提供方准入和请求日志的理想点。IBM报告指出97%遭遇AI安全事件的组织缺乏AI访问控制。最小可行治理方案：为每个智能体工作流分配独立API密钥，在API密钥层面实现预算控制、模型准入和审计追踪。",
-      "category": "tip",
-      "score": 68,
       "selected": true
     }
   ]
