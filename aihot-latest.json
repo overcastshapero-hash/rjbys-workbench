@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T18:23:28.834Z",
+  "generatedAt": "2026-06-17T21:11:08.241Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-17",
   "daily": {
@@ -213,6 +213,78 @@
   },
   "selectedItems": [
     {
+      "id": "cmqijhrqi01iosl5wt876piz9",
+      "title": "借助 Workload Identity Federation 安全访问 Claude Platform",
+      "title_en": "Secure access to the Claude Platform with Workload Identity Federation",
+      "url": "https://claude.com/blog/workload-identity-federation",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-17T20:44:36.833Z",
+      "summary": "Workload Identity Federation （WIF） 已在 Claude Platform 上全面可用。WIF 兼容任何 OIDC 身份提供者，覆盖所有 Claude API 端点（包括第一方 SDK 和 Claude Code）。WIF 用短生命期凭证替代静态 API 密钥，并引入服务账户，每个工作负载拥有独立身份、角色和审计日志。Claude Console 提供引导设置流程，支持 Admin API 进行组织管理。API 密钥可并行使用以便逐步迁移。",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true
+    },
+    {
+      "id": "cmqijhrqi01insl5wwxvq9xc6",
+      "title": "Claude Design 更新：跨项目保持品牌一致，与Claude Code协同",
+      "title_en": "Claude Design now stays on brand for daily work",
+      "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-17T20:44:36.833Z",
+      "summary": "6月17日，Claude Design 更新，支持跨项目使用统一设计系统，并与Claude Code同步工作流。用户可直接拖拽、对齐和缩放画布元素，编辑器稳定性大幅提升。设计系统可从GitHub、设计文件或原始上传导入，团队管理员可锁定标准系统防止篡改。新增桌面端侧边栏入口及独立网页端claude.ai/design。使用限制与聊天、Claude Cowork、Claude Code共享，每次任务消耗更少token，错误率下降。支持导出PDF、PPT，集成Adobe、Canva、Gamma等工具。发布首周用户超一百万。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmqiicjpx015ysl5wa4xk67zg",
+      "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR",
+      "title_en": "Getting more from each token： How Copilot improves context handling and model routing",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-06-17T19:41:46.000Z",
+      "summary": "GitHub 推出一个新的仓库级数据集，采用 CC0-1.0 许可证，旨在帮助研究人员和开发者发现跨 README、Issue 和 Pull Request 的多语言开发者内容，加速多语言 AI 开发。",
+      "category": "ai-products",
+      "score": 61,
+      "selected": true
+    },
+    {
+      "id": "cmqihbkcr00xcsl5wavwez5ua",
+      "title": "Claude Design与Replit联动，设计变应用",
+      "title_en": "Design in Claude. Build in Replit You can now send your design from Claude Design to Replit to turn…",
+      "url": "https://x.com/Replit/status/2067328501003497684",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-17T19:28:18.000Z",
+      "summary": "在Claude中设计。在Replit中构建。\n\n你现在可以将Claude Design中的设计发送到Replit，将其变成一个可工作的应用。",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true
+    },
+    {
+      "id": "cmqiie2vh018hsl5wbdaj9mz3",
+      "title": "Matt Pocock 开源 skills v1：将技能描述 Token 成本降低 63%",
+      "title_en": "被 vibe coding 反噬过的AI玩家和开发者们看过来，这个工具包把 Token 消耗砍掉了 63%，注意可不是单纯的砍功能，主要是砍废话。 @mattpocockuk Pocock（Tota…",
+      "url": "https://x.com/AYi_AInotes/status/2067327021005656135",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-06-17T19:22:25.000Z",
+      "summary": "Matt Pocock（Total TypeScript 作者）开源了 skills v1，将技能描述的 Token 成本降低 63%。该工具包将技能分为模型可调用和用户可调用，新增 /codebase-design、/domain-modeling、/grilling 三项技能；重写 /writing-great-skills；将 /diagnose 更新为 /diagnosing-bugs 并改为模型可调用；新增 /ask-matt 路由技能，帮助 AI 自动判断时机触发合适工程流程。主推文评价其将 prompt 从咒语拆解为纪律性流程。",
+      "category": "tip",
+      "score": 76,
+      "selected": true
+    },
+    {
+      "id": "cmqiewg85009zsl5w0gbt6hbe",
+      "title": "Anthropic与DeepMind CEO呼吁G7组建AI联盟排除中国",
+      "title_en": "We are entering a new era of the Cold War. Dario Amodei and Demis Hassabis are calling for a \"U.S.-…",
+      "url": "https://x.com/kimmonismus/status/2067310431669223425",
+      "source": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-06-17T18:16:30.000Z",
+      "summary": "Dario Amodei（Anthropic）与Demis Hassabis（Google DeepMind）在G7闭门会议上呼吁组建美国主导的联盟，为人工智能制定全球规则和标准。Amodei指出，该联盟应以前沿模型和硬件（包括芯片及其他关键组件）的访问权限为手段，将中国排除在外。这一主张被评论为高技术新冷战的开端，竞争方将从根本上被剥夺参与权。",
+      "category": "industry",
+      "score": 79,
+      "selected": true
+    },
+    {
       "id": "cmqiddvsx07xcslf0wcefjhm6",
       "title": "用SGLang-JAX在TPU上优化Ling-2.6-1T：一个Pallas核将MoE数据移动隐藏在计算中",
       "title_en": "Blog Optimizing Ling-2.6-1T on TPU with SGLang-JAX： Hiding MoE Data Movement Behind Compute with One Pallas Kernel SGLang-JAX now supports efficient serving of inclusionAI's Ling-2.6-1T on TPU v7x. With a working baseline in place， profiling pointed to the Mixture-of-Experts （MoE） path as the main bottleneck： each… Prayer， JamesBrianD， Haolin Fu， Haoguang Cai， Qinghan Chen",
@@ -405,6 +477,30 @@
       "selected": true
     },
     {
+      "id": "cmqijfbdz01grsl5wxf4rd7e6",
+      "title": "LifeSciBench 发布",
+      "title_en": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "summary": "2026 年 6 月，OpenAI 联合 173 位博士级生命科学家发布 LifeSciBench 评测基准，涵盖 750 个真实研究任务，覆盖证据处理、分析、设计优化等七个工作流及七个生物领域。每项任务配有约 25 条细化评分标准（共 19，020 条），评估模型的科学正确性与实用价值。79% 的任务需多步推理，53% 要求解读图表、PDF 等附件数据，旨在衡量 AI 在复杂、不确定的研究任务中的实际能力，而非仅回答结构化问题。",
+      "category": "paper",
+      "score": 58,
+      "selected": true
+    },
+    {
+      "id": "cmqihhij5010ksl5w7mpblibe",
+      "title": "Grok 4.3 在 Amazon Bedrock 正式可用",
+      "title_en": "Grok on Amazon Bedrock Jun 17， 2026 # Grok on Amazon Bedrock Grok models are now available via Amazon Bedrock. Read More",
+      "url": "https://x.ai/news/grok-amazon-bedrock",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "summary": "6 月 17 日，xAI 宣布 Grok 4.3 在 Amazon Bedrock 上全面可用。该模型在前沿模型中达成最低幻觉率，支持 100 万 token 上下文窗口，并提供可配置推理努力（none/low/medium/high）。在 Artificial Analysis Omniscience 基准排名第一，在 Tau2 Telecom 基准评估客服智能体真实工具调用性能排名第一，在 Vals AI Case Law 和 Corporate Finance 基准的复杂文档理解任务排名第一。定价为输入每百万 token 1.25 美元、输出每百万 token 2.50 美元，每美元智能度是其他前沿模型的 2-10 倍。",
+      "category": "ai-models",
+      "score": 61,
+      "selected": true
+    },
+    {
       "id": "cmqh9tq4602bvsle1zonzmrg9",
       "title": "人工智能是否已经让自助类非虚构书籍销声匿迹了？",
       "title_en": null,
@@ -450,18 +546,6 @@
       "summary": "评论认为 OpenAI 正面临多重危机：缺乏护城河导致市场领先地位下滑；最大投资者微软持续疏远，近期甚至公开考虑将主要产品外包给中国；亏损速度远超预期，年亏损额以 8 倍增长。华盛顿方面可能打压 Anthropic，但也可能反而帮助其崛起，而 Elon Musk 成为另一个潜在的竞标者。",
       "category": "tip",
       "score": 62,
-      "selected": true
-    },
-    {
-      "id": "cmqh02ula025kslpus6x0agms",
-      "title": "Meta 解散工程部门引发热议",
-      "title_en": "Meta为什么要解散其工程部门？",
-      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-16T18:37:24.744Z",
-      "summary": "6月16日，一篇标题为\"Why is Meta destroying its engineering organization？\"的博客文章出现在 Hacker News，获得110个点赞。文章指出 Meta 正在解散其工程组织，引发业界广泛讨论。具体原因和后续影响尚未明确。",
-      "category": "tip",
-      "score": 80,
       "selected": true
     }
   ]
