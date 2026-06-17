@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T15:42:27.745Z",
+  "generatedAt": "2026-06-17T18:23:28.834Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-17",
   "daily": {
@@ -213,6 +213,90 @@
   },
   "selectedItems": [
     {
+      "id": "cmqiddvsx07xcslf0wcefjhm6",
+      "title": "用SGLang-JAX在TPU上优化Ling-2.6-1T：一个Pallas核将MoE数据移动隐藏在计算中",
+      "title_en": "Blog Optimizing Ling-2.6-1T on TPU with SGLang-JAX： Hiding MoE Data Movement Behind Compute with One Pallas Kernel SGLang-JAX now supports efficient serving of inclusionAI's Ling-2.6-1T on TPU v7x. With a working baseline in place， profiling pointed to the Mixture-of-Experts （MoE） path as the main bottleneck： each… Prayer， JamesBrianD， Haolin Fu， Haoguang Cai， Qinghan Chen",
+      "url": "https://www.lmsys.org/blog/2026-06-17-ling-2-6-tpu",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-06-17T17:53:38.527Z",
+      "summary": "SGLang-JAX现已支持inclusionAI的Ling-2.6-1T（1T稀疏MoE，63B激活参数，256路由专家，top-8路由加共享专家）在TPU v7x上高效推理。团队开发了Fused MoE V2--一个融合scatter、专家FFN和gather的Pallas核，通过将MoE数据移动隐藏在计算中，使MoE预填充延迟从5.16ms降至2.42ms（降幅53%），解码核延迟从0.249ms降至0.211ms（降幅约15%）。仅替换MoE核即提升预填充吞吐量24.8%，解码吞吐量18.5%-35.3%。在SGLang解码基准测试中，16块TPU v7x芯片输出吞吐量达16块H200 GPU的1.29倍（mc=128）至1.77倍（mc=512）。完整上线还包含混合KV/循环内存池、GLA线性注意力和单控制器数据并行支持。",
+      "category": "paper",
+      "score": 69,
+      "selected": true
+    },
+    {
+      "id": "cmqics21707rbslf0ydj558jy",
+      "title": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
+      "title_en": "Vercel Releases Eve： An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabilities",
+      "url": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-06-17T17:22:51.000Z",
+      "summary": "Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）。Eve 采用文件系统优先设计：每个智能体对应一个磁盘目录，目录结构直接映射模型、指令、工具、技能、连接、子智能体等能力，无需额外注册代码。内置六大生产级能力：持久执行（每步检查点，崩溃后可恢复）、沙箱计算、人机审批、安全连接（支持 MCP 和 OpenAPI）、多通道（Slack、Discord、Teams 等）以及追踪与评估（OpenTelemetry）。Vercel 内部运行了上百个智能体，包括数据分析工具 d0（月处理超3万查询）、自动销售代理 Lead Agent（年费约5000美元、回报32倍）和支持智能体 Vertex（自主解决92%工单）。",
+      "category": "ai-products",
+      "score": 77,
+      "selected": true
+    },
+    {
+      "id": "cmqiakygm075xslf0a7v3eqfl",
+      "title": "NVIDIA GEAR实验室发布ENPIRE：8个Codex智能体自主控制机器人完成物理实验",
+      "title_en": "I made Physical AutoResearch sound simple （conceptually）， but it took a village to pull off and lots…",
+      "url": "https://x.com/DrJimFan/status/2067283904986517866",
+      "source": "X：Jim Fan (@DrJimFan)",
+      "publishedAt": "2026-06-17T16:31:05.000Z",
+      "summary": "NVIDIA GEAR实验室推出ENPIRE系统，首次实现物理世界自主研究。系统让8个Codex智能体控制8台机器人，配备GPU和token预算。安全方面采用硬运动极限切断和扭矩受限夹爪两层硬件保障，支持通宵无人运行。奖励函数通过视觉分类器离线固定并冻结，防止智能体作弊。实时监测机器人利用率（MRU）、token利用率（MTU）和GPU利用率，以Tokens-to-Success和Time-to-Success评估效率。ENPIRE自主完成扎带、整理细针、安装GPU等高精度任务，发现8机器人并行探索显著更快。系统将开源。",
+      "category": "paper",
+      "score": 81,
+      "selected": true
+    },
+    {
+      "id": "cmqiah1xh073zslf07pwru4ui",
+      "title": "Google发布99美元Gemini智能音箱",
+      "title_en": "Google bets on Gemini to reinvent the smart home speaker",
+      "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-17T16:30:09.000Z",
+      "summary": "Google推出首款专为Gemini打造的智能音箱Google Home Speaker，售价99.99美元。支持自然语言请求和多步指令，可在说话中途纠正，并具备连续对话功能。内置10种新声音。高级AI功能需订阅Google Home Premium（月费10美元或年费100美元），包括Gemini Live自由对话、Nest摄像头活动摘要等。即日起预售，本月发货。",
+      "category": "ai-products",
+      "score": 76,
+      "selected": true
+    },
+    {
+      "id": "cmqi9mvca06wuslf0gcpfh1hv",
+      "title": "谷歌发布Agentic Resource Discovery（ARD）开放规范",
+      "title_en": "Announcing the Agentic Resource Discovery specification",
+      "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-06-17T16:08:36.794Z",
+      "summary": "Agentic Resource Discovery（ARD）是一项开放规范，用于在Web上发布、发现和验证AI工具、技能与智能体。它基于两个原语：组织在其自有域名下托管catalog描述可用能力，registry作为搜索引擎索引catalog并响应发现请求。ARD支持加密验证，使客户端与端点连接前确认发布者身份，然后直接通过原生协议调用能力。Google Cloud的Gemini Enterprise Agent Platform通过Agent Registry提供企业级支持，包括URN命名、出站策略、工具固定和基于Agent Identity的信任验证。该规范现已发布，开发者可通过托管`ai-catalog.json`文件使其服务可发现。",
+      "category": "industry",
+      "score": 63,
+      "selected": true
+    },
+    {
+      "id": "cmqi8ygw106qpslf0farqmsq7",
+      "title": "Omnigent开源：AI智能体团队元框架",
+      "title_en": "The future of coding is not one agent. It's a whole AI team. Omnigent lets you run a team of agents…",
+      "url": "https://x.com/Yuchenj_UW/status/2067273020352380950",
+      "source": "X：Yuchen Jin (@Yuchenj_UW)",
+      "publishedAt": "2026-06-17T15:47:50.000Z",
+      "summary": "编程的未来不是单一智能体，而是一个完整的AI团队。\n\nOmnigent让你在一个实时会话中运行一个智能体团队：Claude Code、Codex、Cursor、Pi，以及你自己的智能体。\n\n它是一个面向AI智能体的元框架，基于我们内部的Databricks开发工具构建，现已开源给所有人。\n\n由传奇人物@matei_zaharia和Databricks AI团队打造。没错，Matei仍然编写大量代码，包括Omnigent和我们产品的前端代码。",
+      "category": "ai-products",
+      "score": 77,
+      "selected": true
+    },
+    {
+      "id": "cmqi8qht206mtslf0a4q8mkrb",
+      "title": "MolmoMotion：语言引导的3D运动预测模型",
+      "title_en": "MolmoMotion： Language-guided 3D motion forecasting",
+      "url": "https://huggingface.co/blog/allenai/molmomotion",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-17T15:26:44.000Z",
+      "summary": "MolmoMotion基于Molmo 2骨干网络，输入视频帧、物体上的3D点标记及文字动作指令（如\"移动并旋转桌上放水果的木碗\"），预测未来数秒内这些点的3D轨迹。提供两个变体：自回归的MolmoMotion-AR逐步预测坐标，流匹配的MolmoMotion-FM通过连续空间变换处理多可能性运动。同时发布MolmoMotion-1M数据集（含116万视频的3D点轨迹及动作描述）和PointMotionBench基准测试（2700个人工验证视频片段）。模型权重、数据集和基准测试均已开源。",
+      "category": "ai-models",
+      "score": 69,
+      "selected": true
+    },
+    {
       "id": "cmqi8ca6w06k1slf0tgau5lib",
       "title": "Google 医学推理 AI 系统 AMIE 新研究：从诊断迈向长期疾病管理",
       "title_en": "New research shows how AMIE， our medical AI， could help manage health conditions.",
@@ -369,18 +453,6 @@
       "selected": true
     },
     {
-      "id": "cmqh1kwnx002asle1lo0di435",
-      "title": "Anthropic：智能体编码中专业知识回报持续存在",
-      "title_en": "Agentic coding and persistent returns to expertise",
-      "url": "https://www.anthropic.com/research/claude-code-expertise",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "publishedAt": "2026-06-16T19:35:22.252Z",
-      "summary": "Anthropic 基于约40万次 Claude Code 交互会话（2025年10月至2026年4月）分析发现：人类主导规划决策（做什么），Claude 主导执行决策（怎么做）。领域专业知识越强，模型每次指令完成的工作量越多。各类职业完成任务的成功率与软件工程师平均相近；领域专家成功率更高，但与中级用户差距不大。七个月间调试会话占比下降近一半，使用转向端到端智能体任务（部署运行代码、分析数据、编写非代码文档），典型任务价值平均上升约25%。",
-      "category": "paper",
-      "score": 76,
-      "selected": true
-    },
-    {
       "id": "cmqh02ula025kslpus6x0agms",
       "title": "Meta 解散工程部门引发热议",
       "title_en": "Meta为什么要解散其工程部门？",
@@ -390,66 +462,6 @@
       "summary": "6月16日，一篇标题为\"Why is Meta destroying its engineering organization？\"的博客文章出现在 Hacker News，获得110个点赞。文章指出 Meta 正在解散其工程组织，引发业界广泛讨论。具体原因和后续影响尚未明确。",
       "category": "tip",
       "score": 80,
-      "selected": true
-    },
-    {
-      "id": "cmqgz178201wfslpu25xb10dm",
-      "title": "微软考虑为 Copilot Cowork 集成 DeepSeek V4",
-      "title_en": "Axios reports that Microsoft is considering a Microsoft-hosted version of DeepSeek V4 as a cheaper m…",
-      "url": "https://x.com/kimmonismus/status/2066946013026263110",
-      "source": "X：Kim (@kimmonismus)",
-      "publishedAt": "2026-06-16T18:08:26.000Z",
-      "summary": "微软正考虑为 Copilot Cowork 提供微软托管的 DeepSeek V4 版本，作为更便宜的模型选项。Copilot Cowork 将放弃无限定价，转向按使用量计费，原因是成本过高（用户每周执行数百项任务导致费用激增）。若采用 DeepSeek，该模型将是可选的、经过微调与安全防护，并完全托管于 Azure。Axios 报道称微软已微调了一个可用模型，最终决定待定。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqh269tl004esle1vztceb34",
-      "title": "公开聊天数据能否预测真实世界AI失调？",
-      "title_en": "Can public chat data predict real-world AI misalignments？",
-      "url": "https://alignment.openai.com/validating-public-evals",
-      "source": "OpenAI：Alignment 研究博客（RSS）",
-      "publishedAt": "2026-06-16T18:00:00.000Z",
-      "summary": "OpenAI利用WildChat公开数据集（2023年4月至2024年5月收集的100万条对话）模拟模型部署，预测GPT-5.1、GPT-5.2、GPT-5.4在真实生产环境中的不良行为率。与私有生产数据对比发现，WildChat模拟的平均预测误差约3倍；但对技术性和智能体型失调的预测精度下降。研究验证了公开数据集作为外部审计工具的可行性。",
-      "category": "paper",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmqgvsb7s00z8slpu7p31yn17",
-      "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
-      "title_en": "《Fable》的封禁从来就不是因为越狱吗？",
-      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-16T16:45:18.627Z",
-      "summary": "美国政府对 Anthropic 的模型 Fable 实施封禁，但 TechCrunch 发文质疑，实际原因可能并非此前认为的\"模型越狱\"问题。该文章在 Hacker News 引发讨论，获得 103 个点赞。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqhsj1k2025oslf0co5nf14c",
-      "title": "GLM-5.2 上线并开源：专注 Coding 与长程任务",
-      "title_en": "GLM-5.2上线并开源：专注Coding与长程任务",
-      "url": "https://www.zhipuai.cn/zh/research/161",
-      "source": "智谱：研究（网页内嵌数据）",
-      "publishedAt": "2026-06-16T16:00:00.000Z",
-      "summary": "GLM-5.2 已发布并开源，采用 MIT 协议，支持 1M 上下文窗口。Coding 方面能承载项目级上下文，长程任务执行更稳定，遵循生产级工程规范，并支持客户端与移动端真机调试闭环。通过极致 Infra 优化，发布首日即可在国产算力平台运行。模型已开源至 GitHub、Hugging Face、ModelScope、BigModel 开放平台、Z.ai、智谱清言、AutoClaw 及 ZCode。",
-      "category": "ai-models",
-      "score": 59,
-      "selected": true
-    },
-    {
-      "id": "cmqguowxx00nuslpuulayglav",
-      "title": "Copilot Cowork 全球正式可用，支持多模型",
-      "title_en": "Copilot Cowork is now generally available worldwide， now with multi-model support！ Every organizati…",
-      "url": "https://x.com/satyanadella/status/2066911399494963335",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "publishedAt": "2026-06-16T15:50:53.000Z",
-      "summary": "Copilot Cowork 现已全球正式可用，并支持多模型！\n每个组织都可以让长期运行的智能体处理复杂的多步骤任务，基于你组织的独特知识和专有技术。 https：//www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/？v=15",
-      "category": "ai-products",
-      "score": 70,
       "selected": true
     }
   ]
