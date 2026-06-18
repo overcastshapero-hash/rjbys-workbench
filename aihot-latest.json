@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T19:32:20.753Z",
+  "generatedAt": "2026-06-18T22:14:11.236Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-18",
   "daily": {
@@ -213,15 +213,15 @@
   },
   "selectedItems": [
     {
-      "id": "cmqjw1gbm00t5slhi4nf1w1t8",
-      "title": "OpenAI 升级 ChatGPT 医疗能力：GPT-5.5 Instant 达到 Thinking 模型水平，免费可用",
-      "title_en": "ChatGPT's new health upgrade beats doctor-written answers， OpenAI says",
-      "url": "https://the-decoder.com/chatgpts-new-health-upgrade-beats-doctor-written-answers-openai-says",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-18T19:17:00.000Z",
-      "summary": "OpenAI 升级 ChatGPT 医疗能力，新模型 GPT-5.5 Instant 在 HealthBench 及 HealthBench Professional 测试中达到最贵 Thinking 模型水平，成本大幅降低。该模型对所有免费用户开放（有使用限制），其回答在准确性、清晰度和完整性上优于医生书写的回答，过去两个月错误健康陈述减少 71%。超 260 名来自 60 个国家的医生审查了 70 多万条模型响应。每周有超 2.3 亿人通过 ChatGPT 咨询健康问题。OpenAI 还提供 ChatGPT for Clinicians 和 OpenAI for Healthcare 等专业工具。",
-      "category": "ai-models",
-      "score": 73,
+      "id": "cmqjy18o2018cslhialdbdvi7",
+      "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
+      "title_en": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-18T19:59:22.000Z",
+      "summary": "OpenAI在IPO前夕连招两位重量级人物：Google DeepMind AI先驱、Transformer架构共同作者Noam Shazeer，以及前特朗普白宫AI政策官员Dean Ball。Shazeer此前通过27亿美元收购协议重返Google，此次离职加盟OpenAI。Ball将于7月6日加入，领导新组建的Strategic Futures团队，向首席战略官Jason Kwon汇报，团队将负责前沿AI政策与内部治理，聚焦灾难性风险、递归自我改进、劳动力市场影响及前沿实验室与政府关系等议题。此举正值Anthropic因美国政府出口管制禁令被迫下架Fable 5和Mythos 5模型。",
+      "category": "industry",
+      "score": 70,
       "selected": true
     },
     {
@@ -258,6 +258,18 @@
       "summary": "深度研究智能体在结合私有本地文档与外部网页检索时存在隐私泄露风险。MosaicLeaks 提出包含 1，001 条多跳研究链的新任务，每条链交错混合本地与公共子问题。测试发现智能体频繁泄露私有信息，单纯优化任务性能反而加剧泄露。基于此，研究提出隐私感知深度研究（PA-DR）强化学习训练方法，将严格链成功率从 48.7% 提升至 58.7%，同时将答案/全面信息泄露率从 34.0% 降至 9.9%。",
       "category": "paper",
       "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqk1gfya0283slhilhufijtu",
+      "title": "OpenAI 强化学习实现广泛且持久的有益模型",
+      "title_en": "Reinforcement learning towards broadly and persistently beneficial models",
+      "url": "https://alignment.openai.com/beneficial-rl",
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "publishedAt": "2026-06-18T18:00:00.000Z",
+      "summary": "OpenAI 通过强化学习在真实对话场景中训练模型，使其展现诚实、认知谦逊、元认知透明、可纠正性、普遍公平性和对人类福祉的关心等有益特质。训练数据涵盖健康、教育、科学、法律、工程等多个领域。训练后模型在数十项独立对齐评测（包括奖励黑客、欺骗、有害建议、规范遵从等）上均表现提升，且这种改善泛化到未参与训练的领域、任务和评分设定。在对抗性提示或微调下，模型仍难以被导向有害行为，表明有益特质强化学习可产生广泛且持久的对齐泛化。",
+      "category": "paper",
+      "score": 64,
       "selected": true
     },
     {
@@ -606,30 +618,6 @@
       "summary": "苹果CEO库克确认，AI热潮导致存储芯片严重短缺和价格暴涨，苹果产品涨价已\"不可避免\"。库克未透露涨价具体细节。华尔街日报指出，全球AI巨头大幅增加资本开支，高带宽内存需求激增，挤压消费电子芯片供应。自2024年以来内存和存储芯片价格已翻四倍，涨势预计延续至2027年。研究机构估算，下一代iPhone 18 Pro售价或需增加约270美元。苹果已在上月提高Mac Mini起售价。摩根士丹利预测，今年美国智能手机和PC价格将上涨15%。",
       "category": "industry",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqio5ehw02r0sl5wdidvo2dc",
-      "title": "Claude Code v2.1.181 发布",
-      "title_en": "v2.1.181",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "publishedAt": "2026-06-17T22:07:41.000Z",
-      "summary": "Claude Code v2.1.181 发布，新增 `/config key=value` 语法允许在提示中直接设置任意配置项，新增 `sandbox.allowAppleEvents` 选项使沙盒命令支持 Apple Events，新增 `CLAUDE_CLIENT_PRESENCE_FILE` 环境变量用于抑制移动端推送通知。内置 Bun 运行时升级至 1.4，改进了长段落流式输出（逐行显示）和 API 连接中断后自动重试。子 agent 面板优化：空闲 agent 30 秒自动隐藏、列表最多 5 行。修复了提示缓存读取、Write/Edit 在网络驱动器产生 0 字节文件、启动性能回归（约 120ms）、启动阻塞（最长 15 秒）、macOS TUI 冻结、子 agent 时长显示错误、API 重试指示器残留、AWS 凭证刷新等问题。",
-      "category": "ai-products",
-      "score": 57,
-      "selected": true
-    },
-    {
-      "id": "cmqiicjpx015ysl5wa4xk67zg",
-      "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR",
-      "title_en": "Getting more from each token： How Copilot improves context handling and model routing",
-      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-06-17T19:41:46.000Z",
-      "summary": "GitHub 推出一个新的仓库级数据集，采用 CC0-1.0 许可证，旨在帮助研究人员和开发者发现跨 README、Issue 和 Pull Request 的多语言开发者内容，加速多语言 AI 开发。",
-      "category": "ai-products",
-      "score": 61,
       "selected": true
     }
   ]
