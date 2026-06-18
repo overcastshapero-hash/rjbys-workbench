@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T04:19:35.743Z",
+  "generatedAt": "2026-06-18T09:17:59.216Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-18",
   "daily": {
@@ -212,6 +212,66 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqja53m201fgslmhigeqiqu6",
+      "title": "Kimi Work 新增目标模式与插件中心，6月推出额度消耗5折福利",
+      "title_en": "Kimi Work 上新：目标模式、插件中心和 6 月限时福利",
+      "url": "https://mp.weixin.qq.com/s/KJav-s9qlkzV9yN8r6-sNg",
+      "source": "公众号：月之暗面（Kimi）",
+      "publishedAt": "2026-06-18T09:06:57.000Z",
+      "summary": "月之暗面旗下 Kimi Work（Beta 版）新增「目标模式」，支持设定终点后由 Agent 自主循环推进任务，最长连续运行24小时，过程中人类可随时中断调整。同时上线「插件中心」，可选装百度网盘、Canva可画、钉钉、飞书、WPS、Notion、Cloudflare 等外部应用。6月限时福利期间，Kimi 电脑客户端 Work 模式所有任务会员额度消耗减半，即从0.02%降至0.01%。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmqjaaffp01gcslmhhkxrobvo",
+      "title": "八部门：用好个人消费贷款财政贴息政策，支持消费者购买 AI 相关产品",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/966/154.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-18T09:03:28.000Z",
+      "summary": "商务部等八部门6月18日发布关于加快\"人工智能+消费\"发展的实施意见。其中提到加大财政资金支持，落实数码和智能产品购新政策，鼓励地方在消费品以旧换新框架内自主制定补贴，重点支持新一代智能终端消费。增加AI手机、智能电脑、智能电视、智能家居、AI眼镜、智能网联汽车、人形机器人等产品供给，培育智能穿戴消费市场。同时加快AI在居家服务、养老服务、文化旅游、住宿餐饮、教育教学等领域的应用，建设AI商品首发平台，举办\"人工智能进万家\"活动。",
+      "category": "industry",
+      "score": 82,
+      "selected": true
+    },
+    {
+      "id": "cmqj858gd00vvslmhbegt7ms5",
+      "title": "DeepSeek 识图模式正式上线 App 和网页端",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/966/066.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-18T07:48:11.000Z",
+      "summary": "DeepSeek 识图模式于6月18日在网页和 App 端正式上线，与快速模式、专家模式并列。开启后用户可直接上传图片让 DeepSeek 识别图像，能力超越简单文字提取。目前 App 端仍显示\"图片理解功能内测中\"，网页端无此提示。该模式背后的多模态模型技术细节于今年4月公开，核心框架为\"Thinking with Visual Primitives（以视觉原语思考）\"。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqj7f40n00tmslmhcbr93w6l",
+      "title": "免费开源乔木画布：AI生图+抠图，一键部署Vercel",
+      "title_en": "免费开源乔木画布，一键部署Vercel为网站，简化版 PS。 支持Seedream生图、GPT-image-2，图片模版存储分享。 支持一键抠图、2w图标和常见Emoji，甚至都能画PRD了。 …",
+      "url": "https://x.com/vista8/status/2067513484364140994",
+      "source": "X：Vista (@vista8)",
+      "publishedAt": "2026-06-18T07:43:21.000Z",
+      "summary": "乔木画布推出免费开源在线图像编辑器，可一键部署Vercel为网站，功能类似简化版PS。支持Seedream和GPT-image-2生图、图片模板存储分享、一键抠图、2万图标和常见Emoji，甚至能绘制PRD。随时创建3：4/16：9/21：9等不同尺寸画布。原计划高级功能收费，庆祝端午节现全免费开源。在线体验：https：//ps.qiaomu.ai/，GitHub见评论区。",
+      "category": "ai-products",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmqj36zhf06vksl5w4wx2c0eo",
+      "title": "MOSS-TTS-Local-Transformer-v1.5 在 SGLang-Omni 上：原生流式 48 kHz 语音服务",
+      "title_en": "Blog MOSS-TTS Local Transformer v1.5 on SGLang-Omni： Serving Native-Streaming 48 kHz Speech Today we are announcing end-to-end serving for MOSS-TTS-Local-Transformer-v1.5 on SGLang-Omni， together with MOSI and the OpenMOSS Team. MOSS-TTS-Local-Transformer-v1.5 is an open TTS model for 48 kH… MOSI， OpenMOSS Team & SGLang-Omni Team",
+      "url": "https://www.lmsys.org/blog/2026-06-17-moss-tts-local-v15",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-06-18T05:56:08.548Z",
+      "summary": "MOSS-TTS-Local-Transformer-v1.5 是一款开源 TTS 模型，支持 48 kHz 立体声、零样本声音克隆、最长 10 分钟长文本合成、时长控制及 31 种语言。其核心采用 Qwen3-4B 骨干与约 2B 参数的 MOSS-Audio-Tokenizer-v2 音频编解码器，通过 12 个 RVQ 码本运行。SGLang-Omni 以三阶段流水线部署该模型。在 Seed-TTS-Eval 上词错误率 5.10%、语音相似度 69.23%，CV3-Eval 上 WER 7.48%、SIM 61.59%，MiniMax Multilingual 上 WER 6.37%、SIM 75.31%，X Voice 上 WER 20.48%、SIM 63.00%。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true
+    },
     {
       "id": "cmqixf0ar057msl5w132f09uc",
       "title": "cuTile Rust：安全无数据竞争的 GPU 内核系统",
@@ -546,18 +606,6 @@
       "summary": "火山引擎一站式营销创作平台Kickart 3.0（原\"创作Agent\"）正式上线，升级为对话式视频生成模式，用户可通过多轮对话调整商品图、故事板等，用自然语言生成营销视频。新增\"爆款裂变\"能力，上传视频链接后自动拆解爆款逻辑并重构至新商品视频，支持抖音电商内容合规与质量预审核。平台开放SaaS、API及Skill等多种交付方式，并已接入Seedance 2.0 mini，助力降低广告营销成本。",
       "category": "ai-products",
       "score": 63,
-      "selected": true
-    },
-    {
-      "id": "cmqhly7hf0068slf0ujjfjo0x",
-      "title": "消息称 OpenAI 今年一季度现金消耗达 37 亿美元，超同期收入的一半",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/965/335.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-17T04:55:33.000Z",
-      "summary": "OpenAI 在 2026 年第一季度现金消耗达 37 亿美元，超过同期 57 亿美元收入的一半。数据来自一份向股东披露的文件，直观体现 AI 大模型研发与规模化落地的巨额成本。OpenAI 正筹备上市，已在美国保密递交 IPO 申请，最早或于 9 月完成，估值最高可达 1 万亿美元。头部 AI 企业持续重金投入算力、模型研发与人才招募以维持竞争优势。",
-      "category": "industry",
-      "score": 73,
       "selected": true
     }
   ]
