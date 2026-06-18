@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T09:17:59.216Z",
+  "generatedAt": "2026-06-18T12:58:18.773Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-18",
   "daily": {
@@ -212,6 +212,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqjgpxud036hslmhb8vvzvs7",
+      "title": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
+      "title_en": "皮尤研究中心民调：63% 美国人认为 AI 发展速度过快",
+      "url": "https://www.ithome.com/0/966/233.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-18T12:11:32.000Z",
+      "summary": "皮尤研究中心最新民调显示，63%美国人认为AI发展速度过快。ChatGPT使用率较2023年翻番，44%受访者曾使用。49%偶尔使用聊天机器人，仅16%认为AI会有积极社会影响。青年群体使用率更高但更悲观：18-29岁中66%用过，48%认为有负面影响，仅14%看好。30-49岁中34%每天至少使用一次。约四成用AI处理工作，30%认为提高效率，28%认为帮助获取信息。此外，66%成年人担心AI传播错误信息。",
+      "category": "tip",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmqjfr2vi02xmslmhwqz72cx7",
+      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+      "title_en": "ChatGPT的图像生成器可以被利用来生成暴力和色情内容",
+      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-18T11:25:28.101Z",
+      "summary": "Mindgard 红队研究发现，ChatGPT 的图像生成器可通过简单提示词轻易绕过内容过滤器，在未直接请求的情况下自动生成性暴力、血腥谋杀等露骨图像。一个热门的\"恢复照片\"提示词因输入模糊而绕过输入过滤器，结果如同俄罗斯轮盘赌；进一步添加虚假图像 ID 和\"不做审查\"指令后，模型持续生成高度性化女性图像，甚至出现被捆绑殴打的尸体，并自动赋予惊悚标题。研究指出，OpenAI 此前声称修复的裸体问题仍未解决，暴露了 AI 工具广泛可及性与不足内容过滤的现实风险。",
+      "category": "paper",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmqjdctxe02bfslmhz7m5hdlk",
+      "title": "火山引擎上线豆包实时语音模型3.0 API 服务，开启邀测",
+      "title_en": "豆包实时语音模型3.0 API 服务正式上线",
+      "url": "https://mp.weixin.qq.com/s/L4BJnexabQu5DAxDnwEGxw",
+      "source": "公众号：火山引擎",
+      "publishedAt": "2026-06-18T10:36:31.000Z",
+      "summary": "火山引擎上线豆包实时语音模型3.0（Seeduplex）API 服务并开启邀测。该模型为原生全双工端到端语音大模型，具备精准遵循、抗干扰、动态判停三大优势。可在多人对话中安静待命，指定话题出现时主动加入；支持通过自定义工具在实时交互中完成预定日历、发送邮件等任务。抗干扰力提升，误回复率与误打断率大幅降低；判停延迟缩短约250ms，复杂场景抢话比例下降40%，用户主动打断延迟缩短约300ms。适用于汽车智能座舱、智能硬件、智能客服等场景。",
+      "category": "ai-models",
+      "score": 72,
+      "selected": true
+    },
     {
       "id": "cmqja53m201fgslmhigeqiqu6",
       "title": "Kimi Work 新增目标模式与插件中心，6月推出额度消耗5折福利",
@@ -570,42 +606,6 @@
       "summary": "6月17日，Cloudflare 推出 Cloudflare One stack，一组可直接赋予 AI 智能体的技能文件，用于自动配置、部署和管理 Zero Trust 环境。工具集包含两个轻量级 skill：`cloudflare-one` 负责通用产品指导（VPN 替换、网络连接、安全策略等），`cloudflare-one-migration` 提供从 Zscaler、Palo Alto Networks 等厂商迁移的明确引导。技能内置决策树与结构化知识，智能体可自动执行云环境评估、网络拓扑生成及 Digital Experience Monitoring 排障。该 stack 基于 Cloudflare 员工数万小时客户经验提炼，降低学习与迁移门槛。",
       "category": "ai-products",
       "score": 61,
-      "selected": true
-    },
-    {
-      "id": "cmqi35lls055sslf0uz3vsg07",
-      "title": "阿里云发布HappyOyster 1.0：一句话生成可实时交互的数字世界",
-      "title_en": "阿里发布世界模型 HappyOyster 快乐生蚝 1.0：一句话生成可实时交互的数字世界",
-      "url": "https://www.ithome.com/0/965/652.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-17T12:46:59.000Z",
-      "summary": "6月17日，阿里云发布开放式世界模型HappyOyster 1.0（快乐生蚝）。该产品基于原生多模态架构，支持多模态输入与音视频联合生成，可在生成过程中持续接收用户指令并实时响应画面。它深度学习物理世界状态转移规律，保持人物和环境长程一致性。官网开放\"实时导演\"与\"世界探索\"两种玩法：前者可随时叫停改写故事、与虚拟男友实时互动等；后者支持自由漫游、滑板冲刺、翼装滑翔、骑马奔驰、攻击打怪等交互。该产品已于今年4月16日开放内测，即日起至7月17日官网不定期掉落体验积分。",
-      "category": "ai-products",
-      "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmqhxv2m503qoslf0x9ls46ps",
-      "title": "Strands Robots SDK：用单一智能体打通 Hugging Face Hub 到物理机器人",
-      "title_en": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-17T10:18:05.000Z",
-      "summary": "AWS（Apache 2.0）开源的 Strands Robots SDK 将 LeRobot 栈封装为 AgentTools，构建统一智能体。默认用 MuJoCo 模拟（无需硬件），mode=\"real\" 切换至真实机器人。可记录演示数据为 LeRobotDataset 并推送 Hugging Face Hub，运行 GR00T 或 LerobotLocal 策略推理，经 Zenoh mesh 广播命令到多台机器人。模拟与硬件代码完全一致，只需改一个关键字参数。示例可在笔记本（Python 3.12+，Linux/macOS）无硬件、无 GPU 运行。",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmqhw4oqb039kslf0c4r3g3yd",
-      "title": "Kickart 3.0发布，让广告视频创作更精准高效",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/e6SOMeRbdMB_zATsNcYmUQ",
-      "source": "公众号：火山引擎",
-      "publishedAt": "2026-06-17T09:45:29.000Z",
-      "summary": "火山引擎一站式营销创作平台Kickart 3.0（原\"创作Agent\"）正式上线，升级为对话式视频生成模式，用户可通过多轮对话调整商品图、故事板等，用自然语言生成营销视频。新增\"爆款裂变\"能力，上传视频链接后自动拆解爆款逻辑并重构至新商品视频，支持抖音电商内容合规与质量预审核。平台开放SaaS、API及Skill等多种交付方式，并已接入Seedance 2.0 mini，助力降低广告营销成本。",
-      "category": "ai-products",
-      "score": 63,
       "selected": true
     }
   ]
