@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:45:30.619Z",
+  "generatedAt": "2026-06-19T07:11:28.954Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-19",
   "daily": {
@@ -213,6 +213,78 @@
   },
   "selectedItems": [
     {
+      "id": "cmqkhoy7906goslhiji2e8rc4",
+      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+      "title_en": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为 0.89",
+      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-19T05:01:18.006Z",
+      "summary": "Agent Builder 正式上市（GA）。基于 Elasticsearch 的持久化内存层将记忆分为情景、语义、程序三类，分别存入独立索引，各设不同写速率与过期规则。召回采用 BM25 与 Jina v5 稠密向量的 RRF 融合，再经交叉编码器重排序。在 168 道 QA 题评估中，R@10 平均 0.89，零跨租户泄漏。该层可通过支持 MCP 协议的客户端访问，不绑定特定运行时，已开源至 GitHub。",
+      "category": "tip",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmqkhbjf5069eslhiepqm55gr",
+      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+      "title_en": "卧槽，阿里把内部用了多年的向量数据库直接开源了，Pinecone每月70刀的能力，它pip一行免费就能用，十亿向量毫秒级还不用单独起服务🤯 以后做RAG和AI搜索的，不用再每月给Pinecone交…",
+      "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-06-19T04:49:25.000Z",
+      "summary": "阿里开源内部向量数据库Zvec，pip install zvec免费使用，对标Pinecone每月70美元能力。支持十亿向量毫秒级检索，无需单独起服务，全平台兼容；v0.5.0新增原生全文混合搜索。UCSD黄碧薇教授（causal-learn作者）提出AI四代范式：相关性小模型→因果小模型→相关性大模型（LLM）→因果大模型，认为当前正站在第四代门口。其创立的Aether AI完成首轮融资，致力于从视频中自动抽取物理规律，探索下一代因果AI范式。",
+      "category": "ai-products",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmqkf6cny05q6slhidvc7xzf4",
+      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "title_en": "这可能是我近期看到的最值得深入研究的一次skills开源和工程脚手架，最后总结的5个工程思路大家可以直接拿去用。 DeepSeek 研究员 Deli Chen 把他的 AutoResearch 协议…",
+      "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-06-19T03:58:46.000Z",
+      "summary": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
+      "category": "tip",
+      "score": 76,
+      "selected": true
+    },
+    {
+      "id": "cmqkf2fp305pcslhiws2ydp1j",
+      "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+      "title_en": "The Flat Curve Society",
+      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "source": "Steve Yegge：Medium（RSS）",
+      "publishedAt": "2026-06-19T03:31:56.000Z",
+      "summary": "美国政府短暂关闭了Mythos类中的Fable模型，标志着AI模型已越过危险门槛。作者预测最多两三代模型后，超级智能将像核武器一样被管控，大多数Fortune 500企业无法访问或仅受控使用。开源模型落后前沿约七个月，且面临算力和政府锁定的双重壁垒。人类的\"辨别地平线\"使许多人感觉模型进步停止，但实际指数增长未停--只是用户缺少足够困难的问题。Fable类已能解决此前Opus 4.8无法完成的复杂任务（如React客户端），AI将彻底改变编程和知识工作，但多数人只能使用当前等级模型。",
+      "category": "tip",
+      "score": 74,
+      "selected": true
+    },
+    {
+      "id": "cmqkc8a7h0515slhis4sq6oxb",
+      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "title_en": "Salesforce CodeGen Tutorial： Generate， Validate， and Rerank Python Functions With Unit Tests and Safety Checks",
+      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-06-19T02:44:12.000Z",
+      "summary": "本教程实现一个基于Salesforce CodeGen的端到端代码生成工作流。从HuggingFace加载CodeGen模型（支持350M、2B、codegen2-1B、codegen25-7b等版本），通过自然语言提示生成Python函数，随后进行函数提取、语法检查、静态安全检查、单元测试验证、best-of-N候选重排序、多步程序合成、提示词实验、基准可视化及导出。展示了CodeGen作为结构化代码生成流水线的能力，不仅完成代码补全，还能评估、筛选和组织生成结果。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqka3v1f04hbslhi809820yr",
+      "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
+      "title_en": null,
+      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-19T01:33:10.751Z",
+      "summary": "美国政府对Anthropic最强大的AI模型Claude Mythos实施出口管制，导火索是该公司将访问权限授予韩国电信巨头SK Telecom，美方担忧SK Telecom与中国存在关联。随后亚马逊向白宫报告Mythos的公开版本Fable 5存在可被绕过的防护漏洞，加剧不信任。白宫命令Anthropic撤销所有外国国民（包括美国境内移民）对Mythos和Fable 5的访问权限，Anthropic因此完全禁用这两个模型。Mythos此前通过Project Glasswing向约150家组织开放，SK Telecom于本月早些时候获得访问权，其曾向Anthropic投资1亿美元。SK Telecom在2024年中国营收仅约190万美元，但其所属SK集团在华业务广泛，且与中国联通有过合资历史，引发审查。",
+      "category": "industry",
+      "score": 76,
+      "selected": true
+    },
+    {
       "id": "cmqk5umoz03d0slhi4qnma1r3",
       "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
       "title_en": "Viktor grew a $20M annualized revenue run rate outside Microsoft Teams. Now it works inside Teams. …",
@@ -222,6 +294,18 @@
       "summary": "AI 员工 Viktor 在 Slack 上实现 2000 万美元年化收入（无销售团队、未大规模推广），现已正式进驻 Microsoft Teams。Viktor 定位为零门槛 AI：用户无需学习、无需提示词，像 @同事 一样提及即可获得完整工作成果，甚至无需主动 @ 也能自动完成。产品面向 Teams 的 3.2 亿用户，助力企业内部运营和管理人员零学习成本使用 AI。即日起免费试用，含 100 美元信用额度，无需绑定信用卡。",
       "category": "ai-products",
       "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqjzbnv501o3slhint0uoxat",
+      "title": "诺姆·沙齐尔加入OpenAI",
+      "title_en": null,
+      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-18T20:29:15.651Z",
+      "summary": "前Google研究员、Transformer架构共同作者诺姆·沙齐尔在X上宣布，他将加入OpenAI，并期待与那里的卓越团队合作。沙齐尔表示这是一个艰难的决定，同时对Google团队及其共同取得的成果感到无比自豪。",
+      "category": "industry",
+      "score": 86,
       "selected": true
     },
     {
@@ -258,18 +342,6 @@
       "summary": "从今日起，Claude Code 可将工作进度生成为 artifacts--实时、可分享的交互式网页，涵盖 PR 走查、系统说明、仪表盘、发布清单等。artifacts 基于会话完整上下文（代码库、连接器、对话）自动构建，更新时页面原地刷新，同事即时可见。默认仅作者可见，可分享给组织内成员，由管理员通过组织层级开关和角色权限管控。内部测试中最常见用例为调试：工程师调查事件，Claude Code 分析日志并发布包含时间线、嫌疑提交和错误率图表的 artifact，团队无需再\"走过场式汇报\"。",
       "category": "ai-products",
       "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqjuxull00fuslhitp791yyz",
-      "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-      "title_en": "We've collaborating with hundreds of physicians across 60 countries， 49 languages， and 26 specialtie…",
-      "url": "https://x.com/gdb/status/2067675030335668270",
-      "source": "X：Greg Brockman (@gdb)",
-      "publishedAt": "2026-06-18T18:25:17.000Z",
-      "summary": "OpenAI 与全球 60 个国家、49 种语言、26 个专科的数百名医生合作，通过医生主导的评估大幅提升了 GPT-5.5 Instant 在健康相关问题的智能水平，现已能与公司前沿 Thinking 模型（推理模型）相当。该模型每周为超过 2.3 亿 ChatGPT 用户服务，能更好识别紧急医疗需求、询问相关上下文、解释不确定性并简化复杂信息。由于面向所有 ChatGPT 免费用户开放，这些改进可惠及更多人。",
-      "category": "ai-products",
-      "score": 79,
       "selected": true
     },
     {
@@ -405,6 +477,18 @@
       "selected": true
     },
     {
+      "id": "cmqjmc80604sqslmhz4738b0k",
+      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+      "title_en": "AI systems rival doctors in new Nature studies， but one result suggests the tech won't age well",
+      "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-06-18T14:37:06.000Z",
+      "summary": "德国团队开发的MIRA智能体在模拟电子病历中操作85，000种选项，500余例急诊诊断准确率88.9%，对比测试（311例）得分87.8%，高于资深专科医生（78.1%）和混合团队（71.1%）。MIRA在阑尾炎（98.6%）和胰腺炎（92.3%）最佳，未发现危险药物交互或剂量错误，性能不受语言影响，代码已公开。谷歌AMIE采用双智能体架构，在100个多访视病例中治疗计划适切率95%（初级保健医生72%），并在药物知识基准RxQA上超过医生。两项研究均警告模拟环境与现实存在差距，实际性能可能更低。",
+      "category": "paper",
+      "score": 78,
+      "selected": true
+    },
+    {
       "id": "cmqjj40zi03y2slmhpeucu9ao",
       "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
       "title_en": "Adobe adds AI agents to Photoshop， Premiere， and more Creative Cloud apps",
@@ -522,30 +606,6 @@
       "summary": "乔木画布推出免费开源在线图像编辑器，可一键部署Vercel为网站，功能类似简化版PS。支持Seedream和GPT-image-2生图、图片模板存储分享、一键抠图、2万图标和常见Emoji，甚至能绘制PRD。随时创建3：4/16：9/21：9等不同尺寸画布。原计划高级功能收费，庆祝端午节现全免费开源。在线体验：https：//ps.qiaomu.ai/，GitHub见评论区。",
       "category": "ai-products",
       "score": 79,
-      "selected": true
-    },
-    {
-      "id": "cmqixf0ar057msl5w132f09uc",
-      "title": "cuTile Rust：安全无数据竞争的 GPU 内核系统",
-      "title_en": "Show HN： cuTile Rust：用 Rust 编写的、安全且无数据竞争的 GPU 内核",
-      "url": "https://github.com/nvlabs/cutile-rs",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-18T03:09:11.275Z",
-      "summary": "cuTile Rust 是一个基于 tile 的 GPU 编程系统，允许用 Rust 编写内存安全、无数据竞争的内核。它通过 `#【cutile：：module】` 宏将内核 AST 嵌入主机二进制，在运行时经 CUDA Tile IR JIT 编译为 GPU cubin。可变张量在启动前分割，不可变张量共享，启动器在 GPU 工作期间保持所有权。在 NVIDIA B200 上，逐元素操作达 7 TB/s（约 91% 峰值带宽），GEMM 达 2 PFlop/s（约 92% 密集 f16 峰值）。基于 cuTile Rust 构建的 Grout 推理引擎在 RTX 5090 上解码 Qwen3-4B 达 171 tokens/s，在 B200 上解码 Qwen3-32B 达 82 tokens/s。项目处于早期研究阶段。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqiw7jw604v7sl5w10zed5s8",
-      "title": "首个统一科学大模型 LOGOS 正式开源",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/50q5uY849FKnBzk1Q04MRg",
-      "source": "公众号：通义实验室（千问）",
-      "publishedAt": "2026-06-18T02:31:28.000Z",
-      "summary": "LOGOS 由 ATH-Token Foundry 联合中国人民大学高瓴人工智能学院开源，是首个基于统一\"科学语法\"的多领域科学生成基础模型。LOGOS-1B（1B参数）在六大科学任务上匹配或超越领域专用方法：口袋条件配体生成纯序列范式首次超越3D扩散模型，超越NatureLM（8×7B）；逆合成预测Top-1准确率74.8%；口袋位点识别仅靠序列达58.5% Top-n准确率；MOF材料生成NBB提升至17.78%。模型采用统一词汇表将蛋白质、小分子等编码为离散Token，通过空间交互离散化实现无需3D坐标的序列预测。预训练与下游任务形式与目标一致，跨领域知识迁移经实验验证有效。已完整开源模型权重、推理代码与技术报告。",
-      "category": "ai-models",
-      "score": 75,
       "selected": true
     }
   ]
