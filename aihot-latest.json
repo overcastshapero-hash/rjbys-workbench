@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T16:08:21.984Z",
+  "generatedAt": "2026-06-19T18:58:28.766Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-19",
   "daily": {
@@ -213,6 +213,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmqlaf27b00wusl2sfbraxwid",
+      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "title_en": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。 比如 @yangyi 昨天在他的牛马AI里面测试了这个Skill，说导…",
+      "url": "https://x.com/dotey/status/2068042001895809420",
+      "source": "X：宝玉 (@dotey)",
+      "publishedAt": "2026-06-19T18:43:30.000Z",
+      "summary": "宝玉分享 baoyu-design Skill 的迭代过程：用户测试发现导出问题（样式表未铺满整页、渐变色丢失），他在本地复现后让 Agent 分析原因、给出解决方案并添加测试覆盖，修复后效果改善。该 Skill 可在制作 PPT、动画视频或网站时调用 AI 生图配图，支持 Codex 内置画图或配合 baoyu-image-gen Skill 调用 Codex CLI 画图，并能连同图片一起导出为 PPTX，在 PowerPoint/Keynote 中二次编辑。迭代循环：自己用 → 发现问题 → 让 Agent 分析 → 出方案 → 确认 → 更新 Skill。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmql6vhtu01n0slluxpq3yvzh",
+      "title": "AI中心的数据黑洞",
+      "title_en": "The data black hole at the center of AI",
+      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "publishedAt": "2026-06-19T16:45:03.000Z",
+      "summary": "智能的一种定义是样本效率，但近年AI进步主要靠扩充数据分布和增加算力。强化学习本质是合成数据生成--投入大量算力通过验证器筛选\"好\"数据，再训练模型预测正确输出。这一过程需要每个领域和技能的海量人类专家示例，数据行业年收入已达数十亿美元。近日Epoch报告，开源模型仅落后前沿闭源模型4个月，原因在于数据可从公开API蒸馏，而超参数等不易复制。人类一生接触约2亿token，前沿模型训练在数十到数百T token之间，相差近百万倍--机器人、自动驾驶等领域同样存在巨大效率差距。",
+      "category": "tip",
+      "score": 60,
+      "selected": true
+    },
+    {
+      "id": "cmql4yj5e014zsllucl69g3l6",
+      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
+      "title_en": "Thanks John for an extraordinary partnership and wonderful collaboration over the past 9 years！ What…",
+      "url": "https://x.com/demishassabis/status/2068002732250640603",
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "publishedAt": "2026-06-19T16:07:27.000Z",
+      "summary": "AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。",
+      "category": "industry",
+      "score": 72,
+      "selected": true
+    },
+    {
       "id": "cmqkzwabf008islcwjpwe10ii",
       "title": "禁止开源AI将是一个错误",
       "title_en": "Banning Open Source AI Would Be A Mistake",
@@ -342,102 +378,6 @@
       "summary": "OpenClaw 已内置 OpenRouter 支持，一条命令即可为 AI 智能体配置统一密钥、统一账单，并实现跨 300 多个模型的自动故障转移。同时提供具体设置步骤以及常见错误的修复方法。",
       "category": "tip",
       "score": 60,
-      "selected": true
-    },
-    {
-      "id": "cmqjv0f7b00icslhi7qozgr78",
-      "title": "Claude Code 现已支持 artifacts",
-      "title_en": "Claude Code now supports artifacts",
-      "url": "https://claude.com/blog/artifacts-in-claude-code",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-18T18:54:47.698Z",
-      "summary": "从今日起，Claude Code 可将工作进度生成为 artifacts--实时、可分享的交互式网页，涵盖 PR 走查、系统说明、仪表盘、发布清单等。artifacts 基于会话完整上下文（代码库、连接器、对话）自动构建，更新时页面原地刷新，同事即时可见。默认仅作者可见，可分享给组织内成员，由管理员通过组织层级开关和角色权限管控。内部测试中最常见用例为调试：工程师调查事件，Claude Code 分析日志并发布包含时间线、嫌疑提交和错误率图表的 artifact，团队无需再\"走过场式汇报\"。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqjur86800bvslhi6qv1647r",
-      "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
-      "title_en": "MosaicLeaks： Can your research agent keep a secret？",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-18T18:13:13.000Z",
-      "summary": "深度研究智能体在结合私有本地文档与外部网页检索时存在隐私泄露风险。MosaicLeaks 提出包含 1，001 条多跳研究链的新任务，每条链交错混合本地与公共子问题。测试发现智能体频繁泄露私有信息，单纯优化任务性能反而加剧泄露。基于此，研究提出隐私感知深度研究（PA-DR）强化学习训练方法，将严格链成功率从 48.7% 提升至 58.7%，同时将答案/全面信息泄露率从 34.0% 降至 9.9%。",
-      "category": "paper",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqk1gfya0283slhilhufijtu",
-      "title": "OpenAI 强化学习实现广泛且持久的有益模型",
-      "title_en": "Reinforcement learning towards broadly and persistently beneficial models",
-      "url": "https://alignment.openai.com/beneficial-rl",
-      "source": "OpenAI：Alignment 研究博客（RSS）",
-      "publishedAt": "2026-06-18T18:00:00.000Z",
-      "summary": "OpenAI 通过强化学习在真实对话场景中训练模型，使其展现诚实、认知谦逊、元认知透明、可纠正性、普遍公平性和对人类福祉的关心等有益特质。训练数据涵盖健康、教育、科学、法律、工程等多个领域。训练后模型在数十项独立对齐评测（包括奖励黑客、欺骗、有害建议、规范遵从等）上均表现提升，且这种改善泛化到未参与训练的领域、任务和评分设定。在对抗性提示或微调下，模型仍难以被导向有害行为，表明有益特质强化学习可产生广泛且持久的对齐泛化。",
-      "category": "paper",
-      "score": 64,
-      "selected": true
-    },
-    {
-      "id": "cmqjsqzm906hvslmhamqrju3u",
-      "title": "Claude Enterprise 推出企业托管 MCP 连接器授权管理",
-      "title_en": "Centrally manage authorization for MCP connectors",
-      "url": "https://claude.com/blog/enterprise-managed-auth",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-18T17:51:29.795Z",
-      "summary": "Claude Enterprise 推出企业托管授权功能，管理员可通过身份提供商（率先支持 Okta）为整个组织配置 MCP 连接器。用户首次登录 Claude 时自动获得授权，无需手动操作，实现零接触设置。该功能基于 Model Context Protocol 的 Enterprise-Managed Authorization 扩展构建，支持 Asana、Atlassian、Canva、Figma、Granola、Linear、Supabase 等 MCP 提供商，Slack 即将支持。授权管理集成到现有 IdP 工作流中，可按组限定范围、通过 IdP 快速撤销授权，并支持要求连接器仅通过 IdP 连接以隔离工作与个人使用。",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true
-    },
-    {
-      "id": "cmqjsqzm906huslmhlsasckqc",
-      "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
-      "title_en": "Steering Claude Code： CLAUDE.md files， skills， hooks， rules， subagents and more",
-      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-18T17:51:29.795Z",
-      "summary": "Claude Code 提供七种自定义指令方式：CLAUDE.md（根目录始终加载，子目录按需加载）、规则（无范围或路径范围）、技能（按需调用，共享 token 预算）、子智能体（隔离上下文运行并返回最终消息）、钩子（生命周期事件触发，绕过压缩）、输出样式（注入系统提示，永不压缩）和附加系统提示（CLI 标志，仅单次有效）。每种方式在加载时机、压缩行为、上下文成本和适用场景上各有不同，例如 CLAUDE.md 适合存放构建命令与编码规范，路径范围规则避免无关上下文消耗，子智能体用于并行隔离任务，钩子用于确定性自动化（如运行 linter 或备份聊天记录）。",
-      "category": "tip",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqjsoas006duslmh9878irin",
-      "title": "AI数据中心获政府强制电网快车道",
-      "title_en": "AI data centers just got a government-mandated fast lane to the grid",
-      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-06-18T17:49:23.000Z",
-      "summary": "美国联邦能源监管委员会（FERC）命令六大电网运营商为数据中心等大型用户提供快速并网通道，数据中心需承担并网费用。FERC同时要求运营商考虑\"替代输电技术\"，并在30天内报告剩余发电容量、60天内审查本区域电价。指令并未解决发电容量短缺问题。数据中心电力需求预计到2035年增长近三倍，而电网运营商此前长期应对近乎零的需求增长。据Bloomberg，部分地区批发电价较五年前上涨了267%。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqjvhcit00lqslhiulrfivqk",
-      "title": "企业版新用量分析与更新的支出控制",
-      "title_en": "New usage analytics and updated spend controls for enterprises",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-18T17:00:00.000Z",
-      "summary": "OpenAI 为 ChatGPT Enterprise 推出信用额度用量分析与更新的支出控制功能。全局管理控制台（Global Admin Console）统一展示 ChatGPT 和 Codex 的信用消耗，支持按时间、用户、产品、模型追踪用量趋势。管理员可为整个工作区设置默认限额，按群组配置额度，并为个人设置叠加限制。员工可查看个人用量并申请增加额度（附工作上下文）。这些功能即日起可用。",
-      "category": "ai-products",
-      "score": 58,
-      "selected": true
-    },
-    {
-      "id": "cmqjpkj4105oqslmh4rmirant",
-      "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
-      "title_en": "Project Fetch： Phase two",
-      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "publishedAt": "2026-06-18T16:22:33.561Z",
-      "summary": "Anthropic 发布 Project Fetch 实验第二阶段结果。在2024年8月原始实验中，配备 Claude Opus 4.1 的人类团队在操控四足机器人时显著超越无 AI 团队。新实验中，Claude Opus 4.7 无需人类协助即完成所有任务，速度比最快人类团队快约20倍，比无 Claude 团队快37倍以上，编码量减少近10倍。模型在传感器连接、路径规划等环节表现出色，但在精确移动沙滩球等闭环控制任务上仍存在困难。这些进展源于通用模型规模化，而非针对机器人领域的专项优化。",
-      "category": "paper",
-      "score": 77,
       "selected": true
     }
   ]
