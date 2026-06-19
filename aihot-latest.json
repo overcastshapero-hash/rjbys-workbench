@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T12:10:12.855Z",
+  "generatedAt": "2026-06-19T16:08:21.984Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-19",
   "daily": {
@@ -213,6 +213,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmqkzwabf008islcwjpwe10ii",
+      "title": "禁止开源AI将是一个错误",
+      "title_en": "Banning Open Source AI Would Be A Mistake",
+      "url": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "publishedAt": "2026-06-19T13:02:47.000Z",
+      "summary": "近期行政命令、国会提案及对Anthropic最先进模型的境外访问限制，可能开启新一轮AI监管。开源软件已支撑全球90%以上软件并创造8万亿美元经济价值，在教育、创新和竞争三方面持续赋能。Anthropic与OpenAI的封闭模型加剧市场集中，开源（尤其开放权重）是初创公司、教育机构和企业获得替代方案的唯一平衡力量。开源透明性使其更安全，更多工程师可剔除不需要的模型行为或修复漏洞。以中国竞争为由监管开源将适得其反，美国初创公司正依赖包括中国在内的开源模型提升效率。",
+      "category": "tip",
+      "score": 56,
+      "selected": true
+    },
+    {
+      "id": "cmqkzxdp0009eslcw0jlr6pvl",
+      "title": "Cloudflare 为 AI 智能体推出临时账户",
+      "title_en": "Temporary Cloudflare Accounts for AI agents",
+      "url": "https://blog.cloudflare.com/temporary-accounts",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-06-19T13:00:00.000Z",
+      "summary": "Cloudflare 在 Workers 上推出临时账户（Temporary Accounts），允许 AI 智能体直接运行 `wrangler deploy --temporary`，在数秒内获取一个可用的实时 Worker，无需绕开面向人类设计的部署流程。该功能旨在降低智能体部署门槛。",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true
+    },
+    {
+      "id": "cmqkxgxrb003oslu7irf0vf59",
+      "title": "/youtube-notetaker：YT 视频转 Artifacts",
+      "title_en": "YT Videos -&gt； Aritfacts Watch how I use my new /youtube-notetaker skill to generate artifacts fro…",
+      "url": "https://x.com/omarsar0/status/2067952726282031411",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "publishedAt": "2026-06-19T12:48:45.000Z",
+      "summary": "YT 视频 -> Artifacts\n\n看看我如何使用新的 /youtube-notetaker 技能从 YT 视频生成 Artifacts。\n\n捕获幻灯片、笔记、转录内容……\n\n快去试试 ↓",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmqkrei4r006ssl4zm2006sdt",
       "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
       "title_en": "开源一个为演讲而生的PPT Skill，再不用跟观众大眼瞪小眼了",
@@ -402,66 +438,6 @@
       "summary": "Anthropic 发布 Project Fetch 实验第二阶段结果。在2024年8月原始实验中，配备 Claude Opus 4.1 的人类团队在操控四足机器人时显著超越无 AI 团队。新实验中，Claude Opus 4.7 无需人类协助即完成所有任务，速度比最快人类团队快约20倍，比无 Claude 团队快37倍以上，编码量减少近10倍。模型在传感器连接、路径规划等环节表现出色，但在精确移动沙滩球等闭环控制任务上仍存在困难。这些进展源于通用模型规模化，而非针对机器人领域的专项优化。",
       "category": "paper",
       "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmqk90yo9047fslhiqzp4ut7u",
-      "title": "如何将 SillyTavern 连接到 OpenRouter（2026 指南）",
-      "title_en": "How to Connect SillyTavern to OpenRouter （2026 Guide）",
-      "url": "https://openrouter.ai/blog/tutorials/sillytavern-openrouter",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-18T15:00:00.000Z",
-      "summary": "一个 OpenRouter API 密钥即可在 SillyTavern 的下拉菜单中解锁 300 多个模型，其中许多免费。指南包含五步连接流程、推荐尝试的角色扮演模型以及常见错误的修复方法。",
-      "category": "tip",
-      "score": 55,
-      "selected": true
-    },
-    {
-      "id": "cmqjn5l3e04weslmhr1vnj797",
-      "title": "我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施",
-      "title_en": "我国首部 L3/L4 自动驾驶强制性国标公示：2027 年 7 月起正式实施，车企靠模糊宣传抢市场的阶段结束",
-      "url": "https://www.ithome.com/0/966/272.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-18T14:57:30.000Z",
-      "summary": "工信部6月16日就《智能网联汽车自动驾驶系统安全要求》等2项强制性国标公开征求意见，公示至6月24日，建议2027年7月1日起实施。该标准系我国首部针对L3/L4的强制性国标，要求系统安全水平至少达到\"合格且专注驾驶人\"，引入Safety Case机制。L3重点规范人机交接，L4强调自身风险处置、不得依赖远程协助。新申请车型实施日起执行，已获批车型有约一年过渡期。",
-      "category": "industry",
-      "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmqjmc80604sqslmhz4738b0k",
-      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
-      "title_en": "AI systems rival doctors in new Nature studies， but one result suggests the tech won't age well",
-      "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-18T14:37:06.000Z",
-      "summary": "德国团队开发的MIRA智能体在模拟电子病历中操作85，000种选项，500余例急诊诊断准确率88.9%，对比测试（311例）得分87.8%，高于资深专科医生（78.1%）和混合团队（71.1%）。MIRA在阑尾炎（98.6%）和胰腺炎（92.3%）最佳，未发现危险药物交互或剂量错误，性能不受语言影响，代码已公开。谷歌AMIE采用双智能体架构，在100个多访视病例中治疗计划适切率95%（初级保健医生72%），并在药物知识基准RxQA上超过医生。两项研究均警告模拟环境与现实存在差距，实际性能可能更低。",
-      "category": "paper",
-      "score": 78,
-      "selected": true
-    },
-    {
-      "id": "cmqjj40zi03y2slmhpeucu9ao",
-      "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
-      "title_en": "Adobe adds AI agents to Photoshop， Premiere， and more Creative Cloud apps",
-      "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-18T12:59:00.000Z",
-      "summary": "Adobe 将其\"创意智能体\"扩展至 Photoshop、Premiere 等应用，以公开测试形式提供 AI Assistant。该智能体可自动完成多步骤常规任务，如 Premiere 分拣素材和粗剪、Photoshop 换背景、Illustrator 批量生成文件、InDesign 更新版式等。Firefly 新增面向个人创作者的品牌套件、产品图转短视频及 Quick Cut 自动剪辑功能。Adobe 工具已集成至 ChatGPT、Claude 及 Microsoft 365 Copilot，Google Gemini 和 Slack 集成即将推出。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqjgpxud036hslmhb8vvzvs7",
-      "title": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
-      "title_en": "皮尤研究中心民调：63% 美国人认为 AI 发展速度过快",
-      "url": "https://www.ithome.com/0/966/233.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-18T12:11:32.000Z",
-      "summary": "皮尤研究中心最新民调显示，63%美国人认为AI发展速度过快。ChatGPT使用率较2023年翻番，44%受访者曾使用。49%偶尔使用聊天机器人，仅16%认为AI会有积极社会影响。青年群体使用率更高但更悲观：18-29岁中66%用过，48%认为有负面影响，仅14%看好。30-49岁中34%每天至少使用一次。约四成用AI处理工作，30%认为提高效率，28%认为帮助获取信息。此外，66%成年人担心AI传播错误信息。",
-      "category": "tip",
-      "score": 71,
       "selected": true
     }
   ]
