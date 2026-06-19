@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T18:58:28.766Z",
+  "generatedAt": "2026-06-19T20:41:56.316Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-19",
   "daily": {
@@ -213,6 +213,30 @@
   },
   "selectedItems": [
     {
+      "id": "cmqlclrpp01h9sl2s1c94el8x",
+      "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+      "title_en": "一项新法案旨在打击政府为压制合法网络言论而施加的压力",
+      "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-19T19:41:30.069Z",
+      "summary": "上周，参议员Ted Cruz和Ron Wyden提出两党法案JAWBONE Act，为受政府胁迫的广播商、互动计算机服务商及AI提供商创建针对政府官员的联邦诉讼权，并建立政府与中间方就用户表达问题沟通的透明度体系。法案旨在应对政府施压私营公司审查受第一修正案保护的言论。EFF支持该法案，并举证：2025年6月联邦高官威胁起诉ICEBlock创建者，同年10月司法部长要求苹果下架该应用。EFF还提起信息自由诉讼，要求披露政府与苹果、谷歌、Meta的沟通记录。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqldpkuw0011slf9a7n9u4pa",
+      "title": "OpenRouter vs Portkey：你的团队该选哪个LLM网关？",
+      "title_en": "OpenRouter vs Portkey： Which LLM Gateway for Your Team？",
+      "url": "https://openrouter.ai/blog/insights/openrouter-vs-portkey",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-19T19:00:00.000Z",
+      "summary": "OpenRouter是托管路由网络，买credits后通过一个API路由至70+供应商，自动故障转移，无需自有密钥；覆盖300+模型（含20+免费），按用量收费（零加成+5.5%平台费，首100万免费），支持零数据保留和欧盟路由。Portkey是AI控制平面（2026年被Palo Alto收购），置于用户密钥之上，增加治理、提示管理、护栏和可观测性；提供1600+ LLM统一API，按日志计费（Developer免费，Production $49/月），支持HIPAA、SSO、私有部署。两者均可组合使用。",
+      "category": "tip",
+      "score": 59,
+      "selected": true
+    },
+    {
       "id": "cmqlaf27b00wusl2sfbraxwid",
       "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
       "title_en": "Skill 和软件一样，需要不断迭代的，而且你用户越多，遇到的各种问题就越多，就需要去解决各种边边角角的问题，才能越来越好用。 比如 @yangyi 昨天在他的牛马AI里面测试了这个Skill，说导…",
@@ -246,6 +270,18 @@
       "summary": "AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。",
       "category": "industry",
       "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqldpkuw0012slf9dif29msc",
+      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
+      "title_en": "OpenRouter vs LiteLLM： Which LLM Gateway Fits Your Stack？",
+      "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-19T15:00:00.000Z",
+      "summary": "OpenRouter 是托管在 Cloudflare 边缘的 LLM 网关，无需管理基础设施，收取 5.5% 平台费（前 100 万次请求免费），支持 70+ 提供商和自动故障转移。LiteLLM 是自部署代理（Docker/PostgreSQL/Redis），数据不离开内网，免费开源，但需承担基础设施成本（生产部署约数百美元/月）。当模型月支出超过约 $3，600（基础设施 $200/月）或 $9，100（基础设施 $500/月）时自托管更划算。LiteLLM 提供六种路由策略和自定义 Python 路由；OpenRouter 具备 SOC 2、GDPR 认证和零数据保留选项。两者可串联使用。",
+      "category": "tip",
+      "score": 68,
       "selected": true
     },
     {
@@ -366,18 +402,6 @@
       "summary": "AI 员工 Viktor 在 Slack 上实现 2000 万美元年化收入（无销售团队、未大规模推广），现已正式进驻 Microsoft Teams。Viktor 定位为零门槛 AI：用户无需学习、无需提示词，像 @同事 一样提及即可获得完整工作成果，甚至无需主动 @ 也能自动完成。产品面向 Teams 的 3.2 亿用户，助力企业内部运营和管理人员零学习成本使用 AI。即日起免费试用，含 100 美元信用额度，无需绑定信用卡。",
       "category": "ai-products",
       "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqk90yo9047eslhiuppd7ed6",
-      "title": "OpenClaw 接入 OpenRouter",
-      "title_en": "Connect OpenClaw to OpenRouter",
-      "url": "https://openrouter.ai/blog/tutorials/openclaw-openrouter",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-18T19:00:00.000Z",
-      "summary": "OpenClaw 已内置 OpenRouter 支持，一条命令即可为 AI 智能体配置统一密钥、统一账单，并实现跨 300 多个模型的自动故障转移。同时提供具体设置步骤以及常见错误的修复方法。",
-      "category": "tip",
-      "score": 60,
       "selected": true
     }
   ]
