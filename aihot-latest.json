@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T14:25:35.724Z",
+  "generatedAt": "2026-06-20T16:22:26.292Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-20",
   "daily": {
@@ -212,30 +212,6 @@
       "summary": "智能的一种定义是样本效率，但近年AI进步主要靠扩充数据分布和增加算力。强化学习本质是合成数据生成--投入大量算力通过验证器筛选\"好\"数据，再训练模型预测正确输出。这一过程需要每个领域和技能的海量人类专家示例，数据行业年收入已达数十亿美元。近日Epoch报告，开源模型仅落后前沿闭源模型4个月，原因在于数据可从公开API蒸馏，而超参数等不易复制。人类一生接触约2亿token，前沿模型训练在数十到数百T token之间，相差近百万倍--机器人、自动驾驶等领域同样存在巨大效率差距。",
       "category": "tip",
       "score": 60,
-      "selected": true
-    },
-    {
-      "id": "cmql4yj5e014zsllucl69g3l6",
-      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
-      "title_en": "Thanks John for an extraordinary partnership and wonderful collaboration over the past 9 years！ What…",
-      "url": "https://x.com/demishassabis/status/2068002732250640603",
-      "source": "X：Demis Hassabis (@demishassabis)",
-      "publishedAt": "2026-06-19T16:07:27.000Z",
-      "summary": "AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。",
-      "category": "industry",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqldpkuw0012slf9dif29msc",
-      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
-      "title_en": "OpenRouter vs LiteLLM： Which LLM Gateway Fits Your Stack？",
-      "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-19T15:00:00.000Z",
-      "summary": "OpenRouter 是托管在 Cloudflare 边缘的 LLM 网关，无需管理基础设施，收取 5.5% 平台费（前 100 万次请求免费），支持 70+ 提供商和自动故障转移。LiteLLM 是自部署代理（Docker/PostgreSQL/Redis），数据不离开内网，免费开源，但需承担基础设施成本（生产部署约数百美元/月）。当模型月支出超过约 $3，600（基础设施 $200/月）或 $9，100（基础设施 $500/月）时自托管更划算。LiteLLM 提供六种路由策略和自定义 Python 路由；OpenRouter 具备 SOC 2、GDPR 认证和零数据保留选项。两者可串联使用。",
-      "category": "tip",
-      "score": 68,
       "selected": true
     }
   ]
