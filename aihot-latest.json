@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T16:22:26.292Z",
+  "generatedAt": "2026-06-20T18:15:50.698Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-20",
   "daily": {
@@ -200,18 +200,6 @@
       "summary": "宝玉分享 baoyu-design Skill 的迭代过程：用户测试发现导出问题（样式表未铺满整页、渐变色丢失），他在本地复现后让 Agent 分析原因、给出解决方案并添加测试覆盖，修复后效果改善。该 Skill 可在制作 PPT、动画视频或网站时调用 AI 生图配图，支持 Codex 内置画图或配合 baoyu-image-gen Skill 调用 Codex CLI 画图，并能连同图片一起导出为 PPTX，在 PowerPoint/Keynote 中二次编辑。迭代循环：自己用 → 发现问题 → 让 Agent 分析 → 出方案 → 确认 → 更新 Skill。",
       "category": "tip",
       "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmql6vhtu01n0slluxpq3yvzh",
-      "title": "AI中心的数据黑洞",
-      "title_en": "The data black hole at the center of AI",
-      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "publishedAt": "2026-06-19T16:45:03.000Z",
-      "summary": "智能的一种定义是样本效率，但近年AI进步主要靠扩充数据分布和增加算力。强化学习本质是合成数据生成--投入大量算力通过验证器筛选\"好\"数据，再训练模型预测正确输出。这一过程需要每个领域和技能的海量人类专家示例，数据行业年收入已达数十亿美元。近日Epoch报告，开源模型仅落后前沿闭源模型4个月，原因在于数据可从公开API蒸馏，而超参数等不易复制。人类一生接触约2亿token，前沿模型训练在数十到数百T token之间，相差近百万倍--机器人、自动驾驶等领域同样存在巨大效率差距。",
-      "category": "tip",
-      "score": 60,
       "selected": true
     }
   ]
