@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T05:18:03.413Z",
+  "generatedAt": "2026-06-20T09:22:19.157Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-20",
   "daily": {
@@ -118,6 +118,18 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqm0elho009fsliiybg230vu",
+      "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+      "title_en": "还得是微软会闷声发大财啊，它现在已经成为全球最大的 AI 中间商，oh no ，是最大的中转站， 不仅把ChatGPT卖给中国企业，也把DeepSeek 反向卖给西方客户😁 以上来自彭博社的最新报…",
+      "url": "https://x.com/AYi_AInotes/status/2068218661710512231",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-06-20T06:25:29.000Z",
+      "summary": "彭博社报道，微软已成为全球最大AI模型中转站，既将ChatGPT卖给中国企业，也反向将DeepSeek模型卖给西方客户。报道称微软正在测试DeepSeek-R1和DeepSeek-V4，计划向西方客户提供这些中国模型。这一模式构建起跨中美AI模型的双向贸易网络。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
     {
       "id": "cmqlj0jn600pdsljggy6btum5",
       "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
