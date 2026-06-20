@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T00:12:40.587Z",
+  "generatedAt": "2026-06-20T05:18:03.413Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-20",
   "daily": {
@@ -260,54 +260,6 @@
       "summary": "Humanize PPT v0.9 是一款专为演讲场景设计的PPT Skill，核心通过AST（Audience， State， Transfer）逻辑重新编排大纲，将页面渲染外包给下游Skill。渲染前先输出4张真实预览页，并将图片、视频素材的占位与生成prompt写入大纲。新增质检环节自动修复常见渲染问题，并支持演讲模式：按S键在独立窗口显示演讲稿备注，按ESC键打开全局索引快速跳页。项目已开源至github.com/LearnPrompt/humanize-ppt，由卡尔 & yc星辰开发。",
       "category": "tip",
       "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmqkhoy7906goslhiji2e8rc4",
-      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-      "title_en": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为 0.89",
-      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-19T05:01:18.006Z",
-      "summary": "Agent Builder 正式上市（GA）。基于 Elasticsearch 的持久化内存层将记忆分为情景、语义、程序三类，分别存入独立索引，各设不同写速率与过期规则。召回采用 BM25 与 Jina v5 稠密向量的 RRF 融合，再经交叉编码器重排序。在 168 道 QA 题评估中，R@10 平均 0.89，零跨租户泄漏。该层可通过支持 MCP 协议的客户端访问，不绑定特定运行时，已开源至 GitHub。",
-      "category": "tip",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmqkhbjf5069eslhiepqm55gr",
-      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
-      "title_en": "卧槽，阿里把内部用了多年的向量数据库直接开源了，Pinecone每月70刀的能力，它pip一行免费就能用，十亿向量毫秒级还不用单独起服务🤯 以后做RAG和AI搜索的，不用再每月给Pinecone交…",
-      "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-06-19T04:49:25.000Z",
-      "summary": "阿里开源内部向量数据库Zvec，pip install zvec免费使用，对标Pinecone每月70美元能力。支持十亿向量毫秒级检索，无需单独起服务，全平台兼容；v0.5.0新增原生全文混合搜索。UCSD黄碧薇教授（causal-learn作者）提出AI四代范式：相关性小模型→因果小模型→相关性大模型（LLM）→因果大模型，认为当前正站在第四代门口。其创立的Aether AI完成首轮融资，致力于从视频中自动抽取物理规律，探索下一代因果AI范式。",
-      "category": "ai-products",
-      "score": 79,
-      "selected": true
-    },
-    {
-      "id": "cmqkf6cny05q6slhidvc7xzf4",
-      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
-      "title_en": "这可能是我近期看到的最值得深入研究的一次skills开源和工程脚手架，最后总结的5个工程思路大家可以直接拿去用。 DeepSeek 研究员 Deli Chen 把他的 AutoResearch 协议…",
-      "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-06-19T03:58:46.000Z",
-      "summary": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
-      "category": "tip",
-      "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmqkc8a7h0515slhis4sq6oxb",
-      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-      "title_en": "Salesforce CodeGen Tutorial： Generate， Validate， and Rerank Python Functions With Unit Tests and Safety Checks",
-      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-06-19T02:44:12.000Z",
-      "summary": "本教程实现一个基于Salesforce CodeGen的端到端代码生成工作流。从HuggingFace加载CodeGen模型（支持350M、2B、codegen2-1B、codegen25-7b等版本），通过自然语言提示生成Python函数，随后进行函数提取、语法检查、静态安全检查、单元测试验证、best-of-N候选重排序、多步程序合成、提示词实验、基准可视化及导出。展示了CodeGen作为结构化代码生成流水线的能力，不仅完成代码补全，还能评估、筛选和组织生成结果。",
-      "category": "tip",
-      "score": 75,
       "selected": true
     }
   ]
