@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:17:59.538Z",
+  "generatedAt": "2026-06-20T22:12:29.170Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-20",
   "daily": {
@@ -152,18 +152,6 @@
       "summary": "NVIDIA Research 发布 SpatialClaw，一个免训练的空间推理框架。它通过将代码作为动作接口，让智能体调用感知工具（Depth Anything 3、SAM 3）并自由组合输出，解决视觉语言模型在 3D 空间判断上的弱点。在 20 项基准测试中平均准确率达 59.9%，比近期智能体 SpaceTools 高 11.2 个百分点，比无工具基线高 6.5 点，比结构化工具调用高 3.2 点。框架无需重新训练，同一提示词和工具集可跨所有基准和骨干网络运行，支持 Qwen3.5/3.6 及 Gemma4 等 26B 至 397B 参数的模型。",
       "category": "ai-products",
       "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmqlgwh3f006nsljg3exh1nge",
-      "title": "Figure机器人数首超人类员工",
-      "title_en": "We are past the point of theory. For the first time ever， Figure's robot count has passed its human…",
-      "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-19T21:50:24.000Z",
-      "summary": "我们已超越理论阶段。\n\n有史以来第一次，Figure的机器人数量超过了人类员工数量。",
-      "category": "industry",
-      "score": 78,
       "selected": true
     }
   ]
