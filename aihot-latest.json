@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T11:59:26.962Z",
+  "generatedAt": "2026-06-20T14:25:35.724Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-20",
   "daily": {
@@ -119,6 +119,18 @@
   },
   "selectedItems": [
     {
+      "id": "cmqmbymfe00zisl4f3pa6jwmz",
+      "title": "开源教程《Deep Agents 实战》发布",
+      "title_en": "开源技术教程「Deep Agents 实战」，LangChain 官方认证大使 @zhanghaili0610 出品，他也是「LangChain 实战」「LangGraph 实战」的作者 https：…",
+      "url": "https://x.com/shao__meng/status/2068306942184034471",
+      "source": "X：邵猛 (@shao__meng)",
+      "publishedAt": "2026-06-20T12:16:16.000Z",
+      "summary": "LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Agent 应用。核心是\"三层架构\"：Runtime（LangGraph）、Framework（LangChain）、Harness（Deep Agents）。技术内核为上下文工程，通过虚拟文件系统实现按需读取、中间结果落盘、大文件局部读取。教程共 8 章 + 2 准备篇，覆盖虚拟文件系统（六大工具）、任务规划、子 Agent 委派（异步并行）及 Skills 复用（可在 Claude Code、Cursor 等 30+ 工具中通用）。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmqm0elho009fsliiybg230vu",
       "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
       "title_en": "还得是微软会闷声发大财啊，它现在已经成为全球最大的 AI 中间商，oh no ，是最大的中转站， 不仅把ChatGPT卖给中国企业，也把DeepSeek 反向卖给西方客户😁 以上来自彭博社的最新报…",
@@ -224,42 +236,6 @@
       "summary": "OpenRouter 是托管在 Cloudflare 边缘的 LLM 网关，无需管理基础设施，收取 5.5% 平台费（前 100 万次请求免费），支持 70+ 提供商和自动故障转移。LiteLLM 是自部署代理（Docker/PostgreSQL/Redis），数据不离开内网，免费开源，但需承担基础设施成本（生产部署约数百美元/月）。当模型月支出超过约 $3，600（基础设施 $200/月）或 $9，100（基础设施 $500/月）时自托管更划算。LiteLLM 提供六种路由策略和自定义 Python 路由；OpenRouter 具备 SOC 2、GDPR 认证和零数据保留选项。两者可串联使用。",
       "category": "tip",
       "score": 68,
-      "selected": true
-    },
-    {
-      "id": "cmqkzwabf008islcwjpwe10ii",
-      "title": "禁止开源AI将是一个错误",
-      "title_en": "Banning Open Source AI Would Be A Mistake",
-      "url": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "publishedAt": "2026-06-19T13:02:47.000Z",
-      "summary": "近期行政命令、国会提案及对Anthropic最先进模型的境外访问限制，可能开启新一轮AI监管。开源软件已支撑全球90%以上软件并创造8万亿美元经济价值，在教育、创新和竞争三方面持续赋能。Anthropic与OpenAI的封闭模型加剧市场集中，开源（尤其开放权重）是初创公司、教育机构和企业获得替代方案的唯一平衡力量。开源透明性使其更安全，更多工程师可剔除不需要的模型行为或修复漏洞。以中国竞争为由监管开源将适得其反，美国初创公司正依赖包括中国在内的开源模型提升效率。",
-      "category": "tip",
-      "score": 56,
-      "selected": true
-    },
-    {
-      "id": "cmqkzxdp0009eslcw0jlr6pvl",
-      "title": "Cloudflare 为 AI 智能体推出临时账户",
-      "title_en": "Temporary Cloudflare Accounts for AI agents",
-      "url": "https://blog.cloudflare.com/temporary-accounts",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-06-19T13:00:00.000Z",
-      "summary": "Cloudflare 在 Workers 上推出临时账户（Temporary Accounts），允许 AI 智能体直接运行 `wrangler deploy --temporary`，在数秒内获取一个可用的实时 Worker，无需绕开面向人类设计的部署流程。该功能旨在降低智能体部署门槛。",
-      "category": "ai-products",
-      "score": 62,
-      "selected": true
-    },
-    {
-      "id": "cmqkxgxrb003oslu7irf0vf59",
-      "title": "/youtube-notetaker：YT 视频转 Artifacts",
-      "title_en": "YT Videos -&gt； Aritfacts Watch how I use my new /youtube-notetaker skill to generate artifacts fro…",
-      "url": "https://x.com/omarsar0/status/2067952726282031411",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "publishedAt": "2026-06-19T12:48:45.000Z",
-      "summary": "YT 视频 -> Artifacts\n\n看看我如何使用新的 /youtube-notetaker 技能从 YT 视频生成 Artifacts。\n\n捕获幻灯片、笔记、转录内容……\n\n快去试试 ↓",
-      "category": "tip",
-      "score": 75,
       "selected": true
     }
   ]
