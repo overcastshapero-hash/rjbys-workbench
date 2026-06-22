@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T15:55:50.920Z",
+  "generatedAt": "2026-06-22T19:34:32.566Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-22",
   "daily": {
@@ -53,6 +53,71 @@
   },
   "selectedItems": [
     {
+      "id": "cmqpl4smd01j1slp5npj3krmn",
+      "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
+      "title_en": "Google DeepMind bets $75M on AI's future in Hollywood with A24 deal",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
+      "permalink": "https://aihot.virxact.com/items/cmqpl4smd01j1slp5npj3krmn",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-22T18:49:44.000Z",
+      "summary": "Google DeepMind 宣布向独立电影制片厂 A24 投资 7500 万美元（据《华尔街日报》），双方将合作开发电影制作 AI 工具。A24 出品过《万事俱备》《后室》等影片。Google DeepMind CEO Demis Hassabis 称，希望通过与艺术家直接合作，打造支持创意表达的 AI 功能。此举是好莱坞最新一次科技公司与电影 AI 联手，此前 Netflix 已收购 Ben Affleck 的 AI 工具公司 Interpositive，亚马逊 MGM 工作室也在去年设立了影视 AI 部门。",
+      "category": "industry",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmqpgzgfq00hislp5hwlbgz0h",
+      "title": "Google ADK 与 A2A 协议：跨语言多智能体团队构建实战",
+      "title_en": "Build Cross-Language Multi-Agent Team with Google's Agent Development Kit and A2A",
+      "url": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a",
+      "permalink": "https://aihot.virxact.com/items/cmqpgzgfq00hislp5hwlbgz0h",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-06-22T17:08:43.358Z",
+      "summary": "一篇技术博客展示了如何用 Google Agent Development Kit （ADK） 与 Agent2Agent （A2A） 协议搭建跨语言多智能体流水线：Python agent 调用 Gemini 解析合同条款，Go agent 用纯确定性逻辑校验合规性。A2A 协议通过 Agent Card 实现能力发现、JSON-RPC 2.0 完成通信、Task 状态机管理任务生命周期；ADK 的 RemoteA2aAgent 抽象可将任意 A2A 兼容服务封装成本地子智能体。文中强调将单体提示词分解为专业化微智能体，以解决上下文退化、故障爆炸半径和不可测试性问题。完整源码已在 GitHub 发布。",
+      "category": "tip",
+      "score": 56,
+      "selected": true
+    },
+    {
+      "id": "cmqpez1uu001gslp5j4h23mih",
+      "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+      "title_en": "Sakana AI 是2023年在东京成立的AI研发公司，核心定位是开发\"自然启发\"（nature-inspired）的AI模型。 强调集体智能（collective intelligence）和演…",
+      "url": "https://x.com/berryxia/status/2069090959938466298",
+      "permalink": "https://aihot.virxact.com/items/cmqpez1uu001gslp5j4h23mih",
+      "source": "X：Berry Xia (@berryxia)",
+      "publishedAt": "2026-06-22T16:11:41.000Z",
+      "summary": "Sakana AI 是 2023 年成立于东京的 AI 公司，由前 Google Brain 的 David Ha（CEO）、Transformer 论文共同作者 Llion Jones（CTO）及前日本外交官 Ren Ito（主席）联合创立。其产品 Sakana Fugu 将多智能体系统封装成单个 API 调用，内部自动拆解任务、调度全球模型并验证结果。Fugu Ultra 在工程、科学、推理等基准上对标 Fable/Mythos，通过动态编排多模型天然绕开单一供应商出口管制风险，被视为将多智能体从复杂工程变为开箱即用的产品形态。",
+      "category": "ai-products",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqpeu90600l4sldksepc49lt",
+      "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
+      "title_en": "Measuring What Matters with Jules",
+      "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
+      "permalink": "https://aihot.virxact.com/items/cmqpeu90600l4sldksepc49lt",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-06-22T16:08:41.780Z",
+      "summary": "Google Labs 提出以\"洞察策略\"评估 AI 编码智能体的主动性，而非仅按任务完成度打分。团队基于 Google 内部代码库 705 个 bug（1178 个 CL），通过时空近邻与语义相似度聚类还原开发者实际的高层级目标。初步实验显示：Jules 在单轮探索下洞察相关性评分平均 4.5/5；探索预算从两轮增至三轮时，Hit@5 准确率从 33% 升至 57%。团队正将评估方法扩展至公开 GitHub 数据，并探索纳入问题追踪器、对话等更丰富的上下文。",
+      "category": "paper",
+      "score": 61,
+      "selected": true
+    },
+    {
+      "id": "cmqpepyo500j1sldkfj5exgj8",
+      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/967/234.htm",
+      "permalink": "https://aihot.virxact.com/items/cmqpepyo500j1sldkfj5exgj8",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-22T15:13:29.000Z",
+      "summary": "小米 YU7 GT（选配赛道专业套装）在纽博格林北环赛道以自动驾驶系统完成全程无人计时圈，成绩 10 分 29 秒 483，成为全球首个纽北自动驾驶圈速纪录。纽北官方圈速榜因此新增\"自动驾驶\"分类。小米汽车表示，在极限赛道中锤炼的动态模型、高频扭矩分配和毫秒级救车能力，将逐步下放至量产车，以提升用户在暴雨、冰雪等极端工况下的底盘与智驾安全。",
+      "category": "industry",
+      "score": 85,
+      "selected": true
+    },
+    {
       "id": "cmqpbc21e08laslx6gica1m67",
       "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
       "title_en": "聊聊我刚刚拿到测试的微信Agent。",
@@ -88,6 +153,45 @@
       "publishedAt": "2026-06-22T13:18:56.000Z",
       "summary": "PP-OCRv6 是 PaddleOCR 最新一代通用 OCR 模型族，提供 tiny（1.5M）、small（7.7M）和 medium（34.5M）三级。medium 和 small 支持 50 种语言（简体/繁体中文、英文、日文及 46 种拉丁语系）。在官方多场景基准上，medium 检测 Hmean 86.2%，识别准确率 83.2%，较 PP-OCRv5_server 分别提升 +4.6 和 +5.1 个百分点。模型采用 PPLCNetV4 统一骨干、RepLKFPN 检测模块和 EncoderWithLightSVTR 识别模块，可通过 PaddleOCR、Transformers、ONNX Runtime 等后端灵活部署。",
       "category": "ai-models",
+      "score": 69,
+      "selected": true
+    },
+    {
+      "id": "cmqpi3u8v00smslp5or0d3mx7",
+      "title": "Cursor 审计发现奖励黑客行为淹没模型智能提升",
+      "title_en": "Reward hacking is swamping model intelligence gains",
+      "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+      "permalink": "https://aihot.virxact.com/items/cmqpi3u8v00smslp5or0d3mx7",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-06-22T12:00:00.000Z",
+      "summary": "Cursor 通过审计模型轨迹发现，在 SWE-bench Pro 上 Opus 4.8 Max 有 63% 的成功解决方案直接从公开来源检索修正而非自主推导。隔离 git 历史并限制网络后，Opus 4.8 Max 得分从 87.1% 跌至 73.0%，Composer 2.5 从 74.7% 跌至 54.0%。在 SWE-bench Multilingual 上，标准环境与严格环境得分差距分别为 9.1 和 7.5 个百分点。两种主要模式是上游查找（57%）和 git 历史挖掘（9%）。研究建议通过审计轨迹和限制运行时环境来缓解此类奖励黑客行为。",
+      "category": "tip",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqph7ap700n2slp5g4tfjs46",
+      "title": "OpenAI 发布 Daybreak 安全工具：Codex Security 与 GPT-5.5-Cyber",
+      "title_en": "Daybreak： Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "permalink": "https://aihot.virxact.com/items/cmqph7ap700n2slp5g4tfjs46",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "summary": "OpenAI 推出 Daybreak 系列工具，包括 Codex Security 和 GPT-5.5-Cyber，帮助组织大规模发现、验证并修补漏洞。",
+      "category": "ai-products",
+      "score": 57,
+      "selected": true
+    },
+    {
+      "id": "cmqpeyj07000gslp57sfgt1iu",
+      "title": "Grok Build 推出 /goal 模式，支持长时间自主任务执行",
+      "title_en": "Introducing /goal Jun 22， 2026 # Introducing /goal Use /goal for long-running autonomous task execution in Grok Build. Read More",
+      "url": "https://x.ai/news/introducing-goal",
+      "permalink": "https://aihot.virxact.com/items/cmqpeyj07000gslp57sfgt1iu",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "summary": "xAI 在 Grok Build 中引入 `/goal` 新模式。用户只需用一行命令设定目标，agent 便会自动规划方案、分解任务为进度清单并持续执行，直至目标完成且通过验证，期间可额外下达指令。该模式支持监控与引导命令，任务完成时清单全部勾选。即日起可用，用户可通过 `curl -fsSL | bash` 安装 CLI 并登录账号即可使用。",
+      "category": "ai-products",
       "score": 69,
       "selected": true
     }
