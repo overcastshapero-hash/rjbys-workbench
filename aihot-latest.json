@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:01:10.484Z",
+  "generatedAt": "2026-06-23T23:10:34.242Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-23",
   "daily": {
@@ -140,6 +140,45 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqr73j5g0h1nslp5g9y52k0v",
+      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+      "title_en": null,
+      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "permalink": "https://aihot.virxact.com/items/cmqr73j5g0h1nslp5g9y52k0v",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-23T21:48:25.964Z",
+      "summary": "一项覆盖340万人、400万份申请、150家雇主和1700个职位的大规模实地研究发现，AI招聘筛选工具存在显著的种族歧视：26%的黑人申请者和15%的亚裔申请者遭遇算法对其族群的系统性排斥；若AI按推荐率最高群体（通常为白人）标准执行，将有4万份额外申请进入下一轮。多数雇主依赖同一第三方供应商算法，形成\"算法单一文化\"，导致10%提交4份申请者被所有职位拒绝。对比同期未用AI的招聘数据（8.3万份申请、108家财富500强企业），未发现此类模式。研究呼吁对算法招聘进行独立监管。",
+      "category": "paper",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmqr6bnad0gw8slp5xmrffynm",
+      "title": "Runway推出Seedance 4K等三款新模型",
+      "title_en": "Seedance 4K. Seedance Mini. Kling 3.0 Turbo. Available now. The world's best models， in one place. …",
+      "url": "https://x.com/runwayml/status/2069535148450705517",
+      "permalink": "https://aihot.virxact.com/items/cmqr6bnad0gw8slp5xmrffynm",
+      "source": "X：Runway (@runwayml)",
+      "publishedAt": "2026-06-23T21:36:44.000Z",
+      "summary": "Seedance 4K。Seedance Mini。Kling 3.0 Turbo。现已推出。\n全球最佳模型，汇聚一处。\n\n使用优惠码 30RUNWAY，前三个月可享七折优惠。\n\n通过下方链接开始使用。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqr4zhkm0gidslp5x8ow892r",
+      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
+      "title_en": "Oracle's 21，000 layoffs help drive its debt-fueled AI investments",
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
+      "permalink": "https://aihot.virxact.com/items/cmqr4zhkm0gidslp5x8ow892r",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-06-23T20:17:38.000Z",
+      "summary": "Oracle在截至5月31日的财年裁员21000人，员工总数降至141，000人，降幅12.9%。公司称AI技术的采用导致劳动力缩减，同时重组成本达18亿美元，同比增长481%。Oracle计划2026年通过债务和股权筹集450至500亿美元，扩建Oracle Cloud Infrastructure，服务OpenAI、xAI、AMD、Nvidia、Meta等客户。公司债务超1200亿美元。分析人士指出裁员有助于改善现金流，但Oracle也承认大规模裁员可能带来生产力下降、人才短缺和员工士气受损等风险。",
+      "category": "industry",
+      "score": 76,
+      "selected": true
+    },
     {
       "id": "cmqr15pz20fjzslp5eps5gotw",
       "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
@@ -346,19 +385,6 @@
       "summary": "Hugging Face 将 huggingface_hub 的发布周期从每 4-6 周缩短至每周，全部由单个 GitHub Actions 工作流自动完成。流程依赖开源工具和开权重模型（当前为 Z.ai 的 GLM-5.2）来起草发布说明和 Slack 公告，但保留人类在最终审核环节的决定权。自动步骤包括版本号更新、提交标签推送、PyPI 发布、下游测试分支创建、发布说明草稿、Slack 公告草稿、归档、后置版本提升以及对合入 PR 的评论。所有组件均基于开源生态构建，任何维护者都可直接复制使用。",
       "category": "tip",
       "score": 67,
-      "selected": true
-    },
-    {
-      "id": "cmqpqqsrw030aslp5c0jt14yr",
-      "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
-      "title_en": "由\"群情\"驱使的警察局长们尾随女性，这说明了为何需要搜查令",
-      "url": "https://ipvm.com/reports/police-chiefs-track",
-      "permalink": "https://aihot.virxact.com/items/cmqpqqsrw030aslp5c0jt14yr",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-22T21:32:12.384Z",
-      "summary": "伊利诺伊州Holiday Hills警察局长于2026年6月18日被捕，被控两项渎职重罪。检方指控他利用Flock车牌读取系统及州警察数据库，跟踪6名认识的人，其中3人为前女友，并对其中一人的前男友车牌查询140次（86次脱岗），持续18个月。全美至少18起类似案例：佐治亚州Braselton警察局长、爱达荷州Jerome县警长（700余次查询其妻车牌）等均因此辞职或被捕。Flock首席法务官Dan Haley承认，滥用该系统\"最常见情况\"就是跟踪前女友。Flock称系统只跟踪车辆，但案例表明车辆是手段，人是目标。",
-      "category": "industry",
-      "score": 80,
       "selected": true
     }
   ]
