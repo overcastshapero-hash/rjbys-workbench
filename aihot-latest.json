@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T18:00:38.850Z",
+  "generatedAt": "2026-06-23T21:01:10.484Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-23",
   "daily": {
@@ -141,6 +141,19 @@
   },
   "selectedItems": [
     {
+      "id": "cmqr15pz20fjzslp5eps5gotw",
+      "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
+      "title_en": "（1/5） 5 seconds of video. 1.8s seconds of generation. One NVIDIA GeForce RTX 5090 on FastVideo. 🤯🚀…",
+      "url": "https://x.com/haoailab/status/2069493820732170695",
+      "permalink": "https://aihot.virxact.com/items/cmqr15pz20fjzslp5eps5gotw",
+      "source": "X：Sky Computing Lab (@haoailab)",
+      "publishedAt": "2026-06-23T18:52:30.000Z",
+      "summary": "Sky Computing Lab 发布 FastWan-QAD 视频生成模型系列，基于 FastVideo 的量化感知蒸馏（QAD）方案训练。在单张 NVIDIA GeForce RTX 5090 上，端到端生成一段 5 秒 480P 视频仅需 1.8 秒。模型、代码及博客已开源。",
+      "category": "ai-models",
+      "score": 73,
+      "selected": true
+    },
+    {
       "id": "cmqqxfykz0ehkslp55nlmaje0",
       "title": "Krea 2 技术报告正式发布",
       "title_en": "our technical report is out. deep dive on the data， architecture， and training techniques used to c…",
@@ -163,6 +176,19 @@
       "publishedAt": "2026-06-23T17:09:41.902Z",
       "summary": "Anthropic 推出 Claude Tag，一种在 Slack 频道中通过 @Claude 委托任务的新协作方式。Claude 可记住频道上下文，支持多用户交互，经授权后可自动学习其他频道和数据源。开启\"环境\"行为后，能主动更新未解决的线程或任务。支持异步工作，可自主推进项目数小时或数天。即日起面向 Claude Enterprise 和 Team 客户提供 beta 版。管理员可精细控制工具和渠道访问权限、设置 token 消耗限额，并查看所有操作日志。",
       "category": "ai-products",
+      "score": 56,
+      "selected": true
+    },
+    {
+      "id": "cmqr1y54m0frmslp5b6e6js37",
+      "title": "GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源",
+      "title_en": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
+      "permalink": "https://aihot.virxact.com/items/cmqr1y54m0frmslp5b6e6js37",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-06-23T15:48:00.000Z",
+      "summary": "GitHub 联合 Black Forest Labs、Hugging Face 与 Mozilla Corporation 组成开源联盟，呼吁对加州 AI 透明度法案（SB 942，拟由 SB 1000 修正）进行针对性修改。当前草案要求开发者在下游用户未履行义务时撤销开源许可证，这与开源许可证永久不可撤销的性质冲突。联盟认为该要求非必要，已有直接监管和执法机制，并建议参考欧盟 AI 法案的透明度实践规范，以向下游用户通知最佳实践文档的方式替代撤销条款。GitHub 支持这些修正，以在保持透明度目标的同时兼容开源开发模式。",
+      "category": "industry",
       "score": 56,
       "selected": true
     },
@@ -284,6 +310,32 @@
       "selected": true
     },
     {
+      "id": "cmqr02j580f8oslp5i6wajucu",
+      "title": "九位评委，两个有效投票：相关错误削弱LLM评审面板",
+      "title_en": "Nine Judges， Two Effective Votes： Correlated Errors Undermine LLM Evaluation Panels",
+      "url": "https://machinelearning.apple.com/research/correlated-llm-evaluation-panels",
+      "permalink": "https://aihot.virxact.com/items/cmqr02j580f8oslp5i6wajucu",
+      "source": "Apple Machine Learning Research（RSS）",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "苹果机器学习研究团队发现，LLM-as-a-judge面板因模型间高度相关而严重受限。对7个模型家族的9个前沿大语言模型在3个自然语言推理数据集上的测试表明，9位评委实际仅提供约2个独立投票的信息量，面板准确率比独立投票理想值低8-22个百分点，最佳单一模型的表现已匹敌或超越整个面板。增加评委数量或改进聚合算法收效甚微，即使允许算法获取正确答案也仅能缩小至多11%的差距。该结论在多种提示变体、温度设置及偏好任务中均得到验证，瓶颈在于评委间的相关性而非聚合算法。",
+      "category": "paper",
+      "score": 68,
+      "selected": true
+    },
+    {
+      "id": "cmqqz7cqg0ezbslp5zr85m87l",
+      "title": "在 Transformers.js 中实验提议的跨源存储 API",
+      "title_en": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "permalink": "https://aihot.virxact.com/items/cmqqz7cqg0ezbslp5zr85m87l",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "Transformers.js 在浏览器中运行 AI 模型时，不同来源的 Web 应用会重复下载并缓存相同的模型资源（如 Xenova/whisper-tiny.en）和 Wasm 运行时文件（如 4，733 kB 的 ort-wasm-simd-threaded.asyncify.wasm），即使资源 URL 相同，浏览器因 Network Isolation Key 隔离缓存，单次 demo 就产生 177 MB 冗余下载和存储。Cross-Origin Storage API 是一项早期提案，旨在让跨来源应用共享缓存的模型和运行时资源。目前该 API 尚未在浏览器原生实现，但可通过 Chrome 扩展注入 polyfill 进行实验。",
+      "category": "tip",
+      "score": 64,
+      "selected": true
+    },
+    {
       "id": "cmqqd9e3008seslp5644lhzaa",
       "title": "huggingface_hub 实现每周发布：AI、开源工具、人工审核闭环",
       "title_en": "Shipping huggingface_hub every week with AI， open tools， and a human in the loop",
@@ -307,45 +359,6 @@
       "summary": "伊利诺伊州Holiday Hills警察局长于2026年6月18日被捕，被控两项渎职重罪。检方指控他利用Flock车牌读取系统及州警察数据库，跟踪6名认识的人，其中3人为前女友，并对其中一人的前男友车牌查询140次（86次脱岗），持续18个月。全美至少18起类似案例：佐治亚州Braselton警察局长、爱达荷州Jerome县警长（700余次查询其妻车牌）等均因此辞职或被捕。Flock首席法务官Dan Haley承认，滥用该系统\"最常见情况\"就是跟踪前女友。Flock称系统只跟踪车辆，但案例表明车辆是手段，人是目标。",
       "category": "industry",
       "score": 80,
-      "selected": true
-    },
-    {
-      "id": "cmqppo7c402qnslp5p92n6y3b",
-      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-      "title_en": "Show HN： Oak--专为代理设计的 Git 替代方案",
-      "url": "https://oak.space/oak/oak",
-      "permalink": "https://aihot.virxact.com/items/cmqppo7c402qnslp5p92n6y3b",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-22T21:00:09.808Z",
-      "summary": "Oak 是开源版本控制系统，专为 AI 智能体（Claude Code、Codex、Cursor）设计。采用 BLAKE3 内容哈希、内容定义分块、diff/merge 及 Blob/Manifest/Commit/Tree 数据模型，可选 SQLite 和 git 后端。以分支-会话为基本工作单元，用分支描述替代逐次提交，通过内容寻址懒加载使智能体数秒内编辑任意仓库。速度远超 git。已发布公开测试版 v0.99.0，支持 macOS（Apple Silicon）、Linux（x86_64）及 Windows，可通过 curl 或 cargo 安装，Apache-2.0 开源。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqpyc83704y0slp54f6dv3w7",
-      "title": "AI 治理清单：LLM 架构先行",
-      "title_en": "AI Governance Checklist： Your LLM Architecture Comes First",
-      "url": "https://openrouter.ai/blog/insights/ai-governance-checklist",
-      "permalink": "https://aihot.virxact.com/items/cmqpyc83704y0slp54f6dv3w7",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-22T19:00:00.000Z",
-      "summary": "Deloitte 报告显示企业 AI 抱负与治理成熟度之间差 53 个百分点，74% 计划两年内部署智能体 AI，仅 21% 拥有成熟治理模型。路由架构是首个治理层。三种姿态--托管网关（如 OpenRouter、Portkey）、自托管网关（如 LiteLLM）和直接 API--默认治理能力不同，直接 API 缺乏统一控制面，造成治理盲区。治理清单可映射为资产盘点、问责制、访问控制、证据记录与合规性五大支柱。路由层能提供跨团队可见性与审计证据，而电子表格不能。",
-      "category": "tip",
-      "score": 62,
-      "selected": true
-    },
-    {
-      "id": "cmqpl4smd01j1slp5npj3krmn",
-      "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
-      "title_en": "Google DeepMind bets $75M on AI's future in Hollywood with A24 deal",
-      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-      "permalink": "https://aihot.virxact.com/items/cmqpl4smd01j1slp5npj3krmn",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-06-22T18:49:44.000Z",
-      "summary": "Google DeepMind 宣布向独立电影制片厂 A24 投资 7500 万美元（据《华尔街日报》），双方将合作开发电影制作 AI 工具。A24 出品过《万事俱备》《后室》等影片。Google DeepMind CEO Demis Hassabis 称，希望通过与艺术家直接合作，打造支持创意表达的 AI 功能。此举是好莱坞最新一次科技公司与电影 AI 联手，此前 Netflix 已收购 Ben Affleck 的 AI 工具公司 Interpositive，亚马逊 MGM 工作室也在去年设立了影视 AI 部门。",
-      "category": "industry",
-      "score": 70,
       "selected": true
     }
   ]
