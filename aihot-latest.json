@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T15:52:34.606Z",
+  "generatedAt": "2026-06-23T18:00:38.850Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-23",
   "daily": {
@@ -141,6 +141,32 @@
   },
   "selectedItems": [
     {
+      "id": "cmqqxfykz0ehkslp55nlmaje0",
+      "title": "Krea 2 技术报告正式发布",
+      "title_en": "our technical report is out. deep dive on the data， architecture， and training techniques used to c…",
+      "url": "https://x.com/krea_ai/status/2069473417804591191",
+      "permalink": "https://aihot.virxact.com/items/cmqqxfykz0ehkslp55nlmaje0",
+      "source": "X：Krea AI (@krea_ai)",
+      "publishedAt": "2026-06-23T17:31:26.000Z",
+      "summary": "我们的技术报告已发布。\n\n深入解析创建 Krea 2 所用的数据、架构及训练技巧。\n\nhttps：//www.krea.ai/blog/krea-2-technical-report",
+      "category": "ai-models",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmqqwge4a0e6tslp50f3tli27",
+      "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
+      "title_en": "Introducing Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "permalink": "https://aihot.virxact.com/items/cmqqwge4a0e6tslp50f3tli27",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-06-23T17:09:41.902Z",
+      "summary": "Anthropic 推出 Claude Tag，一种在 Slack 频道中通过 @Claude 委托任务的新协作方式。Claude 可记住频道上下文，支持多用户交互，经授权后可自动学习其他频道和数据源。开启\"环境\"行为后，能主动更新未解决的线程或任务。支持异步工作，可自主推进项目数小时或数天。即日起面向 Claude Enterprise 和 Team 客户提供 beta 版。管理员可精细控制工具和渠道访问权限、设置 token 消耗限额，并查看所有操作日志。",
+      "category": "ai-products",
+      "score": 56,
+      "selected": true
+    },
+    {
       "id": "cmqqqkqoh0chzslp5i6l20j5q",
       "title": "Mistral OCR 4",
       "title_en": null,
@@ -271,19 +297,6 @@
       "selected": true
     },
     {
-      "id": "cmqpu6z9y03w3slp59okauzsw",
-      "title": "Aleph 2.0 现已集成到 Figma Weave",
-      "title_en": "Aleph 2.0 Is Now in Figma Weave",
-      "url": "https://runwayml.com/news/aleph-2-in-figma-weave",
-      "permalink": "https://aihot.virxact.com/items/cmqpu6z9y03w3slp59okauzsw",
-      "source": "Runway：News（网页）",
-      "publishedAt": "2026-06-22T23:18:22.492Z",
-      "summary": "Aleph 2.0 是 Runway 的旗舰视频编辑模型，现已在 Figma Weave 中上线。它是一个基于上下文的视频编辑模型，通过关键帧工作：从视频中提取一帧，重新设计风格并附上时间戳连接回 Aleph 2.0 节点，即可将该编辑传递到主体出现的每一帧，同时保持其他内容不变。支持最长 30 秒、1080p 的片段，可跨多镜头序列应用编辑，无需逐镜头处理。",
-      "category": "ai-products",
-      "score": 59,
-      "selected": true
-    },
-    {
       "id": "cmqpqqsrw030aslp5c0jt14yr",
       "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
       "title_en": "由\"群情\"驱使的警察局长们尾随女性，这说明了为何需要搜查令",
@@ -294,19 +307,6 @@
       "summary": "伊利诺伊州Holiday Hills警察局长于2026年6月18日被捕，被控两项渎职重罪。检方指控他利用Flock车牌读取系统及州警察数据库，跟踪6名认识的人，其中3人为前女友，并对其中一人的前男友车牌查询140次（86次脱岗），持续18个月。全美至少18起类似案例：佐治亚州Braselton警察局长、爱达荷州Jerome县警长（700余次查询其妻车牌）等均因此辞职或被捕。Flock首席法务官Dan Haley承认，滥用该系统\"最常见情况\"就是跟踪前女友。Flock称系统只跟踪车辆，但案例表明车辆是手段，人是目标。",
       "category": "industry",
       "score": 80,
-      "selected": true
-    },
-    {
-      "id": "cmqppyj5702txslp5d7ahupmr",
-      "title": "在 AWS、Google Cloud 和 Microsoft Foundry 上使用完整版 Claude Desktop",
-      "title_en": "The full Claude Desktop experience on AWS， Google Cloud， and Microsoft Foundry",
-      "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
-      "permalink": "https://aihot.virxact.com/items/cmqppyj5702txslp5d7ahupmr",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-22T21:19:56.013Z",
-      "summary": "通过 AWS、Google Cloud 和 Microsoft Foundry 使用 Claude Desktop 的组织现已获得 Chat、Claude Cowork 和 Claude Code 集成的完整桌面体验。IT 团队可将推理保留在自己的云环境中，对话历史本地存储。支持 IAM Identity Center、Workforce Identity Federation、Microsoft Entra ID 或 Okta 登录；策略模板可导出至 Intune、GPO 或 Jamf；提供离线安装器。Chat、Claude Cowork 和 Claude Code 各有独立策略键，支持精细访问控制。M365 连接器通过 Entra 应用访问邮件和文档，并支持 GCC High/DoD 端点。",
-      "category": "ai-products",
-      "score": 55,
       "selected": true
     },
     {
@@ -346,45 +346,6 @@
       "summary": "Google DeepMind 宣布向独立电影制片厂 A24 投资 7500 万美元（据《华尔街日报》），双方将合作开发电影制作 AI 工具。A24 出品过《万事俱备》《后室》等影片。Google DeepMind CEO Demis Hassabis 称，希望通过与艺术家直接合作，打造支持创意表达的 AI 功能。此举是好莱坞最新一次科技公司与电影 AI 联手，此前 Netflix 已收购 Ben Affleck 的 AI 工具公司 Interpositive，亚马逊 MGM 工作室也在去年设立了影视 AI 部门。",
       "category": "industry",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqpgzgfq00hislp5hwlbgz0h",
-      "title": "Google ADK 与 A2A 协议：跨语言多智能体团队构建实战",
-      "title_en": "Build Cross-Language Multi-Agent Team with Google's Agent Development Kit and A2A",
-      "url": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a",
-      "permalink": "https://aihot.virxact.com/items/cmqpgzgfq00hislp5hwlbgz0h",
-      "source": "Google Developers Blog（RSS）",
-      "publishedAt": "2026-06-22T17:08:43.358Z",
-      "summary": "一篇技术博客展示了如何用 Google Agent Development Kit （ADK） 与 Agent2Agent （A2A） 协议搭建跨语言多智能体流水线：Python agent 调用 Gemini 解析合同条款，Go agent 用纯确定性逻辑校验合规性。A2A 协议通过 Agent Card 实现能力发现、JSON-RPC 2.0 完成通信、Task 状态机管理任务生命周期；ADK 的 RemoteA2aAgent 抽象可将任意 A2A 兼容服务封装成本地子智能体。文中强调将单体提示词分解为专业化微智能体，以解决上下文退化、故障爆炸半径和不可测试性问题。完整源码已在 GitHub 发布。",
-      "category": "tip",
-      "score": 56,
-      "selected": true
-    },
-    {
-      "id": "cmqpez1uu001gslp5j4h23mih",
-      "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
-      "title_en": "Sakana AI 是2023年在东京成立的AI研发公司，核心定位是开发\"自然启发\"（nature-inspired）的AI模型。 强调集体智能（collective intelligence）和演…",
-      "url": "https://x.com/berryxia/status/2069090959938466298",
-      "permalink": "https://aihot.virxact.com/items/cmqpez1uu001gslp5j4h23mih",
-      "source": "X：Berry Xia (@berryxia)",
-      "publishedAt": "2026-06-22T16:11:41.000Z",
-      "summary": "Sakana AI 是 2023 年成立于东京的 AI 公司，由前 Google Brain 的 David Ha（CEO）、Transformer 论文共同作者 Llion Jones（CTO）及前日本外交官 Ren Ito（主席）联合创立。其产品 Sakana Fugu 将多智能体系统封装成单个 API 调用，内部自动拆解任务、调度全球模型并验证结果。Fugu Ultra 在工程、科学、推理等基准上对标 Fable/Mythos，通过动态编排多模型天然绕开单一供应商出口管制风险，被视为将多智能体从复杂工程变为开箱即用的产品形态。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqpeu90600l4sldksepc49lt",
-      "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
-      "title_en": "Measuring What Matters with Jules",
-      "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-      "permalink": "https://aihot.virxact.com/items/cmqpeu90600l4sldksepc49lt",
-      "source": "Google Developers Blog（RSS）",
-      "publishedAt": "2026-06-22T16:08:41.780Z",
-      "summary": "Google Labs 提出以\"洞察策略\"评估 AI 编码智能体的主动性，而非仅按任务完成度打分。团队基于 Google 内部代码库 705 个 bug（1178 个 CL），通过时空近邻与语义相似度聚类还原开发者实际的高层级目标。初步实验显示：Jules 在单轮探索下洞察相关性评分平均 4.5/5；探索预算从两轮增至三轮时，Hit@5 准确率从 33% 升至 57%。团队正将评估方法扩展至公开 GitHub 数据，并探索纳入问题追踪器、对话等更丰富的上下文。",
-      "category": "paper",
-      "score": 61,
       "selected": true
     }
   ]
