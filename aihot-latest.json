@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:11:02.274Z",
+  "generatedAt": "2026-06-23T05:04:53.100Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-23",
   "daily": {
@@ -141,6 +141,19 @@
   },
   "selectedItems": [
     {
+      "id": "cmqq5ns6p06scslp5dlnxluux",
+      "title": "Seed2.1 正式发布，深入 AI 生产力",
+      "title_en": "Seed2.1 正式发布，深入 AI 生产力",
+      "url": "https://seed.bytedance.com/zh/blog/seed2-1-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83-%E6%B7%B1%E5%85%A5-ai-%E7%94%9F%E4%BA%A7%E5%8A%9B",
+      "permalink": "https://aihot.virxact.com/items/cmqq5ns6p06scslp5dlnxluux",
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "publishedAt": "2026-06-23T00:02:42.000Z",
+      "summary": "字节Seed发布Seed2.1系列，面向真实生产力场景的智能体，强化通用Agent能力、代码工程交付与多模态理解。Seed2.1 Pro在GDPval基准获最高分，Agents' Last Exam位列参评模型第一梯队；MobileWorld手机GUI任务最高分，CreativeWork多环境任务表现突出。多模态在CharXiv-RQ等多项基准取得SOTA。代码能力上，Seed2.1 Pro在NL2Repo-Bench表现良好，开发者评测相比Claude Opus 4.6获59.1%胜率。模型已在豆包、TRAE上线，API通过火山方舟提供。",
+      "category": "ai-models",
+      "score": 64,
+      "selected": true
+    },
+    {
       "id": "cmqpu6z9y03w3slp59okauzsw",
       "title": "Aleph 2.0 现已集成到 Figma Weave",
       "title_en": "Aleph 2.0 Is Now in Figma Weave",
@@ -190,6 +203,19 @@
       "summary": "Oak 是开源版本控制系统，专为 AI 智能体（Claude Code、Codex、Cursor）设计。采用 BLAKE3 内容哈希、内容定义分块、diff/merge 及 Blob/Manifest/Commit/Tree 数据模型，可选 SQLite 和 git 后端。以分支-会话为基本工作单元，用分支描述替代逐次提交，通过内容寻址懒加载使智能体数秒内编辑任意仓库。速度远超 git。已发布公开测试版 v0.99.0，支持 macOS（Apple Silicon）、Linux（x86_64）及 Windows，可通过 curl 或 cargo 安装，Apache-2.0 开源。",
       "category": "ai-products",
       "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqpyc83704y0slp54f6dv3w7",
+      "title": "AI 治理清单：LLM 架构先行",
+      "title_en": "AI Governance Checklist： Your LLM Architecture Comes First",
+      "url": "https://openrouter.ai/blog/insights/ai-governance-checklist",
+      "permalink": "https://aihot.virxact.com/items/cmqpyc83704y0slp54f6dv3w7",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-22T19:00:00.000Z",
+      "summary": "Deloitte 报告显示企业 AI 抱负与治理成熟度之间差 53 个百分点，74% 计划两年内部署智能体 AI，仅 21% 拥有成熟治理模型。路由架构是首个治理层。三种姿态--托管网关（如 OpenRouter、Portkey）、自托管网关（如 LiteLLM）和直接 API--默认治理能力不同，直接 API 缺乏统一控制面，造成治理盲区。治理清单可映射为资产盘点、问责制、访问控制、证据记录与合规性五大支柱。路由层能提供跨团队可见性与审计证据，而电子表格不能。",
+      "category": "tip",
+      "score": 62,
       "selected": true
     },
     {
@@ -255,6 +281,19 @@
       "summary": "小米 YU7 GT（选配赛道专业套装）在纽博格林北环赛道以自动驾驶系统完成全程无人计时圈，成绩 10 分 29 秒 483，成为全球首个纽北自动驾驶圈速纪录。纽北官方圈速榜因此新增\"自动驾驶\"分类。小米汽车表示，在极限赛道中锤炼的动态模型、高频扭矩分配和毫秒级救车能力，将逐步下放至量产车，以提升用户在暴雨、冰雪等极端工况下的底盘与智驾安全。",
       "category": "industry",
       "score": 85,
+      "selected": true
+    },
+    {
+      "id": "cmqpyc83704y1slp584b2av9b",
+      "title": "OpenRouter：通过API路由实现AI数据驻留合规",
+      "title_en": "How to Enforce AI Data Residency Without Building Local Infrastructure",
+      "url": "https://openrouter.ai/blog/insights/ai-data-residency",
+      "permalink": "https://aihot.virxact.com/items/cmqpyc83704y1slp584b2av9b",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-22T15:00:00.000Z",
+      "summary": "Deloitte 报告显示 77% 的公司将供应商国籍纳入 AI 选型考量。OpenRouter 将数据驻留视为路由决策：通过 API 请求中的 `provider` 对象设置 `order` 或 `only` 限定服务商、`allow_fallbacks` 为 `false` 禁止回退、`data_collection` 为 `deny` 禁止数据存储或训练、`zdr` 为 `true` 要求零数据保留。示例以 `anthropic/claude-sonnet-4.6` 调用，首选 Anthropic 直连和 Amazon Bedrock。针对欧盟需求，可限制仅 Mistral 等欧盟总部供应商。若无可合规供应商，API 返回错误而非路由至不合规服务商。",
+      "category": "tip",
+      "score": 72,
       "selected": true
     },
     {
