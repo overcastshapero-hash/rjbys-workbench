@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T12:36:06.090Z",
+  "generatedAt": "2026-06-23T15:52:34.606Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-23",
   "daily": {
@@ -140,6 +140,45 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqqqkqoh0chzslp5i6l20j5q",
+      "title": "Mistral OCR 4",
+      "title_en": null,
+      "url": "https://mistral.ai/news/ocr-4",
+      "permalink": "https://aihot.virxact.com/items/cmqqqkqoh0chzslp5i6l20j5q",
+      "source": "Mistral AI：News（网页）",
+      "publishedAt": "2026-06-23T14:24:55.949Z",
+      "summary": "Mistral AI 发布 OCR 4，新增边界框、块分类（标题、表格、方程式、签名等）及逐页逐词置信度分数。支持 170 种语言、10 个语系，可单容器全自托管部署。在 OlmOCRBench 上得分 85.20，独立标注者偏好率平均 72%。定价每 1000 页 $4，Batch API 享 50% 折扣。可通过 API 或 Mistral Studio 的 Document AI 调用。",
+      "category": "ai-models",
+      "score": 68,
+      "selected": true
+    },
+    {
+      "id": "cmqqpk6qr0c7cslp5tgwky5n0",
+      "title": "无限制OCR：单次长时域解析",
+      "title_en": null,
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "permalink": "https://aihot.virxact.com/items/cmqqpk6qr0c7cslp5tgwky5n0",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-23T13:32:22.612Z",
+      "summary": "Unlimited OCR 是一个托管在 GitHub 的项目，实现单次长时域解析（One-Shot Long-Horizon Parsing），旨在一次性处理长时间跨度的 OCR 任务。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmqqo96e30bv9slp5ds265bki",
+      "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
+      "title_en": "Build real agentic apps using CUGA： two dozen working examples on a lightweight harness",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "permalink": "https://aihot.virxact.com/items/cmqqo96e30bv9slp5ds265bki",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-23T12:51:55.000Z",
+      "summary": "IBM 开源了 CUGA（Configurable Generalist Agent），一个处理规划、执行循环、工具调用和状态管理的轻量级智能体框架。开发者只需提供工具列表和提示词即可构建 CugaAgent。内置计划-执行-反思循环，在 AppWorld（2025年7月-2026年2月）和 WebArena（2025年2月-9月）基准上排名第一。支持 Fast / Balanced / Accurate 三种推理模式，代码执行可在本地、Docker 或 E2B 沙箱中运行。可互换工具支持 OpenAPI、MCP 和 LangChain 函数，通过环境变量一键切换 OpenAI、watsonx、Ollama 等提供商。随框架发布二十余个单文件示例应用，涵盖电影推荐、IBM Cloud 架构顾问等场景，每个应用仅需一个 FastAPI 文件。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true
+    },
     {
       "id": "cmqqjmnoj0af8slp5kb7ky21w",
       "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
@@ -346,71 +385,6 @@
       "summary": "Google Labs 提出以\"洞察策略\"评估 AI 编码智能体的主动性，而非仅按任务完成度打分。团队基于 Google 内部代码库 705 个 bug（1178 个 CL），通过时空近邻与语义相似度聚类还原开发者实际的高层级目标。初步实验显示：Jules 在单轮探索下洞察相关性评分平均 4.5/5；探索预算从两轮增至三轮时，Hit@5 准确率从 33% 升至 57%。团队正将评估方法扩展至公开 GitHub 数据，并探索纳入问题追踪器、对话等更丰富的上下文。",
       "category": "paper",
       "score": 61,
-      "selected": true
-    },
-    {
-      "id": "cmqpepyo500j1sldkfj5exgj8",
-      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/967/234.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqpepyo500j1sldkfj5exgj8",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-22T15:13:29.000Z",
-      "summary": "小米 YU7 GT（选配赛道专业套装）在纽博格林北环赛道以自动驾驶系统完成全程无人计时圈，成绩 10 分 29 秒 483，成为全球首个纽北自动驾驶圈速纪录。纽北官方圈速榜因此新增\"自动驾驶\"分类。小米汽车表示，在极限赛道中锤炼的动态模型、高频扭矩分配和毫秒级救车能力，将逐步下放至量产车，以提升用户在暴雨、冰雪等极端工况下的底盘与智驾安全。",
-      "category": "industry",
-      "score": 85,
-      "selected": true
-    },
-    {
-      "id": "cmqpyc83704y1slp584b2av9b",
-      "title": "OpenRouter：通过API路由实现AI数据驻留合规",
-      "title_en": "How to Enforce AI Data Residency Without Building Local Infrastructure",
-      "url": "https://openrouter.ai/blog/insights/ai-data-residency",
-      "permalink": "https://aihot.virxact.com/items/cmqpyc83704y1slp584b2av9b",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-22T15:00:00.000Z",
-      "summary": "Deloitte 报告显示 77% 的公司将供应商国籍纳入 AI 选型考量。OpenRouter 将数据驻留视为路由决策：通过 API 请求中的 `provider` 对象设置 `order` 或 `only` 限定服务商、`allow_fallbacks` 为 `false` 禁止回退、`data_collection` 为 `deny` 禁止数据存储或训练、`zdr` 为 `true` 要求零数据保留。示例以 `anthropic/claude-sonnet-4.6` 调用，首选 Anthropic 直连和 Amazon Bedrock。针对欧盟需求，可限制仅 Mistral 等欧盟总部供应商。若无可合规供应商，API 返回错误而非路由至不合规服务商。",
-      "category": "tip",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqpbc21e08laslx6gica1m67",
-      "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
-      "title_en": "聊聊我刚刚拿到测试的微信Agent。",
-      "url": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
-      "permalink": "https://aihot.virxact.com/items/cmqpbc21e08laslx6gica1m67",
-      "source": "公众号：数字生命卡兹克",
-      "publishedAt": "2026-06-22T13:34:14.000Z",
-      "summary": "微信Agent小微灰度内测已开始，主入口位于微信首页左上角，支持给好友发消息和红包（需确认），但无法读取聊天记录或向群聊发消息。群聊和私聊的\"问小微\"子入口则可读取聊天记录并支持群发。小微可创建日程提醒、待办、总结朋友圈，打通公众号和视频号进行问答。收藏仅可读取小微自建笔记。内置\"小工具\"功能，支持语音创建简易小程序（暂不可发布），还可调用第三方小程序。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqpaflwr08cpslx6umzww19d",
-      "title": "Anthropic 工程负责人：Claude Code 让程序员更孤独",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/967/216.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqpaflwr08cpslx6umzww19d",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-22T13:25:46.000Z",
-      "summary": "6月22日，Anthropic工程负责人Fiona Fung表示，Claude Code和Claude Cowork等AI智能体让工程师越发依赖智能体工作，彼此之间交流减少，长期易感孤独。团队为此组织编程午餐、黑客松和共同开发时段，重新创造面对面协作机会。调查显示Claude Code已成为创业公司最常用的AI编程工具，\"氛围编程\"兴起使\"单人创业者\"增多，但Fung强调协作仍不可或缺。",
-      "category": "tip",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqpamzm108huslx6vf1oonz9",
-      "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-      "title_en": "PP-OCRv6 on Hugging Face： 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "permalink": "https://aihot.virxact.com/items/cmqpamzm108huslx6vf1oonz9",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-22T13:18:56.000Z",
-      "summary": "PP-OCRv6 是 PaddleOCR 最新一代通用 OCR 模型族，提供 tiny（1.5M）、small（7.7M）和 medium（34.5M）三级。medium 和 small 支持 50 种语言（简体/繁体中文、英文、日文及 46 种拉丁语系）。在官方多场景基准上，medium 检测 Hmean 86.2%，识别准确率 83.2%，较 PP-OCRv5_server 分别提升 +4.6 和 +5.1 个百分点。模型采用 PPLCNetV4 统一骨干、RepLKFPN 检测模块和 EncoderWithLightSVTR 识别模块，可通过 PaddleOCR、Transformers、ONNX Runtime 等后端灵活部署。",
-      "category": "ai-models",
-      "score": 69,
       "selected": true
     }
   ]
