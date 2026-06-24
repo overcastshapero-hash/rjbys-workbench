@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:24:24.191Z",
+  "generatedAt": "2026-06-24T16:23:54.068Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-24",
   "daily": {
@@ -195,6 +195,58 @@
   },
   "selectedItems": [
     {
+      "id": "cmqs9yjcy0187slfupnhipvhf",
+      "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
+      "title_en": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "permalink": "https://aihot.virxact.com/items/cmqs9yjcy0187slfupnhipvhf",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-24T16:00:13.000Z",
+      "summary": "NVIDIA NeMo AutoModel 是基于 Transformers v5 的开源库，添加 Expert Parallelism、DeepEP 融合 all-to-all 调度和 TransformerEngine 内核。在 MoE 模型微调中，相比原生 v5，训练吞吐量提升 3.4-3.7 倍，GPU 内存减少 29-32%，仅需改动一行 import。在 16 节点 128 张 H100 上全微调 Nemotron 3 Ultra 550B A55B 时，v5 因内存不足无法运行，而 AutoModel 凭借 EP=64 专家并行使训练可行。单节点 30B MoE 模型（如 Qwen3-30B-A3B）同样获得可量化的性能优势。",
+      "category": "tip",
+      "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmqs9eic7012cslfuu3w4io4c",
+      "title": "Mistral AI 为 Connectors 推出多项安全与可控新能力",
+      "title_en": "Bringing more control over your connectors June 24， 2026 Mistral AI",
+      "url": "https://mistral.ai/news/more-control-over-connectors",
+      "permalink": "https://aihot.virxact.com/items/cmqs9eic7012cslfuu3w4io4c",
+      "source": "Mistral AI：News（网页）",
+      "publishedAt": "2026-06-24T15:59:47.708Z",
+      "summary": "2026年6月24日，Mistral AI 发布 Connectors 多项新能力：Enriched admin controls（GA）支持按工作空间设置连接器访问权限并单独开关工具；API keys with connector scopes（GA）防止自动化 AI 工作负载中身份冒充；Multi-account connectors（GA）允许单个连接器绑定多个账户；Connectors Debugger（公开预览）对 MCP 连接器进行端到端根因分析；Connectors in Vibe Code（GA）和 Connectors in Workflows（公开预览）分别允许在开发者界面复用连接器及支持长时间运行任务不中断。",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true
+    },
+    {
+      "id": "cmqs65ogk008hslfuodhruc4w",
+      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+      "title_en": null,
+      "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+      "permalink": "https://aihot.virxact.com/items/cmqs65ogk008hslfuodhruc4w",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-24T14:20:14.340Z",
+      "summary": "LinkedIn联合创始人、Anthropic和OpenAI投资者Reid Hoffman在播客中公开批评SpaceX和xAI。他指出SpaceX\"不是一家人工智能公司\"，6月12日上市后收购AI编程工具Cursor属于\"花钱买相关性\"；xAI则是\"彻底的灾难\"，所有11位联合创始人已离职，Grok模型在基准测试中落后于Anthropic和OpenAI。他还批评美国政府6月11日以出口管制为由强制Anthropic下架Fable和Mythos模型，理由仅为Amazon CEO报告Fable 5存在jailbreak漏洞，称此举\"专断随意\"。Hoffman认为Anthropic和OpenAI均有巨大发展空间，但Cursor可能已过巅峰。他建议年轻人不要抵制AI。",
+      "category": "tip",
+      "score": 78,
+      "selected": true
+    },
+    {
+      "id": "cmqs68cgx0090slfuumt36jny",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "title_en": null,
+      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "permalink": "https://aihot.virxact.com/items/cmqs68cgx0090slfuumt36jny",
+      "source": "公众号：火山引擎",
+      "publishedAt": "2026-06-24T14:02:42.000Z",
+      "summary": "在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真--TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。",
+      "category": "tip",
+      "score": 74,
+      "selected": true
+    },
+    {
       "id": "cmqrxnmqg0p2zslp51p8cc1ln",
       "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
       "title_en": "火山引擎Agent Infra升级，让Agent真正进入企业工作流",
@@ -286,6 +338,19 @@
       "selected": true
     },
     {
+      "id": "cmqs9yjcy0188slfu7cf8old7",
+      "title": "FFASR 排行榜发布：真实远场条件下 ASR 评测",
+      "title_en": "Introducing the FFASR Leaderboard： Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "permalink": "https://aihot.virxact.com/items/cmqs9yjcy0188slfu7cf8old7",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "summary": "Treble Technologies 与 Hugging Face 联合推出 FFASR（Far-Field ASR）排行榜，这是首个开源社区驱动的真实远场声学条件 ASR 评测基准。传统近场评测无法反映混响、背景噪声和麦克风距离带来的性能下降。FFASR 使用混合波模拟引擎生成声学数据，涵盖 14 种房间（20-470 m3）和三个信噪比级别（远场高 SNR >14 dB、中 SNR 8-12 dB、低 SNR <6 dB），加上近场干燥条件，共四类条件决定主排名。另有实验室实测/模拟验证轨道和移动声源 beta 版。性能指标同时报告词错误率（WER）和实时因子（RTFx，在 NVIDIA L4 GPU 上评估）。未来将支持多说话人场景、麦克风阵列和回声消除。",
+      "category": "ai-products",
+      "score": 61,
+      "selected": true
+    },
+    {
       "id": "cmqr73j5g0h1nslp5g9y52k0v",
       "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
       "title_en": null,
@@ -348,58 +413,6 @@
       "summary": "我们的技术报告已发布。\n\n深入解析创建 Krea 2 所用的数据、架构及训练技巧。\n\nhttps：//www.krea.ai/blog/krea-2-technical-report",
       "category": "ai-models",
       "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqqwge4a0e6tslp50f3tli27",
-      "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
-      "title_en": "Introducing Claude Tag",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "permalink": "https://aihot.virxact.com/items/cmqqwge4a0e6tslp50f3tli27",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-06-23T17:09:41.902Z",
-      "summary": "Anthropic 推出 Claude Tag，一种在 Slack 频道中通过 @Claude 委托任务的新协作方式。Claude 可记住频道上下文，支持多用户交互，经授权后可自动学习其他频道和数据源。开启\"环境\"行为后，能主动更新未解决的线程或任务。支持异步工作，可自主推进项目数小时或数天。即日起面向 Claude Enterprise 和 Team 客户提供 beta 版。管理员可精细控制工具和渠道访问权限、设置 token 消耗限额，并查看所有操作日志。",
-      "category": "ai-products",
-      "score": 56,
-      "selected": true
-    },
-    {
-      "id": "cmqr1y54m0frmslp5b6e6js37",
-      "title": "GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源",
-      "title_en": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
-      "permalink": "https://aihot.virxact.com/items/cmqr1y54m0frmslp5b6e6js37",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-06-23T15:48:00.000Z",
-      "summary": "GitHub 联合 Black Forest Labs、Hugging Face 与 Mozilla Corporation 组成开源联盟，呼吁对加州 AI 透明度法案（SB 942，拟由 SB 1000 修正）进行针对性修改。当前草案要求开发者在下游用户未履行义务时撤销开源许可证，这与开源许可证永久不可撤销的性质冲突。联盟认为该要求非必要，已有直接监管和执法机制，并建议参考欧盟 AI 法案的透明度实践规范，以向下游用户通知最佳实践文档的方式替代撤销条款。GitHub 支持这些修正，以在保持透明度目标的同时兼容开源开发模式。",
-      "category": "industry",
-      "score": 56,
-      "selected": true
-    },
-    {
-      "id": "cmqqqkqoh0chzslp5i6l20j5q",
-      "title": "Mistral OCR 4",
-      "title_en": null,
-      "url": "https://mistral.ai/news/ocr-4",
-      "permalink": "https://aihot.virxact.com/items/cmqqqkqoh0chzslp5i6l20j5q",
-      "source": "Mistral AI：News（网页）",
-      "publishedAt": "2026-06-23T14:24:55.949Z",
-      "summary": "Mistral AI 发布 OCR 4，新增边界框、块分类（标题、表格、方程式、签名等）及逐页逐词置信度分数。支持 170 种语言、10 个语系，可单容器全自托管部署。在 OlmOCRBench 上得分 85.20，独立标注者偏好率平均 72%。定价每 1000 页 $4，Batch API 享 50% 折扣。可通过 API 或 Mistral Studio 的 Document AI 调用。",
-      "category": "ai-models",
-      "score": 68,
-      "selected": true
-    },
-    {
-      "id": "cmqqpk6qr0c7cslp5tgwky5n0",
-      "title": "无限制OCR：单次长时域解析",
-      "title_en": null,
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "permalink": "https://aihot.virxact.com/items/cmqqpk6qr0c7cslp5tgwky5n0",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-23T13:32:22.612Z",
-      "summary": "Unlimited OCR 是一个托管在 GitHub 的项目，实现单次长时域解析（One-Shot Long-Horizon Parsing），旨在一次性处理长时间跨度的 OCR 任务。",
-      "category": "ai-products",
-      "score": 70,
       "selected": true
     }
   ]
