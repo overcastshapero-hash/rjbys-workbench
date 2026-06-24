@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:54:49.954Z",
+  "generatedAt": "2026-06-24T07:44:36.002Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-24",
   "daily": {
@@ -195,6 +195,45 @@
   },
   "selectedItems": [
     {
+      "id": "cmqrrgnay0n08slp5phvdk394",
+      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+      "title_en": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell",
+      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "permalink": "https://aihot.virxact.com/items/cmqrrgnay0n08slp5phvdk394",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-06-24T07:21:10.000Z",
+      "summary": "DFlash 由 UC San Diego 团队提出，是一种用于投机解码的轻量块扩散草稿模型。它一次前向推理生成整块 token，再由目标模型并行验证，保证输出无损。相比 EAGLE-3，DFlash 实现最高 2.5 倍加速，在 Qwen3-8B 等多种模型上平均无损加速超过 6 倍（MATH-500 达 6.08×）。在 NVIDIA Blackwell 上（TensorRT-LLM），gpt-oss-120b 模型吞吐量提升最高 15 倍，约为 EAGLE-3 的 1.5 倍。核心创新是将目标模型多层隐藏特征注入草稿模型每一层的 Key-Value 投影，使接受长度随草稿深度增长。",
+      "category": "paper",
+      "score": 74,
+      "selected": true
+    },
+    {
+      "id": "cmqrqhlvx0mr7slp5atv7dptr",
+      "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+      "title_en": "🥳Thanks for sharing this， @MLBoy_DaisukeMajima 🚀 MiniCPM-V 4.6 running at this speed on-device is …",
+      "url": "https://x.com/OpenBMB/status/2069676334381728106",
+      "permalink": "https://aihot.virxact.com/items/cmqrqhlvx0mr7slp5atv7dptr",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "publishedAt": "2026-06-24T06:57:45.000Z",
+      "summary": "🥳感谢分享，@MLBoy_DaisukeMajima 🚀\nMiniCPM-V 4.6 在设备上以这样的速度运行，实在令人印象深刻--尤其是在 Apple Core AI 上以不到 2B 参数跑出。\n干得漂亮，推动高效多模态 AI 向前发展。🫡",
+      "category": "tip",
+      "score": 65,
+      "selected": true
+    },
+    {
+      "id": "cmqrl73460l9gslp5w33pryqi",
+      "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
+      "title_en": "OpenAI ChatGPT 语音最大规模升级：双向 AI 语音模型 Bidi 1 已上线测试",
+      "url": "https://www.ithome.com/0/967/852.htm",
+      "permalink": "https://aihot.virxact.com/items/cmqrl73460l9gslp5w33pryqi",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-24T04:34:24.000Z",
+      "summary": "6月23日，部分用户反馈 ChatGPT 网页版和 App 版上线了双向 AI 语音模型 Bidi 1，位于设置模型选择器中，与标准语音和高级语音并列。该模型支持边说话边监听，用户可在对话中途打断并发出新指令，例如要求从1数到10时中途喊停倒数，模型会立即切换执行。OpenAI 尚未官宣，预计本周启动更大范围测试。",
+      "category": "ai-models",
+      "score": 74,
+      "selected": true
+    },
+    {
       "id": "cmqrizuey0kmcslp5zt7bajh0",
       "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
       "title_en": null,
@@ -387,32 +426,6 @@
       "summary": "2026年6月22日，五眼联盟（美、英、加、澳、新）网络安全部门联合警告，即将到来的AI模型（如OpenAI的GPT-5.5-Cyber、Anthropic的Mythos）将降低编写复杂攻击代码的门槛。自动化智能体可全天候扫描互联网漏洞，大幅缩短安全窗口期。AI驱动的超个性化钓鱼诈骗已在亚太蔓延，印度2026年初勒索软件事件激增165%。五眼联盟建议企业部署自动化防御AI，个人用户开启多因素认证、删除闲置账户。",
       "category": "industry",
       "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmqq8ww0e07m4slp5mk5snl0z",
-      "title": "京东全栈开源JoyAI-VL-Interaction，从\"一问一答\"走向\"边看边说\"",
-      "title_en": "京东全栈开源JoyAI-VL-Interaction，让大模型从\"一问一答\"走向\"边看边说\"",
-      "url": "https://mp.weixin.qq.com/s/IY6XGp4k6VgD9ZPH6YprCA",
-      "permalink": "https://aihot.virxact.com/items/cmqq8ww0e07m4slp5mk5snl0z",
-      "source": "公众号：京东JoyAI",
-      "publishedAt": "2026-06-23T06:04:50.000Z",
-      "summary": "京东近日开源全球首个全栈交互模型JoyAI-VL-Interaction，获vLLM-Omni原生支持。该模型能持续观察视频流、主动判断关键事件并实时响应，支持将复杂任务委托后台Agent处理。在58个真人盲评中，对比豆包视频通话助手胜率77.6%，对比Gemini视频通话助手胜率87.9%，监控预警场景达100%胜率。开源内容包括模型权重、交互数据集、训练方案及完整可部署系统，支持摄像头、直播流等视频输入及语音交互、长期记忆、vLLM部署，适用于安防监控、老人看护、直播讲解等实时场景。",
-      "category": "ai-models",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmqq876yf07gsslp5eix31xaq",
-      "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-      "permalink": "https://aihot.virxact.com/items/cmqq876yf07gsslp5eix31xaq",
-      "source": "公众号：火山引擎",
-      "publishedAt": "2026-06-23T05:41:11.000Z",
-      "summary": "火山引擎正式发布豆包音频生成模型1.0（Doubao-Seed-Audio 1.0），支持文本与音频参考生成，端到端输出目标音频。单条Prompt可编排多角色对白、情绪语气、背景音乐及环境氛围，长时生成中保持多角色音色一致性，无需后期多轨混音。模型支持0样本多模态输入，无需额外训练即可生成；实现音色与风格解耦控制及\"一声多角\"能力。一次支持2分钟音频创作，多次延长保持音色统一。已开启火山方舟API邀测，个人用户享30分钟创作额度，即将上线剪映、即梦、番茄等产品。",
-      "category": "ai-models",
-      "score": 71,
       "selected": true
     }
   ]
