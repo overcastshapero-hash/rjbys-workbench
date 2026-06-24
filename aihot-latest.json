@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:55:57.104Z",
+  "generatedAt": "2026-06-24T20:50:25.864Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-24",
   "daily": {
@@ -195,6 +195,32 @@
   },
   "selectedItems": [
     {
+      "id": "cmqshf6dl0354slfug4vof984",
+      "title": "Perplexity推出Computer for Counsel",
+      "title_en": "Introducing Computer for Counsel. Computer now connects the research databases， document tools， and…",
+      "url": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "permalink": "https://aihot.virxact.com/items/cmqshf6dl0354slfug4vof984",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "publishedAt": "2026-06-24T19:34:04.000Z",
+      "summary": "推出 Computer for Counsel。\n\nComputer 现在连接了律师日常使用的研究数据库、文档工具和案件管理系统。可从中提取可引用来源：@midpageAI、@LegalZoom、@Docusign、@netdocuments 等。\n\n所有 Pro 和 Max 订阅用户均可使用。",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true
+    },
+    {
+      "id": "cmqsgw1tf0304slfurlccxlvs",
+      "title": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
+      "title_en": null,
+      "url": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "permalink": "https://aihot.virxact.com/items/cmqsgw1tf0304slfurlccxlvs",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-24T19:08:32.032Z",
+      "summary": "美国国家安全局（NSA）因与人工智能公司Anthropic的纠纷，失去了对Mythos系统的访问权限。",
+      "category": "industry",
+      "score": 71,
+      "selected": true
+    },
+    {
       "id": "cmqsef9c302f0slfu6lvuhnu7",
       "title": "GPT-5.5 Instant 新版本，对话更有趣",
       "title_en": "We have a new version of GPT-5.5 Instant for you， and it's much more fun to talk to. Our most-used …",
@@ -244,6 +270,19 @@
       "summary": "NVIDIA NeMo AutoModel 是基于 Transformers v5 的开源库，添加 Expert Parallelism、DeepEP 融合 all-to-all 调度和 TransformerEngine 内核。在 MoE 模型微调中，相比原生 v5，训练吞吐量提升 3.4-3.7 倍，GPU 内存减少 29-32%，仅需改动一行 import。在 16 节点 128 张 H100 上全微调 Nemotron 3 Ultra 550B A55B 时，v5 因内存不足无法运行，而 AutoModel 凭借 EP=64 专家并行使训练可行。单节点 30B MoE 模型（如 Qwen3-30B-A3B）同样获得可量化的性能优势。",
       "category": "tip",
       "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmqsi8c9303azslfuexk0h241",
+      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+      "title_en": "When Zero Means Zero",
+      "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+      "permalink": "https://aihot.virxact.com/items/cmqsi8c9303azslfuexk0h241",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-24T16:00:00.000Z",
+      "summary": "OpenRouter 的零数据留存（ZDR）保证用户提示词和模型响应不被存储，元数据一般安全。自 1 月以来新增 97 款支持 ZDR 的模型，月度 token 量增长 4.3 倍，约占全部路由流量一半。ZDR 在三个层面执行：账户级（整个供应商开启）、护栏级（按 API Key 或组织成员限定）、单次请求级（传参数仅路由至 ZDR 端点）。企业用户可灵活选择控制粒度，避免锁定单一供应商。",
+      "category": "tip",
+      "score": 68,
       "selected": true
     },
     {
@@ -413,19 +452,6 @@
       "summary": "Seedance 4K。Seedance Mini。Kling 3.0 Turbo。现已推出。\n全球最佳模型，汇聚一处。\n\n使用优惠码 30RUNWAY，前三个月可享七折优惠。\n\n通过下方链接开始使用。",
       "category": "ai-products",
       "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqr4zhkm0gidslp5x8ow892r",
-      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
-      "title_en": "Oracle's 21，000 layoffs help drive its debt-fueled AI investments",
-      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-      "permalink": "https://aihot.virxact.com/items/cmqr4zhkm0gidslp5x8ow892r",
-      "source": "Ars Technica：AI（RSS）",
-      "publishedAt": "2026-06-23T20:17:38.000Z",
-      "summary": "Oracle在截至5月31日的财年裁员21000人，员工总数降至141，000人，降幅12.9%。公司称AI技术的采用导致劳动力缩减，同时重组成本达18亿美元，同比增长481%。Oracle计划2026年通过债务和股权筹集450至500亿美元，扩建Oracle Cloud Infrastructure，服务OpenAI、xAI、AMD、Nvidia、Meta等客户。公司债务超1200亿美元。分析人士指出裁员有助于改善现金流，但Oracle也承认大规模裁员可能带来生产力下降、人才短缺和员工士气受损等风险。",
-      "category": "industry",
-      "score": 76,
       "selected": true
     }
   ]
