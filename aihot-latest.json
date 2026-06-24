@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T07:44:36.002Z",
+  "generatedAt": "2026-06-24T10:53:45.497Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-24",
   "daily": {
@@ -194,6 +194,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqrxnmqg0p2zslp51p8cc1ln",
+      "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+      "title_en": "火山引擎Agent Infra升级，让Agent真正进入企业工作流",
+      "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+      "permalink": "https://aihot.virxact.com/items/cmqrxnmqg0p2zslp51p8cc1ln",
+      "source": "公众号：火山引擎",
+      "publishedAt": "2026-06-24T10:17:58.000Z",
+      "summary": "火山引擎在FORCE大会推出面向企业智能应用的Agent Ready基础设施，构建AI云与Agent三层架构。AgentKit升级提供Identity、Runtime、Sandbox、Evaluation等模块，实现Agent可靠、可控、可衡量。Identity已接入数千家身份体系，Runtime支持长程任务和分钟级12万沙箱并发。ArkClaw企业版集成Agent广场、技能中心与企业知识库，支持IDP/SSO/OAuth及飞书、钉钉等IM入口统一管控。实践案例：海底捞门店经营Agent将小时级工作压缩到分钟级，人工跟进时长缩减70%，巡检满意度提升50%；创维酷开借助ArkClaw终端版打造AIOS，Token消耗节省50%，支撑百万级终端。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true
+    },
     {
       "id": "cmqrrgnay0n08slp5phvdk394",
       "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
@@ -413,19 +426,6 @@
       "summary": "友松实验室发布国内首个高考志愿AI能力测评报告，测试千问高考志愿填报Agent四大模块。与53位平均从业4.6年的人类咨询师对照，千问表现更稳定精确：44道事实题全对；模拟10个志愿中6个可录取；100场匿名对比中专家58次倾向千问回答。使用千问辅助后，人类咨询师正确率提升，耗时减少约27%。该Agent基于千问高考志愿大模型和夸克8年高考数据，覆盖约3000所院校、2000多个专业。",
       "category": "ai-products",
       "score": 60,
-      "selected": true
-    },
-    {
-      "id": "cmqqdbcno08taslp5yd9dbxjt",
-      "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-      "title_en": "Top spy agencies say AI cyber threats will impact you within months. Here's why",
-      "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-      "permalink": "https://aihot.virxact.com/items/cmqqdbcno08taslp5yd9dbxjt",
-      "source": "Artificial Intelligence News（RSS）",
-      "publishedAt": "2026-06-23T08:00:00.000Z",
-      "summary": "2026年6月22日，五眼联盟（美、英、加、澳、新）网络安全部门联合警告，即将到来的AI模型（如OpenAI的GPT-5.5-Cyber、Anthropic的Mythos）将降低编写复杂攻击代码的门槛。自动化智能体可全天候扫描互联网漏洞，大幅缩短安全窗口期。AI驱动的超个性化钓鱼诈骗已在亚太蔓延，印度2026年初勒索软件事件激增165%。五眼联盟建议企业部署自动化防御AI，个人用户开启多因素认证、删除闲置账户。",
-      "category": "industry",
-      "score": 74,
       "selected": true
     }
   ]
