@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T09:28:21.982Z",
+  "generatedAt": "2026-06-25T12:24:05.436Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-25",
   "daily": {
@@ -164,6 +164,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqtc9nw602azsl0e4dvg4t64",
+      "title": "Meta员工警告AI内容审核部署过快",
+      "title_en": "Meta employees warn AI moderation rollout is too fast",
+      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "permalink": "https://aihot.virxact.com/items/cmqtc9nw602azsl0e4dvg4t64",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-06-25T10:07:19.000Z",
+      "summary": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模型Muse Spark，该模型基于人工审核员的历史决策训练。",
+      "category": "industry",
+      "score": 73,
+      "selected": true
+    },
     {
       "id": "cmqsy1vs107c5slfu4fmksjzd",
       "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
@@ -357,19 +370,6 @@
       "summary": "在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真--TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。",
       "category": "tip",
       "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmqrxnmqg0p2zslp51p8cc1ln",
-      "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
-      "title_en": "火山引擎Agent Infra升级，让Agent真正进入企业工作流",
-      "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
-      "permalink": "https://aihot.virxact.com/items/cmqrxnmqg0p2zslp51p8cc1ln",
-      "source": "公众号：火山引擎",
-      "publishedAt": "2026-06-24T10:17:58.000Z",
-      "summary": "火山引擎在FORCE大会推出面向企业智能应用的Agent Ready基础设施，构建AI云与Agent三层架构。AgentKit升级提供Identity、Runtime、Sandbox、Evaluation等模块，实现Agent可靠、可控、可衡量。Identity已接入数千家身份体系，Runtime支持长程任务和分钟级12万沙箱并发。ArkClaw企业版集成Agent广场、技能中心与企业知识库，支持IDP/SSO/OAuth及飞书、钉钉等IM入口统一管控。实践案例：海底捞门店经营Agent将小时级工作压缩到分钟级，人工跟进时长缩减70%，巡检满意度提升50%；创维酷开借助ArkClaw终端版打造AIOS，Token消耗节省50%，支撑百万级终端。",
-      "category": "ai-products",
-      "score": 66,
       "selected": true
     }
   ]
