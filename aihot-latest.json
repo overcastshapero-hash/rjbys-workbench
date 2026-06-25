@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T05:07:25.382Z",
+  "generatedAt": "2026-06-25T09:28:21.982Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-25",
   "daily": {
@@ -370,45 +370,6 @@
       "summary": "火山引擎在FORCE大会推出面向企业智能应用的Agent Ready基础设施，构建AI云与Agent三层架构。AgentKit升级提供Identity、Runtime、Sandbox、Evaluation等模块，实现Agent可靠、可控、可衡量。Identity已接入数千家身份体系，Runtime支持长程任务和分钟级12万沙箱并发。ArkClaw企业版集成Agent广场、技能中心与企业知识库，支持IDP/SSO/OAuth及飞书、钉钉等IM入口统一管控。实践案例：海底捞门店经营Agent将小时级工作压缩到分钟级，人工跟进时长缩减70%，巡检满意度提升50%；创维酷开借助ArkClaw终端版打造AIOS，Token消耗节省50%，支撑百万级终端。",
       "category": "ai-products",
       "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmqrrgnay0n08slp5phvdk394",
-      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-      "title_en": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell",
-      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-      "permalink": "https://aihot.virxact.com/items/cmqrrgnay0n08slp5phvdk394",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-06-24T07:21:10.000Z",
-      "summary": "DFlash 由 UC San Diego 团队提出，是一种用于投机解码的轻量块扩散草稿模型。它一次前向推理生成整块 token，再由目标模型并行验证，保证输出无损。相比 EAGLE-3，DFlash 实现最高 2.5 倍加速，在 Qwen3-8B 等多种模型上平均无损加速超过 6 倍（MATH-500 达 6.08×）。在 NVIDIA Blackwell 上（TensorRT-LLM），gpt-oss-120b 模型吞吐量提升最高 15 倍，约为 EAGLE-3 的 1.5 倍。核心创新是将目标模型多层隐藏特征注入草稿模型每一层的 Key-Value 投影，使接受长度随草稿深度增长。",
-      "category": "paper",
-      "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmqrqhlvx0mr7slp5atv7dptr",
-      "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
-      "title_en": "🥳Thanks for sharing this， @MLBoy_DaisukeMajima 🚀 MiniCPM-V 4.6 running at this speed on-device is …",
-      "url": "https://x.com/OpenBMB/status/2069676334381728106",
-      "permalink": "https://aihot.virxact.com/items/cmqrqhlvx0mr7slp5atv7dptr",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "publishedAt": "2026-06-24T06:57:45.000Z",
-      "summary": "🥳感谢分享，@MLBoy_DaisukeMajima 🚀\nMiniCPM-V 4.6 在设备上以这样的速度运行，实在令人印象深刻--尤其是在 Apple Core AI 上以不到 2B 参数跑出。\n干得漂亮，推动高效多模态 AI 向前发展。🫡",
-      "category": "tip",
-      "score": 65,
-      "selected": true
-    },
-    {
-      "id": "cmqs319vw0qkcslp52gzwr77q",
-      "title": "OpenAI 与 Broadcom 发布面向 LLM 推理的定制芯片 Jalapeño",
-      "title_en": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "permalink": "https://aihot.virxact.com/items/cmqs319vw0qkcslp52gzwr77q",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-24T06:00:00.000Z",
-      "summary": "OpenAI 与 Broadcom 联合推出 Jalapeño，一款专为大语言模型（LLM）推理优化的定制 AI 芯片，旨在提升 AI 系统的性能、效率与规模。",
-      "category": "ai-products",
-      "score": 55,
       "selected": true
     }
   ]
