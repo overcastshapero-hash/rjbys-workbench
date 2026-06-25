@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T12:24:05.436Z",
+  "generatedAt": "2026-06-25T15:40:52.234Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-25",
   "daily": {
@@ -191,6 +191,19 @@
       "selected": true
     },
     {
+      "id": "cmqtkuscr04g8sl0eoqzwkdm7",
+      "title": "OpenRouter MCP 服务器发布",
+      "title_en": "The OpenRouter MCP Server",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+      "permalink": "https://aihot.virxact.com/items/cmqtkuscr04g8sl0eoqzwkdm7",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-25T00:00:00.000Z",
+      "summary": "OpenRouter 推出 MCP 服务器，为编程智能体提供实时模型数据、基准排名、定价和文档查询。开发者通过一键安装（支持 Claude Code、Codex CLI、Cursor 等客户端），即可在编辑器内完成模型筛选、价格对比和测试推理，无需切换标签页。服务器整合 Artificial Analysis、Design Arena 及 OpenRouter 自身排名数据，例如推荐 GLM-5.2 作为性价比最佳的编码模型。工具集包括 models-list、model-get、model-endpoints、benchmarks 等，支持通过 chat-send 发送测试提示，比较不同模型（如 Claude Opus 4.8、GPT-5.5、DeepSeek V4 Pro）的响应、成本和延迟。API 密钥附带 7 天有效期和 10 美元消费上限，可随时撤销。",
+      "category": "ai-products",
+      "score": 71,
+      "selected": true
+    },
+    {
       "id": "cmqst0js5060tslfu7s6uxjhf",
       "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
       "title_en": "Explore the markets with Interactive Brokers and Grok",
@@ -344,32 +357,6 @@
       "summary": "2026年6月24日，Mistral AI 发布 Connectors 多项新能力：Enriched admin controls（GA）支持按工作空间设置连接器访问权限并单独开关工具；API keys with connector scopes（GA）防止自动化 AI 工作负载中身份冒充；Multi-account connectors（GA）允许单个连接器绑定多个账户；Connectors Debugger（公开预览）对 MCP 连接器进行端到端根因分析；Connectors in Vibe Code（GA）和 Connectors in Workflows（公开预览）分别允许在开发者界面复用连接器及支持长时间运行任务不中断。",
       "category": "ai-products",
       "score": 62,
-      "selected": true
-    },
-    {
-      "id": "cmqs65ogk008hslfuodhruc4w",
-      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-      "title_en": null,
-      "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-      "permalink": "https://aihot.virxact.com/items/cmqs65ogk008hslfuodhruc4w",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-24T14:20:14.340Z",
-      "summary": "LinkedIn联合创始人、Anthropic和OpenAI投资者Reid Hoffman在播客中公开批评SpaceX和xAI。他指出SpaceX\"不是一家人工智能公司\"，6月12日上市后收购AI编程工具Cursor属于\"花钱买相关性\"；xAI则是\"彻底的灾难\"，所有11位联合创始人已离职，Grok模型在基准测试中落后于Anthropic和OpenAI。他还批评美国政府6月11日以出口管制为由强制Anthropic下架Fable和Mythos模型，理由仅为Amazon CEO报告Fable 5存在jailbreak漏洞，称此举\"专断随意\"。Hoffman认为Anthropic和OpenAI均有巨大发展空间，但Cursor可能已过巅峰。他建议年轻人不要抵制AI。",
-      "category": "tip",
-      "score": 78,
-      "selected": true
-    },
-    {
-      "id": "cmqs68cgx0090slfuumt36jny",
-      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "permalink": "https://aihot.virxact.com/items/cmqs68cgx0090slfuumt36jny",
-      "source": "公众号：火山引擎",
-      "publishedAt": "2026-06-24T14:02:42.000Z",
-      "summary": "在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真--TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。",
-      "category": "tip",
-      "score": 74,
       "selected": true
     }
   ]
