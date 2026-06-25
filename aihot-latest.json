@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T00:15:53.758Z",
+  "generatedAt": "2026-06-25T05:07:25.382Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-25",
   "daily": {
@@ -164,6 +164,32 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqsy1vs107c5slfu4fmksjzd",
+      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+      "title_en": null,
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "permalink": "https://aihot.virxact.com/items/cmqsy1vs107c5slfu4fmksjzd",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-25T03:07:48.942Z",
+      "summary": "Anthropic指控阿里巴巴未经授权提取了其Claude AI模型的能力。该指控基于Anthropic的调查，认为阿里巴巴通过逆向工程或其他手段复制了Claude的核心技术。目前阿里巴巴尚未公开回应。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqst0js5060tslfu7s6uxjhf",
+      "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+      "title_en": "Explore the markets with Interactive Brokers and Grok",
+      "url": "https://x.ai/news/grok-interactive-brokers",
+      "permalink": "https://aihot.virxact.com/items/cmqst0js5060tslfu7s6uxjhf",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-06-25T00:00:00.000Z",
+      "summary": "盈透证券（Interactive Brokers）近日与 Grok 集成，用户可在几分钟内免费关联现有账户，无需注册新账户。通过自然语言与 Grok 对话，可完成组合收益分析（如股息与利息预测）、行业/地区/经济事件的风险敞口情景建模、市场趋势研究，并直接生成对冲订单等实时交易指令，实现从数据洞察到执行决策的一体化。",
+      "category": "ai-products",
+      "score": 55,
+      "selected": true
+    },
     {
       "id": "cmqsmijfz04cwslfuwufeuxwz",
       "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
@@ -383,45 +409,6 @@
       "summary": "OpenAI 与 Broadcom 联合推出 Jalapeño，一款专为大语言模型（LLM）推理优化的定制 AI 芯片，旨在提升 AI 系统的性能、效率与规模。",
       "category": "ai-products",
       "score": 55,
-      "selected": true
-    },
-    {
-      "id": "cmqrl73460l9gslp5w33pryqi",
-      "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
-      "title_en": "OpenAI ChatGPT 语音最大规模升级：双向 AI 语音模型 Bidi 1 已上线测试",
-      "url": "https://www.ithome.com/0/967/852.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqrl73460l9gslp5w33pryqi",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-24T04:34:24.000Z",
-      "summary": "6月23日，部分用户反馈 ChatGPT 网页版和 App 版上线了双向 AI 语音模型 Bidi 1，位于设置模型选择器中，与标准语音和高级语音并列。该模型支持边说话边监听，用户可在对话中途打断并发出新指令，例如要求从1数到10时中途喊停倒数，模型会立即切换执行。OpenAI 尚未官宣，预计本周启动更大范围测试。",
-      "category": "ai-models",
-      "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmqrizuey0kmcslp5zt7bajh0",
-      "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
-      "permalink": "https://aihot.virxact.com/items/cmqrizuey0kmcslp5zt7bajh0",
-      "source": "公众号：通义实验室（千问）",
-      "publishedAt": "2026-06-24T03:32:04.000Z",
-      "summary": "通义千问推出首个原生语言世界模型 Qwen-AgentWorld，覆盖 MCP、Search、Terminal、SWE、Web、OS、Android 七大领域。模型基于超 1000 万条真实交互轨迹，经 CPT→SFT→RL 三阶段训练，在 AgentWorldBench 上超越 GPT-5.4（58.25）和 Claude Opus 4.8，Qwen-AgentWorld-397B-A17B 取得 58.71 分。两种范式已验证其能力：作为解耦环境模拟器实现可控 Sim RL，在 WideSearch 上超越真实环境 RL（F1 50.3% vs 45.6%）；作为智能体基础模型，LWM 预热可迁移至七个基准（三个完全未出现在训练集中）。模型与评测基准已开源。",
-      "category": "ai-models",
-      "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmqrdmylf0iyeslp50lteppvq",
-      "title": "今天，豆包正式推出专业版",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-      "permalink": "https://aihot.virxact.com/items/cmqrdmylf0iyeslp50lteppvq",
-      "source": "公众号：豆包（字节）",
-      "publishedAt": "2026-06-24T01:00:00.000Z",
-      "summary": "豆包专业版基于豆包2.1系列大模型上线，面向复杂办公与生产力场景。办公任务模式接入可执行Agent任务的豆包2.1模型，支持操作本地电脑、浏览器、调用Skills技能、定时任务，内置Office办公套件，并可生成带后端数据库的在线应用。免费用户可体验豆包2.1 Turbo版办公任务模式，专业版接入豆包2.1 Pro模型。定价：标准套餐68元/月（连续包月），加强套餐200元/月，高级套餐500元/月。大学生认证后标准套餐38元/月，持续6个月。",
-      "category": "ai-products",
-      "score": 77,
       "selected": true
     }
   ]
