@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T12:13:11.546Z",
+  "generatedAt": "2026-06-26T15:24:50.959Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-26",
   "daily": {
@@ -189,16 +189,16 @@
   },
   "selectedItems": [
     {
-      "id": "cmquvx8fz07w9sl80874bxwnk",
-      "title": "Ornith-1.0 开源智能体编程模型发布",
-      "title_en": "This looks to good to be true. A 397B open source model on par or even outperforming Claude Opus 4…",
-      "url": "https://x.com/kimmonismus/status/2070476402692919346",
-      "permalink": "https://aihot.virxact.com/items/cmquvx8fz07w9sl80874bxwnk",
-      "source": "X：Kim (@kimmonismus)",
-      "publishedAt": "2026-06-26T11:56:56.000Z",
-      "summary": "Ornith-1.0 是专为智能体编程设计的开源大语言模型家族，提供 9B Dense、31B Dense、35B MoE 和 397B MoE 四种尺寸。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架与解决方案的自我改进策略。在多个编码基准上取得开源模型最优：Terminal-Bench 2.1（77.5）、SWE-Bench Verified（82.4）/ Pro（62.2）/ Multilingual（78.9）、NL2Repo（48.2）、SWE Atlas（QnA 41.2 / RF 42.6 / TW 39.1）、ClawEval（77.1）。所有模型以 MIT 许可证开源，支持商业与研究使用。主推文称其 397B 版本性能媲美甚至超越 Claude Opus 4.8。",
-      "category": "ai-models",
-      "score": 77,
+      "id": "cmqv2tn1509khsl80vpek6zqe",
+      "title": "Anthropic Economic Index 报告：使用节奏",
+      "title_en": "Anthropic Economic Index report： Cadences",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "permalink": "https://aihot.virxact.com/items/cmqv2tn1509khsl80vpek6zqe",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "publishedAt": "2026-06-26T15:18:56.294Z",
+      "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。",
+      "category": "paper",
+      "score": 55,
       "selected": true
     },
     {
