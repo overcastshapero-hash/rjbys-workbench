@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T09:33:22.726Z",
+  "generatedAt": "2026-06-26T12:13:11.546Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-26",
   "daily": {
@@ -188,6 +188,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmquvx8fz07w9sl80874bxwnk",
+      "title": "Ornith-1.0 开源智能体编程模型发布",
+      "title_en": "This looks to good to be true. A 397B open source model on par or even outperforming Claude Opus 4…",
+      "url": "https://x.com/kimmonismus/status/2070476402692919346",
+      "permalink": "https://aihot.virxact.com/items/cmquvx8fz07w9sl80874bxwnk",
+      "source": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-06-26T11:56:56.000Z",
+      "summary": "Ornith-1.0 是专为智能体编程设计的开源大语言模型家族，提供 9B Dense、31B Dense、35B MoE 和 397B MoE 四种尺寸。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架与解决方案的自我改进策略。在多个编码基准上取得开源模型最优：Terminal-Bench 2.1（77.5）、SWE-Bench Verified（82.4）/ Pro（62.2）/ Multilingual（78.9）、NL2Repo（48.2）、SWE Atlas（QnA 41.2 / RF 42.6 / TW 39.1）、ClawEval（77.1）。所有模型以 MIT 许可证开源，支持商业与研究使用。主推文称其 397B 版本性能媲美甚至超越 Claude Opus 4.8。",
+      "category": "ai-models",
+      "score": 77,
+      "selected": true
+    },
     {
       "id": "cmquitk6o04qnsl805yictrvb",
       "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
@@ -420,32 +433,6 @@
       "summary": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.5、NL2Repo 48.2、SWE Atlas 41.2 QnA、ClawEval 77.1。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架（scaffold）与最终解决方案，让模型自主改进执行框架。全系列 MIT 开源，提供 GGUF 版本，支持 Ollama、Unsloth 等本地运行。",
       "category": "ai-models",
       "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmquellij03q2sl80f5fm292j",
-      "title": "美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/HoiUxYnyJuh2_xdxmg8s8Q",
-      "permalink": "https://aihot.virxact.com/items/cmquellij03q2sl80f5fm292j",
-      "source": "公众号：龙猫LongCat（美团）",
-      "publishedAt": "2026-06-25T11:58:00.000Z",
-      "summary": "美团 LongCat 团队推出 VitaBench 2.0，首个真实生活场景下针对长期动态用户建模的智能体评测基准。包含56名拟真用户、819个复杂任务、超2000个动态偏好及66个可执行工具，每位用户平均2093个交互事件，时间跨度平均1580天。同时支持长文本上下文学习和智能体记忆策略评测。测试显示，最强模型 Claude-Opus-4.6 在\"开卷\"模式下平均分刚过0.5；开启思考模式并不总能提升个性化任务表现；所有模型在需要主动提问的任务上得分断崖式下跌。VitaBench 2.0 已开源。",
-      "category": "ai-products",
-      "score": 69,
-      "selected": true
-    },
-    {
-      "id": "cmqtc9nw602azsl0e4dvg4t64",
-      "title": "Meta员工警告AI内容审核部署过快",
-      "title_en": "Meta employees warn AI moderation rollout is too fast",
-      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-      "permalink": "https://aihot.virxact.com/items/cmqtc9nw602azsl0e4dvg4t64",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-25T10:07:19.000Z",
-      "summary": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模型Muse Spark，该模型基于人工审核员的历史决策训练。",
-      "category": "industry",
-      "score": 73,
       "selected": true
     }
   ]
