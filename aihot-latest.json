@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T15:24:50.959Z",
+  "generatedAt": "2026-06-26T17:51:27.704Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-26",
   "daily": {
@@ -189,6 +189,32 @@
   },
   "selectedItems": [
     {
+      "id": "cmqv67led0aejsl80grsdthsq",
+      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+      "title_en": "AI chatbots show left-wing bias， Washington Post report finds， with ChatGPT giving left-leaning answ…",
+      "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "permalink": "https://aihot.virxact.com/items/cmqv67led0aejsl80grsdthsq",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-06-26T16:51:17.000Z",
+      "summary": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在于答案倾向，而在于模型在展现权衡前已用单一道德框架压缩政治分歧，其行为更多受排序选择、拒绝规则、训练反馈和默认回答风格影响。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmqv4vak40a1ssl805nqs76uk",
+      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+      "title_en": "有人把网红峰哥做成了能实时打电话的 AI 分身， 连说话风格都一模一样。 这是开发者 Leaf 刚开源的项目， 把实时对话、音色克隆、人格注入三件事打通了， 工程延迟压到一秒以内。 最厉害的是拆…",
+      "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "permalink": "https://aihot.virxact.com/items/cmqv4vak40a1ssl805nqs76uk",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-06-26T15:37:43.000Z",
+      "summary": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。",
+      "category": "tip",
+      "score": 76,
+      "selected": true
+    },
+    {
       "id": "cmqv2tn1509khsl80vpek6zqe",
       "title": "Anthropic Economic Index 报告：使用节奏",
       "title_en": "Anthropic Economic Index report： Cadences",
@@ -199,6 +225,19 @@
       "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。",
       "category": "paper",
       "score": 55,
+      "selected": true
+    },
+    {
+      "id": "cmqv6ikhu0ah8sl80m2p7v2m4",
+      "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+      "title_en": "Previewing GPT-5.6 Sol： a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "permalink": "https://aihot.virxact.com/items/cmqv6ikhu0ah8sl80m2p7v2m4",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-26T10:00:00.000Z",
+      "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
+      "category": "ai-models",
+      "score": 78,
       "selected": true
     },
     {
@@ -368,71 +407,6 @@
       "summary": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第三卷PHerc.139确定标题和作者为菲洛德穆《论诸神》第八卷。所有数据与代码已公开。",
       "category": "paper",
       "score": 79,
-      "selected": true
-    },
-    {
-      "id": "cmqtpf8w405opsl0e2ldkd1q1",
-      "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
-      "title_en": "Which tokens does a hybrid model predict better？",
-      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "permalink": "https://aihot.virxact.com/items/cmqtpf8w405opsl0e2ldkd1q1",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-06-25T16:11:42.000Z",
-      "summary": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transformer凭借注意力机制更擅长从输入中直接检索精确信息。",
-      "category": "tip",
-      "score": 65,
-      "selected": true
-    },
-    {
-      "id": "cmqtp5syl05k5sl0ec5cvuedt",
-      "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
-      "title_en": "Most major AI chatbots still lean left on political questions， even \"anti-woke\" models are no exception",
-      "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-      "permalink": "https://aihot.virxact.com/items/cmqtp5syl05k5sl0ec5cvuedt",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-25T16:04:32.000Z",
-      "summary": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemini 3.1 Pro是例外，93%回答同时呈现双方立场。特朗普推动的\"反觉醒\"AI未能改变这一格局。",
-      "category": "tip",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmqtq76j105ubsl0e8j4fy8se",
-      "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
-      "title_en": "General Intuition raises $2.3B on bet that video games can train AI agents for the real world",
-      "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-      "permalink": "https://aihot.virxact.com/items/cmqtq76j105ubsl0e8j4fy8se",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-06-25T16:00:00.000Z",
-      "summary": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索办公室。本轮由 Khosla Ventures 领投，General Catalyst、Jeff Bezos、Eric Schmidt 等参投。资金将用于通过 CoreWeave 扩大计算规模、预训练下一代模型，计划夏末前开放 API。",
-      "category": "industry",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqtp7ycw05lbsl0ei7dpsv19",
-      "title": "Google Finance 全新 Android 应用与投资组合功能上线",
-      "title_en": "Our latest Google Finance upgrades， including a new app",
-      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-      "permalink": "https://aihot.virxact.com/items/cmqtp7ycw05lbsl0ei7dpsv19",
-      "source": "Google Blog：AI（RSS）",
-      "publishedAt": "2026-06-25T16:00:00.000Z",
-      "summary": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应用包含 watchlist、实时数据、金融新闻 feed、AI 研究工具及 AI 驱动的\"关键时刻\"解释股价波动。未来数月将把更多 web 功能（如财报电话、投资组合与任务）迁移至移动端，今年晚些推出 iOS 应用。",
-      "category": "ai-products",
-      "score": 57,
-      "selected": true
-    },
-    {
-      "id": "cmqtpj36o05pusl0e9ingyoye",
-      "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
-      "title_en": "卧槽！最近开源大模型太卷了啊！ 这不又一个专注agentic coding的开源模型家族来了，叫Ornith-1.0。 它覆盖了从9B到397B MoE的全尺寸，在Terminal-Bench、S…",
-      "url": "https://x.com/berryxia/status/2070167806700908957",
-      "permalink": "https://aihot.virxact.com/items/cmqtpj36o05pusl0e9ingyoye",
-      "source": "X：Berry Xia (@berryxia)",
-      "publishedAt": "2026-06-25T15:30:41.000Z",
-      "summary": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.5、NL2Repo 48.2、SWE Atlas 41.2 QnA、ClawEval 77.1。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架（scaffold）与最终解决方案，让模型自主改进执行框架。全系列 MIT 开源，提供 GGUF 版本，支持 Ollama、Unsloth 等本地运行。",
-      "category": "ai-models",
-      "score": 76,
       "selected": true
     }
   ]
