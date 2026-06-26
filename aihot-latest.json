@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:53:55.175Z",
+  "generatedAt": "2026-06-26T21:22:13.655Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-26",
   "daily": {
@@ -189,6 +189,19 @@
   },
   "selectedItems": [
     {
+      "id": "cmqvdw37s0cb7sl80kpi0thke",
+      "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
+      "title_en": "NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
+      "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
+      "permalink": "https://aihot.virxact.com/items/cmqvdw37s0cb7sl80kpi0thke",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-06-26T20:04:55.000Z",
+      "summary": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。微软称修订是\"挽救不利先例的最后手段\"。",
+      "category": "industry",
+      "score": 84,
+      "selected": true
+    },
+    {
       "id": "cmqv67led0aejsl80grsdthsq",
       "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
       "title_en": "AI chatbots show left-wing bias， Washington Post report finds， with ChatGPT giving left-leaning answ…",
@@ -316,32 +329,6 @@
       "summary": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。",
       "category": "ai-products",
       "score": 61,
-      "selected": true
-    },
-    {
-      "id": "cmqu0cbyl006isl80rufd707u",
-      "title": "Codex 在 ChatGPT 移动 App 正式可用",
-      "title_en": "Codex in the ChatGPT mobile app is now generally available. Connect your phone and computer more se…",
-      "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-      "permalink": "https://aihot.virxact.com/items/cmqu0cbyl006isl80rufd707u",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "publishedAt": "2026-06-25T21:15:18.000Z",
-      "summary": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运行。",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmqu0e95l006ysl8097qhn8ny",
-      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-      "title_en": "The Information： The US government is asking OpenAI to slow GPT-5.6 into a controlled preview instea…",
-      "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
-      "permalink": "https://aihot.virxact.com/items/cmqu0e95l006ysl8097qhn8ny",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-06-25T21:06:58.000Z",
-      "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman 已向员工确认该审批流程。",
-      "category": "industry",
-      "score": 76,
       "selected": true
     }
   ]
