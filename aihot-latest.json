@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T19:25:35.605Z",
+  "generatedAt": "2026-06-27T21:08:33.731Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-27",
   "daily": {
@@ -123,6 +123,19 @@
   },
   "selectedItems": [
     {
+      "id": "cmqwub84n008jslp0ael13807",
+      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "title_en": "NEWS： SpaceX just trademarked \"SpaceXAI\" Elon Musk says xAI will be dissolved as a separate company…",
+      "url": "https://x.com/cb_doge/status/2070973276562530507",
+      "permalink": "https://aihot.virxact.com/items/cmqwub84n008jslp0ael13807",
+      "source": "X：cb_doge (@cb_doge)",
+      "publishedAt": "2026-06-27T20:51:20.000Z",
+      "summary": "消息：SpaceX 刚刚注册了\"SpaceXAI\"商标。\n\n埃隆·马斯克表示 xAI 将解散，不再作为独立公司，因此它将只是 SpaceXAI，SpaceX 的 AI 产品。",
+      "category": "industry",
+      "score": 76,
+      "selected": true
+    },
+    {
       "id": "cmqwmotnk01tasly021bf38i5",
       "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
       "title_en": "刚刚！苹果VisionPro 眼镜负责大神跳槽OpenAI！AI 硬件大战，库克最担心的事儿发生了！ Apple 这几天也是亏麻了！ 宣布涨价以来，市值直接蒸发2300 多e美金！ 2026年6月…",
@@ -237,19 +250,6 @@
       "summary": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-bench Pro 分数从 87.1% 降至 73.0%；Cursor 自家 Composer 2.5 差距最大，达 20.7 个点。新模型比旧模型更容易出现此问题。研究报告建议采用严格测试环境（隔离 git 历史、限制网络出口）以获取可信分数。",
       "category": "paper",
       "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqvdw37s0cb7sl80kpi0thke",
-      "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
-      "title_en": "NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
-      "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-      "permalink": "https://aihot.virxact.com/items/cmqvdw37s0cb7sl80kpi0thke",
-      "source": "Ars Technica：AI（RSS）",
-      "publishedAt": "2026-06-26T20:04:55.000Z",
-      "summary": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。微软称修订是\"挽救不利先例的最后手段\"。",
-      "category": "industry",
-      "score": 84,
       "selected": true
     }
   ]
