@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T06:55:20.962Z",
+  "generatedAt": "2026-06-27T09:30:39.656Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-27",
   "daily": {
@@ -110,6 +110,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqw4pe3v007islohecqcejvi",
+      "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/969/400.htm",
+      "permalink": "https://aihot.virxact.com/items/cmqw4pe3v007islohecqcejvi",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-27T08:16:09.000Z",
+      "summary": "美国企业面临 AI 账单失控，开始转向 Token 最小化策略。旧金山公司 Lindy 此前主要调用 Anthropic 的 Claude 模型，每月 AI 账单超支甚至超过员工工资。该公司 CEO 弗洛·克里维洛表示，本月初已将 100% 流量切换到 DeepSeek，预计未来几个月可节省数百万美元。企业开始采用按任务匹配模型的\"模型路由\"，不再将最贵的前沿模型用于所有场景。部分客户已决定暂停 AI 投入，待证明投资回报率后再继续。",
+      "category": "industry",
+      "score": 70,
+      "selected": true
+    },
     {
       "id": "cmqvtzehe0g65sl800jrc1x17",
       "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
