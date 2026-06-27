@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T09:30:39.656Z",
+  "generatedAt": "2026-06-27T11:37:24.210Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-27",
   "daily": {
@@ -212,19 +212,6 @@
       "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。",
       "category": "paper",
       "score": 55,
-      "selected": true
-    },
-    {
-      "id": "cmqv6ikhu0ah8sl80m2p7v2m4",
-      "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
-      "title_en": "Previewing GPT-5.6 Sol： a next-generation model",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "permalink": "https://aihot.virxact.com/items/cmqv6ikhu0ah8sl80m2p7v2m4",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-26T10:00:00.000Z",
-      "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
-      "category": "ai-models",
-      "score": 78,
       "selected": true
     }
   ]
