@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T17:14:22.501Z",
+  "generatedAt": "2026-06-27T19:25:35.605Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-27",
   "daily": {
@@ -122,6 +122,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqwmotnk01tasly021bf38i5",
+      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+      "title_en": "刚刚！苹果VisionPro 眼镜负责大神跳槽OpenAI！AI 硬件大战，库克最担心的事儿发生了！ Apple 这几天也是亏麻了！ 宣布涨价以来，市值直接蒸发2300 多e美金！ 2026年6月…",
+      "url": "https://x.com/berryxia/status/2070916520822321292",
+      "permalink": "https://aihot.virxact.com/items/cmqwmotnk01tasly021bf38i5",
+      "source": "X：Berry Xia (@berryxia)",
+      "publishedAt": "2026-06-27T17:05:48.000Z",
+      "summary": "2026年6月26日，Mark Gurman称苹果Vision产品组副总裁Paul Meade下周离职加入OpenAI硬件部门。他负责Vision Pro、无屏幕AI智能眼镜及AR眼镜研发。苹果计划首款触控OLED MacBook使用M5 Pro/Max芯片，2026年底到2027年初发布；M7 Pro/Max版本2027年底跟进。苹果此前因涨价市值蒸发2300多亿美元。核心高管流失至OpenAI凸显AI硬件竞争加速。",
+      "category": "industry",
+      "score": 76,
+      "selected": true
+    },
     {
       "id": "cmqwm45f901n6sly0gpl6b6l5",
       "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
