@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:47:22.039Z",
+  "generatedAt": "2026-06-27T06:55:20.962Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-27",
   "daily": {
@@ -111,6 +111,19 @@
   },
   "selectedItems": [
     {
+      "id": "cmqvtzehe0g65sl800jrc1x17",
+      "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
+      "title_en": "阿里千问输入法上线 macOS 版：最快 300 字 / 分，AI 自动润色",
+      "url": "https://www.ithome.com/0/969/334.htm",
+      "permalink": "https://aihot.virxact.com/items/cmqvtzehe0g65sl800jrc1x17",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-27T03:39:06.000Z",
+      "summary": "阿里千问输入法 macOS 版今日上线官网，支持最快 300 字/分的 AI 语音输入，可自动润色、将口语转为工整文字，并支持 9 种方言，纯净无广告。官方预告 iOS、Android、Windows 版将于近日发布。此前千问团队已于今年 5 月推出千问语音输入法（千问 App 内的组件），具备去语气词、纠错、格式化整理及基于上下文的智能回复等能力，而本次上线的输入法则定位为独立 App，填补千问在移动端 AI 输入法赛道的空白。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true
+    },
+    {
       "id": "cmqvpp1zi0f57sl80zxcbnmqz",
       "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
       "title_en": "国家统计局：电子行业利润 1-5 月增长 103.9%，AI 驱动高端算力 / 存储芯片需求爆发",
@@ -199,32 +212,6 @@
       "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
       "category": "ai-models",
       "score": 78,
-      "selected": true
-    },
-    {
-      "id": "cmquitk6o04qnsl805yictrvb",
-      "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/968/894.htm",
-      "permalink": "https://aihot.virxact.com/items/cmquitk6o04qnsl805yictrvb",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-26T05:40:52.000Z",
-      "summary": "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 Robotaxi 落地。何小鹏称 2027 年海外小鹏汽车将搭载 VLA 和 VLM，支持中英文混合语音对话。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqugodz30481sl80as72hqx1",
-      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
-      "title_en": "近 400 家美国报纸联合起诉 OpenAI 和微软白嫖内容，AI 热潮恐成地方新闻\"丧钟\"",
-      "url": "https://www.ithome.com/0/968/872.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqugodz30481sl80as72hqx1",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-26T04:37:58.000Z",
-      "summary": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。OpenAI回应训练数据基于公开可获取内容且符合合理使用原则，微软未置评。",
-      "category": "industry",
-      "score": 74,
       "selected": true
     }
   ]
