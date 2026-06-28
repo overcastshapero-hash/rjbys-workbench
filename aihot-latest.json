@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T11:10:18.599Z",
+  "generatedAt": "2026-06-28T13:54:18.387Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-28",
   "daily": {
@@ -218,32 +218,6 @@
       "summary": "作者收到伪装成新加坡VC Lua Ventures的虚假面试邮件，要求完成一个TypeScript仓库的\"测试\"。作者将仓库交给Claude扫描，在`typescript+5.9.2.patch`中发现base64混淆载荷，该载荷在`patch-package`安装时触发，向`~/.cache-`等目录写入`payload.js`和`mutex.js`，构成后门（命名PinpinRAT）。攻击者使用虚构身份和空洞LinkedIn资料，目标是作者在crates.io上的Rust包。相关信息已报告加拿大CCCS等机构。",
       "category": "tip",
       "score": 81,
-      "selected": true
-    },
-    {
-      "id": "cmqwe6jrq000isl6uw2i3e6zy",
-      "title": "Runway API 推出广告本地化 Recipe",
-      "title_en": "Localize ads is now available as a Recipe via the Runway API. You can now translate static ads and …",
-      "url": "https://x.com/runwayml/status/2070855164584726791",
-      "permalink": "https://aihot.virxact.com/items/cmqwe6jrq000isl6uw2i3e6zy",
-      "source": "X：Runway (@runwayml)",
-      "publishedAt": "2026-06-27T13:02:00.000Z",
-      "summary": "广告本地化现在可通过 Runway API 以 Recipe 形式使用。\n\n现在您可以通过单次 API 调用翻译静态广告和图形资产。",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmqwclgpa00a0slfd8mlysoe8",
-      "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
-      "title_en": "The companies most likely to automate your job are now funding a $1 billion program to retrain you",
-      "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-      "permalink": "https://aihot.virxact.com/items/cmqwclgpa00a0slfd8mlysoe8",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-27T12:25:21.000Z",
-      "summary": "前美国商务部长Raimondo与前印第安纳州长Holcomb共同发起非营利\"Raise Us\"，目标为AI经济下工人再培训筹集10亿美元，已锁定5亿。Amazon、Anthropic、Microsoft、OpenAI等支持，引发独立性质疑。将在阿肯色、康涅狄格、马里兰、犹他四州试点，包括AI职业导航、服务年计划扩展、工资保险等。工作分州合作、雇主联盟、教育培训、政策实验室四大支柱。此前美国工人再培训效果不佳，计划能否成功尚待观察。",
-      "category": "industry",
-      "score": 70,
       "selected": true
     }
   ]
