@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:16:55.652Z",
+  "generatedAt": "2026-06-28T19:26:01.686Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-28",
   "daily": {
@@ -103,6 +103,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqy28vh30050slr1uzaev9nk",
+      "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+      "title_en": "Artifacts 22： Zyphra， Cohere， and Poolside are expanding the breadth of the ecosystem",
+      "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+      "permalink": "https://aihot.virxact.com/items/cmqy28vh30050slr1uzaev9nk",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "publishedAt": "2026-06-28T17:03:07.000Z",
+      "summary": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如 JetBrains、Zed、Krea、Photoroom 则训练高度专业的小模型。NVIDIA 发布 Nemotron-3-Ultra-550B-A55B-BF16，采用 LatentMoE 架构并改用 OpenMDW 许可证。Cohere 以 Apache 2.0 开源其旗舰模型 Command A+（05-2026-bf16），这是一款 218B-A25B MoE 模型，具备多模态、多语言和智能体能力。",
+      "category": "tip",
+      "score": 60,
+      "selected": true
+    },
     {
       "id": "cmqy1fj3003cislwfljtykjvx",
       "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
