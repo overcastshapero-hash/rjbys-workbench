@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:02:50.708Z",
+  "generatedAt": "2026-06-29T22:10:46.963Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-29",
   "daily": {
@@ -82,6 +82,58 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmqzq4so7002zslki45ad5xtq",
+      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
+      "title_en": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "permalink": "https://aihot.virxact.com/items/cmqzq4so7002zslki45ad5xtq",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-29T21:22:33.048Z",
+      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmqzqabkh0069slkildw65dhy",
+      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
+      "title_en": "Most popular model on @OpenRouter （10tr tokens） turns out to be a 1.6tr MoE by @Meituan_LongCat （sup…",
+      "url": "https://x.com/EMostaque/status/2071701921241448574",
+      "permalink": "https://aihot.virxact.com/items/cmqzqabkh0069slkildw65dhy",
+      "source": "X：Emad Mostaque (@EMostaque)",
+      "publishedAt": "2026-06-29T21:06:43.000Z",
+      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
+      "category": "ai-models",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmqzpe7kz003xslznxpw78tx5",
+      "title": "Rubin Ultra取消，新版尺寸性能减半",
+      "title_en": "INTERESTING： Only 3 months after Rubin Ultra was announced at GTC 2026， the original 4-die Rubin Ult…",
+      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+      "permalink": "https://aihot.virxact.com/items/cmqzpe7kz003xslznxpw78tx5",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "publishedAt": "2026-06-29T21:00:47.000Z",
+      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
+      "category": "industry",
+      "score": 77,
+      "selected": true
+    },
+    {
+      "id": "cmqzo4q2o005oslkhjl7jdtoc",
+      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+      "title_en": "OpenClaw is now on iOS + Android 🦞 📱 Native mobile apps， finally 💬 Agents in your pocket 🔔 Chan…",
+      "url": "https://x.com/openclaw/status/2071688039114342592",
+      "permalink": "https://aihot.virxact.com/items/cmqzo4q2o005oslkhjl7jdtoc",
+      "source": "X：OpenClaw (@openclaw)",
+      "publishedAt": "2026-06-29T20:11:33.000Z",
+      "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
+      "category": "ai-products",
+      "score": 71,
+      "selected": true
+    },
     {
       "id": "cmqzjpce1006aslqvqo2kpjo6",
       "title": "Claude 在 Microsoft Foundry 正式可用",
@@ -275,6 +327,19 @@
       "summary": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Coding项目AIHOT最近一周请求量超千万次。",
       "category": "tip",
       "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmqzoeyal000psl42yjcez2oc",
+      "title": "Anthropic：当AI成本超过工程师薪酬",
+      "title_en": "When AI Costs More Than the Engineer",
+      "url": "https://www.tomtunguz.com/ai-spend-breakeven-2029",
+      "permalink": "https://aihot.virxact.com/items/cmqzoeyal000psl42yjcez2oc",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "Anthropic在算力上的支出达到每位工程师每年51.5万美元，是其完全薪资（22.4万美元）的2.3倍。相比之下，顶尖1%软件公司的算力支出为8.9万美元，中位数仅为1.37万美元。三个2029年情景预测了这一差距的缩小路径。",
+      "category": "tip",
+      "score": 58,
       "selected": true
     }
   ]
