@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T04:16:36.911Z",
+  "generatedAt": "2026-06-29T09:50:30.741Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-29",
   "daily": {
@@ -83,6 +83,32 @@
   },
   "selectedItems": [
     {
+      "id": "cmqyysibx00l8slxscq4crs8k",
+      "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+      "title_en": "Samsung and SK Hynix plan $590 billion chip investment as AI demand sends memory prices soaring",
+      "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+      "permalink": "https://aihot.virxact.com/items/cmqyysibx00l8slxscq4crs8k",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-06-29T08:17:41.000Z",
+      "summary": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至20%才可能缓解。两家公司合计控制全球近80%的高带宽内存芯片市场。内存涨价已推高消费电子产品成本，苹果已上调Mac和MacBook售价。",
+      "category": "industry",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmqyvdkok000qslf1ctykave9",
+      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/969/953.htm",
+      "permalink": "https://aihot.virxact.com/items/cmqyvdkok000qslf1ctykave9",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-29T06:44:15.000Z",
+      "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
+      "category": "industry",
+      "score": 71,
+      "selected": true
+    },
+    {
       "id": "cmqykzeht02shslivflwhgdbx",
       "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
       "title_en": "分享2个Vibe Coding必备的超实用Prompt。",
@@ -144,19 +170,6 @@
       "publishedAt": "2026-06-28T10:16:13.000Z",
       "summary": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法通过固定定价、配额和针对性开发达到1576万美元，超越除上述三款外的所有模型。多数模型无法保持连贯策略，在模拟结束前破产。该测试旨在衡量AI的长期战略决策能力。",
       "category": "paper",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqxiel9h004ysl50umg2c011",
-      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-      "title_en": "Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
-      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "permalink": "https://aihot.virxact.com/items/cmqxiel9h004ysl50umg2c011",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-28T07:44:41.000Z",
-      "summary": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出\"参数压缩-覆盖假说\"：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。",
-      "category": "ai-models",
       "score": 70,
       "selected": true
     }
