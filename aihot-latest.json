@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T12:12:14.001Z",
+  "generatedAt": "2026-06-30T15:31:34.267Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-30",
   "daily": {
@@ -371,45 +371,6 @@
       "publishedAt": "2026-06-29T18:03:02.582Z",
       "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
       "category": "tip",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmqzdby9m00o8sltjugcnx002",
-      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-      "title_en": "Margot Van Laar是Anthropic应用AI团队的工程师。 她在Code with Claude大会上做了一场关于提示词工程实战的分享。 核心观点只有一个：我们很少从零写提示词，大部…",
-      "url": "https://x.com/berryxia/status/2071610700213191075",
-      "permalink": "https://aihot.virxact.com/items/cmqzdby9m00o8sltjugcnx002",
-      "source": "X：Berry Xia (@berryxia)",
-      "publishedAt": "2026-06-29T15:04:14.000Z",
-      "summary": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的\"禁止列表\"指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
-      "category": "tip",
-      "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmqzbkvm2008ysltjog7ffi8l",
-      "title": "Herdr：驻留在终端中的AI智能体多路复用器",
-      "title_en": "Herdr：驻留在终端中的代理多路复用器",
-      "url": "https://github.com/ogulcancelik/herdr",
-      "permalink": "https://aihot.virxact.com/items/cmqzbkvm2008ysltjog7ffi8l",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-29T14:03:06.351Z",
-      "summary": "Herdr是一个驻留在终端中的AI智能体多路复用器，允许用户在单一终端界面内管理和切换多个AI智能体会话。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqz7d8df001gslurh618qik6",
-      "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
-      "title_en": "The US military used AI to pick thousands of targets but missed a note saying one was a school",
-      "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-      "permalink": "https://aihot.virxact.com/items/cmqz7d8df001gslurh618qik6",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-29T12:30:21.000Z",
-      "summary": "美军在打击伊朗时首次大规模使用AI选择目标（Anthropic的Claude模型嵌入Palantir的Maven Smart System，首日建议约1000个目标），但对一所学校的导弹袭击导致约120名儿童死亡。调查发现，情报分析师早在2019年就通过数字工具标记该地点已变为小学，但该工具未连接军方官方目标数据库MIDB，信息从未送达指挥官。MIDB建于1980年代，依赖手动输入，替代系统MARS多年延迟。五角大楼事后宣布推出agentic AI initiative。Project Maven创建人Jack Shanahan批评目标验证不力不可原谅。",
-      "category": "industry",
       "score": 75,
       "selected": true
     }
