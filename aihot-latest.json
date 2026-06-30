@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T05:06:51.207Z",
+  "generatedAt": "2026-06-30T09:44:06.584Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-30",
   "daily": {
@@ -193,6 +193,58 @@
   },
   "selectedItems": [
     {
+      "id": "cmr0czddc00pyslole7byaugu",
+      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "title_en": "另类资管巨头黑石未来 3~5 年将斥资 300 亿美元在日本建设 AI 数据中心",
+      "url": "https://www.ithome.com/0/970/583.htm",
+      "permalink": "https://aihot.virxact.com/items/cmr0czddc00pyslole7byaugu",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-30T07:56:46.000Z",
+      "summary": "黑石计划未来3~5年在日本AI数据中心领域投资300亿美元，此前的500MW基础上新增超1GW容量。黑石总裁认为AI投资仍处早期，真正风险是算力短缺而非基建泡沫；谷歌、亚马逊是英伟达潜在挑战者。此外，黑石、阿波罗、博通本月9日成立AI XPV平台，目标2028年向OpenAI、Anthropic等提供超20GW算力，首期350亿美元支持Anthropic在Fluidstack数据中心部署1GW基础设施。",
+      "category": "industry",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmr0au6v3005gslol3ritaun0",
+      "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+      "title_en": "无方向盘、无踏板，特斯拉 Cybercab 量产版启动公开道路工程测试",
+      "url": "https://www.ithome.com/0/970/539.htm",
+      "permalink": "https://aihot.virxact.com/items/cmr0au6v3005gslol3ritaun0",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-30T06:45:03.000Z",
+      "summary": "2026年6月30日，特斯拉在奥斯汀公共道路启动首批量产版Cybercab工程测试。车辆无方向盘与脚踏板，配有安全监督员，马斯克发布实拍视频。从2024年10月概念车首秀到实车上路约20个月。目前不对外开放乘客，投入34台Cybercab在市中心验证硬件可靠性。Cybercab为双座车型，完全围绕无人驾驶打造，无后期改装。此前奥斯汀已有无安全员Model Y无人驾驶出租于1月启用、6月22日开放付费服务。",
+      "category": "industry",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmr08dev204qjslkit52gdrur",
+      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "title_en": "The full model behind \"Owl Alpha\" on @OpenRouter is here🦉 Let's meet @Meituan_LongCat 's latest fla…",
+      "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "permalink": "https://aihot.virxact.com/items/cmr08dev204qjslkit52gdrur",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "publishedAt": "2026-06-30T05:42:42.000Z",
+      "summary": "美团 LongCat 推出旗舰模型 LongCat-2.0，采用 1.6T 参数 MoE 架构（约 48B 活跃参数），原生支持 1M 上下文窗口。定价为 Input Cache $0.015/1M tokens、Input $0.75/1M tokens、Output $2.95/1M tokens。模型专为 Agentic Coding 设计，包含三大技术：LSA 稀疏注意力实现高效 1M 扩展；Zero-Compute Experts 动态激活 33B-56B 参数/token，无算力浪费；MOPD 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。在 SWE-bench Pro 上取得 59.5 分，性能接近主流闭源模型。现已上线 SiliconFlow Day 0 服务。",
+      "category": "ai-models",
+      "score": 67,
+      "selected": true
+    },
+    {
+      "id": "cmr07c62l04huslkimxy3vdw5",
+      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+      "title_en": "Twitter 终于有 MCP 了，这个非常有用！ 如果你像我一样依赖 Twitter 信息的话，就可以让 AI 帮你自动整理、总结和对你的数据进行分析 不过依然需要你注册 Twitter 的 A…",
+      "url": "https://x.com/op7418/status/2071816099986022650",
+      "permalink": "https://aihot.virxact.com/items/cmr07c62l04huslkimxy3vdw5",
+      "source": "X：歸藏 (@op7418)",
+      "publishedAt": "2026-06-30T04:40:25.000Z",
+      "summary": "X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。",
+      "category": "ai-products",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmr05b2wq0414slkivvyyjlbl",
       "title": "AI就业争论变得更加混乱",
       "title_en": "The AI jobs debate just got messier",
@@ -255,19 +307,6 @@
       "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
       "category": "ai-products",
       "score": 66,
-      "selected": true
-    },
-    {
-      "id": "cmqzqabkh0069slkildw65dhy",
-      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
-      "title_en": "Most popular model on @OpenRouter （10tr tokens） turns out to be a 1.6tr MoE by @Meituan_LongCat （sup…",
-      "url": "https://x.com/EMostaque/status/2071701921241448574",
-      "permalink": "https://aihot.virxact.com/items/cmqzqabkh0069slkildw65dhy",
-      "source": "X：Emad Mostaque (@EMostaque)",
-      "publishedAt": "2026-06-29T21:06:43.000Z",
-      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
-      "category": "ai-models",
-      "score": 79,
       "selected": true
     },
     {
@@ -424,58 +463,6 @@
       "summary": "安全研究人员在 Mozilla 的 GenAI 漏洞赏金平台 0DIN 发现新攻击向量。一个看似正常的 GitHub 仓库包含 setup 脚本，该脚本运行时从 DNS 条目拉取命令并执行，恶意代码从未存在于仓库中，对扫描器、代码审查和 AI 智能体不可见。开发者使用 Claude Code 等 AI 编码工具打开该仓库时，Claude Code 在设置过程中遇到常规错误消息后自动运行该脚本，打开反向 shell，攻击者可窃取 API 密钥和登录凭据并维持持久访问。研究人员建议 AI 智能体应在运行前显示 setup 脚本内容，开发者应将第三方仓库的 setup 说明视为不受信任代码。",
       "category": "paper",
       "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmqz1tatr01doslxsae6mpoyv",
-      "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
-      "title_en": "国务院：推进人工智能全学段教育，提升学生人工智能素养",
-      "url": "https://www.ithome.com/0/970/097.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqz1tatr01doslxsae6mpoyv",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-29T09:27:36.000Z",
-      "summary": "国务院日前印发《教育发展\"十五五\"规划》，要求推进人工智能全学段教育，提升学生人工智能素养及提出问题、解决问题的能力。规划明确完善科学教育体系，强化科技教育与人文教育协同，加强青少年科学素养、批判性思维和创新能力培养。同时实施学生体质强健计划、心理健康促进行动，加大拔尖创新人才自主培养力度，推动学科交叉融合，扩大优质本科招生规模。目标到2030年高质量教育体系基本建成。",
-      "category": "industry",
-      "score": 80,
-      "selected": true
-    },
-    {
-      "id": "cmqyysibx00l8slxscq4crs8k",
-      "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
-      "title_en": "Samsung and SK Hynix plan $590 billion chip investment as AI demand sends memory prices soaring",
-      "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
-      "permalink": "https://aihot.virxact.com/items/cmqyysibx00l8slxscq4crs8k",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-29T08:17:41.000Z",
-      "summary": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至20%才可能缓解。两家公司合计控制全球近80%的高带宽内存芯片市场。内存涨价已推高消费电子产品成本，苹果已上调Mac和MacBook售价。",
-      "category": "industry",
-      "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmqz31dsn003usldyi61f0cgf",
-      "title": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
-      "title_en": "Mapping Europe's AI Workforce Opportunity",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "permalink": "https://aihot.virxact.com/items/cmqz31dsn003usldyi61f0cgf",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-29T07:00:00.000Z",
-      "summary": "OpenAI 发布新报告，分析 AI 对欧盟就业的影响，划定哪些职业面临自动化、增长或工作流程变化。",
-      "category": "paper",
-      "score": 62,
-      "selected": true
-    },
-    {
-      "id": "cmqyvdkok000qslf1ctykave9",
-      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/969/953.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqyvdkok000qslf1ctykave9",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-29T06:44:15.000Z",
-      "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
-      "category": "industry",
-      "score": 71,
       "selected": true
     }
   ]
