@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T15:31:34.267Z",
+  "generatedAt": "2026-06-30T17:59:16.639Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-30",
   "daily": {
@@ -193,6 +193,123 @@
   },
   "selectedItems": [
     {
+      "id": "cmr0yab2e003oslw8uw5zghrc",
+      "title": "Acti 将 AI 智能体直接放入手机键盘",
+      "title_en": "Acti puts AI agents directly into your smartphone keyboard",
+      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
+      "permalink": "https://aihot.virxact.com/items/cmr0yab2e003oslw8uw5zghrc",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-30T17:52:46.000Z",
+      "summary": "新加坡初创公司 Acti 发布基于 Google Gemini 的智能体键盘，可代替用户在应用中执行操作。核心功能 Skills 允许用自然语言创建快捷方式，如长按 T 键翻译消息、C 键发送会议链接。早期测试者两周内创建超 1000 个 Skills。采用本地优先架构，默认不访问私人消息。公司获 530 万美元种子轮融资，由 BITKRAFT Ventures 领投，现已开放下载。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmr0xc7sg0040slb3yenz5k02",
+      "title": "Claude Science 科研工作台正式上线",
+      "title_en": "Claude Science， an AI workbench for scientists， is now available",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "permalink": "https://aihot.virxact.com/items/cmr0xc7sg0040slb3yenz5k02",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-06-30T17:32:06.724Z",
+      "summary": "Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；可在macOS/Linux本地运行，或通过SSH/HPC远程使用。生成含代码和环境的可审计成果（3D蛋白质结构、基因组浏览器轨迹等），内置reviewer agent自动检查引用与计算错误。通过NVIDIA BioNeMo接入Evo 2、Boltz-2等模型，也支持连接自有模型与管道。今日以beta版面向Claude Pro、Max、Team和Enterprise用户开放。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmr0x7y97001yslb3tyb8w4ce",
+      "title": "Claude Code 入门：智能体循环",
+      "title_en": "Getting started with loops",
+      "url": "https://claude.com/blog/getting-started-with-loops",
+      "permalink": "https://aihot.virxact.com/items/cmr0x7y97001yslb3tyb8w4ce",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-06-30T17:28:28.530Z",
+      "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 `/goal` 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 `/loop` 按时间间隔重复执行，可用 `/schedule` 移至云端）、以及 proactive 循环（基于事件或计划自动运行，无人实时参与）。文章还介绍了如何编写 SKILL.md 文件将人工验证步骤编码，让 Claude 进行端到端自检，减少 turn-based 循环中的手动操作。",
+      "category": "tip",
+      "score": 72,
+      "selected": true
+    },
+    {
+      "id": "cmr0wupt4007gsl403t7s6dbn",
+      "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+      "title_en": "Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine， built-in human-in-the-loop， and dynamic orchestration",
+      "url": "https://developers.googleblog.com/announcing-adk-go-20",
+      "permalink": "https://aihot.virxact.com/items/cmr0wupt4007gsl403t7s6dbn",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-06-30T17:17:40.302Z",
+      "summary": "Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true
+    },
+    {
+      "id": "cmr0x8nxp002gslb33ixw5j4z",
+      "title": "Apple Creator Studio 更新：更智能、更快速、更互联",
+      "title_en": "Apple Creator Studio gets smarter， faster， and more connected",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected",
+      "permalink": "https://aihot.virxact.com/items/cmr0x8nxp002gslb33ixw5j4z",
+      "source": "Apple：Newsroom（RSS）",
+      "publishedAt": "2026-06-30T16:59:24.233Z",
+      "summary": "Apple Creator Studio 推出多项 AI 增强更新。Final Cut Pro 新增 on-device AI 驱动的 Generate Captions（自动转录音频生成字幕）和 Edit Detection（自动检测剪辑点）。Mac 版加入 Auto Mask（自动识别皮肤、天空等主体）、增强的 Match Color 和 Advanced Trimming。支持将帧发送至 Pixelmator Pro 编辑，并在 Keynote、Pages、Numbers 中直接调用 Pixelmator Pro 修改图片。Logic Pro 新增 Grammy 制作人制作的 Producer Project 及 Chord ID 改进。订阅价 $12.99/月或 $129/年，新用户免费试用一个月，教育用户 $2.99/月。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true
+    },
+    {
+      "id": "cmr0wwa6g0085sl40xkkzeruy",
+      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "title_en": "Have your agent record video demos of its work with shot-scraper video",
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
+      "permalink": "https://aihot.virxact.com/items/cmr0wwa6g0085sl40xkkzeruy",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-06-30T16:54:26.000Z",
+      "summary": "shot-scraper 1.10 新增 shot-scraper video 命令，支持通过 storyboard.yml 文件定义操作步骤，并利用 Playwright 录制浏览器视频。演示视频展示了 Datasette 中从粘贴的 CSV/TSV/JSON 数据创建新表的功能。该功能依赖 Playwright 1.61.0 新增的 screencast 机制，解决了此前视频开头白帧、宽度固定 800px 等问题。开发者 Simon Willison 强调，将 --help 输出设计得足够详细，可使编码 Agent 直接利用该命令生成演示视频。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmr0v1pn7009kslatrt4gncmj",
+      "title": "Claude Desktop 推出 Linux 公测版",
+      "title_en": "Claude Desktop is now available on Linux （Ubuntu and Debian） in beta. Alongside the browser and ter…",
+      "url": "https://x.com/ClaudeDevs/status/2071988881717871065",
+      "permalink": "https://aihot.virxact.com/items/cmr0v1pn7009kslatrt4gncmj",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "publishedAt": "2026-06-30T16:06:59.000Z",
+      "summary": "Claude Desktop 现已在 Linux（Ubuntu 和 Debian）上推出测试版。\n\n除了浏览器和终端，你现在可以在所有付费计划中获得一流的桌面体验，包括 Claude Code、Claude Cowork 和聊天。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true
+    },
+    {
+      "id": "cmr0ucc880030slatw1gfkq2h",
+      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+      "title_en": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+      "permalink": "https://aihot.virxact.com/items/cmr0ucc880030slatw1gfkq2h",
+      "source": "Google DeepMind：Blog（RSS）",
+      "publishedAt": "2026-06-30T16:02:40.000Z",
+      "summary": "Google DeepMind 推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），为 Nano Banana 系列速度最快、成本最低的图像模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本 $0.034，已上线 Google AI Studio、Gemini API 及消费者产品（AI Mode in Search、Gemini app 等）。同时推出 Gemini Omni Flash（gemini-omni-flash-preview），支持高画质视频生成与对话式编辑，视频输出定价 $0.10/秒，面向开发者开放 API。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmr0vkch300f5slate2n251dm",
+      "title": "Grant Sanderson 谈 AI 与数学的未来",
+      "title_en": "Grant Sanderson - AI and the future of math",
+      "url": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "permalink": "https://aihot.virxact.com/items/cmr0vkch300f5slate2n251dm",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "publishedAt": "2026-06-30T15:53:19.000Z",
+      "summary": "3Blue1Brown 创办人 Grant Sanderson 正在制作记录 AI 在数学领域进展的新项目。他在与 Dwarkesh Patel 的对谈中指出，AI 在 IMO 获金牌并不等于 AGI，只是又一个被攻克的基准。即使 AI 未来解决千禧年大奖难题，仍可能存在大量人类任务无法被自动化。对话还探讨了概念突破验证周期可长达一个世纪、Riemann 假设的 AI 证明能否被人类理解、AI 能否在已有文献间发现隐藏联系，以及现实经济任务难以套用强化学习环境等话题。",
+      "category": "tip",
+      "score": 61,
+      "selected": true
+    },
+    {
       "id": "cmr0kov5302qnslolcwg00yqd",
       "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
       "title_en": "Meta secretly tested ChatGPT， Gemini， and Character.AI with thousands of minor-perspective crisis prompts",
@@ -203,6 +320,19 @@
       "summary": "Meta通过承包商Covelen发起代号\"Cannes\"的项目，雇佣数百人假扮未成年人，向ChatGPT、Gemini和Character.AI发送关于自杀、自残、饮食障碍和毒品的敏感提示，并将回复录入表格。2025年8月一轮测试中发送了超过4.5万条提示。Meta称这是行业标准安全测试，未将数据用于训练自家模型。被测试公司不知情--Character.AI表示违反其服务条款，OpenAI已调查，Google称未批准。青少年使用AI聊天机器人引发的担忧持续，此前已有用户自杀事件。",
       "category": "industry",
       "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmr0uio0g003vslatqnaiw1pu",
+      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
+      "title_en": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "permalink": "https://aihot.virxact.com/items/cmr0uio0g003vslatqnaiw1pu",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "summary": "OpenAI Signals 数据显示，用户注册六个月后日均消息量增加50%，尝试任务种类翻倍。自2023年7月以来，各大洲活跃用户均大幅增长，非洲和亚洲增速最快，低人类发展指数国家增长尤为显著。用户群体更加多元化，女性名字用户已占全球多数，巴西、哥伦比亚、波兰和纳米比亚等国女性用户显著多于男性。非英语用户占活跃用户半数以上，领先语言为西班牙语、葡萄牙语和阿拉伯语；乌兹别克语、哈萨克语和缅甸语用户占比增长百分比最大。",
+      "category": "tip",
+      "score": 62,
       "selected": true
     },
     {
@@ -310,16 +440,16 @@
       "selected": true
     },
     {
-      "id": "cmqzq4so7002zslki45ad5xtq",
-      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-      "title_en": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
-      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "permalink": "https://aihot.virxact.com/items/cmqzq4so7002zslki45ad5xtq",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-29T21:22:33.048Z",
-      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
-      "category": "ai-products",
-      "score": 66,
+      "id": "cmr0wblyn0050sl40bngva2bq",
+      "title": "OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试",
+      "title_en": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "permalink": "https://aihot.virxact.com/items/cmr0wblyn0050sl40bngva2bq",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "summary": "OpenAI 发布 GeneBench-Pro，用于评估 AI 智能体在计算生物学中处理模糊性和做出判断性分析的能力。该基准包含 129 个问题，覆盖统计遗传学、群体遗传学等 10 个领域 21 个子领域。每个问题提供真实混乱的数据集和实验背景，要求模型探索数据、选择分析路径并迭代实验。采用合成数据构建，已知完整因果结构。82 个问题已由外部领域专家审核确认其现实性。",
+      "category": "paper",
+      "score": 70,
       "selected": true
     },
     {
@@ -346,19 +476,6 @@
       "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
       "category": "ai-products",
       "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqzjpce1006aslqvqo2kpjo6",
-      "title": "Claude 在 Microsoft Foundry 正式可用",
-      "title_en": "Claude in Microsoft Foundry is now generally available",
-      "url": "https://claude.com/blog/claude-in-microsoft-foundry",
-      "permalink": "https://aihot.virxact.com/items/cmqzjpce1006aslqvqo2kpjo6",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-29T18:22:20.720Z",
-      "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
-      "category": "ai-products",
-      "score": 64,
       "selected": true
     },
     {
