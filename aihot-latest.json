@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T00:07:55.253Z",
+  "generatedAt": "2026-06-30T05:06:51.207Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-30",
   "daily": {
@@ -193,16 +193,55 @@
   },
   "selectedItems": [
     {
-      "id": "cmqzvz1fm01ktslkiufrzy1jg",
-      "title": "Meta发布无创脑机接口Brain2Qwerty v2，字词准确率达61%",
-      "title_en": "Meta 发布 Brain2Qwerty v2 你帮你脑子里在想的什么，实时转换成文字 不需要任何植入，仅需佩戴 MEG（脑磁图）头盔就能把你大脑产生的磁信号实时解码成连贯句子，全程不需要任何手术…",
-      "url": "https://x.com/xiaohu/status/2071743157465993461",
-      "permalink": "https://aihot.virxact.com/items/cmqzvz1fm01ktslkiufrzy1jg",
+      "id": "cmr05b2wq0414slkivvyyjlbl",
+      "title": "AI就业争论变得更加混乱",
+      "title_en": "The AI jobs debate just got messier",
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+      "permalink": "https://aihot.virxact.com/items/cmr05b2wq0414slkivvyyjlbl",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-30T04:01:00.000Z",
+      "summary": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22，000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具--降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
+      "category": "tip",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmr03h5tq03jjslki3a281zet",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "title_en": "http：//x.com/i/article/2071795831028826112",
+      "url": "https://x.com/xiaohu/status/2071796715162857477",
+      "permalink": "https://aihot.virxact.com/items/cmr03h5tq03jjslki3a281zet",
       "source": "X：小互 (@xiaohu)",
-      "publishedAt": "2026-06-29T23:50:34.000Z",
-      "summary": "Meta 发布 Brain2Qwerty v2，无需手术植入，仅佩戴 MEG（脑磁图）头盔即可将大脑磁信号实时解码为连贯句子。字词准确率达 61%，约为其他无创脑机接口方法（8%）的 7.6 倍；最佳参与者达 78%，超半数句子只差一个词。Meta 称这是目前性能最高的非侵入式脑机接口系统。",
-      "category": "paper",
-      "score": 75,
+      "publishedAt": "2026-06-30T03:23:23.000Z",
+      "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows：review一次并发14个agent审查代码，/workflows：plan在ultrathink模式下可并发40多个研究agent。",
+      "category": "tip",
+      "score": 81,
+      "selected": true
+    },
+    {
+      "id": "cmr00f9t902pgslkiofzqdgx2",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "title_en": "给机器人打工了一天，我们体验上了AI时代最魔幻的工作。",
+      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "permalink": "https://aihot.virxact.com/items/cmr00f9t902pgslkiofzqdgx2",
+      "source": "公众号：数字生命卡兹克",
+      "publishedAt": "2026-06-30T01:58:00.000Z",
+      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
+      "category": "tip",
+      "score": 67,
+      "selected": true
+    },
+    {
+      "id": "cmqzzpqet02gpslki3d15k1l0",
+      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
+      "title_en": "大更新我的AI热点Skill，这次把国内外自媒体大神都包圆了",
+      "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
+      "permalink": "https://aihot.virxact.com/items/cmqzzpqet02gpslki3d15k1l0",
+      "source": "公众号：卡尔的AI沃茨",
+      "publishedAt": "2026-06-30T01:47:00.000Z",
+      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
+      "category": "ai-products",
+      "score": 70,
       "selected": true
     },
     {
@@ -437,19 +476,6 @@
       "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
       "category": "industry",
       "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqykzeht02shslivflwhgdbx",
-      "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
-      "title_en": "分享2个Vibe Coding必备的超实用Prompt。",
-      "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
-      "permalink": "https://aihot.virxact.com/items/cmqykzeht02shslivflwhgdbx",
-      "source": "公众号：数字生命卡兹克",
-      "publishedAt": "2026-06-29T02:08:00.000Z",
-      "summary": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Coding项目AIHOT最近一周请求量超千万次。",
-      "category": "tip",
-      "score": 70,
       "selected": true
     }
   ]
