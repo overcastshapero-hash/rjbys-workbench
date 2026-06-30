@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T20:11:24.563Z",
+  "generatedAt": "2026-06-30T22:17:14.307Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-30",
   "daily": {
@@ -476,32 +476,6 @@
       "summary": "OpenAI 发布 GeneBench-Pro，用于评估 AI 智能体在计算生物学中处理模糊性和做出判断性分析的能力。该基准包含 129 个问题，覆盖统计遗传学、群体遗传学等 10 个领域 21 个子领域。每个问题提供真实混乱的数据集和实验背景，要求模型探索数据、选择分析路径并迭代实验。采用合成数据构建，已知完整因果结构。82 个问题已由外部领域专家审核确认其现实性。",
       "category": "paper",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmqzpe7kz003xslznxpw78tx5",
-      "title": "Rubin Ultra取消，新版尺寸性能减半",
-      "title_en": "INTERESTING： Only 3 months after Rubin Ultra was announced at GTC 2026， the original 4-die Rubin Ult…",
-      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-      "permalink": "https://aihot.virxact.com/items/cmqzpe7kz003xslznxpw78tx5",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "publishedAt": "2026-06-29T21:00:47.000Z",
-      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
-      "category": "industry",
-      "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmqzo4q2o005oslkhjl7jdtoc",
-      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-      "title_en": "OpenClaw is now on iOS + Android 🦞 📱 Native mobile apps， finally 💬 Agents in your pocket 🔔 Chan…",
-      "url": "https://x.com/openclaw/status/2071688039114342592",
-      "permalink": "https://aihot.virxact.com/items/cmqzo4q2o005oslkhjl7jdtoc",
-      "source": "X：OpenClaw (@openclaw)",
-      "publishedAt": "2026-06-29T20:11:33.000Z",
-      "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
-      "category": "ai-products",
-      "score": 71,
       "selected": true
     }
   ]
