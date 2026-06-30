@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T17:59:16.639Z",
+  "generatedAt": "2026-06-30T20:11:24.563Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-06-30",
   "daily": {
@@ -192,6 +192,32 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmr12g90k00zlsldxyyr0fmt3",
+      "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+      "title_en": "There seems to be a *lot* of discourse about our new Short Video Overviews. Want to join in on the f…",
+      "url": "https://x.com/NotebookLM/status/2072043680442245276",
+      "permalink": "https://aihot.virxact.com/items/cmr12g90k00zlsldxyyr0fmt3",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "publishedAt": "2026-06-30T19:44:44.000Z",
+      "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。此前，这一功能已面向 Google AI Ultra 和 Pro 订阅者（移动端及 Web）推出，免费用户即将可用。",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true
+    },
+    {
+      "id": "cmr0yev3s005cslw8omm20ml6",
+      "title": "Claude Sonnet 5 发布",
+      "title_en": "Introducing Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "permalink": "https://aihot.virxact.com/items/cmr0yev3s005cslw8omm20ml6",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-06-30T18:02:06.984Z",
+      "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力弱于 Opus 4.8。即日起在所有套餐及 Claude Code、Claude API 中可用。",
+      "category": "ai-models",
+      "score": 81,
+      "selected": true
+    },
     {
       "id": "cmr0yab2e003oslw8uw5zghrc",
       "title": "Acti 将 AI 智能体直接放入手机键盘",
@@ -476,19 +502,6 @@
       "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
       "category": "ai-products",
       "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmqzk693n002zslksfkrr5w2w",
-      "title": "Qwen 3.6 27B 是本地开发的理想选择",
-      "title_en": null,
-      "url": "https://quesma.com/blog/qwen-36-is-awesome",
-      "permalink": "https://aihot.virxact.com/items/cmqzk693n002zslksfkrr5w2w",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-29T18:03:02.582Z",
-      "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
-      "category": "tip",
-      "score": 75,
       "selected": true
     }
   ]
