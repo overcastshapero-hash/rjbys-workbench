@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:00:21.203Z",
+  "generatedAt": "2026-07-01T20:47:55.799Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-01",
   "daily": {
@@ -364,6 +364,19 @@
       "selected": true
     },
     {
+      "id": "cmr2jc03c08kssl8zf2bmdjlj",
+      "title": "构建AI智能体应优先设计路由",
+      "title_en": "Most AI Work Can Wait",
+      "url": "https://www.tomtunguz.com/ai-execution-routing",
+      "permalink": "https://aihot.virxact.com/items/cmr2jc03c08kssl8zf2bmdjlj",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "summary": "构建AI智能体时，应优先设计路由（router）而非选择模型。路由决定每个请求由哪层模型处理。正确路由可使70-80%流量运行在免费本地模型或异步推理上，将AI开销降低90%+。Brian Armstrong指出Coinbase通过更好的默认设置、路由和缓存，在token使用量增长的同时将AI支出减半。路由分三层：技能分类器、路由器、模型选择器。本地计算近乎零成本，异步批量推理比实时推理便宜两个数量级。大多数工作无需秒级返回。同步预测器标记复杂任务，夜间批量评估器更新路由权重。技能蒸馏后，非编码类任务中70-80%智能体流量可由本地模型处理。",
+      "category": "tip",
+      "score": 60,
+      "selected": true
+    },
+    {
       "id": "cmr2a81sq066ssl8z8vo7so2x",
       "title": "xAI 发布 Voice Agent Builder 测试版",
       "title_en": "Introducing the Voice Agent Builder Jul 1， 2026 # Introducing the Voice Agent Builder Create a personalized voice agent in under 2 minutes without a single line of code. Read More",
@@ -400,19 +413,6 @@
       "summary": "AI Safety Memes 推文指出，AI 刚刚解决了 9 个未解决的数学问题，但全球没有记者报道。引用 @WeinsteinOmri 的推文称，采用\"prover-verifier\"LLM 循环的方法，成功解决了理论计算机科学中 9 个重大开放问题，其中包括一个困扰其长达 2 年的难题。该研究由哥伦比亚大学合作者完成，并计划将这一方法扩展到所有科学领域。",
       "category": "paper",
       "score": 76,
-      "selected": true
-    },
-    {
-      "id": "cmr12g90k00zlsldxyyr0fmt3",
-      "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
-      "title_en": "There seems to be a *lot* of discourse about our new Short Video Overviews. Want to join in on the f…",
-      "url": "https://x.com/NotebookLM/status/2072043680442245276",
-      "permalink": "https://aihot.virxact.com/items/cmr12g90k00zlsldxyyr0fmt3",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "publishedAt": "2026-06-30T19:44:44.000Z",
-      "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。此前，这一功能已面向 Google AI Ultra 和 Pro 订阅者（移动端及 Web）推出，免费用户即将可用。",
-      "category": "ai-products",
-      "score": 68,
       "selected": true
     }
   ]
