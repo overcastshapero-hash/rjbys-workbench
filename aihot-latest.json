@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T05:24:22.671Z",
+  "generatedAt": "2026-07-01T09:54:56.713Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-01",
   "daily": {
@@ -221,6 +221,32 @@
   },
   "selectedItems": [
     {
+      "id": "cmr1ti4v001xlsl8zovi1yoqa",
+      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+      "title_en": "NVIDIA Releases Nemotron-Labs-TwoTower： an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
+      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "permalink": "https://aihot.virxact.com/items/cmr1ti4v001xlsl8zovi1yoqa",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-01T08:10:17.000Z",
+      "summary": "NVIDIA 发布 Nemotron-Labs-TwoTower，基于冻结的自回归骨干 Nemotron-3-Nano-30B-A3B 的扩散语言模型。采用双塔架构：上下文塔冻结，降噪器塔训练，通过层对齐交叉注意力和状态播种协作。在 2×H100 上 BF16 评估，保留 98.7% 的 AR 基线质量，生成吞吐量提升 2.42 倍（γ=0.8，块大小 S=16）。降噪器在约 2.1T token 上训练，骨干使用 25T token 预训练。总参数约 60B，每 token 活跃参数约 3B/塔。支持扩散、模拟 AR 和 AR 三种解码模式。",
+      "category": "ai-models",
+      "score": 73,
+      "selected": true
+    },
+    {
+      "id": "cmr1qbf1w012isl8zibrcgm2h",
+      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/971/071.htm",
+      "permalink": "https://aihot.virxact.com/items/cmr1qbf1w012isl8zibrcgm2h",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-01T06:57:42.000Z",
+      "summary": "亚马逊 AWS 宣布设立新部门，组建前置驻场工程师团队，先期投入 10 亿美元（约 67.97 亿元人民币）。团队分批派驻客户企业，每批 5-6 组工程师，驻场周期 45 天，协助客户落地人工智能软件与智能体应用。该模式在 Palantir、Salesforce、Anthropic、谷歌云等企业已有先例，领英数据显示 2023 至 2025 年间同类岗位需求增长 42 倍。新部门员工规模将达数千人，首批客户包括 NBA 与理光。",
+      "category": "industry",
+      "score": 70,
+      "selected": true
+    },
+    {
       "id": "cmr1js18u03imslnld2yrjboo",
       "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
       "title_en": "美团 LongCat-2.0 正式发布：在国产算力集群上完成全流程训练与推理的万亿参数模型",
@@ -439,45 +465,6 @@
       "summary": "Meta通过承包商Covelen发起代号\"Cannes\"的项目，雇佣数百人假扮未成年人，向ChatGPT、Gemini和Character.AI发送关于自杀、自残、饮食障碍和毒品的敏感提示，并将回复录入表格。2025年8月一轮测试中发送了超过4.5万条提示。Meta称这是行业标准安全测试，未将数据用于训练自家模型。被测试公司不知情--Character.AI表示违反其服务条款，OpenAI已调查，Google称未批准。青少年使用AI聊天机器人引发的担忧持续，此前已有用户自杀事件。",
       "category": "industry",
       "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmr0uio0g003vslatqnaiw1pu",
-      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-      "title_en": "How ChatGPT adoption has expanded",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "permalink": "https://aihot.virxact.com/items/cmr0uio0g003vslatqnaiw1pu",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-30T09:00:00.000Z",
-      "summary": "OpenAI Signals 数据显示，用户注册六个月后日均消息量增加50%，尝试任务种类翻倍。自2023年7月以来，各大洲活跃用户均大幅增长，非洲和亚洲增速最快，低人类发展指数国家增长尤为显著。用户群体更加多元化，女性名字用户已占全球多数，巴西、哥伦比亚、波兰和纳米比亚等国女性用户显著多于男性。非英语用户占活跃用户半数以上，领先语言为西班牙语、葡萄牙语和阿拉伯语；乌兹别克语、哈萨克语和缅甸语用户占比增长百分比最大。",
-      "category": "tip",
-      "score": 62,
-      "selected": true
-    },
-    {
-      "id": "cmr0czddc00pyslole7byaugu",
-      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
-      "title_en": "另类资管巨头黑石未来 3~5 年将斥资 300 亿美元在日本建设 AI 数据中心",
-      "url": "https://www.ithome.com/0/970/583.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr0czddc00pyslole7byaugu",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-30T07:56:46.000Z",
-      "summary": "黑石计划未来3~5年在日本AI数据中心领域投资300亿美元，此前的500MW基础上新增超1GW容量。黑石总裁认为AI投资仍处早期，真正风险是算力短缺而非基建泡沫；谷歌、亚马逊是英伟达潜在挑战者。此外，黑石、阿波罗、博通本月9日成立AI XPV平台，目标2028年向OpenAI、Anthropic等提供超20GW算力，首期350亿美元支持Anthropic在Fluidstack数据中心部署1GW基础设施。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmr0au6v3005gslol3ritaun0",
-      "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
-      "title_en": "无方向盘、无踏板，特斯拉 Cybercab 量产版启动公开道路工程测试",
-      "url": "https://www.ithome.com/0/970/539.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr0au6v3005gslol3ritaun0",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-30T06:45:03.000Z",
-      "summary": "2026年6月30日，特斯拉在奥斯汀公共道路启动首批量产版Cybercab工程测试。车辆无方向盘与脚踏板，配有安全监督员，马斯克发布实拍视频。从2024年10月概念车首秀到实车上路约20个月。目前不对外开放乘客，投入34台Cybercab在市中心验证硬件可靠性。Cybercab为双座车型，完全围绕无人驾驶打造，无后期改装。此前奥斯汀已有无安全员Model Y无人驾驶出租于1月启用、6月22日开放付费服务。",
-      "category": "industry",
-      "score": 79,
       "selected": true
     }
   ]
