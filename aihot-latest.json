@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T09:54:56.713Z",
+  "generatedAt": "2026-07-01T12:36:28.189Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-01",
   "daily": {
@@ -220,6 +220,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmr1wzzsm02uosl8zop6s0sly",
+      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+      "title_en": "OpenAI paper reveals three GPT-5.6 Pro models， breaking with single top-tier strategy",
+      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+      "permalink": "https://aihot.virxact.com/items/cmr1wzzsm02uosl8zop6s0sly",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-01T10:03:41.000Z",
+      "summary": "OpenAI论文首次列出GPT-5.6的三个Pro变体：Luna Pro、Terra Pro和Sol Pro，取代以往单一Pro模式。在基因组学基准中，Sol Pro通过率31.5%居60个测试模型之首，领先标准Sol（28.7%）和Claude Opus 4.8（16.0%）。Pro相比标准版本提升逐级递减：Luna Pro提升7.1个百分点（16.5%→23.6%），Terra Pro提升5.2（23.3%→28.5%），Sol Pro仅提升2.8（28.7%→31.5%）。Terra Pro（28.5%）几乎与标准Sol（28.7%）持平。论文未披露Pro运行的token用量，也不清楚该分层是否会在ChatGPT中实际推出。",
+      "category": "industry",
+      "score": 70,
+      "selected": true
+    },
     {
       "id": "cmr1ti4v001xlsl8zovi1yoqa",
       "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
@@ -452,19 +465,6 @@
       "summary": "3Blue1Brown 创办人 Grant Sanderson 正在制作记录 AI 在数学领域进展的新项目。他在与 Dwarkesh Patel 的对谈中指出，AI 在 IMO 获金牌并不等于 AGI，只是又一个被攻克的基准。即使 AI 未来解决千禧年大奖难题，仍可能存在大量人类任务无法被自动化。对话还探讨了概念突破验证周期可长达一个世纪、Riemann 假设的 AI 证明能否被人类理解、AI 能否在已有文献间发现隐藏联系，以及现实经济任务难以套用强化学习环境等话题。",
       "category": "tip",
       "score": 61,
-      "selected": true
-    },
-    {
-      "id": "cmr0kov5302qnslolcwg00yqd",
-      "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
-      "title_en": "Meta secretly tested ChatGPT， Gemini， and Character.AI with thousands of minor-perspective crisis prompts",
-      "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-      "permalink": "https://aihot.virxact.com/items/cmr0kov5302qnslolcwg00yqd",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-30T11:14:52.000Z",
-      "summary": "Meta通过承包商Covelen发起代号\"Cannes\"的项目，雇佣数百人假扮未成年人，向ChatGPT、Gemini和Character.AI发送关于自杀、自残、饮食障碍和毒品的敏感提示，并将回复录入表格。2025年8月一轮测试中发送了超过4.5万条提示。Meta称这是行业标准安全测试，未将数据用于训练自家模型。被测试公司不知情--Character.AI表示违反其服务条款，OpenAI已调查，Google称未批准。青少年使用AI聊天机器人引发的担忧持续，此前已有用户自杀事件。",
-      "category": "industry",
-      "score": 70,
       "selected": true
     }
   ]
