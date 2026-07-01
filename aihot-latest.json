@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T00:09:18.522Z",
+  "generatedAt": "2026-07-01T05:24:22.671Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-01",
   "daily": {
@@ -221,6 +221,45 @@
   },
   "selectedItems": [
     {
+      "id": "cmr1js18u03imslnld2yrjboo",
+      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+      "title_en": "美团 LongCat-2.0 正式发布：在国产算力集群上完成全流程训练与推理的万亿参数模型",
+      "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
+      "permalink": "https://aihot.virxact.com/items/cmr1js18u03imslnld2yrjboo",
+      "source": "公众号：龙猫LongCat（美团）",
+      "publishedAt": "2026-07-01T02:24:00.000Z",
+      "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
+      "category": "ai-models",
+      "score": 82,
+      "selected": true
+    },
+    {
+      "id": "cmr1eiq770260slnlxguii7jy",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "title_en": "/writing-great-skills https：//github.com/mattpocock/skills/tree/main/skills/productivity/writing-gre…",
+      "url": "https://x.com/shao__meng/status/2072126769986220157",
+      "permalink": "https://aihot.virxact.com/items/cmr1eiq770260slnlxguii7jy",
+      "source": "X：邵猛 (@shao__meng)",
+      "publishedAt": "2026-07-01T01:14:54.000Z",
+      "summary": "mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。",
+      "category": "tip",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmr1bxokg01eoslnlem278yfq",
+      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+      "title_en": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
+      "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
+      "permalink": "https://aihot.virxact.com/items/cmr1bxokg01eoslnlem278yfq",
+      "source": "公众号：数字生命卡兹克",
+      "publishedAt": "2026-07-01T00:11:00.000Z",
+      "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
+      "category": "industry",
+      "score": 84,
+      "selected": true
+    },
+    {
       "id": "cmr1bb1gr01adslnlt43fwfff",
       "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
       "title_en": "苹果 CEO 库克与欧盟科技主管就 Siri AI 展开\"建设性\"会谈",
@@ -231,19 +270,6 @@
       "summary": "苹果CEO库克与欧盟科技事务负责人维尔库宁就新版Siri AI在欧推出举行建设性视频会议。新版Siri将转为可调用用户个人数据的聊天机器人，但因《数字市场法》互操作义务苹果拒绝向竞争对手开放同等数据权限，暂不在欧盟iPhone和iPad上推出。苹果提出\"可信系统代理\"方案，拟在设备与第三方AI模型间增加软件层，但未开发，并要求18个月监管宽限期，遭欧盟拒绝。欧盟收到数百封消费者邮件及死亡威胁。",
       "category": "industry",
       "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmr1bb1gr01aeslnle1gtmrmw",
-      "title": "Claude Sonnet 5 发布，系 Sonnet 系列最强智能体模型",
-      "title_en": "系列最强智能体 AI 模型：Claude Sonnet 5 登场，部分性能逼近 Opus 4.8",
-      "url": "https://www.ithome.com/0/970/809.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr1bb1gr01aeslnle1gtmrmw",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-30T23:41:05.000Z",
-      "summary": "Anthropic 推出 Claude Sonnet 5，称其为 Sonnet 系列中智能体能力最强的模型，能制定计划、调用浏览器和终端等工具并自主运行。已上线 Claude Code 和 Claude Platform，API 指定\"claude-sonnet-5\"。优惠期（至 2026 年 8 月 31 日）每百万 tokens 输入 2 美元、输出 10 美元；之后分别涨至 3 美元和 15 美元。性能在 BrowseComp、OSWorld-Verified 等评测中较 Sonnet 4.6 显著提升，部分接近 Opus 4.8。安全方面，整体不良行为发生率低于 Sonnet 4.6，在拒绝恶意请求、抵抗提示注入、幻觉率和迎合性上均有改善。",
-      "category": "ai-models",
-      "score": 71,
       "selected": true
     },
     {
@@ -452,84 +478,6 @@
       "summary": "2026年6月30日，特斯拉在奥斯汀公共道路启动首批量产版Cybercab工程测试。车辆无方向盘与脚踏板，配有安全监督员，马斯克发布实拍视频。从2024年10月概念车首秀到实车上路约20个月。目前不对外开放乘客，投入34台Cybercab在市中心验证硬件可靠性。Cybercab为双座车型，完全围绕无人驾驶打造，无后期改装。此前奥斯汀已有无安全员Model Y无人驾驶出租于1月启用、6月22日开放付费服务。",
       "category": "industry",
       "score": 79,
-      "selected": true
-    },
-    {
-      "id": "cmr08dev204qjslkit52gdrur",
-      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
-      "title_en": "The full model behind \"Owl Alpha\" on @OpenRouter is here🦉 Let's meet @Meituan_LongCat 's latest fla…",
-      "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
-      "permalink": "https://aihot.virxact.com/items/cmr08dev204qjslkit52gdrur",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-06-30T05:42:42.000Z",
-      "summary": "美团 LongCat 推出旗舰模型 LongCat-2.0，采用 1.6T 参数 MoE 架构（约 48B 活跃参数），原生支持 1M 上下文窗口。定价为 Input Cache $0.015/1M tokens、Input $0.75/1M tokens、Output $2.95/1M tokens。模型专为 Agentic Coding 设计，包含三大技术：LSA 稀疏注意力实现高效 1M 扩展；Zero-Compute Experts 动态激活 33B-56B 参数/token，无算力浪费；MOPD 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。在 SWE-bench Pro 上取得 59.5 分，性能接近主流闭源模型。现已上线 SiliconFlow Day 0 服务。",
-      "category": "ai-models",
-      "score": 67,
-      "selected": true
-    },
-    {
-      "id": "cmr07c62l04huslkimxy3vdw5",
-      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
-      "title_en": "Twitter 终于有 MCP 了，这个非常有用！ 如果你像我一样依赖 Twitter 信息的话，就可以让 AI 帮你自动整理、总结和对你的数据进行分析 不过依然需要你注册 Twitter 的 A…",
-      "url": "https://x.com/op7418/status/2071816099986022650",
-      "permalink": "https://aihot.virxact.com/items/cmr07c62l04huslkimxy3vdw5",
-      "source": "X：歸藏 (@op7418)",
-      "publishedAt": "2026-06-30T04:40:25.000Z",
-      "summary": "X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    {
-      "id": "cmr05b2wq0414slkivvyyjlbl",
-      "title": "AI就业争论变得更加混乱",
-      "title_en": "The AI jobs debate just got messier",
-      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
-      "permalink": "https://aihot.virxact.com/items/cmr05b2wq0414slkivvyyjlbl",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-06-30T04:01:00.000Z",
-      "summary": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22，000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具--降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
-      "category": "tip",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmr03h5tq03jjslki3a281zet",
-      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
-      "title_en": "http：//x.com/i/article/2071795831028826112",
-      "url": "https://x.com/xiaohu/status/2071796715162857477",
-      "permalink": "https://aihot.virxact.com/items/cmr03h5tq03jjslki3a281zet",
-      "source": "X：小互 (@xiaohu)",
-      "publishedAt": "2026-06-30T03:23:23.000Z",
-      "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows：review一次并发14个agent审查代码，/workflows：plan在ultrathink模式下可并发40多个研究agent。",
-      "category": "tip",
-      "score": 81,
-      "selected": true
-    },
-    {
-      "id": "cmr00f9t902pgslkiofzqdgx2",
-      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-      "title_en": "给机器人打工了一天，我们体验上了AI时代最魔幻的工作。",
-      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "permalink": "https://aihot.virxact.com/items/cmr00f9t902pgslkiofzqdgx2",
-      "source": "公众号：数字生命卡兹克",
-      "publishedAt": "2026-06-30T01:58:00.000Z",
-      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
-      "category": "tip",
-      "score": 67,
-      "selected": true
-    },
-    {
-      "id": "cmqzzpqet02gpslki3d15k1l0",
-      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
-      "title_en": "大更新我的AI热点Skill，这次把国内外自媒体大神都包圆了",
-      "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
-      "permalink": "https://aihot.virxact.com/items/cmqzzpqet02gpslki3d15k1l0",
-      "source": "公众号：卡尔的AI沃茨",
-      "publishedAt": "2026-06-30T01:47:00.000Z",
-      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
-      "category": "ai-products",
-      "score": 70,
       "selected": true
     }
   ]
