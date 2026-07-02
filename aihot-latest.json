@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T19:35:12.284Z",
+  "generatedAt": "2026-07-02T21:11:52.889Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-02",
   "daily": {
@@ -187,6 +187,45 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmr3zye9z00qfslw2sg1izmks",
+      "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
+      "title_en": "Meet Alibaba's Page Agent： A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM",
+      "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
+      "permalink": "https://aihot.virxact.com/items/cmr3zye9z00qfslw2sg1izmks",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-02T20:51:39.000Z",
+      "summary": "阿里巴巴发布 Page Agent，一个开源的 JavaScript 客户端库，嵌入网页后可通过自然语言指令直接操作 DOM 元素。与 Playwright、Puppeteer 等外部浏览器自动化工具不同，Page Agent 不依赖截图或多模态模型，而是将实时 DOM 脱水压缩为 FlatDomTree 文本映射，让纯文本模型精准执行点击、表单填写等操作。它继承用户 cookies 和会话，无需独立后端，并支持任意 OpenAI 兼容端点的模型（示例使用 `qwen3.5-plus`）。项目采用 MIT 许可证，适合在自有应用内构建 AI 副驾、智能表单填充或无障碍控制等场景，但限于单页面范围，风险操作仍需服务端验证。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmr3yrwnf00e1slw21f16oh2d",
+      "title": "关于Mythos和网络安全的讨论并非炒作",
+      "title_en": "The talk about Mythos and cybersecurity was not， in fact， hype. （As anyone using Fable to do autonom…",
+      "url": "https://x.com/emollick/status/2072778376494895139",
+      "permalink": "https://aihot.virxact.com/items/cmr3yrwnf00e1slw21f16oh2d",
+      "source": "X：Ethan Mollick (@emollick)",
+      "publishedAt": "2026-07-02T20:24:09.000Z",
+      "summary": "关于Mythos和网络安全的讨论并非炒作。\n（正如任何使用Fable进行自主工作的人可能已经认识到的那样。）",
+      "category": "paper",
+      "score": 77,
+      "selected": true
+    },
+    {
+      "id": "cmr3wzycy008tslnxrw3opnfn",
+      "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
+      "title_en": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6，000 AI engineers inside enterprise clients",
+      "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
+      "permalink": "https://aihot.virxact.com/items/cmr3wzycy008tslnxrw3opnfn",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-02T19:18:29.000Z",
+      "summary": "Microsoft 新设业务部门\"Frontier Company\"，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进 AI 系统\"。该部门由 Rodrigo Kede Lima 领导，旨在超越\"前部署工程\"模式，成为\"最大、以结果为导向的工程组织\"。Microsoft 将自己定位为 OpenAI 和 Anthropic 的\"平台中立\"替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
+      "category": "industry",
+      "score": 78,
+      "selected": true
+    },
     {
       "id": "cmr3uklx8008dslbrcmev44qb",
       "title": "Agent辅助的SGLang开发：初步探索",
@@ -458,19 +497,6 @@
       "summary": "在自我组织的多智能体LLM系统中，团队无法有效利用专家成员的专业知识。在多个基准测试中，即使明确告知专家身份，团队表现仍落后于最佳成员（专家智能体）的独立能力，性能损失最高达41.1%。失败主因是未能有效利用专家意见，而非识别专家。对话分析显示，团队倾向于\"整合性妥协\"--平均化专家与非专家观点，随团队规模增大而加剧，且与表现负相关。这种寻求共识的行为同时提升了对抗恶意智能体的鲁棒性，揭示了协同对齐与专业利用之间的根本性权衡。",
       "category": "paper",
       "score": 72,
-      "selected": true
-    },
-    {
-      "id": "cmr2jtg2z08nvsl8zt9pagjoe",
-      "title": "Claude Code v2.1.198 发布",
-      "title_en": "v2.1.198",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
-      "permalink": "https://aihot.virxact.com/items/cmr2jtg2z08nvsl8zt9pagjoe",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "publishedAt": "2026-07-01T20:45:36.000Z",
-      "summary": "Claude Code v2.1.198 更新。Claude in Chrome 现已全面可用。为 claude agents 新增后台智能体通知（agent_needs_input / agent_completed）。新增 /dataviz 技能，提供图表与仪表盘设计指导及配色验证器。Gateway 增加 AWS 上的 Claude Platform 作为上游提供商。后台智能体在 worktree 中完成代码后自动提交、推送并创建草稿 PR。内置 Explore 智能体现继承主会话模型（上限 opus）。修复网络短暂断开导致响应中断、后台任务卡在\"Running\"状态、智能体团队队友因 API 错误失败等问题。",
-      "category": "ai-products",
-      "score": 64,
       "selected": true
     }
   ]
