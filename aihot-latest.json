@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T15:18:45.647Z",
+  "generatedAt": "2026-07-02T17:51:52.950Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-02",
   "daily": {
@@ -188,6 +188,32 @@
   },
   "selectedItems": [
     {
+      "id": "cmr3pz3hx00w5sl7lk3qk71x5",
+      "title": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
+      "title_en": "Anthropic's Pentagon fight was less about access to Claude than control over how the military can us…",
+      "url": "https://x.com/kimmonismus/status/2072718147279335507",
+      "permalink": "https://aihot.virxact.com/items/cmr3pz3hx00w5sl7lk3qk71x5",
+      "source": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-07-02T16:24:50.000Z",
+      "summary": "WSJ法庭文件显示，Anthropic CEO Dario Amodei与五角大楼副部长Emil Michael数月邮件往来，核心分歧在于Claude的军事用途护栏。Anthropic要求禁止全自主武器及某些监控用途，五角大楼则希望Claude可用于所有合法国家安全场景。Michael称若分歧太大不愿\"强行推动\"。随后五角大楼将Anthropic列为供应链风险，阻止合作伙伴在国防部项目中使用其模型。法官暂停部分措施，政府正在上诉。Michael称原先采用Anthropic的操作中已有三分之二切换至其他AI工具。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
+    {
+      "id": "cmr3p5u0c00qwsl7lyxbee0nd",
+      "title": "快手可灵AI获初始投资者20.28亿美元注资，投后估值180亿美元",
+      "title_en": "快手：初始投资者同意向北京可灵注资 20.28 亿美元",
+      "url": "https://www.ithome.com/0/971/954.htm",
+      "permalink": "https://aihot.virxact.com/items/cmr3p5u0c00qwsl7lyxbee0nd",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-02T15:36:38.000Z",
+      "summary": "快手在港交所公告，21名初始投资者同意以138.24亿元人民币（20.28亿美元）现金注资北京可灵，后者将持有可灵AI相关资产。同日15名额外投资者追加出资52.235亿元人民币（7.6639亿美元），认购总上限为204.471亿元（30亿美元），对应北京可灵扩大后注册资本的16.67%。投后估值180亿美元。快手预计未来12个月内启动可灵AI赴港上市，募资用于扩充算力、建设数据中心及人才引进。",
+      "category": "industry",
+      "score": 71,
+      "selected": true
+    },
+    {
       "id": "cmr3n0nvi006usl7l9bxrmouw",
       "title": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
       "title_en": "企业 AI 成本失控，消息称花旗、Adobe 等纷纷限制员工使用大模型",
@@ -357,6 +383,45 @@
       "selected": true
     },
     {
+      "id": "cmr3rd0l901bwsl7ld54ejrgb",
+      "title": "RL微调VLM的鲁棒性与思维链一致性研究",
+      "title_en": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
+      "url": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
+      "permalink": "https://aihot.virxact.com/items/cmr3rd0l901bwsl7ld54ejrgb",
+      "source": "Apple Machine Learning Research（RSS）",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "summary": "强化学习（RL）微调被扩展至视觉语言模型（VLM）。研究发现，简单的文本扰动--误导性标题或错误思维链（CoT）--会显著降低模型鲁棒性和置信度，且开源模型衰退更明显。闭源模型呈现类似失败模式，但鲁棒性和推理一致性更强。进一步分析揭示准确性与忠实性的权衡：微调提升基准准确率，但同时侵蚀CoT的可靠性及对上下文变化的鲁棒性；对抗性增强可改善鲁棒性，却无法阻止忠实性漂移。引入忠实性感知奖励能恢复答案与推理的对齐，但与增强结合时训练易崩溃到捷径策略。这些发现强调需联合关注正确性、鲁棒性与视觉推理的忠实性。",
+      "category": "paper",
+      "score": 62,
+      "selected": true
+    },
+    {
+      "id": "cmr3rd0l901busl7l11krygj3",
+      "title": "VideoFlexTok：可变长度粗到细视频分词",
+      "title_en": "VideoFlexTok： Flexible-Length Coarse-to-Fine Video Tokenization",
+      "url": "https://machinelearning.apple.com/research/videoflextok",
+      "permalink": "https://aihot.virxact.com/items/cmr3rd0l901busl7l11krygj3",
+      "source": "Apple Machine Learning Research（RSS）",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "summary": "VideoFlexTok提出一种可变长度token序列的视频表示方法，采用粗到细结构--首个token捕捉语义和运动等抽象信息，后续token添加精细细节，生成流解码器支持任意token数量的视频重建。相比传统3D网格分词，该结构允许根据下游需求调整token数，在相同预算下编码更长视频。在类别和文本到视频生成任务中，VideoFlexTok以1.1B参数（5.2B的1/5）达到可比生成质量（gFVD和ViCLIP Score）。训练一个处理10秒81帧视频的文本到视频模型仅需672个token，比同等3D网格分词器少8倍。",
+      "category": "paper",
+      "score": 56,
+      "selected": true
+    },
+    {
+      "id": "cmr3rd0l901btsl7lars7am9q",
+      "title": "多智能体团队阻碍专家发挥",
+      "title_en": "Multi-Agent Teams Hold Experts Back",
+      "url": "https://machinelearning.apple.com/research/multi-agent-teams-experts",
+      "permalink": "https://aihot.virxact.com/items/cmr3rd0l901btsl7lars7am9q",
+      "source": "Apple Machine Learning Research（RSS）",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "summary": "在自我组织的多智能体LLM系统中，团队无法有效利用专家成员的专业知识。在多个基准测试中，即使明确告知专家身份，团队表现仍落后于最佳成员（专家智能体）的独立能力，性能损失最高达41.1%。失败主因是未能有效利用专家意见，而非识别专家。对话分析显示，团队倾向于\"整合性妥协\"--平均化专家与非专家观点，随团队规模增大而加剧，且与表现负相关。这种寻求共识的行为同时提升了对抗恶意智能体的鲁棒性，揭示了协同对齐与专业利用之间的根本性权衡。",
+      "category": "paper",
+      "score": 72,
+      "selected": true
+    },
+    {
       "id": "cmr2jtg2z08nvsl8zt9pagjoe",
       "title": "Claude Code v2.1.198 发布",
       "title_en": "v2.1.198",
@@ -367,45 +432,6 @@
       "summary": "Claude Code v2.1.198 更新。Claude in Chrome 现已全面可用。为 claude agents 新增后台智能体通知（agent_needs_input / agent_completed）。新增 /dataviz 技能，提供图表与仪表盘设计指导及配色验证器。Gateway 增加 AWS 上的 Claude Platform 作为上游提供商。后台智能体在 worktree 中完成代码后自动提交、推送并创建草稿 PR。内置 Explore 智能体现继承主会话模型（上限 opus）。修复网络短暂断开导致响应中断、后台任务卡在\"Running\"状态、智能体团队队友因 API 错误失败等问题。",
       "category": "ai-products",
       "score": 64,
-      "selected": true
-    },
-    {
-      "id": "cmr2cbj7s06qgsl8zt4giih2x",
-      "title": "Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
-      "title_en": "ML Development in VS Code with Google Cloud Power： Workbench Extension Now Available",
-      "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
-      "permalink": "https://aihot.virxact.com/items/cmr2cbj7s06qgsl8zt4giih2x",
-      "source": "Google Developers Blog（RSS）",
-      "publishedAt": "2026-07-01T17:17:56.374Z",
-      "summary": "Google Cloud Workbench Notebooks 扩展正式上线，开发者可在 VS Code 中直接连接可扩展的云端 Jupyter 环境，无需切换上下文即可利用高性能 Google Cloud 基础设施完成机器学习全流程。该扩展已完全开源，可在 GitHub 和 VS Code Marketplace 获取。",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true
-    },
-    {
-      "id": "cmr2d1lf706zpsl8zwbf3dmd9",
-      "title": "Meta 大规模 AI 存储蓝图",
-      "title_en": "Meta's AI Storage Blueprint at Scale",
-      "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale",
-      "permalink": "https://aihot.virxact.com/items/cmr2d1lf706zpsl8zwbf3dmd9",
-      "source": "Meta Engineering Blog（RSS）",
-      "publishedAt": "2026-07-01T16:00:36.000Z",
-      "summary": "Meta 运营数百 EB 级存储集群，基于 Tectonic 分层存储层构建 BLOB 存储架构，以应对两大挑战：最大化 GPU 利用率与研究迭代速度。传统 BLOB 架构的多层元数据查询可导致数百毫秒延迟，使 GPU 因 I/O 等待停顿。新架构将训练栈逐步迁移到 BLOB 存储接口上，利用闪存提供可预测的低 pMax 延迟，避免单 GPU 慢速拖慢整批任务。同时，统一的数据湖访问支持地理分布 GPU 间的数据高速注入与跨区移动，提升研究效率。",
-      "category": "tip",
-      "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmr29qmtz064gsl8zqzza1stv",
-      "title": "智谱推出GLM-5.2官方开发环境ZCode",
-      "title_en": "Introducing ZCode， the official development environment for GLM-5.2 - GLM Coding Plan subscribers： …",
-      "url": "https://x.com/Zai_org/status/2072349453361557898",
-      "permalink": "https://aihot.virxact.com/items/cmr29qmtz064gsl8zqzza1stv",
-      "source": "X：智谱 Z.ai (@Zai_org)",
-      "publishedAt": "2026-07-01T15:59:46.000Z",
-      "summary": "推出 ZCode，GLM-5.2 的官方开发环境\n\n- GLM Coding Plan 订阅用户：现可在 ZCode 获得 1.5 倍使用配额\n- 支持 BYOK：可与您现有的订阅和 API 配合使用\n- 适用于 macOS、Windows 和 Linux\n\n立即下载：http://zcode.z.ai/en",
-      "category": "ai-products",
-      "score": 67,
       "selected": true
     }
   ]
