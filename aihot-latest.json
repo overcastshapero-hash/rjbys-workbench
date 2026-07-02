@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T05:00:13.652Z",
+  "generatedAt": "2026-07-02T09:17:55.159Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-02",
   "daily": {
@@ -188,6 +188,32 @@
   },
   "selectedItems": [
     {
+      "id": "cmr397vx001s3sly0t7mkh3fh",
+      "title": "Kimi K2.7 Code 已在 GitHub Copilot 上正式发布",
+      "title_en": null,
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "permalink": "https://aihot.virxact.com/items/cmr397vx001s3sly0t7mkh3fh",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-02T08:24:53.347Z",
+      "summary": "Kimi K2.7 Code 开源权重模型已在 GitHub Copilot 中正式可用，成为 Copilot 模型选择器首个可选的开源权重模型，为编程工作流提供更低成本选择。该模型由 GitHub 托管于 Microsoft Azure，按供应商列表价格以用量计费。逐步向 Copilot Pro、Pro+ 和 Max 计划用户推送，用户可在 Visual Studio Code 1.127.0 或更新版本、Visual Studio 17.14.6 或更新版本、JetBrains 1.9.1-251 或更新版本、Xcode、Eclipse 等 IDE 及 Copilot CLI、GitHub.com、GitHub Mobile 等平台中选用。后续几周将扩展至 Copilot Business 和 Enterprise，当前默认关闭，需管理员在 Copilot 设置中启用策略。",
+      "category": "ai-products",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmr37v68e01d8sly0hdur3j7r",
+      "title": "OpenAI提议美国政府持股5%估值426亿美元",
+      "title_en": "OPENAI 🔥： US government may get a 5% stake in OpenAI worth $42.6 billion， according to Financial Ti…",
+      "url": "https://x.com/testingcatalog/status/2072585845542969583",
+      "permalink": "https://aihot.virxact.com/items/cmr37v68e01d8sly0hdur3j7r",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "publishedAt": "2026-07-02T07:39:07.000Z",
+      "summary": "据Financial Times和CNBC报道，OpenAI提议向美国政府提供公司5%的股份，按近期8520亿美元估值计算，价值约426亿美元。OpenAI CEO Sam Altman表示，此举是与公众分享AI发展红利的最佳方式。",
+      "category": "industry",
+      "score": 75,
+      "selected": true
+    },
+    {
       "id": "cmr2x3a7n0c0tsl8zxytx1kfx",
       "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
       "title_en": "天工 3.2 重磅升级：Skywork Tags 上线，给 Agent 一张工牌，邀其加入你的工作群聊",
@@ -273,7 +299,7 @@
       "permalink": "https://aihot.virxact.com/items/cmr29qmtz064gsl8zqzza1stv",
       "source": "X：智谱 Z.ai (@Zai_org)",
       "publishedAt": "2026-07-01T15:59:46.000Z",
-      "summary": "推出 ZCode，GLM-5.2 的官方开发环境\n\n- GLM Coding Plan 订阅用户：现可在 ZCode 获得 1.5 倍使用配额\n- 支持 BYOK：可与您现有的订阅和 API 配合使用\n- 适用于 macOS、Windows 和 Linux\n\n立即下载：http：//zcode.z.ai/en",
+      "summary": "推出 ZCode，GLM-5.2 的官方开发环境\n\n- GLM Coding Plan 订阅用户：现可在 ZCode 获得 1.5 倍使用配额\n- 支持 BYOK：可与您现有的订阅和 API 配合使用\n- 适用于 macOS、Windows 和 Linux\n\n立即下载：http://zcode.z.ai/en",
       "category": "ai-products",
       "score": 67,
       "selected": true
@@ -313,32 +339,6 @@
       "source": "The Decoder：AI News（RSS）",
       "publishedAt": "2026-07-01T10:03:41.000Z",
       "summary": "OpenAI论文首次列出GPT-5.6的三个Pro变体：Luna Pro、Terra Pro和Sol Pro，取代以往单一Pro模式。在基因组学基准中，Sol Pro通过率31.5%居60个测试模型之首，领先标准Sol（28.7%）和Claude Opus 4.8（16.0%）。Pro相比标准版本提升逐级递减：Luna Pro提升7.1个百分点（16.5%→23.6%），Terra Pro提升5.2（23.3%→28.5%），Sol Pro仅提升2.8（28.7%→31.5%）。Terra Pro（28.5%）几乎与标准Sol（28.7%）持平。论文未披露Pro运行的token用量，也不清楚该分层是否会在ChatGPT中实际推出。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    {
-      "id": "cmr1ti4v001xlsl8zovi1yoqa",
-      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-      "title_en": "NVIDIA Releases Nemotron-Labs-TwoTower： an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
-      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-      "permalink": "https://aihot.virxact.com/items/cmr1ti4v001xlsl8zovi1yoqa",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-07-01T08:10:17.000Z",
-      "summary": "NVIDIA 发布 Nemotron-Labs-TwoTower，基于冻结的自回归骨干 Nemotron-3-Nano-30B-A3B 的扩散语言模型。采用双塔架构：上下文塔冻结，降噪器塔训练，通过层对齐交叉注意力和状态播种协作。在 2×H100 上 BF16 评估，保留 98.7% 的 AR 基线质量，生成吞吐量提升 2.42 倍（γ=0.8，块大小 S=16）。降噪器在约 2.1T token 上训练，骨干使用 25T token 预训练。总参数约 60B，每 token 活跃参数约 3B/塔。支持扩散、模拟 AR 和 AR 三种解码模式。",
-      "category": "ai-models",
-      "score": 73,
-      "selected": true
-    },
-    {
-      "id": "cmr1qbf1w012isl8zibrcgm2h",
-      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/971/071.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr1qbf1w012isl8zibrcgm2h",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-01T06:57:42.000Z",
-      "summary": "亚马逊 AWS 宣布设立新部门，组建前置驻场工程师团队，先期投入 10 亿美元（约 67.97 亿元人民币）。团队分批派驻客户企业，每批 5-6 组工程师，驻场周期 45 天，协助客户落地人工智能软件与智能体应用。该模式在 Palantir、Salesforce、Anthropic、谷歌云等企业已有先例，领英数据显示 2023 至 2025 年间同类岗位需求增长 42 倍。新部门员工规模将达数千人，首批客户包括 NBA 与理光。",
       "category": "industry",
       "score": 70,
       "selected": true
