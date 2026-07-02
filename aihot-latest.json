@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T09:17:55.159Z",
+  "generatedAt": "2026-07-02T12:10:09.312Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-02",
   "daily": {
@@ -188,6 +188,84 @@
   },
   "selectedItems": [
     {
+      "id": "cmr3fluhr00i3sllxli2a5uko",
+      "title": "browser-use 发布开源 AI 视频剪辑 Skill「video-use」",
+      "title_en": "AI 视频剪辑 Skill 分享「video-use」 https://github.com/browser-use/video-use @browser_use 团队推出的开源 Skill，定位为…",
+      "url": "https://x.com/shao__meng/status/2072644710523691110",
+      "permalink": "https://aihot.virxact.com/items/cmr3fluhr00i3sllxli2a5uko",
+      "source": "X：邵猛 (@shao__meng)",
+      "publishedAt": "2026-07-02T11:33:01.000Z",
+      "summary": "browser-use 团队推出面向 Codex、Claude Code 等 AI 编码智能体的开源 Skill「video-use」，让 LLM 通过 ElevenLabs Scribe 将音频转写为约 12KB 文本（含逐词时间戳、说话人分离、事件标记），仅在决策点调用 timeline_view.py 生成 PNG 帧图。技术流水线包括转写、打包、生成 JSON 格式 EDL、ffmpeg 渲染及最多 3 轮自评估。渲染关键细节：分段提取 + `-c copy` 拼接、30ms 音频淡入淡出、PTS 时移、字幕最后叠加、HDR 自动映射、竖屏缩放、两-pass loudnorm。动画支持 HyperFrames、Remotion、Manim 等引擎。项目附带 12 条硬规则确保生产正确性。",
+      "category": "tip",
+      "score": 79,
+      "selected": true
+    },
+    {
+      "id": "cmr3fmggw00ihsllxizuvjt33",
+      "title": "谷歌AI建设导致2025年用电量增长37%",
+      "title_en": "Google's AI buildout drove 37% increase in electricity use in 2025",
+      "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
+      "permalink": "https://aihot.virxact.com/items/cmr3fmggw00ihsllxizuvjt33",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-07-02T11:15:49.000Z",
+      "summary": "2025年，谷歌年度用电量同比上涨37%，创历史最大增幅。数据中心全年消耗超4200万兆瓦时，超过新西兰、丹麦、尼日利亚等国总用电量。自2019年以来，谷歌总用电量已增长超250%。用电激增主要来自Google Cloud、YouTube视频流及支撑AI产品和服务的数据中心建设与运营。公司表示，AI基础设施建设速度超过电网脱碳速度，但仍致力于扩大全球清洁电力规模，并通过技术创新降低运营排放。2024年谷歌用电量增幅为27%。",
+      "category": "industry",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmr3epwmy008bsllx0y68akps",
+      "title": "Senior SWE-Bench：评估AI智能体作为高级工程师的基准测试",
+      "title_en": "Senior SWE-Bench：一款用于评估代理作为高级工程师表现的开源基准测试工具",
+      "url": "https://senior-swe-bench.snorkel.ai/",
+      "permalink": "https://aihot.virxact.com/items/cmr3epwmy008bsllx0y68akps",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-02T11:04:07.048Z",
+      "summary": "Senior SWE-Bench是一个开源基准测试，用于评估AI智能体完成高级软件工程师级别任务的能力。任务分功能开发与Bug修复两类：功能任务指令类似自然语言消息，采用验证智能体基于专家配方自动生成行为测试；Bug任务要求根据日志、profiling等运行时信息深入调查。排行榜显示，Claude Opus 4.8搭配Mini-SWE-Agent（max effort）通过率24.0%，Claude Sonnet 5为19.4%，GPT-5.5为16.0%，最强前沿模型在超75%任务中未能达到高级工程师级别的正确性与品味。每个功能任务平均涉及11个文件，最强智能体也需数百步完成；中位指令长度仅为SWE-Bench Pro的31%。任务来源于从库到多服务应用的仓库PR，由拥有数百次提交的工程师编写。",
+      "category": "ai-products",
+      "score": 71,
+      "selected": true
+    },
+    {
+      "id": "cmr3d6uwj0074slq52bmqn20v",
+      "title": "千问团队朱达：C端Agent Harness的\"多快好省\"工程哲学与主动服务探索",
+      "title_en": "阿里巴巴朱达-千问C端 Agent Harness 思考与实践",
+      "url": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
+      "permalink": "https://aihot.virxact.com/items/cmr3d6uwj0074slq52bmqn20v",
+      "source": "公众号：千问APP（阿里）",
+      "publishedAt": "2026-07-02T10:22:07.000Z",
+      "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结\"多快好省\"方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出\"情商\"是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调\"低功耗，够用就行\"。",
+      "category": "tip",
+      "score": 62,
+      "selected": true
+    },
+    {
+      "id": "cmr3cab57000jslq5wpb1ukxr",
+      "title": "证监会同意宇树科技科创板 IPO 注册申请",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/971/790.htm",
+      "permalink": "https://aihot.virxact.com/items/cmr3cab57000jslq5wpb1ukxr",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-02T09:10:36.000Z",
+      "summary": "7月2日，证监会同意宇树科技股份有限公司首次公开发行股票并在科创板上市的注册申请。宇树科技是国内头部民用足式、人形机器人研发企业，全球四足机器人销量领先，2016年由王兴兴在杭州创立，截至2025年6月员工总数超1000人。公司核心优势在于实现关节电机、减速器、控制器等核心零部件全栈自研，关键部件成本仅为进口产品的约1/3。批复自同意注册之日起12个月内有效。",
+      "category": "industry",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmr3a67dj01zusly043ms4axe",
+      "title": "Google Health API 推出 CLI：ghealth 是一款针对 Fitbit 数据的开源工具",
+      "title_en": "The Google Health API Got a CLI： ghealth is an Open-Source Tool for Your Fitbit Air Data",
+      "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
+      "permalink": "https://aihot.virxact.com/items/cmr3a67dj01zusly043ms4axe",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-02T08:46:56.000Z",
+      "summary": "ghealth 是一款封装 Google Health API v4 的开源命令行工具，以单个 Go 二进制文件发布（Apache 2.0 协议）。它提供 40 种已验证的数据类型（包括步数、心率、睡眠、体重、血氧饱和度、心率变异性等）的结构化 JSON 输出。工具采用 Agent 优先设计，具备确定性退出码、--dry-run 和 --raw 标志，并附带两个 SKILL.md 文件供 AI 智能体使用。用户需自行创建 OAuth 凭据，通过 PKCE S256 认证。数据来源覆盖 Fitbit、Pixel Watch 及连接的第三方设备。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true
+    },
+    {
       "id": "cmr397vx001s3sly0t7mkh3fh",
       "title": "Kimi K2.7 Code 已在 GitHub Copilot 上正式发布",
       "title_en": null,
@@ -328,19 +406,6 @@
       "summary": "Cloudflare 为所有网站所有者提供更精细的AI流量管控选项，取代一刀切的屏蔽方式。用户可轻松区分并管理搜索爬虫、AI智能体爬虫和训练爬虫，同时新增保护广告变现页面的能力。",
       "category": "ai-products",
       "score": 58,
-      "selected": true
-    },
-    {
-      "id": "cmr1wzzsm02uosl8zop6s0sly",
-      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
-      "title_en": "OpenAI paper reveals three GPT-5.6 Pro models， breaking with single top-tier strategy",
-      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-      "permalink": "https://aihot.virxact.com/items/cmr1wzzsm02uosl8zop6s0sly",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-01T10:03:41.000Z",
-      "summary": "OpenAI论文首次列出GPT-5.6的三个Pro变体：Luna Pro、Terra Pro和Sol Pro，取代以往单一Pro模式。在基因组学基准中，Sol Pro通过率31.5%居60个测试模型之首，领先标准Sol（28.7%）和Claude Opus 4.8（16.0%）。Pro相比标准版本提升逐级递减：Luna Pro提升7.1个百分点（16.5%→23.6%），Terra Pro提升5.2（23.3%→28.5%），Sol Pro仅提升2.8（28.7%→31.5%）。Terra Pro（28.5%）几乎与标准Sol（28.7%）持平。论文未披露Pro运行的token用量，也不清楚该分层是否会在ChatGPT中实际推出。",
-      "category": "industry",
-      "score": 70,
       "selected": true
     }
   ]
