@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T12:57:34.324Z",
+  "generatedAt": "2026-07-03T15:17:42.468Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-03",
   "daily": {
@@ -459,19 +459,6 @@
       "summary": "快手在港交所公告，21名初始投资者同意以138.24亿元人民币（20.28亿美元）现金注资北京可灵，后者将持有可灵AI相关资产。同日15名额外投资者追加出资52.235亿元人民币（7.6639亿美元），认购总上限为204.471亿元（30亿美元），对应北京可灵扩大后注册资本的16.67%。投后估值180亿美元。快手预计未来12个月内启动可灵AI赴港上市，募资用于扩充算力、建设数据中心及人才引进。",
       "category": "industry",
       "score": 71,
-      "selected": true
-    },
-    {
-      "id": "cmr3n0nvi006usl7l9bxrmouw",
-      "title": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
-      "title_en": "企业 AI 成本失控，消息称花旗、Adobe 等纷纷限制员工使用大模型",
-      "url": "https://www.ithome.com/0/971/937.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr3n0nvi006usl7l9bxrmouw",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-02T14:22:49.000Z",
-      "summary": "据404 Media获取的内部资料，Atlassian、Adobe、亚马逊等六家企业正限制员工使用AI工具，要求改用能力较低的大模型避免成本失控。至少一家企业月度AI开销增至三倍，超1500万美元。花旗银行因GitHub改为按量计费，于6月24日禁用Claude Opus 4.6、4.7及GPT-5.5等旗舰模型。Adobe于6月30日终止Claude无限制使用协议。Atlassian数据显示其AI月支出从500万美元飙升至1500万美元，本财年预计超1.2亿美元。GitHub计划改用开源模型并测试单人按量计费模式。",
-      "category": "industry",
-      "score": 74,
       "selected": true
     }
   ]
