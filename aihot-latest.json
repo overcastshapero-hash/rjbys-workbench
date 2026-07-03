@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T03:35:40.020Z",
+  "generatedAt": "2026-07-03T07:24:25.322Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-03",
   "daily": {
@@ -201,6 +201,45 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmr4kiyka02nhsll5t8kmi285",
+      "title": "《Fable》通关指南：短绳AI编程法",
+      "title_en": null,
+      "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
+      "permalink": "https://aihot.virxact.com/items/cmr4kiyka02nhsll5t8kmi285",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-03T06:16:11.377Z",
+      "summary": "专业开发者经过一年多研究，总结出使用AI编码代理的\"短绳方法\"。该方法要求开发者全程参与：先规划并分解任务，从不使用YOLO模式，每次变更前审查差异并拒绝不想要的更改，每个子任务后提交以防止AI误操作（如Opus曾出现破坏性行为）。最终需进行人工与AI双重PR审查，PR须注明使用模型，提交者须亲自审查自己PR的代码。即便不用前沿模型，此法也能产出超越Fable 5的代码质量。",
+      "category": "tip",
+      "score": 70,
+      "selected": true
+    },
+    {
+      "id": "cmr4hb6x001txsll5jfiiy9u3",
+      "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
+      "title_en": "Claude-real-video - 任何大型语言模型（LLM）都能观看视频",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "permalink": "https://aihot.virxact.com/items/cmr4hb6x001txsll5jfiiy9u3",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-03T04:56:06.814Z",
+      "summary": "claude-real-video 是一个开源工具，让大语言模型基于视频画面而非字幕进行理解。它通过场景变化检测提取关键帧、滑动窗口去重并转录音频，生成干净的本地文件夹供模型读取。支持 YouTube 链接或本地文件，依赖 ffmpeg 和 Whisper，通过 pip 安装。全部处理在本地完成，不上传云端。",
+      "category": "tip",
+      "score": 81,
+      "selected": true
+    },
+    {
+      "id": "cmr4ewvnu016msll54kwma7sx",
+      "title": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
+      "title_en": "阿里达摩院：AI 智能体发现 4 种全新超导材料，已获实验验证",
+      "url": "https://www.ithome.com/0/972/089.htm",
+      "permalink": "https://aihot.virxact.com/items/cmr4ewvnu016msll54kwma7sx",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-03T03:27:15.000Z",
+      "summary": "7月3日，阿里达摩院联合中国人民大学、中国科学院大学发布首个超导材料发现AI智能体Elements Claw。该智能体采用\"专通融合\"架构，基于1.25亿分子/晶体结构预训练的1B参数原子基础模型Elements，判断超导性AUC达0.996，预测临界温度平均误差小于1K。AI仅用28个GPU小时筛选240万晶体结构，预测出6.8万个候选材料，其中4种（Hf21Re25、Zr4VRe7、HfZrRe4、Zr3ScRe8）已合成并验证超导性，临界温度最高6.5K。全部240万稳定晶体数据库已开放。",
+      "category": "paper",
+      "score": 80,
+      "selected": true
+    },
     {
       "id": "cmr4768yq013qsl3g29wasjnp",
       "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
