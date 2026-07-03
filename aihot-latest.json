@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T17:35:49.016Z",
+  "generatedAt": "2026-07-03T19:27:25.843Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-03",
   "daily": {
@@ -201,6 +201,19 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmr5blxyu00ykslc7kiaaxqam",
+      "title": "Fable 的判断力：Simon Willison 从 Claude Code 团队获得的效率技巧",
+      "title_en": "Fable's judgement",
+      "url": "https://simonwillison.net/2026/Jul/3/judgement",
+      "permalink": "https://aihot.virxact.com/items/cmr5blxyu00ykslc7kiaaxqam",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-07-03T18:51:06.000Z",
+      "summary": "Simon Willison 在 AIE 上与 Claude Code 团队交流后建议，让 Fable（以及 Opus）用自己的判断力工作，而非硬性规定行为。例如，直接让 Fable 自行决定何时编写测试，比给出具体规则更好。为应对价格即将上涨、节省 Fable token，Jesse Vincent 的另一个技巧是告诉 Fable 将较小任务委托给较低功耗模型（Sonnet 用于实质性实现、Haiku 用于机械修改），主循环保留判断、审计和数据合成等任务。Willison 已将提示词存入 Claude Code 记忆文件，实际效果良好，Fable token 消耗速度明显下降。",
+      "category": "tip",
+      "score": 73,
+      "selected": true
+    },
     {
       "id": "cmr4wyzef05r3sll5oxo52f8j",
       "title": "藏师傅PPT与Pencil结合使用技巧",
@@ -407,32 +420,6 @@
       "summary": "关于Mythos和网络安全的讨论并非炒作。\n（正如任何使用Fable进行自主工作的人可能已经认识到的那样。）",
       "category": "paper",
       "score": 77,
-      "selected": true
-    },
-    {
-      "id": "cmr3wzycy008tslnxrw3opnfn",
-      "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
-      "title_en": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6，000 AI engineers inside enterprise clients",
-      "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
-      "permalink": "https://aihot.virxact.com/items/cmr3wzycy008tslnxrw3opnfn",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-02T19:18:29.000Z",
-      "summary": "Microsoft 新设业务部门\"Frontier Company\"，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进 AI 系统\"。该部门由 Rodrigo Kede Lima 领导，旨在超越\"前部署工程\"模式，成为\"最大、以结果为导向的工程组织\"。Microsoft 将自己定位为 OpenAI 和 Anthropic 的\"平台中立\"替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
-      "category": "industry",
-      "score": 78,
-      "selected": true
-    },
-    {
-      "id": "cmr3tdz1t01t0sl7lztwzlcaj",
-      "title": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
-      "title_en": "Rube Goldberg machine built with Fable 5， for $4.44 👀 Prompt available here： https://www.reddit.co...",
-      "url": "https://x.com/OpenRouter/status/2072738704922439689",
-      "permalink": "https://aihot.virxact.com/items/cmr3tdz1t01t0sl7lztwzlcaj",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-07-02T17:46:31.000Z",
-      "summary": "用 Fable 5 构建的鲁布·戈德堡机械，仅需 4.44 美元 👀\n提示词在此：https://www.reddit.com/r/openrouter/comments/1ulkilz/i_asked_claude_fable_5_to_build_a_rube_goldberg/",
-      "category": "tip",
-      "score": 68,
       "selected": true
     }
   ]
