@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T19:19:06.102Z",
+  "generatedAt": "2026-07-04T21:01:08.136Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-04",
   "daily": {
@@ -180,19 +180,6 @@
       "summary": "北京大学集成电路学院联合中科院上海微系统所，发布全球首款基于可控存内计算的忆阻器神经动力学芯片，首次将单步运算时延压缩至2.12毫秒。芯片采用40纳米工艺，存内计算阵列与外围电路总面积0.28平方毫米，运行频率50 MHz，单步积分仅需9级流水。在脑皮层重建等任务中较当前GPU提速50至478倍，突破神经动力学实时计算瓶颈。相关成果7月3日发表于《科学》。",
       "category": "paper",
       "score": 74,
-      "selected": true
-    },
-    {
-      "id": "cmr5cef1q017islc779xjrcy6",
-      "title": "pxpipe：通过图像化压缩输入token降低Claude Code成本",
-      "title_en": "通过将代码转换为图像并由模型进行OCR识别，将《Fable》的开发成本降低了60%",
-      "url": "https://github.com/teamchong/pxpipe",
-      "permalink": "https://aihot.virxact.com/items/cmr5cef1q017islc779xjrcy6",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-03T19:19:45.726Z",
-      "summary": "pxpipe是一个本地代理，将系统提示、工具文档和历史记录等密集文本渲染为PNG图像，利用图像token成本取决于像素尺寸的特性压缩输入token。在Fable 5模型上，约25k文本token压缩为约2.7k图像token，端到端账单降低59-70%。SWE-bench Lite 10个实例全部通过，成本从$54降至$27；SWE-bench Pro 19对测试中18对判定一致，单次请求成本降低约60%。该方法有损（精确ID等需保持文本），默认仅处理`claude-fable-5`请求，可通过`PXPIPE_MODELS`变量控制。",
-      "category": "tip",
-      "score": 83,
       "selected": true
     }
   ]
