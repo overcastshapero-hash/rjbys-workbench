@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T08:09:22.371Z",
+  "generatedAt": "2026-07-05T11:06:29.520Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-05",
   "daily": {
@@ -45,17 +45,21 @@
   },
   "selectedItems": [
     {
-      "id": "cmr65ieko002tslf0xiomac0c",
-      "title": "26000名学生研究显示AI隐藏学习成本需两年才显现",
-      "title_en": "A 26，000-student study shows AI's hidden learning cost takes two full years to surface",
-      "url": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface",
-      "permalink": "https://aihot.virxact.com/items/cmr65ieko002tslf0xiomac0c",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-04T09:08:41.000Z",
-      "summary": "一项追踪26000名7-12年级中学生30个月的面板数据研究发现：使用AI后作业分数提升18%，完成时间从64分钟降至45分钟，但闭卷考试分数下降20%，升学考试成绩下降18%至24%，且完全影响约两年才显现。81%长期用户作业完成时间低于50分钟（外包迹象）。社会学科下降27%，STEM下降22%，英语下降17%，语文下降9%。每周使用AI一小时损失约5%，五小时损失30%。早期损失从约25%降至16%但未消失。",
+      "id": "cmr7ita5g00reslxdrprk52b0",
+      "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
+      "title_en": "LlamaIndex 'legal-kb'： Agentic Retrieval over Index v2 with retrieve， find， read， and grep Tools",
+      "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
+      "permalink": "https://aihot.virxact.com/items/cmr7ita5g00reslxdrprk52b0",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-05T07:50:19.000Z",
+      "summary": "LlamaIndex 发布 legal-kb，一个基于 Index v2（LlamaParse Platform）的法律文档知识库参考应用。采用 Retrieval Harness 模式，赋予 Agent 四个文件系统风格工具：retrieve（混合语义检索，支持 rerank 和引用）、findFiles（精确/模糊文件名搜索）、readFile（带偏移量的原始内容读取）和 grepFile（正则匹配并返回字符位置）。Agent 需先调用 findFiles 确定文件清单，再依次使用其他工具定位内容。底层基于 Vercel AI SDK 6 的 ToolLoopAgent，可选用 OpenAI 或 Anthropic 模型，支持用户自带 API key。项目以 TanStack Start web app 形式运行，上传文件自动解析索引，同一文件名重复上传可产生版本，检索时通过版本元数据字段过滤。",
       "category": "tip",
-      "score": 73,
-      "selected": true
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmr7ita5g00reslxdrprk52b0"
+      }
     }
   ]
 }
