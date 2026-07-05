@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T15:15:48.081Z",
+  "generatedAt": "2026-07-05T17:15:45.280Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-05",
   "daily": {
@@ -60,6 +60,40 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmr815l2z00pgsl04wayrv4tr",
+      "title": "欧盟理事会通过快速通道强制推行\"聊天管控\"（Chat Control 2.0）",
+      "title_en": "欧盟理事会通过快速通道强制推行\"聊天管控\"",
+      "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
+      "permalink": "https://aihot.virxact.com/items/cmr815l2z00pgsl04wayrv4tr",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-05T16:23:44.440Z",
+      "summary": "欧盟理事会通过书面程序快速通过一项新法规，强制要求科技集团对加密通信进行无差别扫描（Chat Control 2.0），以填补过渡性规定4月3日到期后的法律漏洞，并向欧洲议会施压。批评者指责该做法试图绕过民主监督。草案将在夏季休会前以紧急程序提交议会表决，多数议员可能已离会，反对需绝对多数，几乎无法阻止。理事会称扫描限于必要范围，处理的数据须在检测后12个月内不可撤销地删除。",
+      "category": "industry",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmr815l2z00pgsl04wayrv4tr"
+      }
+    },
+    {
+      "id": "cmr7z00up0065sl0472bil7hs",
+      "title": "Anthropic Claude Design 反向工程提示词开源更新",
+      "title_en": "Claude 设计系统提示词",
+      "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "permalink": "https://aihot.virxact.com/items/cmr7z00up0065sl0472bil7hs",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-05T15:35:42.919Z",
+      "summary": "Anthropic 旗下 Claude Design 的反向工程系统提示词在 GitHub 以 MIT 许可证开源，包含 20 章提示词和 14 项技能，覆盖内容纪律、美学、无障碍（WCAG、语义 HTML、键盘导航）、交互状态、系统思维等。近日针对 Fable 5/Opus 4.7+ 系列校准，新增自主决策条款：小决定直接执行记录而不询问。项目支持 Claude Code/Claude.ai 及 Codex 两种变体。",
+      "category": "tip",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmr7z00up0065sl0472bil7hs"
+      }
+    },
     {
       "id": "cmr7ita5g00reslxdrprk52b0",
       "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
