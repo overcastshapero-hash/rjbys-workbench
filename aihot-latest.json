@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T20:55:57.022Z",
+  "generatedAt": "2026-07-06T22:18:35.060Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-06",
   "daily": {
@@ -396,23 +396,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmr9i6qjv04faslsmhd1wkgma"
-      }
-    },
-    {
-      "id": "cmr8ajv5h00e0sl0d7rzs38ei",
-      "title": "NVIDIA Kyber NVL144 延迟超 12 个月至 2028",
-      "title_en": "MASSIVE DELAY： Just 3 months after Jensen demoed Kyber NVL144 at GTC， it has faced major setbacks an…",
-      "url": "https://x.com/SemiAnalysis_/status/2073874671498387899",
-      "permalink": "https://aihot.virxact.com/items/cmr8ajv5h00e0sl0d7rzs38ei",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "publishedAt": "2026-07-05T21:00:27.000Z",
-      "summary": "重大延迟：Jensen 在 GTC 上展示 Kyber NVL144 仅 3 个月后，该项目遭遇重大挫折，已推迟超过 12 个月，延至 2028 年。下文我们将解释 Kyber 为何面临大幅延迟，以及 NVIDIA 的 NVL72x2 背靠背机架架构为何也被取消，导致 Rubin Ultra 的扩展域受限。👇️ 1/6🧵",
-      "category": "industry",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmr8ajv5h00e0sl0d7rzs38ei"
       }
     }
   ]
