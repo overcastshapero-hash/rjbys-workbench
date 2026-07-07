@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T20:00:11.040Z",
+  "generatedAt": "2026-07-07T23:05:12.696Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-07",
   "daily": {
@@ -307,6 +307,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrb4j2zx00n4ihl14u6xv7kz",
+      "title": "Krea 2 身份保留功能上线",
+      "title_en": "ID preservation for Krea 2 🔥",
+      "url": "https://x.com/krea_ai/status/2074589965653303321",
+      "permalink": "https://aihot.virxact.com/items/cmrb4j2zx00n4ihl14u6xv7kz",
+      "source": "X：Krea AI (@krea_ai)",
+      "publishedAt": "2026-07-07T20:22:46.000Z",
+      "summary": "Krea 2 的身份保留功能已发布，配套模型和 ComfyUI 节点也已上线。🔥",
+      "category": "tip",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrb4j2zx00n4ihl14u6xv7kz"
+      }
+    },
+    {
       "id": "cmrb2mxmc0072ihl1mx0aw1bz",
       "title": "Meta Superintelligence Labs 推出 Muse Image 和 Muse Video",
       "title_en": "Introducing Muse Image and Muse Video， the first media generation models developed by Meta Superinte…",
@@ -423,6 +440,23 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrav068k01b6ihogth8k26f6"
+      }
+    },
+    {
+      "id": "cmrb7dzge01d6ihl1bthomtam",
+      "title": "Rowboat：开源、本地优先的桌面AI助手",
+      "title_en": "Show HN： Rowboat - Open-source， local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "permalink": "https://aihot.virxact.com/items/cmrb7dzge01d6ihl1bthomtam",
+      "source": "Hacker News：AI 热帖",
+      "publishedAt": "2026-07-07T16:10:44.000Z",
+      "summary": "Rowboat 是一个开源、本地优先的桌面 AI 助手，将邮件、会议、Slack 等数据索引为 Obsidian 风格的知识图谱，提供持久上下文记忆。内置邮件客户端、浏览器、会议记录器、代码模式（可调用 Claude Code 或 Codex 代理），并支持按事件或定时运行的背景代理。用户可通过 MCP 协议接入 Exa 搜索、GitHub 等外部工具。所有数据以纯 Markdown 格式本地存储，无供应商锁定，支持 Ollama/LM Studio 本地模型或使用 API 密钥的托管模型。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrb7dzge01d6ihl1bthomtam"
       }
     },
     {
@@ -729,40 +763,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmr9wgeoh00hvih9kcga5y5uj"
-      }
-    },
-    {
-      "id": "cmr9u2kma003gihdb8r5drdfd",
-      "title": "OfficeCLI：为AI智能体设计的开源Office套件",
-      "title_en": "OfficeCLI：供人工智能代理读取和编辑 Microsoft Office 文件的办公套件",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "permalink": "https://aihot.virxact.com/items/cmr9u2kma003gihdb8r5drdfd",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-06T23:03:34.910Z",
-      "summary": "OfficeCLI是全球首个专为AI智能体设计的开源Office套件，以单二进制文件运行，无需安装Office或任何依赖。它内置HTML渲染引擎，可将.docx/.xlsx/.pptx转换为HTML或PNG，形成\"渲染→查看→修复\"的视觉闭环，使AI代理能自主创建、读取和修改Word、Excel、PowerPoint文档。支持公式、图表、条件格式、RTL布局、修订追踪、表格、数据透视表等复杂功能。提供CLI命令和基于自然语言的桌面应用AionUi，并可一键安装到Claude Code、Cursor、Windsurf、GitHub Copilot等AI编码工具中。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmr9u2kma003gihdb8r5drdfd"
-      }
-    },
-    {
-      "id": "cmr9u1olo002sihdbunnazaoz",
-      "title": "Claude Code v2.1.202 发布",
-      "title_en": "v2.1.202",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
-      "permalink": "https://aihot.virxact.com/items/cmr9u1olo002sihdbunnazaoz",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "publishedAt": "2026-07-06T22:51:16.000Z",
-      "summary": "Claude Code v2.1.202 在 `/config` 中新增\"Dynamic workflow size\"设置，可控制动态工作流的 agent 数量规模（小/中/大），作为指导性建议而非硬性上限。工作流派生的 agent 现在会发射 `workflow.run_id` 和 `workflow.name` 的 OpenTelemetry 属性。修复了 mTLS 握手失败、远程控制发送命令失败、移动端发送无说明图片被静默丢弃、语音听写在麦克风故障时无限重试（改为暂停输入）、重载已有技能导致重复指令等问题。改进了工作流 agent 列表布局，MCP 错误消息更清晰。`/review <pr>` 恢复为快速单次审查，多 agent 审查请使用 `/code-review`。",
-      "category": "ai-products",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmr9u1olo002sihdbunnazaoz"
       }
     }
   ]
