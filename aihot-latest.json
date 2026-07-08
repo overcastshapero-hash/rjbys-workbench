@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T09:27:06.855Z",
+  "generatedAt": "2026-07-08T11:48:17.813Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-08",
   "daily": {
@@ -306,6 +306,23 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrbxa3ll003yihgens8d2sqg",
+      "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
+      "title_en": "未上报凶手暴力 ChatGPT 对话，加拿大一省拟就校园枪击案起诉 OpenAI",
+      "url": "https://www.ithome.com/0/974/169.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrbxa3ll003yihgens8d2sqg",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-08T09:55:17.000Z",
+      "summary": "加拿大不列颠哥伦比亚省7月7日宣布将起诉OpenAI，指控其未向执法部门上报一名ChatGPT用户2025年6月封禁前的暴力相关对话内容。该用户随后于今年2月在塔布勒岭制造校园枪击案，杀害8人。OpenAI CEO萨姆·奥尔特曼今年4月为此公开致歉，承认本应上报但未执行。受害家属已在加州法院提起诉讼，省政府正协调独立诉讼，要求赔偿用于社区重建。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrbxa3ll003yihgens8d2sqg"
+      }
+    },
     {
       "id": "cmrbu023x079pihl1q4rvhzky",
       "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞",
