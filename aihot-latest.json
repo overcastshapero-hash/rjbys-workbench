@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T14:21:58.928Z",
+  "generatedAt": "2026-07-08T18:20:47.868Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-08",
   "daily": {
@@ -307,20 +307,54 @@
   },
   "selectedItems": [
     {
-      "id": "cmrc5usfl01xhihyf99n5yx9v",
-      "title": "字节发布多模态图像创作模型 Seedream 5.0 Pro：复杂信息可视化、交互式精准编辑",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/974/249.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrc5usfl01xhihyf99n5yx9v",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-08T13:33:51.000Z",
-      "summary": "字节跳动今日发布多模态图像创作模型 Seedream 5.0 Pro，在图文匹配、结构合理性、文字渲染与画面美感上全面提升。新增四大能力：复杂信息可视化（将数据、概念与密集文字转化为专业排版）、交互式精准编辑（点选、圈选、草图渲染、色彩与材质替换、图层分离、多图融合等）、真实影像与人像质感（兼顾CG与摄影质感）、原生多语种输入与生成（支持十余种语言）。目前该模型已上线火山方舟体验中心，并将在豆包、即梦陆续上线。",
-      "category": "ai-models",
-      "score": 70,
+      "id": "cmrc8ppgh00l4ihqcft9anype",
+      "title": "Runway Dev 发布",
+      "title_en": "Introducing Runway Dev",
+      "url": "https://runwayml.com/news/introducing-runway-dev",
+      "permalink": "https://aihot.virxact.com/items/cmrc8ppgh00l4ihqcft9anype",
+      "source": "Runway：News（网页）",
+      "publishedAt": "2026-07-08T15:35:51.878Z",
+      "summary": "Runway 官网以 Cookie 设置页面代替了产品介绍，未提供 Runway Dev 的功能、参数、可用性等任何具体信息。",
+      "category": "ai-products",
+      "score": 58,
       "selected": true,
       "attribution": {
         "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrc5usfl01xhihyf99n5yx9v"
+        "canonical": "https://aihot.virxact.com/items/cmrc8ppgh00l4ihqcft9anype"
+      }
+    },
+    {
+      "id": "cmrc8cfhc00jeihqc0r5wx6qz",
+      "title": "Replit 推出社区档案与力量排名",
+      "title_en": "New this week 🚀 Replit Community Profiles - Proof of Work for vibe coders. Your profile， your flex…",
+      "url": "https://x.com/Replit/status/2074871322220339515",
+      "permalink": "https://aihot.virxact.com/items/cmrc8cfhc00jeihqc0r5wx6qz",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-07-08T15:00:47.000Z",
+      "summary": "本周新功能 🚀 Replit 社区档案--vibe coders 的工作证明。\n\n你的档案，你的展示。获取你的智能体使用和检查点的活跃度图表，外加面向专业用户的 Replit 力量排名。\n\n登录，认领你的档案，挑选你最棒的项目，与朋友分享你的数据。\n\n立即查看 → http://replit.com/community",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrc8cfhc00jeihqc0r5wx6qz"
+      }
+    },
+    {
+      "id": "cmrc8c7rq00imihqcg5rp1u13",
+      "title": "OpenRouter聊天室推出一键零数据保留",
+      "title_en": "New： one-click ZDR （zero-data retention） in the Chatroom Compare models side-by-side with full priv…",
+      "url": "https://x.com/OpenRouter/status/2074870468394250461",
+      "permalink": "https://aihot.virxact.com/items/cmrc8c7rq00imihqcg5rp1u13",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-07-08T14:57:23.000Z",
+      "summary": "新功能：聊天室一键ZDR（零数据保留）\n在完全隐私保护下横向对比模型：https://openrouter.ai/chat",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrc8c7rq00imihqcg5rp1u13"
       }
     },
     {
@@ -528,6 +562,57 @@
       }
     },
     {
+      "id": "cmrcdtas00074ihx5zzerv512",
+      "title": "推出 Grok 4.5",
+      "title_en": "Introducing Grok 4.5",
+      "url": "https://cursor.com/blog/grok-4-5",
+      "permalink": "https://aihot.virxact.com/items/cmrcdtas00074ihx5zzerv512",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Cursor 与 SpaceXAI 联合训练了混合专家模型 Grok 4.5，在数万亿 tokens 的 Cursor 用户交互数据上训练，并通过强化学习解决软件工程、数据科学、金融、法律等领域的困难问题。基础版定价 $2/M 输入 tokens、$6/M 输出 tokens，快速版 $4/M 输入 tokens、$18/M 输出 tokens。即日起在 Cursor 桌面、网页、iOS、CLI 及 SDK 中可用，个人和团队计划首周使用量翻倍。Grok 4.5 与 Composer 2.5 为不同权重类别，两者将继续支持。",
+      "category": "ai-models",
+      "score": 80,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcdtas00074ihx5zzerv512"
+      }
+    },
+    {
+      "id": "cmrcc072t01eqihqcf5kht18y",
+      "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型",
+      "title_en": "Introducing GPT-Live",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "permalink": "https://aihot.virxact.com/items/cmrcc072t01eqihqcf5kht18y",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "OpenAI 今日推出 GPT-Live，基于全双工架构实现同时听与说，支持自然打断与实时回馈。该模型每秒多次判断是否说话、倾听、打断或调用工具，并将搜索、推理等复杂任务委托给后台 GPT-5.5，保持对话流畅。即日起向全球 ChatGPT 用户提供 GPT-Live-1 和 GPT-Live-1 mini 两个版本。人类评估显示，在 5-10 分钟对话中，GPT-Live-1 系列在自然度、轮流、打断等方面显著优于 Advanced Voice Mode；在 GPQA、BrowseComp 和 τ3-Voice Telecom 基准测试中也表现更强。未来将开放 API。",
+      "category": "ai-models",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcc072t01eqihqcf5kht18y"
+      }
+    },
+    {
+      "id": "cmrcabmvj00ymihqce96ilbfi",
+      "title": "原生速度的 vLLM transformers 建模后端",
+      "title_en": "Native-speed vLLM transformers modeling backend",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "permalink": "https://aihot.virxact.com/items/cmrcabmvj00ymihqce96ilbfi",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Hugging Face 宣布 transformers vLLM 后端现与手写原生 vLLM 实现速度相当甚至更快。模型作者无需移植代码，即可自动利用 transformers 获得超快推理。测试使用 Qwen3-4B（单 GPU）、Qwen3-32B（张量并行）和 Qwen3-235B-A22B-FP8 MoE（数据+专家并行）三种配置，吞吐量均达到或超过原生。该后端通过 torch.fx 静态分析图、AST 重写代码实现动态层融合，支持张量/管道/专家并行及 torch.compile。用户仅需添加 `--model-impl transformers` 标志。目前不支持线性注意力模型但即将支持。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcabmvj00ymihqce96ilbfi"
+      }
+    },
+    {
       "id": "cmrb4j2zx00n4ihl14u6xv7kz",
       "title": "Krea 2 身份保留功能上线",
       "title_en": "ID preservation for Krea 2 🔥",
@@ -576,176 +661,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrb0u6pv02qtihogovduu795"
-      }
-    },
-    {
-      "id": "cmrayv5ja0293ihog3rixaqua",
-      "title": "YC CEO声称每日用AI部署3.7万行代码，开发者审查发现前端代码大量臃肿低效",
-      "title_en": "YC首席执行官称自己每天交付3.7万行LoC的AI代码。一位开发者深入探究了其实现原理",
-      "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
-      "permalink": "https://aihot.virxact.com/items/cmrayv5ja0293ihog3rixaqua",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-07T17:52:12.864Z",
-      "summary": "Y Combinator CEO Garry Tan在X上宣称，他与AI编码代理每天在五个项目中部署37000行代码，并保持连续72天发布记录。波兰开发者Gregorein深入审查Tan网站前端代码，发现大量臃肿与低效问题：页面加载169次请求、总计6.42MB数据（对比Hacker News仅7次12KB）；包含28个测试文件、78个未使用的JavaScript控制器、八种格式Logo（含空文件）、未压缩的旧PNG等。Gregorein指出，AI虽能快速生成代码，但质量仍应优先于数量。",
-      "category": "tip",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrayv5ja0293ihog3rixaqua"
-      }
-    },
-    {
-      "id": "cmray36fg021nihogfo205417",
-      "title": "NotebookLM短视频概览正式上线",
-      "title_en": "Short Video Overviews are officially 💯 rolled out on mobile and web across all users in English！ A…",
-      "url": "https://x.com/NotebookLM/status/2074551227594264799",
-      "permalink": "https://aihot.virxact.com/items/cmray36fg021nihogfo205417",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "publishedAt": "2026-07-07T17:48:50.000Z",
-      "summary": "短视频概览功能已正式在移动端和网页端面向所有英语用户全面上线！\n\n一如既往，您的意见对我们至关重要。请在下方分享您最喜欢的作品，并告诉我们接下来需要添加哪些功能！❤️",
-      "category": "ai-products",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmray36fg021nihogfo205417"
-      }
-    },
-    {
-      "id": "cmraw21y401jhihog3tcrfsp4",
-      "title": "Liquid AI 开源 Antidoom：基于最终 Token 偏好优化的推理模型死循环修复方法",
-      "title_en": "Liquid AI Open-Sources Antidoom： A Final Token Preference Optimization （FTPO） Method that Reduces Doom Loops in Reasoning Models",
-      "url": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
-      "permalink": "https://aihot.virxact.com/items/cmraw21y401jhihog3tcrfsp4",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-07-07T16:50:50.000Z",
-      "summary": "Liquid AI 开源了 Antidoom，一种基于 Final Token Preference Optimization （FTPO） 的针对性修复方法，用于减少推理模型中的 doom loop（死循环）问题。该方法定位循环开始的第一个 token，训练模型选择连贯替代项，而不改变整体输出分布。在 LFM2.5-2.6B 上，硬数学和编程任务中的循环率从 10.2% 降至 1.4%；Qwen3.5-4B 上从 22.9% 降至 1%。整套流程可在数小时内完成，全部代码和数据集（LiquidAI/antidoom-mix-v1.0）已开源。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmraw21y401jhihog3tcrfsp4"
-      }
-    },
-    {
-      "id": "cmrav068k01b7ihogl498wk0x",
-      "title": "人们如何使用Claude Cowork",
-      "title_en": "How people are using Claude Cowork",
-      "url": "https://claude.com/blog/how-people-are-using-claude-cowork",
-      "permalink": "https://aihot.virxact.com/items/cmrav068k01b7ihogl498wk0x",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-07-07T16:24:13.051Z",
-      "summary": "基于2026年5月11-31日120万次匿名会话样本，Claude Cowork最大用途为业务流程与运营（33.4%），如整理报告、核对表格；其次为内容创作与文案（16.4%），如起草稿件、制作幻灯片；软件开发仅占8.7%。用户多用它处理跨团队衔接性任务，例如律师处理文档格式、招聘经理汇总面试反馈。Claude Cowork面向所有Claude用户开放。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrav068k01b7ihogl498wk0x"
-      }
-    },
-    {
-      "id": "cmrav068k01b6ihogth8k26f6",
-      "title": "Claude Cowork 向移动端和网页端开放",
-      "title_en": "Claude Cowork is coming to mobile and web",
-      "url": "https://claude.com/blog/cowork-web-mobile",
-      "permalink": "https://aihot.virxact.com/items/cmrav068k01b6ihogth8k26f6",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-07-07T16:24:13.051Z",
-      "summary": "Claude Cowork 正在向移动端和网页端开放，让会话和文件跨设备同步。Beta 版将在未来几周内首先面向 Max 用户推出。Cowork 可让 Claude 跨文件、日历、邮件、即时通讯等工具完成复杂任务，其中超过 90% 的使用场景并非软件开发，而是日常知识工作（业务运营和内容创作）。工作可跨设备跟随用户：在桌面端开始任务，从手机查看进度；关闭笔记本后 Claude 可继续后台运行，支持定时任务（如周一 6 点自动准备客户简报）。当需要用户决策时，Claude 会将问题推送到手机。桌面端保留完整 Cowork 体验，支持无法安装桌面应用的用户。聊天和 Cowork 已在网页端和桌面端合并。为庆祝上线，双倍 Cowork 使用额度延长至 8 月 5 日。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrav068k01b6ihogth8k26f6"
-      }
-    },
-    {
-      "id": "cmrb7dzge01d6ihl1bthomtam",
-      "title": "Rowboat：开源、本地优先的桌面AI助手",
-      "title_en": "Show HN： Rowboat - Open-source， local-first alternative to Claude Desktop",
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "permalink": "https://aihot.virxact.com/items/cmrb7dzge01d6ihl1bthomtam",
-      "source": "Hacker News：AI 热帖",
-      "publishedAt": "2026-07-07T16:10:44.000Z",
-      "summary": "Rowboat 是一个开源、本地优先的桌面 AI 助手，将邮件、会议、Slack 等数据索引为 Obsidian 风格的知识图谱，提供持久上下文记忆。内置邮件客户端、浏览器、会议记录器、代码模式（可调用 Claude Code 或 Codex 代理），并支持按事件或定时运行的背景代理。用户可通过 MCP 协议接入 Exa 搜索、GitHub 等外部工具。所有数据以纯 Markdown 格式本地存储，无供应商锁定，支持 Ollama/LM Studio 本地模型或使用 API 密钥的托管模型。",
-      "category": "ai-products",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrb7dzge01d6ihl1bthomtam"
-      }
-    },
-    {
-      "id": "cmrc3xicn01grihyf9z6t1b4b",
-      "title": "Seedream 5.0 Pro 发布：不止\"生成\"，更懂\"设计\"",
-      "title_en": "不止\"生成\"，更懂\"设计\" | Seedream 5.0 Pro 发布",
-      "url": "https://seed.bytedance.com/zh/blog/%E4%B8%8D%E6%AD%A2-%E7%94%9F%E6%88%90-%E6%9B%B4%E6%87%82-%E8%AE%BE%E8%AE%A1-seedream-5-0-pro-%E5%8F%91%E5%B8%83",
-      "permalink": "https://aihot.virxact.com/items/cmrc3xicn01grihyf9z6t1b4b",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "publishedAt": "2026-07-07T16:00:00.000Z",
-      "summary": "字节 Seed 今日发布多模态图像创作模型 Seedream 5.0 Pro，在图文匹配、结构合理性、文字渲染与画面美感上全面升级。四大核心突破：复杂信息可视化，可生成高密度信息图；交互式精准编辑，支持点选、圈选、草图渲染、色彩与材质替换、图层分离及多图融合，实现像素级编辑；真实的影像与人像质感，还原光影、材质与皮肤肌理；原生多语种输入与生成，支持十余种语言及本地化视觉特征。已陆续在豆包、即梦、火山方舟等平台上线。",
-      "category": "ai-models",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrc3xicn01grihyf9z6t1b4b"
-      }
-    },
-    {
-      "id": "cmrasueu500qmihog3d8up11t",
-      "title": "中国拟限制外国访问最强AI模型",
-      "title_en": "🇨🇳This is bad news. Now， frontier open source access also will probably no more be available for a…",
-      "url": "https://x.com/rohanpaul_ai/status/2074512389526237609",
-      "permalink": "https://aihot.virxact.com/items/cmrasueu500qmihog3d8up11t",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-07-07T15:14:30.000Z",
-      "summary": "中国计划限制外国访问其最强AI模型，近期与阿里巴巴、字节跳动、Z.ai等企业会谈，拟将先进模型（含未发布）留在中国国内。商务部主导、国家发改委参与，表明此举属出口管制而非平台监管。目标涵盖闭源和开源模型，不仅限API访问，还包括可下载权重。同时讨论将模型泄漏视为国家安全犯罪，并限制外国资本投资中国AI初创。若实施，外国公司将失去低成本模型访问权。此前华盛顿已限制美国先进模型出口，此举可能进一步分裂全球AI市场。",
-      "category": "industry",
-      "score": 79,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrasueu500qmihog3d8up11t"
-      }
-    },
-    {
-      "id": "cmrasc88300h6ihog8mwnmob9",
-      "title": "Elvis Saravia 通过 HITL 和 DialAgent 提升 agentic loops 可靠性",
-      "title_en": "Loop engineering is great until something breaks. Here is how I improve the reliability of my agent…",
-      "url": "https://x.com/omarsar0/status/2074506169352180108",
-      "permalink": "https://aihot.virxact.com/items/cmrasc88300h6ihog8mwnmob9",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "publishedAt": "2026-07-07T14:49:47.000Z",
-      "summary": "Elvis Saravia 介绍使用 human-in-the-loop（HITL）来提升 agentic loops 的可靠性。他所有 Claude 和 Codex agent 会话都通过 @DialAgent MCP 服务器，该服务器为 agent 提供专属号码，支持语音、SMS、iMessage 作为原生工具。当循环/自动化处理 PR 或新功能时，agent 会通过简短电话将决策升级给人类，尤其适合在路上或离开电脑时。用户可粘贴指令让 agent 拨打电话测试。DialAgent 提供 $5 免费额度：http://getdial.ai",
-      "category": "tip",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrasc88300h6ihog8mwnmob9"
-      }
-    },
-    {
-      "id": "cmraqmpst004cihogf6nqkgvh",
-      "title": "在 Claude Code 中选择 Claude 模型与努力级别",
-      "title_en": "Choosing a Claude model and effort level in Claude Code",
-      "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
-      "permalink": "https://aihot.virxact.com/items/cmraqmpst004cihogf6nqkgvh",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-07-07T14:21:59.722Z",
-      "summary": "Claude Code 提供模型（model）和努力级别（effort）两种设置。模型选择决定能力范围，更大模型（如 Claude Fable 5）在基准上优于 Claude Sonnet。努力级别不单是思考时间，还控制读取文件数、验证步骤及多步任务的推进深度。较高努力下 Claude 会自行读取文件、运行测试并复核；较低努力则更倾向请求用户提供上下文。若 Claude 已掌握上下文但仍出错，应换更强大模型；若因跳读文件或未运行测试而出错，则应提高努力级别。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmraqmpst004cihogf6nqkgvh"
       }
     }
   ]
