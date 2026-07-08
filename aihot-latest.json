@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T06:04:39.032Z",
+  "generatedAt": "2026-07-08T09:27:06.855Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-08",
   "daily": {
@@ -306,6 +306,57 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrbu023x079pihl1q4rvhzky",
+      "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞",
+      "title_en": "GitLost：我们诱使 GitHub 的 AI 代理泄露了私有仓库",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+      "permalink": "https://aihot.virxact.com/items/cmrbu023x079pihl1q4rvhzky",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-08T08:29:47.091Z",
+      "summary": "Noma Labs 在 GitHub Agentic Workflows 中发现严重提示词注入漏洞 GitLost。未认证攻击者仅需在属于同一组织的公共仓库中创建一个嵌有恶意指令的 Issue，即可诱使基于 Claude 或 GitHub Copilot 的 AI 代理读取并公开该组织内私有仓库的内容。攻击无需编码技能或凭证，根源在于代理将用户可控内容视为可信指令，且 GitHub 的防护措施因 \"Additionally\" 关键词被绕过。Noma Labs 已公开 PoC 并建议限制跨仓库权限、隔离用户输入。",
+      "category": "industry",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrbu023x079pihl1q4rvhzky"
+      }
+    },
+    {
+      "id": "cmrbqwsid06g2ihl1iiwufnz5",
+      "title": "黑客可利用9款最流行的AI工具组装大规模僵尸网络",
+      "title_en": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
+      "permalink": "https://aihot.virxact.com/items/cmrbqwsid06g2ihl1iiwufnz5",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-07-08T07:00:51.000Z",
+      "summary": "提示注入已成为AI安全的首要威胁--大语言模型无法区分合法指令与恶意指令。此前推送式和拉取式攻击规模均有限。研究人员提出一种名为HalluSquatting的新型拉取式提示注入攻击，首次能组装大规模僵尸网络、执行分布式拒绝服务攻击（DDoS）并大规模感染设备。该攻击可作用于AI编码工具，标志着提示注入攻击从单点突破转向规模化利用。",
+      "category": "paper",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrbqwsid06g2ihl1iiwufnz5"
+      }
+    },
+    {
+      "id": "cmrboci2105r3ihl1zmi6wgpf",
+      "title": "工信部发布Claude Code后门安全风险提示",
+      "title_en": "愈演愈烈了 中国工信部发布关于防范Claude Code安全后门隐患的风险提示 公告称：Claude Code2.1.91至2.1.196版本内置了监控机制，未经用户同意即可向远程服务器回传用户地…",
+      "url": "https://x.com/xiaohu/status/2074736623284256881",
+      "permalink": "https://aihot.virxact.com/items/cmrboci2105r3ihl1zmi6wgpf",
+      "source": "X：小互 (@xiaohu)",
+      "publishedAt": "2026-07-08T06:05:32.000Z",
+      "summary": "中国工信部发布风险提示，指出 Claude Code 2.1.91 至 2.1.196 版本内置监控机制，未经用户同意即向远程服务器回传用户地域、身份标识等敏感信息。建议相关单位立即全面排查，对受影响版本卸载或升级至已清除后门代码的最新安全版本，并加强开发工具外联权限管控与流量监测，防止敏感数据违规外传。",
+      "category": "industry",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrboci2105r3ihl1zmi6wgpf"
+      }
+    },
     {
       "id": "cmrblfb8a050sihl1484pa3wo",
       "title": "AI 审计代理在 Cloudflare CIRCL 中发现 7 个漏洞",
@@ -644,91 +695,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmraqliu1003aihogho9twifr"
-      }
-    },
-    {
-      "id": "cmrawne9601nfihogtkxwy0bs",
-      "title": "智能免费，然后呢？--Data Systems for， of， and by Agents",
-      "title_en": "Intelligence is Free， Now What？ <br> Data Systems for， of， and by Agents",
-      "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
-      "permalink": "https://aihot.virxact.com/items/cmrawne9601nfihogtkxwy0bs",
-      "source": "BAIR：Berkeley AI Research Blog",
-      "publishedAt": "2026-07-07T09:00:00.000Z",
-      "summary": "AI推理成本急剧下降。GPT-4级能力从2023年初每百万token约30美元降至今天不到1美元，部分供应商已低于0.10美元。推理价格每年下降9至900倍，中位数约50倍。知识工作级智能即将近乎免费。这给数据系统带来三重变革：面向智能体的数据系统需支持智能体推测式探索--单个",
-      "category": "tip",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrawne9601nfihogtkxwy0bs"
-      }
-    },
-    {
-      "id": "cmrafv8m40090ihuamebn107w",
-      "title": "美国首批自主地面车辆在乌克兰参战",
-      "title_en": "The first American autonomous ground vehicles are fighting in Ukraine",
-      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
-      "permalink": "https://aihot.virxact.com/items/cmrafv8m40090ihuamebn107w",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-07-07T09:00:00.000Z",
-      "summary": "美国自动驾驶车辆公司 Forterra 宣布，过去九个月已向乌克兰战场部署超过 100 辆基于 Polaris ATV 的 Lancer 自主地面车辆。这些汽油动力车辆可携带 750 公斤货物，加装 Starlink 天线实现远程操控，已执行 1100 多次任务，行驶 2500 英里，运送 777，440 磅物资，完成 52 次伤员撤离。目前车辆主要采用远程操作，因自主系统尚无法实时识别并应对敌方威胁。Forterra 已融资超 5 亿美元，正将经典机器人方法与生成式 AI 结合以提升自主能力。美军专家认为地面自主技术已具实战价值。",
-      "category": "industry",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrafv8m40090ihuamebn107w"
-      }
-    },
-    {
-      "id": "cmraw22r701jjihogh1k8hbu6",
-      "title": "Gemini API Managed Agents 新增后台执行、远程 MCP 与自定义函数等能力",
-      "title_en": "Expanding Managed Agents in Gemini API： background tasks， remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
-      "permalink": "https://aihot.virxact.com/items/cmraw22r701jjihogh1k8hbu6",
-      "source": "Google Blog：AI（RSS）",
-      "publishedAt": "2026-07-07T08:54:00.000Z",
-      "summary": "Google 为 Gemini API 的 Managed Agents 新增后台执行、远程 MCP 服务器集成、自定义函数调用与凭证刷新功能。后台执行通过传入 `background： true` 异步运行任务，立即返回 ID 供轮询状态或流式获取进度。Managed Agents 可直接连接远程 MCP 服务器，无需自定义代理中间件，并能与内置沙箱工具（如 Google 搜索、代码执行）混合使用。自定义函数调用支持本地执行业务逻辑，内置工具自动在服务端运行。凭证刷新通过传递现有环境 ID 和新网络配置完成，沙箱内文件系统、已安装包和仓库保持不变。这些更新旨在帮助开发者构建可靠的生产级 AI 智能体。",
-      "category": "ai-products",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmraw22r701jjihogh1k8hbu6"
-      }
-    },
-    {
-      "id": "cmrab8cy800w3ihl38ohuxzih",
-      "title": "在网络不稳定的地区，小型AI模型正逐渐普及",
-      "title_en": null,
-      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-      "permalink": "https://aihot.virxact.com/items/cmrab8cy800w3ihl38ohuxzih",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-07T06:45:06.341Z",
-      "summary": "2019年，Adebayo Alonge因服务器远在美国致RxScanner单次扫描超5分钟，工程师2小时内将AI模型缩小至可在Android手机本地运行，此后RxScanner能在无宽带、缺电地区验药。小AI模型参数通常至多几十亿，可在手机或Raspberry Pi上运行，功耗仅数瓦。类似案例包括印度腰果病害检测无人机、乌拉圭蚂蚁入侵识别、疟蚊检测及巴西基于Arduino的心电图设备。世界银行报告显示，全球最穷国家仅0.7%互联网用户用过ChatGPT，发达国家达四分之一；行长认为小AI是为缺乏算力与电力的地区提供生命救助服务的关键。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrab8cy800w3ihl38ohuxzih"
-      }
-    },
-    {
-      "id": "cmraai9ic00q4ihl3ozf3ki9s",
-      "title": "Grok Imagine 更新：支持 15 秒视频",
-      "title_en": "Grok Imagine update",
-      "url": "https://x.com/elonmusk/status/2074378653501128833",
-      "permalink": "https://aihot.virxact.com/items/cmraai9ic00q4ihl3ozf3ki9s",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "publishedAt": "2026-07-07T06:23:05.000Z",
-      "summary": "Grok Imagine 更新。请更新你的 Grok 应用！15 秒 Imagine 视频现已可用，质量令人难以置信。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmraai9ic00q4ihl3ozf3ki9s"
       }
     }
   ]
