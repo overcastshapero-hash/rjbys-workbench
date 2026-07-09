@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T15:59:32.329Z",
+  "generatedAt": "2026-07-09T18:05:26.092Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-09",
   "daily": {
@@ -384,6 +384,74 @@
   },
   "selectedItems": [
     {
+      "id": "cmrdslwmv06tcih4bzp5l7ivy",
+      "title": "Anthropic发起\"硬问题\"倡议，邀请公众提出AI相关尖锐问题",
+      "title_en": "Inviting hard questions",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "permalink": "https://aihot.virxact.com/items/cmrdslwmv06tcih4bzp5l7ivy",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-07-09T17:40:42.612Z",
+      "summary": "Anthropic作为公益公司，发起\"硬问题\"倡议，邀请公众就AI对就业、社会、家庭、科学医学等领域的影响提出最尖锐的问题。此前已通过多种方式收集看法：首轮调查询问5.2万美国人；通过Anthropic Interviewer调查了159个国家70种语言的8.1万Claude用户；开展数十场线下焦点小组；并基于匿名真实数据研究Claude使用情况。公司还设立了Anthropic Institute和Long-Term Benefit Trust以监督公益使命进展。Anthropic承诺将公开追踪并报告针对这些问题的具体行动及成效。",
+      "category": "industry",
+      "score": 56,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrdslwmv06tcih4bzp5l7ivy"
+      }
+    },
+    {
+      "id": "cmrds7pdr06qiih4b6f0yienf",
+      "title": "OpenAI 发布最强模型与最佳博文",
+      "title_en": "obviously the best model we have ever produced， but also one of the best blog posts we have ever pro…",
+      "url": "https://x.com/sama/status/2075266471316615436",
+      "permalink": "https://aihot.virxact.com/items/cmrds7pdr06qiih4b6f0yienf",
+      "source": "X：Sam Altman (@sama)",
+      "publishedAt": "2026-07-09T17:10:58.000Z",
+      "summary": "显然是我们有史以来最好的模型，也是我们写得最好的博文之一：\n\nhttps://openai.com/index/gpt-5-6/",
+      "category": "ai-models",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrds7pdr06qiih4b6f0yienf"
+      }
+    },
+    {
+      "id": "cmrdqgmkj067pih4b2dbg61ml",
+      "title": "Anthropic长期利益信托任命本·伯南克为受托人",
+      "title_en": "Ben Bernanke appointed to Anthropic's Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "permalink": "https://aihot.virxact.com/items/cmrdqgmkj067pih4b2dbg61ml",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-07-09T16:40:37.929Z",
+      "summary": "Anthropic的长期利益信托（LTBT）任命前美联储主席、2022年诺贝尔经济学奖得主本·伯南克为最新受托人。他将与另外三位受托人共同监督公司以对社会长期有益的方式负责任开发先进AI的使命。LTBT独立于管理团队和投资者，受托人不持股、不分红，仅按服务时间获酬。该信托有权向Anthropic董事会任命成员，并就AI风险与社会影响等关键决策提供建议。伯南克将参与公司的经济研究，帮助理解AI对全球劳动力与经济的影响。",
+      "category": "industry",
+      "score": 56,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrdqgmkj067pih4b2dbg61ml"
+      }
+    },
+    {
+      "id": "cmrdpmgpg05zcih4bmwttzqaq",
+      "title": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/974/782.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrdpmgpg05zcih4bmwttzqaq",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-09T15:48:31.000Z",
+      "summary": "据晚点LatePost报道，特斯拉Optimus Gen 3经马斯克评审通过，即将量产。供应链要求供应商9月产能达1000台/周，年底升至2000-2500台/周，届时年产能可达10万台。马斯克六月底高管会上要求年底前实现产能目标，否则开除整个Optimus采购团队。弗里蒙特工厂已改造为Optimus生产线，Model S/X于5月停产。马斯克表示初期生产极其缓慢，低产量夏季启动，高产量2027年展开。",
+      "category": "industry",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrdpmgpg05zcih4bmwttzqaq"
+      }
+    },
+    {
       "id": "cmrdlxidv0522ih4b6xv8iolk",
       "title": "Mistral 推出 Studio，为 AI 提示词和技能提供系统记录",
       "title_en": "Your Prompts and Skills need a system of record. Studio gives AI prompts & skills a system of record-versioned， owned， and traceable. July 9， 2026 By Mistral",
@@ -469,6 +537,23 @@
       }
     },
     {
+      "id": "cmrdrlair06hpih4bxerobguv",
+      "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体",
+      "title_en": "ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "permalink": "https://aihot.virxact.com/items/cmrdrlair06hpih4bxerobguv",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "summary": "OpenAI 发布 ChatGPT Work，一个能跨应用和文件收集信息、将复杂项目分解为小步骤独立完成并持续工作数小时的 AI 智能体。它内置 Codex 技术，目前每周超 500 万用户使用 Codex，其中超 100 万用于非软件开发场景。ChatGPT Work 由今天同步推出的最新前沿模型 GPT-5.6 驱动，具备多步骤推理和按模板生成材料的能力。该功能今天起面向 Pro、Enterprise 和 Edu 计划推出，未来几天扩展至 Plus 和 Business 计划。桌面版 ChatGPT 在所有计划（含免费版）中提供 Chat、Work 和 Codex 模式，且 Codex 应用已合并至新的桌面应用。",
+      "category": "ai-models",
+      "score": 80,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrdrlair06hpih4bxerobguv"
+      }
+    },
+    {
       "id": "cmrd9x7xz01wzih4bch5uoywh",
       "title": "NVIDIA 发布 Nemotron-Labs-3-Puzzle-75B-A9B：压缩混合 MoE 模型，服务器吞吐量提升 2.03 倍",
       "title_en": "NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B： A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput at Matched User Throughput",
@@ -551,23 +636,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrdm3exj052mih4bnm4k525b"
-      }
-    },
-    {
-      "id": "cmrcpjgf00373ihx5mtyo2fsy",
-      "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
-      "title_en": "An off switch for dual use knowledge in AI models",
-      "url": "https://www.anthropic.com/research/off-switch-dual-use",
-      "permalink": "https://aihot.virxact.com/items/cmrcpjgf00373ihx5mtyo2fsy",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "publishedAt": "2026-07-08T23:27:02.554Z",
-      "summary": "Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局。训练后删除模块即可消除该能力，保留则供可信部署使用。实验在合成数据、真实数据及50M到5B参数模型上测试，GRAM效果与数据过滤相当，移除模块不降低通用性能，且比事后\"遗忘\"技术更难恢复。该研究为平衡双重用途知识的安全访问与有益使用提供了更鲁棒的方案。",
-      "category": "paper",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrcpjgf00373ihx5mtyo2fsy"
       }
     },
     {
