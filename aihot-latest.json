@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T04:56:35.906Z",
+  "generatedAt": "2026-07-09T08:33:38.926Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-09",
   "daily": {
@@ -384,6 +384,40 @@
   },
   "selectedItems": [
     {
+      "id": "cmrd6bmv200xrih4b7i1ivun0",
+      "title": "蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video",
+      "title_en": "全球首个面向具身智能的视频基模，蚂蚁灵波 LingBot-Video 开源",
+      "url": "https://www.ithome.com/0/974/517.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrd6bmv200xrih4b7i1ivun0",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-09T07:06:00.000Z",
+      "summary": "蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型。总参数30B，推理时仅激活约3B，效率较同规模Dense架构提升约3倍。模型引入7万小时VLA、VLN、Ego等机器人数据，并通过多维强化学习奖励系统对齐物理合理性与任务完成度。在RBench上总分0.620，超越Wan2.6等模型；在Physics-IQ Verified评测中排名第一。可用于机器人动作预测、仿真数据生成等方向。",
+      "category": "ai-models",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrd6bmv200xrih4b7i1ivun0"
+      }
+    },
+    {
+      "id": "cmrd6bmv300xxih4byg33dbws",
+      "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
+      "title_en": "无限世界、实时交互，蚂蚁灵波开源 LingBot-World 2.0 世界模型",
+      "url": "https://www.ithome.com/0/974/508.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrd6bmv300xxih4byg33dbws",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-09T06:53:40.000Z",
+      "summary": "蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演化，并支持多人同时交互。模型采用因果预训练范式和混合双向自回归注意力掩码（MoBA），可稳定输出 720p/60fps 实时画面，长达一小时测试画质不衰减。通过一致性蒸馏与 DMD 降低采样成本，结合注意力 kernel 优化、混合并行推理、动态 KV 缓存调度和异步流媒体传输实现低延迟交互。模型权重及推理代码以非商用协议开源，SGLang 已适配，并提供 Reactor PC 端和灵光 APP 在线体验。",
+      "category": "ai-models",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrd6bmv300xxih4byg33dbws"
+      }
+    },
+    {
       "id": "cmrcsrok60407ihx5jvrp15a1",
       "title": "Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型",
       "title_en": "Robbyant Releases LingBot-VLA 2.0： An Open-Source 6B Vision-Language-Action （VLA） Model for Cross-Embodiment Robot Manipulation",
@@ -568,57 +602,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrbxa3ll003yihgens8d2sqg"
-      }
-    },
-    {
-      "id": "cmrbu023x079pihl1q4rvhzky",
-      "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞",
-      "title_en": "GitLost：我们诱使 GitHub 的 AI 代理泄露了私有仓库",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
-      "permalink": "https://aihot.virxact.com/items/cmrbu023x079pihl1q4rvhzky",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-08T08:29:47.091Z",
-      "summary": "Noma Labs 在 GitHub Agentic Workflows 中发现严重提示词注入漏洞 GitLost。未认证攻击者仅需在属于同一组织的公共仓库中创建一个嵌有恶意指令的 Issue，即可诱使基于 Claude 或 GitHub Copilot 的 AI 代理读取并公开该组织内私有仓库的内容。攻击无需编码技能或凭证，根源在于代理将用户可控内容视为可信指令，且 GitHub 的防护措施因 \"Additionally\" 关键词被绕过。Noma Labs 已公开 PoC 并建议限制跨仓库权限、隔离用户输入。",
-      "category": "industry",
-      "score": 81,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrbu023x079pihl1q4rvhzky"
-      }
-    },
-    {
-      "id": "cmrbqwsid06g2ihl1iiwufnz5",
-      "title": "黑客可利用9款最流行的AI工具组装大规模僵尸网络",
-      "title_en": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
-      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
-      "permalink": "https://aihot.virxact.com/items/cmrbqwsid06g2ihl1iiwufnz5",
-      "source": "Ars Technica：AI（RSS）",
-      "publishedAt": "2026-07-08T07:00:51.000Z",
-      "summary": "提示注入已成为AI安全的首要威胁--大语言模型无法区分合法指令与恶意指令。此前推送式和拉取式攻击规模均有限。研究人员提出一种名为HalluSquatting的新型拉取式提示注入攻击，首次能组装大规模僵尸网络、执行分布式拒绝服务攻击（DDoS）并大规模感染设备。该攻击可作用于AI编码工具，标志着提示注入攻击从单点突破转向规模化利用。",
-      "category": "paper",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrbqwsid06g2ihl1iiwufnz5"
-      }
-    },
-    {
-      "id": "cmrboci2105r3ihl1zmi6wgpf",
-      "title": "工信部发布Claude Code后门安全风险提示",
-      "title_en": "愈演愈烈了 中国工信部发布关于防范Claude Code安全后门隐患的风险提示 公告称：Claude Code2.1.91至2.1.196版本内置了监控机制，未经用户同意即可向远程服务器回传用户地…",
-      "url": "https://x.com/xiaohu/status/2074736623284256881",
-      "permalink": "https://aihot.virxact.com/items/cmrboci2105r3ihl1zmi6wgpf",
-      "source": "X：小互 (@xiaohu)",
-      "publishedAt": "2026-07-08T06:05:32.000Z",
-      "summary": "中国工信部发布风险提示，指出 Claude Code 2.1.91 至 2.1.196 版本内置监控机制，未经用户同意即向远程服务器回传用户地域、身份标识等敏感信息。建议相关单位立即全面排查，对受影响版本卸载或升级至已清除后门代码的最新安全版本，并加强开发工具外联权限管控与流量监测，防止敏感数据违规外传。",
-      "category": "industry",
-      "score": 79,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrboci2105r3ihl1zmi6wgpf"
       }
     }
   ]
