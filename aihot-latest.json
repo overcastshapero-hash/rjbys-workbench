@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T20:49:06.733Z",
+  "generatedAt": "2026-07-09T22:25:01.832Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-09",
   "daily": {
@@ -384,6 +384,108 @@
   },
   "selectedItems": [
     {
+      "id": "cmre1vdj600h8ihwk2g9d8r99",
+      "title": "Elon Musk称赞Anthropic并承诺不切断其算力",
+      "title_en": "Elon Musk praises Mythos/Fable， promises not to 'cut off' Anthropic",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
+      "permalink": "https://aihot.virxact.com/items/cmre1vdj600h8ihwk2g9d8r99",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-09T21:57:42.000Z",
+      "summary": "Elon Musk近日在X上承认此前对Anthropic的判断有误，称其\"显然是当前AI领域的领导者\"，盛赞Mythos/Fable模型\"目前最好\"，并承诺不会恶意切断其计算资源。2026年7月起，Anthropic成为SpaceX最大客户之一--双方5月签署协议，Anthropic以每月12.5亿美元（至2029年5月，总计约400亿美元）购买xAI旗下Colossus 1数据中心300兆瓦全部算力。Musk以特斯拉开放专利、超充网络等先例佐证其\"不挤压竞争对手\"的风格，合同条款也提供了保障。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmre1vdj600h8ihwk2g9d8r99"
+      }
+    },
+    {
+      "id": "cmre1vdj600h9ihwkt35yib2l",
+      "title": "AI 能否回答 3 万亿美元的问题？",
+      "title_en": "Can AI answer the $3 trillion question？",
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
+      "permalink": "https://aihot.virxact.com/items/cmre1vdj600h9ihwkt35yib2l",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-09T21:47:50.000Z",
+      "summary": "Sequoia 合伙人 David Cahn 更新 AI 基础设施支出估算：2026 年全球投入达 1.5 万亿美元，行业需产生 3 万亿美元收入才能回本。Anthropic 年化收入（ARR）达 600 亿美元，OpenAI 2025 年收入 130 亿美元（11 月称 ARR 200 亿美元），但缺口仍大。Apollo 首席经济学家指出，谷歌、Meta、微软、亚马逊均预测 2028 年自由现金流加速，但风险在于更多组织转向更便宜的开放权重模型（尤其中国模型），且 OpenAI 最新模型编码任务 token 效率提升 54%，导致 token 价格持续下降。若超大规模厂商现金流目标落空，可能引发经济衰退和标普 500 回调。",
+      "category": "tip",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmre1vdj600h9ihwkt35yib2l"
+      }
+    },
+    {
+      "id": "cmre2mjao00ncihwk7foifcuk",
+      "title": "Bun 被 Anthropic 收购后用 Rust 重写，月下载超 2200 万",
+      "title_en": "重写《Rust 中的 Bun》",
+      "url": "https://bun.com/blog/bun-in-rust",
+      "permalink": "https://aihot.virxact.com/items/cmre2mjao00ncihwk7foifcuk",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-09T21:46:21.422Z",
+      "summary": "Bun 于 2025 年 12 月被 Anthropic 收购，作者使用预发布版 Claude Fable 5 进行了大量 Rust 重写。Bun 最初用 Zig 在一年内构建，如今 CLI 月下载超 2200 万，被 Claude Code 等采用。广泛功能带来稳定性挑战，v1.3.14 修复了多项 use-after-free、内存泄漏等 bug。团队通过 ASAN、Fuzzilli 模糊测试等系统性预防，并借助 Rust 的内存安全特性减少此类缺陷。",
+      "category": "tip",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmre2mjao00ncihwk7foifcuk"
+      }
+    },
+    {
+      "id": "cmre2mjao00nlihwk6dhq4pl6",
+      "title": "SpaceXAI 发布 Grok 4.5，专注编程与智能体任务",
+      "title_en": "Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "permalink": "https://aihot.virxact.com/items/cmre2mjao00nlihwk6dhq4pl6",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-09T21:46:19.351Z",
+      "summary": "7月8日，SpaceXAI 推出 Grok 4.5，主打编程、智能体任务和知识工作。模型使用数万块 NVIDIA GB300 GPU 训练，通过强化学习聚焦多步软件工程。基准测试中，DeepSWE 1.0 得分 62.0%，SWE Marathon 解决率 29.0%，Terminal Bench 2.1 为 83.3%，SWE Bench Pro 解决率 64.7%。推理速度达 80 TPS，输出 token 效率约为 Opus 4.8 的 4.2 倍。定价为每百万输入 token $2、输出 token $6。即日起可在 Grok Build、Cursor 及 SpaceXAI API 中使用，欧盟地区预计 7 月中旬开放。",
+      "category": "ai-models",
+      "score": 80,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmre2mjao00nlihwk6dhq4pl6"
+      }
+    },
+    {
+      "id": "cmre1bxqr00bhihwk8z3bz5qs",
+      "title": "ChatGPT Sites将创意变可发布网站",
+      "title_en": "Turn an idea into a live Site you can publish and share Here's what some of the team at OpenAI buil…",
+      "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
+      "permalink": "https://aihot.virxact.com/items/cmre1bxqr00bhihwk8z3bz5qs",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "publishedAt": "2026-07-09T21:27:27.000Z",
+      "summary": "将一个想法变成可发布和分享的实时网站\n\n以下是OpenAI团队的一些成员用Sites构建的示例👇\n\n@prd_008 用Sites将一个想法变成了个人专注应用：",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmre1bxqr00bhihwk8z3bz5qs"
+      }
+    },
+    {
+      "id": "cmre0j0vj002sihwk71qvktk7",
+      "title": "Google 推出 LiteRT.js：高性能 Web AI 推理运行时",
+      "title_en": "LiteRT.js， Google's high performance Web AI Inference",
+      "url": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference",
+      "permalink": "https://aihot.virxact.com/items/cmre0j0vj002sihwk71qvktk7",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-07-09T21:21:08.292Z",
+      "summary": "Google 发布 LiteRT.js，这是 LiteRT 跨平台边缘 AI 运行时的最新成员，专为 JavaScript 开发者设计，可直接在浏览器中运行机器学习模型。LiteRT.js 基于 WebGPU 和即将推出的 WebNN 实现 SOTA 推理性能，同时支持回退到 WebAssembly CPU 方案。",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmre0j0vj002sihwk71qvktk7"
+      }
+    },
+    {
       "id": "cmrdslwmv06tcih4bzp5l7ivy",
       "title": "Anthropic发起\"硬问题\"倡议，邀请公众提出AI相关尖锐问题",
       "title_en": "Inviting hard questions",
@@ -653,23 +755,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrcp5by2031uihx57fypdkfo"
-      }
-    },
-    {
-      "id": "cmrcn8mlw02k5ihx5risshcr3",
-      "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
-      "title_en": "Seedream 5.0 Pro is now in Runway. Generate highly detailed images from a prompt or reference， with …",
-      "url": "https://x.com/runwayml/status/2074982268175630814",
-      "permalink": "https://aihot.virxact.com/items/cmrcn8mlw02k5ihx5risshcr3",
-      "source": "X：Runway (@runwayml)",
-      "publishedAt": "2026-07-08T22:21:38.000Z",
-      "summary": "Seedream 5.0 Pro 现已登陆 Runway。可通过提示词或参考图生成高细节图像，图像内文字清晰可读，支持多达14种语言。立即点击下方链接尝试。",
-      "category": "ai-products",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrcn8mlw02k5ihx5risshcr3"
       }
     }
   ]
