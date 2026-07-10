@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T14:34:47.062Z",
+  "generatedAt": "2026-07-10T16:58:26.112Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-10",
   "daily": {
@@ -318,6 +318,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrf3pi9j0730ih8eb6hjx4hn",
+      "title": "Perplexity 推出跨模型信用额度分析功能",
+      "title_en": "Introducing Computer Analytics： You can now track credit spend across models. Available now under A…",
+      "url": "https://x.com/perplexity_ai/status/2075599540640714863",
+      "permalink": "https://aihot.virxact.com/items/cmrf3pi9j0730ih8eb6hjx4hn",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "publishedAt": "2026-07-10T15:14:27.000Z",
+      "summary": "推出 Computer Analytics：你现在可以跨模型跟踪信用额度支出。\n\n该功能现已面向个人和企业用户开放，可在账户设置的 Analytics 下使用。",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrf3pi9j0730ih8eb6hjx4hn"
+      }
+    },
+    {
       "id": "cmrf0774z04wyih8e0snjs2g2",
       "title": "百度搭子在成都AI Day发布四项更新：个人版升级、自媒体套件、企业版及搭子联盟",
       "title_en": "日均提问暴涨20倍！百度搭子又双叒叕连放大招",
@@ -420,20 +437,20 @@
       }
     },
     {
-      "id": "cmre6wsva00lzihyym47wp98b",
-      "title": "Google Research 推出 SensorFM：面向可穿戴健康数据的通用基础模型",
-      "title_en": "SensorFM： Towards a general intelligence and interface for wearable health data",
-      "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data",
-      "permalink": "https://aihot.virxact.com/items/cmre6wsva00lzihyym47wp98b",
-      "source": "Google Research：Blog（网页）",
-      "publishedAt": "2026-07-10T00:20:20.110Z",
-      "summary": "Google Research 发布 SensorFM，一个在超过 100 万亿分钟多模态传感器数据上预训练的大规模基础模型，数据来自 500 万同意参与者，涵盖 100 多个国家及 20 余款 Fitbit 和 Pixel Watch 设备。SensorFM 学习通用的人体生理表征，可迁移至心血管、代谢、睡眠、心理健康及生活方式等 35 项健康预测任务，支持标签高效适配与数据填充，并可作为个人健康智能体的基础工具。该模型旨在解决传统可穿戴健康模型针对单一终点、难以泛化的问题。",
-      "category": "ai-models",
-      "score": 70,
+      "id": "cmrf5hibz009wihg8kzmbzhic",
+      "title": "Thinking Machines Lab：构建延伸人类意志与判断的 AI",
+      "title_en": "The Future Worth Building Is Human",
+      "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human",
+      "permalink": "https://aihot.virxact.com/items/cmrf5hibz009wihg8kzmbzhic",
+      "source": "Thinking Machines Lab：官方博客（RSS）",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "summary": "Thinking Machines Lab 在官方博客中阐述其使命：构建能够延伸人类意志与判断的 AI。文章指出，当前多数 AI 在少数地方训练后便冻结，无法被使用者塑造。该实验室正致力于训练具备多模态交互和可定制化能力的强模型，开发允许用户训练模型权重的工具，并构建拓宽人机沟通渠道的界面。其核心理念是让 AI 服务于分布式的人类知识，使每个组织都能利用自身独特知识微调模型，并持续适应知识演变。",
+      "category": "tip",
+      "score": 60,
       "selected": true,
       "attribution": {
         "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmre6wsva00lzihyym47wp98b"
+        "canonical": "https://aihot.virxact.com/items/cmrf5hibz009wihg8kzmbzhic"
       }
     },
     {
@@ -573,23 +590,6 @@
       }
     },
     {
-      "id": "cmrdslwmv06tcih4bzp5l7ivy",
-      "title": "Anthropic发起\"硬问题\"倡议，邀请公众提出AI相关尖锐问题",
-      "title_en": "Inviting hard questions",
-      "url": "https://www.anthropic.com/news/hard-questions",
-      "permalink": "https://aihot.virxact.com/items/cmrdslwmv06tcih4bzp5l7ivy",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-07-09T17:40:42.612Z",
-      "summary": "Anthropic作为公益公司，发起\"硬问题\"倡议，邀请公众就AI对就业、社会、家庭、科学医学等领域的影响提出最尖锐的问题。此前已通过多种方式收集看法：首轮调查询问5.2万美国人；通过Anthropic Interviewer调查了159个国家70种语言的8.1万Claude用户；开展数十场线下焦点小组；并基于匿名真实数据研究Claude使用情况。公司还设立了Anthropic Institute和Long-Term Benefit Trust以监督公益使命进展。Anthropic承诺将公开追踪并报告针对这些问题的具体行动及成效。",
-      "category": "industry",
-      "score": 56,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrdslwmv06tcih4bzp5l7ivy"
-      }
-    },
-    {
       "id": "cmrds7pdr06qiih4b6f0yienf",
       "title": "OpenAI 发布最强模型与最佳博文",
       "title_en": "obviously the best model we have ever produced， but also one of the best blog posts we have ever pro…",
@@ -604,40 +604,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrds7pdr06qiih4b6f0yienf"
-      }
-    },
-    {
-      "id": "cmrdqgmkj067pih4b2dbg61ml",
-      "title": "Anthropic长期利益信托任命本·伯南克为受托人",
-      "title_en": "Ben Bernanke appointed to Anthropic's Long-Term Benefit Trust",
-      "url": "https://www.anthropic.com/news/ben-bernanke",
-      "permalink": "https://aihot.virxact.com/items/cmrdqgmkj067pih4b2dbg61ml",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-07-09T16:40:37.929Z",
-      "summary": "Anthropic的长期利益信托（LTBT）任命前美联储主席、2022年诺贝尔经济学奖得主本·伯南克为最新受托人。他将与另外三位受托人共同监督公司以对社会长期有益的方式负责任开发先进AI的使命。LTBT独立于管理团队和投资者，受托人不持股、不分红，仅按服务时间获酬。该信托有权向Anthropic董事会任命成员，并就AI风险与社会影响等关键决策提供建议。伯南克将参与公司的经济研究，帮助理解AI对全球劳动力与经济的影响。",
-      "category": "industry",
-      "score": 56,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrdqgmkj067pih4b2dbg61ml"
-      }
-    },
-    {
-      "id": "cmrdpmgpg05zcih4bmwttzqaq",
-      "title": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/974/782.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrdpmgpg05zcih4bmwttzqaq",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-09T15:48:31.000Z",
-      "summary": "据晚点LatePost报道，特斯拉Optimus Gen 3经马斯克评审通过，即将量产。供应链要求供应商9月产能达1000台/周，年底升至2000-2500台/周，届时年产能可达10万台。马斯克六月底高管会上要求年底前实现产能目标，否则开除整个Optimus采购团队。弗里蒙特工厂已改造为Optimus生产线，Model S/X于5月停产。马斯克表示初期生产极其缓慢，低产量夏季启动，高产量2027年展开。",
-      "category": "industry",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrdpmgpg05zcih4bmwttzqaq"
       }
     }
   ]
