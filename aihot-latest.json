@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T00:07:59.606Z",
+  "generatedAt": "2026-07-10T04:54:52.884Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-10",
   "daily": {
@@ -318,6 +318,40 @@
   },
   "selectedItems": [
     {
+      "id": "cmreax6su01ozihyy4xtirms5",
+      "title": "Claude Code v2.1.206 发布",
+      "title_en": "v2.1.206",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+      "permalink": "https://aihot.virxact.com/items/cmreax6su01ozihyy4xtirms5",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "publishedAt": "2026-07-10T01:45:26.000Z",
+      "summary": "Claude Code v2.1.206 发布，主要更新包括：为 `/cd` 命令添加目录路径建议；新增 `/doctor` 检查以建议修剪 CLAUDE.md 文件中模型可从代码库推导的内容；`/commit-push-pr` 现在自动允许 git push 到仓库配置的推送远程仓库；`/login` 支持 Anthropic 运营的公共网关端点；后台智能体在更新后自动升级。修复了过期登录导致所有模型报错、`claude --resume` 和 `--continue` 在启动时无键盘响应、MCP 服务器忽略 `request_timeout_ms` 配置、OAuth MCP 服务器需手动重新认证、`/model` 选择器价格显示错误、桌面会话卡在\"运行中\"状态、Windows 上键盘输入被忽略等多项问题。",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmreax6su01ozihyy4xtirms5"
+      }
+    },
+    {
+      "id": "cmre6wsva00lzihyym47wp98b",
+      "title": "Google Research 推出 SensorFM：面向可穿戴健康数据的通用基础模型",
+      "title_en": "SensorFM： Towards a general intelligence and interface for wearable health data",
+      "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data",
+      "permalink": "https://aihot.virxact.com/items/cmre6wsva00lzihyym47wp98b",
+      "source": "Google Research：Blog（网页）",
+      "publishedAt": "2026-07-10T00:20:20.110Z",
+      "summary": "Google Research 发布 SensorFM，一个在超过 100 万亿分钟多模态传感器数据上预训练的大规模基础模型，数据来自 500 万同意参与者，涵盖 100 多个国家及 20 余款 Fitbit 和 Pixel Watch 设备。SensorFM 学习通用的人体生理表征，可迁移至心血管、代谢、睡眠、心理健康及生活方式等 35 项健康预测任务，支持标签高效适配与数据填充，并可作为个人健康智能体的基础工具。该模型旨在解决传统可穿戴健康模型针对单一终点、难以泛化的问题。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmre6wsva00lzihyym47wp98b"
+      }
+    },
+    {
       "id": "cmre3p4ne005fihrad1xjqjru",
       "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
       "title_en": "Show HN： Show HN：如何在我的低配置电脑上运行 GLM 5.2",
@@ -421,13 +455,13 @@
     },
     {
       "id": "cmre2mjao00nrihwkhnv9ahqj",
-      "title": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
-      "title_en": null,
+      "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
+      "title_en": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
       "url": "https://cognition.com/blog/swe-1-7",
       "permalink": "https://aihot.virxact.com/items/cmre2mjao00nrihwkhnv9ahqj",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "publishedAt": "2026-07-09T21:46:17.901Z",
-      "summary": null,
+      "summary": "Cognition 发布迄今最强模型 SWE-1.7，基于 Kimi K2.7 基座训练，通过强化学习管线改进（基础设施、训练稳定性、数据质量、长程任务技术）实现前沿智能水平并大幅降低成本。在 FrontierCode 1.1 Main 基准上达 42.3%（Kimi K2.7 Code 为 30.1%，GPT-5.5 为 43.0%，Opus 4.8 为 46.5%），Terminal-Bench 2.1 达 81.5%，SWE-Bench Multilingual 达 77.8%。模型针对长周期异步任务优化，现已在 Devin（Web、桌面、CLI）通过 Cerebras 以 1000 TPS 提供。",
       "category": "ai-models",
       "score": 71,
       "selected": true,
@@ -624,6 +658,23 @@
       }
     },
     {
+      "id": "cmrees13p006wihgvrokrpgpy",
+      "title": "美团 LongCat-2.0 正式开源，同步开放国产卡推理代码",
+      "title_en": "正式开源！美团 LongCat-2.0 同步开放国产卡推理代码",
+      "url": "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
+      "permalink": "https://aihot.virxact.com/items/cmrees13p006wihgvrokrpgpy",
+      "source": "公众号：龙猫LongCat（美团）",
+      "publishedAt": "2026-07-09T11:58:00.000Z",
+      "summary": "美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计。模型引入 LongCat 稀疏注意力机制与 N-gram Embedding，提升长上下文处理效率与 Token 级表示能力。LongCat-2.0 是业界首个在五万卡国产算力集群上完成推理的万亿参数模型，从模型架构、芯片适配到部署策略进行深度协同优化，支持百万上下文高效推理。开源同步提供 BF16、FP8、INT8 等多精度版本及针对国产算力极致优化的推理代码。",
+      "category": "ai-models",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrees13p006wihgvrokrpgpy"
+      }
+    },
+    {
       "id": "cmrdrlair06hpih4bxerobguv",
       "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体",
       "title_en": "ChatGPT is now a partner for your most ambitious work",
@@ -689,23 +740,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrd6bmv300xxih4byg33dbws"
-      }
-    },
-    {
-      "id": "cmrcsrok60407ihx5jvrp15a1",
-      "title": "Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型",
-      "title_en": "Robbyant Releases LingBot-VLA 2.0： An Open-Source 6B Vision-Language-Action （VLA） Model for Cross-Embodiment Robot Manipulation",
-      "url": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
-      "permalink": "https://aihot.virxact.com/items/cmrcsrok60407ihx5jvrp15a1",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-07-09T00:45:39.000Z",
-      "summary": "Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型。它以 Qwen3-VL-4B-Instruct 为骨干，采用 MoE 动作专家架构，通过 55 维规范向量统一表示不同机器人的状态和动作。训练数据涵盖约 60，000 小时高质量数据（50，000 小时机器人轨迹 + 10，000 小时第一人称人类视频），覆盖 20 种机器人配置。在 GM-100 双机械臂基准测试中，模型在多个平台上超越 π0.5 和之前版本。模型权重、代码和技术报告已以 Apache-2.0 许可开源。",
-      "category": "ai-models",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrcsrok60407ihx5jvrp15a1"
       }
     }
   ]
