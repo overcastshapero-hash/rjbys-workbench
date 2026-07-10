@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T04:54:52.884Z",
+  "generatedAt": "2026-07-10T08:25:32.338Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-10",
   "daily": {
@@ -318,6 +318,57 @@
   },
   "selectedItems": [
     {
+      "id": "cmrem518401w2ihcl3vs3c152",
+      "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/975/078.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrem518401w2ihcl3vs3c152",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-10T07:26:10.000Z",
+      "summary": "Meta CEO 扎克伯格首次正面回应公司筹划云基础设施业务一事，否认\"算力过剩\"猜测，称内部算力需求依然旺盛、满负荷运转。但他同时表示，当前市场对算力出价极高，将部分 AI 基础设施对外出租在财务上更划算。Meta 正制定代号\"Meta Compute\"的云计算计划，包括开放模型访问权限和直接出租裸算力两条路线。扎克伯格还提及 SpaceX 以每月 12.5 亿美元将数据中心租给 Anthropic 的模式。Meta 2026 年资本支出指引达 1250 亿至 1450 亿美元，计划 2026 年 9 月量产自研 AI 芯片，目标 2027 年部署算力提升至 14 吉瓦。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrem518401w2ihcl3vs3c152"
+      }
+    },
+    {
+      "id": "cmremehbx0246ihclothaz1km",
+      "title": "马斯克承认Anthropic是当前AI领导者",
+      "title_en": "This is Anthropic's strongest flex",
+      "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+      "permalink": "https://aihot.virxact.com/items/cmremehbx0246ihclothaz1km",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-07-10T07:20:46.000Z",
+      "summary": "马斯克在X上发文承认自己此前对Anthropic的判断有误，称其\"显然是当前AI领域的领导者\"。他表示，没有公司发布过像Mythos/Fable这样优秀的模型，并相信Anthropic很快会推出Mythos 2。他还强调，即使作为竞争对手，也不会以伤害对方的方式切断合作，并列举了特斯拉开源专利、开放超级充电网络等先例。该推文被Rohan Paul转发，称这是Anthropic\"最强有力的炫耀\"。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmremehbx0246ihclothaz1km"
+      }
+    },
+    {
+      "id": "cmrema2b4022bihcleaow4j8v",
+      "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+      "title_en": "Grok Build gets better every day and we love hearing user feedback for improvements",
+      "url": "https://x.com/elonmusk/status/2075478792273842370",
+      "permalink": "https://aihot.virxact.com/items/cmrema2b4022bihcleaow4j8v",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "publishedAt": "2026-07-10T07:14:39.000Z",
+      "summary": "Elon Musk 转发用户 @0x0funky 对 Grok Build 的称赞。该用户称 Grok Build 是目前唯一集大成的 coding agentic workflow，内建图像生成和图片生视频功能，生图速度快且品质不输 Codex。Agent 可直接完成图像与视频生成，无需额外串接 MCP 或外部服务。用户结合 Agent Sprite Forge 工具，利用 Grok Build 的视频生成能力，先产出 6 秒角色动作视频再反编译为 game sprite，大幅减少对齐问题，制作 2D 横版游戏耗时不到 30 分钟，而此前用 Codex 需 1-2 小时且品质更优。",
+      "category": "tip",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrema2b4022bihcleaow4j8v"
+      }
+    },
+    {
       "id": "cmreax6su01ozihyy4xtirms5",
       "title": "Claude Code v2.1.206 发布",
       "title_en": "v2.1.206",
@@ -366,23 +417,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmre3p4ne005fihrad1xjqjru"
-      }
-    },
-    {
-      "id": "cmre1vdj600h8ihwk2g9d8r99",
-      "title": "Elon Musk称赞Anthropic并承诺不切断其算力",
-      "title_en": "Elon Musk praises Mythos/Fable， promises not to 'cut off' Anthropic",
-      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
-      "permalink": "https://aihot.virxact.com/items/cmre1vdj600h8ihwk2g9d8r99",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-07-09T21:57:42.000Z",
-      "summary": "Elon Musk近日在X上承认此前对Anthropic的判断有误，称其\"显然是当前AI领域的领导者\"，盛赞Mythos/Fable模型\"目前最好\"，并承诺不会恶意切断其计算资源。2026年7月起，Anthropic成为SpaceX最大客户之一--双方5月签署协议，Anthropic以每月12.5亿美元（至2029年5月，总计约400亿美元）购买xAI旗下Colossus 1数据中心300兆瓦全部算力。Musk以特斯拉开放专利、超充网络等先例佐证其\"不挤压竞争对手\"的风格，合同条款也提供了保障。",
-      "category": "industry",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmre1vdj600h8ihwk2g9d8r99"
       }
     },
     {
@@ -706,40 +740,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrd9x7xz01wzih4bch5uoywh"
-      }
-    },
-    {
-      "id": "cmrd6bmv200xrih4b7i1ivun0",
-      "title": "蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video",
-      "title_en": "全球首个面向具身智能的视频基模，蚂蚁灵波 LingBot-Video 开源",
-      "url": "https://www.ithome.com/0/974/517.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrd6bmv200xrih4b7i1ivun0",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-09T07:06:00.000Z",
-      "summary": "蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型。总参数30B，推理时仅激活约3B，效率较同规模Dense架构提升约3倍。模型引入7万小时VLA、VLN、Ego等机器人数据，并通过多维强化学习奖励系统对齐物理合理性与任务完成度。在RBench上总分0.620，超越Wan2.6等模型；在Physics-IQ Verified评测中排名第一。可用于机器人动作预测、仿真数据生成等方向。",
-      "category": "ai-models",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrd6bmv200xrih4b7i1ivun0"
-      }
-    },
-    {
-      "id": "cmrd6bmv300xxih4byg33dbws",
-      "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-      "title_en": "无限世界、实时交互，蚂蚁灵波开源 LingBot-World 2.0 世界模型",
-      "url": "https://www.ithome.com/0/974/508.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrd6bmv300xxih4byg33dbws",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-09T06:53:40.000Z",
-      "summary": "蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演化，并支持多人同时交互。模型采用因果预训练范式和混合双向自回归注意力掩码（MoBA），可稳定输出 720p/60fps 实时画面，长达一小时测试画质不衰减。通过一致性蒸馏与 DMD 降低采样成本，结合注意力 kernel 优化、混合并行推理、动态 KV 缓存调度和异步流媒体传输实现低延迟交互。模型权重及推理代码以非商用协议开源，SGLang 已适配，并提供 Reactor PC 端和灵光 APP 在线体验。",
-      "category": "ai-models",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrd6bmv300xxih4byg33dbws"
       }
     }
   ]
