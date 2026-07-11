@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T16:01:34.039Z",
+  "generatedAt": "2026-07-11T17:56:12.553Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-11",
   "daily": {
@@ -225,6 +225,57 @@
   },
   "selectedItems": [
     {
+      "id": "cmrgmylg702eaih2e1e9hhfe4",
+      "title": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发",
+      "title_en": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+      "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
+      "permalink": "https://aihot.virxact.com/items/cmrgmylg702eaih2e1e9hhfe4",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-11T17:04:28.000Z",
+      "summary": "剑桥大学CASP研究员Antonia Jülich对27名前成员的57次访谈显示，博科圣地已使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek等主流AI聊天机器人，用于袭击策划、制造更强爆炸装置、武器维护及行动安全。该组织两个派系均设立了专门的AI部门。ISIS自2023年起便提供提示工程和越狱培训，并训练尼日利亚的博科圣地指挥官绕过AI安全过滤器。研究指出，安全过滤器未能可靠防止滥用。Anthropic近期承认，越狱可能永远无法完全消除。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrgmylg702eaih2e1e9hhfe4"
+      }
+    },
+    {
+      "id": "cmrglvcki024uih2edvsk7pef",
+      "title": "OpenAI 发布 GPT-5.6 系列医疗评估结果",
+      "title_en": "\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
+      "url": "https://x.com/sama/status/2075985056846451123",
+      "permalink": "https://aihot.virxact.com/items/cmrglvcki024uih2edvsk7pef",
+      "source": "X：Sam Altman (@sama)",
+      "publishedAt": "2026-07-11T16:46:22.000Z",
+      "summary": "OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果。最小变体 GPT-5.6 Luna 在最低推理强度下即超越最高推理强度的 GPT-5.5，且成本低 25 倍；最大变体 GPT-5.6 Sol 树立新标杆。在涵盖患者端与临床端的多样化任务中，专科医生被要求以无限时间和网络访问权限撰写回答，随后由其他医生盲评。评估基于准确性、沟通、完整性、指令遵循及健康决策帮助性五个维度，共 20000 次评分。结果显示，所有 GPT-5.6 模型表现均显著优于医生，且医生发现 GPT-5.6 回答中的缺陷少于医生自己撰写的回答。",
+      "category": "ai-models",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrglvcki024uih2edvsk7pef"
+      }
+    },
+    {
+      "id": "cmrglsyla01zoih2enmsl2eu8",
+      "title": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
+      "title_en": "幽灵字体：一种人类能读懂但人工智能无法识别的字体",
+      "url": "https://www.mixfont.com/ghost-font",
+      "permalink": "https://aihot.virxact.com/items/cmrglsyla01zoih2enmsl2eu8",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-11T16:31:09.615Z",
+      "summary": "Ghost Font 是一种利用运动、视频、噪点和诱饵来隐藏文字的反AI字体。用户输入文字后可生成并下载视频片段，视频中的字母由与背景完全相同的点组成，单帧截图无法显示任何信息。该字体生成的视频被传递给Claude Fable和GPT Sol 5.6 Ultra等前沿模型时，这些模型即使具备编程能力也无法解码移动信息，直到被提示具体技术。视频中还包含一条诱饵信息，使模型误以为找到真实内容。项目灵感来自2013年Sang Mun设计的ZXX字体，但现代AI已能轻松读取ZXX。Ghost Font目前为本地原型，数据不发送至任何服务器。作者计划未来将视频生成代码开源，并探索将其用于CAPTCHA系统或AI视觉感知基准测试。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrglsyla01zoih2enmsl2eu8"
+      }
+    },
+    {
       "id": "cmrg3dsyt00g4iha7og0687tc",
       "title": "蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型",
       "title_en": "Ant Group's Robbyant Unveils LingBot-VA 2.0： A Causal Video-Action Model Built Natively for Physical AI",
@@ -358,57 +409,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrfdbe4g016aihxb8btg5nu0"
-      }
-    },
-    {
-      "id": "cmrf93thr003iihxbrnllhiyd",
-      "title": "宇树G1人形机器人完成首例活体微创手术",
-      "title_en": "A new Nature paper shows Unitree's G1 humanoid robot performing what researchers call the first live…",
-      "url": "https://x.com/thexpin/status/2075640168896516139",
-      "permalink": "https://aihot.virxact.com/items/cmrf93thr003iihxbrnllhiyd",
-      "source": "X：X.PIN (@thexpin)",
-      "publishedAt": "2026-07-10T17:55:54.000Z",
-      "summary": "一篇新的《自然》论文展示了宇树G1人形机器人执行研究人员所称的首例由人形机器人完成的活体标准微创手术。加州大学圣地亚哥团队使用G1，以常规手术器械完成了对两只活猪的腹腔镜胆囊切除术；第二次手术耗时32分钟。该机器人仍需反复校正，且尚无法满足手术无菌标准，但其成本可能仅为达芬奇系统的约5%。",
-      "category": "paper",
-      "score": 79,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrf93thr003iihxbrnllhiyd"
-      }
-    },
-    {
-      "id": "cmrf8177m007bihprf4zml1hn",
-      "title": "Claude Code桌面版新增应用内浏览器",
-      "title_en": "Claude Code on desktop now has an in-app browser. Claude can pull up docs， designs， or any other si…",
-      "url": "https://x.com/ClaudeDevs/status/2075635283211772279",
-      "permalink": "https://aihot.virxact.com/items/cmrf8177m007bihprf4zml1hn",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "publishedAt": "2026-07-10T17:36:29.000Z",
-      "summary": "Claude Code 桌面版现在有了应用内浏览器。\n\nClaude 可以调出文档、设计稿或任何其他网站。它可以像操作本地开发服务器一样，进行阅读、点击浏览和交互。\n\n该浏览器采用沙盒机制且可配置：你可以自行选择会话是否持久保留。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrf8177m007bihprf4zml1hn"
-      }
-    },
-    {
-      "id": "cmrf7a5kg000wihpr80vvnaxn",
-      "title": "DeepSeek-V4 Flash 强化学习训练登陆 AMD Instinct MI355X GPU，由 Miles 框架支持",
-      "title_en": "News Bringing DeepSeek-V4 Flash RL Training to AMD Instinct MI355X GPUs with Miles DeepSeek-V4 RL is now supported in Miles on AMD InstinctTM MI355X GPUs with ROCmTM！ RL requires SGLang rollout and Megatron training to implement the same policy closely enough that token probabilities … AMD & Miles Team",
-      "url": "https://www.lmsys.org/blog/2026-07-10-rocm-miles-dsv4",
-      "permalink": "https://aihot.virxact.com/items/cmrf7a5kg000wihpr80vvnaxn",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-07-10T17:19:11.037Z",
-      "summary": "DeepSeek-V4 Flash 的强化学习训练现已在 AMD Instinct MI355X GPU 上通过 Miles 框架获得支持，基于 ROCm 软件栈运行。该 2840 亿参数 MoE 模型（每 token 激活 130 亿参数）需 SGLang 进行 rollout 生成、Megatron 进行策略更新，Miles 负责异步循环与权重同步。团队解决了 SGLang 与 Megatron 间模型对齐、量化状态在线更新及多节点并行稳定性三大挑战，最终在四个八 GPU 节点上完成端到端验证：超过 100 个优化器步骤中训练-rollout 对数概率差可控，在线奖励持续提升，离线 AIME-2024 基准分数同步上涨。",
-      "category": "paper",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrf7a5kg000wihpr80vvnaxn"
       }
     }
   ]
