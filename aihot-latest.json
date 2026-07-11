@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T22:53:15.376Z",
+  "generatedAt": "2026-07-11T23:58:32.976Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-11",
   "daily": {
@@ -225,6 +225,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrgzykqg00jabid4acp6zpjm",
+      "title": "彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句\"哈哈\"成窃密关键",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/975/634.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrgzykqg00jabid4acp6zpjm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-11T23:21:57.000Z",
+      "summary": "苹果起诉 OpenAI，指控前工程师 Chang Liu 离职时带走未归还的 MacBook、一名可分享内情的员工，并利用软件漏洞持续访问苹果内网。他发现漏洞后向同事分享\"哈哈，我发现我还能访问网络存储\"，后者协助其获取更多机密。苹果称 OpenAI 试图复制 iPhone 产品研发体系，核心从非法窃取的商业机密腐烂。目前已有超 400 名苹果员工跳槽至 OpenAI，包括前苹果高管、现任 OpenAI 首席硬件官 Tang Tan。苹果曾于今年 2 月尝试私了，但 OpenAI 未回应。",
+      "category": "industry",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrgzykqg00jabid4acp6zpjm"
+      }
+    },
+    {
       "id": "cmrgmylg702eaih2e1e9hhfe4",
       "title": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发",
       "title_en": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
@@ -341,23 +358,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrfoggdz01o7ihjl1exdh1qt"
-      }
-    },
-    {
-      "id": "cmrflz3sd00x5ihjlndy4k7rn",
-      "title": "Meta 关闭 Instagram 用户可基于公开账户生成 AI 深度伪造图片的功能",
-      "title_en": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-      "permalink": "https://aihot.virxact.com/items/cmrflz3sd00x5ihjlndy4k7rn",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-07-10T23:49:50.000Z",
-      "summary": "在遭到强烈反对后，Meta 关闭了本周早些时候推出的一项 Instagram 功能。该功能允许用户通过 @ 提及公开 Instagram 账户，基于其内容生成 AI 图片，且无需账户所有者许可。Meta 在关于其新 Muse Image AI 模型的博客文章更新中表示，其初衷是提供有用的创意工具并给予用户认可，但用户反馈表明该功能可能被滥用。",
-      "category": "industry",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrflz3sd00x5ihjlndy4k7rn"
       }
     }
   ]
