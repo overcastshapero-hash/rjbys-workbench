@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T13:26:23.113Z",
+  "generatedAt": "2026-07-11T14:57:13.056Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-11",
   "daily": {
@@ -426,23 +426,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrf3pi9j0730ih8eb6hjx4hn"
-      }
-    },
-    {
-      "id": "cmrf0774z04wyih8e0snjs2g2",
-      "title": "百度搭子在成都AI Day发布四项更新：个人版升级、自媒体套件、企业版及搭子联盟",
-      "title_en": "日均提问暴涨20倍！百度搭子又双叒叕连放大招",
-      "url": "https://mp.weixin.qq.com/s/Haqbjim9YGmRu1XpxG_VvA",
-      "permalink": "https://aihot.virxact.com/items/cmrf0774z04wyih8e0snjs2g2",
-      "source": "公众号：百度智能云（文心）",
-      "publishedAt": "2026-07-10T13:58:07.000Z",
-      "summary": "百度搭子在成都百度AI Day上发布四项更新。个人版新增浏览器调用、智能路由（平均任务耗时降20%，Token利用率提升25%）、多端共享记忆及强化PPT生成，并上架\"一镜\"数字人制作、\"灵医\"报告解读等Skill。行业首个自媒体专业套件支持选题到复盘全链路。企业版支持团队协作与权限管理。搭子联盟启动，中国联通等已加入。上线三个月，日均提问量增长20倍。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrf0774z04wyih8e0snjs2g2"
       }
     }
   ]
