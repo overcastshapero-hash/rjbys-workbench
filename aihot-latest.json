@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T14:57:13.056Z",
+  "generatedAt": "2026-07-11T16:01:34.039Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-11",
   "daily": {
@@ -409,23 +409,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrf7a5kg000wihpr80vvnaxn"
-      }
-    },
-    {
-      "id": "cmrf3pi9j0730ih8eb6hjx4hn",
-      "title": "Perplexity 推出跨模型信用额度分析功能",
-      "title_en": "Introducing Computer Analytics： You can now track credit spend across models. Available now under A…",
-      "url": "https://x.com/perplexity_ai/status/2075599540640714863",
-      "permalink": "https://aihot.virxact.com/items/cmrf3pi9j0730ih8eb6hjx4hn",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "publishedAt": "2026-07-10T15:14:27.000Z",
-      "summary": "推出 Computer Analytics：你现在可以跨模型跟踪信用额度支出。\n\n该功能现已面向个人和企业用户开放，可在账户设置的 Analytics 下使用。",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrf3pi9j0730ih8eb6hjx4hn"
       }
     }
   ]
