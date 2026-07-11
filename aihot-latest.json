@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T20:53:29.054Z",
+  "generatedAt": "2026-07-11T22:53:15.376Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-11",
   "daily": {
@@ -358,40 +358,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrflz3sd00x5ihjlndy4k7rn"
-      }
-    },
-    {
-      "id": "cmrfj0gio008tihjlfdm729o7",
-      "title": "苹果起诉OpenAI窃取商业机密开发AI硬件",
-      "title_en": "吃瓜：Apple 把 OpenAI 告上了法庭，指控 OpenAI 系统性地窃取苹果商业机密，用来开发自己的 AI 硬件设备。 诉状今天提交至加州北区联邦地方法院，被告包括 OpenAI、OpenA…",
-      "url": "https://x.com/dotey/status/2075712647723397452",
-      "permalink": "https://aihot.virxact.com/items/cmrfj0gio008tihjlfdm729o7",
-      "source": "X：宝玉 (@dotey)",
-      "publishedAt": "2026-07-10T22:43:54.000Z",
-      "summary": "苹果公司今日在加州北区联邦地方法院对OpenAI提起诉讼，指控其系统性窃取苹果商业机密，用于开发AI硬件设备。被告包括OpenAI、其硬件负责人Tang Tan（前苹果iPhone和Apple Watch产品设计副总裁，在苹果任职24年）、前苹果高级系统电气工程师Chang Liu，以及Jony Ive联合创立的io Products。Jony Ive本人未被列为被告。",
-      "category": "industry",
-      "score": 84,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrfj0gio008tihjlfdm729o7"
-      }
-    },
-    {
-      "id": "cmrfiocpi0035ihjlcm4qu8af",
-      "title": "博科圣地如何利用前沿AI技术",
-      "title_en": "恐怖组织\"博科圣地\"如何利用前沿人工智能技术",
-      "url": "https://casp.ac/reports/ai-enabled-terrorism",
-      "permalink": "https://aihot.virxact.com/items/cmrfiocpi0035ihjlcm4qu8af",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-10T22:07:19.177Z",
-      "summary": "2025至2026年间对尼日利亚东北部27名前\"博科圣地\"成员的半结构化访谈揭示了该组织在2024年系统性地利用前沿AI技术。两大派系均使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek辅助作战与日常运作，AI应用已通过专门小组和内部培训实现制度化。成员成功绕过部分安全限制，将AI用于袭击策划、武器故障排查及爆炸装置设计。相关技术通过跨国圣战网络传播，伊斯兰国特工提供了面对面培训。受访者对AI表现出强烈热情，部分人对大规模杀伤性武器持开放态度，但记录在案的使用仍限于常规手段。",
-      "category": "paper",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrfiocpi0035ihjlcm4qu8af"
       }
     }
   ]
