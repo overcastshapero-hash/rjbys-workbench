@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T22:07:26.278Z",
+  "generatedAt": "2026-07-11T00:01:09.133Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-10",
   "daily": {
@@ -318,6 +318,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrfiocpi0035ihjlcm4qu8af",
+      "title": "博科圣地如何利用前沿AI技术",
+      "title_en": "恐怖组织\"博科圣地\"如何利用前沿人工智能技术",
+      "url": "https://casp.ac/reports/ai-enabled-terrorism",
+      "permalink": "https://aihot.virxact.com/items/cmrfiocpi0035ihjlcm4qu8af",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-10T22:07:19.177Z",
+      "summary": "2025至2026年间对尼日利亚东北部27名前\"博科圣地\"成员的半结构化访谈揭示了该组织在2024年系统性地利用前沿AI技术。两大派系均使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek辅助作战与日常运作，AI应用已通过专门小组和内部培训实现制度化。成员成功绕过部分安全限制，将AI用于袭击策划、武器故障排查及爆炸装置设计。相关技术通过跨国圣战网络传播，伊斯兰国特工提供了面对面培训。受访者对AI表现出强烈热情，部分人对大规模杀伤性武器持开放态度，但记录在案的使用仍限于常规手段。",
+      "category": "paper",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrfiocpi0035ihjlcm4qu8af"
+      }
+    },
+    {
       "id": "cmrfep0gs01ljihxb6uazy2jn",
       "title": "Apple 起诉 OpenAI 窃取商业机密",
       "title_en": "Apple sues OpenAI over alleged trade secret theft",
@@ -502,40 +519,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmreax6su01ozihyy4xtirms5"
-      }
-    },
-    {
-      "id": "cmrf5hibz009wihg8kzmbzhic",
-      "title": "Thinking Machines Lab：构建延伸人类意志与判断的 AI",
-      "title_en": "The Future Worth Building Is Human",
-      "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human",
-      "permalink": "https://aihot.virxact.com/items/cmrf5hibz009wihg8kzmbzhic",
-      "source": "Thinking Machines Lab：官方博客（RSS）",
-      "publishedAt": "2026-07-10T00:00:00.000Z",
-      "summary": "Thinking Machines Lab 在官方博客中阐述其使命：构建能够延伸人类意志与判断的 AI。文章指出，当前多数 AI 在少数地方训练后便冻结，无法被使用者塑造。该实验室正致力于训练具备多模态交互和可定制化能力的强模型，开发允许用户训练模型权重的工具，并构建拓宽人机沟通渠道的界面。其核心理念是让 AI 服务于分布式的人类知识，使每个组织都能利用自身独特知识微调模型，并持续适应知识演变。",
-      "category": "tip",
-      "score": 60,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrf5hibz009wihg8kzmbzhic"
-      }
-    },
-    {
-      "id": "cmre3p4ne005fihrad1xjqjru",
-      "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
-      "title_en": "Show HN： Show HN：如何在我的低配置电脑上运行 GLM 5.2",
-      "url": "https://github.com/JustVugg/colibri",
-      "permalink": "https://aihot.virxact.com/items/cmre3p4ne005fihrad1xjqjru",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-09T22:18:12.902Z",
-      "summary": "colibrì v1.0 引擎以纯 C 实现、零运行时依赖，可在约 25 GB RAM 的消费级电脑上运行 744B 参数的 GLM-5.2 MoE 模型。模型经 int4 量化后磁盘占用约 370 GB，常驻内存仅 9.9 GB，通过流式加载磁盘专家实现推理。冷解码速度约",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmre3p4ne005fihrad1xjqjru"
       }
     }
   ]
