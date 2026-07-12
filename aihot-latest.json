@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T06:36:13.866Z",
+  "generatedAt": "2026-07-12T09:04:53.633Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-12",
   "daily": {
@@ -276,40 +276,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrglsyla01zoih2enmsl2eu8"
-      }
-    },
-    {
-      "id": "cmrg3dsyt00g4iha7og0687tc",
-      "title": "蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型",
-      "title_en": "Ant Group's Robbyant Unveils LingBot-VA 2.0： A Causal Video-Action Model Built Natively for Physical AI",
-      "url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0",
-      "permalink": "https://aihot.virxact.com/items/cmrg3dsyt00g4iha7og0687tc",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-07-11T07:56:11.000Z",
-      "summary": "蚂蚁集团旗下具身智能团队 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型。该模型采用因果 DiT 架构，视频专家约 13.0B 参数（约 1.9B 激活），训练规模约 15.3B 参数，推理时每 token 约 2.5B 激活。模型引入多块预测（MCP）实现 2.3 倍训练加速，并通过前瞻推理将推理延迟降至 142 ms/chunk。在 RoboTwin 2.0 的 50 个任务上，干净与随机演示数据平均成功率分别达 93.8% 和 93.4%。",
-      "category": "ai-models",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrg3dsyt00g4iha7og0687tc"
-      }
-    },
-    {
-      "id": "cmrg3syhp00l7iha7a3ansg62",
-      "title": "11天Claude Fable 5写超100万行代码：Rust重构JavaScript运行时Bun",
-      "title_en": "11 天 Claude Fable 5 狂写超 100 万行代码：Rust 重构 JavaScript 运行时 Bun",
-      "url": "https://www.ithome.com/0/975/469.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrg3syhp00l7iha7a3ansg62",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-11T07:33:08.000Z",
-      "summary": "开发者Jarred Sumner借助Claude Fable 5模型，11天内将Bun从Zig重写为Rust，64个实例并行编写超100万行代码，API费用约16.5万美元。重构主因是Zig频繁内存错误，Rust可在编译时捕获。Bun v1.4.0以Canary版本发布，修复128个错误，速度提高约2%到5%。Bun团队已于2025年12月被Anthropic收购。",
-      "category": "industry",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrg3syhp00l7iha7a3ansg62"
       }
     }
   ]
