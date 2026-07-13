@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T10:33:51.992Z",
+  "generatedAt": "2026-07-13T16:37:15.247Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-13",
   "daily": {
@@ -164,6 +164,57 @@
   },
   "selectedItems": [
     {
+      "id": "cmrj6actv0651bilkm5pfz6ub",
+      "title": "德国AI协会发布开源模型Soofi S，在英语和德语基准测试中领先",
+      "title_en": "German AI consortium releases Soofi S， an open 30B model that tops benchmarks in both English and German",
+      "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german",
+      "permalink": "https://aihot.virxact.com/items/cmrj6actv0651bilkm5pfz6ub",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-13T11:41:01.000Z",
+      "summary": "德国AI协会协调的研究联盟发布开源大语言模型Soofi S 30B-A3B。该模型总参数量316亿，每个token仅激活约32亿参数，采用Mamba-2与标准注意力层混合的MoE架构。模型完全在德国电信慕尼黑工业AI云上训练，训练数据中德语占比从第一阶段的7.2%提升至第二阶段的15.3%。在基准测试中，Soofi S在所有完全开源模型中取得英语和德语综合最高分，超越OLMo 3 32B和Apertus 70B。在HumanEval上得分73.8%，MBPP得分70.2，德语版MBPP得分84.2。上下文窗口支持最高100万token，在4万token长度下，生成吞吐量约为同规模稠密模型的8倍。模型权重已开源。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrj6actv0651bilkm5pfz6ub"
+      }
+    },
+    {
+      "id": "cmrj4s89p05nhbilkljqel2d5",
+      "title": "腾讯混元发布 HyOCR-1.5：端到端 OCR 大模型全栈开源，推理提速 6.37 倍",
+      "title_en": "训推全开源：HyOCR-1.5 让端到端 OCR 大模型跑得更快、看得更准、功能更全",
+      "url": "https://mp.weixin.qq.com/s/vKFCa9FfoGBUGK8J1MhFag",
+      "permalink": "https://aihot.virxact.com/items/cmrj4s89p05nhbilkljqel2d5",
+      "source": "公众号：腾讯混元",
+      "publishedAt": "2026-07-13T11:12:59.000Z",
+      "summary": "腾讯混元发布 HyOCR-1.5，这是端到端 OCR 大模型领域首个将训练、推理、模型权重完整开源的专家模型。仅 1B 参数，覆盖 8 种以上 text-centric 任务。引入 DFlash 投机解码框架，在 Transformers 下实现 6.37× 加速，vLLM 下 2.14× 加速，端到端推理达每页 1.408s。支持 4K 分辨率与 128K 上下文窗口，通过 Agentic Data Flow 扩展低资源 OCR（331 种语言）、古文字识别与多图问答能力。在 OmniDocBench v1.6 上以 94.74 分居端到端第一。",
+      "category": "ai-models",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrj4s89p05nhbilkljqel2d5"
+      }
+    },
+    {
+      "id": "cmrj36yri059qbilk1n6jhqn1",
+      "title": "Meta 宣布扩建路易斯安那州数据中心至 5GW，总投资超 500 亿美元",
+      "title_en": "总投资超 500 亿美元，Meta 宣布扩建路易斯安那州数据中心至 5GW 规模",
+      "url": "https://www.ithome.com/0/976/149.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrj36yri059qbilk1n6jhqn1",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-13T09:58:56.000Z",
+      "summary": "Meta 将其路易斯安那州数据中心算力扩至 5GW，总投资超 500 亿美元，为全球最大 AI 基础设施投资之一。Meta 承诺承担全部能源及水资源费用，并另投超 10 亿美元改善当地道路及供水系统。此外，Meta 与安特吉公司达成协议，为新建天然气发电厂、储能电池及核电增容项目提供资金支持。",
+      "category": "industry",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrj36yri059qbilk1n6jhqn1"
+      }
+    },
+    {
       "id": "cmrj2yiav054pbilkyf6ufbw2",
       "title": "Seedream 5.0 Pro 测评：图像编辑门槛爆降",
       "title_en": "http://x.com/i/article/2076599995600621568",
@@ -246,57 +297,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmri4o4kx00qcbi3hqxj8rxqd"
-      }
-    },
-    {
-      "id": "cmri0lo1e00irbixecx7cj2f5",
-      "title": "腾讯混元发布Hy3模型：295B参数MoE架构，Agent向LLM定位，已集成微信服务10亿+用户",
-      "title_en": "这个我看第一眼直接卧槽，效果有点炸裂， 腾讯这几个月到底发生了什么，前面组织架构调整，老登高管退位，年轻一代掌权的结果吗？ 兄弟们看这个，腾讯Hy3 把你摄像头直接调起来了， 手往镜头前一伸，整只手的…",
-      "url": "https://x.com/AYi_AInotes/status/2076341952023310580",
-      "permalink": "https://aihot.virxact.com/items/cmri0lo1e00irbixecx7cj2f5",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-07-12T16:24:32.000Z",
-      "summary": "腾讯混元团队发布Hy3模型，采用295B总参数、21B激活参数的MoE架构，推理效率可打平参数规模2-5倍的旗舰模型。Hy3定位为Agent向LLM，从preview到正式版基于50多个真实业务反馈迭代，内部WorkBuddy任务成功率从72%提升至90%，耗时降低34%，幻觉和常识错误持续下降。实测显示其在coding、办公、复杂任务规划方面表现突出，纯视觉能力为短板。Hy3已集成至微信服务10亿+用户，视频演示包括生成HTML网页、Agent网页和10页PPT，模型具备自检和主动说明不足的能力。",
-      "category": "ai-models",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmri0lo1e00irbixecx7cj2f5"
-      }
-    },
-    {
-      "id": "cmrhyer8a01q3biidlr8xr6rm",
-      "title": "纳德拉提出\"反向信息悖论\"：企业使用AI时需保护自身知识",
-      "title_en": "http://x.com/i/article/2076319195718090753",
-      "url": "https://x.com/satyanadella/status/2076323181154230284",
-      "permalink": "https://aihot.virxact.com/items/cmrhyer8a01q3biidlr8xr6rm",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "publishedAt": "2026-07-12T15:09:57.000Z",
-      "summary": "微软CEO萨提亚·纳德拉提出\"反向信息悖论\"：AI时代，买家为使用AI支付金钱，同时必须暴露专有知识（提示词、工具使用、纠正反馈等），这些\"智力废气\"被模型学习，导致信息不对称向卖家倾斜。企业需要真正的信任边界，确保自身数据、痕迹、评估、适配权重和记忆在边界内积累，未经同意不得外泄。纳德拉呼吁企业拥有私有评估、保留组织记忆所有权，并主张企业应有权使用模型输出微调或训练自有模型，以控制自身学习循环。",
-      "category": "tip",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrhyer8a01q3biidlr8xr6rm"
-      }
-    },
-    {
-      "id": "cmrhvwe6k00y7biidjabepmem",
-      "title": "Mindwalk：在代码库 3D 地图上回放编码代理会话",
-      "title_en": "Show HN： Mindwalk--在代码库的 3D 地图上重放编码代理会话",
-      "url": "https://github.com/cosmtrek/mindwalk",
-      "permalink": "https://aihot.virxact.com/items/cmrhvwe6k00y7biidjabepmem",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-12T13:51:05.035Z",
-      "summary": "Mindwalk 是一款可视化工具，可将 Claude Code 和 Codex 的会话日志在代码库的 3D 地图上回放。它将仓库绘制成夜间地图，代理搜索、读取和编辑过的文件会发光，未触及区域保持黑暗，让用户一眼看清代理对任务的理解范围。单个 Go 二进制文件即可运行，所有会话数据完全本地处理，不会离开机器。支持树状图/地形图两种视图，文件触达状态分为未访问、已查看、已读取、已编辑四种颜色标记。播放界面包含错误率、文件修改量等摩擦信号面板，以及上下文压缩、子代理启动、用户交互等时间轴标记。支持键盘快捷键控制播放速度、跳转编辑点或错误点。",
-      "category": "ai-products",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrhvwe6k00y7biidjabepmem"
       }
     }
   ]
