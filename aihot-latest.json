@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:37:15.247Z",
+  "generatedAt": "2026-07-13T18:45:27.039Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-13",
   "daily": {
@@ -164,6 +164,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrjj6scy03ghbi03olyygged",
+      "title": "OpenAI 面向普通用户发布提示词指南：从结果出发，少写步骤",
+      "title_en": "OpenAI's new prompting guide tells users to stop overthinking and start with the result",
+      "url": "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result",
+      "permalink": "https://aihot.virxact.com/items/cmrjj6scy03ghbi03olyygged",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-13T17:47:39.000Z",
+      "summary": "OpenAI 整合了一份面向普通用户的提示词指南，涵盖目标、上下文、输出格式和边界四个可选模块。指南建议以结果而非步骤开头，用一两条硬性规则替代逐步骤脚本。Chat 处理快速任务，基于 Codex 技术和 GPT-5.6 模型的 ChatGPT Work 负责多源、多步骤的复杂项目。Codex 新增 Steer（重定向当前运行）、Queue（排队下一条消息）和沙盒模式，支持 `/plan`、`/goal` 和 `/review` 等斜杠命令。用户无需一次性写对提示词，后续追问是预期调整方式。",
+      "category": "tip",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrjj6scy03ghbi03olyygged"
+      }
+    },
+    {
       "id": "cmrj6actv0651bilkm5pfz6ub",
       "title": "德国AI协会发布开源模型Soofi S，在英语和德语基准测试中领先",
       "title_en": "German AI consortium releases Soofi S， an open 30B model that tops benchmarks in both English and German",
@@ -280,23 +297,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrig9mkx0024bijp9pr04hss"
-      }
-    },
-    {
-      "id": "cmri4o4kx00qcbi3hqxj8rxqd",
-      "title": "Codex与ChatGPT Work多项更新：取消5小时限制",
-      "title_en": "Morning. The last 48 hours of Codex and ChatGPT Work have been intense！ Three important updates： - …",
-      "url": "https://x.com/thsottiaux/status/2076365965915467978",
-      "permalink": "https://aihot.virxact.com/items/cmri4o4kx00qcbi3hqxj8rxqd",
-      "source": "X：Tibo (@thsottiaux)",
-      "publishedAt": "2026-07-12T17:59:57.000Z",
-      "summary": "早上好。过去48小时里，Codex和ChatGPT Work非常忙碌！三项重要更新：\n\n- 暂时取消所有Plus、Business和Pro计划的5小时使用限制\n- 正在推出变更，使GPT 5.6 Sol整体更高效，这将体现在使用量减少上，从而让你能走得更远。具体影响待量化后公布\n- 我们已达到600万活跃用户，并将在接下来一小时内进行使用量重置\n\n去创造吧。",
-      "category": "ai-products",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmri4o4kx00qcbi3hqxj8rxqd"
       }
     }
   ]
