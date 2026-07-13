@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T06:57:18.255Z",
+  "generatedAt": "2026-07-13T10:33:51.992Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-13",
   "daily": {
@@ -164,6 +164,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrj2yiav054pbilkyf6ufbw2",
+      "title": "Seedream 5.0 Pro 测评：图像编辑门槛爆降",
+      "title_en": "http://x.com/i/article/2076599995600621568",
+      "url": "https://x.com/op7418/status/2076604797202161800",
+      "permalink": "https://aihot.virxact.com/items/cmrj2yiav054pbilkyf6ufbw2",
+      "source": "X：歸藏 (@op7418)",
+      "publishedAt": "2026-07-13T09:48:59.000Z",
+      "summary": "字节跳动发布 Seedream 5.0 Pro，图像质量与提示词理解追平 GPT-Image 2.0，综合能力仅次于后者。核心亮点是\"可编辑\"交互：用户可在图上打点、画框、涂鸦，提示词中直接 @ 标记，实现精准局部编辑（如换沙发、改墙面颜色），其他区域不变。实测案例涵盖家装改造（一次替换六件家具）、商品图制作（键盘爆炸拆解图、标注卖点）、海报排版（框定位置生成文字）等场景，支持色卡配色和 SKU 换色。火山引擎已全量上线 API，即梦、豆包、Lumina 可体验。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrj2yiav054pbilkyf6ufbw2"
+      }
+    },
+    {
       "id": "cmrijw1sy00j6bi0jshweyv4l",
       "title": "黄仁勋：英伟达季度收入逼近千亿美元，Rubin Ultra 架构未延期",
       "title_en": null,
@@ -280,23 +297,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrhvwe6k00y7biidjabepmem"
-      }
-    },
-    {
-      "id": "cmrhlbx2v01a4bimnlcgw5m7y",
-      "title": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论",
-      "title_en": "OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating， which is quite the pivot from predicting mass layoffs",
-      "url": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
-      "permalink": "https://aihot.virxact.com/items/cmrhlbx2v01a4bimnlcgw5m7y",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-12T09:15:49.000Z",
-      "summary": "OpenAI CEO Sam Altman 表示，他\"相当确信\"AI 迄今为止净创造了就业，并承认\"这并非我预期\"。此前他曾警告 AI 影响可能快得\"有点吓人\"。Anthropic CEO Dario Amodei 也修正了早期言论，将自动化描述为生产力倍增器而非岗位杀手。然而，多项研究未发现 AI 对整体生产力或劳动力市场产生显著影响。一项多校联合研究指出，程序员和文案的就业危机始于 2022 年初，早于 ChatGPT 发布。耶鲁预算实验室也未发现与 AI 相关的就业市场变化。",
-      "category": "tip",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrhlbx2v01a4bimnlcgw5m7y"
       }
     }
   ]
