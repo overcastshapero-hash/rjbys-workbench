@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:43:29.992Z",
+  "generatedAt": "2026-07-15T05:35:22.194Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-15",
   "daily": {
@@ -318,6 +318,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrljx6d90bx6bi2bpkubslio",
+      "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
+      "title_en": "数据中心已使公众的电费增加了230亿美元",
+      "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
+      "permalink": "https://aihot.virxact.com/items/cmrljx6d90bx6bi2bpkubslio",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-15T03:51:16.524Z",
+      "summary": "数据中心对电力的需求已导致美国公众电费增加230亿美元，这一涨价将持续至2028年底。由于电价由州公用事业委员会根据复杂的成本分摊规则设定，数据中心可利用其用电灵活性（如避开系统峰值负荷）规避部分成本分摊，而普通居民难以效仿。监管机构正面临如何公平分配电网基础设施投资成本的挑战。",
+      "category": "tip",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrljx6d90bx6bi2bpkubslio"
+      }
+    },
+    {
       "id": "cmrlh3k0009h8bi2bwjpgkauw",
       "title": "阿里发布 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 语音推理子项中综合排名第一",
       "title_en": "Qwen-Audio-3.0-Realtime 如何让语音交互\"懂倾听，更聪明\"？",
@@ -332,6 +349,23 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrlh3k0009h8bi2bwjpgkauw"
+      }
+    },
+    {
+      "id": "cmrlh600d09kzbi2bnol6i2xu",
+      "title": "Airtap iMessage 新功能：发条短信让 AI 替你操作手机",
+      "title_en": "刚演示完帮我刷 TikTok，转头就跑通了星巴克点单，AI真的无感的刚我点好了一杯美式，感觉Airtap 这步迈得比预想的狠啊。 你不用装 TikTok，也不用装星巴克 App，甚至不用开任何新软件…",
+      "url": "https://x.com/AYi_AInotes/status/2077217295504490992",
+      "permalink": "https://aihot.virxact.com/items/cmrlh600d09kzbi2bnol6i2xu",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-07-15T02:22:50.000Z",
+      "summary": "Airtap 推出 iMessage 新功能，用户只需给美国号码发一条 iMessage，其云手机上的 AI Agent 就能通过视觉模拟点击，替用户完成 TikTok 刷视频、星巴克点单等操作，无需安装对应 App。其架构分为三层：大脑（理解指令）、AutoPilot（视觉操控屏幕）、云手机（24小时在线）。但支付等敏感操作仍需用户手动完成，信任与授权仍是所有 Agent 厂商的难题。",
+      "category": "tip",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrlh600d09kzbi2bnol6i2xu"
       }
     },
     {
