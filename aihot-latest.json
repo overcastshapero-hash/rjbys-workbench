@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T05:35:22.194Z",
+  "generatedAt": "2026-07-15T08:19:02.795Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-15",
   "daily": {
@@ -638,40 +638,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrkf8gun01a4bizsthjytx6c"
-      }
-    },
-    {
-      "id": "cmrkedwpc013nbizssg3olzs7",
-      "title": "高德发布通用世界模型工坊 ABot-WorldStudio，已开放测试",
-      "title_en": "内置\"任意门\"，高德发布通用世界模型工坊 ABot-WorldStudio",
-      "url": "https://www.ithome.com/0/976/538.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrkedwpc013nbizssg3olzs7",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-14T07:46:46.000Z",
-      "summary": "阿里巴巴旗下高德发布通用世界模型工坊 ABot-WorldStudio，并开放测试。该产品将交互式视频生成与 3DGS 场景生成统一，用户输入文字或图片即可生成可实时交互、可分享的 AI 世界。工坊内置\"时空任意门\"，穿越后可跃迁至另一完整 3D 世界。官方实测单次连续推理稳定运行超1小时，无崩溃、无质量衰减。底层模型 ABot-World0 与 ABot-3DWorld0 均可在单张 5090 上本地部署，已全面开源。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrkedwpc013nbizssg3olzs7"
-      }
-    },
-    {
-      "id": "cmrkbtf5p0090bizscsgmhctc",
-      "title": "普林斯顿教授 Narayanan 在 ICML 2026 发表主旨演讲：AI 作为正常技术，人类应主动适应而非躺平",
-      "title_en": "那我们还能做些什么呢？",
-      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-      "permalink": "https://aihot.virxact.com/items/cmrkbtf5p0090bizscsgmhctc",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-14T07:07:34.621Z",
-      "summary": "普林斯顿大学教授 Arvind Narayanan 在首尔 ICML 2026 上发表主旨演讲，提出三个核心论点：第一，\"AI 作为正常技术\"框架是思考 AI 影响的正确方式；第二，即使应认真对待递归自我改进，实验室中没有任何里程碑会突然让所有人失业；第三，未来工作将发生根本性变化，需要大量适应。他呼吁 AI 社区不应接受工作被取代，而应主动建立与 AI 互补的技能（如判断力、品味），并展望了人类与 AI 的\"共超智能\"愿景。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrkbtf5p0090bizscsgmhctc"
       }
     }
   ]
