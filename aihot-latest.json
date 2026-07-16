@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T21:03:50.152Z",
+  "generatedAt": "2026-07-16T22:59:35.109Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-16",
   "daily": {
@@ -295,6 +295,23 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmro185e3011jbij2ond4t12b",
+      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
+      "title_en": "Automations in Grok",
+      "url": "https://x.ai/news/grok-automations",
+      "permalink": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-07-16T21:39:40.165Z",
+      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
+      "category": "ai-products",
+      "score": 85,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b"
+      }
+    },
     {
       "id": "cmrnz309k00f0biq1v5egac59",
       "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
@@ -667,23 +684,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrmrjrwk001pbimilq46mpeq"
-      }
-    },
-    {
-      "id": "cmrmotlpp07iubiuloujszkts",
-      "title": "开源编程智能体内存方案发布，通过 SSH 同步",
-      "title_en": "用于编程代理的开源内存，通过SSH同步",
-      "url": "https://github.com/vshulcz/deja-vu",
-      "permalink": "https://aihot.virxact.com/items/cmrmotlpp07iubiuloujszkts",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-15T22:49:15.715Z",
-      "summary": "一个面向编程 AI 智能体的开源内存项目在 GitHub 发布，支持通过 SSH 同步记忆数据。该项目允许智能体跨会话保留上下文，无需依赖特定云服务，用户可自托管。代码已开源，便于开发者集成与定制。",
-      "category": "ai-products",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmotlpp07iubiuloujszkts"
       }
     }
   ]
