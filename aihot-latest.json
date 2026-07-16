@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:04:37.024Z",
+  "generatedAt": "2026-07-16T17:21:21.547Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-16",
   "daily": {
@@ -296,6 +296,40 @@
   },
   "selectedItems": [
     {
+      "id": "cmrnrc11901tnbizz2dlcio3z",
+      "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
+      "title_en": "The agent evaluation gap： Enterprise AI organizations have a reality-alignment problem， not a coverage problem - and most are shipping to production anyway",
+      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "permalink": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z",
+      "source": "VentureBeat：AI（RSS）",
+      "publishedAt": "2026-07-16T16:40:48.000Z",
+      "summary": "对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限。尽管信任度低，66%的企业已允许或正计划在12个月内实现低风险智能体的全自动、无人工干预部署。",
+      "category": "tip",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z"
+      }
+    },
+    {
+      "id": "cmrnq8ryq01d5bizzarqvm3y1",
+      "title": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
+      "title_en": "Create， edit and star in videos with two Google Vids updates",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
+      "permalink": "https://aihot.virxact.com/items/cmrnq8ryq01d5bizzarqvm3y1",
+      "source": "Google Blog：AI（RSS）",
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "summary": "Google Vids 推出两项更新：Gemini Omni 支持用户通过自然语言提示词和图片参考生成、逐步编辑高质量视频片段；个人数字分身功能允许用户上传自拍和语音录制后，输入文字即可让数字分身出镜。两项功能面向 Google AI Pro 和 Ultra 订阅者及 Google Workspace 商业客户开放，所有生成内容均含不可见的 SynthID 数字水印。",
+      "category": "ai-products",
+      "score": 60,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnq8ryq01d5bizzarqvm3y1"
+      }
+    },
+    {
       "id": "cmrnmdjt80051bizz895rbmu6",
       "title": "世界人工智能合作组织协定签署仪式在上海举行，总部设中国上海",
       "title_en": "世界人工智能合作组织协定签署仪式举行，总部设中国上海",
@@ -551,23 +585,6 @@
       }
     },
     {
-      "id": "cmrmkn6j703yfbiul4fa0bai9",
-      "title": "xAI 开源 Grok Build 编程智能体与终端界面",
-      "title_en": "Grok Build is Now Open Source",
-      "url": "https://x.ai/news/grok-build-open-source",
-      "permalink": "https://aihot.virxact.com/items/cmrmkn6j703yfbiul4fa0bai9",
-      "source": "xAI：News（网页）",
-      "publishedAt": "2026-07-15T21:07:41.894Z",
-      "summary": "xAI 已将 Grok Build 的源代码在 GitHub 上开源。Grok Build 是 SpaceXAI 的编程智能体与终端用户界面（TUI），开源后用户可自行编译并完全本地运行，指向本地推理引擎并通过 `config.toml` 配置。",
-      "category": "ai-products",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmkn6j703yfbiul4fa0bai9"
-      }
-    },
-    {
       "id": "cmrmk6l3k03rtbiull7o39kq0",
       "title": "Claude Code 新增 MCP 连接器调用功能",
       "title_en": "Claude Code artifacts can now call MCP connectors， letting you build dashboards and apps that can fe…",
@@ -633,40 +650,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrmee60505d9bivcmy92uddy"
-      }
-    },
-    {
-      "id": "cmrmbtk3z0002bivco9advwbd",
-      "title": "AI语音诈骗：退休老人因合成女儿哭声被骗1.5万美元",
-      "title_en": "《三秒盗窃：为何人工智能语音诈骗总能突破所有防线》",
-      "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
-      "permalink": "https://aihot.virxact.com/items/cmrmbtk3z0002bivco9advwbd",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-15T16:25:19.955Z",
-      "summary": "2025年夏季，美国佛罗里达州一名退休老人接到\"女儿\"哭诉车祸需保释金的电话，一小时内取现1.5万美元交给冒充法院的快递员--实际上，哭声是从一段音频片段合成的AI语音。FBI 2026年4月报告首次将AI欺诈列为独立类别，2025年收到超2.2万起AI相关投诉，调整后损失超8.93亿美元，其中60岁以上受害者占3.52亿美元。",
-      "category": "tip",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmbtk3z0002bivco9advwbd"
-      }
-    },
-    {
-      "id": "cmrm9ne9101gqbiijkgrj6t9h",
-      "title": "Telegram 无服务器架构",
-      "title_en": null,
-      "url": "https://core.telegram.org/bots/serverless",
-      "permalink": "https://aihot.virxact.com/items/cmrm9ne9101gqbiijkgrj6t9h",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-15T15:37:19.450Z",
-      "summary": "Telegram Serverless 允许开发者直接在 Telegram 基础设施上运行 Bot 和 Mini App 的后端代码，无需配置服务器或容器。开发者编写普通 JavaScript 模块，通过 `npx tgcloud push` 单命令部署，代码在靠近 Bot API 和内建数据库的轻量级 V8 隔离沙箱中执行。",
-      "category": "ai-products",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrm9ne9101gqbiijkgrj6t9h"
       }
     }
   ]
