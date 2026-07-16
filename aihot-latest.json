@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T17:21:21.547Z",
+  "generatedAt": "2026-07-16T19:16:57.183Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-16",
   "daily": {
@@ -295,6 +295,91 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrnvwztt01bebixyznbje716",
+      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
+      "title_en": "PerceptionBench",
+      "url": "https://www.kimi.com/blog/perception-bench",
+      "permalink": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716",
+      "source": "Moonshot AI：Kimi Blog",
+      "publishedAt": "2026-07-16T19:11:01.192Z",
+      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
+      "category": "paper",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716"
+      }
+    },
+    {
+      "id": "cmrnvme99015abixymkemy6lj",
+      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
+      "title_en": "The agent security gap： 54% of enterprises have already had an AI agent incident， and most still let agents share credentials",
+      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "permalink": "https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj",
+      "source": "VentureBeat：AI（RSS）",
+      "publishedAt": "2026-07-16T19:02:38.000Z",
+      "summary": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透率极低。",
+      "category": "industry",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj"
+      }
+    },
+    {
+      "id": "cmrnvlijq012lbixy2xhlk8k8",
+      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
+      "title_en": "Create and edit polished docs， spreadsheets， and slides in ChatGPT Work. @nickbaumann_ walks you th…",
+      "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
+      "permalink": "https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "publishedAt": "2026-07-16T18:44:58.000Z",
+      "summary": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8"
+      }
+    },
+    {
+      "id": "cmrnvq3xd015sbixyztrtb01z",
+      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
+      "title_en": "Decoy 字体",
+      "url": "https://www.mixfont.com/experiments/decoy-font",
+      "permalink": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-16T18:32:23.680Z",
+      "summary": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z"
+      }
+    },
+    {
+      "id": "cmrnse7qy002tbixy7gnolvr3",
+      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
+      "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "permalink": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-07-16T17:32:26.540Z",
+      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
+      "category": "tip",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3"
+      }
+    },
     {
       "id": "cmrnrc11901tnbizz2dlcio3z",
       "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
@@ -616,40 +701,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrmibbm801m8biulhl6uejzo"
-      }
-    },
-    {
-      "id": "cmrmeaixl05bdbivcipzbkgk8",
-      "title": "Thinking Machines 发布多模态模型 Inkling",
-      "title_en": "Today， we are introducing Inkling. Inkling reasons efficiently across text， image， and audio modali…",
-      "url": "https://x.com/thinkymachines/status/2077454609551921208",
-      "permalink": "https://aihot.virxact.com/items/cmrmeaixl05bdbivcipzbkgk8",
-      "source": "X：Thinking Machines (@thinkymachines)",
-      "publishedAt": "2026-07-15T18:05:50.000Z",
-      "summary": "今天，我们推出 Inkling。\n\nInkling 能高效地对文本、图像和音频模态进行推理。我们将提供完整权重。\n\nhttps://thinkingmachines.ai/news/introducing-inkling/\n\n即日起可在 Tinker 上进行微调。在 Inkling Playground 中试用。🧵",
-      "category": "ai-models",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmeaixl05bdbivcipzbkgk8"
-      }
-    },
-    {
-      "id": "cmrmee60505d9bivcmy92uddy",
-      "title": "Anthropic 研究：AI 智能体模拟中行为偏差",
-      "title_en": "New Anthropic research： Agentic misalignment in Summer 2026. A year after our blackmail experiments…",
-      "url": "https://x.com/AnthropicAI/status/2077452646303006927",
-      "permalink": "https://aihot.virxact.com/items/cmrmee60505d9bivcmy92uddy",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "publishedAt": "2026-07-15T17:58:02.000Z",
-      "summary": "Anthropic 新研究：2026 年夏季的智能体行为偏差。\n\n在我们的敲诈实验一年后，我们又发现了四种当今自主 AI 智能体在模拟中行为不当的方式。\n\n了解更多：https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-      "category": "paper",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmee60505d9bivcmy92uddy"
       }
     }
   ]
