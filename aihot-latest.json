@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T07:23:52.084Z",
+  "generatedAt": "2026-07-16T10:12:17.850Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-16",
   "daily": {
@@ -296,6 +296,74 @@
   },
   "selectedItems": [
     {
+      "id": "cmrnclu0101cgbic6rpcgkw8s",
+      "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+      "title_en": "首 token 延迟降 3.25 倍！小红书联合北大、上交提出 HYPIC，让混合注意力大模型用上「位置无关缓存」",
+      "url": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+      "permalink": "https://aihot.virxact.com/items/cmrnclu0101cgbic6rpcgkw8s",
+      "source": "公众号：小红书技术（dots.llm）",
+      "publishedAt": "2026-07-16T10:00:00.000Z",
+      "summary": "HYPIC 在混合注意力大模型上实现了位置无关缓存，将首 token 延迟平均降低 3.25 倍。在 4 个生产级模型上，同 SLO 下可持续 QPS 提升 1.66 倍，任务质量与完全重算仅相差 1.71 分。",
+      "category": "paper",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnclu0101cgbic6rpcgkw8s"
+      }
+    },
+    {
+      "id": "cmrnc82t9016bbic6qmevgy67",
+      "title": "Gemini Enterprise Agent Platform 新增 Parallel Web Search 网络接地提供商",
+      "title_en": "Expanding Choice in Gemini Enterprise Agent Platform： Introducing Grounding with Parallel Web Search",
+      "url": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search",
+      "permalink": "https://aihot.virxact.com/items/cmrnc82t9016bbic6qmevgy67",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-07-16T09:58:51.914Z",
+      "summary": "Google Cloud 与 Parallel Web Systems 合作，将 Parallel 的搜索基础设施作为新的网络接地提供商原生集成到 Gemini Enterprise Agent Platform 中。该集成使开发者能将 AI 智能体锚定在可验证的实时网络结果上，以提升企业工作流的事实准确性。用户还可编程提取、永久缓存并与其他大语言模型一起处理网络数据。",
+      "category": "ai-products",
+      "score": 60,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnc82t9016bbic6qmevgy67"
+      }
+    },
+    {
+      "id": "cmrn9ik1w00cdbic6r0i9cc93",
+      "title": "台积电上调2026年资本支出预测至600~640亿美元，A14制程进展顺利",
+      "title_en": "台积电将 2026 年资本支出预测进一步上调至 600~640 亿美元",
+      "url": "https://www.ithome.com/0/977/544.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrn9ik1w00cdbic6r0i9cc93",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-16T07:59:15.000Z",
+      "summary": "台积电在2026Q2财报说明会上将2026年资本支出预测上调至600~640亿美元，此前预测接近560亿美元。董事长魏哲家表示，预计2028年量产的A14制程（1.4nm）开发进展顺利，移动和HPC客户兴趣强烈，将成为比2nm更大、更持久的工艺。台积电预计2026Q3合并营收446~458亿美元，2026全年美元收入增幅将超过40%。",
+      "category": "industry",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrn9ik1w00cdbic6r0i9cc93"
+      }
+    },
+    {
+      "id": "cmrn7cx9z07c0bije5ilnyr7x",
+      "title": "Patter SDK 教程：构建餐厅预订电话智能体，支持动态变量、护栏、延迟仪表盘与评估检查",
+      "title_en": "Patter SDK Guide to Building a Restaurant Booking Phone Agent with Dynamic Variables， Guardrails， Latency Dashboards， and Eval Checks",
+      "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
+      "permalink": "https://aihot.virxact.com/items/cmrn7cx9z07c0bije5ilnyr7x",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-16T07:42:49.000Z",
+      "summary": "Patter SDK 发布教程，演示如何构建一个餐厅预订场景的语音智能体工作流。该流程支持动态调用变量、注册可调用工具、应用输出护栏（如PII脱敏、脏话过滤、话题范围限制），并可在无需实时电话凭证的情况下运行脚本化通话模拟。教程还涵盖延迟与成本指标追踪、回归式评估检查，以及将智能体逻辑、工具调用、安全检查和通话模拟整合为单一结构化管线。",
+      "category": "tip",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrn7cx9z07c0bije5ilnyr7x"
+      }
+    },
+    {
       "id": "cmrmybfkm039cbijeh07y5kq0",
       "title": "千问APP联合武汉发布举办AI求职实战课，演示简历诊断与办公自动化",
       "title_en": "已在工位，今天先学怎么上班",
@@ -531,57 +599,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrlz5b6r01kabi5ksc1pj878"
-      }
-    },
-    {
-      "id": "cmrmc527c0088bivcfrd3s2uz",
-      "title": "OpenAI 发布 GPT-Red：通过自动化红队测试提升模型鲁棒性",
-      "title_en": "GPT-Red： Unlocking Self-Improvement for Robustness",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "permalink": "https://aihot.virxact.com/items/cmrmc527c0088bivcfrd3s2uz",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-07-15T10:00:00.000Z",
-      "summary": "OpenAI 训练了自动化红队模型 GPT-Red，用于在部署前发现漏洞并在训练中生成攻击以提升模型鲁棒性。GPT-Red 能攻破此前几乎所有模型，其攻击被用于对抗训练 GPT-5.6 Sol，使该模型在直接提示注入基准测试中的失败率降至四个月前最佳生产模型的 1/6。GPT-Red 通过自对弈强化学习训练，投入了 OpenAI 后训练中前所未有的计算规模。",
-      "category": "ai-models",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmc527c0088bivcfrd3s2uz"
-      }
-    },
-    {
-      "id": "cmrltzprt0013bi5ku0th9q9q",
-      "title": "国行 Apple 智能完成备案，阿里千问将集成至苹果 AI 能力",
-      "title_en": "国行苹果 AI 功能完成备案，消息称阿里千问将作为 AI 能力集成至\"Apple 智能\"",
-      "url": "https://www.ithome.com/0/977/109.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrltzprt0013bi5ku0th9q9q",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-15T08:41:23.000Z",
-      "summary": "苹果技术开发（上海）有限公司的\"Apple 智能\"大模型已于 2026 年 7 月 8 日完成备案，适用场景为苹果手机。阿里千问将作为 AI 能力集成至 Apple 智能，为 iOS、iPadOS、macOS 和 visionOS 的中国用户提供文本与图像理解、内容生成等功能，用户无需在应用间切换即可直接体验。",
-      "category": "industry",
-      "score": 82,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrltzprt0013bi5ku0th9q9q"
-      }
-    },
-    {
-      "id": "cmrltzprt0014bi5k7mp2uwpy",
-      "title": "金山办公推出 WPS Comate AI 办公客户端",
-      "title_en": "金山办公推出 WPS Comate AI 办公客户端，支持 Skill 技能生态、自动化任务、Wiki 知识库等",
-      "url": "https://www.ithome.com/0/977/105.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrltzprt0014bi5k7mp2uwpy",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-15T08:39:58.000Z",
-      "summary": "金山办公在2026 AI生产力大会上推出面向员工的AI办公客户端WPS Comate，可连接组织数据与流程。该产品提供AI岗位专家、Skill技能生态、自动化任务等六大模块，并支持云端与本地双任务模式，个人用户可直接下载体验。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrltzprt0014bi5k7mp2uwpy"
       }
     }
   ]
