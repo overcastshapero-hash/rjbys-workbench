@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T19:16:57.183Z",
+  "generatedAt": "2026-07-16T21:03:50.152Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-16",
   "daily": {
@@ -295,6 +295,23 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrnz309k00f0biq1v5egac59",
+      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
+      "title_en": "xAI can't deny Grok makes CSAM anymore. So it's suing users.",
+      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
+      "permalink": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-07-16T20:26:23.000Z",
+      "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。",
+      "category": "industry",
+      "score": 87,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59"
+      }
+    },
     {
       "id": "cmrnvwztt01bebixyznbje716",
       "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
@@ -667,40 +684,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrmotlpp07iubiuloujszkts"
-      }
-    },
-    {
-      "id": "cmrmk6l3k03rtbiull7o39kq0",
-      "title": "Claude Code 新增 MCP 连接器调用功能",
-      "title_en": "Claude Code artifacts can now call MCP connectors， letting you build dashboards and apps that can fe…",
-      "url": "https://x.com/ClaudeDevs/status/2077489907350856038",
-      "permalink": "https://aihot.virxact.com/items/cmrmk6l3k03rtbiull7o39kq0",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "publishedAt": "2026-07-15T20:26:06.000Z",
-      "summary": "Claude Code 的 artifacts 现在可以调用 MCP 连接器，让你构建能够按需为每位查看者获取信息并执行操作的仪表盘和应用。\n\n适用于 Pro、Max、Team 和 Enterprise 计划。不适用于公开共享的 artifacts。",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmk6l3k03rtbiull7o39kq0"
-      }
-    },
-    {
-      "id": "cmrmibbm801m8biulhl6uejzo",
-      "title": "前谷歌DeepMind研究员因公司签署无限制军事AI协议而离职",
-      "title_en": "我为何离开谷歌DeepMind",
-      "url": "https://turntrout.com/why-i-left-google-deepmind",
-      "permalink": "https://aihot.virxact.com/items/cmrmibbm801m8biulhl6uejzo",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-15T19:37:38.646Z",
-      "summary": "前谷歌DeepMind研究员Alex Turner因谷歌向国土安全部出售云服务并最终签署无限制军事AI协议而离职。他曾起草25页提案要求加入禁止杀手机器人和大规模监控的合同条款，但提案被CEO转交后无人跟进。Turner指出，包括Jeff Dean和Stuart Russell在内的多位AI伦理领袖在关键时刻未能兑现承诺。",
-      "category": "tip",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmibbm801m8biulhl6uejzo"
       }
     }
   ]
