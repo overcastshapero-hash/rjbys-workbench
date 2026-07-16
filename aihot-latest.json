@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T10:12:17.850Z",
+  "generatedAt": "2026-07-16T12:21:58.678Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-16",
   "daily": {
@@ -296,6 +296,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrngw19f00fcbiu5iso650ol",
+      "title": "欧盟裁定 Google 必须向竞争对手开放 Android 和 Search，影响 Gemini 等 AI 服务",
+      "title_en": "Google ordered to open Android and Search to rivals in Europe",
+      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "permalink": "https://aihot.virxact.com/items/cmrngw19f00fcbiu5iso650ol",
+      "source": "The Verge：AI（RSS）",
+      "publishedAt": "2026-07-16T12:06:51.000Z",
+      "summary": "欧盟依据《数字市场法案》（DMA）裁定 Google 必须向竞争对手开放 Android 和 Google Search 的关键部分，包括允许第三方 AI 助手和搜索引擎获得更大访问权限。这两项决定可能削弱 Google 对两大核心平台的控制，并为其 AI 工具 Gemini 的未来格局带来深远影响，同时为竞争对手创造新的发展机会。",
+      "category": "industry",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrngw19f00fcbiu5iso650ol"
+      }
+    },
+    {
       "id": "cmrnclu0101cgbic6rpcgkw8s",
       "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
       "title_en": "首 token 延迟降 3.25 倍！小红书联合北大、上交提出 HYPIC，让混合注意力大模型用上「位置无关缓存」",
@@ -582,23 +599,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrm9ne9101gqbiijkgrj6t9h"
-      }
-    },
-    {
-      "id": "cmrlz5b6r01kabi5ksc1pj878",
-      "title": "阿里Qwen将集成至Apple Intelligence服务中国用户",
-      "title_en": "We learned that Alibaba's Qwen will be integrated into Apple Intelligence as part of its AI capabili…",
-      "url": "https://x.com/thexpin/status/2077346752219521469",
-      "permalink": "https://aihot.virxact.com/items/cmrlz5b6r01kabi5ksc1pj878",
-      "source": "X：X.PIN (@thexpin)",
-      "publishedAt": "2026-07-15T10:57:15.000Z",
-      "summary": "阿里巴巴的Qwen模型将被集成到Apple Intelligence中，为中国的iOS、iPadOS、macOS和visionOS用户提供文本与图像理解、内容生成等AI功能。中国网信办已公布包括Apple Intelligence、华为小艺大模型、OPPO AndesGPT在内的七项移动端生成式AI服务备案信息。阿里巴巴董事会主席蔡崇信表示，苹果在选定阿里前曾与多家中国公司洽谈。",
-      "category": "industry",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrlz5b6r01kabi5ksc1pj878"
       }
     }
   ]
