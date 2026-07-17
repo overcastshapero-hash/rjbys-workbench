@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T20:07:43.509Z",
+  "generatedAt": "2026-07-17T21:56:16.612Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-17",
   "daily": {
@@ -575,23 +575,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4"
-      }
-    },
-    {
-      "id": "cmrnz309k00f0biq1v5egac59",
-      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
-      "title_en": "xAI can't deny Grok makes CSAM anymore. So it's suing users.",
-      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
-      "permalink": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59",
-      "source": "Ars Technica：AI（RSS）",
-      "publishedAt": "2026-07-16T20:26:23.000Z",
-      "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。",
-      "category": "industry",
-      "score": 87,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59"
       }
     }
   ]
