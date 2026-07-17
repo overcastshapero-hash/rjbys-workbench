@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:45:10.922Z",
+  "generatedAt": "2026-07-17T16:17:38.060Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-17",
   "daily": {
@@ -493,23 +493,6 @@
       }
     },
     {
-      "id": "cmro185e3011jbij2ond4t12b",
-      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
-      "title_en": "Automations in Grok",
-      "url": "https://x.ai/news/grok-automations",
-      "permalink": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b",
-      "source": "xAI：News（网页）",
-      "publishedAt": "2026-07-16T21:39:40.165Z",
-      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
-      "category": "ai-products",
-      "score": 85,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b"
-      }
-    },
-    {
       "id": "cmrnz309k00f0biq1v5egac59",
       "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
       "title_en": "xAI can't deny Grok makes CSAM anymore. So it's suing users.",
@@ -524,23 +507,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59"
-      }
-    },
-    {
-      "id": "cmrnvwztt01bebixyznbje716",
-      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
-      "title_en": "PerceptionBench",
-      "url": "https://www.kimi.com/blog/perception-bench",
-      "permalink": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716",
-      "source": "Moonshot AI：Kimi Blog",
-      "publishedAt": "2026-07-16T19:11:01.192Z",
-      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
-      "category": "paper",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716"
       }
     },
     {
@@ -595,23 +561,6 @@
       }
     },
     {
-      "id": "cmrnse7qy002tbixy7gnolvr3",
-      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
-      "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
-      "url": "https://claude.com/blog/ai-code-migration",
-      "permalink": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-07-16T17:32:26.540Z",
-      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3"
-      }
-    },
-    {
       "id": "cmrnrc11901tnbizz2dlcio3z",
       "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
       "title_en": "The agent evaluation gap： Enterprise AI organizations have a reality-alignment problem， not a coverage problem - and most are shipping to production anyway",
@@ -626,23 +575,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z"
-      }
-    },
-    {
-      "id": "cmrnq8ryq01d5bizzarqvm3y1",
-      "title": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
-      "title_en": "Create， edit and star in videos with two Google Vids updates",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
-      "permalink": "https://aihot.virxact.com/items/cmrnq8ryq01d5bizzarqvm3y1",
-      "source": "Google Blog：AI（RSS）",
-      "publishedAt": "2026-07-16T16:00:00.000Z",
-      "summary": "Google Vids 推出两项更新：Gemini Omni 支持用户通过自然语言提示词和图片参考生成、逐步编辑高质量视频片段；个人数字分身功能允许用户上传自拍和语音录制后，输入文字即可让数字分身出镜。两项功能面向 Google AI Pro 和 Ultra 订阅者及 Google Workspace 商业客户开放，所有生成内容均含不可见的 SynthID 数字水印。",
-      "category": "ai-products",
-      "score": 60,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnq8ryq01d5bizzarqvm3y1"
       }
     }
   ]
