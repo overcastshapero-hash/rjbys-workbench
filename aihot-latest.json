@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T16:17:38.060Z",
+  "generatedAt": "2026-07-17T18:07:50.847Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-17",
   "daily": {
@@ -340,6 +340,74 @@
   },
   "selectedItems": [
     {
+      "id": "cmrp8wsr10bhobitotnd5hzeq",
+      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
+      "title_en": "杨植麟在 GTC 2026 的一次演讲\"How We Scaled Kimi K2.5\"：月之暗面想把 AI 训练中三个沿用了近十年的基础组件，重新做一遍。优化器 Adam（2014 年）、注意力机制…",
+      "url": "https://x.com/dotey/status/2078172517085085951",
+      "permalink": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
+      "source": "X：宝玉 (@dotey)",
+      "publishedAt": "2026-07-17T17:38:33.000Z",
+      "summary": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Agent并行工作。",
+      "category": "paper",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq"
+      }
+    },
+    {
+      "id": "cmrp7cwpv0ay9bitoudhrgt7k",
+      "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
+      "title_en": "The frontier has opened up： four frontier launches in eight days - Grok 4.5， GPT-5.6， Muse Spark 1.1…",
+      "url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
+      "permalink": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "publishedAt": "2026-07-17T17:11:19.000Z",
+      "summary": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2 家增至 6 家。",
+      "category": "tip",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k"
+      }
+    },
+    {
+      "id": "cmrp6rlcn0aq5bitortofd0cp",
+      "title": "Sora 2 视频克隆效果惊人，真假难辨",
+      "title_en": "nothing comes close to the perfect video deep clone of sora a year later. it catches mine and sams e…",
+      "url": "https://x.com/gabriel1/status/2078156277247881438",
+      "permalink": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
+      "source": "X：Gabriel (@gabriel1)",
+      "publishedAt": "2026-07-17T16:34:01.000Z",
+      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。",
+      "category": "ai-models",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp"
+      }
+    },
+    {
+      "id": "cmrp5pfjw0af6bitoudv35oqk",
+      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
+      "title_en": "Working at the frontier： How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
+      "url": "https://claude.com/blog/working-at-the-frontier-cursor",
+      "permalink": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-07-17T16:32:51.023Z",
+      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
+      "category": "tip",
+      "score": 64,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk"
+      }
+    },
+    {
       "id": "cmrp0qw3s090ybitorwj6diwi",
       "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
       "title_en": "BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
@@ -558,23 +626,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z"
-      }
-    },
-    {
-      "id": "cmrnrc11901tnbizz2dlcio3z",
-      "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
-      "title_en": "The agent evaluation gap： Enterprise AI organizations have a reality-alignment problem， not a coverage problem - and most are shipping to production anyway",
-      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-      "permalink": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z",
-      "source": "VentureBeat：AI（RSS）",
-      "publishedAt": "2026-07-16T16:40:48.000Z",
-      "summary": "对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限。尽管信任度低，66%的企业已允许或正计划在12个月内实现低风险智能体的全自动、无人工干预部署。",
-      "category": "tip",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z"
       }
     }
   ]
