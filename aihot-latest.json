@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T18:07:50.847Z",
+  "generatedAt": "2026-07-17T20:07:43.509Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-17",
   "daily": {
@@ -340,6 +340,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrp97h7o0020biuxh7pzewro",
+      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
+      "title_en": "Apple's plot to crush OpenAI",
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "permalink": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
+      "source": "The Verge：AI（RSS）",
+      "publishedAt": "2026-07-17T17:41:32.000Z",
+      "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro"
+      }
+    },
+    {
       "id": "cmrp8wsr10bhobitotnd5hzeq",
       "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
       "title_en": "杨植麟在 GTC 2026 的一次演讲\"How We Scaled Kimi K2.5\"：月之暗面想把 AI 训练中三个沿用了近十年的基础组件，重新做一遍。优化器 Adam（2014 年）、注意力机制…",
@@ -575,57 +592,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59"
-      }
-    },
-    {
-      "id": "cmrnvme99015abixymkemy6lj",
-      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
-      "title_en": "The agent security gap： 54% of enterprises have already had an AI agent incident， and most still let agents share credentials",
-      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-      "permalink": "https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj",
-      "source": "VentureBeat：AI（RSS）",
-      "publishedAt": "2026-07-16T19:02:38.000Z",
-      "summary": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透率极低。",
-      "category": "industry",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnvme99015abixymkemy6lj"
-      }
-    },
-    {
-      "id": "cmrnvlijq012lbixy2xhlk8k8",
-      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
-      "title_en": "Create and edit polished docs， spreadsheets， and slides in ChatGPT Work. @nickbaumann_ walks you th…",
-      "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
-      "permalink": "https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "publishedAt": "2026-07-16T18:44:58.000Z",
-      "summary": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnvlijq012lbixy2xhlk8k8"
-      }
-    },
-    {
-      "id": "cmrnvq3xd015sbixyztrtb01z",
-      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
-      "title_en": "Decoy 字体",
-      "url": "https://www.mixfont.com/experiments/decoy-font",
-      "permalink": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-16T18:32:23.680Z",
-      "summary": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z"
       }
     }
   ]
