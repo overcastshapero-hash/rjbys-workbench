@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T05:30:03.129Z",
+  "generatedAt": "2026-07-18T07:56:33.810Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-18",
   "daily": {
@@ -360,6 +360,23 @@
       }
     },
     {
+      "id": "cmrpy1nvp06pubisrn8ne51v6",
+      "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
+      "title_en": "LLM cliché highlighter",
+      "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter",
+      "permalink": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-07-17T12:11:11.000Z",
+      "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如\"no fluff， no filler， no jargon\"这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。",
+      "category": "tip",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6"
+      }
+    },
+    {
       "id": "cmrove64p07imbitof1v9rzwz",
       "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
       "title_en": null,
@@ -425,40 +442,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u"
-      }
-    },
-    {
-      "id": "cmronvv4105bdbitohe86a4un",
-      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
-      "title_en": "NVIDIA AI Releases Nemotron 3 Embed： An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB",
-      "url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
-      "permalink": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-07-17T07:53:02.000Z",
-      "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上吞吐量比 BF16 高 2 倍，精度保留 99.5%，所有模型最大序列长度 32，768 tokens。",
-      "category": "ai-models",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un"
-      }
-    },
-    {
-      "id": "cmrolz26304oqbito42v7oeaz",
-      "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
-      "title_en": "Wan-Streamer v0.2：响应延迟仅550ms，让 AI 真正与你\"面对面\"",
-      "url": "https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg",
-      "permalink": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
-      "source": "公众号：通义实验室（千问）",
-      "publishedAt": "2026-07-17T07:14:00.000Z",
-      "summary": "通义实验室发布 Wan-Streamer v0.2，这是一款将\"听、看、说、演\"统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 550ms，输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并采用 Thinker-Performer 双通路架构在提升画质的同时维持了极低延迟。",
-      "category": "ai-models",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz"
       }
     }
   ]
