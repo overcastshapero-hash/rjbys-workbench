@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T07:56:33.810Z",
+  "generatedAt": "2026-07-18T09:41:15.533Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-18",
   "daily": {
@@ -425,23 +425,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l"
-      }
-    },
-    {
-      "id": "cmropqooe05tqbitodvnqnc6u",
-      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
-      "title_en": "Schema Harness 在 Arc-AGI-3 公开数据集上取得约 99% 的成绩",
-      "url": "https://schema-harness.github.io/",
-      "permalink": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-17T08:41:53.383Z",
-      "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。",
-      "category": "paper",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u"
       }
     }
   ]
