@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T02:45:22.514Z",
+  "generatedAt": "2026-07-18T05:30:03.129Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-18",
   "daily": {
@@ -241,6 +241,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrpwwjho06djbisr218fe8ro",
+      "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\"",
+      "title_en": "Neil Rimer thinks the AI money is coming back out",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
+      "permalink": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-18T04:47:25.000Z",
+      "summary": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续下降，而加州正考虑对亿万富翁征收 5% 的一次性财富税。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro"
+      }
+    },
+    {
       "id": "cmrp97h7o0020biuxh7pzewro",
       "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
       "title_en": "Apple's plot to crush OpenAI",
@@ -442,23 +459,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz"
-      }
-    },
-    {
-      "id": "cmroipdr803rvbito8t018vr1",
-      "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-      "title_en": "谁能想到Claude和GPT双头统治的时代，居然就这么被中国模型撕开了口子。 Kimi K3登顶Frontend Code Arena总榜第一，1679分同时力压Claude Fable 5与GPT…",
-      "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
-      "permalink": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-07-17T04:57:38.000Z",
-      "summary": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，7 月 27 日开放权重。K3 的 API 定价为输入每百万 tokens 15 美元，对标前沿闭源模型，放弃低价路线，转向长上下文智能体编码场景的定价策略。",
-      "category": "ai-models",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1"
       }
     }
   ]
