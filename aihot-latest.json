@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T19:15:46.966Z",
+  "generatedAt": "2026-07-18T20:53:28.095Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-18",
   "daily": {
@@ -8,7 +8,7 @@
       "source": "AI HOT",
       "canonical": "https://aihot.virxact.com/daily/2026-07-18"
     },
-    "generatedAt": "2026-07-18T00:00:01.022Z",
+    "generatedAt": "2026-07-18T20:18:27.709Z",
     "windowStart": "2026-07-17T00:00:00.000Z",
     "windowEnd": "2026-07-18T00:00:00.000Z",
     "lead": null,
@@ -16,17 +16,6 @@
       {
         "label": "模型发布/更新",
         "items": [
-          {
-            "title": "Sora 2 视频克隆效果惊人，真假难辨",
-            "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。 如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。",
-            "sourceUrl": "https://x.com/gabriel1/status/2078156277247881438",
-            "sourceName": "X：Gabriel (@gabriel1)",
-            "permalink": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp"
-            }
-          },
           {
             "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
             "summary": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，7 月 27 日开放权重。K3 的 API 定价为输入每百万 tokens 15 美元，对标前沿闭源模型，放弃低价路线，转向长上下文智能体编码场景的定价策略。",
@@ -180,6 +169,17 @@
             }
           },
           {
+            "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
+            "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如“no fluff, no filler, no jargon”这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。",
+            "sourceUrl": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter",
+            "sourceName": "Simon Willison 博客",
+            "permalink": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6"
+            }
+          },
+          {
             "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
             "summary": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩大8倍，部分站点甚至用喷气发动机供电。预测称，平价入门级电脑可能在2028年前消失，内存短缺预计持续数年。",
             "sourceUrl": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
@@ -191,17 +191,6 @@
             }
           },
           {
-            "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
-            "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
-            "sourceUrl": "https://claude.com/blog/working-at-the-frontier-cursor",
-            "sourceName": "Claude：Blog（网页）",
-            "permalink": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk"
-            }
-          },
-          {
             "title": "OpenAI 提出 AI 时代记分卡：“有用智能每美元”衡量实际工作价值",
             "summary": "OpenAI 提出“Useful Intelligence per Dollar”（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。",
             "sourceUrl": "https://openai.com/index/a-scorecard-for-the-ai-age",
@@ -210,17 +199,6 @@
             "attribution": {
               "source": "AI HOT",
               "canonical": "https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4"
-            }
-          },
-          {
-            "title": "Anthropic 副首席信息安全官发布智能体 AI 风险评估框架：零风险不是目标",
-            "summary": "Anthropic 副首席信息安全官 Jason Clinton 分享了其团队在采用智能体 AI 过程中的经验教训，并提出了一套用于安全构建和部署智能体的风险评估框架。该框架通过四个核心问题（摄入的不可信内容、可执行的操作、失控时的爆炸半径、可观测性）来评估风险，并强调“最小代理权限”原则。Anthropic 的默认策略是管理员控制的分阶段推出，并指出与意图偏离的智能体在行为上无异于内部攻击。",
-            "sourceUrl": "https://claude.com/blog/ciso-guide-to-agentic-ai",
-            "sourceName": "Claude：Blog（网页）",
-            "permalink": "https://aihot.virxact.com/items/cmrp7uly30b3sbitomxaeu47e",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrp7uly30b3sbitomxaeu47e"
             }
           },
           {
