@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T13:23:47.695Z",
+  "generatedAt": "2026-07-19T14:59:09.126Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-19",
   "daily": {
@@ -49,6 +49,40 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrrvig4h01ctbi5qyidwptd7",
+      "title": "面壁智能开源 MiniCPM-Robot 具身智能模型系列",
+      "title_en": "🚀 MiniCPM enters the physical world - enabling robots to understand， remember， and act. We open-so…",
+      "url": "https://x.com/OpenBMB/status/2078839529591759025",
+      "permalink": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "publishedAt": "2026-07-19T13:49:01.000Z",
+      "summary": "面壁智能开源首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。同时发布高性能推理框架 PhyAI，旨在让机器人实现理解、记忆与行动。",
+      "category": "ai-models",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7"
+      }
+    },
+    {
+      "id": "cmrru2n5x00vzbi5qea6youod",
+      "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+      "title_en": "WAIC 2026 | 最新「小钢炮」MiniCPM5-2B亮相：适配多款芯片、4B以下全球性能第一",
+      "url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
+      "permalink": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "publishedAt": "2026-07-19T13:12:39.000Z",
+      "summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
+      "category": "ai-models",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod"
+      }
+    },
     {
       "id": "cmrrt03gx00mkbi5qtoim4wvo",
       "title": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
