@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T20:54:13.918Z",
+  "generatedAt": "2026-07-19T21:56:24.626Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-19",
   "daily": {
@@ -49,6 +49,23 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrsbql4401gxbiuaj7s1567n",
+      "title": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
+      "title_en": "What to watch for after Jensen Huang's Japan visit",
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+      "permalink": "https://aihot.virxact.com/items/cmrsbql4401gxbiuaj7s1567n",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-19T21:16:07.000Z",
+      "summary": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrsbql4401gxbiuaj7s1567n"
+      }
+    },
     {
       "id": "cmrrvig4h01ctbi5qyidwptd7",
       "title": "面壁智能开源 MiniCPM-Robot 具身智能模型系列",
