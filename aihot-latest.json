@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T04:37:24.374Z",
+  "generatedAt": "2026-07-20T08:07:47.238Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-20",
   "daily": {
@@ -125,6 +125,23 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrsxb09d0098bitl4vd2rp04",
+      "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+      "title_en": "多模态 AI 模型\"神珍\"开放，能处理蛋白质、天气等六类科学信息",
+      "url": "https://www.ithome.com/0/979/017.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrsxb09d0098bitl4vd2rp04",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-20T07:00:15.000Z",
+      "summary": "上海科学智能研究院开放科学多模态基础模型\"神珍\"，总参数约110亿，可处理DNA、RNA、蛋白质、小分子、地球系统和医学影像六类数据。在生物序列20项任务中，该模型9项取得最优结果；医学影像分割平均Dice得分91.20，在7种参评方法中最优。模型权重及代码已在星河启智、Hugging Face和GitHub开放。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrsxb09d0098bitl4vd2rp04"
+      }
+    },
     {
       "id": "cmrsp4xym0bb4biwm2ex85cp2",
       "title": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
@@ -259,23 +276,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6"
-      }
-    },
-    {
-      "id": "cmrrd5bjb00cfbikihob9drtj",
-      "title": "AI 热潮正在瓦解全球决策机制",
-      "title_en": "人工智能热潮正在瓦解全球决策机制",
-      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
-      "permalink": "https://aihot.virxact.com/items/cmrrd5bjb00cfbikihob9drtj",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-19T05:13:24.607Z",
-      "summary": "一位拥有 300 多次行业交流经验的从业者观察到，全球公私机构正陷入集体性 AI 狂热，决策层要么没有计划，要么只能低头回避。过去一年半中，其团队所见的所有 AI 项目均以失败告终（成功率 0%），失败原因常与 LLM 能力无关，而是企业本就难以有效运行软件项目，且 AI 项目叠加了额外风险。内部聊天机器人几乎无人使用，客户服务聊天机器人也极少带来良好体验，例如三菱的语音客服承诺回电却六周未兑现。",
-      "category": "tip",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrrd5bjb00cfbikihob9drtj"
       }
     }
   ]
