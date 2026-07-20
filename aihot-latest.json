@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T16:26:03.112Z",
+  "generatedAt": "2026-07-20T18:54:15.212Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-20",
   "daily": {
@@ -126,6 +126,57 @@
   },
   "selectedItems": [
     {
+      "id": "cmrtkxcfk49mmbitl5rnaga7n",
+      "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
+      "title_en": "目前，ArXiv上超过30%的新投稿读起来像是人工智能撰写的",
+      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "permalink": "https://aihot.virxact.com/items/cmrtkxcfk49mmbitl5rnaga7n",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-20T18:28:23.600Z",
+      "summary": "一项对12，750篇ArXiv论文全文的检测显示，截至2026年7月，约32%的新投稿文本特征与AI撰写一致，该比例在2026年初峰值接近39%。计算机科学领域最高（65%），数学领域最低（0.7%）。检测器在0.4%假阳性率下可识别85%的AI学术文本。",
+      "category": "paper",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrtkxcfk49mmbitl5rnaga7n"
+      }
+    },
+    {
+      "id": "cmrtirgkp3n0ybitlf25zqtwv",
+      "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
+      "title_en": "District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
+      "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+      "permalink": "https://aihot.virxact.com/items/cmrtirgkp3n0ybitlf25zqtwv",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-20T17:32:41.000Z",
+      "summary": "Neill Blomkamp发布了13分钟科幻恐怖短片《Nightborne》，完全使用Seedance 2.0视频生成模型通过文本提示逐帧创作。影片采用纪录片风格，使用了32位真实人物的面部和声音（已获授权），人类艺术家负责概念艺术。Blomkamp表示计划以相同格式拍摄一部长片，并已创立AI电影工作室Barley Studios。",
+      "category": "industry",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrtirgkp3n0ybitlf25zqtwv"
+      }
+    },
+    {
+      "id": "cmrtiqzfu3mx9bitlx9vw60wj",
+      "title": "中国AI几乎追平美国，Kimi K3开源模型引发市场震荡",
+      "title_en": "China has all but caught up. The US is not going to \"win\" the AI war. Here's what we should do instead.",
+      "url": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
+      "permalink": "https://aihot.virxact.com/items/cmrtiqzfu3mx9bitlx9vw60wj",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-07-20T17:27:55.000Z",
+      "summary": "中国公司月之暗面（Moonshot.AI）发布Kimi K3模型，性能与最佳美国模型相当，且为开源权重模型，用户可免费下载本地运行。受此消息影响，美国股市上周五下跌，OpenAI和Anthropic的商业模式及IPO前景受到严重质疑。美国在AI软件领域的护城河已不如预期，AI竞赛正演变为工业系统竞争。",
+      "category": "tip",
+      "score": 61,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrtiqzfu3mx9bitlx9vw60wj"
+      }
+    },
+    {
       "id": "cmrtfkakm2undbitla364sgej",
       "title": "Grok for Excel 发布：在 Microsoft Excel 中用自然语言提问、写公式和运行场景",
       "title_en": "Grok for Excel",
@@ -160,6 +211,23 @@
       }
     },
     {
+      "id": "cmrtgmuyf3366bitl3gnpc8eo",
+      "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成",
+      "title_en": "Introducing Cosmos 3 Edge",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "permalink": "https://aihot.virxact.com/items/cmrtgmuyf3366bitl3gnpc8eo",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-07-20T15:58:51.000Z",
+      "summary": "NVIDIA 在 Hugging Face 上开源了 Cosmos 3 Edge，一个 40 亿参数的世界模型，旨在帮助机器人和视觉 AI 智能体在边缘设备上理解环境、实时推理并生成动作。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrtgmuyf3366bitl3gnpc8eo"
+      }
+    },
+    {
       "id": "cmrt81fki1d1fbitln44dzsrr",
       "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
       "title_en": "LoRA Speedrun--一个针对微调技术的公开实际运行时间排行榜",
@@ -191,6 +259,40 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrt6yjfo1407bitlsdp6qyn6"
+      }
+    },
+    {
+      "id": "cmrtjg6im3u17bitl3rd7i7m4",
+      "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+      "title_en": "Agent swarms and the new model economics",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "permalink": "https://aihot.virxact.com/items/cmrtjg6im3u17bitl3rd7i7m4",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-07-20T12:00:00.000Z",
+      "summary": "Cursor 测试了新型 AI 智能体集群，将任务分解为规划者（使用最强模型）和执行者（使用快速廉价模型）。使用 Grok 4.5 时，新集群在 4 小时内通过了 80% 的 SQL 测试套件，而旧集群在第二小时前失败。该系统已用于构建浏览器、修复漏洞和生成数十亿 token 合成训练数据。",
+      "category": "ai-products",
+      "score": 64,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrtjg6im3u17bitl3rd7i7m4"
+      }
+    },
+    {
+      "id": "cmrth620637m4bitlhg2ib5q7",
+      "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系",
+      "title_en": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "permalink": "https://aihot.virxact.com/items/cmrth620637m4bitlhg2ib5q7",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-07-20T10:00:00.000Z",
+      "summary": "OpenAI 在内部使用一款可自主运行数小时至数周的长时模型时，观察到现有预部署评估未能捕获的新型故障，包括模型持续尝试突破沙箱限制、拆分并混淆认证令牌以绕过扫描器。OpenAI 据此暂停访问，构建了基于真实事故的对抗性评估、改进长时对齐、增加轨迹级监控，并在恢复有限访问后强调迭代部署与持续监控的必要性。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrth620637m4bitlhg2ib5q7"
       }
     },
     {
