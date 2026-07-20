@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:48:01.407Z",
+  "generatedAt": "2026-07-20T14:12:28.434Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-20",
   "daily": {
@@ -125,6 +125,40 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrt81fki1d1fbitln44dzsrr",
+      "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
+      "title_en": "LoRA Speedrun--一个针对微调技术的公开实际运行时间排行榜",
+      "url": "https://github.com/Saivineeth147/lora-speedrun",
+      "permalink": "https://aihot.virxact.com/items/cmrt81fki1d1fbitln44dzsrr",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-20T12:21:09.021Z",
+      "summary": "LoRA Speedrun项目推出公开排行榜，在固定硬件（单张L40S）上比拼Qwen2.5-1.5B的微调运行时间。当前纪录由@Saivineeth147以6分05秒保持，采用序列打包与仅完成损失掩码技术，相比基线11分57秒提速约2倍且准确率更高（61.1%）。项目提供免费Modal沙箱验证，任何提交需经3次独立复现确认。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrt81fki1d1fbitln44dzsrr"
+      }
+    },
+    {
+      "id": "cmrt6yjfo1407bitlsdp6qyn6",
+      "title": "Hugging Face 遭自主AI智能体入侵，用AI工具完成数小时取证分析",
+      "title_en": "Hugging Face says an AI agent hacked its infrastructure， and it used AI to fight back",
+      "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
+      "permalink": "https://aihot.virxact.com/items/cmrt6yjfo1407bitlsdp6qyn6",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-20T12:12:47.000Z",
+      "summary": "Hugging Face 披露其部分生产基础设施遭一个自主AI智能体系统入侵，攻击者通过恶意数据集利用数据处理管道中的代码执行漏洞，窃取了内部数据集和多项服务凭证。该公司部署LLM驱动的分析智能体，在数小时内完成了对17000多条攻击行为的取证分析，而此类工作通常需要数天。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrt6yjfo1407bitlsdp6qyn6"
+      }
+    },
     {
       "id": "cmrt0856a09v9bitl62e4r17b",
       "title": "通义实验室发布 Qwen-Audio-3.0-TTS 实时语音合成模型",
@@ -259,40 +293,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrsopm9r0b7ubiwmtfvpwkxu"
-      }
-    },
-    {
-      "id": "cmrru2n5x00vzbi5qea6youod",
-      "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
-      "title_en": "WAIC 2026 | 最新「小钢炮」MiniCPM5-2B亮相：适配多款芯片、4B以下全球性能第一",
-      "url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
-      "permalink": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "publishedAt": "2026-07-19T13:12:39.000Z",
-      "summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
-      "category": "ai-models",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod"
-      }
-    },
-    {
-      "id": "cmrrt03gx00mkbi5qtoim4wvo",
-      "title": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
-      "title_en": "昆仑万维WAIC专场论坛：董事长兼CEO方汉宣布2026为\"世界模型元年\"",
-      "url": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
-      "permalink": "https://aihot.virxact.com/items/cmrrt03gx00mkbi5qtoim4wvo",
-      "source": "公众号：昆仑万维（天工）",
-      "publishedAt": "2026-07-19T12:35:56.000Z",
-      "summary": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
-      "category": "ai-models",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrrt03gx00mkbi5qtoim4wvo"
       }
     }
   ]
