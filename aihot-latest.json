@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:13:28.971Z",
+  "generatedAt": "2026-07-21T23:00:10.054Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-21",
   "daily": {
@@ -285,20 +285,20 @@
   },
   "selectedItems": [
     {
-      "id": "cmrv4r5hv00hhbizaqm90z102",
-      "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型",
-      "title_en": "Laguna S 2.1",
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "permalink": "https://aihot.virxact.com/items/cmrv4r5hv00hhbizaqm90z102",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-21T20:43:27.067Z",
-      "summary": "Poolside 发布 Laguna S 2.1，一个 118B 总参数、8B 激活参数的 MoE 模型，支持 1M token 上下文窗口，从训练到发布用时不到九周。在 Terminal-Bench 2.1 上以 70.2% 的得分超越多数同尺寸模型，在 DeepSWE 上得分 40.4%。模型权重已开源，完整评估轨迹可在 trajectories.poolside.ai 获取。",
-      "category": "ai-models",
-      "score": 78,
+      "id": "cmrv7y3de002lbi8rsqvvaoq1",
+      "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
+      "title_en": "Launched today on OpenRouter： Gemini 3.6 Flash and Gemini 3.5 Flash-Lite！ Both strong updates to th…",
+      "url": "https://x.com/OpenRouter/status/2079686435247186015",
+      "permalink": "https://aihot.virxact.com/items/cmrv7y3de002lbi8rsqvvaoq1",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-07-21T21:54:19.000Z",
+      "summary": "今日在 OpenRouter 上线：Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite！\n两者均为其模型系列的重大更新，具备高吞吐量（150+ tok/s），适用于智能体场景，从高效 token 的编码与知识工作，到低延迟、高并发的子智能体。\n详情如下 🧵",
+      "category": "ai-products",
+      "score": 72,
       "selected": true,
       "attribution": {
         "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrv4r5hv00hhbizaqm90z102"
+        "canonical": "https://aihot.virxact.com/items/cmrv7y3de002lbi8rsqvvaoq1"
       }
     },
     {
@@ -333,6 +333,23 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrv2m1gu01w8binv2kiup4x2"
+      }
+    },
+    {
+      "id": "cmruze9vm00ywbinvdmqyi5j0",
+      "title": "Laguna S 2.1 免费开源上线 OpenCode",
+      "title_en": "Laguna S 2.1 is now free on OpenCode 1M Context · fully open source Poolside's most capable model …",
+      "url": "https://x.com/opencode/status/2079631772770242808",
+      "permalink": "https://aihot.virxact.com/items/cmruze9vm00ywbinvdmqyi5j0",
+      "source": "X：opencode (@opencode)",
+      "publishedAt": "2026-07-21T18:17:06.000Z",
+      "summary": "Laguna S 2.1 现已在 OpenCode 上免费提供\n\n1M 上下文窗口 · 完全开源\n\nPoolside 迄今为止最强大的模型",
+      "category": "ai-products",
+      "score": 56,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmruze9vm00ywbinvdmqyi5j0"
       }
     },
     {
