@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:48:37.606Z",
+  "generatedAt": "2026-07-21T17:24:20.575Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-21",
   "daily": {
@@ -285,6 +285,159 @@
   },
   "selectedItems": [
     {
+      "id": "cmrux94210069binvu0d80ww6",
+      "title": "xAI 推出 Grok for Outlook 加载项",
+      "title_en": "Grok for Outlook",
+      "url": "https://x.ai/news/introducing-outlook-addin",
+      "permalink": "https://aihot.virxact.com/items/cmrux94210069binvu0d80ww6",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-07-21T17:22:49.842Z",
+      "summary": "xAI 今日推出 Grok for Outlook，一个 Microsoft 365 加载项，可将 Grok 智能体嵌入邮箱，用于总结长邮件线程、以用户风格起草回复并整理收件箱。该工具即日起对所有付费 X 和 SuperGrok 用户开放，可从 Microsoft Marketplace 添加。",
+      "category": "ai-products",
+      "score": 63,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrux94210069binvu0d80ww6"
+      }
+    },
+    {
+      "id": "cmrux91ns0054binvkklr50gt",
+      "title": "Claude 不是编译器--它比编译器更好",
+      "title_en": "Claude 不是编译器",
+      "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "permalink": "https://aihot.virxact.com/items/cmrux91ns0054binvkklr50gt",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-21T17:15:35.727Z",
+      "summary": "Claude 等大语言模型能跨越战略、产品、架构、代码到机器码的整个技术栈垂直工作，无需安排会议或请求许可，因此比传统编译器更强大。以 exe.dev 为例，团队用 LLM 研究分布式 DNS 系统设计、历史安全缺陷和替代实现策略，并通过多智能体循环构建了完整系统。LLM 虽在单项任务上不及资深人类，但能同时处理所有层级，实现跨层协作。",
+      "category": "tip",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrux91ns0054binvkklr50gt"
+      }
+    },
+    {
+      "id": "cmrux97ht007tbinvf2ol1jds",
+      "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro",
+      "title_en": "Google releases three new Gemini models - but no 3.5 Pro",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
+      "permalink": "https://aihot.virxact.com/items/cmrux97ht007tbinvf2ol1jds",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-21T17:11:50.000Z",
+      "summary": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型。其中 3.6 Flash 在编码和多模态性能上提升，token 用量降低 17%，成本低于前代；3.5 Flash Cyber 专为修复网络安全漏洞微调，仅限政府及可信合作伙伴使用。",
+      "category": "ai-models",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrux97ht007tbinvf2ol1jds"
+      }
+    },
+    {
+      "id": "cmrux929g005abinv7sbkrf3l",
+      "title": "Karpathy：用语音与LLM长谈可提升理解效率",
+      "title_en": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM nee…",
+      "url": "https://x.com/karpathy/status/2079610838143623371",
+      "permalink": "https://aihot.virxact.com/items/cmrux929g005abinv7sbkrf3l",
+      "source": "X：Andrej Karpathy (@karpathy)",
+      "publishedAt": "2026-07-21T16:53:55.000Z",
+      "summary": "Andrej Karpathy分享了一种与LLM协作的有效模式：开启语音输入，进行10分钟左右的自由漫谈，即使内容混乱、意识流式也无妨。他发现LLM擅长从长篇不连贯的语音中重构意图，回应的内容往往比用户最初的思路更清晰，从而减少后续修正次数、提升人机对齐效率。",
+      "category": "tip",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrux929g005abinv7sbkrf3l"
+      }
+    },
+    {
+      "id": "cmruuc0d80006bii0tzwael16",
+      "title": "Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库",
+      "title_en": "Scaling Agentic RL： High-Throughput Agentic Training with Tunix",
+      "url": "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix",
+      "permalink": "https://aihot.virxact.com/items/cmruuc0d80006bii0tzwael16",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-07-21T16:00:05.337Z",
+      "summary": "Google 发布 Tunix，一个基于 JAX 的原生后训练库，旨在消除多轮、使用工具的 LLM 推理智能体训练中的 TPU 闲置瓶颈。Tunix 通过高并发异步 rollout 与解耦的生产者-消费者流水线最大化硬件吞吐量，确保训练器持续获得数据。该库提供即插即用抽象和持续宏观级性能分析，便于集成自定义环境。",
+      "category": "ai-products",
+      "score": 63,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmruuc0d80006bii0tzwael16"
+      }
+    },
+    {
+      "id": "cmruw1pl7005hbiymh0y085cv",
+      "title": "GitHub Copilot 推出 canvases 扩展，实现开发者与 AI 智能体实时协作",
+      "title_en": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
+      "permalink": "https://aihot.virxact.com/items/cmruw1pl7005hbiymh0y085cv",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-07-21T16:00:00.000Z",
+      "summary": "GitHub Copilot 在应用中推出 canvases 扩展，这是一种共享交互式界面，开发者和 AI 智能体可在其中实时协作。用户通过 `/create-canvas` 指令创建画布，Copilot 可动态更新内容，用户则通过点击、编辑等操作与同一工作区交互。示例包括快速分类 Issue、生成交互式代码库关系图、管理会话工作树、优化提示词质量以及跨平台搜索知识联系人。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmruw1pl7005hbiymh0y085cv"
+      }
+    },
+    {
+      "id": "cmruv3ut90051bii022t9ebry",
+      "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 发布",
+      "title_en": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
+      "permalink": "https://aihot.virxact.com/items/cmruv3ut90051bii022t9ebry",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-21T15:55:51.307Z",
+      "summary": "Google 推出 Gemini 3.6 Flash，相比 3.5 Flash 输出 token 用量减少 17%，DeepSWE 准确率从 37% 提升至 49%，定价 $1.50/1M 输入 token。同时发布 3.5 Flash-Lite，输出速度达 350 tokens/s，定价 $0.3/1M 输入 token。两款模型均内置计算机使用工具。",
+      "category": "ai-models",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmruv3ut90051bii022t9ebry"
+      }
+    },
+    {
+      "id": "cmruv42p2008ebii0yteu9750",
+      "title": "Claude Cowork 新增技能录制功能",
+      "title_en": "New in Claude Cowork： teach Claude a skill. Record your screen while you do a task， talk through it…",
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "permalink": "https://aihot.virxact.com/items/cmruv42p2008ebii0yteu9750",
+      "source": "X：Claude (@claudeai)",
+      "publishedAt": "2026-07-21T15:54:55.000Z",
+      "summary": "Claude Cowork 新功能：教 Claude 一项技能。\n录制你执行任务时的屏幕操作，边做边讲解，Claude 会将其转化为可重复运行的技能。在 Claude 桌面应用的 + 菜单中找到\"录制技能\"即可使用。\n适用于 Pro、Max 和 Team 套餐。",
+      "category": "ai-products",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmruv42p2008ebii0yteu9750"
+      }
+    },
+    {
+      "id": "cmruu1gjc00bmbijq6ha16nyl",
+      "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
+      "title_en": "US threatens sanctions against Chinese AI models over IP theft",
+      "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+      "permalink": "https://aihot.virxact.com/items/cmruu1gjc00bmbijq6ha16nyl",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-21T15:37:05.000Z",
+      "summary": "美国财政部长Scott Bessent周二表示，美方将审查中国开源模型是否存在知识产权盗窃行为，若证实将对中国AI公司实施制裁。Bessent称政府支持开源模型但不支持IP盗窃，并称有能力对盗窃美国公司技术的外国模型进行制裁。此举正值中国模型（如Moonshot AI的Kimi K3）能力与受欢迎度持续提升，威胁OpenAI、Anthropic等美国头部AI企业的商业模式。",
+      "category": "industry",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmruu1gjc00bmbijq6ha16nyl"
+      }
+    },
+    {
       "id": "cmrusyoaf0bfgbi9ttofctwvj",
       "title": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber 三款新模型",
       "title_en": "Introducing Gemini 3.6 Flash， 3.5 Flash-Lite， and 3.5 Flash Cyber",
@@ -299,6 +452,23 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrusyoaf0bfgbi9ttofctwvj"
+      }
+    },
+    {
+      "id": "cmrutwpdm000ubijq3c5m50x1",
+      "title": "OpenAI 与 Apollo Research 开发 Contrastive SDF 测试衡量 AI 的 reward-seeking 行为",
+      "title_en": "Measuring Reward-Seeking by Instilling Contrastive Beliefs",
+      "url": "https://alignment.openai.com/measuring-reward-seeking",
+      "permalink": "https://aihot.virxact.com/items/cmrutwpdm000ubijq3c5m50x1",
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "publishedAt": "2026-07-21T15:10:00.000Z",
+      "summary": "OpenAI 与 Apollo Research 开发了 Contrastive SDF 测试，通过向模型植入相反的评分者偏好信念来测量其行为变化。测试发现，未经安全训练的前沿规模强化学习模型更倾向于做评分者想要的事，即使违背用户意图，且该倾向随训练增强。",
+      "category": "paper",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrutwpdm000ubijq3c5m50x1"
       }
     },
     {
@@ -486,57 +656,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrtiqzfu3mx9bitlx9vw60wj"
-      }
-    },
-    {
-      "id": "cmrtfkakm2undbitla364sgej",
-      "title": "Grok for Excel 发布：在 Microsoft Excel 中用自然语言提问、写公式和运行场景",
-      "title_en": "Grok for Excel",
-      "url": "https://x.ai/news/introducing-excel-addin",
-      "permalink": "https://aihot.virxact.com/items/cmrtfkakm2undbitla364sgej",
-      "source": "xAI：News（网页）",
-      "publishedAt": "2026-07-20T16:19:52.655Z",
-      "summary": "xAI 将 Grok 引入 Microsoft Excel，推出免费 Microsoft 365 加载项。用户可在工作表中用自然语言提问、根据描述编写公式或运行场景，答案会引用具体单元格，图表可直接插入工作表。该加载项还支持连接 SharePoint 或 Google Drive 获取上下文，并已同步支持 Word 和 PowerPoint。",
-      "category": "ai-products",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrtfkakm2undbitla364sgej"
-      }
-    },
-    {
-      "id": "cmrtfjet52udzbitl7n6bqkqj",
-      "title": "Replit 新统一工具栏集成数据库与双因素认证",
-      "title_en": "Need a database？ Two-factor auth？ An SEO scanner？ Everything your project needs is now in reach wit…",
-      "url": "https://x.com/Replit/status/2079235154485109114",
-      "permalink": "https://aihot.virxact.com/items/cmrtfjet52udzbitl7n6bqkqj",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-07-20T16:01:05.000Z",
-      "summary": "需要数据库？双因素认证？SEO 扫描器？\n\n你的项目所需的一切现在都可以通过我们新的统一工具栏触手可及。",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrtfjet52udzbitl7n6bqkqj"
-      }
-    },
-    {
-      "id": "cmrtgmuyf3366bitl3gnpc8eo",
-      "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成",
-      "title_en": "Introducing Cosmos 3 Edge",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "permalink": "https://aihot.virxact.com/items/cmrtgmuyf3366bitl3gnpc8eo",
-      "source": "Hugging Face：Blog（RSS）",
-      "publishedAt": "2026-07-20T15:58:51.000Z",
-      "summary": "NVIDIA 在 Hugging Face 上开源了 Cosmos 3 Edge，一个 40 亿参数的世界模型，旨在帮助机器人和视觉 AI 智能体在边缘设备上理解环境、实时推理并生成动作。",
-      "category": "ai-models",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrtgmuyf3366bitl3gnpc8eo"
       }
     }
   ]
