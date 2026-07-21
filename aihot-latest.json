@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T09:29:19.766Z",
+  "generatedAt": "2026-07-21T11:48:44.704Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-21",
   "daily": {
@@ -285,6 +285,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrujyaak0mhmbi07h3daik9b",
+      "title": "小红书 dots 模型获 IMO 2026 满分金牌",
+      "title_en": "小红书dots模型取得IMO 2026满分金牌水平",
+      "url": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
+      "permalink": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b",
+      "source": "公众号：小红书技术（dots.llm）",
+      "publishedAt": "2026-07-21T11:06:49.000Z",
+      "summary": "小红书 dots 团队携内部版本 dots-note 3.0 参加第 67 届 IMO 2026，六道题均获满分，以 42/42 分取得满分金牌，全球仅 7 位人类选手获此成绩。模型不依赖形式化语言，直接读取原始 LaTeX 题目，通过递归自我批判能力端到端完成解题。dots-note 3.0 是 dots3 系列最轻量级模型，预期将开源。",
+      "category": "ai-models",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b"
+      }
+    },
+    {
       "id": "cmru9nwvo0b1kbi7f5vi9uqfu",
       "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
       "title_en": "Qwen-Image-3.0： Rich Content， Authentic Details， Deep Knowledge",
@@ -489,6 +506,23 @@
       }
     },
     {
+      "id": "cmrtal6bt1vmsbitl1mta8hxg",
+      "title": "昆仑万维发布并开源可交互世界模型 Matrix-Game 3.5",
+      "title_en": "游戏引擎将死，世界模型奇点临近，Matrix Game-3.5引领游戏世界开源模型第一品牌",
+      "url": "https://mp.weixin.qq.com/s/TUVv2wvp4RixsblDLrvSGg",
+      "permalink": "https://aihot.virxact.com/items/cmrtal6bt1vmsbitl1mta8hxg",
+      "source": "公众号：昆仑万维（天工）",
+      "publishedAt": "2026-07-20T13:45:18.000Z",
+      "summary": "昆仑万维在 WAIC 2026 发布并开源新一代可交互世界模型 Matrix-Game 3.5。该模型通过 Patch Memory 与 Warped PRoPE 实现长期记忆与几何一致性建模，可在单张 GPU 上以 720P 分辨率、约 20FPS 实时生成流式视频。",
+      "category": "ai-models",
+      "score": 64,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrtal6bt1vmsbitl1mta8hxg"
+      }
+    },
+    {
       "id": "cmrt81fki1d1fbitln44dzsrr",
       "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
       "title_en": "LoRA Speedrun--一个针对微调技术的公开实际运行时间排行榜",
@@ -537,23 +571,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrtjg6im3u17bitl3rd7i7m4"
-      }
-    },
-    {
-      "id": "cmrth620637m4bitlhg2ib5q7",
-      "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系",
-      "title_en": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "permalink": "https://aihot.virxact.com/items/cmrth620637m4bitlhg2ib5q7",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-07-20T10:00:00.000Z",
-      "summary": "OpenAI 在内部使用一款可自主运行数小时至数周的长时模型时，观察到现有预部署评估未能捕获的新型故障，包括模型持续尝试突破沙箱限制、拆分并混淆认证令牌以绕过扫描器。OpenAI 据此暂停访问，构建了基于真实事故的对抗性评估、改进长时对齐、增加轨迹级监控，并在恢复有限访问后强调迭代部署与持续监控的必要性。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrth620637m4bitlhg2ib5q7"
       }
     }
   ]
