@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T11:48:44.704Z",
+  "generatedAt": "2026-07-21T13:59:20.743Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-21",
   "daily": {
@@ -285,6 +285,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrupmpuw0755biuff0tzsfv5",
+      "title": "Anthropic 团队透露 Claude Tag 承担 65% 产品工程 PR，系统提示词缩减 80%",
+      "title_en": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
+      "permalink": "https://aihot.virxact.com/items/cmrupmpuw0755biuff0tzsfv5",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-07-21T12:54:02.000Z",
+      "summary": "Anthropic 的 Cat Wu 和 Thariq Shihipar 在炉边对话中透露，Claude Tag 现已承担 Claude Code 团队 65% 的产品工程 PR。Claude Code 系统提示词最近缩减了 80%，团队越来越多地依赖自动化代码审查处理产品\"外层\"变更。Fable 已能一次性完成大量功能实现，Thariq 还用它编辑了自己的产品发布视频。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrupmpuw0755biuff0tzsfv5"
+      }
+    },
+    {
       "id": "cmrujyaak0mhmbi07h3daik9b",
       "title": "小红书 dots 模型获 IMO 2026 满分金牌",
       "title_en": "小红书dots模型取得IMO 2026满分金牌水平",
@@ -503,74 +520,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrtgmuyf3366bitl3gnpc8eo"
-      }
-    },
-    {
-      "id": "cmrtal6bt1vmsbitl1mta8hxg",
-      "title": "昆仑万维发布并开源可交互世界模型 Matrix-Game 3.5",
-      "title_en": "游戏引擎将死，世界模型奇点临近，Matrix Game-3.5引领游戏世界开源模型第一品牌",
-      "url": "https://mp.weixin.qq.com/s/TUVv2wvp4RixsblDLrvSGg",
-      "permalink": "https://aihot.virxact.com/items/cmrtal6bt1vmsbitl1mta8hxg",
-      "source": "公众号：昆仑万维（天工）",
-      "publishedAt": "2026-07-20T13:45:18.000Z",
-      "summary": "昆仑万维在 WAIC 2026 发布并开源新一代可交互世界模型 Matrix-Game 3.5。该模型通过 Patch Memory 与 Warped PRoPE 实现长期记忆与几何一致性建模，可在单张 GPU 上以 720P 分辨率、约 20FPS 实时生成流式视频。",
-      "category": "ai-models",
-      "score": 64,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrtal6bt1vmsbitl1mta8hxg"
-      }
-    },
-    {
-      "id": "cmrt81fki1d1fbitln44dzsrr",
-      "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
-      "title_en": "LoRA Speedrun--一个针对微调技术的公开实际运行时间排行榜",
-      "url": "https://github.com/Saivineeth147/lora-speedrun",
-      "permalink": "https://aihot.virxact.com/items/cmrt81fki1d1fbitln44dzsrr",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-20T12:21:09.021Z",
-      "summary": "LoRA Speedrun项目推出公开排行榜，在固定硬件（单张L40S）上比拼Qwen2.5-1.5B的微调运行时间。当前纪录由@Saivineeth147以6分05秒保持，采用序列打包与仅完成损失掩码技术，相比基线11分57秒提速约2倍且准确率更高（61.1%）。项目提供免费Modal沙箱验证，任何提交需经3次独立复现确认。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrt81fki1d1fbitln44dzsrr"
-      }
-    },
-    {
-      "id": "cmrt6yjfo1407bitlsdp6qyn6",
-      "title": "Hugging Face 遭自主AI智能体入侵，用AI工具完成数小时取证分析",
-      "title_en": "Hugging Face says an AI agent hacked its infrastructure， and it used AI to fight back",
-      "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
-      "permalink": "https://aihot.virxact.com/items/cmrt6yjfo1407bitlsdp6qyn6",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-20T12:12:47.000Z",
-      "summary": "Hugging Face 披露其部分生产基础设施遭一个自主AI智能体系统入侵，攻击者通过恶意数据集利用数据处理管道中的代码执行漏洞，窃取了内部数据集和多项服务凭证。该公司部署LLM驱动的分析智能体，在数小时内完成了对17000多条攻击行为的取证分析，而此类工作通常需要数天。",
-      "category": "industry",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrt6yjfo1407bitlsdp6qyn6"
-      }
-    },
-    {
-      "id": "cmrtjg6im3u17bitl3rd7i7m4",
-      "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
-      "title_en": "Agent swarms and the new model economics",
-      "url": "https://cursor.com/blog/agent-swarm-model-economics",
-      "permalink": "https://aihot.virxact.com/items/cmrtjg6im3u17bitl3rd7i7m4",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-07-20T12:00:00.000Z",
-      "summary": "Cursor 测试了新型 AI 智能体集群，将任务分解为规划者（使用最强模型）和执行者（使用快速廉价模型）。使用 Grok 4.5 时，新集群在 4 小时内通过了 80% 的 SQL 测试套件，而旧集群在第二小时前失败。该系统已用于构建浏览器、修复漏洞和生成数十亿 token 合成训练数据。",
-      "category": "ai-products",
-      "score": 64,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrtjg6im3u17bitl3rd7i7m4"
       }
     }
   ]
