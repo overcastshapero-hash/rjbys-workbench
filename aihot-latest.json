@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T06:31:40.729Z",
+  "generatedAt": "2026-07-21T09:29:19.766Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-21",
   "daily": {
@@ -554,57 +554,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrth620637m4bitlhg2ib5q7"
-      }
-    },
-    {
-      "id": "cmrt0856a09v9bitl62e4r17b",
-      "title": "通义实验室发布 Qwen-Audio-3.0-TTS 实时语音合成模型",
-      "title_en": "从\"能说话\"到\"会表达\"：Qwen-Audio-3.0-TTS 发布",
-      "url": "https://mp.weixin.qq.com/s/INvrqTrWLMm2WCLIqhqTrg",
-      "permalink": "https://aihot.virxact.com/items/cmrt0856a09v9bitl62e4r17b",
-      "source": "公众号：通义实验室（千问）",
-      "publishedAt": "2026-07-20T08:53:11.000Z",
-      "summary": "通义实验室发布 Qwen-Audio-3.0-TTS，含 Flash（首包延迟约300ms）和 Plus 两个版本。Plus 版本在 Artificial Analysis 榜单夺冠，支持16种语言和20种中文方言，平均 WER/CER 低至3.87（Flash），说话人相似度最高达82.75（Plus）。",
-      "category": "ai-models",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrt0856a09v9bitl62e4r17b"
-      }
-    },
-    {
-      "id": "cmrsy2z9e03wpbitlqgh25fol",
-      "title": "小红书与北大开源 UltraEP：面向大规模 MoE 训推的实时负载均衡方案",
-      "title_en": "小红书、北大开源 UltraEP：面向大规模 MoE 训推的「最优」负载均衡方案",
-      "url": "https://mp.weixin.qq.com/s/rAoF65ywi5trWbI-heJieg",
-      "permalink": "https://aihot.virxact.com/items/cmrsy2z9e03wpbitlqgh25fol",
-      "source": "公众号：小红书技术（dots.llm）",
-      "publishedAt": "2026-07-20T08:00:45.000Z",
-      "summary": "小红书与北大提出 UltraEP，首次将基于精确路由信息的实时负载均衡引入生产系统，在每个 microbatch 和每一层动态复制热点专家。在 Qwen3-235B 等模型上，训练吞吐平均达到理想性能的 94.6%，相比 Megatron-LM 提升 42%；推理 prefill 吞吐相比 SGLang 提升 1.56 倍。",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrsy2z9e03wpbitlqgh25fol"
-      }
-    },
-    {
-      "id": "cmrsxb09d0098bitl4vd2rp04",
-      "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
-      "title_en": "多模态 AI 模型\"神珍\"开放，能处理蛋白质、天气等六类科学信息",
-      "url": "https://www.ithome.com/0/979/017.htm",
-      "permalink": "https://aihot.virxact.com/items/cmrsxb09d0098bitl4vd2rp04",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-20T07:00:15.000Z",
-      "summary": "上海科学智能研究院开放科学多模态基础模型\"神珍\"，总参数约110亿，可处理DNA、RNA、蛋白质、小分子、地球系统和医学影像六类数据。在生物序列20项任务中，该模型9项取得最优结果；医学影像分割平均Dice得分91.20，在7种参评方法中最优。模型权重及代码已在星河启智、Hugging Face和GitHub开放。",
-      "category": "ai-models",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrsxb09d0098bitl4vd2rp04"
       }
     }
   ]
