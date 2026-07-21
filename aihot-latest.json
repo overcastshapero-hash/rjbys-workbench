@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T03:34:32.538Z",
+  "generatedAt": "2026-07-21T06:31:40.729Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-21",
   "daily": {
@@ -285,6 +285,57 @@
   },
   "selectedItems": [
     {
+      "id": "cmru9nwvo0b1kbi7f5vi9uqfu",
+      "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
+      "title_en": "Qwen-Image-3.0： Rich Content， Authentic Details， Deep Knowledge",
+      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "permalink": "https://aihot.virxact.com/items/cmru9nwvo0b1kbi7f5vi9uqfu",
+      "source": "Qwen：Blog Retrieval（API）",
+      "publishedAt": "2026-07-21T06:00:00.000Z",
+      "summary": "通义千问发布第三代图像生成基座模型 Qwen-Image-3.0，核心关键词为\"实\"。该模型支持最长 4.5k token 指令输入，可单次生成包含 9 个复杂信息图的 3×3 网格布局；文本渲染精度达 10px，并支持 12 种语言原生渲染，旨在将图像转化为可部署的生产力工具。",
+      "category": "ai-models",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmru9nwvo0b1kbi7f5vi9uqfu"
+      }
+    },
+    {
+      "id": "cmru9nz670b2qbi7fle72dzpr",
+      "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
+      "title_en": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元",
+      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "permalink": "https://aihot.virxact.com/items/cmru9nz670b2qbi7fle72dzpr",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-21T05:54:05.672Z",
+      "summary": "日经研究显示，Meta、Oracle等五家美国科技巨头的隐性债务在约四年内膨胀八倍，达到约1.65万亿美元，超过其实际债务。这些债务主要来自数据中心租赁和GPU供应合同，其中Meta的表外债务约4200亿美元，是其透明债务的近三倍。隐性债务的激增使投资者更难评估风险。",
+      "category": "industry",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmru9nz670b2qbi7fle72dzpr"
+      }
+    },
+    {
+      "id": "cmru3vmv252v2bihzm2btrcpy",
+      "title": "腾讯混元推出Hyra-1.0递归自我改进研究智能体",
+      "title_en": "Hyra发布：一个简单有效的科学发现智能体",
+      "url": "https://mp.weixin.qq.com/s/upwDQ_6ZfmszBUcRQjR_Dg",
+      "permalink": "https://aihot.virxact.com/items/cmru3vmv252v2bihzm2btrcpy",
+      "source": "公众号：腾讯混元",
+      "publishedAt": "2026-07-21T03:33:08.000Z",
+      "summary": "腾讯混元推出Hyra-1.0，一个能递归自我改进的研究智能体，在NanoChat等三项任务上均超越Recursive公开结果。Hyra在55个数学开放问题中刷新29个历史最好结果，并设计出仅含15个可训练参数即可完成10位数加法的Transformer。所有产物已在GitHub开源。",
+      "category": "ai-products",
+      "score": 64,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmru3vmv252v2bihzm2btrcpy"
+      }
+    },
+    {
       "id": "cmru21tbc4mjcbihzxvgo4yo1",
       "title": "Anthropic 与作家群体15亿美元版权和解获批",
       "title_en": "美国版权案件最高金额：Anthropic 与作家群体 15 亿美元和解获批",
@@ -554,23 +605,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrsxb09d0098bitl4vd2rp04"
-      }
-    },
-    {
-      "id": "cmrsp4xym0bb4biwm2ex85cp2",
-      "title": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
-      "title_en": "WAIC 2026 | 面壁智能首个具身智能成果 MiniCPM-Robot 系列模型正式发布！",
-      "url": "https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ",
-      "permalink": "https://aihot.virxact.com/items/cmrsp4xym0bb4biwm2ex85cp2",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "publishedAt": "2026-07-20T03:54:08.000Z",
-      "summary": "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。",
-      "category": "ai-models",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrsp4xym0bb4biwm2ex85cp2"
       }
     }
   ]
