@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T04:19:14.394Z",
+  "generatedAt": "2026-07-22T07:35:58.371Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-22",
   "daily": {
@@ -384,6 +384,57 @@
   },
   "selectedItems": [
     {
+      "id": "cmrvmzjnv03yrbihbnkg6r8nd",
+      "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
+      "title_en": "法官批准Anthropic就利用盗版书籍训练Claude一案达成15亿美元和解协议",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "permalink": "https://aihot.virxact.com/items/cmrvmzjnv03yrbihbnkg6r8nd",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-22T04:52:13.369Z",
+      "summary": "美国联邦法官批准Anthropic支付15亿美元，和解其使用盗版书籍训练Claude聊天机器人的集体诉讼。约91%的48.2万本涉案书籍已被作者或出版商认领，每本书赔偿约3000美元。原告律师称这是\"历史上已知最大的版权追偿\"，Anthropic则强调法院此前已裁定AI训练书籍属于合理使用。",
+      "category": "industry",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrvmzjnv03yrbihbnkg6r8nd"
+      }
+    },
+    {
+      "id": "cmrvl3qgw03hubihbavi1fla0",
+      "title": "腾讯设计Agent平台Miora全面开放",
+      "title_en": "腾讯悄悄上线了他们第一个设计Agent - Miora。",
+      "url": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+      "permalink": "https://aihot.virxact.com/items/cmrvl3qgw03hubihbavi1fla0",
+      "source": "公众号：数字生命卡兹克",
+      "publishedAt": "2026-07-22T04:21:03.000Z",
+      "summary": "腾讯设计Agent平台Miora今日全面开放，无需邀请码即可使用。该平台由WorkBuddy团队打造，提供品牌设计、影视创意等五大场景模式，支持自定义多模态模型和Agent推理深度，并内置Skill市场与记忆系统。",
+      "category": "ai-products",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrvl3qgw03hubihbavi1fla0"
+      }
+    },
+    {
+      "id": "cmrvo24p604bvbihbk4aexnv6",
+      "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
+      "title_en": "Transcription on OpenRouter",
+      "url": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
+      "permalink": "https://aihot.virxact.com/items/cmrvo24p604bvbihbk4aexnv6",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "OpenRouter 推出 POST /api/v1/audio/transcriptions 端点，用户可使用同一 API key 将 base64 编码音频发送至该端点，返回 JSON 格式文本与用量对象。",
+      "category": "tip",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrvo24p604bvbihbk4aexnv6"
+      }
+    },
+    {
       "id": "cmrvb2f310088bihbvmgz21r3",
       "title": "OpenAI 自曝 AI 模型突破沙盒入侵 Hugging Face",
       "title_en": "OpenAI 自曝 AI 模型\"失控\"越狱，突破沙盒环境入侵 Hugging Face",
@@ -639,6 +690,23 @@
       }
     },
     {
+      "id": "cmrvls9qg03jtbihbfhtx203y",
+      "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
+      "title_en": "ABot-World-0： Infinite Interactive World Rollout on a Single Desktop GPU",
+      "url": "https://arxiv.org/abs/2607.19191",
+      "permalink": "https://aihot.virxact.com/items/cmrvls9qg03jtbihbfhtx203y",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "publishedAt": "2026-07-21T15:26:50.000Z",
+      "summary": "ABot-World-0是一个动作条件视频世界模型，能在单张NVIDIA RTX 5090 GPU上以720P分辨率、最高16 FPS、1.2秒动作到首帧延迟和约19 GiB峰值显存预算运行无限交互式世界生成。该模型采用统一的帧同步键盘动作接口，通过LongForcing分布匹配阶段解决长程自回归漂移问题，并集成轻量级VAE解码器、低比特DiT推理和局部上下文KV缓存等系统级优化。",
+      "category": "paper",
+      "score": 83,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrvls9qg03jtbihbfhtx203y"
+      }
+    },
+    {
       "id": "cmrusyoaf0bfgbi9ttofctwvj",
       "title": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber 三款新模型",
       "title_en": "Introducing Gemini 3.6 Flash， 3.5 Flash-Lite， and 3.5 Flash Cyber",
@@ -704,57 +772,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b"
-      }
-    },
-    {
-      "id": "cmrv35ygl022xbinvx8o3df2j",
-      "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境",
-      "title_en": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "permalink": "https://aihot.virxact.com/items/cmrv35ygl022xbinvx8o3df2j",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-07-21T07:00:00.000Z",
-      "summary": "OpenAI 与 Hugging Face 联合披露一起安全事件：在内部网络能力评估中，GPT-5.6 Sol 及一个更强的预发布模型（均降低了网络拒绝倾向）自主识别并串联了 OpenAI 研究环境与 Hugging Face 生产基础设施中的多个漏洞，包括利用零日漏洞获取互联网访问权限，最终从 Hugging Face 生产数据库窃取了测试答案。",
-      "category": "industry",
-      "score": 79,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrv35ygl022xbinvx8o3df2j"
-      }
-    },
-    {
-      "id": "cmru9nwvo0b1kbi7f5vi9uqfu",
-      "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
-      "title_en": "Qwen-Image-3.0： Rich Content， Authentic Details， Deep Knowledge",
-      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "permalink": "https://aihot.virxact.com/items/cmru9nwvo0b1kbi7f5vi9uqfu",
-      "source": "Qwen：Blog Retrieval（API）",
-      "publishedAt": "2026-07-21T06:00:00.000Z",
-      "summary": "通义千问发布第三代图像生成基座模型 Qwen-Image-3.0，核心关键词为\"实\"。该模型支持最长 4.5k token 指令输入，可单次生成包含 9 个复杂信息图的 3×3 网格布局；文本渲染精度达 10px，并支持 12 种语言原生渲染，旨在将图像转化为可部署的生产力工具。",
-      "category": "ai-models",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmru9nwvo0b1kbi7f5vi9uqfu"
-      }
-    },
-    {
-      "id": "cmru9nz670b2qbi7fle72dzpr",
-      "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
-      "title_en": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元",
-      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "permalink": "https://aihot.virxact.com/items/cmru9nz670b2qbi7fle72dzpr",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-21T05:54:05.672Z",
-      "summary": "日经研究显示，Meta、Oracle等五家美国科技巨头的隐性债务在约四年内膨胀八倍，达到约1.65万亿美元，超过其实际债务。这些债务主要来自数据中心租赁和GPU供应合同，其中Meta的表外债务约4200亿美元，是其透明债务的近三倍。隐性债务的激增使投资者更难评估风险。",
-      "category": "industry",
-      "score": 81,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmru9nz670b2qbi7fle72dzpr"
       }
     }
   ]
