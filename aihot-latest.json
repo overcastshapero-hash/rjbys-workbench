@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T10:28:21.183Z",
+  "generatedAt": "2026-07-22T12:26:58.127Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-22",
   "daily": {
@@ -772,23 +772,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrupmpuw0755biuff0tzsfv5"
-      }
-    },
-    {
-      "id": "cmrujyaak0mhmbi07h3daik9b",
-      "title": "小红书 dots 模型获 IMO 2026 满分金牌",
-      "title_en": "小红书dots模型取得IMO 2026满分金牌水平",
-      "url": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
-      "permalink": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b",
-      "source": "公众号：小红书技术（dots.llm）",
-      "publishedAt": "2026-07-21T11:06:49.000Z",
-      "summary": "小红书 dots 团队携内部版本 dots-note 3.0 参加第 67 届 IMO 2026，六道题均获满分，以 42/42 分取得满分金牌，全球仅 7 位人类选手获此成绩。模型不依赖形式化语言，直接读取原始 LaTeX 题目，通过递归自我批判能力端到端完成解题。dots-note 3.0 是 dots3 系列最轻量级模型，预期将开源。",
-      "category": "ai-models",
-      "score": 81,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b"
       }
     }
   ]
