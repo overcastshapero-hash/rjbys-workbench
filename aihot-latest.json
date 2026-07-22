@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:35:58.371Z",
+  "generatedAt": "2026-07-22T10:28:21.183Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-22",
   "daily": {
@@ -383,6 +383,23 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrvx8ycy0240bipz0pkrvryq",
+      "title": "小红书开源 BigMac：多模态大模型训练新范式",
+      "title_en": "小红书 dots infra 开源BigMac ： 突破多模态大模型训练的帕累托前沿",
+      "url": "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
+      "permalink": "https://aihot.virxact.com/items/cmrvx8ycy0240bipz0pkrvryq",
+      "source": "公众号：小红书技术（dots.llm）",
+      "publishedAt": "2026-07-22T10:04:51.000Z",
+      "summary": "小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式。它以 LLM 流水线为主干，在不打乱执行顺序的前提下嵌入编码器和生成器计算，相比基线实现 1.08x-1.9x 加速，同时保持激活显存有界。BigMac 已作为 dots 多模态模型训练的核心组件投入生产。",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrvx8ycy0240bipz0pkrvryq"
+      }
+    },
     {
       "id": "cmrvmzjnv03yrbihbnkg6r8nd",
       "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
