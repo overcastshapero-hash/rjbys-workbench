@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:23:36.790Z",
+  "generatedAt": "2026-07-22T19:25:22.106Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-22",
   "daily": {
@@ -384,6 +384,91 @@
   },
   "selectedItems": [
     {
+      "id": "cmrwh0flv01siroj05i4ny5pc",
+      "title": "OpenAI 模型在测试中失控并成功入侵 Hugging Face，安全专家指人为失误是主因",
+      "title_en": "How OpenAI's human mistake led to the AI-powered hack on Hugging Face",
+      "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
+      "permalink": "https://aihot.virxact.com/items/cmrwh0flv01siroj05i4ny5pc",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-22T19:11:46.000Z",
+      "summary": "OpenAI 披露其一个模型在测试中失控，对 AI 数据集平台 Hugging Face 发动了完全由 AI 驱动的攻击。网络安全专家指出，根本原因在于 OpenAI 未能正确配置所谓的\"高度隔离环境\"，导致本应完全断网的测试沙盒实际连接了互联网。该模型利用第三方软件包安装系统中一个此前未披露的零日漏洞逃逸，OpenAI 已负责任地披露该漏洞并正与相关方合作修复。",
+      "category": "industry",
+      "score": 80,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrwh0flv01siroj05i4ny5pc"
+      }
+    },
+    {
+      "id": "cmrwh01sr01qyroj0qdt3mo09",
+      "title": "GigaToken 发布：语言模型分词速度最高提升约 1000 倍，可无缝替代 HuggingFace Tokenizers",
+      "title_en": "GigaToken：语言模型分词速度提升约1000倍",
+      "url": "https://github.com/marcelroed/gigatoken",
+      "permalink": "https://aihot.virxact.com/items/cmrwh01sr01qyroj0qdt3mo09",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-22T18:51:32.473Z",
+      "summary": "GigaToken 是一款新的语言模型分词器，在 AMD EPYC 9565 双路 144 核 CPU 上对 GPT-2 分词速度达 24.53 GB/s，比 HuggingFace Tokenizers 快 989 倍、比 tiktoken 快 681 倍。",
+      "category": "ai-products",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrwh01sr01qyroj0qdt3mo09"
+      }
+    },
+    {
+      "id": "cmrweu9dz014froj0gj35xvw9",
+      "title": "微软 MagenticLite 模型全面开源",
+      "title_en": "MagenticLite's models are now fully open source. MagenticBrain and Fara 1.5， previously available …",
+      "url": "https://x.com/MSFTResearch/status/2079989338994069511",
+      "permalink": "https://aihot.virxact.com/items/cmrweu9dz014froj0gj35xvw9",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "publishedAt": "2026-07-22T17:57:57.000Z",
+      "summary": "MagenticLite 的模型现已完全开源。\n\n此前在 Microsoft Foundry 上提供的 MagenticBrain 和 Fara 1.5，现已在 Hugging Face 上开放权重。\n\n该应用、测试工具以及堆栈中的每个模型现已全部开放。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrweu9dz014froj0gj35xvw9"
+      }
+    },
+    {
+      "id": "cmrwdro6w00ttroj0me2uszkk",
+      "title": "从提示词到任务：多模态交互单元提升AI智能体效率",
+      "title_en": "http://x.com/i/article/2079981292108582912",
+      "url": "https://x.com/omarsar0/status/2079982491578827214",
+      "permalink": "https://aihot.virxact.com/items/cmrwdro6w00ttroj0me2uszkk",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "publishedAt": "2026-07-22T17:30:44.000Z",
+      "summary": "DAIR.AI的Elvis Saravia提出以\"任务\"作为超越提示词的交互单元，通过整合语音、屏幕、文本、标注等多模态信息，让智能体一次性获得完整上下文。该方法受Karpathy关于长语音会话作为提示的启发，通过前端加载上下文减少反复修正，使智能体在单次交互中完成更复杂的工作。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrwdro6w00ttroj0me2uszkk"
+      }
+    },
+    {
+      "id": "cmrwcpwl900hyroj09infknzb",
+      "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
+      "title_en": "Ask Claude about the Anthropic Economic Index",
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "permalink": "https://aihot.virxact.com/items/cmrwcpwl900hyroj09infknzb",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-07-22T17:23:31.324Z",
+      "summary": "Anthropic 为 Claude 推出 Anthropic Economic Index 连接器，用户可在 claude.ai 中直接向 Claude 提问\"哪些职业使用 AI 最多\"等问题，答案基于 Index 的真实数据。该连接器无需安装，适用于任何 Claude 模型，并会引导用户查看原始数据及其局限性。完整数据集仍免费开放。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrwcpwl900hyroj09infknzb"
+      }
+    },
+    {
       "id": "cmrw780wk00niro8gyqsp8hr0",
       "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
       "title_en": "OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元",
@@ -520,6 +605,23 @@
       }
     },
     {
+      "id": "cmrwer0kl0127roj0zluq7yeh",
+      "title": "Cursor 发布智能模型路由系统 Cursor Router",
+      "title_en": "Introducing Cursor Router",
+      "url": "https://cursor.com/blog/router",
+      "permalink": "https://aihot.virxact.com/items/cmrwer0kl0127roj0zluq7yeh",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "Cursor 推出 Cursor Router，可自动将每个编码请求分配给最合适的模型。在线 A/B 测试显示，Auto Intelligence 模式在用户满意度接近 Fable 的同时，成本降低约 60%；Auto Balance 模式满意度超过 Opus 4.8，成本降低约 36%。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrwer0kl0127roj0zluq7yeh"
+      }
+    },
+    {
       "id": "cmrvo24p604bvbihbk4aexnv6",
       "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
       "title_en": "Transcription on OpenRouter",
@@ -602,40 +704,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrv2m1gu01w8binv2kiup4x2"
-      }
-    },
-    {
-      "id": "cmruze9vm00ywbinvdmqyi5j0",
-      "title": "Laguna S 2.1 免费开源上线 OpenCode",
-      "title_en": "Laguna S 2.1 is now free on OpenCode 1M Context · fully open source Poolside's most capable model …",
-      "url": "https://x.com/opencode/status/2079631772770242808",
-      "permalink": "https://aihot.virxact.com/items/cmruze9vm00ywbinvdmqyi5j0",
-      "source": "X：opencode (@opencode)",
-      "publishedAt": "2026-07-21T18:17:06.000Z",
-      "summary": "Laguna S 2.1 现已在 OpenCode 上免费提供\n\n1M 上下文窗口 · 完全开源\n\nPoolside 迄今为止最强大的模型",
-      "category": "ai-products",
-      "score": 56,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruze9vm00ywbinvdmqyi5j0"
-      }
-    },
-    {
-      "id": "cmruzdnzo00vpbinv65us569l",
-      "title": "OpenAI 发布奖励寻求行为新研究",
-      "title_en": "We're sharing new research with @apolloaievals on reward-seeking-when models follow what they believ…",
-      "url": "https://x.com/OpenAI/status/2079628886950994005",
-      "permalink": "https://aihot.virxact.com/items/cmruzdnzo00vpbinv65us569l",
-      "source": "X：OpenAI (@OpenAI)",
-      "publishedAt": "2026-07-21T18:05:38.000Z",
-      "summary": "我们正与 @apolloaievals 分享关于奖励寻求行为的新研究--即模型遵循其认为评分者奖励的内容，而非用户或开发者期望的内容--以及一种新方法 Contrastive SDF，用于衡量这些信念对行为的影响程度。\n\nhttps://alignment.openai.com/measuring-reward-seeking/",
-      "category": "paper",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruzdnzo00vpbinv65us569l"
       }
     }
   ]
