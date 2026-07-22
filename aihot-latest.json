@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T12:26:58.127Z",
+  "generatedAt": "2026-07-22T15:06:52.334Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-22",
   "daily": {
@@ -384,6 +384,91 @@
   },
   "selectedItems": [
     {
+      "id": "cmrw780wk00niro8gyqsp8hr0",
+      "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
+      "title_en": "OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元",
+      "url": "https://www.ithome.com/0/980/322.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrw780wk00niro8gyqsp8hr0",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-22T14:12:49.000Z",
+      "summary": "OpenAI 计划在佐治亚州萨凡纳附近建设一座超大规模数据中心，承诺投资 200 亿美元，并已争取到 3.2 吉瓦的能源。该项目预计从 2028 年起部分电力投入使用，满负荷时总成本可能超过 300 亿美元。同时，OpenAI 将截至 2030 年的预计算力支出上调至近 7500 亿美元，高于此前约 6000 亿美元的预期。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrw780wk00niro8gyqsp8hr0"
+      }
+    },
+    {
+      "id": "cmrw7dmtf00ukro8gtnl09yk6",
+      "title": "开源模型季度盘点：Kimi K3、Qwen 3.8、WAIC 演讲、知识蒸馏与开源闭源差距",
+      "title_en": "Open models recap： more on Kimi K3， Qwen 3.8， Xi's WAIC speech， distillation， the open-closed gap， and what's next",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "permalink": "https://aihot.virxact.com/items/cmrw7dmtf00ukro8gtnl09yk6",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "publishedAt": "2026-07-22T14:09:04.000Z",
+      "summary": "Nathan Lambert 与 Florian Brand 在播客中盘点开源模型最新动态。Kimi K3 发布后，中美 AI 地缘政治、开源与闭源模型的经济性、前沿安全等问题加速演进。Qwen 宣布下一代大模型将开源权重，中国厂商在开源策略上持续加码。讨论还涉及开源模型与闭源前沿的性能差距、知识蒸馏争议，以及后训练对特定任务的价值。",
+      "category": "tip",
+      "score": 62,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrw7dmtf00ukro8gtnl09yk6"
+      }
+    },
+    {
+      "id": "cmrw6cr1r00jnro8guecs6ku9",
+      "title": "AMD 投资 50 亿，Anthropic 采购 2GW GPU",
+      "title_en": "AMD HAS JUST ANNOUNCED AN ANTHROPIC DEAL WHERE THEY ARE INVESTING UP TO 5 BILLION IN EXCHANGE FOR AN…",
+      "url": "https://x.com/SemiAnalysis_/status/2079929602429141215",
+      "permalink": "https://aihot.virxact.com/items/cmrw6cr1r00jnro8guecs6ku9",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "publishedAt": "2026-07-22T14:00:35.000Z",
+      "summary": "AMD 刚刚宣布与 Anthropic 达成协议，将投资高达 50 亿美元，换取 Anthropic 采购 2GW 的 AMD MI455 UALOE72 及未来 GPU。🚨 这与我们三天前关于 Anthropic 的说法一致。",
+      "category": "industry",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrw6cr1r00jnro8guecs6ku9"
+      }
+    },
+    {
+      "id": "cmrw3blsc00n51p884m3ka7o2",
+      "title": "实测Qwen-Image-3.0：19大场景挑战GPT Image2，中文长文本与多图融合表现亮眼",
+      "title_en": "19大场景实测Qwen-Image-3.0，GPT Image2不再是生图的唯一选择了",
+      "url": "https://mp.weixin.qq.com/s/PnXGmmDYejrHBSpoRBOHkg",
+      "permalink": "https://aihot.virxact.com/items/cmrw3blsc00n51p884m3ka7o2",
+      "source": "公众号：卡尔的AI沃茨",
+      "publishedAt": "2026-07-22T12:34:24.000Z",
+      "summary": "Qwen-Image-3.0上线，支持最高4.5k token输入、12种语言、20多种字体，以及多图融合、图中图和图片编辑。实测显示，其在中文长文本生成、多语言混合排版、UI设计、多图融合与图片编辑等19个场景中均能稳定输出，文字不崩且信息对应准确，图片质量已能与GPT Image2媲美。该模型在国内可直接使用，速度快且价格不贵。",
+      "category": "tip",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrw3blsc00n51p884m3ka7o2"
+      }
+    },
+    {
+      "id": "cmrw3195500ep1p88xaztf2mf",
+      "title": "通义千问发布Qwen-Image-3.0：主打\"真实\"的第三代图像生成模型",
+      "title_en": "🎨 Meet Qwen-Image-3.0 - the third generation of our foundational image generation model. If 1.0 wa…",
+      "url": "https://x.com/Alibaba_Qwen/status/2079906336381509659",
+      "permalink": "https://aihot.virxact.com/items/cmrw3195500ep1p88xaztf2mf",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "publishedAt": "2026-07-22T12:28:08.000Z",
+      "summary": "通义千问发布第三代图像生成模型Qwen-Image-3.0，核心关键词为\"真实\"。模型支持最长4.5k token的提示词，可一次性生成复杂布局（如报纸、试卷、3×3信息图），并能渲染10px级文字、完整LaTeX论文页面及逼真皮肤纹理。它还支持12种语言、100多种艺术风格，并具备实时网络检索能力，旨在成为设计、教育等领域的实用生产力工具。",
+      "category": "ai-models",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrw3195500ep1p88xaztf2mf"
+      }
+    },
+    {
       "id": "cmrvx8ycy0240bipz0pkrvryq",
       "title": "小红书开源 BigMac：多模态大模型训练新范式",
       "title_en": "小红书 dots infra 开源BigMac ： 突破多模态大模型训练的帕累托前沿",
@@ -755,23 +840,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrutwpdm000ubijq3c5m50x1"
-      }
-    },
-    {
-      "id": "cmrupmpuw0755biuff0tzsfv5",
-      "title": "Anthropic 团队透露 Claude Tag 承担 65% 产品工程 PR，系统提示词缩减 80%",
-      "title_en": "A Fireside Chat with Cat and Thariq from the Claude Code team",
-      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
-      "permalink": "https://aihot.virxact.com/items/cmrupmpuw0755biuff0tzsfv5",
-      "source": "Simon Willison 博客",
-      "publishedAt": "2026-07-21T12:54:02.000Z",
-      "summary": "Anthropic 的 Cat Wu 和 Thariq Shihipar 在炉边对话中透露，Claude Tag 现已承担 Claude Code 团队 65% 的产品工程 PR。Claude Code 系统提示词最近缩减了 80%，团队越来越多地依赖自动化代码审查处理产品\"外层\"变更。Fable 已能一次性完成大量功能实现，Thariq 还用它编辑了自己的产品发布视频。",
-      "category": "tip",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrupmpuw0755biuff0tzsfv5"
       }
     }
   ]
