@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:15:17.337Z",
+  "generatedAt": "2026-07-23T20:15:52.816Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-23",
   "daily": {
@@ -291,6 +291,57 @@
   },
   "selectedItems": [
     {
+      "id": "cmrxxl53u03q5roxp15huqnni",
+      "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
+      "title_en": "Think through hard problems in voice mode",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "permalink": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-07-23T19:55:29.530Z",
+      "summary": "即日起，Claude 语音模式在 Opus、Sonnet 和 Haiku 上运行，并支持连接 Gmail、Slack 等工具及更多语言。用户可在对话中切换模型，语音模式默认沿用上次文本聊天使用的模型。该功能面向所有用户开放 beta 测试，免费版可使用 Haiku 及一个连接工具，付费版可访问更多模型和全部连接工具。",
+      "category": "ai-products",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni"
+      }
+    },
+    {
+      "id": "cmrxxi2qg03kcroxpcugdaldy",
+      "title": "ChatGPT 桌面版上线语音控制多智能体",
+      "title_en": "ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
+      "url": "https://x.com/OpenAI/status/2080378182469857576",
+      "permalink": "https://aihot.virxact.com/items/cmrxxi2qg03kcroxpcugdaldy",
+      "source": "X：OpenAI (@OpenAI)",
+      "publishedAt": "2026-07-23T19:43:04.000Z",
+      "summary": "ChatGPT 语音功能现已登陆桌面应用。\n\n只需使用语音，即可控制你的电脑，并指挥在 ChatGPT Work 或 Codex 中运行的多个智能体。\n\n该功能由 GPT-Live 驱动，因此它能够同时在该应用中说话、聆听并协调工作。\n\n今日起，面向 macOS 和 Windows 平台的 Plus、Pro、Business、Edu 及 Enterprise 计划用户全球推送。",
+      "category": "ai-products",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxxi2qg03kcroxpcugdaldy"
+      }
+    },
+    {
+      "id": "cmrxvduwi02z1roxph1bvkmmu",
+      "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
+      "title_en": "TheNumbers.com 发生了什么",
+      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "permalink": "https://aihot.virxact.com/items/cmrxvduwi02z1roxph1bvkmmu",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-23T18:35:29.016Z",
+      "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxvduwi02z1roxph1bvkmmu"
+      }
+    },
+    {
       "id": "cmrxs4yyw01xkroxpom7zfjvc",
       "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
       "title_en": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
@@ -475,57 +526,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrwm7xsg0058robhvqflbjll"
-      }
-    },
-    {
-      "id": "cmrwj872b001droqli3w3cya0",
-      "title": "Alphabet Q2：AI 投资推动营收增长 24%，Gemini 月活达 9.5 亿",
-      "title_en": "Q2 was an amazing quarter， with our AI investments redefining what's possible across every part of o…",
-      "url": "https://x.com/sundarpichai/status/2080021408856293584",
-      "permalink": "https://aihot.virxact.com/items/cmrwj872b001droqli3w3cya0",
-      "source": "X：Sundar Pichai (@sundarpichai)",
-      "publishedAt": "2026-07-22T20:05:23.000Z",
-      "summary": "Alphabet Q2 营收同比增长 24%，Google Cloud 增速达 82%。Gemini 应用月活跃用户达 9.5 亿，模型 API 处理量升至 220 亿 token/分钟，由 Flash 模型驱动。Gemini Enterprise 已被 90% 的财富 100 强企业采用。",
-      "category": "industry",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrwj872b001droqli3w3cya0"
-      }
-    },
-    {
-      "id": "cmrwi1je4022froj05zaqigov",
-      "title": "Anthropic 因盗版书籍支付 15 亿美元和解金，创下集体诉讼版权赔偿纪录",
-      "title_en": "Anthropic's $1.5B piracy settlement with book authors is a record loss that hands AI labs their biggest legal win",
-      "url": "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win",
-      "permalink": "https://aihot.virxact.com/items/cmrwi1je4022froj05zaqigov",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-22T19:33:48.000Z",
-      "summary": "Anthropic 向图书作者支付 15 亿美元版权和解金，联邦法院已批准。约 482460 部作品中 91.3% 被索赔，每部约获 3000 美元。法官此前裁定，在合法获取的书籍上训练 AI 属于\"变革性\"合理使用，但大规模抓取网络内容是否合法仍悬而未决。",
-      "category": "industry",
-      "score": 86,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrwi1je4022froj05zaqigov"
-      }
-    },
-    {
-      "id": "cmrwh01sr01qyroj0qdt3mo09",
-      "title": "GigaToken 发布：语言模型分词速度最高提升约 1000 倍，可无缝替代 HuggingFace Tokenizers",
-      "title_en": "GigaToken：语言模型分词速度提升约1000倍",
-      "url": "https://github.com/marcelroed/gigatoken",
-      "permalink": "https://aihot.virxact.com/items/cmrwh01sr01qyroj0qdt3mo09",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-22T18:51:32.473Z",
-      "summary": "GigaToken 是一款新的语言模型分词器，在 AMD EPYC 9565 双路 144 核 CPU 上对 GPT-2 分词速度达 24.53 GB/s，比 HuggingFace Tokenizers 快 989 倍、比 tiktoken 快 681 倍。",
-      "category": "ai-products",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrwh01sr01qyroj0qdt3mo09"
       }
     }
   ]
