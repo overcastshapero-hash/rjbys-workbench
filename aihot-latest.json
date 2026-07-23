@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T09:26:29.068Z",
+  "generatedAt": "2026-07-23T11:52:17.877Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-23",
   "daily": {
@@ -291,6 +291,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmrxfjpf800tero983dojzltm",
+      "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
+      "title_en": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本 | 腾讯WAIC之夜",
+      "url": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
+      "permalink": "https://aihot.virxact.com/items/cmrxfjpf800tero983dojzltm",
+      "source": "公众号：昆仑万维（天工）",
+      "publishedAt": "2026-07-23T11:20:00.000Z",
+      "summary": "昆仑万维CEO方汉在WAIC圆桌上指出，单纯堆砌Token消耗量无法衡量AI价值，模型能力需依赖Claude Code等Coding Agent建立的工程框架才能转化为生产力。他透露昆仑万维仍在持续训练模型，并将发布音乐、具身世界和游戏世界模型，认为模型与算力是AI公司长期立足的基础。方汉同时警示，AI编程带来的技术债可能导致生产事故增幅达数倍，代码审查与责任机制必须同步加强。",
+      "category": "tip",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxfjpf800tero983dojzltm"
+      }
+    },
+    {
       "id": "cmrx3iki50075ro694xrjogs3",
       "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
       "title_en": "Show HN： 《仙人掌杂交种》：我们教4岁的杰玛如何分辨对错",
@@ -543,23 +560,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrw3blsc00n51p884m3ka7o2"
-      }
-    },
-    {
-      "id": "cmrvx8ycy0240bipz0pkrvryq",
-      "title": "小红书开源 BigMac：多模态大模型训练新范式",
-      "title_en": "小红书 dots infra 开源BigMac ： 突破多模态大模型训练的帕累托前沿",
-      "url": "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
-      "permalink": "https://aihot.virxact.com/items/cmrvx8ycy0240bipz0pkrvryq",
-      "source": "公众号：小红书技术（dots.llm）",
-      "publishedAt": "2026-07-22T10:04:51.000Z",
-      "summary": "小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式。它以 LLM 流水线为主干，在不打乱执行顺序的前提下嵌入编码器和生成器计算，相比基线实现 1.08x-1.9x 加速，同时保持激活显存有界。BigMac 已作为 dots 多模态模型训练的核心组件投入生产。",
-      "category": "ai-products",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrvx8ycy0240bipz0pkrvryq"
       }
     }
   ]
