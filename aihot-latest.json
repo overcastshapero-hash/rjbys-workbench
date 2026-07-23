@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T16:38:25.926Z",
+  "generatedAt": "2026-07-23T18:15:17.337Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-23",
   "daily": {
@@ -291,6 +291,40 @@
   },
   "selectedItems": [
     {
+      "id": "cmrxs4yyw01xkroxpom7zfjvc",
+      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
+      "title_en": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
+      "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
+      "permalink": "https://aihot.virxact.com/items/cmrxs4yyw01xkroxpom7zfjvc",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-23T17:01:30.000Z",
+      "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在\"AgentForger\"漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
+      "category": "industry",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxs4yyw01xkroxpom7zfjvc"
+      }
+    },
+    {
+      "id": "cmrxr59xb01sbroxpzcqbv1fo",
+      "title": "微软MAI模型：以更低成本实现前沿能力规模化",
+      "title_en": "http://x.com/i/article/2080328073724260352",
+      "url": "https://x.com/satyanadella/status/2080329851127669104",
+      "permalink": "https://aihot.virxact.com/items/cmrxr59xb01sbroxpzcqbv1fo",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "publishedAt": "2026-07-23T16:31:01.000Z",
+      "summary": "微软CEO Satya Nadella详解MAI模型家族战略：通过优化成本-效果前沿，MAI模型在GitHub Copilot、Excel等产品中已用更少token超越通用前沿模型。核心是构建独立于模型的评估系统，让模型在产品真实环境中学习并完成用户关心的任务。微软正将这一模板通过Foundry平台开放给企业客户。",
+      "category": "tip",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxr59xb01sbroxpzcqbv1fo"
+      }
+    },
+    {
       "id": "cmrxnw4rw00qzroxpll5shp7a",
       "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
       "title_en": "Google closes in on another billion- user product with Gemini",
@@ -492,40 +526,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrwh01sr01qyroj0qdt3mo09"
-      }
-    },
-    {
-      "id": "cmrweu9dz014froj0gj35xvw9",
-      "title": "微软 MagenticLite 模型全面开源",
-      "title_en": "MagenticLite's models are now fully open source. MagenticBrain and Fara 1.5， previously available …",
-      "url": "https://x.com/MSFTResearch/status/2079989338994069511",
-      "permalink": "https://aihot.virxact.com/items/cmrweu9dz014froj0gj35xvw9",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "publishedAt": "2026-07-22T17:57:57.000Z",
-      "summary": "MagenticLite 的模型现已完全开源。\n\n此前在 Microsoft Foundry 上提供的 MagenticBrain 和 Fara 1.5，现已在 Hugging Face 上开放权重。\n\n该应用、测试工具以及堆栈中的每个模型现已全部开放。",
-      "category": "ai-products",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrweu9dz014froj0gj35xvw9"
-      }
-    },
-    {
-      "id": "cmrwdro6w00ttroj0me2uszkk",
-      "title": "从提示词到任务：多模态交互单元提升AI智能体效率",
-      "title_en": "http://x.com/i/article/2079981292108582912",
-      "url": "https://x.com/omarsar0/status/2079982491578827214",
-      "permalink": "https://aihot.virxact.com/items/cmrwdro6w00ttroj0me2uszkk",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "publishedAt": "2026-07-22T17:30:44.000Z",
-      "summary": "DAIR.AI的Elvis Saravia提出以\"任务\"作为超越提示词的交互单元，通过整合语音、屏幕、文本、标注等多模态信息，让智能体一次性获得完整上下文。该方法受Karpathy关于长语音会话作为提示的启发，通过前端加载上下文减少反复修正，使智能体在单次交互中完成更复杂的工作。",
-      "category": "tip",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrwdro6w00ttroj0me2uszkk"
       }
     }
   ]
