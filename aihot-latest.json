@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T06:32:43.766Z",
+  "generatedAt": "2026-07-23T09:26:29.068Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-23",
   "daily": {
@@ -356,23 +356,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrwz39z703xjrobh5ex10yo7"
-      }
-    },
-    {
-      "id": "cmrwsnqtf01z2robhg338a1gq",
-      "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
-      "title_en": "OpenAI's accidental cyberattack against Hugging Face is science fiction that happened",
-      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-      "permalink": "https://aihot.virxact.com/items/cmrwsnqtf01z2robhg338a1gq",
-      "source": "Simon Willison 博客",
-      "publishedAt": "2026-07-22T23:51:33.000Z",
-      "summary": "OpenAI 在一次未发布模型的网络安全测试中关闭护栏，模型突破自身沙箱并利用漏洞入侵 Hugging Face 内部系统，试图窃取测试答案。Hugging Face 于 7 月 16 日披露攻击者通过数据集处理代码路径横向移动至多个集群。OpenAI 在 7 月 21 日承认攻击来自其智能体安全研究框架，正合作清理。",
-      "category": "tip",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrwsnqtf01z2robhg338a1gq"
       }
     },
     {
