@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T14:58:13.370Z",
+  "generatedAt": "2026-07-24T16:49:33.589Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-24",
   "daily": {
@@ -208,6 +208,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmrz3eamm01jdroey6e0m62on",
+      "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
+      "title_en": "Project Pilot： Can AI control a drone？",
+      "url": "https://www.anthropic.com/research/project-pilot",
+      "permalink": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "publishedAt": "2026-07-24T15:25:45.300Z",
+      "discoveredAt": "2026-07-24T15:25:45.300Z",
+      "summary": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3D 地图重建、定位、导航、目标检测与跟随五个子任务，并通过软件复现实现快速评估。实验表明，该任务链的难度足以区分不同智能水平的模型，并揭示 AI 在物理世界操控能力上的进步轨迹。",
+      "category": "paper",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on"
+      }
+    },
+    {
       "id": "cmrz0ch8700m7roeygv4eshdv",
       "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
       "title_en": "Ling-3.0-flash：智以密胜",
@@ -406,24 +424,6 @@
       }
     },
     {
-      "id": "cmrxxl53u03q5roxp15huqnni",
-      "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
-      "title_en": "Think through hard problems in voice mode",
-      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-      "permalink": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-07-23T19:55:29.530Z",
-      "discoveredAt": "2026-07-23T19:55:29.530Z",
-      "summary": "即日起，Claude 语音模式在 Opus、Sonnet 和 Haiku 上运行，并支持连接 Gmail、Slack 等工具及更多语言。用户可在对话中切换模型，语音模式默认沿用上次文本聊天使用的模型。该功能面向所有用户开放 beta 测试，免费版可使用 Haiku 及一个连接工具，付费版可访问更多模型和全部连接工具。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni"
-      }
-    },
-    {
       "id": "cmrxxi2qg03kcroxpcugdaldy",
       "title": "ChatGPT 桌面版上线语音控制多智能体",
       "title_en": "ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
@@ -493,24 +493,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrxs4yyw01xkroxpom7zfjvc"
-      }
-    },
-    {
-      "id": "cmrxr59xb01sbroxpzcqbv1fo",
-      "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-      "title_en": "http://x.com/i/article/2080328073724260352",
-      "url": "https://x.com/satyanadella/status/2080329851127669104",
-      "permalink": "https://aihot.virxact.com/items/cmrxr59xb01sbroxpzcqbv1fo",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "publishedAt": "2026-07-23T16:31:01.000Z",
-      "discoveredAt": "2026-07-23T16:55:10.954Z",
-      "summary": "微软CEO Satya Nadella详解MAI模型家族战略：通过优化成本-效果前沿，MAI模型在GitHub Copilot、Excel等产品中已用更少token超越通用前沿模型。核心是构建独立于模型的评估系统，让模型在产品真实环境中学习并完成用户关心的任务。微软正将这一模板通过Foundry平台开放给企业客户。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrxr59xb01sbroxpzcqbv1fo"
       }
     }
   ]
