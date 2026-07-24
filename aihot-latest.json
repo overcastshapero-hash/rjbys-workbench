@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T07:34:04.159Z",
+  "generatedAt": "2026-07-24T10:21:52.155Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-24",
   "daily": {
@@ -207,6 +207,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmryrih7804c9rolge6wdk3v8",
+      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+      "title_en": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+      "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+      "permalink": "https://aihot.virxact.com/items/cmryrih7804c9rolge6wdk3v8",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-24T09:48:32.000Z",
+      "discoveredAt": "2026-07-24T09:53:12.325Z",
+      "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryrih7804c9rolge6wdk3v8"
+      }
+    },
+    {
+      "id": "cmryrjtlb04ehrolgi1zd6eqv",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "title_en": "Show HN： Claude-thermos 能为您保持 Claude 会话的热度",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "permalink": "https://aihot.virxact.com/items/cmryrjtlb04ehrolgi1zd6eqv",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-24T09:47:29.601Z",
+      "discoveredAt": "2026-07-24T09:54:16.034Z",
+      "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
+      "category": "tip",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryrjtlb04ehrolgi1zd6eqv"
+      }
+    },
     {
       "id": "cmrykywyx026jrolgq06set4j",
       "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
