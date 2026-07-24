@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T18:20:21.351Z",
+  "generatedAt": "2026-07-24T20:22:21.156Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-24",
   "daily": {
@@ -207,6 +207,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrzbx19q0032roqz8nwff6am",
+      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
+      "title_en": "英伟达、微软和Meta警告称，应避免对开放权重模型进行过度监管",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "permalink": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-24T19:07:52.324Z",
+      "discoveredAt": "2026-07-24T19:24:24.998Z",
+      "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
+      "category": "industry",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am"
+      }
+    },
     {
       "id": "cmrz7ov4300lfrox82ri8kia1",
       "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
@@ -439,60 +457,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmry5ypd2008croeuadelaot9"
-      }
-    },
-    {
-      "id": "cmrxylm0f002xropg7xpd1pth",
-      "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-      "title_en": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
-      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "permalink": "https://aihot.virxact.com/items/cmrxylm0f002xropg7xpd1pth",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-23T20:11:31.906Z",
-      "discoveredAt": "2026-07-23T20:23:50.998Z",
-      "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
-      "category": "industry",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrxylm0f002xropg7xpd1pth"
-      }
-    },
-    {
-      "id": "cmrxxi2qg03kcroxpcugdaldy",
-      "title": "ChatGPT 桌面版上线语音控制多智能体",
-      "title_en": "ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
-      "url": "https://x.com/OpenAI/status/2080378182469857576",
-      "permalink": "https://aihot.virxact.com/items/cmrxxi2qg03kcroxpcugdaldy",
-      "source": "X：OpenAI (@OpenAI)",
-      "publishedAt": "2026-07-23T19:43:04.000Z",
-      "discoveredAt": "2026-07-23T19:53:05.984Z",
-      "summary": "ChatGPT 语音功能现已登陆桌面应用。\n\n只需使用语音，即可控制你的电脑，并指挥在 ChatGPT Work 或 Codex 中运行的多个智能体。\n\n该功能由 GPT-Live 驱动，因此它能够同时在该应用中说话、聆听并协调工作。\n\n今日起，面向 macOS 和 Windows 平台的 Plus、Pro、Business、Edu 及 Enterprise 计划用户全球推送。",
-      "category": "ai-products",
-      "score": 79,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrxxi2qg03kcroxpcugdaldy"
-      }
-    },
-    {
-      "id": "cmrxvduwi02z1roxph1bvkmmu",
-      "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-      "title_en": "TheNumbers.com 发生了什么",
-      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "permalink": "https://aihot.virxact.com/items/cmrxvduwi02z1roxph1bvkmmu",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-23T18:35:29.016Z",
-      "discoveredAt": "2026-07-23T18:53:50.410Z",
-      "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
-      "category": "tip",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrxvduwi02z1roxph1bvkmmu"
       }
     }
   ]
