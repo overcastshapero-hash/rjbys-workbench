@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T22:07:21.680Z",
+  "generatedAt": "2026-07-24T00:03:46.779Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-23",
   "daily": {
@@ -291,6 +291,23 @@
   },
   "selectedItems": [
     {
+      "id": "cmry5ypd2008croeuadelaot9",
+      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+      "title_en": "佛州一男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+      "url": "https://www.ithome.com/0/980/890.htm",
+      "permalink": "https://aihot.virxact.com/items/cmry5ypd2008croeuadelaot9",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-23T23:30:43.000Z",
+      "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
+      "category": "industry",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmry5ypd2008croeuadelaot9"
+      }
+    },
+    {
       "id": "cmrxylm0f002xropg7xpd1pth",
       "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
       "title_en": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
@@ -356,6 +373,23 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrxvduwi02z1roxph1bvkmmu"
+      }
+    },
+    {
+      "id": "cmrxubdvx02mjroxp2kzix1mf",
+      "title": "ChatGPT 向美国用户推出健康功能",
+      "title_en": "Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
+      "url": "https://x.com/gdb/status/2080351159638704615",
+      "permalink": "https://aihot.virxact.com/items/cmrxubdvx02mjroxp2kzix1mf",
+      "source": "X：Greg Brockman (@gdb)",
+      "publishedAt": "2026-07-23T17:55:42.000Z",
+      "summary": "OpenAI 宣布向美国用户推出 ChatGPT 健康功能，支持安全连接 Apple Health 及受支持的医疗记录。每周有 3 亿用户使用 ChatGPT 进行健康咨询，新功能可让 ChatGPT 理解个人健康上下文，追踪变化并提供更个性化的帮助。",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxubdvx02mjroxp2kzix1mf"
       }
     },
     {
