@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T15:05:49.646Z",
+  "generatedAt": "2026-07-25T17:01:51.714Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-25",
   "daily": {
@@ -310,60 +310,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am"
-      }
-    },
-    {
-      "id": "cmrz7ov4300lfrox82ri8kia1",
-      "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
-      "title_en": "The new rules of context engineering for Claude 5 generation models",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "permalink": "https://aihot.virxact.com/items/cmrz7ov4300lfrox82ri8kia1",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-07-24T17:25:50.349Z",
-      "discoveredAt": "2026-07-24T17:25:50.349Z",
-      "summary": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrz7ov4300lfrox82ri8kia1"
-      }
-    },
-    {
-      "id": "cmrz7mrck00gprox8j0j9qfst",
-      "title": "Anthropic 发布 Claude Opus 5",
-      "title_en": "Introducing Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "permalink": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-07-24T17:24:25.589Z",
-      "discoveredAt": "2026-07-24T17:24:25.589Z",
-      "summary": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opus 4.8 两倍以上，在 ARC-AGI 3 上得分是次优模型的三倍。Opus 5 即日起成为 Claude Max 的默认模型和 Claude Pro 的最强模型。",
-      "category": "ai-models",
-      "score": 92,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst"
-      }
-    },
-    {
-      "id": "cmrz3eamm01jdroey6e0m62on",
-      "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
-      "title_en": "Project Pilot： Can AI control a drone？",
-      "url": "https://www.anthropic.com/research/project-pilot",
-      "permalink": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "publishedAt": "2026-07-24T15:25:45.300Z",
-      "discoveredAt": "2026-07-24T15:25:45.300Z",
-      "summary": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3D 地图重建、定位、导航、目标检测与跟随五个子任务，并通过软件复现实现快速评估。实验表明，该任务链的难度足以区分不同智能水平的模型，并揭示 AI 在物理世界操控能力上的进步轨迹。",
-      "category": "paper",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on"
       }
     }
   ]
