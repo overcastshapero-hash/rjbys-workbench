@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:13:18.751Z",
+  "generatedAt": "2026-07-25T13:41:09.642Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-25",
   "daily": {
@@ -346,96 +346,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on"
-      }
-    },
-    {
-      "id": "cmrz0ch8700m7roeygv4eshdv",
-      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
-      "title_en": "Ling-3.0-flash：智以密胜",
-      "url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
-      "permalink": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "publishedAt": "2026-07-24T13:40:30.000Z",
-      "discoveredAt": "2026-07-24T14:00:30.582Z",
-      "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
-      "category": "ai-models",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv"
-      }
-    },
-    {
-      "id": "cmrz07a8z00ksroey0zfjw3iq",
-      "title": "Runway Agent 推出自然语言工作流功能",
-      "title_en": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
-      "url": "https://x.com/runwayml/status/2080649234672439389",
-      "permalink": "https://aihot.virxact.com/items/cmrz07a8z00ksroey0zfjw3iq",
-      "source": "X：Runway (@runwayml)",
-      "publishedAt": "2026-07-24T13:40:08.000Z",
-      "discoveredAt": "2026-07-24T13:56:25.978Z",
-      "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrz07a8z00ksroey0zfjw3iq"
-      }
-    },
-    {
-      "id": "cmrz061qu00itroey2lemh731",
-      "title": "微软阐述开源模型助力美国竞争力路径",
-      "title_en": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
-      "url": "https://x.com/satyanadella/status/2080646162483417097",
-      "permalink": "https://aihot.virxact.com/items/cmrz061qu00itroey2lemh731",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "publishedAt": "2026-07-24T13:27:56.000Z",
-      "discoveredAt": "2026-07-24T13:55:29.995Z",
-      "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
-      "category": "industry",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrz061qu00itroey2lemh731"
-      }
-    },
-    {
-      "id": "cmryx4qpj065vrolgti8j0pm2",
-      "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
-      "title_en": "百度搭子这些隐藏玩法，你还没发现？！",
-      "url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
-      "permalink": "https://aihot.virxact.com/items/cmryx4qpj065vrolgti8j0pm2",
-      "source": "公众号：百度智能云（文心）",
-      "publishedAt": "2026-07-24T12:28:24.000Z",
-      "discoveredAt": "2026-07-24T12:30:30.319Z",
-      "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
-      "category": "ai-products",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmryx4qpj065vrolgti8j0pm2"
-      }
-    },
-    {
-      "id": "cmrywwsva05zgrolgrh7uc4ls",
-      "title": "FLUX 3 x mimic：新一代视频动作模型",
-      "title_en": "Flux 3 X Mimic：新一代视频动作模型",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "permalink": "https://aihot.virxact.com/items/cmrywwsva05zgrolgrh7uc4ls",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-24T11:55:45.885Z",
-      "discoveredAt": "2026-07-24T12:24:18.584Z",
-      "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
-      "category": "ai-models",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrywwsva05zgrolgrh7uc4ls"
       }
     }
   ]
