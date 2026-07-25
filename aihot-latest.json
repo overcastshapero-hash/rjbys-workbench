@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T22:07:24.015Z",
+  "generatedAt": "2026-07-25T00:07:08.617Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-24",
   "daily": {
@@ -207,6 +207,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmrzi9yew001arop9eruk86n7",
+      "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
+      "title_en": "Version 8.2",
+      "url": "https://updates.midjourney.com/version-8-2",
+      "permalink": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7",
+      "source": "Midjourney：Updates（RSS）",
+      "publishedAt": "2026-07-24T22:18:48.000Z",
+      "discoveredAt": "2026-07-24T22:22:25.866Z",
+      "summary": "Midjourney 今日推出 V8.2 图像模型，重点提升美学质量、图像创意与个性化表现。低质量图像出现频率将显著降低，个性化功能能更精准理解用户审美偏好。V8.2 的个性化配置文件拥有更大、更优的图像选择池，建议用户尝试新旧配置文件体验最新版本。",
+      "category": "ai-models",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7"
+      }
+    },
     {
       "id": "cmrzbx19q0032roqz8nwff6am",
       "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
@@ -421,42 +439,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrykywyx026jrolgq06set4j"
-      }
-    },
-    {
-      "id": "cmryxzcmz06cbrolgm4zhtc1m",
-      "title": "OpenRouter 推出 Classifiers 测试版：自动标记 AI 请求的用途与成本归属",
-      "title_en": "Classifiers： Track What Your Agents Do and What It Costs",
-      "url": "https://openrouter.ai/blog/announcements/classifiers",
-      "permalink": "https://aihot.virxact.com/items/cmryxzcmz06cbrolgm4zhtc1m",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-07-24T00:00:00.000Z",
-      "discoveredAt": "2026-07-24T12:54:17.832Z",
-      "summary": "OpenRouter 上线 Classifiers 测试版，允许用户通过自定义分类法（最多 8 个维度）自动标记每次 AI 请求的任务类型、部门归属、合规类别等信息。分类异步运行，不增加推理延迟；支持采样率控制成本，推荐使用 Gemini 3.5 Flash Lite 作为分类模型。标记结果写入日志，并可在 Activity Explorer 中按维度聚合分析模型使用分布与成本流向。",
-      "category": "ai-products",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmryxzcmz06cbrolgm4zhtc1m"
-      }
-    },
-    {
-      "id": "cmry5ypd2008croeuadelaot9",
-      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-      "title_en": "佛州一男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-      "url": "https://www.ithome.com/0/980/890.htm",
-      "permalink": "https://aihot.virxact.com/items/cmry5ypd2008croeuadelaot9",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-23T23:30:43.000Z",
-      "discoveredAt": "2026-07-23T23:49:58.176Z",
-      "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
-      "category": "industry",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmry5ypd2008croeuadelaot9"
       }
     }
   ]
