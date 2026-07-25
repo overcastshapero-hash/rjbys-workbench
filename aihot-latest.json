@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T21:59:54.223Z",
+  "generatedAt": "2026-07-25T23:05:09.890Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-25",
   "daily": {
@@ -274,24 +274,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrzpp5580011ro6dkcqp7blk"
-      }
-    },
-    {
-      "id": "cmrzi9yew001arop9eruk86n7",
-      "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
-      "title_en": "Version 8.2",
-      "url": "https://updates.midjourney.com/version-8-2",
-      "permalink": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7",
-      "source": "Midjourney：Updates（RSS）",
-      "publishedAt": "2026-07-24T22:18:48.000Z",
-      "discoveredAt": "2026-07-24T22:22:25.866Z",
-      "summary": "Midjourney 今日推出 V8.2 图像模型，重点提升美学质量、图像创意与个性化表现。低质量图像出现频率将显著降低，个性化功能能更精准理解用户审美偏好。V8.2 的个性化配置文件拥有更大、更优的图像选择池，建议用户尝试新旧配置文件体验最新版本。",
-      "category": "ai-models",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7"
       }
     }
   ]
