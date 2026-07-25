@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T17:01:51.714Z",
+  "generatedAt": "2026-07-25T19:12:00.032Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-25",
   "daily": {
@@ -292,24 +292,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7"
-      }
-    },
-    {
-      "id": "cmrzbx19q0032roqz8nwff6am",
-      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
-      "title_en": "英伟达、微软和Meta警告称，应避免对开放权重模型进行过度监管",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "permalink": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-24T19:07:52.324Z",
-      "discoveredAt": "2026-07-24T19:24:24.998Z",
-      "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
-      "category": "industry",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am"
       }
     }
   ]
