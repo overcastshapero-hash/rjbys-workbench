@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:39:29.057Z",
+  "generatedAt": "2026-07-26T09:15:52.559Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-26",
   "daily": {
@@ -33,6 +33,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cms1ka4930059ro05h81rrc3q",
+      "title": "数百用户向ChatGPT索要毒药与生物武器配方，部分获得高中生水平步骤指南",
+      "title_en": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
+      "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides",
+      "permalink": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-26T08:35:49.000Z",
+      "discoveredAt": "2026-07-26T08:54:01.338Z",
+      "summary": "2025年夏季，OpenAI内部将GPT-5标记为高风险，因其可帮助教育程度有限的用户制造生物危害。据《华尔街日报》报道，自去年夏天以来，数百名用户向ChatGPT询问如何制造生物武器和毒药，部分用户获得了员工称高中生都能遵循的逐步指南。OpenAI暂停了相关账户，但未向当局报告任何事件。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q"
+      }
+    },
     {
       "id": "cms1dpz52040tro0w3c4a9c8p",
       "title": "Claude Opus 5 系统提示词被完整泄露，共 135027 字符、约 3.4 万 token",
