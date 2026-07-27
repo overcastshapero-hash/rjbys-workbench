@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:00:27.637Z",
+  "generatedAt": "2026-07-27T19:39:00.908Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-27",
   "daily": {
@@ -98,6 +98,78 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cms3m8ubg001nrox37oixfg2e",
+      "title": "OpenAI 称越来越多员工用 ChatGPT 做其他岗位的工作",
+      "title_en": "OpenAI says more workers are using ChatGPT to do other people's jobs",
+      "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs",
+      "permalink": "https://aihot.virxact.com/items/cms3m8ubg001nrox37oixfg2e",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-27T19:08:51.000Z",
+      "discoveredAt": "2026-07-27T19:24:35.867Z",
+      "summary": "OpenAI 分析超 80 万条与工作相关的 ChatGPT 消息后发现，43.5% 的岗位特定查询涉及另一职业，营销和工程任务交叉最多。用户用 AI 处理合同审查、数据分析、网站故障排查等原由专家负责的工作。OpenAI 认为这是岗位职责正在变化的早期信号，该趋势在缺乏专业团队的小公司尤为明显。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3m8ubg001nrox37oixfg2e"
+      }
+    },
+    {
+      "id": "cms3lggqj00c0roskhu1r5f09",
+      "title": "Kimi 发布视觉感知基准 PerceptionBench",
+      "title_en": "We are releasing PerceptionBench， a benchmark that isolates visual perception and evaluates it as a …",
+      "url": "https://x.com/Kimi_Moonshot/status/2081813202514681878",
+      "permalink": "https://aihot.virxact.com/items/cms3lggqj00c0roskhu1r5f09",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "publishedAt": "2026-07-27T18:45:20.000Z",
+      "discoveredAt": "2026-07-27T19:02:32.798Z",
+      "summary": "Kimi.ai 发布 PerceptionBench，一个从当前前沿模型在 42 个基准上的失败模式中归纳出的视觉感知基准。该基准将视觉感知拆解为 10 种原子能力，并构建了 3000 道验证题，每道题只考察单一感知能力，无需推理或外部知识。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3lggqj00c0roskhu1r5f09"
+      }
+    },
+    {
+      "id": "cms3k7su000n8roiytkztsme7",
+      "title": "用Claude和Python构建技能驱动的金融分析智能体",
+      "title_en": "Designing Skill-Driven Financial Analysis Agents with Claude， Python， MCP Connectors， and Automated Deliverables",
+      "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
+      "permalink": "https://aihot.virxact.com/items/cms3k7su000n8roiytkztsme7",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-27T18:08:24.000Z",
+      "discoveredAt": "2026-07-27T18:27:48.477Z",
+      "summary": "本教程基于Anthropic的financial-services仓库，用纯Python复现其技能驱动架构。通过解析SKILL.md文件构建可搜索技能注册表，并创建可复用SkillAgent，将金融分析剧本注入Anthropic Messages API，支持迭代工具调用循环。",
+      "category": "tip",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3k7su000n8roiytkztsme7"
+      }
+    },
+    {
+      "id": "cms3ivlee000oroiy8dntgvq9",
+      "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持",
+      "title_en": "Blog SGLang and Miles Add Day-0 Support for Kimi K3 We are excited to announce Day-0 support for Kimi K3 in SGLang and Miles. K3 is the first open-source model in the 3-trillion-parameter class， and its hybrid architecture departs from convention in al… SGLang Team",
+      "url": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support",
+      "permalink": "https://aihot.virxact.com/items/cms3ivlee000oroiy8dntgvq9",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-07-27T17:50:17.260Z",
+      "discoveredAt": "2026-07-27T17:50:17.260Z",
+      "summary": "SGLang 和 Miles 为月之暗面开源的 2.8T 参数模型 Kimi K3 提供发布当日支持，分别负责推理和 RL 训练。K3 采用 69 层 KDA 线性注意力与 24 层 MLA 交错的混合架构，在 SGLang 上单卡 batch-1 解码速度达约 113 tok/s，结合 DSpark 推测解码可达约 423 tok/s。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3ivlee000oroiy8dntgvq9"
+      }
+    },
     {
       "id": "cms3gqf3h01y1rondsl8z5sxy",
       "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
@@ -207,24 +279,6 @@
       }
     },
     {
-      "id": "cms2xhfev05moro3ff9bjgnct",
-      "title": "当编码不再是瓶颈：Berkeley RDI 提出软件自主开发三级框架",
-      "title_en": "When Coding Stops Being the Bottleneck",
-      "url": "https://rdi.berkeley.edu/blog/auto-software-dev",
-      "permalink": "https://aihot.virxact.com/items/cms2xhfev05moro3ff9bjgnct",
-      "source": "Berkeley RDI：Blog（AI 安全与评测）",
-      "publishedAt": "2026-07-27T07:51:26.272Z",
-      "discoveredAt": "2026-07-27T07:51:26.272Z",
-      "summary": "Berkeley RDI等机构提出三级软件自主开发框架：代码自主（AI完成设计与实现，人类决定构建内容并审核PR）、流水线自主（AI运行从设计到部署的全流程，人类仅评估结果）、需求自主（AI自主决定构建内容）。该框架旨在为能力声明、部署选择与问责提供清晰分类。",
-      "category": "tip",
-      "score": 64,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms2xhfev05moro3ff9bjgnct"
-      }
-    },
-    {
       "id": "cms2mylvu02nlro3f73afr69h",
       "title": "用AI Skill自动生成可协作HTML PPT",
       "title_en": "基于 bento PPT 改造了一个 Skill。 输入内容或主题，自动生成可编辑修改、在线演示，甚至可以发给别人协作的HTML PPT。 安装指令：npx skills add joeseesu…",
@@ -258,24 +312,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms2p7s7h03dlro3fzjovkpwc"
-      }
-    },
-    {
-      "id": "cms24qise02adro9fp4xzdhyd",
-      "title": "Suno 推出多项新功能，含MIDI导出等",
-      "title_en": "We've been building faster than ever！ 🚀 Here's a quick look at what's new across web & mobile： • …",
-      "url": "https://x.com/suno/status/2081443050312843765",
-      "permalink": "https://aihot.virxact.com/items/cms24qise02adro9fp4xzdhyd",
-      "source": "X：Suno (@suno)",
-      "publishedAt": "2026-07-26T18:14:29.000Z",
-      "discoveredAt": "2026-07-26T18:26:42.298Z",
-      "summary": "我们一直在以比以往更快的速度构建！🚀\n\n以下是网页端和移动端的新功能一览：\n\n• 高级音轨分离 • 将音轨导出为 MIDI • 歌词合写与自动保存 • 截图生成歌曲 • Apple CarPlay 与 Android Auto\n\n你最期待 Suno 的哪些新功能？",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms24qise02adro9fp4xzdhyd"
       }
     }
   ]
