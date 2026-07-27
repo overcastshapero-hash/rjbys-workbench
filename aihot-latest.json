@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T14:42:36.768Z",
+  "generatedAt": "2026-07-27T17:00:27.637Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-27",
   "daily": {
@@ -98,6 +98,114 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cms3gqf3h01y1rondsl8z5sxy",
+      "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
+      "title_en": "GitHub Copilot app for Beginners： Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
+      "permalink": "https://aihot.virxact.com/items/cms3gqf3h01y1rondsl8z5sxy",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-07-27T16:00:00.000Z",
+      "discoveredAt": "2026-07-27T16:50:19.067Z",
+      "summary": "GitHub Copilot app 将 AI 编码工具升级为多 Agent 会话工作区，支持同时管理多个任务线程而不丢失进度。用户可为每个会话绑定项目上下文，通过 `/create-canvas` 命令在浏览器 Canvas 中预览 UI 并直接点选修改，还能启用 Agent Merge 自动处理 PR 审查反馈和合并冲突。",
+      "category": "tip",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3gqf3h01y1rondsl8z5sxy"
+      }
+    },
+    {
+      "id": "cms3fuyes00mjrond2ldww2oa",
+      "title": "Google AI Overviews 搜索结果出现率升至43%",
+      "title_en": "Google's AI search is rapidly becoming the default， new data shows",
+      "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+      "permalink": "https://aihot.virxact.com/items/cms3fuyes00mjrond2ldww2oa",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-27T15:57:12.000Z",
+      "discoveredAt": "2026-07-27T16:25:50.818Z",
+      "summary": "Google AI Overviews 在搜索结果中的出现率一年内从15%升至43%，AI Mode月访问量从1.26亿增至2.79亿。用户搜索长度增加，正从短关键词转向更长的自然对话式查询。",
+      "category": "industry",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3fuyes00mjrond2ldww2oa"
+      }
+    },
+    {
+      "id": "cms3f0d9200b8rondo4rsvd7o",
+      "title": "Kimi K3 上线 Modal，支持无损加速推理",
+      "title_en": "Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
+      "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
+      "permalink": "https://aihot.virxact.com/items/cms3f0d9200b8rondo4rsvd7o",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "publishedAt": "2026-07-27T15:44:05.000Z",
+      "discoveredAt": "2026-07-27T16:02:03.640Z",
+      "summary": "很高兴 @modal 成为 Kimi K3 的 Day 0 发布合作伙伴！\n\n他们为 K3 的架构训练了自定义 DFlash 投机器，实现更快推理且无质量损失。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3f0d9200b8rondo4rsvd7o"
+      }
+    },
+    {
+      "id": "cms3dxit00berro3f8etbfxfh",
+      "title": "Kimi K3 开源分布式智能体环境 AgentENV",
+      "title_en": "We've open-sourced AgentENV in collaboration with kvcache-ai. AgentENV is a distributed system for …",
+      "url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
+      "permalink": "https://aihot.virxact.com/items/cms3dxit00berro3f8etbfxfh",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "publishedAt": "2026-07-27T15:25:45.000Z",
+      "discoveredAt": "2026-07-27T15:31:51.181Z",
+      "summary": "我们与 kvcache-ai 合作开源了 AgentENV。\n\nAgentENV 是一个用于大规模运行智能体环境的分布式系统。其组件为 Kimi K3 的智能体强化学习训练提供支持，具备快速快照、恢复和分支功能，适用于大规模并行智能体工作流。\n\n在 GitHub 上探索：http://github.com/kvcache-ai/AgentEnv",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3dxit00berro3f8etbfxfh"
+      }
+    },
+    {
+      "id": "cms3dxit00betro3fiwkotg0j",
+      "title": "Kimi K3 开源：2.8T MoE 模型与技术报告",
+      "title_en": "Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model： a 2…",
+      "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
+      "permalink": "https://aihot.virxact.com/items/cms3dxit00betro3fiwkotg0j",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "publishedAt": "2026-07-27T15:14:40.000Z",
+      "discoveredAt": "2026-07-27T15:31:51.181Z",
+      "summary": "Kimi 发布其最强模型 Kimi K3，这是一个 2.8T 参数的 MoE 模型，具备原生视觉理解和 1M token 上下文窗口。新架构实现了每单位计算 2.5 倍的智能提升。除模型权重外，Kimi 还开源了高性能注意力内核、MoE 通信库及大规模智能体运行环境基础设施。",
+      "category": "ai-models",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3dxit00betro3fiwkotg0j"
+      }
+    },
+    {
+      "id": "cms3fbu4z00h2rondcoqgyozg",
+      "title": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
+      "title_en": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance",
+      "permalink": "https://aihot.virxact.com/items/cms3fbu4z00h2rondcoqgyozg",
+      "source": "NVIDIA Blog（RSS）",
+      "publishedAt": "2026-07-27T09:00:07.000Z",
+      "discoveredAt": "2026-07-27T09:00:07.000Z",
+      "summary": "NVIDIA、Microsoft、Hugging Face、IBM 等数十家机构联合成立 Open Secure AI Alliance，旨在通过开源模型、工具和框架构建可审查、可定制的 AI 安全防御体系。",
+      "category": "industry",
+      "score": 61,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms3fbu4z00h2rondcoqgyozg"
+      }
+    },
     {
       "id": "cms2xhfev05moro3ff9bjgnct",
       "title": "当编码不再是瓶颈：Berkeley RDI 提出软件自主开发三级框架",
