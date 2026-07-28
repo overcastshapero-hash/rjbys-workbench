@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T08:38:56.674Z",
+  "generatedAt": "2026-07-28T11:20:48.905Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-28",
   "daily": {
@@ -219,6 +219,42 @@
   },
   "selectedItems": [
     {
+      "id": "cms4fb2n603f4roeprjoopbix",
+      "title": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
+      "title_en": "Microsoft AI Releases MAI-Cyber-1-Flash： A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym",
+      "url": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym",
+      "permalink": "https://aihot.virxact.com/items/cms4fb2n603f4roeprjoopbix",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-28T08:33:30.000Z",
+      "discoveredAt": "2026-07-28T08:58:05.501Z",
+      "summary": "Microsoft 发布 MAI-Cyber-1-Flash，一款 137B 总参数（5B 活跃参数）、256k 上下文窗口的稀疏 MoE 网络安全模型，是 MAI-Code-1-Flash 的微调版本。",
+      "category": "ai-models",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms4fb2n603f4roeprjoopbix"
+      }
+    },
+    {
+      "id": "cms4himl9047broepnobhk6n2",
+      "title": "火山引擎上线豆包搜索服务，为AI Agent提供实时可信搜索能力",
+      "title_en": "豆包搜索开放服务，为Agent提供实时、权威、可信的搜索能力",
+      "url": "https://mp.weixin.qq.com/s/1nZqQHYqclsIF6__WLscgA",
+      "permalink": "https://aihot.virxact.com/items/cms4himl9047broepnobhk6n2",
+      "source": "公众号：火山引擎",
+      "publishedAt": "2026-07-28T07:51:54.000Z",
+      "discoveredAt": "2026-07-28T10:00:00.793Z",
+      "summary": "火山引擎正式上线豆包搜索服务，为AI Agent提供跨语言、多模态、多垂类联网信息查询，融合全域互联网信息、行业知识与字节跳动独家内容资源。该服务从网站站点和创作者维度建立权威分级体系，过滤低质信息，在SimpleQA、FreshQA、BrowseComp-ZH等评测中表现优异。豆包搜索支持API、Skill、MCP等多种接入形态，面向企业和开发者提供每月500次免费搜索额度。",
+      "category": "ai-products",
+      "score": 61,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms4himl9047broepnobhk6n2"
+      }
+    },
+    {
       "id": "cms4b9e8401zrroepw4fw8oka",
       "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
       "title_en": "德里高等法院裁定 OpenAI 利用印媒 ANI 内容训练 AI 未侵犯版权",
@@ -432,24 +468,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms3dxit00berro3f8etbfxfh"
-      }
-    },
-    {
-      "id": "cms3fbu4z00h2rondcoqgyozg",
-      "title": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
-      "title_en": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
-      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance",
-      "permalink": "https://aihot.virxact.com/items/cms3fbu4z00h2rondcoqgyozg",
-      "source": "NVIDIA Blog（RSS）",
-      "publishedAt": "2026-07-27T09:00:07.000Z",
-      "discoveredAt": "2026-07-27T09:00:07.000Z",
-      "summary": "NVIDIA、Microsoft、Hugging Face、IBM 等数十家机构联合成立 Open Secure AI Alliance，旨在通过开源模型、工具和框架构建可审查、可定制的 AI 安全防御体系。",
-      "category": "industry",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3fbu4z00h2rondcoqgyozg"
       }
     }
   ]
