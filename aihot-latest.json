@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T18:16:42.779Z",
+  "generatedAt": "2026-07-28T20:17:16.105Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-28",
   "daily": {
@@ -197,6 +197,24 @@
   },
   "selectedItems": [
     {
+      "id": "cms51p9ca00d8rorrkaqqfvr9",
+      "title": "Anthropic 的 Claude Mythos Preview 模型发现 AES 和 HAWK 加密算法漏洞",
+      "title_en": "Anthropic says its Mythos model found vulnerabilities in cryptographic algorithms that secure the internet",
+      "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet",
+      "permalink": "https://aihot.virxact.com/items/cms51p9ca00d8rorrkaqqfvr9",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-28T19:12:27.000Z",
+      "discoveredAt": "2026-07-28T19:25:02.281Z",
+      "summary": "Anthropic 的 Claude Mythos Preview 模型在自主多智能体系统中，发现了后量子签名方案 HAWK 的改进攻击，以及简化版 AES-128（7 轮）的新攻击方法。",
+      "category": "paper",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms51p9ca00d8rorrkaqqfvr9"
+      }
+    },
+    {
       "id": "cms4xie76037xroa13kv3uglm",
       "title": "Claude 发现加密算法弱点研究发布",
       "title_en": "New Anthropic research： Discovering cryptographic weaknesses with Claude. Claude Mythos Preview has…",
@@ -374,42 +392,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms3y2wcy03toro82ozgc5187"
-      }
-    },
-    {
-      "id": "cms3m8ubg001nrox37oixfg2e",
-      "title": "OpenAI 称越来越多员工用 ChatGPT 做其他岗位的工作",
-      "title_en": "OpenAI says more workers are using ChatGPT to do other people's jobs",
-      "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs",
-      "permalink": "https://aihot.virxact.com/items/cms3m8ubg001nrox37oixfg2e",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-27T19:08:51.000Z",
-      "discoveredAt": "2026-07-27T19:24:35.867Z",
-      "summary": "OpenAI 分析超 80 万条与工作相关的 ChatGPT 消息后发现，43.5% 的岗位特定查询涉及另一职业，营销和工程任务交叉最多。用户用 AI 处理合同审查、数据分析、网站故障排查等原由专家负责的工作。OpenAI 认为这是岗位职责正在变化的早期信号，该趋势在缺乏专业团队的小公司尤为明显。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3m8ubg001nrox37oixfg2e"
-      }
-    },
-    {
-      "id": "cms3lggqj00c0roskhu1r5f09",
-      "title": "Kimi 发布视觉感知基准 PerceptionBench",
-      "title_en": "We are releasing PerceptionBench， a benchmark that isolates visual perception and evaluates it as a …",
-      "url": "https://x.com/Kimi_Moonshot/status/2081813202514681878",
-      "permalink": "https://aihot.virxact.com/items/cms3lggqj00c0roskhu1r5f09",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "publishedAt": "2026-07-27T18:45:20.000Z",
-      "discoveredAt": "2026-07-27T19:02:32.798Z",
-      "summary": "Kimi.ai 发布 PerceptionBench，一个从当前前沿模型在 42 个基准上的失败模式中归纳出的视觉感知基准。该基准将视觉感知拆解为 10 种原子能力，并构建了 3000 道验证题，每道题只考察单一感知能力，无需推理或外部知识。",
-      "category": "ai-products",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3lggqj00c0roskhu1r5f09"
       }
     }
   ]
