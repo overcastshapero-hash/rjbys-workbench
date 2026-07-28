@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:20:48.905Z",
+  "generatedAt": "2026-07-28T14:15:03.839Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-28",
   "daily": {
@@ -8,7 +8,7 @@
       "source": "AI HOT",
       "canonical": "https://aihot.virxact.com/daily/2026-07-28"
     },
-    "generatedAt": "2026-07-28T00:00:49.292Z",
+    "generatedAt": "2026-07-28T12:22:14.300Z",
     "windowStart": "2026-07-27T00:00:00.000Z",
     "windowEnd": "2026-07-28T00:00:00.000Z",
     "lead": null,
@@ -17,25 +17,14 @@
         "label": "模型发布/更新",
         "items": [
           {
-            "title": "Kimi K3 开源：2.8T MoE 模型与技术报告",
-            "summary": "Kimi 发布其最强模型 Kimi K3，这是一个 2.8T 参数的 MoE 模型，具备原生视觉理解和 1M token 上下文窗口。新架构实现了每单位计算 2.5 倍的智能提升。除模型权重外，Kimi 还开源了高性能注意力内核、MoE 通信库及大规模智能体运行环境基础设施。",
-            "sourceUrl": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
-            "sourceName": "X：Kimi.ai (@Kimi_Moonshot)",
-            "permalink": "https://aihot.virxact.com/items/cms3dxit00betro3fiwkotg0j",
+            "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+            "summary": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，支持原生视觉理解和 100 万 token 上下文窗口。其规模化效率较 Kimi K2.5 提升 2.5 倍，并同步开源模型权重、技术报告及 MoonEP、FlashKDA、AgentEnv 三项 Infra 技术。",
+            "sourceUrl": "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ",
+            "sourceName": "公众号：月之暗面（Kimi）",
+            "permalink": "https://aihot.virxact.com/items/cms44no4v06arro82khvjxjj4",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cms3dxit00betro3fiwkotg0j"
-            }
-          },
-          {
-            "title": "Kimi K3 上线 Modal，支持无损加速推理",
-            "summary": "很高兴 @modal 成为 Kimi K3 的 Day 0 发布合作伙伴！ 他们为 K3 的架构训练了自定义 DFlash 投机器，实现更快推理且无质量损失。",
-            "sourceUrl": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-            "sourceName": "X：Kimi.ai (@Kimi_Moonshot)",
-            "permalink": "https://aihot.virxact.com/items/cms3f0d9200b8rondo4rsvd7o",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cms3f0d9200b8rondo4rsvd7o"
+              "canonical": "https://aihot.virxact.com/items/cms44no4v06arro82khvjxjj4"
             }
           }
         ]
@@ -52,17 +41,6 @@
             "attribution": {
               "source": "AI HOT",
               "canonical": "https://aihot.virxact.com/items/cms3lggqj00c0roskhu1r5f09"
-            }
-          },
-          {
-            "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持",
-            "summary": "SGLang 和 Miles 为月之暗面开源的 2.8T 参数模型 Kimi K3 提供发布当日支持，分别负责推理和 RL 训练。K3 采用 69 层 KDA 线性注意力与 24 层 MLA 交错的混合架构，在 SGLang 上单卡 batch-1 解码速度达约 113 tok/s，结合 DSpark 推测解码可达约 423 tok/s。",
-            "sourceUrl": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support",
-            "sourceName": "LMSYS：Blog（Chatbot Arena 团队）",
-            "permalink": "https://aihot.virxact.com/items/cms3ivlee000oroiy8dntgvq9",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cms3ivlee000oroiy8dntgvq9"
             }
           }
         ]
@@ -191,17 +169,6 @@
             }
           },
           {
-            "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试",
-            "summary": "Anthropic CEO Dario Amodei 明确表示公司从未主张禁止开源权重模型，并认为不具备危险能力的开源权重模型是公共产品。他提出三项实际措施：对华芯片出口管制、打击工业级知识蒸馏、对所有足够强大的模型进行强制性安全测试。Amodei 指出，保护主义禁令无法解决其最担忧的国家安全威胁，包括威权政府利用更强大 AI 实现军事优势或深度监控。",
-            "sourceUrl": "https://www.anthropic.com/news/position-open-weights-models",
-            "sourceName": "Anthropic：Newsroom（网页）",
-            "permalink": "https://aihot.virxact.com/items/cms3sq44w01v7ro82l278pl7v",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cms3sq44w01v7ro82l278pl7v"
-            }
-          },
-          {
             "title": "OpenRouter 新增图像生成模型专用 API 端点",
             "summary": "OpenRouter 通过专用 `/api/v1/images` 端点提供图像生成模型服务，图像理解仍通过 `/chat/completions` 端点完成，两者共用同一 API Key 和计费体系。该平台同时公布了两种任务的完整接口合约，并修复了此前出现的“no endpoints found”错误。",
             "sourceUrl": "https://openrouter.ai/blog/tutorials/image-generation-models",
@@ -211,6 +178,17 @@
               "source": "AI HOT",
               "canonical": "https://aihot.virxact.com/items/cms3fuyms00mtrondudz5pjw8"
             }
+          },
+          {
+            "title": "甲骨文与OpenAI的3000亿美元交易后股价暴跌，市场对循环融资模式失去信心",
+            "summary": "2025年9月10日甲骨文宣布与OpenAI达成3000亿美元交易后股价一度飙升43%，但如今已从307美元跌至约120美元。市场对循环融资模式日益警惕，昨日英伟达考虑为OpenAI主导的数据中心提供2500亿美元支持的消息传出后，其股价开盘下跌超4.5%。苹果因未过度投资AI反而市值超越英伟达，SpaceX则从6月高点225美元下跌超50%。",
+            "sourceUrl": "https://garymarcus.substack.com/p/circular-financing-aint-what-it-used",
+            "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cms3elgxt0010rozq0zhpcthz",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cms3elgxt0010rozq0zhpcthz"
+            }
           }
         ]
       }
@@ -218,6 +196,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cms4oxr7h00aoroa1i8kboqrk",
+      "title": "Google Search 的 AI Mode 推出 5 项新功能，帮你规划线下生活",
+      "title_en": "5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
+      "permalink": "https://aihot.virxact.com/items/cms4oxr7h00aoroa1i8kboqrk",
+      "source": "Google Blog：AI（RSS）",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "discoveredAt": "2026-07-28T13:27:43.174Z",
+      "summary": "Google Search 的 AI Mode 新增 5 项工具，帮助用户规划线下活动。功能包括：通过 Personal Intelligence 连接 Google Calendar 推荐本地课程；在 AI Mode 内直接购物并查询附近库存；利用 Canvas 生成桌游策略指南并模拟对弈；根据预算和人数筛选并预订演唱会等门票；连接 Canva 生成邀请函设计。",
+      "category": "tip",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms4oxr7h00aoroa1i8kboqrk"
+      }
+    },
     {
       "id": "cms4fb2n603f4roeprjoopbix",
       "title": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
@@ -306,24 +302,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms3y2wcy03toro82ozgc5187"
-      }
-    },
-    {
-      "id": "cms3sq44w01v7ro82l278pl7v",
-      "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试",
-      "title_en": "Our position on open-weights models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "permalink": "https://aihot.virxact.com/items/cms3sq44w01v7ro82l278pl7v",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-07-27T22:26:00.307Z",
-      "discoveredAt": "2026-07-27T22:26:00.307Z",
-      "summary": "Anthropic CEO Dario Amodei 明确表示公司从未主张禁止开源权重模型，并认为不具备危险能力的开源权重模型是公共产品。他提出三项实际措施：对华芯片出口管制、打击工业级知识蒸馏、对所有足够强大的模型进行强制性安全测试。Amodei 指出，保护主义禁令无法解决其最担忧的国家安全威胁，包括威权政府利用更强大 AI 实现军事优势或深度监控。",
-      "category": "tip",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3sq44w01v7ro82l278pl7v"
       }
     },
     {
