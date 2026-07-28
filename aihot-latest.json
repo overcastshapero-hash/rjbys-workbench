@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T02:45:25.663Z",
+  "generatedAt": "2026-07-28T05:49:20.492Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-28",
   "daily": {
@@ -219,6 +219,24 @@
   },
   "selectedItems": [
     {
+      "id": "cms47q4jj00mxroep0x4at5sf",
+      "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+      "title_en": "Show HN： FeyNoBg - 自动背景去除模型及训练库",
+      "url": "https://usefeyn.com/blog/feynobg",
+      "permalink": "https://aihot.virxact.com/items/cms47q4jj00mxroep0x4at5sf",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-28T04:57:13.190Z",
+      "discoveredAt": "2026-07-28T05:25:52.937Z",
+      "summary": "Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型。它在八个基准测试中的四项上取得最佳 S-measure 分数，其余四项与领先者差距在 2% 以内。该模型基于 BiRefNet 架构，参数量从 222M 扩展至 263M，同时开源了训练库 NoBg，模型和代码分别可在 Hugging Face 和 GitHub 获取。",
+      "category": "ai-models",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms47q4jj00mxroep0x4at5sf"
+      }
+    },
+    {
       "id": "cms3y2wcy03toro82ozgc5187",
       "title": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
       "title_en": "How to Evaluate LLM Provider Performance Across Latency， Throughput， and Uptime",
@@ -327,24 +345,6 @@
       }
     },
     {
-      "id": "cms3ivlee000oroiy8dntgvq9",
-      "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持",
-      "title_en": "Blog SGLang and Miles Add Day-0 Support for Kimi K3 We are excited to announce Day-0 support for Kimi K3 in SGLang and Miles. K3 is the first open-source model in the 3-trillion-parameter class， and its hybrid architecture departs from convention in al… SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support",
-      "permalink": "https://aihot.virxact.com/items/cms3ivlee000oroiy8dntgvq9",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-07-27T17:50:17.260Z",
-      "discoveredAt": "2026-07-27T17:50:17.260Z",
-      "summary": "SGLang 和 Miles 为月之暗面开源的 2.8T 参数模型 Kimi K3 提供发布当日支持，分别负责推理和 RL 训练。K3 采用 69 层 KDA 线性注意力与 24 层 MLA 交错的混合架构，在 SGLang 上单卡 batch-1 解码速度达约 113 tok/s，结合 DSpark 推测解码可达约 423 tok/s。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3ivlee000oroiy8dntgvq9"
-      }
-    },
-    {
       "id": "cms3gqf3h01y1rondsl8z5sxy",
       "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
       "title_en": "GitHub Copilot app for Beginners： Getting started",
@@ -381,21 +381,21 @@
       }
     },
     {
-      "id": "cms3f0d9200b8rondo4rsvd7o",
-      "title": "Kimi K3 上线 Modal，支持无损加速推理",
-      "title_en": "Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
-      "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-      "permalink": "https://aihot.virxact.com/items/cms3f0d9200b8rondo4rsvd7o",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "publishedAt": "2026-07-27T15:44:05.000Z",
-      "discoveredAt": "2026-07-27T16:02:03.640Z",
-      "summary": "很高兴 @modal 成为 Kimi K3 的 Day 0 发布合作伙伴！\n\n他们为 K3 的架构训练了自定义 DFlash 投机器，实现更快推理且无质量损失。",
+      "id": "cms44no4v06arro82khvjxjj4",
+      "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+      "title_en": null,
+      "url": "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ",
+      "permalink": "https://aihot.virxact.com/items/cms44no4v06arro82khvjxjj4",
+      "source": "公众号：月之暗面（Kimi）",
+      "publishedAt": "2026-07-27T15:34:59.000Z",
+      "discoveredAt": "2026-07-28T04:00:00.856Z",
+      "summary": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，支持原生视觉理解和 100 万 token 上下文窗口。其规模化效率较 Kimi K2.5 提升 2.5 倍，并同步开源模型权重、技术报告及 MoonEP、FlashKDA、AgentEnv 三项 Infra 技术。",
       "category": "ai-models",
-      "score": 70,
+      "score": 85,
       "selected": true,
       "attribution": {
         "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3f0d9200b8rondo4rsvd7o"
+        "canonical": "https://aihot.virxact.com/items/cms44no4v06arro82khvjxjj4"
       }
     },
     {
@@ -414,24 +414,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms3dxit00berro3f8etbfxfh"
-      }
-    },
-    {
-      "id": "cms3dxit00betro3fiwkotg0j",
-      "title": "Kimi K3 开源：2.8T MoE 模型与技术报告",
-      "title_en": "Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model： a 2…",
-      "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
-      "permalink": "https://aihot.virxact.com/items/cms3dxit00betro3fiwkotg0j",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "publishedAt": "2026-07-27T15:14:40.000Z",
-      "discoveredAt": "2026-07-27T15:31:51.181Z",
-      "summary": "Kimi 发布其最强模型 Kimi K3，这是一个 2.8T 参数的 MoE 模型，具备原生视觉理解和 1M token 上下文窗口。新架构实现了每单位计算 2.5 倍的智能提升。除模型权重外，Kimi 还开源了高性能注意力内核、MoE 通信库及大规模智能体运行环境基础设施。",
-      "category": "ai-models",
-      "score": 81,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3dxit00betro3fiwkotg0j"
       }
     },
     {
