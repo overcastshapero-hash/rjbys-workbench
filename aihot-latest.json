@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T15:09:28.743Z",
+  "generatedAt": "2026-07-29T17:17:56.582Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-29",
   "daily": {
@@ -307,6 +307,78 @@
   },
   "selectedItems": [
     {
+      "id": "cms6bt07d01ujrotzuly90fr7",
+      "title": "Replit 用环境智能重塑 AI 设计体验",
+      "title_en": "Replit Design reimagines the UX for AI design with Ambient Intelligence. You don't need to prompt. …",
+      "url": "https://x.com/Replit/status/2082504096095903811",
+      "permalink": "https://aihot.virxact.com/items/cms6bt07d01ujrotzuly90fr7",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-07-29T16:30:42.000Z",
+      "discoveredAt": "2026-07-29T16:55:39.297Z",
+      "summary": "Replit Design 通过环境智能重新构想 AI 设计的用户体验。\n\n你无需输入提示词，也无需设计语言。\n\n每一步，智能体都会建议下一步最佳操作，一键即可执行，助你快速从创意生成惊艳成果。",
+      "category": "ai-products",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6bt07d01ujrotzuly90fr7"
+      }
+    },
+    {
+      "id": "cms6arrc700rbrotzo1wseql3",
+      "title": "开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B",
+      "title_en": "Show HN： 可在任何 M 系列 Mac 上，利用 2 GB 内存运行搭载 Gemma 4 26B 的开源引擎",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "permalink": "https://aihot.virxact.com/items/cms6arrc700rbrotzo1wseql3",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-29T16:09:22.496Z",
+      "discoveredAt": "2026-07-29T16:26:41.196Z",
+      "summary": "一个开源引擎让 Gemma 4 26B 模型能在任何 M 系列 Mac 上运行，仅需 2 GB 内存。该项目已发布在 GitHub 上，大幅降低了本地运行大语言模型的硬件门槛。",
+      "category": "ai-products",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6arrc700rbrotzo1wseql3"
+      }
+    },
+    {
+      "id": "cms69p7bn1ec3robkm6xscwbf",
+      "title": "Martha Stewart 联合创办 AI 初创公司 Hint，为房主提供家居管理 AI 助手",
+      "title_en": "Hint， a new AI startup co-founded by Martha Stewart， offers an AI assistant for homeowners",
+      "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
+      "permalink": "https://aihot.virxact.com/items/cms69p7bn1ec3robkm6xscwbf",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-29T15:35:09.000Z",
+      "discoveredAt": "2026-07-29T15:56:41.175Z",
+      "summary": "Hint 今日上线，利用 AI 技术帮助房主管理维护计划、能耗、土壤与空气质量、保险理赔等事务，并支持存储和查询房屋相关合同与文件。该应用基于公开数据为每栋房屋建立档案，通过 AI 聊天机器人回答个性化问题，并提供主动维护提醒与\"房屋评分\"。Hint 目前免费提供 iOS 版，无订阅或广告，未来计划推出付费高级功能。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms69p7bn1ec3robkm6xscwbf"
+      }
+    },
+    {
+      "id": "cms69xwp11ej8robk4upl33jq",
+      "title": "算力价格未来可能上涨 10 倍以上",
+      "title_en": "Why compute might get 10x+ more expensive in coming years",
+      "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
+      "permalink": "https://aihot.virxact.com/items/cms69xwp11ej8robk4upl33jq",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "publishedAt": "2026-07-29T15:01:35.000Z",
+      "discoveredAt": "2026-07-29T16:03:19.873Z",
+      "summary": "AI 算力现货价格自 2 月低点已上涨 40% 以上，Google 和 Anthropic 从 SpaceX 租用 11 万块 GPU 的月租金达 9 亿美元，约为现货价格的 2 倍。若 AI 达到人类水平软件工程师能力，单块 H100 等效算力年租金可达 25 万美元，是当前现货价格的 15 倍。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms69xwp11ej8robk4upl33jq"
+      }
+    },
+    {
       "id": "cms639jt416x6robksy69dzel",
       "title": "腾讯混元开源 AngelSpec 投机解码框架",
       "title_en": "🚀 We've open-sourced AngelSpec， an end-to-end speculative decoding framework supporting both traini…",
@@ -574,60 +646,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms53w1ya003hro1hggvd9fx7"
-      }
-    },
-    {
-      "id": "cms4xie76037xroa13kv3uglm",
-      "title": "Claude 发现加密算法弱点研究发布",
-      "title_en": "New Anthropic research： Discovering cryptographic weaknesses with Claude. Claude Mythos Preview has…",
-      "url": "https://x.com/AnthropicAI/status/2082153297670992134",
-      "permalink": "https://aihot.virxact.com/items/cms4xie76037xroa13kv3uglm",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "publishedAt": "2026-07-28T17:16:45.000Z",
-      "discoveredAt": "2026-07-28T17:27:44.441Z",
-      "summary": "Anthropic 新研究：用 Claude 发现加密弱点。\n\nClaude Mythos 预览版已帮助我们的研究人员发现加密算法中的弱点--这些数学方法用于保护数据隐私。\n\n了解更多：https://anthropic.com/research/discovering-cryptographic-weaknesses",
-      "category": "paper",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms4xie76037xroa13kv3uglm"
-      }
-    },
-    {
-      "id": "cms4vd9hd02h9roa1iiub4unr",
-      "title": "Gemini API Managed Agents 默认升级为 3.6 Flash，新增环境钩子与免费套餐",
-      "title_en": "Gemini API Managed Agents： 3.6 Flash， hooks， and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
-      "permalink": "https://aihot.virxact.com/items/cms4vd9hd02h9roa1iiub4unr",
-      "source": "Google Blog：AI（RSS）",
-      "publishedAt": "2026-07-28T16:00:00.000Z",
-      "discoveredAt": "2026-07-28T16:27:45.819Z",
-      "summary": "Google DeepMind 将 Gemini API Managed Agents 的默认模型升级为 Gemini 3.6 Flash，并支持显式选择 3.5 Flash 或 3.5 Flash-Lite。新增环境钩子允许在沙箱内工具调用前后执行自定义脚本，用于安全审查或代码格式化。此外，还推出了免费套餐、预算控制和基于 cron 的定时触发功能。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms4vd9hd02h9roa1iiub4unr"
-      }
-    },
-    {
-      "id": "cms4t5zra01o1roa10b19hmbh",
-      "title": "Kimi Linear：一种表现力强且高效的注意力架构",
-      "title_en": null,
-      "url": "https://arxiv.org/abs/2510.26692",
-      "permalink": "https://aihot.virxact.com/items/cms4t5zra01o1roa10b19hmbh",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-28T15:21:28.545Z",
-      "discoveredAt": "2026-07-28T15:26:05.731Z",
-      "summary": "月之暗面推出 Kimi Linear，一种混合线性注意力架构，首次在短上下文、长上下文和强化学习场景下全面超越全注意力机制。其 3B 激活参数模型在所有评估任务上显著优于全 MLA，同时将 KV cache 使用量降低最多 75%，并在 1M 上下文下实现最高 6 倍解码吞吐量。月之暗面已开源 KDA 内核、vLLM 实现及模型权重。",
-      "category": "paper",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms4t5zra01o1roa10b19hmbh"
       }
     }
   ]
