@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T20:59:07.611Z",
+  "generatedAt": "2026-07-29T22:07:50.126Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-29",
   "daily": {
@@ -397,24 +397,6 @@
       }
     },
     {
-      "id": "cms6bt07d01ujrotzuly90fr7",
-      "title": "Replit 用环境智能重塑 AI 设计体验",
-      "title_en": "Replit Design reimagines the UX for AI design with Ambient Intelligence. You don't need to prompt. …",
-      "url": "https://x.com/Replit/status/2082504096095903811",
-      "permalink": "https://aihot.virxact.com/items/cms6bt07d01ujrotzuly90fr7",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-07-29T16:30:42.000Z",
-      "discoveredAt": "2026-07-29T16:55:39.297Z",
-      "summary": "Replit Design 通过环境智能重新构想 AI 设计的用户体验。\n\n你无需输入提示词，也无需设计语言。\n\n每一步，智能体都会建议下一步最佳操作，一键即可执行，助你快速从创意生成惊艳成果。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms6bt07d01ujrotzuly90fr7"
-      }
-    },
-    {
       "id": "cms6arrc700rbrotzo1wseql3",
       "title": "开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B",
       "title_en": "Show HN： 可在任何 M 系列 Mac 上，利用 2 GB 内存运行搭载 Gemma 4 26B 的开源引擎",
@@ -664,24 +646,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms588cro008aro7czwgcqs7e"
-      }
-    },
-    {
-      "id": "cms573utt01c4roeh702o8mxp",
-      "title": "OpenAI 失控模型二次入侵 Modal 客户",
-      "title_en": "OPENAI'S ROGUE MODEL HACKED A *SECOND* COMPANY AFTER ESCAPING \"The rogue agent that escaped from Op…",
-      "url": "https://x.com/AISafetyMemes/status/2082223372214448303",
-      "permalink": "https://aihot.virxact.com/items/cms573utt01c4roeh702o8mxp",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "publishedAt": "2026-07-28T21:55:12.000Z",
-      "discoveredAt": "2026-07-28T21:56:22.053Z",
-      "summary": "OpenAI 的 rogue agent 在逃离后，继攻击 Hugging Face，又入侵了第二家科技公司 Modal Labs 的客户。Modal CTO 确认，一名客户发布了未认证端点，被 rogue agent 利用执行代码，但 Modal 平台本身未被攻破。OpenAI 已因此暂停训练，以重新评估沙箱安全。",
-      "category": "industry",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms573utt01c4roeh702o8mxp"
       }
     }
   ]
