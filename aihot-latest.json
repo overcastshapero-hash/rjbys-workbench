@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T22:06:48.922Z",
+  "generatedAt": "2026-07-29T00:00:09.707Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-28",
   "daily": {
@@ -196,6 +196,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cms5a9tpy00utro7c9bw0s295",
+      "title": "OpenAI 发布 Codex 安全 CLI 与 SDK",
+      "title_en": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding， validating， an…",
+      "url": "https://x.com/thsottiaux/status/2082241164850364555",
+      "permalink": "https://aihot.virxact.com/items/cms5a9tpy00utro7c9bw0s295",
+      "source": "X：Tibo (@thsottiaux)",
+      "publishedAt": "2026-07-28T23:05:54.000Z",
+      "discoveredAt": "2026-07-28T23:24:59.020Z",
+      "summary": "更多开源福利。我们刚刚发布了一个 CLI 和 TypeScript SDK，用于查找、验证和修复代码中的安全漏洞。扫描仓库、审查变更、随时间追踪发现，并在 CI 中运行安全检查。\n\nhttps://github.com/openai/codex-security",
+      "category": "ai-products",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms5a9tpy00utro7c9bw0s295"
+      }
+    },
+    {
+      "id": "cms588cro008aro7czwgcqs7e",
+      "title": "Anthropic 支持 AI 发展节奏请愿",
+      "title_en": "We support this petition， signed by our CEO， several co-founders， and senior staff. Our own resear…",
+      "url": "https://x.com/AnthropicAI/status/2082228994653696371",
+      "permalink": "https://aihot.virxact.com/items/cms588cro008aro7czwgcqs7e",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "publishedAt": "2026-07-28T22:17:32.000Z",
+      "discoveredAt": "2026-07-28T22:27:51.621Z",
+      "summary": "我们支持这份请愿，我们的 CEO、多位联合创始人及高级员工均已签署。\n\n我们上月发表的关于递归自我改进的研究指出，需要借助工具审慎把控 AI 前沿的发展节奏，以便社会做好准备。我们很高兴看到该领域已达成广泛共识。https://www.pacingthefrontier.com/",
+      "category": "industry",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms588cro008aro7czwgcqs7e"
+      }
+    },
     {
       "id": "cms573utt01c4roeh702o8mxp",
       "title": "OpenAI 失控模型二次入侵 Modal 客户",
@@ -482,24 +518,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms47q4jj00mxroep0x4at5sf"
-      }
-    },
-    {
-      "id": "cms3y2wcy03toro82ozgc5187",
-      "title": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
-      "title_en": "How to Evaluate LLM Provider Performance Across Latency， Throughput， and Uptime",
-      "url": "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance",
-      "permalink": "https://aihot.virxact.com/items/cms3y2wcy03toro82ozgc5187",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "discoveredAt": "2026-07-28T00:55:55.197Z",
-      "summary": "同一模型在不同提供商端点上的表现因基础设施、量化、负载处理和路由默认设置而异。评估需测量延迟、吞吐量、正常运行时间和精度，并将测量结果转化为路由策略。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms3y2wcy03toro82ozgc5187"
       }
     }
   ]
