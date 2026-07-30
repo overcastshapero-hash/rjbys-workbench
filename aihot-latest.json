@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T19:36:44.492Z",
+  "generatedAt": "2026-07-30T21:13:57.869Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-30",
   "daily": {
@@ -274,6 +274,42 @@
   },
   "selectedItems": [
     {
+      "id": "cms7yt12z02fdro20rgzdgpdy",
+      "title": "法官称特朗普政府仍缺乏证据将Anthropic列为供应链风险",
+      "title_en": "Judge says Trump admin still lacks evidence for Anthropic 'supply chain risk' label",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
+      "permalink": "https://aihot.virxact.com/items/cms7yt12z02fdro20rgzdgpdy",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-07-30T20:26:38.000Z",
+      "discoveredAt": "2026-07-30T20:27:19.282Z",
+      "summary": "美国地区法官Rita Lin表示，特朗普政府未能提供充分证据，证明将Anthropic列为供应链风险并禁止联邦政府使用其技术的合理性。争议源于Anthropic拒绝将其AI用于大规模监控或致命武器决策，而国防部主张私营公司不应限制军方技术使用。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7yt12z02fdro20rgzdgpdy"
+      }
+    },
+    {
+      "id": "cms7yv0bp02mwro20ov2cktzi",
+      "title": "Gemini Spark 集成 Chrome 自动浏览功能",
+      "title_en": "Gemini Spark 🤝 @GoogleChrome Gemini Spark is now integrated with auto browse in Google Chrome. Wit…",
+      "url": "https://x.com/GeminiApp/status/2082923048362299629",
+      "permalink": "https://aihot.virxact.com/items/cms7yv0bp02mwro20ov2cktzi",
+      "source": "X：Gemini (@GeminiApp)",
+      "publishedAt": "2026-07-30T20:15:28.000Z",
+      "discoveredAt": "2026-07-30T20:28:51.065Z",
+      "summary": "Gemini Spark 🤝 @GoogleChrome\n\nGemini Spark 现已与 Google Chrome 的自动浏览功能集成。经你许可，Spark 可直接在你的 Chrome 浏览器中处理网页任务，例如预约看房或自动填写航班信息。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7yv0bp02mwro20ov2cktzi"
+      }
+    },
+    {
       "id": "cms7w9p0p000fro20pyggbkmb",
       "title": "Google Earth 集成 Nano Banana 2 图像生成",
       "title_en": "What if you could see a city as it looked 100 years ago， or visualize a new basketball court at your…",
@@ -505,24 +541,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms6r5fog0btjrohz9heu2c6f"
-      }
-    },
-    {
-      "id": "cms6kdopf05tbrohzoim2kpeg",
-      "title": "Replit Design 发布：AI 赋能设计愿景",
-      "title_en": "You don't need to be a designer. You just need to know what you want to bring to life. The gap betw…",
-      "url": "https://x.com/Replit/status/2082568269119062019",
-      "permalink": "https://aihot.virxact.com/items/cms6kdopf05tbrohzoim2kpeg",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-07-29T20:45:42.000Z",
-      "discoveredAt": "2026-07-29T20:55:42.166Z",
-      "summary": "你不需要成为设计师。你只需要知道你想把什么变为现实。\n\n你脑海中的想法与屏幕上的成果之间的差距刚刚消失了。\n\n这就是 Replit Design 背后的愿景。\n\n阅读我们构建它的原因以及我们认为 AI 驱动设计的未来方向：https://replit.com/blog/introducing-replit-design",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms6kdopf05tbrohzoim2kpeg"
       }
     }
   ]
