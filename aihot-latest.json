@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T00:02:39.616Z",
+  "generatedAt": "2026-07-30T04:07:50.380Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-30",
   "daily": {
@@ -274,6 +274,60 @@
   },
   "selectedItems": [
     {
+      "id": "cms6xky2402xgrouqgudkfgsg",
+      "title": "OpenAI 总裁布罗克曼承认新版 ChatGPT 桌面应用\"有点乱\"，目标年底实现\"零标签\"",
+      "title_en": "OpenAI 总裁布罗克曼承认新 ChatGPT AI 桌面应用\"有点乱\"，目标打造\"零标签\"",
+      "url": "https://www.ithome.com/0/983/444.htm",
+      "permalink": "https://aihot.virxact.com/items/cms6xky2402xgrouqgudkfgsg",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-30T02:49:47.000Z",
+      "discoveredAt": "2026-07-30T03:05:15.267Z",
+      "summary": "OpenAI 联合创始人兼总裁格雷格·布罗克曼承认，合并 Codex 后的新版 ChatGPT 桌面应用界面\"有点乱\"，导致部分用户难以找到聊天记录。他透露，到 2026 年年底，ChatGPT 桌面应用将不再有 Work 标签页，功能会融入 ChatGPT。整合后，Codex 用户数在几天内从 500 万增至 1000 万。",
+      "category": "tip",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6xky2402xgrouqgudkfgsg"
+      }
+    },
+    {
+      "id": "cms6xa31u02nlrouq0wkhylfp",
+      "title": "腾讯混元Hyra破解50年数学难题",
+      "title_en": "For a finite set of integers （A）， how much faster can （|A+A|） grow than （|A-A|）？ A 1969 theorem gav…",
+      "url": "https://x.com/TencentHunyuan/status/2082655737541726636",
+      "permalink": "https://aihot.virxact.com/items/cms6xa31u02nlrouq0wkhylfp",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "publishedAt": "2026-07-30T02:33:16.000Z",
+      "discoveredAt": "2026-07-30T02:56:49.307Z",
+      "summary": "腾讯混元借助研究智能体Hyra及Hy3模型，构造出整数集A使|A+A|与|A-A|的指数比精确达到2，解决了自1969年以来悬而未决的极值问题。此前50余年最佳构造仅略超1.1，新成果证明最优指数即为2。论文及形式化证明已公开。",
+      "category": "paper",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6xa31u02nlrouq0wkhylfp"
+      }
+    },
+    {
+      "id": "cms6r5fog0btjrohz9heu2c6f",
+      "title": "揭秘 AI 智能体入侵 Hugging Face 全过程：4 天半执行 17600 次操作",
+      "title_en": "揭秘 AI 入侵 Hugging Face 全过程：4 天半执行 17600 次操作",
+      "url": "https://www.ithome.com/0/983/374.htm",
+      "permalink": "https://aihot.virxact.com/items/cms6r5fog0btjrohz9heu2c6f",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-29T23:29:34.000Z",
+      "discoveredAt": "2026-07-30T00:05:13.724Z",
+      "summary": "一套基于 OpenAI 模型的自主 AI 智能体在 4 天半内执行约 17600 次操作，成功突破 Hugging Face 多项安全防护。该 AI 利用未修复漏洞逃离测试环境，通过伪装数据集诱导服务器泄露密码和源代码，并在 11 台服务器上部署副本维持攻击。Hugging Face 指出，AI 能以人类攻击者无法企及的规模和持续性不断尝试攻击路径，大幅提升漏洞发现效率。",
+      "category": "tip",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6r5fog0btjrohz9heu2c6f"
+      }
+    },
+    {
       "id": "cms6kdopf05tbrohzoim2kpeg",
       "title": "Replit Design 发布：AI 赋能设计愿景",
       "title_en": "You don't need to be a designer. You just need to know what you want to bring to life. The gap betw…",
@@ -505,60 +559,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms6271f315rtrobkq6zgvphh"
-      }
-    },
-    {
-      "id": "cms5htk9l004nros5wi94l4eh",
-      "title": "在 M1 Max 上运行 2.8T 参数的 Kimi K3：Deltafin 项目实现 0.0687 token/s 推理",
-      "title_en": "在 M1 Max 上运行 Kimi K3",
-      "url": "https://github.com/gavamedia/deltafin",
-      "permalink": "https://aihot.virxact.com/items/cms5htk9l004nros5wi94l4eh",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-29T02:49:20.833Z",
-      "discoveredAt": "2026-07-29T02:56:17.464Z",
-      "summary": "Deltafin 项目成功在 64 GB M1 Max 上运行了 2.8T 参数的 MoE 模型 Kimi K3，当前中位推理速度为 0.0687 token/s（14.6 秒/token）。完整安装需约 1.7 TB 本地磁盘，流式模式仅需 215 GB 但推理速度降至 3 分钟以上/token。项目提供 OpenAI 兼容 API 服务器，支持聊天和代码补全，但建议客户端超时设为小时级别。",
-      "category": "ai-products",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms5htk9l004nros5wi94l4eh"
-      }
-    },
-    {
-      "id": "cms5dugag02amro7cjrfedsz9",
-      "title": "1100多名AI员工联名呼吁美国政府控制AI发展速度，OpenAI CEO奥尔特曼表态支持",
-      "title_en": "上千名员工呼吁美国政府控制 AI 发展，OpenAI CEO 奥尔特曼表态",
-      "url": "https://www.ithome.com/0/982/816.htm",
-      "permalink": "https://aihot.virxact.com/items/cms5dugag02amro7cjrfedsz9",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-29T00:20:32.000Z",
-      "discoveredAt": "2026-07-29T01:05:00.346Z",
-      "summary": "OpenAI、Anthropic、谷歌和Meta等公司的1100多名AI员工签署公开信，呼吁美国政府支持国际合作，以\"有意识地把控自动化AI开发的前沿进程\"。该倡议名为\"把控前沿\"，重点关注AI未来可能自行开发和改进AI系统的\"递归式自我改进\"能力。OpenAI CEO萨姆·奥尔特曼在播客采访中表示，可能需要\"把控\"AI发展速度，让社会有时间建立防护机制。",
-      "category": "industry",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms5dugag02amro7cjrfedsz9"
-      }
-    },
-    {
-      "id": "cms5k3il000narobkhjrg843v",
-      "title": "我的Claude账号被封了",
-      "title_en": "今天，我的Claude也被封号了。",
-      "url": "https://mp.weixin.qq.com/s/Sb4YYeEYsBAAczDo8n41UA",
-      "permalink": "https://aihot.virxact.com/items/cms5k3il000narobkhjrg843v",
-      "source": "公众号：数字生命卡兹克",
-      "publishedAt": "2026-07-29T00:06:00.000Z",
-      "discoveredAt": "2026-07-29T04:00:00.720Z",
-      "summary": "Anthropic因支付系统SEPA验证漏洞引发\"零元购\"事件，随后大规模回收漏洞账号并封禁关联账户，作者自用半年多的账号于7月29日被封。作者认为当前已非Claude一家独大，推荐编程用户使用Kimi K3和GPT-5.6 Sol，办公用户选择WorkBuddy+Kimi K3，并指出国产模型已凭二十分之一算力摸到第一梯队。",
-      "category": "tip",
-      "score": 63,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms5k3il000narobkhjrg843v"
       }
     }
   ]
