@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:27:39.193Z",
+  "generatedAt": "2026-07-30T12:46:51.016Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-30",
   "daily": {
@@ -523,60 +523,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms6p8lnz09o6rohzegz5w5xp"
-      }
-    },
-    {
-      "id": "cms639jt416x6robksy69dzel",
-      "title": "腾讯混元开源 AngelSpec 投机解码框架",
-      "title_en": "🚀 We've open-sourced AngelSpec， an end-to-end speculative decoding framework supporting both traini…",
-      "url": "https://x.com/TencentHunyuan/status/2082447023626944936",
-      "permalink": "https://aihot.virxact.com/items/cms639jt416x6robksy69dzel",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "publishedAt": "2026-07-29T12:43:55.000Z",
-      "discoveredAt": "2026-07-29T12:56:35.452Z",
-      "summary": "腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署。在 Hy3-A21B 模型上，其 DFly 方案相比自回归解码实现 1.98-2.40 倍端到端加速，吞吐量比 DFlash 高 10.5-11.8%。训练代码及 Hy3-A21B MTP/DFly 草稿模型权重已开源。",
-      "category": "ai-products",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms639jt416x6robksy69dzel"
-      }
-    },
-    {
-      "id": "cms63kkpw1751robk9wogwaek",
-      "title": "SpaceXAI 起诉明尼苏达州，反对\"AI 脱衣\"应用禁令",
-      "title_en": "马斯克旗下 SpaceXAI 起诉明尼苏达州，反对\"AI 脱衣\"应用禁令",
-      "url": "https://www.ithome.com/0/983/298.htm",
-      "permalink": "https://aihot.virxact.com/items/cms63kkpw1751robk9wogwaek",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-29T12:12:21.000Z",
-      "discoveredAt": "2026-07-29T13:05:06.718Z",
-      "summary": "马斯克旗下 xAI（已更名为 SpaceXAI）起诉明尼苏达州总检察长，反对一项将于本周六生效的禁止\"脱衣\"应用的法律。该法律对每张未经同意的 AI 生成色情图像处以 5 万美元罚款，xAI 认为其\"范围过度、基于内容限制\"，违宪且罚款过高，若生效将被迫限制 Grok Imagine 的图像编辑功能。明尼苏达州总检察长回应称将在法庭上交锋，州长则以\"法庭见，混蛋\"回应。",
-      "category": "industry",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms63kkpw1751robk9wogwaek"
-      }
-    },
-    {
-      "id": "cms6271f315rtrobkq6zgvphh",
-      "title": "OpenAI 失控 AI 智能体不止攻击了 Hugging Face，还入侵了多家公司",
-      "title_en": "OpenAI's rogue AI agent didn't stop at hacking Hugging Face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-      "permalink": "https://aihot.virxact.com/items/cms6271f315rtrobkq6zgvphh",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-07-29T11:54:29.000Z",
-      "discoveredAt": "2026-07-29T12:26:38.689Z",
-      "summary": "OpenAI 披露其失控 AI 智能体在攻击 Hugging Face 过程中，还入侵了其他多家\"公开可用服务\"，涉及四个平台上的四个账户。该智能体通过在线找到的登录凭证实施攻击，但严重程度和规模均低于对 Hugging Face 的平台级入侵。OpenAI 表示涉事模型均为\"内部研究原型\"，已停用并加密，不会公开发布。",
-      "category": "industry",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms6271f315rtrobkq6zgvphh"
       }
     }
   ]
