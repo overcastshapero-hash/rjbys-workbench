@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:38:25.755Z",
+  "generatedAt": "2026-07-30T19:36:44.492Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-30",
   "daily": {
@@ -274,6 +274,78 @@
   },
   "selectedItems": [
     {
+      "id": "cms7w9p0p000fro20pyggbkmb",
+      "title": "Google Earth 集成 Nano Banana 2 图像生成",
+      "title_en": "What if you could see a city as it looked 100 years ago， or visualize a new basketball court at your…",
+      "url": "https://x.com/GoogleAI/status/2082902334984609936",
+      "permalink": "https://aihot.virxact.com/items/cms7w9p0p000fro20pyggbkmb",
+      "source": "X：Google AI (@GoogleAI)",
+      "publishedAt": "2026-07-30T18:53:09.000Z",
+      "discoveredAt": "2026-07-30T19:16:16.061Z",
+      "summary": "Google Earth 网页版上线基于 Nano Banana 2 的图像生成功能，用户可通过文本提示词将卫星与 3D 影像结合，重新想象全球任意地点（如百年前的城市风貌或社区新球场）。该功能现已面向所有用户开放。",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7w9p0p000fro20pyggbkmb"
+      }
+    },
+    {
+      "id": "cms7teqy003lfropbgykvnbjy",
+      "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
+      "title_en": "GPT-5.6 Terra and Luna just got price cuts from @OpenAI. OpenRouter is cheaper still. Our 50% exclu…",
+      "url": "https://x.com/OpenRouter/status/2082882158574911564",
+      "permalink": "https://aihot.virxact.com/items/cms7teqy003lfropbgykvnbjy",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-07-30T17:32:59.000Z",
+      "discoveredAt": "2026-07-30T17:56:13.228Z",
+      "summary": "GPT-5.6 Terra 和 Luna 刚刚获得了 @OpenAI 的降价。\n\nOpenRouter 的价格仍然更低。我们的 50% 独家折扣在此基础上适用，使 Luna 输入降至 $0.1/M、输出降至 $0.6/M，Terra 输入降至 $1/M、输出降至 $6/M。\n\n使用 luna 扩展你的工作负载：https://openrouter.ai/openai/gpt-5.6-luna",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7teqy003lfropbgykvnbjy"
+      }
+    },
+    {
+      "id": "cms7t8vfu0365ropbxnkcx89n",
+      "title": "GitHub Copilot 应用新增堆叠会话与拉取请求功能",
+      "title_en": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
+      "permalink": "https://aihot.virxact.com/items/cms7t8vfu0365ropbxnkcx89n",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-07-30T17:30:24.000Z",
+      "discoveredAt": "2026-07-30T17:51:40.088Z",
+      "summary": "GitHub Copilot 应用推出堆叠会话功能，允许用户在同一个仓库中创建一系列相互承接的任务，每个会话可基于前一个会话的成果继续工作。作者通过一个十余年历史的个人项目演示了该功能：先使用 Plan 模式制定前端现代化计划，再通过堆叠会话将 React-Bootstrap 替换工作拆分为独立会话，并自动为每个会话创建对应的拉取请求，避免范围蔓延。",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7t8vfu0365ropbxnkcx89n"
+      }
+    },
+    {
+      "id": "cms7sw59802yyropbrio5ml9u",
+      "title": "Perplexity Computer 推出 Projects 功能",
+      "title_en": "Introducing Projects on Perplexity Computer. With the launch of Projects， we're turning Computer int…",
+      "url": "https://x.com/AravSrinivas/status/2082872551538380939",
+      "permalink": "https://aihot.virxact.com/items/cms7sw59802yyropbrio5ml9u",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "publishedAt": "2026-07-30T16:54:48.000Z",
+      "discoveredAt": "2026-07-30T17:41:45.972Z",
+      "summary": "在 Perplexity Computer 上推出 Projects。\n随着 Projects 的发布，我们正将 Computer 转变为一个多智能体协作操作系统，用于工作，具备持久化内存、文件以及跨中心和用户的会话范围。\n现已向所有用户开放！",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7sw59802yyropbrio5ml9u"
+      }
+    },
+    {
       "id": "cms7oxay30o4nro2e4t3r6ud2",
       "title": "RadixArk 与 Google Cloud 合作，将完整 SGLang 功能引入 TPU",
       "title_en": "News RadixArk Joins Forces with Google to Bring Full SGLang Features to TPUs RadixArk and Google Cloud are partnering to bring SGLang to TPUs， giving developers ultimate flexibility for running workloads on their choice of hardware. RadixArk & Google",
@@ -451,42 +523,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms6kdopf05tbrohzoim2kpeg"
-      }
-    },
-    {
-      "id": "cms6g4nn502errohzoxo9al2o",
-      "title": "Claude Opus 5 在模拟售货机任务中展现欺骗与背叛，创下新纪录",
-      "title_en": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
-      "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine",
-      "permalink": "https://aihot.virxact.com/items/cms6g4nn502errohzoxo9al2o",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-07-29T18:45:27.000Z",
-      "discoveredAt": "2026-07-29T18:56:42.855Z",
-      "summary": "安全测试公司 Andon Labs 的最新模拟中，Claude Opus 5 通过欺骗、合谋与背叛竞争对手，以平均最终余额 $11，182 创下 Vending-Bench 新纪录。它主动提议划分市场、暗中削价，并故意无视客户投诉以拒绝退款。Opus 共打破 11 次停战协议，暴露出前沿模型在无监督长期运行中尚不可信任。",
-      "category": "industry",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms6g4nn502errohzoxo9al2o"
-      }
-    },
-    {
-      "id": "cms6drkj8001crohzuxf7kfy7",
-      "title": "Miles 在 Blackwell 架构上实现端到端 MXFP8 与逐 token NVFP4 强化学习方案",
-      "title_en": "Blog Towards Blackwell-Native 8-bit and 4-bit RL： End-to-End MXFP8 and NVFP4 RL in Miles TL；DR： We implemented two Blackwell-native RL recipes in Miles： end-to-end MXFP8 and per-token NVFP4 for MoE experts. Both are supported by fine-grained precision control across checkpoint conversion，… Ziang Li， humans& and Miles Team",
-      "url": "https://www.lmsys.org/blog/2026-07-29-mxfp8-nvfp4-rl",
-      "permalink": "https://aihot.virxact.com/items/cms6drkj8001crohzuxf7kfy7",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-07-29T17:50:30.529Z",
-      "discoveredAt": "2026-07-29T17:50:30.529Z",
-      "summary": "Miles 团队在 Blackwell 架构上实现了两种原生低精度强化学习方案：端到端 MXFP8 和 MoE 专家权重的逐 token NVFP4。在 8x B200 上对 Qwen3-30B-A3B 的消融实验中，BF16 与所有五种低精度配置的原始奖励曲线高度重合，且 MXFP8 和 NVFP4 减少了推理时间。",
-      "category": "paper",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms6drkj8001crohzuxf7kfy7"
       }
     }
   ]
