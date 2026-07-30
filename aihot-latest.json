@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T07:35:15.439Z",
+  "generatedAt": "2026-07-30T10:27:39.193Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-30",
   "daily": {
@@ -273,6 +273,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cms782fxi02w4ro2evmcwz6uj",
+      "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展",
+      "title_en": "Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+      "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+      "permalink": "https://aihot.virxact.com/items/cms782fxi02w4ro2evmcwz6uj",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-30T07:43:29.000Z",
+      "discoveredAt": "2026-07-30T07:58:47.346Z",
+      "summary": "Marktechpost AI 团队发布 Token Saver，一款面向 Claude Desktop 的开源 MCP 扩展，通过本地混合 RAG 在设备端检索 PDF，无需上传文件。该工具将 token 消耗削减 92%-99%，并保证数据隐私，设置无需 Python 环境或终端配置。",
+      "category": "ai-products",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms782fxi02w4ro2evmcwz6uj"
+      }
+    },
     {
       "id": "cms6xky2402xgrouqgudkfgsg",
       "title": "OpenAI 总裁布罗克曼承认新版 ChatGPT 桌面应用\"有点乱\"，目标年底实现\"零标签\"",
