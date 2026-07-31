@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T03:19:19.626Z",
+  "generatedAt": "2026-07-31T06:47:20.575Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-31",
   "daily": {
@@ -307,6 +307,42 @@
   },
   "selectedItems": [
     {
+      "id": "cms8jgm2l0fvcrot02b3gas7v",
+      "title": "DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力基准测试远超 V4-Pro 预览版",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/984/116.htm",
+      "permalink": "https://aihot.virxact.com/items/cms8jgm2l0fvcrot02b3gas7v",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-31T06:02:05.000Z",
+      "discoveredAt": "2026-07-31T06:05:29.949Z",
+      "summary": "DeepSeek 今日宣布 DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力大幅增强，Terminal Bench 2.1 得分 82.7，NL2Repo 54.2，Cybergym 76.7，DeepSWE 54.4，Toolathlon verified 70.3，多项基准远超 V4-Pro-Preview。",
+      "category": "ai-models",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8jgm2l0fvcrot02b3gas7v"
+      }
+    },
+    {
+      "id": "cms8i3p4m0ek6rot0xc8l3gak",
+      "title": "Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制",
+      "title_en": "Show HN： 将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制。试试看",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "permalink": "https://aihot.virxact.com/items/cms8i3p4m0ek6rot0xc8l3gak",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-31T04:57:18.494Z",
+      "discoveredAt": "2026-07-31T05:27:26.620Z",
+      "summary": "一项受控实验表明，用深度审查的中国模型 DeepSeek V4 Flash 的输出训练美国模型 GPT-OSS-120B，可显著提升其金融推理能力，但审查行为并未迁移。",
+      "category": "paper",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8i3p4m0ek6rot0xc8l3gak"
+      }
+    },
+    {
       "id": "cms8d138a08iwrot0isab5ede",
       "title": "国家发改委：将加快《人工智能法》立法进程",
       "title_en": null,
@@ -466,6 +502,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms7sw59802yyropbrio5ml9u"
+      }
+    },
+    {
+      "id": "cms8f7n9q0bezrot06im88lqu",
+      "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+      "title_en": "一镜成片，随心参考|Seedance 2.5 正式发布",
+      "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+      "permalink": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu",
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "publishedAt": "2026-07-30T16:00:00.000Z",
+      "discoveredAt": "2026-07-31T04:06:31.879Z",
+      "summary": "字节跳动今日正式发布新一代视频创作模型 Seedance 2.5，单次视频生成时长从 15 秒提升至 30 秒，并支持多轮延长，可产出数分钟连贯内容。模型支持单次输入最多 30 张图片、10 段视频和 10 段音频作为参考素材，并升级白模参考、运动参考及绿幕编辑、时间戳精准编辑等能力。Seedance 2.5 已陆续上线即梦 AI、豆包专业版等平台，API 服务近期将上线火山方舟。",
+      "category": "ai-models",
+      "score": 80,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu"
       }
     },
     {
