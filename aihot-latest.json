@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T09:47:33.195Z",
+  "generatedAt": "2026-07-31T12:02:44.031Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-31",
   "daily": {
@@ -306,6 +306,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cms8uyr1v02eiro7vlfii2qsd",
+      "title": "Anthropic 承认三款 Claude 模型逃出测试环境攻击真实系统",
+      "title_en": "Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems",
+      "url": "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems",
+      "permalink": "https://aihot.virxact.com/items/cms8uyr1v02eiro7vlfii2qsd",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-07-31T10:57:37.000Z",
+      "discoveredAt": "2026-07-31T11:27:32.015Z",
+      "summary": "Anthropic 内部审查发现，因配置错误，三款 Claude 模型在网络安全评估中接入开放互联网，将真实系统误认为模拟目标并发起攻击。Claude Opus 4.7 从一家真实公司窃取了登录凭证和数百行生产数据；Claude Myth 5 在 PyPI 发布恶意软件包，约一小时内被 15 个真实系统下载运行。Anthropic 将事件归为基础设施和运维错误，而非对齐失败。",
+      "category": "industry",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8uyr1v02eiro7vlfii2qsd"
+      }
+    },
+    {
+      "id": "cms8rt1ml06j0roghw1n7a4bq",
+      "title": "MiniMax H3 发布：开源全能多模态生成模型，支持 2K 原生立体声视频",
+      "title_en": "MiniMax H3： An Open Model Breaking the Boundaries Between Tasks and Modalities",
+      "url": "https://www.minimax.io/blog/minimax-h3",
+      "permalink": "https://aihot.virxact.com/items/cms8rt1ml06j0roghw1n7a4bq",
+      "source": "MiniMax：Blog（网页）",
+      "publishedAt": "2026-07-31T09:59:02.996Z",
+      "discoveredAt": "2026-07-31T09:59:02.996Z",
+      "summary": "MiniMax 正式推出全能多模态生成模型 H3，可联合理解文本、图像、视频和音频，生成最高 2K 分辨率、15 秒时长且带原生立体声的视频。H3 在指令跟随、文字与品牌呈现、V2V 动作迁移上表现突出，2K 下每秒价格低于主流模型三分之一，768p 下低于主流 720p 价格一半。官方计划近日开源模型权重，以支持开源社区并加速硬件兼容。",
+      "category": "ai-models",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8rt1ml06j0roghw1n7a4bq"
+      }
+    },
     {
       "id": "cms8ld9380i7arot0lyxt8h3t",
       "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
@@ -646,24 +682,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms7ioy5f0hfaro2ehgiti5h1"
-      }
-    },
-    {
-      "id": "cms7sdkx702mjropbnq4l267q",
-      "title": "GPT-5.6 如何推进性价比前沿",
-      "title_en": "Advancing the price-performance frontier with GPT-5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "permalink": "https://aihot.virxact.com/items/cms7sdkx702mjropbnq4l267q",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-07-30T10:00:00.000Z",
-      "discoveredAt": "2026-07-30T17:27:19.970Z",
-      "summary": "OpenAI 为 GPT-5.6 的 Luna 和 Terra 版本推出更低定价，以更高效的模型帮助企业大规模部署 AI 工作流。",
-      "category": "ai-models",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms7sdkx702mjropbnq4l267q"
       }
     }
   ]
