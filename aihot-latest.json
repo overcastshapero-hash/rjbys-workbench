@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T15:21:52.767Z",
+  "generatedAt": "2026-07-31T17:41:45.431Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-31",
   "daily": {
@@ -307,6 +307,24 @@
   },
   "selectedItems": [
     {
+      "id": "cms96t19506karo9k3wjqx5vb",
+      "title": "animated-voiceover 开源：一人干翻动画工作室",
+      "title_en": "这个Skill真的让我看到了一个人干翻一个动画工作室的可能性，我用它做了个DeepSeek V4-Flash的视频， 一个人，一条指令，40块钱，2分钟电影感动画科普视频。 不是那种一眼AI的垃圾…",
+      "url": "https://x.com/AYi_AInotes/status/2083221612778668388",
+      "permalink": "https://aihot.virxact.com/items/cms96t19506karo9k3wjqx5vb",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-07-31T16:01:51.000Z",
+      "discoveredAt": "2026-07-31T16:59:01.508Z",
+      "summary": "前字节产品经理 @s1dashu 开源 animated-voiceover，一套喂给 Codex/Claude Code 的完整动画科普视频制片流程，MIT 协议，可实现 90% 自动化。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms96t19506karo9k3wjqx5vb"
+      }
+    },
+    {
       "id": "cms8zb830079vro7v2z6a4btv",
       "title": "面壁智能ALIGN：自动对齐智能体与环境接口",
       "title_en": "Everyone building LLM agents pours effort into the agent's strategy or into harder environments. The…",
@@ -538,132 +556,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms7w9p0p000fro20pyggbkmb"
-      }
-    },
-    {
-      "id": "cms7teqy003lfropbgykvnbjy",
-      "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
-      "title_en": "GPT-5.6 Terra and Luna just got price cuts from @OpenAI. OpenRouter is cheaper still. Our 50% exclu…",
-      "url": "https://x.com/OpenRouter/status/2082882158574911564",
-      "permalink": "https://aihot.virxact.com/items/cms7teqy003lfropbgykvnbjy",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-07-30T17:32:59.000Z",
-      "discoveredAt": "2026-07-30T17:56:13.228Z",
-      "summary": "GPT-5.6 Terra 和 Luna 刚刚获得了 @OpenAI 的降价。\n\nOpenRouter 的价格仍然更低。我们的 50% 独家折扣在此基础上适用，使 Luna 输入降至 $0.1/M、输出降至 $0.6/M，Terra 输入降至 $1/M、输出降至 $6/M。\n\n使用 luna 扩展你的工作负载：https://openrouter.ai/openai/gpt-5.6-luna",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms7teqy003lfropbgykvnbjy"
-      }
-    },
-    {
-      "id": "cms7t8vfu0365ropbxnkcx89n",
-      "title": "GitHub Copilot 应用新增堆叠会话与拉取请求功能",
-      "title_en": "Stacked sessions and pull requests in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
-      "permalink": "https://aihot.virxact.com/items/cms7t8vfu0365ropbxnkcx89n",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-07-30T17:30:24.000Z",
-      "discoveredAt": "2026-07-30T17:51:40.088Z",
-      "summary": "GitHub Copilot 应用推出堆叠会话功能，允许用户在同一个仓库中创建一系列相互承接的任务，每个会话可基于前一个会话的成果继续工作。作者通过一个十余年历史的个人项目演示了该功能：先使用 Plan 模式制定前端现代化计划，再通过堆叠会话将 React-Bootstrap 替换工作拆分为独立会话，并自动为每个会话创建对应的拉取请求，避免范围蔓延。",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms7t8vfu0365ropbxnkcx89n"
-      }
-    },
-    {
-      "id": "cms7sw59802yyropbrio5ml9u",
-      "title": "Perplexity Computer 推出 Projects 功能",
-      "title_en": "Introducing Projects on Perplexity Computer. With the launch of Projects， we're turning Computer int…",
-      "url": "https://x.com/AravSrinivas/status/2082872551538380939",
-      "permalink": "https://aihot.virxact.com/items/cms7sw59802yyropbrio5ml9u",
-      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-      "publishedAt": "2026-07-30T16:54:48.000Z",
-      "discoveredAt": "2026-07-30T17:41:45.972Z",
-      "summary": "在 Perplexity Computer 上推出 Projects。\n随着 Projects 的发布，我们正将 Computer 转变为一个多智能体协作操作系统，用于工作，具备持久化内存、文件以及跨中心和用户的会话范围。\n现已向所有用户开放！",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms7sw59802yyropbrio5ml9u"
-      }
-    },
-    {
-      "id": "cms8mb361000prof1z6fg37om",
-      "title": "DeepSeek-V4-Flash 正式版 API 上线公测",
-      "title_en": "DeepSeek-V4-Flash 更新",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-07-31",
-      "permalink": "https://aihot.virxact.com/items/cms8mb361000prof1z6fg37om",
-      "source": "DeepSeek：API 更新日志",
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "discoveredAt": "2026-07-30T16:00:00.000Z",
-      "summary": "DeepSeek-V4-Flash 正式版 API 上线公测，模型名设为 deepseek-v4-flash 即可使用，调用方式不变。其 Agent 能力大幅增强，Terminal Bench 2.1 得分 82.7，NL2Repo 54.2，Toolathlon verified 70.3，DSBench-Hard 59.6，多项基准远超 V4-Pro-Preview。",
-      "category": "ai-models",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms8mb361000prof1z6fg37om"
-      }
-    },
-    {
-      "id": "cms8f7n9q0bezrot06im88lqu",
-      "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
-      "title_en": "一镜成片，随心参考|Seedance 2.5 正式发布",
-      "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
-      "permalink": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "discoveredAt": "2026-07-31T04:06:31.879Z",
-      "summary": "字节跳动今日正式发布新一代视频创作模型 Seedance 2.5，单次视频生成时长从 15 秒提升至 30 秒，并支持多轮延长，可产出数分钟连贯内容。模型支持单次输入最多 30 张图片、10 段视频和 10 段音频作为参考素材，并升级白模参考、运动参考及绿幕编辑、时间戳精准编辑等能力。Seedance 2.5 已陆续上线即梦 AI、豆包专业版等平台，API 服务近期将上线火山方舟。",
-      "category": "ai-models",
-      "score": 80,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu"
-      }
-    },
-    {
-      "id": "cms7oxay30o4nro2e4t3r6ud2",
-      "title": "RadixArk 与 Google Cloud 合作，将完整 SGLang 功能引入 TPU",
-      "title_en": "News RadixArk Joins Forces with Google to Bring Full SGLang Features to TPUs RadixArk and Google Cloud are partnering to bring SGLang to TPUs， giving developers ultimate flexibility for running workloads on their choice of hardware. RadixArk & Google",
-      "url": "https://www.lmsys.org/blog/2026-07-30-sglang-google-tpu",
-      "permalink": "https://aihot.virxact.com/items/cms7oxay30o4nro2e4t3r6ud2",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-07-30T15:50:35.428Z",
-      "discoveredAt": "2026-07-30T15:50:35.428Z",
-      "summary": "RadixArk 与 Google Cloud 合作，将开源推理框架 SGLang 引入 Google TPU，开发者可通过 SGL-JAX 在最新 TPU 上运行 Gemma、Qwen、DeepSeek 等大语言模型及多模态模型。",
-      "category": "industry",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms7oxay30o4nro2e4t3r6ud2"
-      }
-    },
-    {
-      "id": "cms88a67t030srot0ull6ajb8",
-      "title": "llm-chat-completions-server 0.1a0 发布",
-      "title_en": "llm-chat-completions-server 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
-      "permalink": "https://aihot.virxact.com/items/cms88a67t030srot0ull6ajb8",
-      "source": "Simon Willison 博客",
-      "publishedAt": "2026-07-30T15:43:16.000Z",
-      "discoveredAt": "2026-07-31T00:52:35.343Z",
-      "summary": "Simon Willison 发布 llm-chat-completions-server 0.1a0 插件，可在本地 9001 端口启动一个兼容 OpenAI Chat Completions API 的服务器，暴露 LLM 工具中所有已安装的模型。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms88a67t030srot0ull6ajb8"
       }
     }
   ]
