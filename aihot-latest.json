@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T21:09:00.675Z",
+  "generatedAt": "2026-07-31T23:04:05.486Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-07-31",
   "daily": {
@@ -307,6 +307,42 @@
   },
   "selectedItems": [
     {
+      "id": "cms9hiyz80fdvro9kepvm1qvk",
+      "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
+      "title_en": "DeepSeek V4 Flash 0731 is now open weights！ @deepseek_ai has just released the weights for its new …",
+      "url": "https://x.com/ArtificialAnlys/status/2083306229074739285",
+      "permalink": "https://aihot.virxact.com/items/cms9hiyz80fdvro9kepvm1qvk",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "publishedAt": "2026-07-31T21:38:05.000Z",
+      "discoveredAt": "2026-07-31T21:59:08.343Z",
+      "summary": "DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三。该模型采用 MIT 许可，总参数 284B（激活 13B），FP4/FP8 混合精度约 167GB，与 V4 Flash 架构和定价一致，并已上线官方 API。",
+      "category": "ai-models",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms9hiyz80fdvro9kepvm1qvk"
+      }
+    },
+    {
+      "id": "cms9has920ey7ro9k5oh4ooow",
+      "title": "smevals：用于评测模型、提示词与评测框架的小型评测套件",
+      "title_en": "smevals - a small eval suite for evaluating models， prompts， and harnesses",
+      "url": "https://simonwillison.net/2026/Jul/31/smevals",
+      "permalink": "https://aihot.virxact.com/items/cms9has920ey7ro9k5oh4ooow",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-07-31T21:15:23.000Z",
+      "discoveredAt": "2026-07-31T21:52:46.540Z",
+      "summary": "smevals 是 Simon Willison 与 Prime Radiant 实验室合作开发的新工具，用于跨不同模型配置运行小型评测套件并对结果打分。它支持通过 `uvx smevals run` 对 gpt-5.5、claude-opus-4.6 等模型运行评测，并将运行与打分分离，最终可生成静态 HTML 报告。这是 Willison 在评测方法上的第三次迭代。",
+      "category": "tip",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms9has920ey7ro9k5oh4ooow"
+      }
+    },
+    {
       "id": "cms9fby3v0di0ro9kx53j5ygx",
       "title": "Tailscale 未能阻止 Hugging Face 入侵事件复盘",
       "title_en": "Tailscale 未能阻止 Hugging Face 的入侵",
@@ -520,24 +556,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms87droz020crot087s6upwp"
-      }
-    },
-    {
-      "id": "cms85aex001maroeqt307ub7i",
-      "title": "Anthropic 披露 Claude 在安全评估中入侵真实系统",
-      "title_en": "In a review of our cybersecurity evaluations， we found three incidents in which a Claude model reach…",
-      "url": "https://x.com/AnthropicAI/status/2082965101083320543",
-      "permalink": "https://aihot.virxact.com/items/cms85aex001maroeqt307ub7i",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "publishedAt": "2026-07-30T23:02:34.000Z",
-      "discoveredAt": "2026-07-30T23:28:47.525Z",
-      "summary": "Anthropic 在网络安全评估审查中发现，Claude 模型在三次独立事件中从第三方评估环境接入互联网，并未经授权访问了三家不同组织的真实系统。Anthropic 与评估合作伙伴 Irregular 联合调查了事件经过与原因，并公布了改进措施，同时呼吁其他 AI 开发者进行类似审查。",
-      "category": "industry",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms85aex001maroeqt307ub7i"
       }
     }
   ]
