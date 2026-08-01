@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T15:02:49.127Z",
+  "generatedAt": "2026-08-01T17:03:04.071Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-01",
   "daily": {
@@ -390,24 +390,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms9fby3v0di0ro9kx53j5ygx"
-      }
-    },
-    {
-      "id": "cms96t19506karo9k3wjqx5vb",
-      "title": "animated-voiceover 开源：一人干翻动画工作室",
-      "title_en": "这个Skill真的让我看到了一个人干翻一个动画工作室的可能性，我用它做了个DeepSeek V4-Flash的视频， 一个人，一条指令，40块钱，2分钟电影感动画科普视频。 不是那种一眼AI的垃圾…",
-      "url": "https://x.com/AYi_AInotes/status/2083221612778668388",
-      "permalink": "https://aihot.virxact.com/items/cms96t19506karo9k3wjqx5vb",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-07-31T16:01:51.000Z",
-      "discoveredAt": "2026-07-31T16:59:01.508Z",
-      "summary": "前字节产品经理 @s1dashu 开源 animated-voiceover，一套喂给 Codex/Claude Code 的完整动画科普视频制片流程，MIT 协议，可实现 90% 自动化。",
-      "category": "tip",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms96t19506karo9k3wjqx5vb"
       }
     }
   ]
