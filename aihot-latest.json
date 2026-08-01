@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T20:57:03.740Z",
+  "generatedAt": "2026-08-01T22:02:14.087Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-01",
   "daily": {
@@ -336,42 +336,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms9udxq00qybro9kc2il6w0c"
-      }
-    },
-    {
-      "id": "cms9hiyz80fdvro9kepvm1qvk",
-      "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
-      "title_en": "DeepSeek V4 Flash 0731 is now open weights！ @deepseek_ai has just released the weights for its new …",
-      "url": "https://x.com/ArtificialAnlys/status/2083306229074739285",
-      "permalink": "https://aihot.virxact.com/items/cms9hiyz80fdvro9kepvm1qvk",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "publishedAt": "2026-07-31T21:38:05.000Z",
-      "discoveredAt": "2026-07-31T21:59:08.343Z",
-      "summary": "DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三。该模型采用 MIT 许可，总参数 284B（激活 13B），FP4/FP8 混合精度约 167GB，与 V4 Flash 架构和定价一致，并已上线官方 API。",
-      "category": "ai-models",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms9hiyz80fdvro9kepvm1qvk"
-      }
-    },
-    {
-      "id": "cms9has920ey7ro9k5oh4ooow",
-      "title": "smevals：用于评测模型、提示词与评测框架的小型评测套件",
-      "title_en": "smevals - a small eval suite for evaluating models， prompts， and harnesses",
-      "url": "https://simonwillison.net/2026/Jul/31/smevals",
-      "permalink": "https://aihot.virxact.com/items/cms9has920ey7ro9k5oh4ooow",
-      "source": "Simon Willison 博客",
-      "publishedAt": "2026-07-31T21:15:23.000Z",
-      "discoveredAt": "2026-07-31T21:52:46.540Z",
-      "summary": "smevals 是 Simon Willison 与 Prime Radiant 实验室合作开发的新工具，用于跨不同模型配置运行小型评测套件并对结果打分。它支持通过 `uvx smevals run` 对 gpt-5.5、claude-opus-4.6 等模型运行评测，并将运行与打分分离，最终可生成静态 HTML 报告。这是 Willison 在评测方法上的第三次迭代。",
-      "category": "tip",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms9has920ey7ro9k5oh4ooow"
       }
     }
   ]
