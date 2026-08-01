@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T06:32:01.666Z",
+  "generatedAt": "2026-08-01T09:07:50.981Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-01",
   "daily": {
@@ -285,6 +285,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmsa5cyuf010erox0k1wdqz5y",
+      "title": "OpenAI 公布数学与理论计算机科学领域十项进展，Token 成本约 2000 美元",
+      "title_en": "均为 10 年以上未解难题：OpenAI 公布在数学与理论计算机科学领域的十项进展，Token 成本约 2000 美元",
+      "url": "https://www.ithome.com/0/984/557.htm",
+      "permalink": "https://aihot.virxact.com/items/cmsa5cyuf010erox0k1wdqz5y",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-01T08:23:25.000Z",
+      "discoveredAt": "2026-08-01T09:06:17.668Z",
+      "summary": "OpenAI 官方公布了在数学与理论计算机科学领域的十项进展，这些均为至少十年未解的难题，由下一代核心模型 Astra 的内部版本计算得出，按 Sol API 费率计算总 token 成本约 2000 美元。人类研究员协助撰写论文手稿并在 Lean 语言中完成形式化验证，但数学论证本身均由 OpenAI 系统生成。OpenAI 认为，完全由 AI 生成的证明不应被声称为人类独立撰写。",
+      "category": "paper",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsa5cyuf010erox0k1wdqz5y"
+      }
+    },
+    {
+      "id": "cmsa302cc01xaro41omun2e1h",
+      "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+      "title_en": "ten significant advances in mathematics and theoretical computer science. solved using an internal …",
+      "url": "https://x.com/gdb/status/2083457463337287721",
+      "permalink": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h",
+      "source": "X：Greg Brockman (@gdb)",
+      "publishedAt": "2026-08-01T07:39:02.000Z",
+      "discoveredAt": "2026-08-01T08:00:16.762Z",
+      "summary": "OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）。Astra 证明了非 sofic 群的存在，并推翻 Connes 刚性猜想，成果涵盖 von Neumann 代数、高维球堆积、电路复杂度等。OpenAI 已发布全部10项证明，附 Lean 证书与 CoT 逐步推导。",
+      "category": "paper",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h"
+      }
+    },
+    {
       "id": "cms9udxq00qybro9kc2il6w0c",
       "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
       "title_en": "真绝了啊，兄弟们说出来你们可能不信， AI历史上第一次全自主Agent网络攻击， 攻击者是@OpenAI 没发布的秘密模型， 被攻击的是@huggingface ， 最后帮他们完成取证的，是中国的开源…",
@@ -462,42 +498,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms8rt1ml06j0roghw1n7a4bq"
-      }
-    },
-    {
-      "id": "cms8ld9380i7arot0lyxt8h3t",
-      "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
-      "title_en": "🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta！ 🔷 We've massively upgraded its Agent…",
-      "url": "https://x.com/deepseek_ai/status/2083084415157022911",
-      "permalink": "https://aihot.virxact.com/items/cms8ld9380i7arot0lyxt8h3t",
-      "source": "X：DeepSeek (@deepseek_ai)",
-      "publishedAt": "2026-07-31T06:56:41.000Z",
-      "discoveredAt": "2026-07-31T06:58:53.583Z",
-      "summary": "🚀 DeepSeek-V4-Flash 官方 API 现已上线公测！\n\n🔷 我们大幅升级了其 Agent 能力--基准测试分数现已远超 V4-Pro-Preview。查看下方巨大的性能飞跃！👇 🔷 官方 V4-Flash 现已原生支持 Responses API 格式，并已完全适配 Codex！\n\n查看我们官方 API 文档中的配置详情：https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
-      "category": "ai-models",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms8ld9380i7arot0lyxt8h3t"
-      }
-    },
-    {
-      "id": "cms8llt7f0iaprot0tz5qnk6i",
-      "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
-      "title_en": "国家发改委：人工智能相关行业保持 30% 以上的高增长，截至 6 月底全国智能算力规模达到去年同期 2.8 倍",
-      "url": "https://www.ithome.com/0/984/130.htm",
-      "permalink": "https://aihot.virxact.com/items/cms8llt7f0iaprot0tz5qnk6i",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-31T06:38:54.000Z",
-      "discoveredAt": "2026-07-31T07:05:30.200Z",
-      "summary": "国家发展改革委在 7 月新闻发布会上介绍，上半年人工智能自主创新加快，首个全国产 10 万卡人工智能超集群正式投用，截至 6 月底全国智能算力规模达去年同期 2.8 倍。深度求索、月之暗面等本土企业发布多个万亿级参数开源大模型，国产大模型全球总下载量突破 100 亿次。相关行业保持 30% 以上高增长，上半年规模以上工业企业集成电路产量同比增长 23.1%，出口额同比增长 88.7%。",
-      "category": "industry",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms8llt7f0iaprot0tz5qnk6i"
       }
     }
   ]
