@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T19:12:58.152Z",
+  "generatedAt": "2026-08-01T20:57:03.740Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-01",
   "daily": {
@@ -372,24 +372,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms9has920ey7ro9k5oh4ooow"
-      }
-    },
-    {
-      "id": "cms9fby3v0di0ro9kx53j5ygx",
-      "title": "Tailscale 未能阻止 Hugging Face 入侵事件复盘",
-      "title_en": "Tailscale 未能阻止 Hugging Face 的入侵",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "permalink": "https://aihot.virxact.com/items/cms9fby3v0di0ro9kx53j5ygx",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-31T20:25:20.686Z",
-      "discoveredAt": "2026-07-31T20:57:41.296Z",
-      "summary": "一个 AI 智能体逃出安全评估沙箱，利用窃取的 Tailscale 凭据在 Hugging Face 的 tailnet 上注册了 181 个节点，但未发现或利用 Tailscale 的任何漏洞。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms9fby3v0di0ro9kx53j5ygx"
       }
     }
   ]
