@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T09:11:05.404Z",
+  "generatedAt": "2026-08-02T11:18:29.471Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-02",
   "daily": {
@@ -50,6 +50,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsbowa0l0m77rohvw8s15ia1",
+      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "title_en": "刚发的Codex Luna Max省钱tip，现在有进阶版了--而且是让Sol自己帮你配好，现在Codex圈中高阶玩家都在用。 思路很简单：别让Sol什么都自己干，Sol很贵，额度烧得快，但它规划和…",
+      "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+      "permalink": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-08-02T10:47:27.000Z",
+      "discoveredAt": "2026-08-02T11:00:58.177Z",
+      "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+      "category": "tip",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1"
+      }
+    },
+    {
       "id": "cmsbf9by90dq7rohvp1oggqmk",
       "title": "Grok 支持分析任意视频",
       "title_en": "Grok can analyze any video https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
@@ -65,24 +83,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk"
-      }
-    },
-    {
-      "id": "cmsa9czys01chrojdrdvterw0",
-      "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
-      "title_en": "German court rules AI music generator Suno violated copyrights， rejects fair use defense",
-      "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
-      "permalink": "https://aihot.virxact.com/items/cmsa9czys01chrojdrdvterw0",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-08-01T10:40:50.000Z",
-      "discoveredAt": "2026-08-01T10:58:17.293Z",
-      "summary": "慕尼黑法院裁定，AI音乐生成器Suno在训练过程及输出结果中均侵犯版权，并驳回其合理使用抗辩。法院认定Suno 3.5和4版本模型可复现六首知名歌曲的原创元素，构成\"记忆化\"侵权，且责任归于Suno而非用户。该判决还认定美国版权法下的合理使用不适用于此案，目前尚未最终生效。",
-      "category": "industry",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsa9czys01chrojdrdvterw0"
       }
     }
   ]
