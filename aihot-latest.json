@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:43:25.481Z",
+  "generatedAt": "2026-08-02T06:35:46.223Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-02",
   "daily": {
@@ -50,6 +50,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsbf9by90dq7rohvp1oggqmk",
+      "title": "Grok 支持分析任意视频",
+      "title_en": "Grok can analyze any video https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "url": "https://x.com/elonmusk/status/2083800942927839307",
+      "permalink": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "publishedAt": "2026-08-02T06:23:54.000Z",
+      "discoveredAt": "2026-08-02T06:31:11.917Z",
+      "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk"
+      }
+    },
+    {
       "id": "cmsa9czys01chrojdrdvterw0",
       "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
       "title_en": "German court rules AI music generator Suno violated copyrights， rejects fair use defense",
@@ -83,24 +101,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h"
-      }
-    },
-    {
-      "id": "cms9udxq00qybro9kc2il6w0c",
-      "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
-      "title_en": "真绝了啊，兄弟们说出来你们可能不信， AI历史上第一次全自主Agent网络攻击， 攻击者是@OpenAI 没发布的秘密模型， 被攻击的是@huggingface ， 最后帮他们完成取证的，是中国的开源…",
-      "url": "https://x.com/AYi_AInotes/status/2083401614623133921",
-      "permalink": "https://aihot.virxact.com/items/cms9udxq00qybro9kc2il6w0c",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-08-01T03:57:07.000Z",
-      "discoveredAt": "2026-08-01T03:59:07.489Z",
-      "summary": "Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动等。",
-      "category": "industry",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms9udxq00qybro9kc2il6w0c"
       }
     }
   ]
