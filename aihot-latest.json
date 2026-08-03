@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T21:06:39.895Z",
+  "generatedAt": "2026-08-03T23:04:10.225Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-03",
   "daily": {
@@ -87,6 +87,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsdt5gom0130rojfwd72clkl",
+      "title": "GPT-Live实时音频新架构发布",
+      "title_en": "GPT-Live is a new architecture and stack for realtime audio：",
+      "url": "https://x.com/gdb/status/2084405421041963356",
+      "permalink": "https://aihot.virxact.com/items/cmsdt5gom0130rojfwd72clkl",
+      "source": "X：Greg Brockman (@gdb)",
+      "publishedAt": "2026-08-03T22:25:53.000Z",
+      "discoveredAt": "2026-08-03T22:35:38.041Z",
+      "summary": "GPT-Live 是一种用于实时音频的新架构和栈：\n\nGPT-Live 可以在说话的同时聆听。\n\n为了让这种体验在 ChatGPT 规模下显得自然，我们从客户端到模型重建了语音栈。\n\n这一新架构让音频持续流动，因此更深入的推理和工具使用不会打断对话。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdt5gom0130rojfwd72clkl"
+      }
+    },
+    {
+      "id": "cmsdqxlyq00giromaftad8bdu",
+      "title": "Claude Code 连接器可复用至 Artifacts",
+      "title_en": "I think a lot of people don't realize- if you connect a Claude Connector （e.g. your gmail， calendar，…",
+      "url": "https://x.com/trq212/status/2084387303959740449",
+      "permalink": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu",
+      "source": "X：Thariq (@trq212)",
+      "publishedAt": "2026-08-03T21:13:53.000Z",
+      "discoveredAt": "2026-08-03T21:33:32.878Z",
+      "summary": "我想很多人没有意识到--如果你连接了一个 Claude 连接器（例如你的 Gmail、日历、Slack 等），Claude Code 也将能够使用它们，包括在 Artifacts 中。",
+      "category": "tip",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu"
+      }
+    },
     {
       "id": "cmsdo0x3203dmro0ovomuyfqx",
       "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
@@ -301,24 +337,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmscldw820c4kroeu7bw1kb27"
-      }
-    },
-    {
-      "id": "cmscc62eo033broeusw72isi0",
-      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
-      "title_en": "OpenAI's amazing - but vastly oversold - new model Astra",
-      "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
-      "permalink": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "publishedAt": "2026-08-02T21:25:27.000Z",
-      "discoveredAt": "2026-08-02T21:52:26.909Z",
-      "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
-      "category": "tip",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
       }
     }
   ]
