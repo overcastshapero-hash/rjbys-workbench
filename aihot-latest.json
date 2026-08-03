@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:53:33.843Z",
+  "generatedAt": "2026-08-03T19:41:42.839Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-03",
   "daily": {
@@ -87,6 +87,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsdkgj9m00hnro0ocrleteo0",
+      "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
+      "title_en": "Europe's AI labeling and transparency rules are now in effect",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "permalink": "https://aihot.virxact.com/items/cmsdkgj9m00hnro0ocrleteo0",
+      "source": "The Verge：AI（RSS）",
+      "publishedAt": "2026-08-03T17:38:45.000Z",
+      "discoveredAt": "2026-08-03T18:32:18.029Z",
+      "summary": "欧盟《人工智能法案》下的新透明度义务于 8 月 2 日生效，要求公司披露用户何时与 AI 模型互动，并为合成音视频和文本添加机器可读标记。欧盟还推出了一套可选的 AI 披露标签供平台采用，但标注要求本身是强制性的。违规公司面临最高 1500 万欧元（约 1720 万美元）或全球年营业额 3% 的罚款，8 月 2 日前推出的模型有 4 个月宽限期。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdkgj9m00hnro0ocrleteo0"
+      }
+    },
     {
       "id": "cmsdg55m700l4roca3x3gtfb1",
       "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
