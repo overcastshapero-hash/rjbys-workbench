@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T08:31:23.673Z",
+  "generatedAt": "2026-08-03T12:27:45.293Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-03",
   "daily": {
@@ -88,6 +88,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsd6q57g12pwroeu6iacjuqj",
+      "title": "Kimi Work 幻灯片制作教程发布",
+      "title_en": "Build Slides with Kimi Work - Tutorial #1. Kimi Slides handles the entire slide-building process： -…",
+      "url": "https://x.com/Kimi_Moonshot/status/2084245860339298423",
+      "permalink": "https://aihot.virxact.com/items/cmsd6q57g12pwroeu6iacjuqj",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "publishedAt": "2026-08-03T11:51:51.000Z",
+      "discoveredAt": "2026-08-03T12:07:51.874Z",
+      "summary": "使用 Kimi Work 制作幻灯片 - 教程 #1。\n\nKimi Slides 处理整个幻灯片制作流程：\n- 清晰的结构与研究，由 Kimi K3 驱动\n- 连贯的设计，包括精美的图表和 SmartArts\n- 可编辑并可直接下载\n\n欢迎在评论区告诉我们你还想看什么内容！",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsd6q57g12pwroeu6iacjuqj"
+      }
+    },
+    {
       "id": "cmscldw820c4kroeu7bw1kb27",
       "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
       "title_en": "Qwen3.8-Max： A New Bar for Coding and Cowork",
@@ -121,24 +139,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
-      }
-    },
-    {
-      "id": "cmsbowa0l0m77rohvw8s15ia1",
-      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
-      "title_en": "刚发的Codex Luna Max省钱tip，现在有进阶版了--而且是让Sol自己帮你配好，现在Codex圈中高阶玩家都在用。 思路很简单：别让Sol什么都自己干，Sol很贵，额度烧得快，但它规划和…",
-      "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
-      "permalink": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "publishedAt": "2026-08-02T10:47:27.000Z",
-      "discoveredAt": "2026-08-02T11:00:58.177Z",
-      "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
-      "category": "tip",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1"
       }
     }
   ]
