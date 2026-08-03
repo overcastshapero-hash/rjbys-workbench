@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:27:45.293Z",
+  "generatedAt": "2026-08-03T15:44:37.596Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-03",
   "daily": {
@@ -87,6 +87,96 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsdczxnl0138rotj8fjenm4b",
+      "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
+      "title_en": "Introducing SenseNova U1.5-Lite-Preview. An early open-source previ…",
+      "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
+      "permalink": "https://aihot.virxact.com/items/cmsdczxnl0138rotj8fjenm4b",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "publishedAt": "2026-08-03T14:40:59.000Z",
+      "discoveredAt": "2026-08-03T15:03:25.468Z",
+      "summary": "商汤推出 SenseNova U1.5-Lite-Preview，一个基于 NEO-Unify 架构的轻量级原生统一多模态模型，仅 8B-MoT 参数即可达到商业闭源模型的生成与编辑质量。",
+      "category": "ai-models",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdczxnl0138rotj8fjenm4b"
+      }
+    },
+    {
+      "id": "cmsddya2a01t3rotjo94tdap8",
+      "title": "Google Agent Skills 幕后：如何构建、测试与规模化",
+      "title_en": "Behind the scenes： How we build， test， and scale Google Agent Skills",
+      "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
+      "permalink": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "publishedAt": "2026-08-03T14:33:20.000Z",
+      "discoveredAt": "2026-08-03T15:30:09.634Z",
+      "summary": "Google Agent Skills 团队详解其开源技能库的构建与治理流程：项目始于 Google Cloud Next 2026 前的\"swarm\"冲刺，发布后 GitHub 星标超 15，000。为保证规模化下的质量，每个技能须通过标准化目录结构、CI/CD 流水线（含 linter、链接检查、AI 辅助清单）及提交时与每周的持续评估，并优先引用远程 MCP 工具。",
+      "category": "tip",
+      "score": 63,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8"
+      }
+    },
+    {
+      "id": "cmsdal06c16pxroeu5xtlavmg",
+      "title": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境",
+      "title_en": "Your agent needs a computer， not a container - introducing @cloudflare/computer",
+      "url": "https://blog.cloudflare.com/cloudflare-computer",
+      "permalink": "https://aihot.virxact.com/items/cmsdal06c16pxroeu5xtlavmg",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-03T13:15:24.000Z",
+      "discoveredAt": "2026-08-03T13:55:49.808Z",
+      "summary": "Cloudflare 发布 @cloudflare/computer 早期预览版，这是一个开源智能体运行时，为每个智能体提供虚拟文件系统，并支持在 isolate、容器沙箱或浏览器中执行代码。",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdal06c16pxroeu5xtlavmg"
+      }
+    },
+    {
+      "id": "cmsdal06d16pzroeuf2u64pdv",
+      "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
+      "title_en": "Introducing the Billable Usage API： programmatic cost visibility for Cloudflare",
+      "url": "https://blog.cloudflare.com/billable-usage-api",
+      "permalink": "https://aihot.virxact.com/items/cmsdal06d16pzroeuf2u64pdv",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-03T13:00:00.000Z",
+      "discoveredAt": "2026-08-03T13:55:49.808Z",
+      "summary": "Cloudflare 发布 Billable Usage API，为自助账户提供单一端点，一次调用即可返回按产品和计费周期拆分的用量与成本，覆盖 Workers、R2、D1、Workers AI、Vectorize、Images 和 Stream。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdal06d16pzroeuf2u64pdv"
+      }
+    },
+    {
+      "id": "cmsdal06d16pyroeu00obye0v",
+      "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+      "title_en": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+      "url": "https://blog.cloudflare.com/grpc-workers",
+      "permalink": "https://aihot.virxact.com/items/cmsdal06d16pyroeu00obye0v",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-03T13:00:00.000Z",
+      "discoveredAt": "2026-08-03T13:55:49.808Z",
+      "summary": "Cloudflare 在 Agents Week 期间推出 Workers 运行时新处理器 connect（socket），可直接接受 Spectrum 提供的入站 TCP 套接字，并支持将套接字转发至 Durable Objects 或 Containers，实现全双工通信。",
+      "category": "ai-products",
+      "score": 60,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdal06d16pyroeu00obye0v"
+      }
+    },
     {
       "id": "cmsd6q57g12pwroeu6iacjuqj",
       "title": "Kimi Work 幻灯片制作教程发布",
