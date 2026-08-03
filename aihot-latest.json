@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T15:44:37.596Z",
+  "generatedAt": "2026-08-03T17:53:33.843Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-03",
   "daily": {
@@ -87,6 +87,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsdg55m700l4roca3x3gtfb1",
+      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+      "title_en": "使用单块 4GB GPU 进行 AirLLM 70B 推理",
+      "url": "https://github.com/lyogavin/airllm",
+      "permalink": "https://aihot.virxact.com/items/cmsdg55m700l4roca3x3gtfb1",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-03T16:24:45.027Z",
+      "discoveredAt": "2026-08-03T16:31:27.516Z",
+      "summary": "AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置。该项目已开源，相关讨论在 Hacker News 上获得 103 点热度，引发社区关注。",
+      "category": "tip",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdg55m700l4roca3x3gtfb1"
+      }
+    },
+    {
+      "id": "cmsdexxu702xbrotjockerya6",
+      "title": "OpenRouter 推出 Ori Eval 简化评估流程",
+      "title_en": "Introducing Ori Eval： the easiest way to write your first eval. There's no definitive best model， o…",
+      "url": "https://x.com/OpenRouter/status/2084301100078027143",
+      "permalink": "https://aihot.virxact.com/items/cmsdexxu702xbrotjockerya6",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-08-03T15:31:21.000Z",
+      "discoveredAt": "2026-08-03T15:57:52.352Z",
+      "summary": "推出 Ori Eval：编写首个评估的最简单方式。\n\n没有绝对最好的模型，只有最适合每项任务的模型。Ori Eval 利用 OpenRouter 的 API 处理代码库中的每项任务，然后评估结果。\n\ncurl -fsSL https://openrouter.ai/skills/spawn-ori-eval",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdexxu702xbrotjockerya6"
+      }
+    },
     {
       "id": "cmsdczxnl0138rotj8fjenm4b",
       "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
