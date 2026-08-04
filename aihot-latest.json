@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T18:40:15.188Z",
+  "generatedAt": "2026-08-04T20:26:48.823Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-04",
   "daily": {
@@ -273,6 +273,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsf2ukfc1ekiro2e4h0k2bux",
+      "title": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
+      "title_en": "PipeNetwork/minimax-h3-mlx",
+      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
+      "permalink": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-08-04T19:10:09.000Z",
+      "discoveredAt": "2026-08-04T19:54:52.549Z",
+      "summary": "MiniMax 发布 MiniMax-H3，一个可接受文本、图像、音频和视频并生成最长 15 秒带音频视频片段的通用全模态生成系统。Python 包 PipeNetwork/minimax-h3-mlx 将其移植到 MLX，支持 Apple Silicon 运行。作者在 M5 Max MacBook Pro 上实测，下载约 115 GB 模型文件，视频生成耗时不到 45 分钟。",
+      "category": "tip",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux"
+      }
+    },
     {
       "id": "cmsezylz31cadro2eoq1np3vh",
       "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
@@ -793,24 +811,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu"
-      }
-    },
-    {
-      "id": "cmsdnp8wy035jro0oflgpii8f",
-      "title": "微软开源 Orchard 智能体训练框架",
-      "title_en": "Orchard is an open-source framework for the research community to train and evaluate AI agents acros…",
-      "url": "https://x.com/MSFTResearch/status/2084364547142418722",
-      "permalink": "https://aihot.virxact.com/items/cmsdnp8wy035jro0oflgpii8f",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "publishedAt": "2026-08-03T19:43:28.000Z",
-      "discoveredAt": "2026-08-03T20:03:03.754Z",
-      "summary": "Orchard 是一个面向研究社区的开源框架，用于跨任务类型训练和评估 AI 智能体。它降低了复杂性，同时通过让研究人员复用同一套基础设施，支持较小模型也能实现强劲性能。https://msft.it/6019a8fqP",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdnp8wy035jro0oflgpii8f"
       }
     }
   ]
