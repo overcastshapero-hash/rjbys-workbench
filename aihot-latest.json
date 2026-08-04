@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:26:48.823Z",
+  "generatedAt": "2026-08-04T22:15:20.471Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-04",
   "daily": {
@@ -273,6 +273,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsf7gr271ii5ro2eiu0hihb5",
+      "title": "Replit 环境智能：免提示词自动生成设计",
+      "title_en": "You don't need to prompt. You don't need design language. Ambient Intelligence surfaces suggestion …",
+      "url": "https://x.com/Replit/status/2084761337570144424",
+      "permalink": "https://aihot.virxact.com/items/cmsf7gr271ii5ro2eiu0hihb5",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-08-04T22:00:10.000Z",
+      "discoveredAt": "2026-08-04T22:04:05.931Z",
+      "summary": "你无需提示词，也无需设计语言。\n\n环境智能（Ambient Intelligence）会在每个画面旁显示建议卡片，每张卡片都指向你的设计的一个不同方向。点击你喜欢的那张，即可看到它生成一个新的画面。\n\n你再也不必纠结下一步该做什么。\n\n立即在 http://replit.com/design 体验。",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsf7gr271ii5ro2eiu0hihb5"
+      }
+    },
     {
       "id": "cmsf2ukfc1ekiro2e4h0k2bux",
       "title": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
@@ -742,6 +760,24 @@
       }
     },
     {
+      "id": "cmsf4nabx1g03ro2e3ripbdfm",
+      "title": "杰文斯悖论还能持续吗：AI 定价分层如何支撑算力需求增长",
+      "title_en": "Racing to Sustain Jevons' Paradox",
+      "url": "https://www.tomtunguz.com/what-if-gpu-prices-double",
+      "permalink": "https://aihot.virxact.com/items/cmsf4nabx1g03ro2e3ripbdfm",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "discoveredAt": "2026-08-04T20:45:11.258Z",
+      "summary": "科技巨头高管普遍表示算力供应仍无法满足需求，但 AI 定价却在上涨：Anthropic 7 月 24 日发布的 Fable 5 定价每百万输出 token 50 美元，较 Opus 5 翻倍；OpenAI 则在 Fable 5 发布五天后将 GPT-5.6 Luna 价格下调 80%。",
+      "category": "tip",
+      "score": 63,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsf4nabx1g03ro2e3ripbdfm"
+      }
+    },
+    {
       "id": "cmsevo9td18ehro2e4owyq95q",
       "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
       "title_en": "Ori Harness： The Best Way to Use OpenRouter with Any Harness",
@@ -793,24 +829,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsdt5gom0130rojfwd72clkl"
-      }
-    },
-    {
-      "id": "cmsdqxlyq00giromaftad8bdu",
-      "title": "Claude Code 连接器可复用至 Artifacts",
-      "title_en": "I think a lot of people don't realize- if you connect a Claude Connector （e.g. your gmail， calendar，…",
-      "url": "https://x.com/trq212/status/2084387303959740449",
-      "permalink": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu",
-      "source": "X：Thariq (@trq212)",
-      "publishedAt": "2026-08-03T21:13:53.000Z",
-      "discoveredAt": "2026-08-03T21:33:32.878Z",
-      "summary": "我想很多人没有意识到--如果你连接了一个 Claude 连接器（例如你的 Gmail、日历、Slack 等），Claude Code 也将能够使用它们，包括在 Artifacts 中。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu"
       }
     }
   ]
