@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:53:57.632Z",
+  "generatedAt": "2026-08-04T18:40:15.188Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-04",
   "daily": {
@@ -273,6 +273,60 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsezylz31cadro2eoq1np3vh",
+      "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
+      "title_en": "Show HN： 在配备4 GB显存的笔记本电脑GPU上对8B模型进行微调",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "permalink": "https://aihot.virxact.com/items/cmsezylz31cadro2eoq1np3vh",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-04T18:17:29.648Z",
+      "discoveredAt": "2026-08-04T18:34:01.675Z",
+      "summary": "Soup 推出 v0.72.4，支持在配备 4 GB 显存的笔记本 GPU 上通过 QLoRA 微调 8B 模型，无需 SSH 或云服务。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsezylz31cadro2eoq1np3vh"
+      }
+    },
+    {
+      "id": "cmseyrhcj1bgmro2ed47t5b0k",
+      "title": "OpenRouter 上线 FLUX 3 Video 统一多模态模型",
+      "title_en": "FLUX 3 Video from @bfl_ai is now available for everyone on OpenRouter. One unified multimodal model…",
+      "url": "https://x.com/OpenRouter/status/2084699413898027064",
+      "permalink": "https://aihot.virxact.com/items/cmseyrhcj1bgmro2ed47t5b0k",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-08-04T17:54:06.000Z",
+      "discoveredAt": "2026-08-04T18:00:29.372Z",
+      "summary": "@bfl_ai 的 FLUX 3 Video 现已在 OpenRouter 上向所有人开放。\n\n一个统一的视频、音频、图像和动作预测多模态模型家族。严肃、有趣、创意、真实、电影感，随你所需。基于统一架构联合训练。",
+      "category": "ai-models",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseyrhcj1bgmro2ed47t5b0k"
+      }
+    },
+    {
+      "id": "cmseyfjcz1au8ro2enx0b7os6",
+      "title": "SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型",
+      "title_en": "Blog SpecForge v0.3.0： a Unified Disaggregated and Colocated Speculative Decoding Stack， and New Open SpecBundle Draft Models When we first released SpecForge， a training job owned both the frozen target model and the draft model being optimized. This made EAGLE3 draft-model training practical and directly compatible with SG… The SpecForge Team",
+      "url": "https://www.lmsys.org/blog/2026-08-04-specforge-v0-3",
+      "permalink": "https://aihot.virxact.com/items/cmseyfjcz1au8ro2enx0b7os6",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-08-04T17:51:09.590Z",
+      "discoveredAt": "2026-08-04T17:51:09.590Z",
+      "summary": "SpecForge v0.3.0 将目标模型推理与草稿模型训练分离，支持 EAGLE3、EAGLE3.1、P-EAGLE、DFlash、Domino、DSpark 等多种投机解码算法，并统一在线、离线与解耦工作流。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseyfjcz1au8ro2enx0b7os6"
+      }
+    },
     {
       "id": "cmsewck8518x6ro2e32q4bksr",
       "title": "GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码",
@@ -757,24 +811,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsdnp8wy035jro0oflgpii8f"
-      }
-    },
-    {
-      "id": "cmsdkgj9m00hnro0ocrleteo0",
-      "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
-      "title_en": "Europe's AI labeling and transparency rules are now in effect",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-      "permalink": "https://aihot.virxact.com/items/cmsdkgj9m00hnro0ocrleteo0",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-08-03T17:38:45.000Z",
-      "discoveredAt": "2026-08-03T18:32:18.029Z",
-      "summary": "欧盟《人工智能法案》下的新透明度义务于 8 月 2 日生效，要求公司披露用户何时与 AI 模型互动，并为合成音视频和文本添加机器可读标记。欧盟还推出了一套可选的 AI 披露标签供平台采用，但标注要求本身是强制性的。违规公司面临最高 1500 万欧元（约 1720 万美元）或全球年营业额 3% 的罚款，8 月 2 日前推出的模型有 4 个月宽限期。",
-      "category": "industry",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdkgj9m00hnro0ocrleteo0"
       }
     }
   ]
