@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T14:22:40.779Z",
+  "generatedAt": "2026-08-04T16:53:57.632Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-04",
   "daily": {
@@ -274,6 +274,150 @@
   },
   "selectedItems": [
     {
+      "id": "cmsewck8518x6ro2e32q4bksr",
+      "title": "GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码",
+      "title_en": "Turn one giant AI-generated pull request to a reviewable stack",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
+      "permalink": "https://aihot.virxact.com/items/cmsewck8518x6ro2e32q4bksr",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-08-04T16:47:18.000Z",
+      "discoveredAt": "2026-08-04T16:52:54.295Z",
+      "summary": "GitHub 介绍用堆叠式 Pull Request（stacked PR）解决 AI 编码智能体生成巨型代码难以审查的问题。通过将 1，000+ 行的大 diff 按数据、API、接线、UI 拆成 L1-L4 四个独立分层，每层可分配不同审查者。",
+      "category": "tip",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsewck8518x6ro2e32q4bksr"
+      }
+    },
+    {
+      "id": "cmsew3l4y18qhro2edk0yaat8",
+      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT",
+      "title_en": "A unified API for AI model routing",
+      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
+      "permalink": "https://aihot.virxact.com/items/cmsew3l4y18qhro2edk0yaat8",
+      "source": "Google Developers Blog（RSS）",
+      "publishedAt": "2026-08-04T16:45:02.138Z",
+      "discoveredAt": "2026-08-04T16:45:02.138Z",
+      "summary": "Google Cloud API Gateway 新增模型路由功能（Public Preview），开发者可在 OpenAPI 3.x 规范中配置虚拟模型名到后端目标的映射，无需硬编码端点或管理开源代理。网关作为无服务器入口层，接受标准 OpenAI 兼容请求，自动将负载转码为目标模型的原生格式并动态路由流量。",
+      "category": "ai-products",
+      "score": 61,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsew3l4y18qhro2edk0yaat8"
+      }
+    },
+    {
+      "id": "cmsevo5m118dmro2e9d1ven6v",
+      "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
+      "title_en": "Introducing Database Operations Agents： The future of autonomous database management",
+      "url": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
+      "permalink": "https://aihot.virxact.com/items/cmsevo5m118dmro2e9d1ven6v",
+      "source": "Google Cloud：Databases（RSS）",
+      "publishedAt": "2026-08-04T16:00:00.000Z",
+      "discoveredAt": "2026-08-04T16:33:49.420Z",
+      "summary": "Google Cloud 在 Agentic Data Cloud 发布中推出两款 AI 数据库智能体：Database Onboarding Agent 负责 Day 0 的配置与部署，Database Observability Agent 负责 Day 1/2 的监控、故障排查与维护。",
+      "category": "ai-products",
+      "score": 60,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsevo5m118dmro2e9d1ven6v"
+      }
+    },
+    {
+      "id": "cmseuq5vh17o9ro2eomueivmi",
+      "title": "商汤 SenseNova U1 开源：统一推理与图像生成",
+      "title_en": "Thanks Dan for testing SenseNova U1 - our open-source AI model that reasons and generates images in …",
+      "url": "https://x.com/SenseTime_AI/status/2084667189479837741",
+      "permalink": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "publishedAt": "2026-08-04T15:46:03.000Z",
+      "discoveredAt": "2026-08-04T16:07:29.131Z",
+      "summary": "商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成。其信息图模式可将单条提示词转为结构化幻灯片，交错模式则逐步生成图文内容，如演示六步画龙教程。模型已上线 SenseNova Studio、HuggingFace 及 GitHub。",
+      "category": "ai-models",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi"
+      }
+    },
+    {
+      "id": "cmsesgyzp159kro2efe58vs2u",
+      "title": "蚂蚁百灵发布Ling-3.0-flash开源权重",
+      "title_en": "Today， we're releasing the open weights for Ling-3.0-flash. 🎉 Official BF16 and FP8-quantized vers…",
+      "url": "https://x.com/AntLingAGI/status/2084656533489754475",
+      "permalink": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u",
+      "source": "X：蚂蚁百灵 (@AntLingAGI)",
+      "publishedAt": "2026-08-04T15:03:43.000Z",
+      "discoveredAt": "2026-08-04T15:04:20.575Z",
+      "summary": "今天，我们发布了 Ling-3.0-flash 的开源权重。🎉\n\n官方 BF16 和 FP8 量化版本现已可用，您可以根据自己的硬件、性能要求和部署需求选择最合适的版本。",
+      "category": "ai-models",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u"
+      }
+    },
+    {
+      "id": "cmsesrlcn15j6ro2ecpj577wj",
+      "title": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
+      "title_en": "NVIDIA Alpamayo 2 Super， the Frontier Open Model for Robotaxis and Autonomous Vehicles， Now Available for Commercial Use",
+      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
+      "permalink": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj",
+      "source": "NVIDIA Blog（RSS）",
+      "publishedAt": "2026-08-04T15:00:49.000Z",
+      "discoveredAt": "2026-08-04T15:12:36.927Z",
+      "summary": "NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构建，采用强化学习后训练，支持轨迹预测、因果链推理、元动作、自动标注及视觉问答等多任务输出。",
+      "category": "ai-models",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj"
+      }
+    },
+    {
+      "id": "cmsesrlcn15j7ro2evd57my2c",
+      "title": "NVIDIA 开源 cuFile API，推动 GPU 直连存储",
+      "title_en": "As AI Increases Demands on Memory， Storage Steps Up",
+      "url": "https://blogs.nvidia.com/blog/ai-storage-fms",
+      "permalink": "https://aihot.virxact.com/items/cmsesrlcn15j7ro2evd57my2c",
+      "source": "NVIDIA Blog（RSS）",
+      "publishedAt": "2026-08-04T15:00:47.000Z",
+      "discoveredAt": "2026-08-04T15:12:36.927Z",
+      "summary": "NVIDIA 在 FMS 大会上宣布开源 cuFile API 及底层存储软件栈，让 GPU 可直接读写存储，访问延迟降至微秒级。其 Vera CPU 在两级压缩与加密流水线中吞吐量比 x86 CPU 最高提升 3.21 倍，并联合 40 多家厂商推出 Storage-Next 计划。",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesrlcn15j7ro2evd57my2c"
+      }
+    },
+    {
+      "id": "cmsesile415d4ro2evb21j3n0",
+      "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
+      "title_en": "Anthropic signs $10B computing deal with infrastructure startup Volta， a cloud company that is only …",
+      "url": "https://x.com/rohanpaul_ai/status/2084655258102546579",
+      "permalink": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-08-04T14:58:39.000Z",
+      "discoveredAt": "2026-08-04T15:05:37.147Z",
+      "summary": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议，约合每年 17 亿美元。Volta 估值 24 亿美元，硬件几乎全为租用：算力来自比特币矿商 Bitdeer 挪威 121MW 站点，芯片由 Nvidia 供应、Dell 组装。Anthropic 买的是交付速度，代价是承担超大规模云厂商合同从未有过的交易对手风险。",
+      "category": "industry",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0"
+      }
+    },
+    {
       "id": "cmseq167s12m3ro2eas0pbc9y",
       "title": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
       "title_en": "How we built a software factory to drive Astro's GitHub issue count to zero",
@@ -526,6 +670,24 @@
       }
     },
     {
+      "id": "cmsevo9td18ehro2e4owyq95q",
+      "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
+      "title_en": "Ori Harness： The Best Way to Use OpenRouter with Any Harness",
+      "url": "https://openrouter.ai/blog/announcements/ori-harness",
+      "permalink": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "discoveredAt": "2026-08-04T16:34:00.141Z",
+      "summary": "OpenRouter 发布 ori CLI，用户安装并登录后即可获得针对 Claude Code、Codex、OpenCode、Hermes 等 harness 的优化配置，省去手动设置大量环境变量的麻烦。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q"
+      }
+    },
+    {
       "id": "cmsdv83cg000lro2eyp49endp",
       "title": "Palantir 强劲季度后，CEO Alex Karp 称 AI 行业\"马克思主义\"",
       "title_en": "After killer quarter， Palantir CEO Alex Karp calls AI industry 'Marxist'",
@@ -580,24 +742,6 @@
       }
     },
     {
-      "id": "cmsdo0x3203dmro0ovomuyfqx",
-      "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
-      "title_en": "How EA Is Bringing Generative AI Into Living， Playable Worlds",
-      "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
-      "permalink": "https://aihot.virxact.com/items/cmsdo0x3203dmro0ovomuyfqx",
-      "source": "Runway：News（网页）",
-      "publishedAt": "2026-08-03T20:12:03.229Z",
-      "discoveredAt": "2026-08-03T20:12:03.229Z",
-      "summary": "EA 首席战略官 Mihir Vaidya 认为，游戏是 AI 的试验场，但生成式 AI 进入游戏面临 60 帧/秒、数千玩家同步和低延迟等严苛约束，不能只追求\"看起来真实\"，而必须\"行为正确\"。他主张采用神经符号架构，在生成能力之外保留确定性与可控性，并称\"控制是下一个前沿\"。EA 将 AI 影响分为效率、扩展和转型三个层面，其中《模拟人生》已服务超 5 亿玩家，拥有近万亿种游玩排列组合。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdo0x3203dmro0ovomuyfqx"
-      }
-    },
-    {
       "id": "cmsdnp8wy035jro0oflgpii8f",
       "title": "微软开源 Orchard 智能体训练框架",
       "title_en": "Orchard is an open-source framework for the research community to train and evaluate AI agents acros…",
@@ -631,78 +775,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsdkgj9m00hnro0ocrleteo0"
-      }
-    },
-    {
-      "id": "cmsdg55m700l4roca3x3gtfb1",
-      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-      "title_en": "使用单块 4GB GPU 进行 AirLLM 70B 推理",
-      "url": "https://github.com/lyogavin/airllm",
-      "permalink": "https://aihot.virxact.com/items/cmsdg55m700l4roca3x3gtfb1",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-03T16:24:45.027Z",
-      "discoveredAt": "2026-08-03T16:31:27.516Z",
-      "summary": "AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置。该项目已开源，相关讨论在 Hacker News 上获得 103 点热度，引发社区关注。",
-      "category": "tip",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdg55m700l4roca3x3gtfb1"
-      }
-    },
-    {
-      "id": "cmsdexxu702xbrotjockerya6",
-      "title": "OpenRouter 推出 Ori Eval 简化评估流程",
-      "title_en": "Introducing Ori Eval： the easiest way to write your first eval. There's no definitive best model， o…",
-      "url": "https://x.com/OpenRouter/status/2084301100078027143",
-      "permalink": "https://aihot.virxact.com/items/cmsdexxu702xbrotjockerya6",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-08-03T15:31:21.000Z",
-      "discoveredAt": "2026-08-03T15:57:52.352Z",
-      "summary": "推出 Ori Eval：编写首个评估的最简单方式。\n\n没有绝对最好的模型，只有最适合每项任务的模型。Ori Eval 利用 OpenRouter 的 API 处理代码库中的每项任务，然后评估结果。\n\ncurl -fsSL https://openrouter.ai/skills/spawn-ori-eval",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdexxu702xbrotjockerya6"
-      }
-    },
-    {
-      "id": "cmsdczxnl0138rotj8fjenm4b",
-      "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
-      "title_en": "Introducing SenseNova U1.5-Lite-Preview. An early open-source previ…",
-      "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
-      "permalink": "https://aihot.virxact.com/items/cmsdczxnl0138rotj8fjenm4b",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "publishedAt": "2026-08-03T14:40:59.000Z",
-      "discoveredAt": "2026-08-03T15:03:25.468Z",
-      "summary": "商汤推出 SenseNova U1.5-Lite-Preview，一个基于 NEO-Unify 架构的轻量级原生统一多模态模型，仅 8B-MoT 参数即可达到商业闭源模型的生成与编辑质量。",
-      "category": "ai-models",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdczxnl0138rotj8fjenm4b"
-      }
-    },
-    {
-      "id": "cmsddya2a01t3rotjo94tdap8",
-      "title": "Google Agent Skills 幕后：如何构建、测试与规模化",
-      "title_en": "Behind the scenes： How we build， test， and scale Google Agent Skills",
-      "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-      "permalink": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8",
-      "source": "Google AI：DEV 作者专属（RSS）",
-      "publishedAt": "2026-08-03T14:33:20.000Z",
-      "discoveredAt": "2026-08-03T15:30:09.634Z",
-      "summary": "Google Agent Skills 团队详解其开源技能库的构建与治理流程：项目始于 Google Cloud Next 2026 前的\"swarm\"冲刺，发布后 GitHub 星标超 15，000。为保证规模化下的质量，每个技能须通过标准化目录结构、CI/CD 流水线（含 linter、链接检查、AI 辅助清单）及提交时与每周的持续评估，并优先引用远程 MCP 工具。",
-      "category": "tip",
-      "score": 63,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8"
       }
     }
   ]
