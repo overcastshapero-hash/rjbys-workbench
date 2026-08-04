@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:26:30.670Z",
+  "generatedAt": "2026-08-04T14:22:40.779Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-04",
   "daily": {
@@ -273,6 +273,114 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmseq167s12m3ro2eas0pbc9y",
+      "title": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
+      "title_en": "How we built a software factory to drive Astro's GitHub issue count to zero",
+      "url": "https://blog.cloudflare.com/astro-issue-triage",
+      "permalink": "https://aihot.virxact.com/items/cmseq167s12m3ro2eas0pbc9y",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "discoveredAt": "2026-08-04T13:56:04.557Z",
+      "summary": "Cloudflare 在 Astro 仓库上运行自动化 triage 流水线，通过隔离的 AI 子代理复现、诊断并修复 bug，将开放 issue 从 200 多个降至约 30 个，预计下月归零。该流水线由 issue 标签驱动，修复后自动发布预览版本供用户验证。其底层引擎已发展为 Flue，一个开源的平台无关框架，用于构建持久化智能体与工作流。",
+      "category": "tip",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167s12m3ro2eas0pbc9y"
+      }
+    },
+    {
+      "id": "cmseq167s12m2ro2efhh7h5ia",
+      "title": "Cloudflare 让智能体通过本地追踪调试 Workers",
+      "title_en": "Your agent can now debug Workers with local tracing",
+      "url": "https://blog.cloudflare.com/local-tracing",
+      "permalink": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "discoveredAt": "2026-08-04T13:56:04.557Z",
+      "summary": "Cloudflare 即日起在 wrangler dev 和 vite dev 中自动为本地 Worker 调用捕获 OpenTelemetry 追踪，无需安装 SDK 或配置智能体。智能体可通过 Local Explorer API 查询追踪数据，定位失败操作、修复本地环境并验证结果。开发者也可在浏览器界面 Local Explorer 中可视化查看 spans、时序、错误及关联控制台日志。",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia"
+      }
+    },
+    {
+      "id": "cmseq167r12m1ro2eqjsdn6wd",
+      "title": "Cloudflare 推出 Agents 平台，率先上线智能体追踪功能",
+      "title_en": "Introducing： Cloudflare Agents",
+      "url": "https://blog.cloudflare.com/agents-on-cloudflare",
+      "permalink": "https://aihot.virxact.com/items/cmseq167r12m1ro2eqjsdn6wd",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "discoveredAt": "2026-08-04T13:56:04.557Z",
+      "summary": "Cloudflare 推出 Cloudflare Agents，将部署在平台上的智能体会话统一到一个视图中，并率先上线 agent tracing 功能。该功能支持 OpenTelemetry 兼容的 Think、Flue 和 AI SDK 等智能体框架，可测量每次模型调用、工具执行和 token 消耗。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167r12m1ro2eqjsdn6wd"
+      }
+    },
+    {
+      "id": "cmseq167r12lzro2ecc1f23gs",
+      "title": "Cloudflare 推出 CI SDK：在 Cloudflare 上为百万级仓库运行 CI/CD 流水线",
+      "title_en": "Run CI/CD for millions of repos - on your platform， on Cloudflare",
+      "url": "https://blog.cloudflare.com/ci-workflows",
+      "permalink": "https://aihot.virxact.com/items/cmseq167r12lzro2ecc1f23gs",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "discoveredAt": "2026-08-04T13:56:04.557Z",
+      "summary": "Cloudflare 推出基于 Workflows 和 Sandbox SDK 的 CI SDK，让平台方直接在 Cloudflare 上运行 CI/CD 流水线，支持构建、lint、类型检查、单元测试、依赖缓存及条件部署。",
+      "category": "ai-products",
+      "score": 61,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167r12lzro2ecc1f23gs"
+      }
+    },
+    {
+      "id": "cmseq167r12lxro2erzimnhk2",
+      "title": "Cloudflare 推出 Agent Development Lifecycle，让智能体接管更多软件开发生命周期",
+      "title_en": "The Agent Development Lifecycle has arrived on Cloudflare",
+      "url": "https://blog.cloudflare.com/agent-development-lifecycle",
+      "permalink": "https://aihot.virxact.com/items/cmseq167r12lxro2erzimnhk2",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-04T13:00:00.000Z",
+      "discoveredAt": "2026-08-04T13:56:04.557Z",
+      "summary": "Cloudflare 宣布推出 Agent Development Lifecycle（ADLC），以取代传统 SDLC，让 AI 智能体从仅生成代码扩展到承担更多开发流程。",
+      "category": "ai-products",
+      "score": 61,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167r12lxro2erzimnhk2"
+      }
+    },
+    {
+      "id": "cmseo63z710lvro2eblsf93az",
+      "title": "在单颗 AMD MI300X 上运行 DeepSeek V4 Flash",
+      "title_en": null,
+      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "permalink": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-04T12:56:45.712Z",
+      "discoveredAt": "2026-08-04T13:03:55.521Z",
+      "summary": "一个开源仓库提供了在单颗 AMD MI300X 上生产运行 DeepSeek-V4-Flash-0731 的完整配置与补丁，无需额外量化或权重卸载。该 304B 参数模型在 192 GB HBM 上实现单流 168.6 tok/s 解码、8 并发流 542 tok/s 聚合吞吐，并验证了 256K 上下文。",
+      "category": "tip",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az"
+      }
+    },
     {
       "id": "cmsek09wz0vq7ro2eayzzt3uq",
       "title": "工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施",
@@ -595,78 +703,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8"
-      }
-    },
-    {
-      "id": "cmsdal06c16pxroeu5xtlavmg",
-      "title": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境",
-      "title_en": "Your agent needs a computer， not a container - introducing @cloudflare/computer",
-      "url": "https://blog.cloudflare.com/cloudflare-computer",
-      "permalink": "https://aihot.virxact.com/items/cmsdal06c16pxroeu5xtlavmg",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-03T13:15:24.000Z",
-      "discoveredAt": "2026-08-03T13:55:49.808Z",
-      "summary": "Cloudflare 发布 @cloudflare/computer 早期预览版，这是一个开源智能体运行时，为每个智能体提供虚拟文件系统，并支持在 isolate、容器沙箱或浏览器中执行代码。",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdal06c16pxroeu5xtlavmg"
-      }
-    },
-    {
-      "id": "cmsdal06d16pzroeuf2u64pdv",
-      "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
-      "title_en": "Introducing the Billable Usage API： programmatic cost visibility for Cloudflare",
-      "url": "https://blog.cloudflare.com/billable-usage-api",
-      "permalink": "https://aihot.virxact.com/items/cmsdal06d16pzroeuf2u64pdv",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-03T13:00:00.000Z",
-      "discoveredAt": "2026-08-03T13:55:49.808Z",
-      "summary": "Cloudflare 发布 Billable Usage API，为自助账户提供单一端点，一次调用即可返回按产品和计费周期拆分的用量与成本，覆盖 Workers、R2、D1、Workers AI、Vectorize、Images 和 Stream。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdal06d16pzroeuf2u64pdv"
-      }
-    },
-    {
-      "id": "cmsdal06d16pyroeu00obye0v",
-      "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
-      "title_en": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
-      "url": "https://blog.cloudflare.com/grpc-workers",
-      "permalink": "https://aihot.virxact.com/items/cmsdal06d16pyroeu00obye0v",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-03T13:00:00.000Z",
-      "discoveredAt": "2026-08-03T13:55:49.808Z",
-      "summary": "Cloudflare 在 Agents Week 期间推出 Workers 运行时新处理器 connect（socket），可直接接受 Spectrum 提供的入站 TCP 套接字，并支持将套接字转发至 Durable Objects 或 Containers，实现全双工通信。",
-      "category": "ai-products",
-      "score": 60,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdal06d16pyroeu00obye0v"
-      }
-    },
-    {
-      "id": "cmsd6q57g12pwroeu6iacjuqj",
-      "title": "Kimi Work 幻灯片制作教程发布",
-      "title_en": "Build Slides with Kimi Work - Tutorial #1. Kimi Slides handles the entire slide-building process： -…",
-      "url": "https://x.com/Kimi_Moonshot/status/2084245860339298423",
-      "permalink": "https://aihot.virxact.com/items/cmsd6q57g12pwroeu6iacjuqj",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "publishedAt": "2026-08-03T11:51:51.000Z",
-      "discoveredAt": "2026-08-03T12:07:51.874Z",
-      "summary": "使用 Kimi Work 制作幻灯片 - 教程 #1。\n\nKimi Slides 处理整个幻灯片制作流程：\n- 清晰的结构与研究，由 Kimi K3 驱动\n- 连贯的设计，包括精美的图表和 SmartArts\n- 可编辑并可直接下载\n\n欢迎在评论区告诉我们你还想看什么内容！",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsd6q57g12pwroeu6iacjuqj"
       }
     }
   ]
