@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T08:41:48.758Z",
+  "generatedAt": "2026-08-04T11:26:30.670Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-04",
   "daily": {
@@ -273,6 +273,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsek09wz0vq7ro2eayzzt3uq",
+      "title": "工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施",
+      "title_en": "工信部：《智能网联汽车自动驾驶系统安全要求》发布实施，为自动驾驶产品明确统一安全准入基线",
+      "url": "https://www.ithome.com/0/985/665.htm",
+      "permalink": "https://aihot.virxact.com/items/cmsek09wz0vq7ro2eayzzt3uq",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-04T11:06:29.000Z",
+      "discoveredAt": "2026-08-04T11:07:21.454Z",
+      "summary": "工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721-2026）强制性国家标准获批发布，拟于2027年7月1日起实施。这是我国首部针对L3级有条件自动驾驶和L4级高度自动驾驶系统的强制性国标，由2024年推荐性国标GB/T 44721-2024升级而来，为自动驾驶产品明确了统一的安全准入基线。",
+      "category": "industry",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsek09wz0vq7ro2eayzzt3uq"
+      }
+    },
+    {
+      "id": "cmsefnjpn0q20ro2el7g7lyjw",
+      "title": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 1 亿点图表交互流畅",
+      "title_en": "Reflex Open Sources XY： A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
+      "url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy-a-rust-backed-super-fast-python-charting-library-that-keeps-100-million-point-charts-interactive",
+      "permalink": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-08-04T08:57:47.000Z",
+      "discoveredAt": "2026-08-04T09:05:32.725Z",
+      "summary": "Reflex AI 发布 Apache-2.0 许可的 Python 交互式 2D 绘图库 XY，通过 Rust 原生核心、二进制缓冲传输和 WebGL2 渲染，在 1 万至 1 亿点范围内保持约 0.08 秒的渲染时间。",
+      "category": "ai-products",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw"
+      }
+    },
     {
       "id": "cmseekz5g0oncro2ehfyz40ps",
       "title": "用 NVIDIA SkillSpector、LangGraph、YARA 规则、SARIF 与 CI 策略门构建高级 AI 技能安全审计流水线",
