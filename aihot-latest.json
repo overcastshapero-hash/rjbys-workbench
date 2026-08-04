@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T05:50:44.135Z",
+  "generatedAt": "2026-08-04T08:41:48.758Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-04",
   "daily": {
@@ -273,6 +273,60 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmseekz5g0oncro2ehfyz40ps",
+      "title": "用 NVIDIA SkillSpector、LangGraph、YARA 规则、SARIF 与 CI 策略门构建高级 AI 技能安全审计流水线",
+      "title_en": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector， LangGraph， YARA Rules， SARIF， and CI Policy Gates",
+      "url": "https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates",
+      "permalink": "https://aihot.virxact.com/items/cmseekz5g0oncro2ehfyz40ps",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-08-04T08:12:36.000Z",
+      "discoveredAt": "2026-08-04T08:35:32.487Z",
+      "summary": "本教程演示如何用 NVIDIA SkillSpector 评估 AI 技能的安全态势，构建包含干净、风险、恶意及 MCP 示例的合成技能市场，并通过 LangGraph 检查流水线扫描每个技能。",
+      "category": "tip",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseekz5g0oncro2ehfyz40ps"
+      }
+    },
+    {
+      "id": "cmsee1mhf0nn6ro2em6rt7tr4",
+      "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+      "title_en": "Hy ASR 3.0 preview发布：真正懂上下文的语音识别",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+      "permalink": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4",
+      "source": "公众号：腾讯混元",
+      "publishedAt": "2026-08-04T08:12:36.000Z",
+      "discoveredAt": "2026-08-04T08:20:31.023Z",
+      "summary": "腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高精度识别与语义理解。其在开源评测集中中文普通话 WER 3.34%、英语 WER 2.62%、粤语 WER 3.12%，并支持上下文纠错、热词注入及高噪耳语等场景。该模型已上线腾讯云 API，元宝 App 首发并免费开放。",
+      "category": "ai-models",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4"
+      }
+    },
+    {
+      "id": "cmsebb0mc0kn1ro2ejvmi5lg8",
+      "title": "Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版",
+      "title_en": "Show HN： 在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "permalink": "https://aihot.virxact.com/items/cmsebb0mc0kn1ro2ejvmi5lg8",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-04T06:32:44.149Z",
+      "discoveredAt": "2026-08-04T07:03:49.514Z",
+      "summary": "Swiftlet 是一个 Swift + Metal 运行时，可在普通 Apple 设备上运行 Qwen3-Next 和 Qwen3.5/3.6 MoE 混合模型，仅将小型稠密核心驻留内存，按需从存储流式加载路由专家权重。",
+      "category": "ai-products",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsebb0mc0kn1ro2ejvmi5lg8"
+      }
+    },
     {
       "id": "cmse7yrut0gupro2ejfet4a10",
       "title": "GPT-5.6 Luna降价80%永久生效",
