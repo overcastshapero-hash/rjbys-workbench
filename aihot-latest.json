@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T12:56:01.629Z",
+  "generatedAt": "2026-08-05T15:18:41.271Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-05",
   "daily": {
@@ -356,6 +356,114 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsg7u0dp00s1roremmr20cb1",
+      "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+      "title_en": "大家都在刷SpaceX上市首份财报，没人注意Musk扔的王炸：@SpaceX 要把AI数据中心搬到太空去， 而且不是科幻和概念PPT， 明年就开始发射。 就在昨天的财报电话会上， Musk直接宣布：…",
+      "url": "https://x.com/AYi_AInotes/status/2085010659150852220",
+      "permalink": "https://aihot.virxact.com/items/cmsg7u0dp00s1roremmr20cb1",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "publishedAt": "2026-08-05T14:30:53.000Z",
+      "discoveredAt": "2026-08-05T15:02:09.334Z",
+      "summary": "SpaceX 在财报电话会上宣布，未来所有 AI 算力（地面及轨道）将独家采用 Nvidia Vera Rubin 架构，2026 年底总算力超 2GW，2027 年底接近 10GW。同步公布 Starmind 计划，2027 年起发射搭载 Rubin GPU 与 Vera CPU 的轨道 AI 卫星星座，明年开始发射，算力经星链激光链路回传。消息公布后 AMD 股价跌 8%。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsg7u0dp00s1roremmr20cb1"
+      }
+    },
+    {
+      "id": "cmsg6qeks07otrolg6som6vy0",
+      "title": "AI智能体尚无法开展开放式AI研究",
+      "title_en": "AI agents can't yet do open-ended AI research",
+      "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+      "permalink": "https://aihot.virxact.com/items/cmsg6qeks07otrolg6som6vy0",
+      "source": "AI as Normal Technology（RSS）",
+      "publishedAt": "2026-08-05T13:49:19.000Z",
+      "discoveredAt": "2026-08-05T14:31:19.612Z",
+      "summary": "普林斯顿大学团队通过\"影子评估\"测试前沿AI智能体的开放式研究能力：让智能体在六天时间内、使用数千美元API额度和算力，回答两篇未发表论文的核心研究问题，结果两篇论文均被原作者明确拒绝。分析显示，智能体缺乏研究判断力、资源意识、创造性反馈应对能力和有效回溯能力，且未遵循具体指令。研究团队认为，开放式研究对前沿AI智能体仍具挑战性，但结果尚属初步，需扩大样本量并持续评估。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsg6qeks07otrolg6som6vy0"
+      }
+    },
+    {
+      "id": "cmsg5h9ax06dsrolg11p7nhvv",
+      "title": "Cloudflare 提出智能体访问模型（Agent Access Model）",
+      "title_en": "The Agent Access Model",
+      "url": "https://blog.cloudflare.com/the-agent-access-model",
+      "permalink": "https://aihot.virxact.com/items/cmsg5h9ax06dsrolg11p7nhvv",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-05T13:00:41.000Z",
+      "discoveredAt": "2026-08-05T13:56:13.182Z",
+      "summary": "Cloudflare 发布《The Agent Access Model》论文，提出面向 AI 智能体的访问控制模型 AAM，核心规则是\"不信任运行\"，对任务执行图中的每个动作基于智能体身份、授权任务及已触达资源进行实时授权。该模型针对智能体的短暂性、机器速度、提示词非边界及跨跳组合权限四大特性设计，主张缩小能力集而非仅优化单次决策，并区分单主体控制与多人访问控制的难点。",
+      "category": "paper",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsg5h9ax06dsrolg11p7nhvv"
+      }
+    },
+    {
+      "id": "cmsg5h9ax06dtrolg09b7xrd8",
+      "title": "Cloudflare 如何用 Cloudflare OS 重构内部工作方式",
+      "title_en": "How we're rethinking work at Cloudflare with Cloudflare OS",
+      "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os",
+      "permalink": "https://aihot.virxact.com/items/cmsg5h9ax06dtrolg09b7xrd8",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-05T13:00:01.000Z",
+      "discoveredAt": "2026-08-05T13:56:13.182Z",
+      "summary": "Cloudflare 推出 Cloudflare OS，整合 Workers 与 Access 等组件，让员工安全使用 AI 并部署智能体。平台源于销售团队用 AI 构建 SuperApp 引发的内部需求，遵循\"人负责输出\"\"权限不因 AI 扩大\"等五项原则，面向工程师与非工程师分别提供支持。",
+      "category": "ai-products",
+      "score": 61,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsg5h9ax06dtrolg09b7xrd8"
+      }
+    },
+    {
+      "id": "cmsg5h9ay06dwrolgxlcyaou8",
+      "title": "Cloudflare 用身份感知分析捕捉失控 AI 行为",
+      "title_en": "Catching rogue AI behavior with identity-aware analytics",
+      "url": "https://blog.cloudflare.com/identity-aware-ai-gateway",
+      "permalink": "https://aihot.virxact.com/items/cmsg5h9ay06dwrolgxlcyaou8",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "discoveredAt": "2026-08-05T13:56:13.182Z",
+      "summary": "Cloudflare 推出身份感知 AI Gateway 与 User Insights，为每个请求绑定经 Access 验证的用户身份，并基于账户自身历史行为建立基线，识别偏离正常模式的异常会话。该功能现处于开放测试阶段，User Insights 已向所有 AI Gateway 客户免费开放。其异常检测以近 30 天会话成本 p95 为基准，超过 2 倍即标记为可疑行为。",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsg5h9ay06dwrolgxlcyaou8"
+      }
+    },
+    {
+      "id": "cmsg5h9ay06durolg6bwl0p8e",
+      "title": "Cloudflare OS：面向智能体、应用与工作的开放平台",
+      "title_en": "Cloudflare OS： an open platform for agents， apps， and work",
+      "url": "https://blog.cloudflare.com/cloudflare-os",
+      "permalink": "https://aihot.virxact.com/items/cmsg5h9ay06durolg6bwl0p8e",
+      "source": "Cloudflare Blog",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "discoveredAt": "2026-08-05T13:56:13.182Z",
+      "summary": "Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统。该平台为每位员工提供基于公司上下文与技能的智能体工作区，包含隔离运行时、安全治理框架及可共享修改的个人应用。此前内部版本已供数千名员工日常使用，新版针对协作中的信息暴露风险重建了安全基础。",
+      "category": "ai-products",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsg5h9ay06durolg6bwl0p8e"
+      }
+    },
     {
       "id": "cmsfyb5yy0js6roch27nbq7s2",
       "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
@@ -714,186 +822,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi"
-      }
-    },
-    {
-      "id": "cmsesgyzp159kro2efe58vs2u",
-      "title": "蚂蚁百灵发布Ling-3.0-flash开源权重",
-      "title_en": "Today， we're releasing the open weights for Ling-3.0-flash. 🎉 Official BF16 and FP8-quantized vers…",
-      "url": "https://x.com/AntLingAGI/status/2084656533489754475",
-      "permalink": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u",
-      "source": "X：蚂蚁百灵 (@AntLingAGI)",
-      "publishedAt": "2026-08-04T15:03:43.000Z",
-      "discoveredAt": "2026-08-04T15:04:20.575Z",
-      "summary": "今天，我们发布了 Ling-3.0-flash 的开源权重。🎉\n\n官方 BF16 和 FP8 量化版本现已可用，您可以根据自己的硬件、性能要求和部署需求选择最合适的版本。",
-      "category": "ai-models",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u"
-      }
-    },
-    {
-      "id": "cmsesrlcn15j6ro2ecpj577wj",
-      "title": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
-      "title_en": "NVIDIA Alpamayo 2 Super， the Frontier Open Model for Robotaxis and Autonomous Vehicles， Now Available for Commercial Use",
-      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
-      "permalink": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj",
-      "source": "NVIDIA Blog（RSS）",
-      "publishedAt": "2026-08-04T15:00:49.000Z",
-      "discoveredAt": "2026-08-04T15:12:36.927Z",
-      "summary": "NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构建，采用强化学习后训练，支持轨迹预测、因果链推理、元动作、自动标注及视觉问答等多任务输出。",
-      "category": "ai-models",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj"
-      }
-    },
-    {
-      "id": "cmsesrlcn15j7ro2evd57my2c",
-      "title": "NVIDIA 开源 cuFile API，推动 GPU 直连存储",
-      "title_en": "As AI Increases Demands on Memory， Storage Steps Up",
-      "url": "https://blogs.nvidia.com/blog/ai-storage-fms",
-      "permalink": "https://aihot.virxact.com/items/cmsesrlcn15j7ro2evd57my2c",
-      "source": "NVIDIA Blog（RSS）",
-      "publishedAt": "2026-08-04T15:00:47.000Z",
-      "discoveredAt": "2026-08-04T15:12:36.927Z",
-      "summary": "NVIDIA 在 FMS 大会上宣布开源 cuFile API 及底层存储软件栈，让 GPU 可直接读写存储，访问延迟降至微秒级。其 Vera CPU 在两级压缩与加密流水线中吞吐量比 x86 CPU 最高提升 3.21 倍，并联合 40 多家厂商推出 Storage-Next 计划。",
-      "category": "ai-products",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsesrlcn15j7ro2evd57my2c"
-      }
-    },
-    {
-      "id": "cmsesile415d4ro2evb21j3n0",
-      "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
-      "title_en": "Anthropic signs $10B computing deal with infrastructure startup Volta， a cloud company that is only …",
-      "url": "https://x.com/rohanpaul_ai/status/2084655258102546579",
-      "permalink": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-08-04T14:58:39.000Z",
-      "discoveredAt": "2026-08-04T15:05:37.147Z",
-      "summary": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议，约合每年 17 亿美元。Volta 估值 24 亿美元，硬件几乎全为租用：算力来自比特币矿商 Bitdeer 挪威 121MW 站点，芯片由 Nvidia 供应、Dell 组装。Anthropic 买的是交付速度，代价是承担超大规模云厂商合同从未有过的交易对手风险。",
-      "category": "industry",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0"
-      }
-    },
-    {
-      "id": "cmseq167s12m3ro2eas0pbc9y",
-      "title": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
-      "title_en": "How we built a software factory to drive Astro's GitHub issue count to zero",
-      "url": "https://blog.cloudflare.com/astro-issue-triage",
-      "permalink": "https://aihot.virxact.com/items/cmseq167s12m3ro2eas0pbc9y",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "discoveredAt": "2026-08-04T13:56:04.557Z",
-      "summary": "Cloudflare 在 Astro 仓库上运行自动化 triage 流水线，通过隔离的 AI 子代理复现、诊断并修复 bug，将开放 issue 从 200 多个降至约 30 个，预计下月归零。该流水线由 issue 标签驱动，修复后自动发布预览版本供用户验证。其底层引擎已发展为 Flue，一个开源的平台无关框架，用于构建持久化智能体与工作流。",
-      "category": "tip",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseq167s12m3ro2eas0pbc9y"
-      }
-    },
-    {
-      "id": "cmseq167s12m2ro2efhh7h5ia",
-      "title": "Cloudflare 让智能体通过本地追踪调试 Workers",
-      "title_en": "Your agent can now debug Workers with local tracing",
-      "url": "https://blog.cloudflare.com/local-tracing",
-      "permalink": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "discoveredAt": "2026-08-04T13:56:04.557Z",
-      "summary": "Cloudflare 即日起在 wrangler dev 和 vite dev 中自动为本地 Worker 调用捕获 OpenTelemetry 追踪，无需安装 SDK 或配置智能体。智能体可通过 Local Explorer API 查询追踪数据，定位失败操作、修复本地环境并验证结果。开发者也可在浏览器界面 Local Explorer 中可视化查看 spans、时序、错误及关联控制台日志。",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia"
-      }
-    },
-    {
-      "id": "cmseq167r12m1ro2eqjsdn6wd",
-      "title": "Cloudflare 推出 Agents 平台，率先上线智能体追踪功能",
-      "title_en": "Introducing： Cloudflare Agents",
-      "url": "https://blog.cloudflare.com/agents-on-cloudflare",
-      "permalink": "https://aihot.virxact.com/items/cmseq167r12m1ro2eqjsdn6wd",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "discoveredAt": "2026-08-04T13:56:04.557Z",
-      "summary": "Cloudflare 推出 Cloudflare Agents，将部署在平台上的智能体会话统一到一个视图中，并率先上线 agent tracing 功能。该功能支持 OpenTelemetry 兼容的 Think、Flue 和 AI SDK 等智能体框架，可测量每次模型调用、工具执行和 token 消耗。",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseq167r12m1ro2eqjsdn6wd"
-      }
-    },
-    {
-      "id": "cmseq167r12lzro2ecc1f23gs",
-      "title": "Cloudflare 推出 CI SDK：在 Cloudflare 上为百万级仓库运行 CI/CD 流水线",
-      "title_en": "Run CI/CD for millions of repos - on your platform， on Cloudflare",
-      "url": "https://blog.cloudflare.com/ci-workflows",
-      "permalink": "https://aihot.virxact.com/items/cmseq167r12lzro2ecc1f23gs",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "discoveredAt": "2026-08-04T13:56:04.557Z",
-      "summary": "Cloudflare 推出基于 Workflows 和 Sandbox SDK 的 CI SDK，让平台方直接在 Cloudflare 上运行 CI/CD 流水线，支持构建、lint、类型检查、单元测试、依赖缓存及条件部署。",
-      "category": "ai-products",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseq167r12lzro2ecc1f23gs"
-      }
-    },
-    {
-      "id": "cmseq167r12lxro2erzimnhk2",
-      "title": "Cloudflare 推出 Agent Development Lifecycle，让智能体接管更多软件开发生命周期",
-      "title_en": "The Agent Development Lifecycle has arrived on Cloudflare",
-      "url": "https://blog.cloudflare.com/agent-development-lifecycle",
-      "permalink": "https://aihot.virxact.com/items/cmseq167r12lxro2erzimnhk2",
-      "source": "Cloudflare Blog",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "discoveredAt": "2026-08-04T13:56:04.557Z",
-      "summary": "Cloudflare 宣布推出 Agent Development Lifecycle（ADLC），以取代传统 SDLC，让 AI 智能体从仅生成代码扩展到承担更多开发流程。",
-      "category": "ai-products",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseq167r12lxro2erzimnhk2"
-      }
-    },
-    {
-      "id": "cmseo63z710lvro2eblsf93az",
-      "title": "在单颗 AMD MI300X 上运行 DeepSeek V4 Flash",
-      "title_en": null,
-      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-      "permalink": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-04T12:56:45.712Z",
-      "discoveredAt": "2026-08-04T13:03:55.521Z",
-      "summary": "一个开源仓库提供了在单颗 AMD MI300X 上生产运行 DeepSeek-V4-Flash-0731 的完整配置与补丁，无需额外量化或权重卸载。该 304B 参数模型在 192 GB HBM 上实现单流 168.6 tok/s 解码、8 并发流 542 tok/s 聚合吞吐，并验证了 256K 上下文。",
-      "category": "tip",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az"
       }
     }
   ]
