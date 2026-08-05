@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T17:42:27.719Z",
+  "generatedAt": "2026-08-05T19:39:25.816Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-05",
   "daily": {
@@ -357,39 +357,21 @@
   },
   "selectedItems": [
     {
-      "id": "cmsgdg9kp028xro5q1nytnbvm",
-      "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业",
-      "title_en": "Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
-      "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
-      "permalink": "https://aihot.virxact.com/items/cmsgdg9kp028xro5q1nytnbvm",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-08-05T17:26:53.000Z",
-      "discoveredAt": "2026-08-05T17:39:25.980Z",
-      "summary": "Google DeepMind 迎来重大领导层调整，Demis Hassabis 卸任日常管理、出任 Alphabet 首席科学家，Jeff Dean 在任职 27 年后离职创办 Discovery Loop。",
+      "id": "cmsgenhrx03kzro5qbgdew7mh",
+      "title": "Jeff Dean 告别谷歌，联合创立 DiscoLoopAI",
+      "title_en": "Tomorrow will be my last day at Google after 27 years， and watching it grow from 25 people to 190，00…",
+      "url": "https://x.com/JeffDean/status/2085059187437113387",
+      "permalink": "https://aihot.virxact.com/items/cmsgenhrx03kzro5qbgdew7mh",
+      "source": "X：Jeff Dean (@JeffDean)",
+      "publishedAt": "2026-08-05T17:43:43.000Z",
+      "discoveredAt": "2026-08-05T18:13:03.623Z",
+      "summary": "Jeff Dean 宣布明天将离开工作 27 年的谷歌，期间公司从 25 人成长为 19 万+员工。他将与长期同事 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创立 DiscoLoopAI。",
       "category": "industry",
-      "score": 76,
+      "score": 78,
       "selected": true,
       "attribution": {
         "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsgdg9kp028xro5q1nytnbvm"
-      }
-    },
-    {
-      "id": "cmsgdg2y0025fro5q3fcu1j4m",
-      "title": "Google 宣布重大 AI 领导层调整，Demis Hassabis 转任 DeepMind 主席与 Alphabet 首席科学家",
-      "title_en": "Google just announced a major shakeup of its top AI leadership",
-      "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-      "permalink": "https://aihot.virxact.com/items/cmsgdg2y0025fro5q3fcu1j4m",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-08-05T16:47:23.000Z",
-      "discoveredAt": "2026-08-05T17:39:18.063Z",
-      "summary": "Google CEO Sundar Pichai 周三宣布，AI 负责人 Demis Hassabis 将卸任现职，转任 Google DeepMind 主席及 Alphabet 首席科学家，同时继续领导药物研发公司 Isomorphic Labs。",
-      "category": "industry",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsgdg2y0025fro5q3fcu1j4m"
+        "canonical": "https://aihot.virxact.com/items/cmsgenhrx03kzro5qbgdew7mh"
       }
     },
     {
@@ -750,78 +732,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsf6g5441hjero2egw7sw8ym"
-      }
-    },
-    {
-      "id": "cmsf2ukfc1ekiro2e4h0k2bux",
-      "title": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
-      "title_en": "PipeNetwork/minimax-h3-mlx",
-      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
-      "permalink": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux",
-      "source": "Simon Willison 博客",
-      "publishedAt": "2026-08-04T19:10:09.000Z",
-      "discoveredAt": "2026-08-04T19:54:52.549Z",
-      "summary": "MiniMax 发布 MiniMax-H3，一个可接受文本、图像、音频和视频并生成最长 15 秒带音频视频片段的通用全模态生成系统。Python 包 PipeNetwork/minimax-h3-mlx 将其移植到 MLX，支持 Apple Silicon 运行。作者在 M5 Max MacBook Pro 上实测，下载约 115 GB 模型文件，视频生成耗时不到 45 分钟。",
-      "category": "tip",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux"
-      }
-    },
-    {
-      "id": "cmsezylz31cadro2eoq1np3vh",
-      "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
-      "title_en": "Show HN： 在配备4 GB显存的笔记本电脑GPU上对8B模型进行微调",
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "permalink": "https://aihot.virxact.com/items/cmsezylz31cadro2eoq1np3vh",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-04T18:17:29.648Z",
-      "discoveredAt": "2026-08-04T18:34:01.675Z",
-      "summary": "Soup 推出 v0.72.4，支持在配备 4 GB 显存的笔记本 GPU 上通过 QLoRA 微调 8B 模型，无需 SSH 或云服务。",
-      "category": "ai-products",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsezylz31cadro2eoq1np3vh"
-      }
-    },
-    {
-      "id": "cmseyrhcj1bgmro2ed47t5b0k",
-      "title": "OpenRouter 上线 FLUX 3 Video 统一多模态模型",
-      "title_en": "FLUX 3 Video from @bfl_ai is now available for everyone on OpenRouter. One unified multimodal model…",
-      "url": "https://x.com/OpenRouter/status/2084699413898027064",
-      "permalink": "https://aihot.virxact.com/items/cmseyrhcj1bgmro2ed47t5b0k",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-08-04T17:54:06.000Z",
-      "discoveredAt": "2026-08-04T18:00:29.372Z",
-      "summary": "@bfl_ai 的 FLUX 3 Video 现已在 OpenRouter 上向所有人开放。\n\n一个统一的视频、音频、图像和动作预测多模态模型家族。严肃、有趣、创意、真实、电影感，随你所需。基于统一架构联合训练。",
-      "category": "ai-models",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseyrhcj1bgmro2ed47t5b0k"
-      }
-    },
-    {
-      "id": "cmseyfjcz1au8ro2enx0b7os6",
-      "title": "SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型",
-      "title_en": "Blog SpecForge v0.3.0： a Unified Disaggregated and Colocated Speculative Decoding Stack， and New Open SpecBundle Draft Models When we first released SpecForge， a training job owned both the frozen target model and the draft model being optimized. This made EAGLE3 draft-model training practical and directly compatible with SG… The SpecForge Team",
-      "url": "https://www.lmsys.org/blog/2026-08-04-specforge-v0-3",
-      "permalink": "https://aihot.virxact.com/items/cmseyfjcz1au8ro2enx0b7os6",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-08-04T17:51:09.590Z",
-      "discoveredAt": "2026-08-04T17:51:09.590Z",
-      "summary": "SpecForge v0.3.0 将目标模型推理与草稿模型训练分离，支持 EAGLE3、EAGLE3.1、P-EAGLE、DFlash、Domino、DSpark 等多种投机解码算法，并统一在线、离线与解耦工作流。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseyfjcz1au8ro2enx0b7os6"
       }
     }
   ]
