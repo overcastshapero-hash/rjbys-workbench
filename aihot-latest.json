@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T00:06:31.596Z",
+  "generatedAt": "2026-08-05T04:12:39.564Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-05",
   "daily": {
@@ -356,6 +356,60 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsficgoy000nrochjow7i1yx",
+      "title": "Qwen-Image-3.0-Pro 上线 Qwen Cloud",
+      "title_en": "Qwen-Image-3.0-Pro is live on Qwen Cloud now！ Try it out👇 https://www.qwencloud.com/models/qwen-im...",
+      "url": "https://x.com/Alibaba_Qwen/status/2084831888729072121",
+      "permalink": "https://aihot.virxact.com/items/cmsficgoy000nrochjow7i1yx",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "publishedAt": "2026-08-05T02:40:31.000Z",
+      "discoveredAt": "2026-08-05T03:08:40.991Z",
+      "summary": "阿里通义千问发布 Qwen-Image-3.0-Pro 与 Standard，现已在 Qwen Cloud 上线。该模型在 Arena 文生图榜单中位列中国模型第一、主流模型第二，支持 4.5k-token 提示词、10px 级文字渲染及 12 种语言。Pro 版起价 $0.04/张，Standard 版起价 $0.03/张。",
+      "category": "ai-models",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsficgoy000nrochjow7i1yx"
+      }
+    },
+    {
+      "id": "cmsff72yv1q6nro2etf4cmbuj",
+      "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
+      "title_en": "开源「活人感写作.skill」，只为帮你写出没有AI味的文字。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684946&idx=1&sn=ae7edcc572b998dc4e1ac3591977aa85",
+      "permalink": "https://aihot.virxact.com/items/cmsff72yv1q6nro2etf4cmbuj",
+      "source": "公众号：数字生命卡兹克",
+      "publishedAt": "2026-08-05T01:35:42.000Z",
+      "discoveredAt": "2026-08-05T01:40:30.910Z",
+      "summary": "数字生命卡兹克开源「活人感写作.skill」（英文名 human Writing.skill），旨在去除AI味、帮用户写出有真实生活感的文字。该Skill鼓励用户提供真实案例与情感，并针对辞章端禁用AI常用口癖和黑话，同时适配Qwen 3.8 Max、DeepSeek V4 Pro、Kimi K3等模型，可直接用于WorkBuddy、千问办公等产品。",
+      "category": "tip",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsff72yv1q6nro2etf4cmbuj"
+      }
+    },
+    {
+      "id": "cmsfdkkcs1ocxro2ed4z3s131",
+      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
+      "title_en": "New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+      "permalink": "https://aihot.virxact.com/items/cmsfdkkcs1ocxro2ed4z3s131",
+      "source": "Simon Willison 博客",
+      "publishedAt": "2026-08-04T23:58:24.000Z",
+      "discoveredAt": "2026-08-05T00:55:01.452Z",
+      "summary": "Simon Willison 发布 LLM 0.32，这是该项目自启动以来最重要的新版本。新版本支持显示推理轨迹、服务端工具、OpenAI Responses API，并默认使用 GPT-5.6 Luna 模型。",
+      "category": "ai-products",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsfdkkcs1ocxro2ed4z3s131"
+      }
+    },
     {
       "id": "cmsf7gr271ii5ro2eiu0hihb5",
       "title": "Replit 环境智能：免提示词自动生成设计",
