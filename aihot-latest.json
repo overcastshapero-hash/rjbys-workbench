@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T15:18:41.271Z",
+  "generatedAt": "2026-08-05T17:42:27.719Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-05",
   "daily": {
@@ -356,6 +356,96 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsgdg9kp028xro5q1nytnbvm",
+      "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业",
+      "title_en": "Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
+      "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+      "permalink": "https://aihot.virxact.com/items/cmsgdg9kp028xro5q1nytnbvm",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-08-05T17:26:53.000Z",
+      "discoveredAt": "2026-08-05T17:39:25.980Z",
+      "summary": "Google DeepMind 迎来重大领导层调整，Demis Hassabis 卸任日常管理、出任 Alphabet 首席科学家，Jeff Dean 在任职 27 年后离职创办 Discovery Loop。",
+      "category": "industry",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsgdg9kp028xro5q1nytnbvm"
+      }
+    },
+    {
+      "id": "cmsgdg2y0025fro5q3fcu1j4m",
+      "title": "Google 宣布重大 AI 领导层调整，Demis Hassabis 转任 DeepMind 主席与 Alphabet 首席科学家",
+      "title_en": "Google just announced a major shakeup of its top AI leadership",
+      "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "permalink": "https://aihot.virxact.com/items/cmsgdg2y0025fro5q3fcu1j4m",
+      "source": "The Verge：AI（RSS）",
+      "publishedAt": "2026-08-05T16:47:23.000Z",
+      "discoveredAt": "2026-08-05T17:39:18.063Z",
+      "summary": "Google CEO Sundar Pichai 周三宣布，AI 负责人 Demis Hassabis 将卸任现职，转任 Google DeepMind 主席及 Alphabet 首席科学家，同时继续领导药物研发公司 Isomorphic Labs。",
+      "category": "industry",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsgdg2y0025fro5q3fcu1j4m"
+      }
+    },
+    {
+      "id": "cmsgcdhyh019uro5q5uhc9tnd",
+      "title": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任",
+      "title_en": "谷歌DeepMind首席执行官德米斯·哈萨比斯即将卸任",
+      "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+      "permalink": "https://aihot.virxact.com/items/cmsgcdhyh019uro5q5uhc9tnd",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-05T16:39:55.296Z",
+      "discoveredAt": "2026-08-05T17:09:17.603Z",
+      "summary": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任。该消息由 Axios 报道，并在 Hacker News 上获得超过 125 点热度。目前尚未公布继任者或具体离职时间等细节。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsgcdhyh019uro5q5uhc9tnd"
+      }
+    },
+    {
+      "id": "cmsgbawl0001iro5qajirh4qh",
+      "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
+      "title_en": "为什么埃尔德什问题正被人工智能攻克",
+      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
+      "permalink": "https://aihot.virxact.com/items/cmsgbawl0001iro5qajirh4qh",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-05T16:23:34.819Z",
+      "discoveredAt": "2026-08-05T16:39:17.118Z",
+      "summary": "OpenAI 于 2026 年 5 月 20 日宣布，其内部 AI 模型对埃尔德什 1946 年提出的\"单位距离\"问题给出了反例，成为首个由 AI 模型完成的历史性重要证明；8 月 1 日又宣布未发布模型 Astra 取得 10 项数学进展，其中解决了埃尔德什提出的另外 3 个问题。",
+      "category": "tip",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsgbawl0001iro5qajirh4qh"
+      }
+    },
+    {
+      "id": "cmsga8g7n01dxro3psolcouz4",
+      "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家",
+      "title_en": "I've been working towards AGI my whole life， and as we enter this pivotal moment， I'm stepping into …",
+      "url": "https://x.com/demishassabis/status/2085034334914769203",
+      "permalink": "https://aihot.virxact.com/items/cmsga8g7n01dxro3psolcouz4",
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "publishedAt": "2026-08-05T16:04:58.000Z",
+      "discoveredAt": "2026-08-05T16:09:23.683Z",
+      "summary": "Demis Hassabis 宣布卸任 Google DeepMind CEO，转任主席兼 Alphabet 首席科学家，专注长期战略与科学突破，包括推进 Isomorphic 的疾病治愈研究。Koray Kavukcuoglu 将接任 GDM 高级副总裁，与 Josh Woodward 及执行团队共同领导下一阶段发展。",
+      "category": "industry",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsga8g7n01dxro3psolcouz4"
+      }
+    },
     {
       "id": "cmsg7u0dp00s1roremmr20cb1",
       "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
@@ -732,96 +822,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmseyfjcz1au8ro2enx0b7os6"
-      }
-    },
-    {
-      "id": "cmsewck8518x6ro2e32q4bksr",
-      "title": "GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码",
-      "title_en": "Turn one giant AI-generated pull request to a reviewable stack",
-      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
-      "permalink": "https://aihot.virxact.com/items/cmsewck8518x6ro2e32q4bksr",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-08-04T16:47:18.000Z",
-      "discoveredAt": "2026-08-04T16:52:54.295Z",
-      "summary": "GitHub 介绍用堆叠式 Pull Request（stacked PR）解决 AI 编码智能体生成巨型代码难以审查的问题。通过将 1，000+ 行的大 diff 按数据、API、接线、UI 拆成 L1-L4 四个独立分层，每层可分配不同审查者。",
-      "category": "tip",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsewck8518x6ro2e32q4bksr"
-      }
-    },
-    {
-      "id": "cmsew3l4y18qhro2edk0yaat8",
-      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT",
-      "title_en": "A unified API for AI model routing",
-      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
-      "permalink": "https://aihot.virxact.com/items/cmsew3l4y18qhro2edk0yaat8",
-      "source": "Google Developers Blog（RSS）",
-      "publishedAt": "2026-08-04T16:45:02.138Z",
-      "discoveredAt": "2026-08-04T16:45:02.138Z",
-      "summary": "Google Cloud API Gateway 新增模型路由功能（Public Preview），开发者可在 OpenAPI 3.x 规范中配置虚拟模型名到后端目标的映射，无需硬编码端点或管理开源代理。网关作为无服务器入口层，接受标准 OpenAI 兼容请求，自动将负载转码为目标模型的原生格式并动态路由流量。",
-      "category": "ai-products",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsew3l4y18qhro2edk0yaat8"
-      }
-    },
-    {
-      "id": "cmsfkn6cf03ciroch6tfynepy",
-      "title": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自然交互",
-      "title_en": "SeedRealtime 音视频全双工大模型发布：走向全模态自然交互",
-      "url": "https://seed.bytedance.com/zh/blog/seedrealtime-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83-%E8%B5%B0%E5%90%91%E5%85%A8%E6%A8%A1%E6%80%81%E8%87%AA%E7%84%B6%E4%BA%A4%E4%BA%92",
-      "permalink": "https://aihot.virxact.com/items/cmsfkn6cf03ciroch6tfynepy",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "publishedAt": "2026-08-04T16:00:00.000Z",
-      "discoveredAt": "2026-08-05T04:12:59.567Z",
-      "summary": "字节 Seed 发布 SeedRealtime，用统一架构原生融合音频、视频与文本，实现\"边看、边听、边说\"的实时交互。相比级联模型，其音视频对话节奏问题减少一半，并已在豆包 App 全量上线，率先实现音视频全双工技术的规模化落地。",
-      "category": "ai-models",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsfkn6cf03ciroch6tfynepy"
-      }
-    },
-    {
-      "id": "cmsevo5m118dmro2e9d1ven6v",
-      "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
-      "title_en": "Introducing Database Operations Agents： The future of autonomous database management",
-      "url": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
-      "permalink": "https://aihot.virxact.com/items/cmsevo5m118dmro2e9d1ven6v",
-      "source": "Google Cloud：Databases（RSS）",
-      "publishedAt": "2026-08-04T16:00:00.000Z",
-      "discoveredAt": "2026-08-04T16:33:49.420Z",
-      "summary": "Google Cloud 在 Agentic Data Cloud 发布中推出两款 AI 数据库智能体：Database Onboarding Agent 负责 Day 0 的配置与部署，Database Observability Agent 负责 Day 1/2 的监控、故障排查与维护。",
-      "category": "ai-products",
-      "score": 60,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsevo5m118dmro2e9d1ven6v"
-      }
-    },
-    {
-      "id": "cmseuq5vh17o9ro2eomueivmi",
-      "title": "商汤 SenseNova U1 开源：统一推理与图像生成",
-      "title_en": "Thanks Dan for testing SenseNova U1 - our open-source AI model that reasons and generates images in …",
-      "url": "https://x.com/SenseTime_AI/status/2084667189479837741",
-      "permalink": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "publishedAt": "2026-08-04T15:46:03.000Z",
-      "discoveredAt": "2026-08-04T16:07:29.131Z",
-      "summary": "商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成。其信息图模式可将单条提示词转为结构化幻灯片，交错模式则逐步生成图文内容，如演示六步画龙教程。模型已上线 SenseNova Studio、HuggingFace 及 GitHub。",
-      "category": "ai-models",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi"
       }
     }
   ]
