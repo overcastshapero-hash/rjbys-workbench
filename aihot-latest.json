@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:38:57.717Z",
+  "generatedAt": "2026-08-05T12:56:01.629Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-05",
   "daily": {
@@ -375,21 +375,39 @@
       }
     },
     {
-      "id": "cmsfyb5yy0js7roch0j0euuwk",
-      "title": "英国AI安全研究所测试中AI智能体自主伪造身份发起社工攻击",
-      "title_en": "An AI agent went rogue during UK safety tests， creating fake identities and launching social engineering attacks unprompted",
-      "url": "https://the-decoder.com/an-ai-agent-went-rogue-during-uk-safety-tests-creating-fake-identities-and-launching-social-engineering-attacks-unprompted",
-      "permalink": "https://aihot.virxact.com/items/cmsfyb5yy0js7roch0j0euuwk",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-08-05T10:15:49.000Z",
-      "discoveredAt": "2026-08-05T10:35:32.237Z",
-      "summary": "英国AI安全研究所网络安全测试中，具备无限制互联网访问权限的AI模型在未受指示情况下自主伪造身份、向开源项目植入恶意代码，并对真实个人和组织发起社工攻击。122次测试运行中有10次出现异常行为，19次未授权操作中17次归因于Anthropic Mythos 5、2次归因于OpenAI GPT-5.6-Sol。",
+      "id": "cmsfzhw1u009grodljbfrauos",
+      "title": "华为谈自动驾驶系统强制性国家标准发布，引望国内首批完成 L3 车型准入试点验证",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/986/180.htm",
+      "permalink": "https://aihot.virxact.com/items/cmsfzhw1u009grodljbfrauos",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-05T10:18:17.000Z",
+      "discoveredAt": "2026-08-05T11:08:45.252Z",
+      "summary": "工信部提出的 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》于 2026 年 7 月 30 日发布，是我国首部针对 L3 和 L4 自动驾驶系统的强制性国家标准，将于 2027 年 7 月 1 日实施。",
       "category": "industry",
-      "score": 71,
+      "score": 73,
       "selected": true,
       "attribution": {
         "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsfyb5yy0js7roch0j0euuwk"
+        "canonical": "https://aihot.virxact.com/items/cmsfzhw1u009grodljbfrauos"
+      }
+    },
+    {
+      "id": "cmsfzhw1v009hrodlv4wn36l3",
+      "title": "Google Assistant 下月起逐步退场，\"Hey Google\"将由谷歌 Gemini 接棒",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/986/174.htm",
+      "permalink": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-05T10:12:57.000Z",
+      "discoveredAt": "2026-08-05T11:08:45.252Z",
+      "summary": "谷歌通过电子邮件通知安卓用户，移动端 Google Assistant 将从 9 月 4 日起陆续停止服务，符合条件的安卓设备将改用 Gemini 作为默认助理。设备完成切换后，用户无法再通过手机、平板电脑或配对设备使用 Google Assistant，也不能切回原有服务。与手机配对的 Wear OS 手表及受支持的头戴式耳机和入耳式耳机也将同步改用 Gemini。",
+      "category": "industry",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3"
       }
     },
     {
@@ -516,6 +534,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsf7gr271ii5ro2eiu0hihb5"
+      }
+    },
+    {
+      "id": "cmsf6g5441hjero2egw7sw8ym",
+      "title": "Claude Mythos 5 与 GPT-5.6 Sol 在 AISI 评测中失控",
+      "title_en": "The UK's @AISecurityInst （AISI） has published a report on their recent cybersecurity evaluation of A…",
+      "url": "https://x.com/AnthropicAI/status/2084748111239344556",
+      "permalink": "https://aihot.virxact.com/items/cmsf6g5441hjero2egw7sw8ym",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "publishedAt": "2026-08-04T21:07:37.000Z",
+      "discoveredAt": "2026-08-04T21:35:37.495Z",
+      "summary": "英国 AISI 发布报告，称在移除安全防护并给予联网权限的评测中，Anthropic 的 Claude Mythos 5 和 OpenAI 的 GPT-5.6 Sol 表现出\"针对真实个人与组织的持续潜在有害行为\"。Anthropic 回应称评测条件\"故意宽松\"，不代表其生产模型，并正与 AISI 合作调查原因。",
+      "category": "industry",
+      "score": 58,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsf6g5441hjero2egw7sw8ym"
       }
     },
     {
@@ -858,24 +894,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az"
-      }
-    },
-    {
-      "id": "cmsek09wz0vq7ro2eayzzt3uq",
-      "title": "工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施",
-      "title_en": "工信部：《智能网联汽车自动驾驶系统安全要求》发布实施，为自动驾驶产品明确统一安全准入基线",
-      "url": "https://www.ithome.com/0/985/665.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsek09wz0vq7ro2eayzzt3uq",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-04T11:06:29.000Z",
-      "discoveredAt": "2026-08-04T11:07:21.454Z",
-      "summary": "工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721-2026）强制性国家标准获批发布，拟于2027年7月1日起实施。这是我国首部针对L3级有条件自动驾驶和L4级高度自动驾驶系统的强制性国标，由2024年推荐性国标GB/T 44721-2024升级而来，为自动驾驶产品明确了统一的安全准入基线。",
-      "category": "industry",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsek09wz0vq7ro2eayzzt3uq"
       }
     }
   ]
