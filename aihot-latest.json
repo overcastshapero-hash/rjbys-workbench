@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T08:41:32.699Z",
+  "generatedAt": "2026-08-06T11:25:25.228Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-06",
   "daily": {
@@ -700,60 +700,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsg5h9ay06durolg6bwl0p8e"
-      }
-    },
-    {
-      "id": "cmsfyb5yy0js6roch27nbq7s2",
-      "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
-      "title_en": "US appeals court allows Perplexity's AI shopping agent back on Amazon",
-      "url": "https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon",
-      "permalink": "https://aihot.virxact.com/items/cmsfyb5yy0js6roch27nbq7s2",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-08-05T10:31:42.000Z",
-      "discoveredAt": "2026-08-05T10:35:32.237Z",
-      "summary": "美国第九巡回上诉法院推翻了此前阻止 Perplexity 在 Amazon 平台使用 AI 购物智能体的禁令，认定是用户而非 Perplexity 本身通过智能体访问 Amazon，因此违反联邦计算机欺诈法的指控难以成立。这是美国联邦上诉法院首次就 AI 智能体合法性作出裁决，但案件本身尚未了结。Amazon 表示不同意该裁决并正在评估下一步选项。",
-      "category": "industry",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsfyb5yy0js6roch27nbq7s2"
-      }
-    },
-    {
-      "id": "cmsfzhw1u009grodljbfrauos",
-      "title": "华为谈自动驾驶系统强制性国家标准发布，引望国内首批完成 L3 车型准入试点验证",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/986/180.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsfzhw1u009grodljbfrauos",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-05T10:18:17.000Z",
-      "discoveredAt": "2026-08-05T11:08:45.252Z",
-      "summary": "工信部提出的 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》于 2026 年 7 月 30 日发布，是我国首部针对 L3 和 L4 自动驾驶系统的强制性国家标准，将于 2027 年 7 月 1 日实施。",
-      "category": "industry",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsfzhw1u009grodljbfrauos"
-      }
-    },
-    {
-      "id": "cmsfzhw1v009hrodlv4wn36l3",
-      "title": "Google Assistant 下月起逐步退场，\"Hey Google\"将由谷歌 Gemini 接棒",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/986/174.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-05T10:12:57.000Z",
-      "discoveredAt": "2026-08-05T11:08:45.252Z",
-      "summary": "谷歌通过电子邮件通知安卓用户，移动端 Google Assistant 将从 9 月 4 日起陆续停止服务，符合条件的安卓设备将改用 Gemini 作为默认助理。设备完成切换后，用户无法再通过手机、平板电脑或配对设备使用 Google Assistant，也不能切回原有服务。与手机配对的 Wear OS 手表及受支持的头戴式耳机和入耳式耳机也将同步改用 Gemini。",
-      "category": "industry",
-      "score": 78,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3"
       }
     }
   ]
