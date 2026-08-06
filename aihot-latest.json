@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T02:48:49.360Z",
+  "generatedAt": "2026-08-06T05:52:05.996Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-06",
   "daily": {
@@ -322,6 +322,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr"
+      }
+    },
+    {
+      "id": "cmsgzooby066proxzvq5fhshn",
+      "title": "分享10个能大幅提升vibe coding幸福感的开源App",
+      "title_en": "分享10个能大幅提升vibe coding幸福感的开源App。",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509213&idx=1&sn=0ee2b58388d9bdb7f3f087d5197b6f19",
+      "permalink": "https://aihot.virxact.com/items/cmsgzooby066proxzvq5fhshn",
+      "source": "公众号：卡尔的AI沃茨",
+      "publishedAt": "2026-08-06T01:27:00.000Z",
+      "discoveredAt": "2026-08-06T04:01:50.911Z",
+      "summary": "作者整理了10个提升vibe coding体验的开源App，涵盖Mac刘海屏改造（Atoll）、窗口预览（DockDoor）、极速启动器（Raycast）、彻底卸载（Pearcleaner）、菜单栏折叠（Thaw）等工具。这些工具均为免费开源，可将重复操作压缩为快捷指令，降低试错成本。作者还提到可用Codex随时为这些开源App添加自定义功能。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsgzooby066proxzvq5fhshn"
       }
     },
     {
@@ -736,24 +754,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71"
-      }
-    },
-    {
-      "id": "cmsflglsq04k6rochfekqziad",
-      "title": "Grok 4.5 免费体验，推荐 Build 工具链",
-      "title_en": "Best way to use Grok is via our Build harness. Download at http://X.ai/cli",
-      "url": "https://x.com/elonmusk/status/2084857373555101726",
-      "permalink": "https://aihot.virxact.com/items/cmsflglsq04k6rochfekqziad",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "publishedAt": "2026-08-05T04:21:47.000Z",
-      "discoveredAt": "2026-08-05T04:35:52.809Z",
-      "summary": "使用 Grok 的最佳方式是通过我们的 Build 工具链。\n\n下载地址：http://X.ai/cli",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsflglsq04k6rochfekqziad"
       }
     }
   ]
