@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:20:23.343Z",
+  "generatedAt": "2026-08-07T09:02:27.143Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-07",
   "daily": {
@@ -317,6 +317,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsimzpmf1ks3ronk4hh1d0z0",
+      "title": "Krea 推出 Seedance 2.5 视频模型",
+      "title_en": "introducing Seedance 2.5. 30 seconds of continuous video， full multi-shot sequences， and up to 50 r…",
+      "url": "https://x.com/krea_ai/status/2085629541385736662",
+      "permalink": "https://aihot.virxact.com/items/cmsimzpmf1ks3ronk4hh1d0z0",
+      "source": "X：Krea AI (@krea_ai)",
+      "publishedAt": "2026-08-07T07:30:06.000Z",
+      "discoveredAt": "2026-08-07T07:42:03.407Z",
+      "summary": "推出 Seedance 2.5。\n\n30 秒连续视频、完整多镜头序列，以及最多 50 个参考。\n\n立即试用 👇",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsimzpmf1ks3ronk4hh1d0z0"
+      }
+    },
     {
       "id": "cmsil63w11iawronkshdpjgy5",
       "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
