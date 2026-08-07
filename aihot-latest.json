@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T17:01:41.005Z",
+  "generatedAt": "2026-08-07T19:01:14.133Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-07",
   "daily": {
@@ -317,6 +317,42 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsj8rfkl02ruroo5uvyqiqiq",
+      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
+      "title_en": "Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
+      "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "permalink": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-08-07T17:51:24.888Z",
+      "discoveredAt": "2026-08-07T17:51:24.888Z",
+      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
+      "category": "ai-products",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
+      }
+    },
+    {
+      "id": "cmsj81yyp02cwroo5rcq20vke",
+      "title": "LangChain 推出 Managed Deep Agents 公开测试版",
+      "title_en": "Managed Deep Agents is now in public beta",
+      "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+      "permalink": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke",
+      "source": "LangChain：Blog（RSS）",
+      "publishedAt": "2026-08-07T17:24:06.000Z",
+      "discoveredAt": "2026-08-07T17:31:39.370Z",
+      "summary": "LangChain 的 Managed Deep Agents 进入公开测试版，可将 Deep Agents 部署到托管的 LangSmith 运行时。该服务提供持久化执行、记忆、沙箱、通道、评估（evals）及生产级基础设施。",
+      "category": "ai-products",
+      "score": 62,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke"
+      }
+    },
     {
       "id": "cmsj1zu9421ynronknsiz6vgw",
       "title": "Suno移动端上线Voices功能",
