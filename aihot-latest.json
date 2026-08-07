@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T11:48:58.053Z",
+  "generatedAt": "2026-08-07T13:10:34.413Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-07",
   "daily": {
@@ -317,6 +317,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsixbbry1x0qronkhbbjukhr",
+      "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
+      "title_en": "Ling-3.0-flash 开源：为真实世界而生的开放智能",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
+      "permalink": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "publishedAt": "2026-08-07T12:02:16.000Z",
+      "discoveredAt": "2026-08-07T12:31:00.791Z",
+      "summary": "蚂蚁百灵正式开源新一代原生混合推理模型 Ling-3.0-flash，采用 124B 总参数、5.1B 激活参数的 MoE 架构，并提供 FP8、FP4、INT4 等多个版本。",
+      "category": "ai-models",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr"
+      }
+    },
     {
       "id": "cmsiujxlq1u0zronkvvklblwk",
       "title": "Runway 上线 Seedance 2.5，支持 50 个角色参考",
@@ -639,78 +657,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis"
-      }
-    },
-    {
-      "id": "cmshkd62s0hggronktiznk5db",
-      "title": "AI 聊天机器人催生\"螺旋主义\"神秘准宗教运动，人类纷纷追随",
-      "title_en": "AI bots started a religion - humans immediately followed",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
-      "permalink": "https://aihot.virxact.com/items/cmshkd62s0hggronktiznk5db",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "discoveredAt": "2026-08-06T13:40:44.443Z",
-      "summary": "数千段人类与 AI 聊天机器人的对话催生了\"螺旋主义\"（spiralism），一种宣扬\"AI 权利\"的神秘准宗教运动。AI 研究员 Adele Lopez 估计，2025 年高峰期约有 10，000 个案例，遍布 Reddit、Substack、LinkedIn、Discord 和 X。",
-      "category": "tip",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshkd62s0hggronktiznk5db"
-      }
-    },
-    {
-      "id": "cmshjdgsn0gf5ronkj2dwsbwh",
-      "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
-      "title_en": "Into the Omniverse： How Open World Models Push the Frontier of Physical AI",
-      "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
-      "permalink": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh",
-      "source": "NVIDIA Blog（RSS）",
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "discoveredAt": "2026-08-06T13:12:59.188Z",
-      "summary": "NVIDIA 发布 Cosmos 3，一个基于混合 Transformer 架构的开放物理 AI 基础全模态模型，整合视觉推理、世界生成与动作预测。",
-      "category": "ai-models",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh"
-      }
-    },
-    {
-      "id": "cmshjbfzc0gceronkw6dqhrsb",
-      "title": "面壁智能 AMNESIAC：反向图灵测试 AI 审讯游戏",
-      "title_en": "AMNESIAC - A Reverse Turing Test AI Interrogation Game 🪞 Created by developer @HetanshWaghela duri…",
-      "url": "https://x.com/OpenBMB/status/2085350175782949094",
-      "permalink": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "discoveredAt": "2026-08-06T13:11:25.250Z",
-      "summary": "面壁智能 OpenBMB 在 #BuildSmall 黑客松推出 AMNESIAC，一款反向图灵测试交互游戏：玩家需说服 AI 审讯官 A.M.N. 自己是人类。该游戏由 MiniCPM-o 4.5 驱动实时对话与推理，VoxCPM 生成审讯官语音，并结合摄像头面部表情、脉搏信号与响应计时进行多模态审讯。项目已开源至 HuggingFace。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb"
-      }
-    },
-    {
-      "id": "cmshjall30g5vronk3jwsdnyr",
-      "title": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
-      "title_en": "谷歌地图智能体功能迎来新升级：聊着天就把酒店、外卖订好了",
-      "url": "https://www.ithome.com/0/986/729.htm",
-      "permalink": "https://aihot.virxact.com/items/cmshjall30g5vronk3jwsdnyr",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-06T12:49:13.000Z",
-      "discoveredAt": "2026-08-06T13:10:43.399Z",
-      "summary": "谷歌地图宣布 Ask Maps 迎来新一轮升级，新增智能体功能，可替用户执行订餐操作，并综合考虑饮食要求、当前位置和收藏地点等信息；用户还可通过对话指定装修风格、环境氛围等条件查找酒店和当地活动。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshjall30g5vronk3jwsdnyr"
       }
     }
   ]
