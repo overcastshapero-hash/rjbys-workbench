@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T19:01:14.133Z",
+  "generatedAt": "2026-08-07T20:44:11.779Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-07",
   "daily": {
@@ -318,6 +318,60 @@
   },
   "selectedItems": [
     {
+      "id": "cmsjdsk6p076rroo561c8askl",
+      "title": "Claude Code 会话间可互发消息",
+      "title_en": "New in Claude Code： your sessions can now message each other. Instead of having to re-explain yours…",
+      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "permalink": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "publishedAt": "2026-08-07T19:55:17.000Z",
+      "discoveredAt": "2026-08-07T20:12:19.394Z",
+      "summary": "Claude Code 新功能：你的会话现在可以互相发送消息了。\n\n无需在另一个会话中重新解释自己，你现在可以让 Claude 代为传达。它会发送一份摘要（而非你的历史记录或文件），另一个会话会在任务进行中接收该摘要。",
+      "category": "ai-products",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl"
+      }
+    },
+    {
+      "id": "cmsjbn0kl058nroo5kq0m0jws",
+      "title": "Kitesurf：一款在 V8 隔离环境中运行的\"代理优先\"浏览器",
+      "title_en": null,
+      "url": "https://blog.cloudflare.com/kitesurf",
+      "permalink": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-07T18:54:34.746Z",
+      "discoveredAt": "2026-08-07T19:12:01.086Z",
+      "summary": "Cloudflare 推出 Kitesurf，一款专为 AI 智能体设计的浏览器，完全运行在 Workers 上，基于 V8 隔离环境，现已在 Browser Run 中免费开放测试。",
+      "category": "ai-products",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws"
+      }
+    },
+    {
+      "id": "cmsjbn0pq058vroo55qpgw1si",
+      "title": "OpenAI 将 Astra 列为首个\"关键\"网络安全模型",
+      "title_en": "After evaluating one of our upcoming models， Astra， we're treating it as our first \"critical\" model …",
+      "url": "https://x.com/OpenAI/status/2085801349866729975",
+      "permalink": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si",
+      "source": "X：OpenAI (@OpenAI)",
+      "publishedAt": "2026-08-07T18:52:48.000Z",
+      "discoveredAt": "2026-08-07T19:12:01.086Z",
+      "summary": "OpenAI 在评估其即将推出的模型 Astra 后，依据\"准备框架\"将其列为首个\"关键\"网络安全模型。OpenAI 表示已为此情景做好规划，并将实施额外控制措施以确保 Astra 后续开发的安全。该公司正努力让 Astra 广泛可用，并将其先进网络能力交到防御者手中。",
+      "category": "industry",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si"
+      }
+    },
+    {
       "id": "cmsj8rfkl02ruroo5uvyqiqiq",
       "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
       "title_en": "Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
@@ -603,42 +657,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsi5sy2s1192ronkt3lk2z88"
-      }
-    },
-    {
-      "id": "cmshxocv70ukbronk3p0bh1le",
-      "title": "GitHub Copilot 应用中的斜杠命令使用指南",
-      "title_en": "A guide to slash commands in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
-      "permalink": "https://aihot.virxact.com/items/cmshxocv70ukbronk3p0bh1le",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-08-06T19:49:34.000Z",
-      "discoveredAt": "2026-08-06T19:53:23.171Z",
-      "summary": "GitHub Copilot 应用中的斜杠命令可帮助管理会话、导航项目和自定义 Copilot 工作流。与 CLI 版不同，应用版命令更侧重工作流，如 /plan 用于编码前规划、/spar 用于挑战方案假设、/autopilot 用于自动执行实现。/clear 和 /model 在 CLI 和应用中均可用。",
-      "category": "tip",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshxocv70ukbronk3p0bh1le"
-      }
-    },
-    {
-      "id": "cmshx88tn0u50ronkhe4eiunz",
-      "title": "科学家首次用AI制造新病毒",
-      "title_en": "superebola/acc 🚀🚀🚀",
-      "url": "https://x.com/AISafetyMemes/status/2085447739320758622",
-      "permalink": "https://aihot.virxact.com/items/cmshx88tn0u50ronkhe4eiunz",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "publishedAt": "2026-08-06T19:27:41.000Z",
-      "discoveredAt": "2026-08-06T19:40:51.182Z",
-      "summary": "superebola/acc 🚀🚀🚀\n\n【引用 @nytimes】：突发新闻：科学家首次利用人工智能制造出新病毒，在为医学进步带来希望的同时，也引发了该技术有朝一日可能被用于制造危险病原体的担忧。https://nyti.ms/4bxx7Wy",
-      "category": "industry",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshx88tn0u50ronkhe4eiunz"
       }
     }
   ]
