@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T13:10:34.413Z",
+  "generatedAt": "2026-08-07T14:55:28.043Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-07",
   "daily": {
@@ -318,6 +318,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmsj1zu9421ynronknsiz6vgw",
+      "title": "Suno移动端上线Voices功能",
+      "title_en": "Voices is officially live on the Suno mobile app for iOS and Android！ 📱✨ Now you can record your v…",
+      "url": "https://x.com/suno/status/2085731234970227145",
+      "permalink": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw",
+      "source": "X：Suno (@suno)",
+      "publishedAt": "2026-08-07T14:14:12.000Z",
+      "discoveredAt": "2026-08-07T14:42:03.194Z",
+      "summary": "Voices 功能已在 Suno 移动应用 iOS 和 Android 版正式上线！📱✨\n\n现在你可以直接在手机上录制人声，并将其用于你的歌曲中。只需在创作界面点击\"+ Voice\"按钮，录制至少一分钟，然后让音乐流淌起来。（Pro 和 Premier 套餐可无限使用，免费套餐可体验有限版本！）\n\n打开应用，录制你的声音，并在评论区告诉我们你的使用体验！",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw"
+      }
+    },
+    {
+      "id": "cmsiys4dz1yqironkuitnfi7t",
+      "title": "斯坦福与 Arc Institute 用 AI 设计全新病毒基因组，16 种在实验室成功杀死细菌",
+      "title_en": "Stanford and Arc Institute scientists used AI to design new viruses that killed bacteria in the lab",
+      "url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
+      "permalink": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-08-07T12:50:56.000Z",
+      "discoveredAt": "2026-08-07T13:12:02.670Z",
+      "summary": "斯坦福大学与 Arc Institute 团队用 AI 模型 Evo 从零设计完整病毒基因组，并在实验室构建出 16 种自然界不存在的功能性病毒。Evo 提出 70 万个候选基因组，团队仅筛选最有希望的 285 个序列合成并植入细菌，其中 16 个成功复制并杀死宿主。该研究已通过同行评审发表于《Science》，但 Evo 未接受人类病原体数据训练，且能否推广至其他病毒类群仍是未知数。",
+      "category": "paper",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t"
+      }
+    },
+    {
       "id": "cmsixbbry1x0qronkhbbjukhr",
       "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
       "title_en": "Ling-3.0-flash 开源：为真实世界而生的开放智能",
@@ -585,78 +621,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv"
-      }
-    },
-    {
-      "id": "cmshmizyd0k71ronkfu9jy9lr",
-      "title": "微软首次披露OpenAI贡献七成AI收入",
-      "title_en": "Microsoft just disclosed for the first time taht OpenAI supplied ~70% of Microsoft's AI revenue， per…",
-      "url": "https://x.com/rohanpaul_ai/status/2085368375816163423",
-      "permalink": "https://aihot.virxact.com/items/cmshmizyd0k71ronkfu9jy9lr",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "publishedAt": "2026-08-06T14:12:19.000Z",
-      "discoveredAt": "2026-08-06T14:41:16.996Z",
-      "summary": "微软刚刚首次披露，OpenAI 贡献了微软约 70% 的 AI 收入，依据最新文件。\n\n这一数据基于预期增长及此前与 OpenAI 相关收入的披露。\n\n241 亿美元中的大部分是 OpenAI 在微软数据中心训练和运行 ChatGPT 的云账单，再加上模型开发成本和 OpenAI 自身销售的分成，全部由微软合并计入收入。微软同时还向 OpenAI 投入了 119 亿美元。",
-      "category": "industry",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshmizyd0k71ronkfu9jy9lr"
-      }
-    },
-    {
-      "id": "cmshmiaz00k2zronkzukabc5z",
-      "title": "左右两派罕见达成一致：反对数据中心",
-      "title_en": "The left and right agree on one thing： no data centers",
-      "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
-      "permalink": "https://aihot.virxact.com/items/cmshmiaz00k2zronkzukabc5z",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-08-06T14:00:00.000Z",
-      "discoveredAt": "2026-08-06T14:40:44.927Z",
-      "summary": "The Verge 政策记者 Gaby Del Valle 报道，美国两党民众正联合反对 AI 数据中心建设，佛罗里达州 Hernando County 上月一致通过为期一年的建设禁令。抗议者担忧地下水污染、PFAS 及当地环境不适配，保守派组织 Humans First 成为核心力量。数据中心争议正打破传统党派界限，并可能影响中期选举政治格局。",
-      "category": "tip",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshmiaz00k2zronkzukabc5z"
-      }
-    },
-    {
-      "id": "cmshkd62s0hgfronku3c71unr",
-      "title": "Google 大规模 AI 组织调整背后的混乱政治",
-      "title_en": "The messy politics behind Google's big AI shakeup",
-      "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
-      "permalink": "https://aihot.virxact.com/items/cmshkd62s0hgfronku3c71unr",
-      "source": "The Verge：AI（RSS）",
-      "publishedAt": "2026-08-06T13:26:42.000Z",
-      "discoveredAt": "2026-08-06T13:40:44.443Z",
-      "summary": "Google 宣布迄今最大规模 AI 组织调整：Demis Hassabis 卸任 DeepMind 日常管理以专注 AGI 研究，CTO Koray Kavukcuoglu 接任；27 年老将 Jeff Dean 与三位顶级研究员离职创办 AI 初创公司。内部员工认为调整源于产品提速压力、Hassabis 影响力下降及与美国国防部合作引发的伦理冲突。",
-      "category": "industry",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshkd62s0hgfronku3c71unr"
-      }
-    },
-    {
-      "id": "cmshjzc390h6cronkkgtujtis",
-      "title": "千问全网首发公测，全新 Wan3.0 来了！",
-      "title_en": "千问全网首发公测，全新Wan3.0来了！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-      "permalink": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis",
-      "source": "公众号：千问APP（阿里）",
-      "publishedAt": "2026-08-06T13:25:10.000Z",
-      "discoveredAt": "2026-08-06T13:30:00.931Z",
-      "summary": "阿里千问全网首发公测视频生成模型 Wan3.0，在生成时长、镜头语言、角色真实感及一致性保持等维度全面升级。该模型支持稳定直出 30 秒一镜到底视频，具备导演级镜头与蒙太奇叙事，并强调角色、道具、场景高一致性保持。Wan3.0 主打超高性价比，现已在千问创作（c.qianwen.com）开放体验，千问 app 也将陆续开启。",
-      "category": "ai-products",
-      "score": 64,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis"
       }
     }
   ]
