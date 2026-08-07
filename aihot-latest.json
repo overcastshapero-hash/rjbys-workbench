@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T14:55:28.043Z",
+  "generatedAt": "2026-08-07T15:59:02.564Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-07",
   "daily": {
@@ -534,6 +534,24 @@
       }
     },
     {
+      "id": "cmsj4jrne24d5ronkvb40rucl",
+      "title": "扩展分类流映射（Categorical Flow Maps）规模",
+      "title_en": "Scaling Categorical Flow Maps",
+      "url": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
+      "permalink": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl",
+      "source": "Apple Machine Learning Research（RSS）",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "discoveredAt": "2026-08-07T15:53:31.766Z",
+      "summary": "连续扩散与流匹配模型有望成为语言建模中自回归方法的有力替代，可解锁加速采样与倾斜等连续模态优势。近期研究通过高斯分布与one-hot编码数据分布间的简单流匹配过程，实现离散数据的连续生成，并借助分类流映射（CFMs）验证了加速采样的可行性，样本质量具有竞争力。",
+      "category": "paper",
+      "score": 64,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl"
+      }
+    },
+    {
       "id": "cmsi5sy2s1192ronkt3lk2z88",
       "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
       "title_en": "优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
@@ -603,24 +621,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03"
-      }
-    },
-    {
-      "id": "cmshnkwhc0l8xronk6qyoqqyv",
-      "title": "OpenAI 称苹果自身安全实践削弱其商业机密诉讼",
-      "title_en": "OpenAI says Apple's own security practices undermine its trade secrets case",
-      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
-      "permalink": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-08-06T15:10:32.000Z",
-      "discoveredAt": "2026-08-06T15:10:44.979Z",
-      "summary": "OpenAI 在驳回苹果商业机密诉讼的动议中辩称，苹果允许员工用个人 iCloud 处理工作且离职后未正确撤销访问权限，相关信息不构成受法律保护的商业机密。OpenAI 还指苹果未指明具体被窃取的机密，并称其借诉讼阻碍竞争对手在 AI 硬件领域创新。",
-      "category": "industry",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv"
       }
     }
   ]
