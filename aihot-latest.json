@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T09:02:27.143Z",
+  "generatedAt": "2026-08-07T10:55:08.702Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-07",
   "daily": {
@@ -317,6 +317,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsiry2eo1r4tronkt9qv2twu",
+      "title": "小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026",
+      "title_en": "AI 翻译看得懂字，却读不懂「梗」？小红书联合浙大、复旦提出首个「文化有效性」评测标准，入选 ICML 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496008&idx=1&sn=08f2ce717483f63bc00a2181e59e3f40",
+      "permalink": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu",
+      "source": "公众号：小红书技术（dots.llm）",
+      "publishedAt": "2026-08-07T09:59:00.000Z",
+      "discoveredAt": "2026-08-07T10:00:44.054Z",
+      "summary": "小红书联合浙江大学、复旦大学提出 CULTURE-MT，这是首个面向中英社媒笔记翻译、兼顾文化符号传递与情感共鸣的评测基准，并首次提出「文化有效性」评估标准与自动评估模型 JUDGER（准确率 86.03%）。",
+      "category": "paper",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu"
+      }
+    },
     {
       "id": "cmsimzpmf1ks3ronk4hh1d0z0",
       "title": "Krea 推出 Seedance 2.5 视频模型",
@@ -693,24 +711,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmshh5fi00dsyronkhrkq34l0"
-      }
-    },
-    {
-      "id": "cmshrwaqs0pmuronkuj6r8o4m",
-      "title": "ChatGPT 推出改进版 GPT-5.6 Sol，并扩大免费用户访问权限",
-      "title_en": "Improving GPT-5.6 Sol in ChatGPT-and expanding access for free users",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "permalink": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-08-06T10:00:00.000Z",
-      "discoveredAt": "2026-08-06T17:11:35.304Z",
-      "summary": "ChatGPT 推出改进版 GPT-5.6 Sol，提升准确性与一致性，同时扩大免费用户访问权限。免费用户还可无限次使用 GPT-5.6 Luna 进行日常对话。",
-      "category": "ai-models",
-      "score": 53,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m"
       }
     }
   ]
