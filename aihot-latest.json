@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T10:36:52.972Z",
+  "generatedAt": "2026-08-08T11:31:17.505Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -274,6 +274,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsk9yb97046zrow93i345be7",
+      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+      "title_en": "DeepMind's hurricane model bought forecasters an extra day",
+      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "permalink": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-08-08T11:05:50.000Z",
+      "discoveredAt": "2026-08-08T11:12:34.513Z",
+      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
+      "category": "paper",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7"
+      }
+    },
+    {
       "id": "cmsk5m3kq0ahqro4bn4nh1r6r",
       "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
       "title_en": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身了",
@@ -451,24 +469,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr"
-      }
-    },
-    {
-      "id": "cmsiujxlq1u0zronkvvklblwk",
-      "title": "Runway 上线 Seedance 2.5，支持 50 个角色参考",
-      "title_en": "Seedance 2.5 is now on Runway. Build entire worlds full of characters with up to 50 references per g…",
-      "url": "https://x.com/runwayml/status/2085684483366523193",
-      "permalink": "https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk",
-      "source": "X：Runway (@runwayml)",
-      "publishedAt": "2026-08-07T11:08:25.000Z",
-      "discoveredAt": "2026-08-07T11:13:43.701Z",
-      "summary": "Seedance 2.5 现已登陆 Runway。每次生成最多可引用 50 个角色参考，构建充满角色的完整世界；可创作最长 30 秒、带完整音效与对白的片段，再按你的故事需求随意剪辑与延展。\n\n点击下方链接立即开始。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk"
       }
     }
   ]
