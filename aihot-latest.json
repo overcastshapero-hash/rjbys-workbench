@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:48:22.503Z",
+  "generatedAt": "2026-08-08T14:34:12.945Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -274,6 +274,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmskgc07i06srrobyr1cvm25v",
+      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/987/438.htm",
+      "permalink": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-08T13:38:40.000Z",
+      "discoveredAt": "2026-08-08T14:11:09.144Z",
+      "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v"
+      }
+    },
+    {
       "id": "cmsk9yb97046zrow93i345be7",
       "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
       "title_en": "DeepMind's hurricane model bought forecasters an extra day",
@@ -415,24 +433,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke"
-      }
-    },
-    {
-      "id": "cmsj1zu9421ynronknsiz6vgw",
-      "title": "Suno移动端上线Voices功能",
-      "title_en": "Voices is officially live on the Suno mobile app for iOS and Android！ 📱✨ Now you can record your v…",
-      "url": "https://x.com/suno/status/2085731234970227145",
-      "permalink": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw",
-      "source": "X：Suno (@suno)",
-      "publishedAt": "2026-08-07T14:14:12.000Z",
-      "discoveredAt": "2026-08-07T14:42:03.194Z",
-      "summary": "Voices 功能已在 Suno 移动应用 iOS 和 Android 版正式上线！📱✨\n\n现在你可以直接在手机上录制人声，并将其用于你的歌曲中。只需在创作界面点击\"+ Voice\"按钮，录制至少一分钟，然后让音乐流淌起来。（Pro 和 Premier 套餐可无限使用，免费套餐可体验有限版本！）\n\n打开应用，录制你的声音，并在评论区告诉我们你的使用体验！",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw"
       }
     }
   ]
