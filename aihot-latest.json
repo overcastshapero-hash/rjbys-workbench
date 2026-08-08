@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T16:37:01.190Z",
+  "generatedAt": "2026-08-08T17:33:19.257Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -274,6 +274,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsklqt1907v8royz2pbppkk1",
+      "title": "Grok Imagine 图像编辑迎来重大升级",
+      "title_en": "Major upgrade to Grok Imagine image editing",
+      "url": "https://x.com/elonmusk/status/2086127247077843282",
+      "permalink": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "publishedAt": "2026-08-08T16:27:48.000Z",
+      "discoveredAt": "2026-08-08T16:42:40.454Z",
+      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1"
+      }
+    },
+    {
       "id": "cmskiinqk06xiro5ejsx0giz8",
       "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
       "title_en": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线",
@@ -451,24 +469,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
-      }
-    },
-    {
-      "id": "cmsj81yyp02cwroo5rcq20vke",
-      "title": "LangChain 推出 Managed Deep Agents 公开测试版",
-      "title_en": "Managed Deep Agents is now in public beta",
-      "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
-      "permalink": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke",
-      "source": "LangChain：Blog（RSS）",
-      "publishedAt": "2026-08-07T17:24:06.000Z",
-      "discoveredAt": "2026-08-07T17:31:39.370Z",
-      "summary": "LangChain 的 Managed Deep Agents 进入公开测试版，可将 Deep Agents 部署到托管的 LangSmith 运行时。该服务提供持久化执行、记忆、沙箱、通道、评估（evals）及生产级基础设施。",
-      "category": "ai-products",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke"
       }
     }
   ]
