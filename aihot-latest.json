@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T14:34:12.945Z",
+  "generatedAt": "2026-08-08T15:32:36.693Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -274,6 +274,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmskiinqk06xiro5ejsx0giz8",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "title_en": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "permalink": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-08T14:38:40.439Z",
+      "discoveredAt": "2026-08-08T15:12:20.875Z",
+      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
+      "category": "industry",
+      "score": 83,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8"
+      }
+    },
+    {
       "id": "cmskgc07i06srrobyr1cvm25v",
       "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
       "title_en": null,
@@ -397,6 +415,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si"
+      }
+    },
+    {
+      "id": "cmsjaksyd04hlroo5hdy2qd4i",
+      "title": "Claude Code 八月起默认自动模式",
+      "title_en": "Starting August 14， auto mode will be the default permission mode in Claude Code for Pro， Max， and T…",
+      "url": "https://x.com/ClaudeDevs/status/2085794862608318627",
+      "permalink": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "publishedAt": "2026-08-07T18:27:02.000Z",
+      "discoveredAt": "2026-08-07T18:42:18.303Z",
+      "summary": "自 8 月 14 日起，自动模式将成为 Claude Code 中 Pro、Max 和 Team 用户的默认权限模式。\n\n自动模式使用独立的分类器审查 shell 命令和操作。在测试中，它捕获了 89% 的危险命令。手动审批仅捕获了 14%。",
+      "category": "ai-products",
+      "score": 57,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i"
       }
     },
     {
