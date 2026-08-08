@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T19:32:20.752Z",
+  "generatedAt": "2026-08-08T20:33:03.878Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -379,24 +379,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsjk6eiz0byoroo5cc4bcwg6"
-      }
-    },
-    {
-      "id": "cmsjdsk6p076rroo561c8askl",
-      "title": "Claude Code 会话间可互发消息",
-      "title_en": "New in Claude Code： your sessions can now message each other. Instead of having to re-explain yours…",
-      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-      "permalink": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "publishedAt": "2026-08-07T19:55:17.000Z",
-      "discoveredAt": "2026-08-07T20:12:19.394Z",
-      "summary": "Claude Code 新功能：你的会话现在可以互相发送消息了。\n\n无需在另一个会话中重新解释自己，你现在可以让 Claude 代为传达。它会发送一份摘要（而非你的历史记录或文件），另一个会话会在任务进行中接收该摘要。",
-      "category": "ai-products",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl"
       }
     }
   ]
