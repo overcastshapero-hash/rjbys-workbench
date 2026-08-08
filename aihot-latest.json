@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T09:40:53.396Z",
+  "generatedAt": "2026-08-08T10:36:52.972Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -469,24 +469,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk"
-      }
-    },
-    {
-      "id": "cmsiry2eo1r4tronkt9qv2twu",
-      "title": "小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026",
-      "title_en": "AI 翻译看得懂字，却读不懂「梗」？小红书联合浙大、复旦提出首个「文化有效性」评测标准，入选 ICML 2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496008&idx=1&sn=08f2ce717483f63bc00a2181e59e3f40",
-      "permalink": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu",
-      "source": "公众号：小红书技术（dots.llm）",
-      "publishedAt": "2026-08-07T09:59:00.000Z",
-      "discoveredAt": "2026-08-07T10:00:44.054Z",
-      "summary": "小红书联合浙江大学、复旦大学提出 CULTURE-MT，这是首个面向中英社媒笔记翻译、兼顾文化符号传递与情感共鸣的评测基准，并首次提出「文化有效性」评估标准与自动评估模型 JUDGER（准确率 86.03%）。",
-      "category": "paper",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu"
       }
     }
   ]
