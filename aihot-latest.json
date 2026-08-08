@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T05:51:28.358Z",
+  "generatedAt": "2026-08-08T06:57:53.064Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -487,78 +487,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsimzpmf1ks3ronk4hh1d0z0"
-      }
-    },
-    {
-      "id": "cmsil63w11iawronkshdpjgy5",
-      "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
-      "title_en": "火种说|100 万人围观：一个独立开发者，让 AI 终于\"会聊天\"了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
-      "permalink": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "publishedAt": "2026-08-07T06:41:21.000Z",
-      "discoveredAt": "2026-08-07T06:51:02.430Z",
-      "summary": "独立开发者叶小叔用面壁智能开源的 VoxCPM 克隆千万粉丝网红声音，搭建 STT → LLM → VoxCPM（TTS）三段式实时对话管道，TTS 首包延迟不到 1 秒，端到端体感 2 到 3 秒。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5"
-      }
-    },
-    {
-      "id": "cmsilvone1jezronk60ahdbgi",
-      "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/986/957.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-07T06:28:51.000Z",
-      "discoveredAt": "2026-08-07T07:10:52.429Z",
-      "summary": "OpenAI 报告称全球超 10 亿用户使用 ChatGPT，使用方式从\"问答工具\"转向\"任务工具\"，工作场景中完成任务或创建内容的可能性是非工作场景的 2 倍以上。自 2026 年 4 月发布 ChatGPT Images 2.0 以来，多媒体相关消息占比升至 7.8%。35 岁及以上用户发送消息份额较 12 个月前增加 5 个百分点，法国和捷克增幅超 10 个百分点。",
-      "category": "industry",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi"
-      }
-    },
-    {
-      "id": "cmsilvone1jf1ronk6fs8o4d4",
-      "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/986/951.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-07T06:11:01.000Z",
-      "discoveredAt": "2026-08-07T07:10:52.429Z",
-      "summary": "谷歌 DeepMind 联合多家机构推出 WeatherNext Cyclones 气旋预测模型，在路径、强度和风场结构预测精度上达到业界领先。该模型将有效预报时长从 2 天延长至 3 天，平均提前 24 小时，预测量级约相当于 10 年气象进展。",
-      "category": "ai-models",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4"
-      }
-    },
-    {
-      "id": "cmsijqoan1h2qronk7rexfm14",
-      "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
-      "permalink": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14",
-      "source": "公众号：火山引擎",
-      "publishedAt": "2026-08-07T06:01:45.000Z",
-      "discoveredAt": "2026-08-07T06:11:00.905Z",
-      "summary": "火山引擎正式上线 Seedance 2.5 API，将单次视频生成时长从15秒提升至30秒，并支持最高50个全模态素材参考。模型在指令遵循、长叙事、真人感及声画质感上大幅提升，能稳定保持多角色外形与场景关系，兼容十余种语言。",
-      "category": "ai-products",
-      "score": 81,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14"
       }
     }
   ]
