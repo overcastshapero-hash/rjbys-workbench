@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T17:33:19.257Z",
+  "generatedAt": "2026-08-08T18:41:18.348Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-08",
   "daily": {
@@ -433,42 +433,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si"
-      }
-    },
-    {
-      "id": "cmsjaksyd04hlroo5hdy2qd4i",
-      "title": "Claude Code 八月起默认自动模式",
-      "title_en": "Starting August 14， auto mode will be the default permission mode in Claude Code for Pro， Max， and T…",
-      "url": "https://x.com/ClaudeDevs/status/2085794862608318627",
-      "permalink": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "publishedAt": "2026-08-07T18:27:02.000Z",
-      "discoveredAt": "2026-08-07T18:42:18.303Z",
-      "summary": "自 8 月 14 日起，自动模式将成为 Claude Code 中 Pro、Max 和 Team 用户的默认权限模式。\n\n自动模式使用独立的分类器审查 shell 命令和操作。在测试中，它捕获了 89% 的危险命令。手动审批仅捕获了 14%。",
-      "category": "ai-products",
-      "score": 57,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i"
-      }
-    },
-    {
-      "id": "cmsj8rfkl02ruroo5uvyqiqiq",
-      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
-      "title_en": "Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
-      "permalink": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-08-07T17:51:24.888Z",
-      "discoveredAt": "2026-08-07T17:51:24.888Z",
-      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
-      "category": "ai-products",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
       }
     }
   ]
