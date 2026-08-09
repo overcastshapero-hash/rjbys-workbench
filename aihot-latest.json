@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T22:34:11.879Z",
+  "generatedAt": "2026-08-09T23:34:11.402Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-09",
   "daily": {
@@ -94,6 +94,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsmf2q0t030sroadf0o5jwoa",
+      "title": "宇树科技今日启动申购，A 股迎来\"人形机器人第一股\"",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/987/649.htm",
+      "permalink": "https://aihot.virxact.com/items/cmsmf2q0t030sroadf0o5jwoa",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-09T23:07:08.000Z",
+      "discoveredAt": "2026-08-09T23:11:30.654Z",
+      "summary": "宇树科技8月10日正式启动申购，发行价150.80元/股，对应市值约609.93亿元，拟公开发行4044.64万股，预计募资总额约60.99亿元。发行市盈率219.23倍，战略配售获配808.9286万股，包括社保基金、深度求索、中国石油集团等。2023年至2025年营收分别为1.59亿元、3.93亿元和16.99亿元，净利润于2025年达2.78亿元。",
+      "category": "industry",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsmf2q0t030sroadf0o5jwoa"
+      }
+    },
+    {
       "id": "cmsm5mk1109hdroy9apis4bb7",
       "title": "Anthropic 称已基本解决提示注入攻击",
       "title_en": "Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
@@ -181,24 +199,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmslmv6kx03muroqyxyo4fbtl"
-      }
-    },
-    {
-      "id": "cmskzmhrs03rwrowg146pdv9j",
-      "title": "OpenAI 桌面端 ChatGPT 上线语音交互功能，可语音操控电脑执行多步骤任务",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/987/452.htm",
-      "permalink": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-08T22:46:14.000Z",
-      "discoveredAt": "2026-08-08T23:11:13.416Z",
-      "summary": "OpenAI 更新 ChatGPT 桌面应用，新增对 ChatGPT Voice 的支持，用户可直接通过语音对话控制 AI 智能体并让其在电脑上执行任务。该功能基于全新语音模型系列 ChatGPT-Live，支持 ChatGPT Work 和 Codex，在 macOS 上还可借助 Appshots 访问屏幕内容。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j"
       }
     }
   ]
