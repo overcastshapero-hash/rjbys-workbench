@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T10:37:33.784Z",
+  "generatedAt": "2026-08-09T11:32:03.637Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-09",
   "daily": {
@@ -199,24 +199,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v"
-      }
-    },
-    {
-      "id": "cmsk9yb97046zrow93i345be7",
-      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
-      "title_en": "DeepMind's hurricane model bought forecasters an extra day",
-      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
-      "permalink": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7",
-      "source": "Ars Technica：AI（RSS）",
-      "publishedAt": "2026-08-08T11:05:50.000Z",
-      "discoveredAt": "2026-08-08T11:12:34.513Z",
-      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
-      "category": "paper",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7"
       }
     }
   ]
