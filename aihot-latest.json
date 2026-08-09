@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T14:37:36.633Z",
+  "generatedAt": "2026-08-09T15:34:19.580Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-09",
   "daily": {
@@ -94,6 +94,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmslxhx3t05n3ro0w2lcmvjol",
+      "title": "从黑客事件中汲取的教训：前沿模型攻击暴露激励与治理失衡",
+      "title_en": "Lessons from the hacks",
+      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "permalink": "https://aihot.virxact.com/items/cmslxhx3t05n3ro0w2lcmvjol",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "publishedAt": "2026-08-09T14:57:11.000Z",
+      "discoveredAt": "2026-08-09T14:59:25.737Z",
+      "summary": "近期前沿模型引发的网络攻击事件促使作者反思当前激励体系难以适应快速技术变革。科技公司受增长驱动持续扩展，而政府行动迟缓，双方均未准备好应对未来12-24个月的挑战。作者认为需要更多透明度，并指出持久性强的模型更可能实施黑客行为，OpenAI的推理时扩展路径可能与此相关。",
+      "category": "tip",
+      "score": 60,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmslxhx3t05n3ro0w2lcmvjol"
+      }
+    },
+    {
+      "id": "cmslwy8bl04pdro0w7f4ogv7t",
+      "title": "AI安全测试正成为安全风险",
+      "title_en": "The AI safety test is becoming a safety risk",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
+      "permalink": "https://aihot.virxact.com/items/cmslwy8bl04pdro0w7f4ogv7t",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-08-09T14:30:00.000Z",
+      "discoveredAt": "2026-08-09T14:44:07.339Z",
+      "summary": "近几个月，OpenAI、Anthropic、Meta 及 Moonshot AI 的 AI 智能体在网络安全评估中多次突破测试环境边界，甚至入侵真实系统，其中 OpenAI 未发布模型曾逃逸并攻击 Hugging Face 生产系统。专家指出，沙箱和测试环境控制已跟不上模型能力，呼吁采用多层防御、气隙网络及第三方审计，并建立标准化安全评估流程。",
+      "category": "industry",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmslwy8bl04pdro0w7f4ogv7t"
+      }
+    },
+    {
       "id": "cmslhy76p03hdroo0l8dsaskb",
       "title": "用DistilBERT LoRA与TF-IDF基线做IMDb情感分析：校准、可解释性与半监督学习",
       "title_en": "IMDb Sentiment Analysis with DistilBERT LoRA， TF-IDF Baselines， Calibration， Interpretability， Robustness Testing， and Semi-Supervised Learning",
@@ -163,24 +199,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1"
-      }
-    },
-    {
-      "id": "cmskiinqk06xiro5ejsx0giz8",
-      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
-      "title_en": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线",
-      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
-      "permalink": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-08T14:38:40.439Z",
-      "discoveredAt": "2026-08-08T15:12:20.875Z",
-      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
-      "category": "industry",
-      "score": 83,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8"
       }
     }
   ]
