@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:49:37.451Z",
+  "generatedAt": "2026-08-10T13:14:55.431Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-10",
   "daily": {
@@ -66,6 +66,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsn68brx03q2ron5vwp3pwta",
+      "title": "SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理",
+      "title_en": "Blog SGLang Adds Day-0 Support for Muse Glimmer， a Multimodal Model Built for Local Agentic Workflows We're excited to partner with Meta Superintelligence Labs to bring Day-0 support for Muse Glimmer to SGLang， with dedicated optimizations tailored for high-performance inference of agentic workflows o… Meta Superintelligence Labs and the SGLang Team",
+      "url": "https://www.lmsys.org/blog/2026-08-10-meta-muse-glimmer",
+      "permalink": "https://aihot.virxact.com/items/cmsn68brx03q2ron5vwp3pwta",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-08-10T11:51:38.747Z",
+      "discoveredAt": "2026-08-10T11:51:38.747Z",
+      "summary": "SGLang 与 Meta Superintelligence Labs 合作，为 30B 参数多模态模型 Muse Glimmer 提供 Day-0 支持，该模型拥有 128k+ token 上下文窗口。",
+      "category": "ai-models",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsn68brx03q2ron5vwp3pwta"
+      }
+    },
     {
       "id": "cmsn2u3mt067ero8opidmwvz7",
       "title": "Meta 发布开源模型 Muse Glimmer",
