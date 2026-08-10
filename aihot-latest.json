@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:11:51.159Z",
+  "generatedAt": "2026-08-10T08:40:46.667Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-10",
   "daily": {
@@ -226,24 +226,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmslwy8bl04pdro0w7f4ogv7t"
-      }
-    },
-    {
-      "id": "cmslhy76p03hdroo0l8dsaskb",
-      "title": "用DistilBERT LoRA与TF-IDF基线做IMDb情感分析：校准、可解释性与半监督学习",
-      "title_en": "IMDb Sentiment Analysis with DistilBERT LoRA， TF-IDF Baselines， Calibration， Interpretability， Robustness Testing， and Semi-Supervised Learning",
-      "url": "https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning",
-      "permalink": "https://aihot.virxact.com/items/cmslhy76p03hdroo0l8dsaskb",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-08-09T07:17:35.000Z",
-      "discoveredAt": "2026-08-09T07:44:10.959Z",
-      "summary": "本教程基于Stanford IMDb数据集构建端到端情感分析流程，对比TF-IDF逻辑回归基线与LoRA微调的DistilBERT。模型评估涵盖准确率、macro-F1、ROC-AUC及期望校准误差，并分析置信错误、长度影响与词级遮挡显著性。最后利用未标注IMDb数据做置信度伪标注，比较半监督模型与基线，保存合并后的Transformer用于推理。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmslhy76p03hdroo0l8dsaskb"
       }
     }
   ]
