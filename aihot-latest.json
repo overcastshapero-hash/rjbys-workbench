@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T15:01:04.509Z",
+  "generatedAt": "2026-08-10T16:55:53.651Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-10",
   "daily": {
@@ -66,6 +66,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsnfpcwf05ecrohfuzbjwyar",
+      "title": "Claude Code 自动模式默认开启原理",
+      "title_en": "We recently made auto mode the default in Claude Code， which means you no longer have to approve eve…",
+      "url": "https://x.com/ClaudeDevs/status/2086844755770757531",
+      "permalink": "https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "publishedAt": "2026-08-10T15:58:56.000Z",
+      "discoveredAt": "2026-08-10T16:16:53.681Z",
+      "summary": "我们最近将自动模式设为 Claude Code 的默认选项，这意味着你不再需要批准每一个操作。\n\n但什么决定某个操作是否可以安全运行？看看它是如何工作的：",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar"
+      }
+    },
     {
       "id": "cmsnbc14r0aezron58wsytu43",
       "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
@@ -244,6 +262,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsmjglqx034prohfslczvkpb"
+      }
+    },
+    {
+      "id": "cmsnejv4i042qrohff64pz0jh",
+      "title": "OpenRouter 推出由市场智慧驱动的新版 Auto 路由器",
+      "title_en": "Model Routing Powered by Wisdom of the Market",
+      "url": "https://openrouter.ai/blog/announcements/introducing-the-new-auto-router",
+      "permalink": "https://aihot.virxact.com/items/cmsnejv4i042qrohff64pz0jh",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "discoveredAt": "2026-08-10T15:44:34.992Z",
+      "summary": "OpenRouter 基于每周超 55T token 的社区消费数据，推出新版 Auto 路由器（openrouter/auto），其模型选择在多数任务和成本档位上优于旧版。新路由器按约 30 种任务类型匹配近 7 天社区实际消费的模型，支持 cost_tier 参数（low 至 max）并遵循账户隐私设置。在 MMLU Pro 等基准上，新默认档位在多数领域以更低成本达到旧版同等性能。",
+      "category": "ai-products",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsnejv4i042qrohff64pz0jh"
       }
     },
     {
