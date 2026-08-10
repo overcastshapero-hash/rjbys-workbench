@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:00:47.777Z",
+  "generatedAt": "2026-08-10T20:45:47.203Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-10",
   "daily": {
@@ -66,6 +66,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsnix1by08d3rohfftiex1xp",
+      "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
+      "title_en": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "permalink": "https://aihot.virxact.com/items/cmsnix1by08d3rohfftiex1xp",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "publishedAt": "2026-08-10T17:46:50.781Z",
+      "discoveredAt": "2026-08-10T17:46:50.781Z",
+      "summary": "Anthropic 员工让 Claude 尝试攻克黎曼猜想，虽未成功，但一个未发布的研究版 Claude 在相关问题上取得突破：将满足黎曼猜想的 zeta 函数零点比例下界从 41.6% 提升至 67.2%。",
+      "category": "paper",
+      "score": 57,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsnix1by08d3rohfftiex1xp"
+      }
+    },
     {
       "id": "cmsnfpcwf05ecrohfuzbjwyar",
       "title": "Claude Code 自动模式默认开启原理",
