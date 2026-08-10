@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T17:53:33.677Z",
+  "generatedAt": "2026-08-10T19:00:47.777Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-10",
   "daily": {
@@ -193,6 +193,24 @@
       }
     },
     {
+      "id": "cmsnkpjin0c2nrohfczauf2t2",
+      "title": "OpenAI 推出 GPT-5.6-Cyber，面向授权漏洞研究的网络安全专用模型",
+      "title_en": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "permalink": "https://aihot.virxact.com/items/cmsnkpjin0c2nrohfczauf2t2",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "discoveredAt": "2026-08-10T18:37:00.128Z",
+      "summary": "OpenAI 发布网络安全专用模型 GPT-5.6-Cyber，可通过 Daybreak Red 获取，用于授权的漏洞研究、漏洞验证和安全测试。该模型旨在应对网络防御窗口不断收窄的挑战，为安全研究人员提供专门工具。",
+      "category": "ai-models",
+      "score": 55,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsnkpjin0c2nrohfczauf2t2"
+      }
+    },
+    {
       "id": "cmsmpwjyh0b0drohfw1hpbbzh",
       "title": "Qwen-MM-Plugins 让智能体原生支持多模态",
       "title_en": "👀 Seeing is just the beginning. With Qwen-MM-Plugins， turn your favorite agent harness multimodal-…",
@@ -316,24 +334,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsmf2q0t030sroadf0o5jwoa"
-      }
-    },
-    {
-      "id": "cmsm5mk1109hdroy9apis4bb7",
-      "title": "Anthropic 称已基本解决提示注入攻击",
-      "title_en": "Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
-      "url": "https://x.com/bcherny/status/2086520950259118464",
-      "permalink": "https://aihot.virxact.com/items/cmsm5mk1109hdroy9apis4bb7",
-      "source": "X：Boris Cherny (@bcherny)",
-      "publishedAt": "2026-08-09T18:32:14.000Z",
-      "discoveredAt": "2026-08-09T18:47:00.566Z",
-      "summary": "Anthropic 的 Boris Cherny 表示，通过模型训练已基本解决 Claude 模型在实际使用中的提示注入威胁。独立研究者的基准测试显示，叠加模型训练、输入探测和意图分类器等多层防御后，未见过的间接提示注入攻击成功率可降至约 0。Claude Code 的 auto 模式将于下周默认开启。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsm5mk1109hdroy9apis4bb7"
       }
     }
   ]
