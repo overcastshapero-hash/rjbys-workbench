@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T04:40:12.776Z",
+  "generatedAt": "2026-08-10T06:11:51.159Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-10",
   "daily": {
@@ -244,24 +244,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmslhy76p03hdroo0l8dsaskb"
-      }
-    },
-    {
-      "id": "cmslmv6kx03muroqyxyo4fbtl",
-      "title": "Seedance 2.5 上线一周新增六种创意玩法",
-      "title_en": "一周过去了，Seedance2.5又多六种创意玩法！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509275&idx=1&sn=48cc15b0f9b22173ce93350da61f15dc",
-      "permalink": "https://aihot.virxact.com/items/cmslmv6kx03muroqyxyo4fbtl",
-      "source": "公众号：卡尔的AI沃茨",
-      "publishedAt": "2026-08-09T05:25:02.000Z",
-      "discoveredAt": "2026-08-09T10:01:50.329Z",
-      "summary": "Seedance 2.5 上线一周后，国内外社区涌现出时间静止、超级英雄变身、创意广告、K-pop MV、电商广告、拉片复刻等六类热门玩法。经实测，该版本人物面部告别\"AI 油腻感\"，动作自然度与镜头切换较 2.0 更合理，单次生成超长视频时长拉至 300 秒，并支持片段重拍与智能续写。通过 LibTV 年费会员，生成成本最低可至 0.4 元/秒。",
-      "category": "tip",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmslmv6kx03muroqyxyo4fbtl"
       }
     }
   ]
