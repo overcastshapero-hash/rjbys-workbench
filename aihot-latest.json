@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T21:44:02.950Z",
+  "generatedAt": "2026-08-10T22:40:26.438Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-10",
   "daily": {
@@ -66,6 +66,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsnrwnsb0i1erohfuhfjc4q6",
+      "title": "英伟达联合六大机构融资5000亿美元建AI工厂",
+      "title_en": "http://x.com/i/article/2086933422921117696",
+      "url": "https://x.com/JensenHuang/status/2086934705207959965",
+      "permalink": "https://aihot.virxact.com/items/cmsnrwnsb0i1erohfuhfjc4q6",
+      "source": "X：Jensen Huang (@JensenHuang)",
+      "publishedAt": "2026-08-10T21:56:21.000Z",
+      "discoveredAt": "2026-08-10T21:58:30.136Z",
+      "summary": "英伟达宣布与Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR合作，建立独立融资平台，动员超5000亿美元第三方资本支持AI基础设施建设。",
+      "category": "industry",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsnrwnsb0i1erohfuhfjc4q6"
+      }
+    },
     {
       "id": "cmsnix1by08d3rohfftiex1xp",
       "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
