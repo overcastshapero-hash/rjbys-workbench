@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T18:01:41.906Z",
+  "generatedAt": "2026-08-11T20:00:17.676Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-11",
   "daily": {
@@ -262,6 +262,96 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsp2lgxo03xjrortthctedzu",
+      "title": "ChatGPT 与 Gemini 双双突破 10 亿用户",
+      "title_en": "ChatGPT and Gemini both just passed 1 billion users",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "permalink": "https://aihot.virxact.com/items/cmsp2lgxo03xjrortthctedzu",
+      "source": "The Verge：AI（RSS）",
+      "publishedAt": "2026-08-11T19:41:42.000Z",
+      "discoveredAt": "2026-08-11T19:45:30.008Z",
+      "summary": "OpenAI 与 Google 的聊天机器人均跨过 10 亿用户门槛。OpenAI 在 8 月 6 日的博文中披露 ChatGPT 月活用户超 10 亿，Google CEO 皮查伊则宣布 Gemini 月活达 10 亿，成为其史上增长最快的产品。OpenAI 称 ChatGPT 在 7 月周活用户已达 10 亿，而 Gemini 在 2 月月活为 7.5 亿，增长势头更猛。",
+      "category": "industry",
+      "score": 80,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsp2lgxo03xjrortthctedzu"
+      }
+    },
+    {
+      "id": "cmsp2ogsx044frorth62oy70c",
+      "title": "Gemini月活10亿，Gemma下载破10亿",
+      "title_en": "1 billion Gemini app users every month 1 billion downloads of the Gemma family of models Onwards！",
+      "url": "https://x.com/OfficialLoganK/status/2087262466703286652",
+      "permalink": "https://aihot.virxact.com/items/cmsp2ogsx044frorth62oy70c",
+      "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+      "publishedAt": "2026-08-11T19:38:46.000Z",
+      "discoveredAt": "2026-08-11T19:47:49.744Z",
+      "summary": "Gemini 应用每月 10 亿用户\n\nGemma 模型家族下载量达 10 亿次\n\n继续前进！",
+      "category": "industry",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsp2ogsx044frorth62oy70c"
+      }
+    },
+    {
+      "id": "cmsp1lufu03a9rortoc0ci36q",
+      "title": "Runway Seedance 2.5 上线，支持50角色参考",
+      "title_en": "A full cast， a full track， one generation at a time. Seedance 2.5 is live on Runway， with 50 unique…",
+      "url": "https://x.com/runwayml/status/2087251184658657346",
+      "permalink": "https://aihot.virxact.com/items/cmsp1lufu03a9rortoc0ci36q",
+      "source": "X：Runway (@runwayml)",
+      "publishedAt": "2026-08-11T18:53:56.000Z",
+      "discoveredAt": "2026-08-11T19:17:47.577Z",
+      "summary": "完整阵容，完整曲目，一次生成一个。\n\nSeedance 2.5 已在 Runway 上线，支持 50 个独特角色参考，以及最长 30 秒、与音乐同步的片段。点击下方链接即可开始使用。",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsp1lufu03a9rortoc0ci36q"
+      }
+    },
+    {
+      "id": "cmsp0g9v20242rort4zh7mzx0",
+      "title": "将 GitHub Copilot 置于中间人（MitM）代理之后后，我学到了什么",
+      "title_en": null,
+      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+      "permalink": "https://aihot.virxact.com/items/cmsp0g9v20242rort4zh7mzx0",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-11T18:32:57.961Z",
+      "discoveredAt": "2026-08-11T18:45:27.714Z",
+      "summary": "作者通过 mitmproxy 对 VS Code 中的 GitHub Copilot 进行中间人代理拦截，逆向分析其网络流量与内部架构。文章指出这些 AI 应用普遍基于 Electron 构建，共享相似的网络栈，因此探测结果可迁移至其他同类应用。作者借此揭示了 Copilot 的运行时行为，并分享了配置代理的具体步骤。",
+      "category": "tip",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsp0g9v20242rort4zh7mzx0"
+      }
+    },
+    {
+      "id": "cmsp0j1ph027prortm21absbh",
+      "title": "ChatGPT 桌面端支持导入其他智能体工作数据",
+      "title_en": "You can now keep your work from other agents in sync with ChatGPT Work and Codex. Import projects， …",
+      "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
+      "permalink": "https://aihot.virxact.com/items/cmsp0j1ph027prortm21absbh",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "publishedAt": "2026-08-11T18:20:44.000Z",
+      "discoveredAt": "2026-08-11T18:47:37.597Z",
+      "summary": "你现在可以将其他智能体的工作内容与 ChatGPT Work 和 Codex 保持同步。\n\n可导入项目、聊天记录、技能和插件，查看导入历史，并可在设置中选择开启自动更新。\n\n现已在 ChatGPT 桌面应用中提供。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsp0j1ph027prortm21absbh"
+      }
+    },
     {
       "id": "cmsoydypn029yro3yvsi036au",
       "title": "研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞",
