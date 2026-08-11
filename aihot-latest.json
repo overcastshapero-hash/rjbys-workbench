@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T11:46:25.256Z",
+  "generatedAt": "2026-08-11T15:00:38.741Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-11",
   "daily": {
@@ -263,6 +263,60 @@
   },
   "selectedItems": [
     {
+      "id": "cmsopyoum028vrohd4dgeksz9",
+      "title": "统一 Radix 缓存：为混合模型前缀缓存构建单一树结构",
+      "title_en": "Blog Unified Radix Cache： One Tree for Hybrid Model Prefix Caching Prefix caching reuses KV when requests share the same token prefix. Under full attention， once the KV for a shared prefix is computed， it remains valid as more tokens are appended. A later request wit… Zhangheng Huang， Ke Bao， Yi Zhang， Jialin Ouyang， Sicheng Pan",
+      "url": "https://www.lmsys.org/blog/2026-08-11-unified-radix-cache",
+      "permalink": "https://aihot.virxact.com/items/cmsopyoum028vrohd4dgeksz9",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-08-11T13:51:45.827Z",
+      "discoveredAt": "2026-08-11T13:51:45.827Z",
+      "summary": "LMSYS 团队提出 Unified Radix Cache，用单一 token 键控 radix 拓扑统一管理混合模型的 FULL、SWA 和 MAMBA 组件缓存，各组件独立执行路径、滑动窗口和检查点复用语义。",
+      "category": "paper",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsopyoum028vrohd4dgeksz9"
+      }
+    },
+    {
+      "id": "cmsopyoum028urohdhqzve6ba",
+      "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
+      "title_en": "Blog SGLang Adds Day-0 Support for NVIDIA Nemotron 3.5 Lightning SGLang is excited to announce Day-0 support for NVIDIA Nemotron 3.5 Lightning， a customizable open model built to power always-on agents across local systems， the edge， the datacenter， and the cloud. … NVIDIA Nemotron Team and SGLang Team",
+      "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+      "permalink": "https://aihot.virxact.com/items/cmsopyoum028urohdhqzve6ba",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-08-11T13:51:45.827Z",
+      "discoveredAt": "2026-08-11T13:51:45.827Z",
+      "summary": "SGLang 宣布对 NVIDIA Nemotron 3.5 Lightning 提供 Day-0 支持，该开源模型为 30B 总参数、3B 激活参数的混合专家架构，支持最长 1M token 上下文，可从 Hugging Face 下载 BF16 和 NVFP4 权重。模型支持 MTP、DFlash、DSpark 三种投机解码技术，并可通过 OpenAI 兼容 API 接入智能体工作流。",
+      "category": "ai-models",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsopyoum028urohdhqzve6ba"
+      }
+    },
+    {
+      "id": "cmsoolxde07isrop2eb5rrtvq",
+      "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
+      "title_en": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
+      "permalink": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq",
+      "source": "NVIDIA Blog（RSS）",
+      "publishedAt": "2026-08-11T13:00:25.000Z",
+      "discoveredAt": "2026-08-11T13:13:55.266Z",
+      "summary": "NVIDIA 发布 Nemotron 3.5 Lightning，一款可定制的开源 30B 混合专家（MoE）模型，专为常驻智能体设计。相比同类开源模型，其 token 生成速度最高提升 4 倍，任务完成时间缩短 30%。该模型采用开放权重，支持用户微调以匹配特定任务，并可在 RTX PC、DGX Spark 及 Jetson 等设备上运行。",
+      "category": "ai-models",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq"
+      }
+    },
+    {
       "id": "cmsokd2b00viorofwaq9wrsv1",
       "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
       "title_en": "The AI takeover of mathematics has begun",
@@ -458,60 +512,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar"
-      }
-    },
-    {
-      "id": "cmsnbc14r0aezron58wsytu43",
-      "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
-      "title_en": "笔记应用中逾18.1万段AI会议录音被公开暴露",
-      "url": "https://bobdahacker.com/blog/tldv-hack",
-      "permalink": "https://aihot.virxact.com/items/cmsnbc14r0aezron58wsytu43",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-10T14:03:26.804Z",
-      "discoveredAt": "2026-08-10T14:14:33.122Z",
-      "summary": "AI会议记录平台tl；dv的Firestore数据库因缺乏租户隔离，任何已认证用户可查询全部18.1万段会议记录，涉及84，312名用户、35，003个域名，含23国政府及多所高校会议。处于录制状态的约1，000场会议会暴露可加入的会议ID，研究者借此闯入马来西亚教育部及美国某大学创业团队的实时通话。该漏洞自2026年1月报告后6个月仍未修复，另有超1，000段会议内容为公开状态。",
-      "category": "tip",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsnbc14r0aezron58wsytu43"
-      }
-    },
-    {
-      "id": "cmsnbzkyr01qjrohfmjqlmjk5",
-      "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
-      "title_en": "Can Agents Use a Computer Yet？ We've Got the Data",
-      "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-      "permalink": "https://aihot.virxact.com/items/cmsnbzkyr01qjrohfmjqlmjk5",
-      "source": "a16z：News（RSS）",
-      "publishedAt": "2026-08-10T14:00:46.000Z",
-      "discoveredAt": "2026-08-10T14:32:49.512Z",
-      "summary": "a16z 数据显示，计算机操作智能体在 OSWorld-Verified 基准上的最佳成绩已从一年前的 42% 升至 85%，超过人类测试者约 72% 的水平，Claude Fable 5 以 85% 领先。",
-      "category": "tip",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsnbzkyr01qjrohfmjqlmjk5"
-      }
-    },
-    {
-      "id": "cmsn68brx03q2ron5vwp3pwta",
-      "title": "SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理",
-      "title_en": "Blog SGLang Adds Day-0 Support for Muse Glimmer， a Multimodal Model Built for Local Agentic Workflows We're excited to partner with Meta Superintelligence Labs to bring Day-0 support for Muse Glimmer to SGLang， with dedicated optimizations tailored for high-performance inference of agentic workflows o… Meta Superintelligence Labs and the SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-08-10-meta-muse-glimmer",
-      "permalink": "https://aihot.virxact.com/items/cmsn68brx03q2ron5vwp3pwta",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-08-10T11:51:38.747Z",
-      "discoveredAt": "2026-08-10T11:51:38.747Z",
-      "summary": "SGLang 与 Meta Superintelligence Labs 合作，为 30B 参数多模态模型 Muse Glimmer 提供 Day-0 支持，该模型拥有 128k+ token 上下文窗口。",
-      "category": "ai-models",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsn68brx03q2ron5vwp3pwta"
       }
     }
   ]
