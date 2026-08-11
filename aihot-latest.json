@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T07:12:15.468Z",
+  "generatedAt": "2026-08-11T10:52:00.911Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-11",
   "daily": {
@@ -263,6 +263,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsogatbh0qdgrofwzm7gdk0a",
+      "title": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
+      "title_en": "Ling-3.0-tiny 正式开源：让 1.3B 激活参数，进入真实任务",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
+      "permalink": "https://aihot.virxact.com/items/cmsogatbh0qdgrofwzm7gdk0a",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "publishedAt": "2026-08-11T09:20:00.000Z",
+      "discoveredAt": "2026-08-11T09:21:20.968Z",
+      "summary": "蚂蚁百灵开源 Ling-3.0-tiny，一款总参数 7.9B、推理时仅激活 1.3B 参数的原生混合推理模型，同步提供 BF16、FP8 和 INT4 三个版本。",
+      "category": "ai-models",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsogatbh0qdgrofwzm7gdk0a"
+      }
+    },
+    {
       "id": "cmso95agg0ig3rofwaqvy9crw",
       "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
       "title_en": "ZCode全面升级，GLM最佳Harness，让复杂任务自主交付",
@@ -476,78 +494,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsn68brx03q2ron5vwp3pwta"
-      }
-    },
-    {
-      "id": "cmsn2u3mt067ero8opidmwvz7",
-      "title": "Meta 发布开源模型 Muse Glimmer",
-      "title_en": "Introducing Muse Glimmer， an open-weight 30B-parameter model optimized for local， always-on agent wo…",
-      "url": "https://x.com/AIatMeta/status/2086757844544811485",
-      "permalink": "https://aihot.virxact.com/items/cmsn2u3mt067ero8opidmwvz7",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "publishedAt": "2026-08-10T10:13:34.000Z",
-      "discoveredAt": "2026-08-10T10:16:39.953Z",
-      "summary": "推出 Muse Glimmer，一款开放权重、300 亿参数的模型，专为本地、常驻运行的智能体工作流优化。\n\n与同尺寸领先模型相比，Muse Glimmer 在关键智能体用例和基准测试中表现出色，并设计为完全在消费级硬件（如 Mac 或配备高性能 GPU 的 PC）上运行。\n\n秉承我们长期分享基础 AI 研究的传统，我们以宽松的 Apache 2.0 许可证发布模型权重。",
-      "category": "ai-models",
-      "score": 58,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsn2u3mt067ero8opidmwvz7"
-      }
-    },
-    {
-      "id": "cmsn3w3ln012wror1xk5nrmcw",
-      "title": "Scale AI 开源 Muse 系列模型",
-      "title_en": "1/ big announcement today： we will be releasing an open weight version of muse spark 1.2 soon. we a…",
-      "url": "https://x.com/alexandr_wang/status/2086756152034066792",
-      "permalink": "https://aihot.virxact.com/items/cmsn3w3ln012wror1xk5nrmcw",
-      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-      "publishedAt": "2026-08-10T10:06:51.000Z",
-      "discoveredAt": "2026-08-10T10:46:12.574Z",
-      "summary": "1/ 今天有个重大消息：我们很快将发布 Muse Spark 1.2 的开源权重版本。\n\n同时，我们还将发布 Muse Glimmer--一个 30B 参数的智能体模型，采用 Apache 2.0 协议开源权重。Muse Glimmer 可在 24GB 显存上运行，且不损失智能体可靠性。🧵",
-      "category": "ai-models",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsn3w3ln012wror1xk5nrmcw"
-      }
-    },
-    {
-      "id": "cmsn32xab06ehro8ou4tskajr",
-      "title": "扎克伯格：超级智能应人人可用",
-      "title_en": "I believe everyone should have access to superintelligence， and I wrote a long piece about Meta's ph…",
-      "url": "https://x.com/finkd/status/2086754845218726027",
-      "permalink": "https://aihot.virxact.com/items/cmsn32xab06ehro8ou4tskajr",
-      "source": "X：Mark Zuckerberg (@finkd)",
-      "publishedAt": "2026-08-10T10:01:39.000Z",
-      "discoveredAt": "2026-08-10T10:23:31.191Z",
-      "summary": "我相信每个人都应能使用超级智能，我撰写了一篇长文，阐述 Meta 为所有人构建积极未来的理念与价值观。http://meta.com/thefutureisforeveryone",
-      "category": "tip",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsn32xab06ehro8ou4tskajr"
-      }
-    },
-    {
-      "id": "cmsnkpjin0c2nrohfczauf2t2",
-      "title": "OpenAI 推出 GPT-5.6-Cyber，面向授权漏洞研究的网络安全专用模型",
-      "title_en": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "permalink": "https://aihot.virxact.com/items/cmsnkpjin0c2nrohfczauf2t2",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "discoveredAt": "2026-08-10T18:37:00.128Z",
-      "summary": "OpenAI 发布网络安全专用模型 GPT-5.6-Cyber，可通过 Daybreak Red 获取，用于授权的漏洞研究、漏洞验证和安全测试。该模型旨在应对网络防御窗口不断收窄的挑战，为安全研究人员提供专门工具。",
-      "category": "ai-models",
-      "score": 55,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsnkpjin0c2nrohfczauf2t2"
       }
     }
   ]
