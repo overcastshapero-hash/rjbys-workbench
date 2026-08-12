@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:16:09.056Z",
+  "generatedAt": "2026-08-12T14:59:34.890Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-12",
   "daily": {
@@ -329,6 +329,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsq5saxh051mro2e90h10exo",
+      "title": "我写了一本 AI 教科书--AI 还要多久才能写得更好？",
+      "title_en": "I wrote an AI textbook - how long until AI can do it better？",
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "permalink": "https://aihot.virxact.com/items/cmsq5saxh051mro2e90h10exo",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "publishedAt": "2026-08-12T13:01:16.000Z",
+      "discoveredAt": "2026-08-12T14:02:32.019Z",
+      "summary": "作者在完成一本 RLHF 教科书后反思，LLM 在长文非虚构写作上进展停滞，GPT 4.5 和 Kimi K2 等写作强模型已显老旧，而编码、数学等任务已接近超人水平。模型能改错字、做编辑，但组织整章内容时仍混乱且易出错，作者认为这阻碍了模型自主解决开放科学问题。",
+      "category": "tip",
+      "score": 62,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsq5saxh051mro2e90h10exo"
+      }
+    },
+    {
       "id": "cmsq1hwsb02norobuzbw8cdcc",
       "title": "Meta 开源 Muse Glimmer 登陆 OpenRouter",
       "title_en": "The first open-weights model from @AIatMeta Superintelligence Labs， Muse Glimmer is live on OpenRout…",
@@ -596,78 +614,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsow47ob08oarohd6vhpqrwt"
-      }
-    },
-    {
-      "id": "cmsostkpq05iurohd30b8ubmy",
-      "title": "消息称英伟达开发万亿参数开源 AI 模型 Nemotron 4，目标挑战全球顶级",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/988/524.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsostkpq05iurohd30b8ubmy",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-11T14:54:16.000Z",
-      "discoveredAt": "2026-08-11T15:11:50.154Z",
-      "summary": "英伟达正在研发新一代开源 AI 模型系列 Nemotron 4，规模最大的模型预计至少拥有 1 万亿个参数，旨在与全球最先进的开源模型竞争。英伟达尚未确定发布日期，最终训练也未完成，员工认为该模型最早可能在今年秋末准备就绪。此举意在通过开放模型生态扩大 AI 应用范围，并推动市场对其 GPU 算力的需求。",
-      "category": "industry",
-      "score": 75,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsostkpq05iurohd30b8ubmy"
-      }
-    },
-    {
-      "id": "cmspk9ofu02cbrojej28w43eh",
-      "title": "跨会话传消息后，Codex 和 Claude 如何重构 vibe coding 工作流",
-      "title_en": "这两天正在重构vibe coding工作流，codex和claude都能跨会话互传消息后，我就不用写交接文档，不用每一步都用git备份，完全能探索所有可行路径还不丢上下文。 以前对话中途有个新想法，我面临三种选择👇 1️⃣ 继续在当前对话聊，主线容易被带偏。 2️⃣ 重新开一个对话，又得把背景、进度和之前踩过的坑解释一遍。为了不让新对话失忆，我还要维护一份交接文档，把重要信息复制过去。 3️⃣把当前对话完整复制下来做一个新对话，也就是对话分支功能，这样就既不影响主线还可以尝试新想法。但仅限于新想法跟原来想法相差不大的情况，不然上下文还是会污染新想法的实现。 新功能跨Session传消息就是，Claude和Codex的新对话可以从之前的所有对话里面选择自己能用的消息。 那可以直接换一种工作方式了，不用把一个Session当成必须从头聊到尾的总对话，而是把每一次Agent任务都当成一条可以随时分叉的工作线。主对话负责目标和最终决策；遇到一个需要认真展开的新想法，就另外开一条分支对话，让它独立研究尝试和推演。等支线跑完，再让主对话读取它的完整记录，决定该用哪些结论。 比方说我最近在优化AI热点Skill ai news radar，中途想到是否要加一个新域名重新做定位。这种任务不是一句话能回答的，这时单开一条分支对话就很合适。能跨Session传消息首先就省掉了做大量重复交接文档的时间。新对话不用只依赖我临时写的总结，可以读取旧对话里的决策、失败尝试和执行结果。 Codex和Claude用了两种不同的实现方式。Codex是精确寻址。打开我们要给新对话读取的目标对话，从左上角三个点里复制会话ID，再告诉主任务：读取 ID 为 xxx 的分支对话，提取核心结论、做过的尝试和待决策项，然后更新当前计划。 Claude Code不支持id搜索，而是做了一个能搜索对话历史的工具，通过内置的session management 查找旧对话，所以关键是把线索说清楚。刚开始的时候说【找一下上次某某网站对话】，基本都是噪音。现在已经换成了【搜索ai news radar项目在8月10日前后的会话，主题是新域名和产品定位。列出候选会话的时间、标题和首条任务，我确认后再读取完整记录。】 有一个我踩过的坑，Claude Code桌面端搜索的是它当前能够访问的会话记录。网页端URL 后面的 `session_…` 不能直接当成ID来搜索用。 总的来说， 我现在的工作流就是， 用一个主对话守住方向， 十几个甚至几十个分支对话负责把每个值得追下去的念头，认真走一遍。",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509276&idx=1&sn=675b64d514b1179c8f2362941144bbb4",
-      "permalink": "https://aihot.virxact.com/items/cmspk9ofu02cbrojej28w43eh",
-      "source": "公众号：卡尔的AI沃茨",
-      "publishedAt": "2026-08-11T14:15:07.000Z",
-      "discoveredAt": "2026-08-12T04:00:11.403Z",
-      "summary": "Codex 和 Claude 新增跨 Session 传消息功能后，新对话可从之前所有对话中选择可用消息，省去交接文档和 git 备份。作者据此重构工作流：主对话守住目标与决策，分支对话独立探索新想法，完成后由主对话读取完整记录。Codex 通过复制会话 ID 精确寻址，Claude Code 则用内置 session management 搜索对话历史，但桌面端只能搜索当前可访问的会话记录。",
-      "category": "tip",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmspk9ofu02cbrojej28w43eh"
-      }
-    },
-    {
-      "id": "cmsopyoum028vrohd4dgeksz9",
-      "title": "统一 Radix 缓存：为混合模型前缀缓存构建单一树结构",
-      "title_en": "Blog Unified Radix Cache： One Tree for Hybrid Model Prefix Caching Prefix caching reuses KV when requests share the same token prefix. Under full attention， once the KV for a shared prefix is computed， it remains valid as more tokens are appended. A later request wit… Zhangheng Huang， Ke Bao， Yi Zhang， Jialin Ouyang， Sicheng Pan",
-      "url": "https://www.lmsys.org/blog/2026-08-11-unified-radix-cache",
-      "permalink": "https://aihot.virxact.com/items/cmsopyoum028vrohd4dgeksz9",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-08-11T13:51:45.827Z",
-      "discoveredAt": "2026-08-11T13:51:45.827Z",
-      "summary": "LMSYS 团队提出 Unified Radix Cache，用单一 token 键控 radix 拓扑统一管理混合模型的 FULL、SWA 和 MAMBA 组件缓存，各组件独立执行路径、滑动窗口和检查点复用语义。",
-      "category": "paper",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsopyoum028vrohd4dgeksz9"
-      }
-    },
-    {
-      "id": "cmsopyoum028urohdhqzve6ba",
-      "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
-      "title_en": "Blog SGLang Adds Day-0 Support for NVIDIA Nemotron 3.5 Lightning SGLang is excited to announce Day-0 support for NVIDIA Nemotron 3.5 Lightning， a customizable open model built to power always-on agents across local systems， the edge， the datacenter， and the cloud. … NVIDIA Nemotron Team and SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
-      "permalink": "https://aihot.virxact.com/items/cmsopyoum028urohdhqzve6ba",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-08-11T13:51:45.827Z",
-      "discoveredAt": "2026-08-11T13:51:45.827Z",
-      "summary": "SGLang 宣布对 NVIDIA Nemotron 3.5 Lightning 提供 Day-0 支持，该开源模型为 30B 总参数、3B 激活参数的混合专家架构，支持最长 1M token 上下文，可从 Hugging Face 下载 BF16 和 NVFP4 权重。模型支持 MTP、DFlash、DSpark 三种投机解码技术，并可通过 OpenAI 兼容 API 接入智能体工作流。",
-      "category": "ai-models",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsopyoum028urohdhqzve6ba"
       }
     }
   ]
