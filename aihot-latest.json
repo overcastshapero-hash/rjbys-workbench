@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:58:41.892Z",
+  "generatedAt": "2026-08-12T19:14:03.632Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-12",
   "daily": {
@@ -329,6 +329,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmsqgeo2e02cvroxvpnycl2zi",
+      "title": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
+      "title_en": "Your contributors are AI-first now. Is your project？",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project",
+      "permalink": "https://aihot.virxact.com/items/cmsqgeo2e02cvroxvpnycl2zi",
+      "source": "GitHub Blog",
+      "publishedAt": "2026-08-12T18:00:08.000Z",
+      "discoveredAt": "2026-08-12T18:59:53.288Z",
+      "summary": "AutoGPT 维护者发现，AI 智能体不会主动阅读文档，因此将指令放在 AGENTS.md 和技能文件中，并置于代码目录旁。他们通过强制 PR 模板、测试计划、CI 覆盖率门槛和 CLA 签名等门控机制，将智能体提交的 PR 从\"不可用\"转变为\"可用但不符合路线图\"。其中 CLA 签名因需浏览器和 OAuth 流程，被用作区分人类与智能体的\"人类探测器\"。",
+      "category": "tip",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqgeo2e02cvroxvpnycl2zi"
+      }
+    },
+    {
+      "id": "cmsqe6mat01bsroli3hw71nz7",
+      "title": "空货架还是丢钥匙？Google 研究：Recall 是参数化事实性的瓶颈",
+      "title_en": "Empty shelves or lost keys？ Recall is the bottleneck for parametric factuality",
+      "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality",
+      "permalink": "https://aihot.virxact.com/items/cmsqe6mat01bsroli3hw71nz7",
+      "source": "Google Research：Blog（网页）",
+      "publishedAt": "2026-08-12T17:57:36.369Z",
+      "discoveredAt": "2026-08-12T17:57:36.369Z",
+      "summary": "Google Research 提出知识画像框架，发现前沿 LLM（如 Gemini3、GPT-5）的事实编码接近饱和，但回忆（recall）能力不足，多数事实错误源于\"丢钥匙\"而非\"空货架\"。该框架将事实分为编码失败、回忆失败等五类画像，并配套推出 WikiProfile 基准，含 2，150 条维基百科事实，每条配 10 个问题，用于分别探测编码、回忆与识别能力。",
+      "category": "paper",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqe6mat01bsroli3hw71nz7"
+      }
+    },
+    {
       "id": "cmsqagyyz00yuroucf55e5fue",
       "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
       "title_en": null,
@@ -362,24 +398,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj"
-      }
-    },
-    {
-      "id": "cmsq9k89v020vronddoxp07vt",
-      "title": "Grok 4.6 发布：智能、快速且性价比高",
-      "title_en": "Grok 4.6 is now out 🚀🚀🚀 Smart， fast &amp； amazing bang for buck！",
-      "url": "https://x.com/elonmusk/status/2087565020158992709",
-      "permalink": "https://aihot.virxact.com/items/cmsq9k89v020vronddoxp07vt",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "publishedAt": "2026-08-12T15:41:00.000Z",
-      "discoveredAt": "2026-08-12T15:48:15.281Z",
-      "summary": "Grok 4.6 现已推出 🚀🚀🚀\n\n智能、快速，性价比惊人！",
-      "category": "ai-models",
-      "score": 56,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsq9k89v020vronddoxp07vt"
       }
     },
     {
@@ -473,6 +491,42 @@
       }
     },
     {
+      "id": "cmsqf39o0015groxvnc7oiwop",
+      "title": "Cursor 与 SpaceXAI 联合发布 Grok 4.6",
+      "title_en": "Introducing Grok 4.6",
+      "url": "https://cursor.com/blog/grok-4-6",
+      "permalink": "https://aihot.virxact.com/items/cmsqf39o0015groxvnc7oiwop",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "discoveredAt": "2026-08-12T18:23:01.544Z",
+      "summary": "Cursor 与 SpaceXAI 今日发布 Grok 4.6，重点强化长时运行智能体与交互式视觉任务，在多项智能体编程与知识工作基准上达到前沿水平，并在 Artificial Analysis Intelligence Index 上追平 GPT-5.6 Sol。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqf39o0015groxvnc7oiwop"
+      }
+    },
+    {
+      "id": "cmsqabu0f001krouc6sfhic2d",
+      "title": "xAI 发布 Grok 4.6，强化长时运行智能体能力",
+      "title_en": "Introducing Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "permalink": "https://aihot.virxact.com/items/cmsqabu0f001krouc6sfhic2d",
+      "source": "xAI：News（网页）",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "discoveredAt": "2026-08-12T16:09:42.032Z",
+      "summary": "xAI 今日发布 Grok 4.6，在 Grok 4.5 基础上重点强化长时运行智能体及更复杂的交互式与视觉工作能力。该模型在多项智能体编码与知识工作基准上达到前沿水平，在 Artificial Analysis Intelligence Index（九项基准综合分）上追平 GPT-5.6 Sol。",
+      "category": "ai-models",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqabu0f001krouc6sfhic2d"
+      }
+    },
+    {
       "id": "cmsq9h6gs01x5ronde8fdla7e",
       "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
       "title_en": "Live Web Search Benchmarks： Pick the Right Engine， Depth， and Model for Your Agent",
@@ -524,60 +578,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsp2lgxo03xjrortthctedzu"
-      }
-    },
-    {
-      "id": "cmsp1lufu03a9rortoc0ci36q",
-      "title": "Runway Seedance 2.5 上线，支持50角色参考",
-      "title_en": "A full cast， a full track， one generation at a time. Seedance 2.5 is live on Runway， with 50 unique…",
-      "url": "https://x.com/runwayml/status/2087251184658657346",
-      "permalink": "https://aihot.virxact.com/items/cmsp1lufu03a9rortoc0ci36q",
-      "source": "X：Runway (@runwayml)",
-      "publishedAt": "2026-08-11T18:53:56.000Z",
-      "discoveredAt": "2026-08-11T19:17:47.577Z",
-      "summary": "完整阵容，完整曲目，一次生成一个。\n\nSeedance 2.5 已在 Runway 上线，支持 50 个独特角色参考，以及最长 30 秒、与音乐同步的片段。点击下方链接即可开始使用。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsp1lufu03a9rortoc0ci36q"
-      }
-    },
-    {
-      "id": "cmsp0g9v20242rort4zh7mzx0",
-      "title": "将 GitHub Copilot 置于中间人（MitM）代理之后后，我学到了什么",
-      "title_en": null,
-      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
-      "permalink": "https://aihot.virxact.com/items/cmsp0g9v20242rort4zh7mzx0",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-11T18:32:57.961Z",
-      "discoveredAt": "2026-08-11T18:45:27.714Z",
-      "summary": "作者通过 mitmproxy 对 VS Code 中的 GitHub Copilot 进行中间人代理拦截，逆向分析其网络流量与内部架构。文章指出这些 AI 应用普遍基于 Electron 构建，共享相似的网络栈，因此探测结果可迁移至其他同类应用。作者借此揭示了 Copilot 的运行时行为，并分享了配置代理的具体步骤。",
-      "category": "tip",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsp0g9v20242rort4zh7mzx0"
-      }
-    },
-    {
-      "id": "cmsp0j1ph027prortm21absbh",
-      "title": "ChatGPT 桌面端支持导入其他智能体工作数据",
-      "title_en": "You can now keep your work from other agents in sync with ChatGPT Work and Codex. Import projects， …",
-      "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
-      "permalink": "https://aihot.virxact.com/items/cmsp0j1ph027prortm21absbh",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "publishedAt": "2026-08-11T18:20:44.000Z",
-      "discoveredAt": "2026-08-11T18:47:37.597Z",
-      "summary": "你现在可以将其他智能体的工作内容与 ChatGPT Work 和 Codex 保持同步。\n\n可导入项目、聊天记录、技能和插件，查看导入历史，并可在设置中选择开启自动更新。\n\n现已在 ChatGPT 桌面应用中提供。",
-      "category": "ai-products",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsp0j1ph027prortm21absbh"
       }
     }
   ]
