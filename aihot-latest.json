@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T22:43:54.385Z",
+  "generatedAt": "2026-08-12T23:45:04.837Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-12",
   "daily": {
@@ -328,6 +328,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsqq3bc001snro7vo8picfbp",
+      "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+      "title_en": "一夜之间，DeepSeek V4 Pro和Grok 4.6把全球大模型推入了新的斩杀线。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
+      "permalink": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp",
+      "source": "公众号：数字生命卡兹克",
+      "publishedAt": "2026-08-12T22:22:28.000Z",
+      "discoveredAt": "2026-08-12T23:30:59.607Z",
+      "summary": "DeepSeek V4 Pro正式版与Grok 4.6在2小时内先后发布，均为1.6T/1.5T参数模型，逼近Claude Fable 5体验。",
+      "category": "tip",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp"
+      }
+    },
     {
       "id": "cmsqj4ly004izroxvzl349s3r",
       "title": "Claude in Chrome 侧边栏升级为 Claude Cowork 会话",
