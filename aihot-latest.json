@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T16:05:18.364Z",
+  "generatedAt": "2026-08-12T17:58:41.892Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-12",
   "daily": {
@@ -329,6 +329,60 @@
   },
   "selectedItems": [
     {
+      "id": "cmsqagyyz00yuroucf55e5fue",
+      "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/989/001.htm",
+      "permalink": "https://aihot.virxact.com/items/cmsqagyyz00yuroucf55e5fue",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-12T16:10:01.000Z",
+      "discoveredAt": "2026-08-12T16:13:41.612Z",
+      "summary": "阿里 Qwen 团队正式开放 Qwen3.8-2.4T-A95B 模型权重，这是 Qwen-Max 级别模型首次开源。模型总参数 2.4T，每个 Token 激活 95B，原生支持 262，144 Token 上下文并可扩展至 1，010，000 Token。",
+      "category": "ai-models",
+      "score": 74,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqagyyz00yuroucf55e5fue"
+      }
+    },
+    {
+      "id": "cmsqbnb8j01nrroosmwa5r6mj",
+      "title": "微软首发自研推理模型MAI-Thinking-1",
+      "title_en": "Our first reasoning model， MAI-Thinking-1， is built from scratch. Now available in Microsoft Foundry…",
+      "url": "https://x.com/mustafasuleyman/status/2087570047967408396",
+      "permalink": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj",
+      "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+      "publishedAt": "2026-08-12T16:00:59.000Z",
+      "discoveredAt": "2026-08-12T16:46:38.109Z",
+      "summary": "我们的首个推理模型 MAI-Thinking-1 从零开始构建，现已在 Microsoft Foundry 上线。为团队点赞！更多详情如下。",
+      "category": "ai-models",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj"
+      }
+    },
+    {
+      "id": "cmsq9k89v020vronddoxp07vt",
+      "title": "Grok 4.6 发布：智能、快速且性价比高",
+      "title_en": "Grok 4.6 is now out 🚀🚀🚀 Smart， fast &amp； amazing bang for buck！",
+      "url": "https://x.com/elonmusk/status/2087565020158992709",
+      "permalink": "https://aihot.virxact.com/items/cmsq9k89v020vronddoxp07vt",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "publishedAt": "2026-08-12T15:41:00.000Z",
+      "discoveredAt": "2026-08-12T15:48:15.281Z",
+      "summary": "Grok 4.6 现已推出 🚀🚀🚀\n\n智能、快速，性价比惊人！",
+      "category": "ai-models",
+      "score": 56,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsq9k89v020vronddoxp07vt"
+      }
+    },
+    {
       "id": "cmsq5saxh051mro2e90h10exo",
       "title": "我写了一本 AI 教科书--AI 还要多久才能写得更好？",
       "title_en": "I wrote an AI textbook - how long until AI can do it better？",
@@ -524,96 +578,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsp0j1ph027prortm21absbh"
-      }
-    },
-    {
-      "id": "cmsoydypn029yro3yvsi036au",
-      "title": "研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞",
-      "title_en": "\"But marinade\" and leaked passwords are what researchers found in ChatGPT's hidden reasoning",
-      "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning",
-      "permalink": "https://aihot.virxact.com/items/cmsoydypn029yro3yvsi036au",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-08-11T17:38:49.000Z",
-      "discoveredAt": "2026-08-11T17:47:39.959Z",
-      "summary": "Alexander Panfilov团队发现OpenAI、Anthropic、Google等主要AI提供商API存在漏洞，可读取推理模型的加密思考过程。扫描约7000条公开会话发现62个API密钥、33个邮箱和33个密码。通过越狱，Anthropic的Haiku 4.5可逐字转写Opus 4.8的原始推理；解码10000条推理轨迹的API成本约720美元。",
-      "category": "industry",
-      "score": 80,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsoydypn029yro3yvsi036au"
-      }
-    },
-    {
-      "id": "cmsoxh6oa0a3drohdskp7cb9u",
-      "title": "Gemini月活破10亿，成谷歌增长最快产品",
-      "title_en": "1B+ people are now using @Geminiapp every month to spark new ideas and get things done. It's our fas…",
-      "url": "https://x.com/sundarpichai/status/2087222656819241292",
-      "permalink": "https://aihot.virxact.com/items/cmsoxh6oa0a3drohdskp7cb9u",
-      "source": "X：Sundar Pichai (@sundarpichai)",
-      "publishedAt": "2026-08-11T17:00:34.000Z",
-      "discoveredAt": "2026-08-11T17:22:11.170Z",
-      "summary": "每月已有超过 10 亿人使用 @Geminiapp 激发新想法、完成工作。这是我们有史以来增长最快的产品，也是第 14 个达到 10 亿用户里程碑的产品。\n\n感谢 @JoshWoodward 和整个 Gemini 团队，也感谢每一位与我们同行的伙伴--未来还有更多精彩！",
-      "category": "industry",
-      "score": 77,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsoxh6oa0a3drohdskp7cb9u"
-      }
-    },
-    {
-      "id": "cmsoxbh180a00rohdooafsmzp",
-      "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
-      "title_en": "AMIE， our research medical AI system， demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
-      "permalink": "https://aihot.virxact.com/items/cmsoxbh180a00rohdooafsmzp",
-      "source": "Google Blog：AI（RSS）",
-      "publishedAt": "2026-08-11T17:00:00.000Z",
-      "discoveredAt": "2026-08-11T17:17:44.810Z",
-      "summary": "Google Research 与 Google DeepMind 推进医疗 AI 系统 AMIE，实现实时临床视频问诊，首次在此场景展示专家级 AI 能力。该系统基于 Gemini 和 Project Astra 构建，可解读视觉与听觉线索、引导虚拟体格检查并实时诊断推理。随机研究中，临床评估者对 AMIE 的病史采集、诊断准确性等核心能力给予好评，患者演员也更偏好视频体验。",
-      "category": "paper",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsoxbh180a00rohdooafsmzp"
-      }
-    },
-    {
-      "id": "cmsox86zv09u6rohdqr80wg0x",
-      "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
-      "title_en": null,
-      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-      "permalink": "https://aihot.virxact.com/items/cmsox86zv09u6rohdqr80wg0x",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-11T16:41:17.281Z",
-      "discoveredAt": "2026-08-11T17:15:09.958Z",
-      "summary": "研究团队为 macOS 虚拟机中的 Metal 能力查询构建进程级兼容层，使 llama.cpp 能选用更新的 Metal 内核。在 M1 Ultra 上，TinyLlama 1.1B 的提示处理速度提升 11.08 倍、token 生成提升 16.36 倍，接近裸机性能的 98%；Gemma 4 12B 的提示处理与生成速度分别提升 7.20 倍和 14.54 倍。",
-      "category": "paper",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsox86zv09u6rohdqr80wg0x"
-      }
-    },
-    {
-      "id": "cmsowxh6d09rrrohdkhpckhpi",
-      "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
-      "title_en": "Ryan Greenblatt - Human level AIs might build runaway superintelligences by 2032",
-      "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
-      "permalink": "https://aihot.virxact.com/items/cmsowxh6d09rrrohdkhpckhpi",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "publishedAt": "2026-08-11T16:31:23.000Z",
-      "discoveredAt": "2026-08-11T17:06:44.417Z",
-      "summary": "Dwarkesh Patel与Redwood Research首席科学家Ryan Greenblatt探讨递归自我改进（RSI）的可能性：一旦AI达到人类顶级专家水平，可能在一年内实现相当于4-5年的AI进展，Ryan的中位预期是2031年自动化AI研发。双方还讨论了超级智能的对齐对象、奖励黑客行为是否会升级为AI联手接管世界等风险。",
-      "category": "tip",
-      "score": 60,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsowxh6d09rrrohdkhpckhpi"
       }
     }
   ]
