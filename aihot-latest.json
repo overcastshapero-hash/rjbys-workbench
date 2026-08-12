@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:59:34.890Z",
+  "generatedAt": "2026-08-12T16:05:18.364Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-12",
   "daily": {
@@ -419,6 +419,24 @@
       }
     },
     {
+      "id": "cmsq9h6gs01x5ronde8fdla7e",
+      "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
+      "title_en": "Live Web Search Benchmarks： Pick the Right Engine， Depth， and Model for Your Agent",
+      "url": "https://openrouter.ai/blog/announcements/web-search-benchmark",
+      "permalink": "https://aihot.virxact.com/items/cmsq9h6gs01x5ronde8fdla7e",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "discoveredAt": "2026-08-12T15:45:47.855Z",
+      "summary": "OpenRouter 发布实时排行榜，系统评测模型、搜索引擎、搜索方法与预算四类配置组合。数据显示，将搜索预算从 1 轮增至 25 轮可使 BrowseComp 得分近乎翻倍，成本仅增 2.5-7 倍；模型选择比引擎更重要，平均分差 15 分 vs 10 分。失败率高的任务应降低搜索深度以控制成本。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsq9h6gs01x5ronde8fdla7e"
+      }
+    },
+    {
       "id": "cmsp3o23e04vnrortt7twvx4v",
       "title": "Mojo 1.0 正式发布：为生态系统增长提供稳定基础",
       "title_en": "Mojo 1.0",
@@ -596,24 +614,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsowxh6d09rrrohdkhpckhpi"
-      }
-    },
-    {
-      "id": "cmsow47ob08oarohd6vhpqrwt",
-      "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
-      "title_en": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
-      "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
-      "permalink": "https://aihot.virxact.com/items/cmsow47ob08oarohd6vhpqrwt",
-      "source": "Google Cloud：Databases（RSS）",
-      "publishedAt": "2026-08-11T16:00:00.000Z",
-      "discoveredAt": "2026-08-11T16:44:01.695Z",
-      "summary": "Google Cloud 在 Database Migration Service（DMS）中推出由 Gemini 驱动的 AI 辅助代码转换，可将 Oracle 或 SQL Server 的存储过程、触发器和自定义函数转换为 PostgreSQL PL/pgSQL 代码。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsow47ob08oarohd6vhpqrwt"
       }
     }
   ]
