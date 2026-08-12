@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:49:33.705Z",
+  "generatedAt": "2026-08-12T13:16:09.056Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-12",
   "daily": {
@@ -329,6 +329,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsq1hwsb02norobuzbw8cdcc",
+      "title": "Meta 开源 Muse Glimmer 登陆 OpenRouter",
+      "title_en": "The first open-weights model from @AIatMeta Superintelligence Labs， Muse Glimmer is live on OpenRout…",
+      "url": "https://x.com/OpenRouter/status/2087509478480765218",
+      "permalink": "https://aihot.virxact.com/items/cmsq1hwsb02norobuzbw8cdcc",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-08-12T12:00:18.000Z",
+      "discoveredAt": "2026-08-12T12:02:29.478Z",
+      "summary": "Meta AI 超级智能实验室的首个开放权重模型 Muse Glimmer 已在 OpenRouter 上线！\n\n这是一款 30B 密集文本+图像模型，采用 Apache 2.0 许可证，旨在成为可靠的本地智能体，MCP Atlas 得分 75.5，SWE-Bench Pro 得分 51.2。\n\nhttps://openrouter.ai/meta/muse-glimmer-30b",
+      "category": "ai-products",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsq1hwsb02norobuzbw8cdcc"
+      }
+    },
+    {
       "id": "cmspr6h6s01hero4hjcdf95mw",
       "title": "LTX-2.5 模型登场：AI 生成 10 秒 720P 视频仅需 6.8 秒，原生集成 ComfyUI",
       "title_en": null,
@@ -650,24 +668,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsopyoum028urohdhqzve6ba"
-      }
-    },
-    {
-      "id": "cmsoolxde07isrop2eb5rrtvq",
-      "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
-      "title_en": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
-      "permalink": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq",
-      "source": "NVIDIA Blog（RSS）",
-      "publishedAt": "2026-08-11T13:00:25.000Z",
-      "discoveredAt": "2026-08-11T13:13:55.266Z",
-      "summary": "NVIDIA 发布 Nemotron 3.5 Lightning，一款可定制的开源 30B 混合专家（MoE）模型，专为常驻智能体设计。相比同类开源模型，其 token 生成速度最高提升 4 倍，任务完成时间缩短 30%。该模型采用开放权重，支持用户微调以匹配特定任务，并可在 RTX PC、DGX Spark 及 Jetson 等设备上运行。",
-      "category": "ai-models",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq"
       }
     }
   ]
