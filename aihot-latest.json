@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T15:00:16.881Z",
+  "generatedAt": "2026-08-13T16:05:41.917Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-13",
   "daily": {
@@ -263,24 +263,6 @@
   },
   "selectedItems": [
     {
-      "id": "cmsrmzzs3001prosrja5hbsqd",
-      "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
-      "title_en": "🚀 Day-0 Support！ @Alibaba_Qwen has open-sourced Qwen3.8-2.4T-A95B - and it's now live on SiliconFlo…",
-      "url": "https://x.com/SiliconFlowAI/status/2087911506113683756",
-      "permalink": "https://aihot.virxact.com/items/cmsrmzzs3001prosrja5hbsqd",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-08-13T14:37:49.000Z",
-      "discoveredAt": "2026-08-13T14:52:12.026Z",
-      "summary": "阿里开源 Qwen3.8-2.4T-A95B，硅基流动已提供 Day-0 支持。该模型总参数 2.4T、激活参数 95B，主打自主编码、深度研究与端到端智能体执行。API 定价为输入 $2.00/百万 token、输出 $6.00/百万 token、缓存输入 $0.25/百万 token。",
-      "category": "ai-products",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsrmzzs3001prosrja5hbsqd"
-      }
-    },
-    {
       "id": "cmsrlvwfp05gdro46mbfqtsgm",
       "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
       "title_en": "🚀 Day-0 Support！ @Alibaba_Qwen has open-sourced Qwen3.8-2.4T-A95B - and it's now live on SiliconFlo…",
@@ -389,24 +371,6 @@
       }
     },
     {
-      "id": "cmsqq3bc001snro7vo8picfbp",
-      "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
-      "title_en": "一夜之间，DeepSeek V4 Pro和Grok 4.6把全球大模型推入了新的斩杀线。",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
-      "permalink": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp",
-      "source": "公众号：数字生命卡兹克",
-      "publishedAt": "2026-08-12T22:22:28.000Z",
-      "discoveredAt": "2026-08-12T23:30:59.607Z",
-      "summary": "DeepSeek V4 Pro正式版与Grok 4.6在2小时内先后发布，均为1.6T/1.5T参数模型，逼近Claude Fable 5体验。",
-      "category": "tip",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp"
-      }
-    },
-    {
       "id": "cmsqj4ly004izroxvzl349s3r",
       "title": "Claude in Chrome 侧边栏升级为 Claude Cowork 会话",
       "title_en": "The Claude in Chrome side panel is now Claude Cowork",
@@ -440,42 +404,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsqgeo2e02cvroxvpnycl2zi"
-      }
-    },
-    {
-      "id": "cmsqe6mat01bsroli3hw71nz7",
-      "title": "空货架还是丢钥匙？Google 研究：Recall 是参数化事实性的瓶颈",
-      "title_en": "Empty shelves or lost keys？ Recall is the bottleneck for parametric factuality",
-      "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality",
-      "permalink": "https://aihot.virxact.com/items/cmsqe6mat01bsroli3hw71nz7",
-      "source": "Google Research：Blog（网页）",
-      "publishedAt": "2026-08-12T17:57:36.369Z",
-      "discoveredAt": "2026-08-12T17:57:36.369Z",
-      "summary": "Google Research 提出知识画像框架，发现前沿 LLM（如 Gemini3、GPT-5）的事实编码接近饱和，但回忆（recall）能力不足，多数事实错误源于\"丢钥匙\"而非\"空货架\"。该框架将事实分为编码失败、回忆失败等五类画像，并配套推出 WikiProfile 基准，含 2，150 条维基百科事实，每条配 10 个问题，用于分别探测编码、回忆与识别能力。",
-      "category": "paper",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsqe6mat01bsroli3hw71nz7"
-      }
-    },
-    {
-      "id": "cmsqbnb8j01nrroosmwa5r6mj",
-      "title": "微软首发自研推理模型MAI-Thinking-1",
-      "title_en": "Our first reasoning model， MAI-Thinking-1， is built from scratch. Now available in Microsoft Foundry…",
-      "url": "https://x.com/mustafasuleyman/status/2087570047967408396",
-      "permalink": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj",
-      "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
-      "publishedAt": "2026-08-12T16:00:59.000Z",
-      "discoveredAt": "2026-08-12T16:46:38.109Z",
-      "summary": "我们的首个推理模型 MAI-Thinking-1 从零开始构建，现已在 Microsoft Foundry 上线。为团队点赞！更多详情如下。",
-      "category": "ai-models",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj"
       }
     }
   ]
