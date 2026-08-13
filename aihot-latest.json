@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:50:33.551Z",
+  "generatedAt": "2026-08-13T13:18:05.013Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-13",
   "daily": {
@@ -263,6 +263,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsrjkbcd02tiro46cfjwidak",
+      "title": "DeepSeek Harness 公测，对标 Claude Cowork 并开放插件生态",
+      "title_en": "对标 Claude Cowork：DeepSeek Harness 公测，同步开放插件生态",
+      "url": "https://www.ithome.com/0/989/446.htm",
+      "permalink": "https://aihot.virxact.com/items/cmsrjkbcd02tiro46cfjwidak",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-08-13T12:52:43.000Z",
+      "discoveredAt": "2026-08-13T13:15:59.064Z",
+      "summary": "DeepSeek 开源 MIT 协议的代码智能体框架 Harness v0.1 开发者预览版，采用\"一切皆插件\"架构，对标 OpenAI Codex 与 Anthropic Claude Cowork。",
+      "category": "ai-models",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsrjkbcd02tiro46cfjwidak"
+      }
+    },
+    {
       "id": "cmsrfaw5c0xo2roz2s8b4p2sv",
       "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
       "title_en": "DeepSeek-V4-Pro 更新",
@@ -422,42 +440,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj"
-      }
-    },
-    {
-      "id": "cmsq5saxh051mro2e90h10exo",
-      "title": "我写了一本 AI 教科书--AI 还要多久才能写得更好？",
-      "title_en": "I wrote an AI textbook - how long until AI can do it better？",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "permalink": "https://aihot.virxact.com/items/cmsq5saxh051mro2e90h10exo",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "publishedAt": "2026-08-12T13:01:16.000Z",
-      "discoveredAt": "2026-08-12T14:02:32.019Z",
-      "summary": "作者在完成一本 RLHF 教科书后反思，LLM 在长文非虚构写作上进展停滞，GPT 4.5 和 Kimi K2 等写作强模型已显老旧，而编码、数学等任务已接近超人水平。模型能改错字、做编辑，但组织整章内容时仍混乱且易出错，作者认为这阻碍了模型自主解决开放科学问题。",
-      "category": "tip",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsq5saxh051mro2e90h10exo"
-      }
-    },
-    {
-      "id": "cmsq1hwsb02norobuzbw8cdcc",
-      "title": "Meta 开源 Muse Glimmer 登陆 OpenRouter",
-      "title_en": "The first open-weights model from @AIatMeta Superintelligence Labs， Muse Glimmer is live on OpenRout…",
-      "url": "https://x.com/OpenRouter/status/2087509478480765218",
-      "permalink": "https://aihot.virxact.com/items/cmsq1hwsb02norobuzbw8cdcc",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-08-12T12:00:18.000Z",
-      "discoveredAt": "2026-08-12T12:02:29.478Z",
-      "summary": "Meta AI 超级智能实验室的首个开放权重模型 Muse Glimmer 已在 OpenRouter 上线！\n\n这是一款 30B 密集文本+图像模型，采用 Apache 2.0 许可证，旨在成为可靠的本地智能体，MCP Atlas 得分 75.5，SWE-Bench Pro 得分 51.2。\n\nhttps://openrouter.ai/meta/muse-glimmer-30b",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsq1hwsb02norobuzbw8cdcc"
       }
     }
   ]
