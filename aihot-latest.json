@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:18:05.013Z",
+  "generatedAt": "2026-08-13T15:00:16.881Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-13",
   "daily": {
@@ -263,21 +263,57 @@
   },
   "selectedItems": [
     {
-      "id": "cmsrjkbcd02tiro46cfjwidak",
-      "title": "DeepSeek Harness 公测，对标 Claude Cowork 并开放插件生态",
-      "title_en": "对标 Claude Cowork：DeepSeek Harness 公测，同步开放插件生态",
-      "url": "https://www.ithome.com/0/989/446.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsrjkbcd02tiro46cfjwidak",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-13T12:52:43.000Z",
-      "discoveredAt": "2026-08-13T13:15:59.064Z",
-      "summary": "DeepSeek 开源 MIT 协议的代码智能体框架 Harness v0.1 开发者预览版，采用\"一切皆插件\"架构，对标 OpenAI Codex 与 Anthropic Claude Cowork。",
-      "category": "ai-models",
-      "score": 75,
+      "id": "cmsrmzzs3001prosrja5hbsqd",
+      "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
+      "title_en": "🚀 Day-0 Support！ @Alibaba_Qwen has open-sourced Qwen3.8-2.4T-A95B - and it's now live on SiliconFlo…",
+      "url": "https://x.com/SiliconFlowAI/status/2087911506113683756",
+      "permalink": "https://aihot.virxact.com/items/cmsrmzzs3001prosrja5hbsqd",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "publishedAt": "2026-08-13T14:37:49.000Z",
+      "discoveredAt": "2026-08-13T14:52:12.026Z",
+      "summary": "阿里开源 Qwen3.8-2.4T-A95B，硅基流动已提供 Day-0 支持。该模型总参数 2.4T、激活参数 95B，主打自主编码、深度研究与端到端智能体执行。API 定价为输入 $2.00/百万 token、输出 $6.00/百万 token、缓存输入 $0.25/百万 token。",
+      "category": "ai-products",
+      "score": 67,
       "selected": true,
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsrjkbcd02tiro46cfjwidak"
+        "canonical": "https://aihot.virxact.com/items/cmsrmzzs3001prosrja5hbsqd"
+      }
+    },
+    {
+      "id": "cmsrlvwfp05gdro46mbfqtsgm",
+      "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
+      "title_en": "🚀 Day-0 Support！ @Alibaba_Qwen has open-sourced Qwen3.8-2.4T-A95B - and it's now live on SiliconFlo…",
+      "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
+      "permalink": "https://aihot.virxact.com/items/cmsrlvwfp05gdro46mbfqtsgm",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "publishedAt": "2026-08-13T14:04:55.000Z",
+      "discoveredAt": "2026-08-13T14:21:01.224Z",
+      "summary": "阿里开源 Qwen3.8-2.4T-A95B，硅基流动已提供 Day-0 支持。该模型拥有 2.4T 参数、95B 激活参数，主打自主编码、深度研究与端到端智能体执行。API 定价为输入 $2.00/百万 token，输出 $6.00/百万 token，缓存输入 $0.25/百万 token。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsrlvwfp05gdro46mbfqtsgm"
+      }
+    },
+    {
+      "id": "cmsrjqqfg02z0ro469zple5jl",
+      "title": "DeepSeek Harness v0.1 开发者预览版发布",
+      "title_en": "🧩 DeepSeek Harness v0.1 is now available in Developer Preview！ 🔹 We're opening it up to developer…",
+      "url": "https://x.com/deepseek_ai/status/2087887408440164663",
+      "permalink": "https://aihot.virxact.com/items/cmsrjqqfg02z0ro469zple5jl",
+      "source": "X：DeepSeek (@deepseek_ai)",
+      "publishedAt": "2026-08-13T13:02:03.000Z",
+      "discoveredAt": "2026-08-13T13:21:00.781Z",
+      "summary": "DeepSeek Harness v0.1 现已推出开发者预览版，并以 MIT 许可证开源。该智能体框架基于 Cordis 元框架构建，核心设计为\"一切皆插件\"，模型、工具、技能、会话、沙箱、文件系统、循环、编排及 UI 均可自由组合、替换和扩展。",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsrjqqfg02z0ro469zple5jl"
       }
     },
     {
@@ -353,6 +389,24 @@
       }
     },
     {
+      "id": "cmsqq3bc001snro7vo8picfbp",
+      "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+      "title_en": "一夜之间，DeepSeek V4 Pro和Grok 4.6把全球大模型推入了新的斩杀线。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
+      "permalink": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp",
+      "source": "公众号：数字生命卡兹克",
+      "publishedAt": "2026-08-12T22:22:28.000Z",
+      "discoveredAt": "2026-08-12T23:30:59.607Z",
+      "summary": "DeepSeek V4 Pro正式版与Grok 4.6在2小时内先后发布，均为1.6T/1.5T参数模型，逼近Claude Fable 5体验。",
+      "category": "tip",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp"
+      }
+    },
+    {
       "id": "cmsqj4ly004izroxvzl349s3r",
       "title": "Claude in Chrome 侧边栏升级为 Claude Cowork 会话",
       "title_en": "The Claude in Chrome side panel is now Claude Cowork",
@@ -404,24 +458,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsqe6mat01bsroli3hw71nz7"
-      }
-    },
-    {
-      "id": "cmsqagyyz00yuroucf55e5fue",
-      "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/989/001.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsqagyyz00yuroucf55e5fue",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-08-12T16:10:01.000Z",
-      "discoveredAt": "2026-08-12T16:13:41.612Z",
-      "summary": "阿里 Qwen 团队正式开放 Qwen3.8-2.4T-A95B 模型权重，这是 Qwen-Max 级别模型首次开源。模型总参数 2.4T，每个 Token 激活 95B，原生支持 262，144 Token 上下文并可扩展至 1，010，000 Token。",
-      "category": "ai-models",
-      "score": 74,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsqagyyz00yuroucf55e5fue"
       }
     },
     {
