@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T16:56:45.311Z",
+  "generatedAt": "2026-08-14T17:56:05.827Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-14",
   "daily": {
@@ -473,24 +473,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmss20h5g02uxroh6q6r1nqu9"
-      }
-    },
-    {
-      "id": "cmsrscwfn03f7ro0n7qijclds",
-      "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
-      "title_en": "Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "permalink": "https://aihot.virxact.com/items/cmsrscwfn03f7ro0n7qijclds",
-      "source": "Google DeepMind：Blog（RSS）",
-      "publishedAt": "2026-08-13T17:04:18.000Z",
-      "discoveredAt": "2026-08-13T17:22:11.372Z",
-      "summary": "Google DeepMind 发布 Gemini 3.7 Flash，距 3.6 Flash 仅三周，主打编程与智能体任务，输入/输出价格分别为每百万 token $0.75 和 $3.75，为原 3.6 Flash 的一半。",
-      "category": "ai-models",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsrscwfn03f7ro0n7qijclds"
       }
     }
   ]
