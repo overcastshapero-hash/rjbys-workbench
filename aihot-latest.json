@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T13:12:39.761Z",
+  "generatedAt": "2026-08-14T14:54:20.943Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-14",
   "daily": {
@@ -296,6 +296,42 @@
   },
   "selectedItems": [
     {
+      "id": "cmst2gh5p02i4ro06iecukonj",
+      "title": "Cursor 正式加入 SpaceX，助力 Grok 生态",
+      "title_en": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
+      "url": "https://x.com/mntruell/status/2088277505933488137",
+      "permalink": "https://aihot.virxact.com/items/cmst2gh5p02i4ro06iecukonj",
+      "source": "X：Michael Truell (@mntruell)",
+      "publishedAt": "2026-08-14T14:52:10.000Z",
+      "discoveredAt": "2026-08-14T14:52:41.544Z",
+      "summary": "Cursor 官方宣布正式加入 SpaceX，收购已正式完成。Cursor 团队将加入 SpaceXAI 团队，共同致力于让 Grok 成为全球最实用的 AI，并改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
+      "category": "industry",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmst2gh5p02i4ro06iecukonj"
+      }
+    },
+    {
+      "id": "cmst2gs6d02lmro06sb7as7av",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "title_en": null,
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "permalink": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-08-14T14:27:14.000Z",
+      "discoveredAt": "2026-08-14T14:52:53.220Z",
+      "summary": null,
+      "category": "industry",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av"
+      }
+    },
+    {
       "id": "cmssyoxc90mssroff4k237ysa",
       "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
       "title_en": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
@@ -473,24 +509,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsrtfqyv04btro0nle3m5b20"
-      }
-    },
-    {
-      "id": "cmsrlvwfp05gdro46mbfqtsgm",
-      "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
-      "title_en": "🚀 Day-0 Support！ @Alibaba_Qwen has open-sourced Qwen3.8-2.4T-A95B - and it's now live on SiliconFlo…",
-      "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-      "permalink": "https://aihot.virxact.com/items/cmsrlvwfp05gdro46mbfqtsgm",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-08-13T14:04:55.000Z",
-      "discoveredAt": "2026-08-13T14:21:01.224Z",
-      "summary": "阿里开源 Qwen3.8-2.4T-A95B，硅基流动已提供 Day-0 支持。该模型拥有 2.4T 参数、95B 激活参数，主打自主编码、深度研究与端到端智能体执行。API 定价为输入 $2.00/百万 token，输出 $6.00/百万 token，缓存输入 $0.25/百万 token。",
-      "category": "ai-products",
-      "score": 67,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsrlvwfp05gdro46mbfqtsgm"
       }
     }
   ]
