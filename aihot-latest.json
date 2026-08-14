@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T14:54:20.943Z",
+  "generatedAt": "2026-08-14T15:54:36.592Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-14",
   "daily": {
@@ -296,21 +296,21 @@
   },
   "selectedItems": [
     {
-      "id": "cmst2gh5p02i4ro06iecukonj",
-      "title": "Cursor 正式加入 SpaceX，助力 Grok 生态",
-      "title_en": "Cursor has officially joined SpaceX. We're grateful to become part of such a special company， and …",
-      "url": "https://x.com/mntruell/status/2088277505933488137",
-      "permalink": "https://aihot.virxact.com/items/cmst2gh5p02i4ro06iecukonj",
-      "source": "X：Michael Truell (@mntruell)",
-      "publishedAt": "2026-08-14T14:52:10.000Z",
-      "discoveredAt": "2026-08-14T14:52:41.544Z",
-      "summary": "Cursor 官方宣布正式加入 SpaceX，收购已正式完成。Cursor 团队将加入 SpaceXAI 团队，共同致力于让 Grok 成为全球最实用的 AI，并改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
-      "category": "industry",
-      "score": 69,
+      "id": "cmst3j53e03ncro068tgsr4xn",
+      "title": "通义千问开源 Qwen3.8 系列模型",
+      "title_en": "We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
+      "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+      "permalink": "https://aihot.virxact.com/items/cmst3j53e03ncro068tgsr4xn",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "publishedAt": "2026-08-14T15:02:48.000Z",
+      "discoveredAt": "2026-08-14T15:22:45.052Z",
+      "summary": "通义千问兑现承诺，开源 Qwen3.8 系列模型。其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文，可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。Max 级 Qwen3.8-2.4T-A95B 的开放权重也已同步发布。",
+      "category": "ai-models",
+      "score": 71,
       "selected": true,
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmst2gh5p02i4ro06iecukonj"
+        "canonical": "https://aihot.virxact.com/items/cmst3j53e03ncro068tgsr4xn"
       }
     },
     {
@@ -332,21 +332,21 @@
       }
     },
     {
-      "id": "cmssyoxc90mssroff4k237ysa",
-      "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
-      "title_en": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
-      "url": "https://x.com/SpaceXAI/status/2088250109188608289",
-      "permalink": "https://aihot.virxact.com/items/cmssyoxc90mssroff4k237ysa",
-      "source": "X：SpaceXAI (@SpaceXAI)",
-      "publishedAt": "2026-08-14T13:03:18.000Z",
-      "discoveredAt": "2026-08-14T13:07:17.030Z",
-      "summary": "Cursor 正式完成被 SpaceX 收购，团队加入 SpaceXAI，共同打造 Grok 为全球最实用的 AI。合作将聚焦软件工程，并扩展至知识工作领域，同时改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
+      "id": "cmst3joqo03pwro0658o4g1m3",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "title_en": "Cursor is now a part of SpaceX",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "permalink": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3",
+      "source": "Cursor Blog",
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "discoveredAt": "2026-08-14T15:23:09.332Z",
+      "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。合并后 Cursor 将获得全球最大 GPU 集群，以构建更强且运行成本更低的模型，从而以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
       "category": "industry",
-      "score": 77,
+      "score": 68,
       "selected": true,
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmssyoxc90mssroff4k237ysa"
+        "canonical": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3"
       }
     },
     {
