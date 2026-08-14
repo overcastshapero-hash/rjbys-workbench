@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:05:39.766Z",
+  "generatedAt": "2026-08-14T11:46:34.781Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-14",
   "daily": {
@@ -296,6 +296,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmssv94cg0h4mroffsb9e7a88",
+      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+      "title_en": "dots3-note Preview：迈向服务真实生活的长程智能体，坚定的第一步",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+      "permalink": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88",
+      "source": "公众号：小红书技术（dots.llm）",
+      "publishedAt": "2026-08-14T11:25:29.000Z",
+      "discoveredAt": "2026-08-14T11:31:00.943Z",
+      "summary": "小红书技术开源 dots3-note Preview，这是 dots3 系列最轻量模型，总参数 280B、激活参数 16B，支持 512K 上下文及文本、视觉、语音多模态理解，并针对复杂推理和长程 Agent 任务优化。",
+      "category": "ai-models",
+      "score": 79,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88"
+      }
+    },
+    {
       "id": "cmssir12d047oroffnpn5pcx1",
       "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
       "title_en": "GLM-5.3：前沿编程能力与涌现的网络安全能力",
@@ -491,42 +509,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsruj6ik02dfrozeclkuve05"
-      }
-    },
-    {
-      "id": "cmsrfaw5c0xo2roz2s8b4p2sv",
-      "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
-      "title_en": "DeepSeek-V4-Pro 更新",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-13",
-      "permalink": "https://aihot.virxact.com/items/cmsrfaw5c0xo2roz2s8b4p2sv",
-      "source": "DeepSeek：API 更新日志",
-      "publishedAt": "2026-08-13T11:16:42.199Z",
-      "discoveredAt": "2026-08-13T11:16:42.199Z",
-      "summary": "DeepSeek-V4-Pro 正式版已在 APP、网页端和 API 同步上线，模型名设为 deepseek-v4-pro 即可使用。其 Agent 能力显著提升，HLE （wo/w tools） 达 42.7/60.0，Terminal Bench 2.1 为 87.9。",
-      "category": "ai-models",
-      "score": 81,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsrfaw5c0xo2roz2s8b4p2sv"
-      }
-    },
-    {
-      "id": "cmsruetoy027hrozeecu4ixrc",
-      "title": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能",
-      "title_en": "The builder's guide to GPT-5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "permalink": "https://aihot.virxact.com/items/cmsruetoy027hrozeecu4ixrc",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-08-13T11:00:00.000Z",
-      "discoveredAt": "2026-08-13T18:19:39.804Z",
-      "summary": "GPT-5.6 模型家族以更低成本实现前沿级智能体性能，并新增推理持久化、原生多智能体编排和程序化工具调用等 API 能力。在 ARC-AGI-3 上，启用保留推理和压缩后，Sol 得分从 13.3% 跃升至 38.3%，且输出 token 减少约 6 倍。Luna 在 BrowseComp 上以 84.04% 的得分追平 GPT-5.5（84.36%），成本从 $33.27 降至 $1.33。",
-      "category": "tip",
-      "score": 80,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsruetoy027hrozeecu4ixrc"
       }
     }
   ]
