@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:00:52.627Z",
+  "generatedAt": "2026-08-14T20:34:08.183Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-14",
   "daily": {
@@ -295,6 +295,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmstc3u8j02xhro0xf5o1ouas",
+      "title": "Claude 文本水印机制如何运作",
+      "title_en": "How Claude's text watermark works",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "permalink": "https://aihot.virxact.com/items/cmstc3u8j02xhro0xf5o1ouas",
+      "source": "Anthropic：Newsroom（网页）",
+      "publishedAt": "2026-08-14T19:22:48.546Z",
+      "discoveredAt": "2026-08-14T19:22:48.546Z",
+      "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法区分水印文本与普通文本，且不增加额外 token 或成本。",
+      "category": "industry",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmstc3u8j02xhro0xf5o1ouas"
+      }
+    },
     {
       "id": "cmst9yj3c05utrodz443l0odv",
       "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
