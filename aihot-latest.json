@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T11:46:34.781Z",
+  "generatedAt": "2026-08-14T13:12:39.761Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-14",
   "daily": {
@@ -296,6 +296,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmssyoxc90mssroff4k237ysa",
+      "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+      "title_en": "Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
+      "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+      "permalink": "https://aihot.virxact.com/items/cmssyoxc90mssroff4k237ysa",
+      "source": "X：SpaceXAI (@SpaceXAI)",
+      "publishedAt": "2026-08-14T13:03:18.000Z",
+      "discoveredAt": "2026-08-14T13:07:17.030Z",
+      "summary": "Cursor 正式完成被 SpaceX 收购，团队加入 SpaceXAI，共同打造 Grok 为全球最实用的 AI。合作将聚焦软件工程，并扩展至知识工作领域，同时改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
+      "category": "industry",
+      "score": 77,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmssyoxc90mssroff4k237ysa"
+      }
+    },
+    {
       "id": "cmssv94cg0h4mroffsb9e7a88",
       "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
       "title_en": "dots3-note Preview：迈向服务真实生活的长程智能体，坚定的第一步",
@@ -473,42 +491,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsrlvwfp05gdro46mbfqtsgm"
-      }
-    },
-    {
-      "id": "cmsrjqqfg02z0ro469zple5jl",
-      "title": "DeepSeek Harness v0.1 开发者预览版发布",
-      "title_en": "🧩 DeepSeek Harness v0.1 is now available in Developer Preview！ 🔹 We're opening it up to developer…",
-      "url": "https://x.com/deepseek_ai/status/2087887408440164663",
-      "permalink": "https://aihot.virxact.com/items/cmsrjqqfg02z0ro469zple5jl",
-      "source": "X：DeepSeek (@deepseek_ai)",
-      "publishedAt": "2026-08-13T13:02:03.000Z",
-      "discoveredAt": "2026-08-13T13:21:00.781Z",
-      "summary": "DeepSeek Harness v0.1 现已推出开发者预览版，并以 MIT 许可证开源。该智能体框架基于 Cordis 元框架构建，核心设计为\"一切皆插件\"，模型、工具、技能、会话、沙箱、文件系统、循环、编排及 UI 均可自由组合、替换和扩展。",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsrjqqfg02z0ro469zple5jl"
-      }
-    },
-    {
-      "id": "cmsruj6ik02dfrozeclkuve05",
-      "title": "Cursor 推出 builds：云智能体启动速度提升至 3 倍",
-      "title_en": "Cloud agents start 3x faster with builds",
-      "url": "https://cursor.com/blog/builds",
-      "permalink": "https://aihot.virxact.com/items/cmsruj6ik02dfrozeclkuve05",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "discoveredAt": "2026-08-13T18:23:04.579Z",
-      "summary": "Cursor 推出 builds 功能，在后台持续准备就绪的开发环境副本，让云智能体启动时无需从零搭建，响应速度最高提升 3 倍。内部环境启动快 10 倍，首个 token 生成快 3 倍；智能体始终从最近一次成功的 build 启动，依赖更新或安装脚本出错时不会影响运行。8 月 17 日起所有环境默认启用 builds，无需额外费用。",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsruj6ik02dfrozeclkuve05"
       }
     }
   ]
