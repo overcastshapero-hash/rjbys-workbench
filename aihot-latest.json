@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:25:32.695Z",
+  "generatedAt": "2026-08-15T15:23:35.629Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-15",
   "daily": {
@@ -254,42 +254,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmst9yj3c05utrodz443l0odv"
-      }
-    },
-    {
-      "id": "cmst3j53e03ncro068tgsr4xn",
-      "title": "通义千问开源 Qwen3.8 系列模型",
-      "title_en": "We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
-      "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
-      "permalink": "https://aihot.virxact.com/items/cmst3j53e03ncro068tgsr4xn",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "publishedAt": "2026-08-14T15:02:48.000Z",
-      "discoveredAt": "2026-08-14T15:22:45.052Z",
-      "summary": "通义千问兑现承诺，开源 Qwen3.8 系列模型。其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文，可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。Max 级 Qwen3.8-2.4T-A95B 的开放权重也已同步发布。",
-      "category": "ai-models",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmst3j53e03ncro068tgsr4xn"
-      }
-    },
-    {
-      "id": "cmst2gs6d02lmro06sb7as7av",
-      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-      "title_en": null,
-      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
-      "permalink": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av",
-      "source": "Ars Technica：AI（RSS）",
-      "publishedAt": "2026-08-14T14:27:14.000Z",
-      "discoveredAt": "2026-08-14T14:52:53.220Z",
-      "summary": null,
-      "category": "industry",
-      "score": 76,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av"
       }
     }
   ]
