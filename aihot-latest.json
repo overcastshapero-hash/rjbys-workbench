@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:22:41.582Z",
+  "generatedAt": "2026-08-15T18:33:17.956Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-15",
   "daily": {
@@ -218,24 +218,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsuaf2hr05zgroe0y1e7275v"
-      }
-    },
-    {
-      "id": "cmst9yj3c05utrodz443l0odv",
-      "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
-      "title_en": "Gemini 3.7 Flash is now available to all Pro and Ultra users in Gemini chat. This model update deli…",
-      "url": "https://x.com/GeminiApp/status/2088326407730692538",
-      "permalink": "https://aihot.virxact.com/items/cmst9yj3c05utrodz443l0odv",
-      "source": "X：Gemini (@GeminiApp)",
-      "publishedAt": "2026-08-14T18:06:29.000Z",
-      "discoveredAt": "2026-08-14T18:22:41.004Z",
-      "summary": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI 智能体更精准。",
-      "category": "ai-models",
-      "score": 66,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmst9yj3c05utrodz443l0odv"
       }
     }
   ]
