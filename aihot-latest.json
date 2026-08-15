@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T04:34:27.315Z",
+  "generatedAt": "2026-08-15T05:27:33.689Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-15",
   "daily": {
@@ -326,24 +326,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmssir12d047oroffnpn5pcx1"
-      }
-    },
-    {
-      "id": "cmssi38vn03o9rofffr0z8lyb",
-      "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
-      "title_en": "This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
-      "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
-      "permalink": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-08-14T04:55:56.000Z",
-      "discoveredAt": "2026-08-14T05:22:30.653Z",
-      "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
-      "category": "ai-models",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb"
       }
     }
   ]
