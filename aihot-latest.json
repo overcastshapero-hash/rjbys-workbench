@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:41:16.858Z",
+  "generatedAt": "2026-08-15T04:34:27.315Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-15",
   "daily": {
@@ -344,24 +344,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb"
-      }
-    },
-    {
-      "id": "cmssf79uf05rwrod09r9ocb2w",
-      "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
-      "title_en": "从跑起来到训起来：Ling-3.0-tiny × ASystem AReno，打通单机 Agentic RL 闭环",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
-      "permalink": "https://aihot.virxact.com/items/cmssf79uf05rwrod09r9ocb2w",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "discoveredAt": "2026-08-14T04:01:40.908Z",
-      "summary": "蚂蚁百灵与 ASystem 团队合作，用 Ling-3.0-tiny 和 AReno 在 DGX Spark 上跑通单机 Agentic RL 后训练闭环。以井字棋为最小验证任务，用 GSPO 算法训练 400 步后，rollout/rewards_mean 从约 -0.5 升至 0.4，response_len 降至约 850 tokens，工具调用与动作选择趋于稳定。",
-      "category": "tip",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmssf79uf05rwrod09r9ocb2w"
       }
     }
   ]
