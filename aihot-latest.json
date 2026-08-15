@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:22:51.688Z",
+  "generatedAt": "2026-08-15T12:42:03.203Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-15",
   "daily": {
@@ -203,6 +203,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsuaf2hr05zgroe0y1e7275v",
+      "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
+      "title_en": "AI-generated books are flooding Amazon and tanking sales for human authors",
+      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
+      "permalink": "https://aihot.virxact.com/items/cmsuaf2hr05zgroe0y1e7275v",
+      "source": "The Decoder：AI News（RSS）",
+      "publishedAt": "2026-08-15T11:00:50.000Z",
+      "discoveredAt": "2026-08-15T11:23:17.740Z",
+      "summary": "一项对14，419本自出版电子书的分析显示，AI生成书籍正以数量而非质量挤占人类作者市场，即便未检测到AI文本的书籍，单书收入也在下滑。2023年Q1至2026年Q1，书目总量增长38.3倍，而季度收入仅增长8.9倍；在八个类型中，七个类型的无AI文本书籍单书收入下降。",
+      "category": "paper",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsuaf2hr05zgroe0y1e7275v"
+      }
+    },
+    {
       "id": "cmstc3u8j02xhro0xf5o1ouas",
       "title": "Claude 文本水印机制如何运作",
       "title_en": "How Claude's text watermark works",
@@ -272,42 +290,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av"
-      }
-    },
-    {
-      "id": "cmst3joqo03pwro0658o4g1m3",
-      "title": "Cursor 正式被 SpaceX 收购",
-      "title_en": "Cursor is now a part of SpaceX",
-      "url": "https://cursor.com/blog/joining-spacex",
-      "permalink": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "discoveredAt": "2026-08-14T15:23:09.332Z",
-      "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。合并后 Cursor 将获得全球最大 GPU 集群，以构建更强且运行成本更低的模型，从而以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
-      "category": "industry",
-      "score": 68,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3"
-      }
-    },
-    {
-      "id": "cmssv94cg0h4mroffsb9e7a88",
-      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-      "title_en": "dots3-note Preview：迈向服务真实生活的长程智能体，坚定的第一步",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "permalink": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88",
-      "source": "公众号：小红书技术（dots.llm）",
-      "publishedAt": "2026-08-14T11:25:29.000Z",
-      "discoveredAt": "2026-08-14T11:31:00.943Z",
-      "summary": "小红书技术开源 dots3-note Preview，这是 dots3 系列最轻量模型，总参数 280B、激活参数 16B，支持 512K 上下文及文本、视觉、语音多模态理解，并针对复杂推理和长程 Agent 任务优化。",
-      "category": "ai-models",
-      "score": 79,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88"
       }
     }
   ]
