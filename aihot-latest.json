@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:22:30.354Z",
+  "generatedAt": "2026-08-16T20:25:55.801Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-16",
   "daily": {
@@ -49,24 +49,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsvptx2m061frovmjoavsi0l"
-      }
-    },
-    {
-      "id": "cmsuto7hk0912rouhodiiywlk",
-      "title": "Cursor 正式被 SpaceX 收购",
-      "title_en": "Cursor 现已成为 SpaceX 的一部分",
-      "url": "https://cursor.com/blog/joining-spacex",
-      "permalink": "https://aihot.virxact.com/items/cmsuto7hk0912rouhodiiywlk",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-15T20:05:54.703Z",
-      "discoveredAt": "2026-08-15T20:22:17.762Z",
-      "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。借助 SpaceX 全球最大规模的 GPU 集群，Cursor 将构建更强且运行成本更低的模型，并以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
-      "category": "industry",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsuto7hk0912rouhodiiywlk"
       }
     }
   ]
