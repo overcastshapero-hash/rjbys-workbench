@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:30:47.891Z",
+  "generatedAt": "2026-08-17T18:42:40.782Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-17",
   "daily": {
@@ -44,6 +44,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsxkakju0300roz0zx6cvdeu",
+      "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
+      "title_en": "如何禁用或避免侵入式人工智能",
+      "url": "https://www.librarian.net/notoai",
+      "permalink": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-17T17:58:12.144Z",
+      "discoveredAt": "2026-08-17T18:23:03.341Z",
+      "summary": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。",
+      "category": "tip",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu"
+      }
+    },
     {
       "id": "cmsx8zij405t2rommm4gwgzjh",
       "title": "黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂",
