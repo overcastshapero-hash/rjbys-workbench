@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:28:09.845Z",
+  "generatedAt": "2026-08-17T22:27:13.867Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-17",
   "daily": {
@@ -44,6 +44,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsxsvb5s0a4troz0z2q2nu3h",
+      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+      "title_en": "Cursor 推出 Origin，作为 GitHub 的替代方案",
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "permalink": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-17T22:14:00.748Z",
+      "discoveredAt": "2026-08-17T22:23:07.832Z",
+      "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+      "category": "ai-products",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h"
+      }
+    },
     {
       "id": "cmsxld6es03o8roz0jblf3ii9",
       "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
@@ -168,24 +186,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02"
-      }
-    },
-    {
-      "id": "cmswesk6a0r2hrovml2edcl2c",
-      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
-      "title_en": "Qwen 3.8 27B is excellent， but it defaults to wildly overthinking things",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-      "permalink": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c",
-      "source": "Simon Willison 博客",
-      "publishedAt": "2026-08-16T22:00:39.000Z",
-      "discoveredAt": "2026-08-16T23:01:19.206Z",
-      "summary": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。",
-      "category": "tip",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c"
       }
     }
   ]
