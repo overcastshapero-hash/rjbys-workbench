@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:42:40.782Z",
+  "generatedAt": "2026-08-17T19:30:04.998Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-17",
   "daily": {
@@ -44,6 +44,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmsxld6es03o8roz0jblf3ii9",
+      "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+      "title_en": "我们追踪了一批珍本图书的运输过程。最终，这些书被送到了亚马逊的一处人工智能训练中心",
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "permalink": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-08-17T18:46:04.518Z",
+      "discoveredAt": "2026-08-17T18:53:04.323Z",
+      "summary": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
+      "category": "industry",
+      "score": 71,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9"
+      }
+    },
     {
       "id": "cmsxkakju0300roz0zx6cvdeu",
       "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
