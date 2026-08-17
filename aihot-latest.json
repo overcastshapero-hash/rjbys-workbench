@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:27:21.775Z",
+  "generatedAt": "2026-08-17T16:30:47.891Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-17",
   "daily": {
@@ -46,14 +46,14 @@
   "selectedItems": [
     {
       "id": "cmsx8zij405t2rommm4gwgzjh",
-      "title": "https://x.com/i/article/2089330332369588224",
-      "title_en": null,
+      "title": "黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂",
+      "title_en": "https://x.com/i/article/2089330332369588224",
       "url": "https://x.com/JensenHuang/status/2089331487342829862",
       "permalink": "https://aihot.virxact.com/items/cmsx8zij405t2rommm4gwgzjh",
       "source": "X：Jensen Huang (@JensenHuang)",
       "publishedAt": "2026-08-17T12:40:19.000Z",
       "discoveredAt": "2026-08-17T13:06:32.046Z",
-      "summary": null,
+      "summary": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总机会约6000亿美元。",
       "category": "industry",
       "score": 74,
       "selected": true,
