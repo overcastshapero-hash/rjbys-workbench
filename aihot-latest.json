@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:41:18.172Z",
+  "generatedAt": "2026-08-18T19:29:33.882Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-18",
   "daily": {
@@ -236,21 +236,57 @@
   },
   "selectedItems": [
     {
-      "id": "cmsyzrlqd04xhro20xbr0dgud",
-      "title": "OpenAI 暂停前沿模型 RL 训练以强化安全",
-      "title_en": "As models become more capable， the risks associated with developing and testing them internally also…",
-      "url": "https://x.com/OpenAI/status/2089777845187031262",
-      "permalink": "https://aihot.virxact.com/items/cmsyzrlqd04xhro20xbr0dgud",
-      "source": "X：OpenAI (@OpenAI)",
-      "publishedAt": "2026-08-18T18:13:59.000Z",
-      "discoveredAt": "2026-08-18T18:23:58.795Z",
-      "summary": "OpenAI 因模型能力增强带来的内部开发与测试风险上升，暂停了最新部署模型的强化学习（RL）训练两周，以加固研究环境、扩大红队测试与监控覆盖。其最大规模的前沿 RL 训练仍处于暂停状态，需通过小规模训练和评估验证安全措施并积累对齐证据。",
-      "category": "industry",
+      "id": "cmsz1zjiy013pro3f1e0aafra",
+      "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+      "title_en": "Claude on call： How Claude Tag serves as Anthropic's first responder for CI/CD failures",
+      "url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "permalink": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-08-18T19:26:08.389Z",
+      "discoveredAt": "2026-08-18T19:26:08.389Z",
+      "summary": "Anthropic 的 CI 工程师用 Claude Tag 构建了值班智能体，作为 CI/CD 故障的一线响应者。Claude 在事故发生后中位 14 分钟发布首份基于证据的分析，最快案例中 3 分钟内验证修复并确认错误率恢复基线。该方案通过 Slack 频道、Datadog 或 Grafana 工具访问及 GitHub 技能文件实现，Anthropic 已发布通用设置套件供其他团队部署。",
+      "category": "tip",
+      "score": 63,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra"
+      }
+    },
+    {
+      "id": "cmsz1974l06hbro20gosn5d78",
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "title_en": "How Much Memory Does Your Agent Actually Need？",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "permalink": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-08-18T18:09:38.000Z",
+      "discoveredAt": "2026-08-18T19:05:39.262Z",
+      "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。",
+      "category": "paper",
       "score": 66,
       "selected": true,
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsyzrlqd04xhro20xbr0dgud"
+        "canonical": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78"
+      }
+    },
+    {
+      "id": "cmsz0hbsg05l0ro204080cotv",
+      "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
+      "title_en": "Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "permalink": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "discoveredAt": "2026-08-18T18:43:58.689Z",
+      "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的\"关键网络安全能力\"阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
+      "category": "tip",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv"
       }
     },
     {
@@ -291,14 +327,14 @@
     },
     {
       "id": "cmsyqip4o14umroz0ch5iv0iv",
-      "title": "Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
-      "title_en": null,
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "title_en": "Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "permalink": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv",
       "source": "Hugging Face：Blog（RSS）",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "discoveredAt": "2026-08-18T14:05:05.620Z",
-      "summary": null,
+      "summary": "Sentence Transformers v6.0 新增第四种模型类型 MultiVectorEncoder，可直接加载 PyLate、Stanford-NLP ColBERT 及 colpali-engine 检查点，用于 ColBERT 式晚期交互检索。",
       "category": "ai-products",
       "score": 75,
       "selected": true,
@@ -359,24 +395,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h"
-      }
-    },
-    {
-      "id": "cmsxld6es03o8roz0jblf3ii9",
-      "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
-      "title_en": "我们追踪了一批珍本图书的运输过程。最终，这些书被送到了亚马逊的一处人工智能训练中心",
-      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
-      "permalink": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-17T18:46:04.518Z",
-      "discoveredAt": "2026-08-17T18:53:04.323Z",
-      "summary": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
-      "category": "industry",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9"
       }
     }
   ]
