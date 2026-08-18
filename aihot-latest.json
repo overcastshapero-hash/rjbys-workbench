@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:44:24.789Z",
+  "generatedAt": "2026-08-18T14:36:13.286Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-18",
   "daily": {
@@ -269,6 +269,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05"
+      }
+    },
+    {
+      "id": "cmsyqip4o14umroz0ch5iv0iv",
+      "title": "Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
+      "title_en": null,
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "permalink": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "discoveredAt": "2026-08-18T14:05:05.620Z",
+      "summary": null,
+      "category": "ai-products",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv"
       }
     },
     {
