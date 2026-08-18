@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T05:32:31.968Z",
+  "generatedAt": "2026-08-18T06:48:26.629Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-18",
   "daily": {
@@ -377,6 +377,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t"
+      }
+    },
+    {
+      "id": "cmsy8afig0mvmroz0gb3hz0iq",
+      "title": "inclusionAI 开源 ConceptEdit：基于概念缩放与密集监督的图像编辑数据生成管线",
+      "title_en": "inclusionAI/ConceptEdit",
+      "url": "https://github.com/inclusionAI/ConceptEdit",
+      "permalink": "https://aihot.virxact.com/items/cmsy8afig0mvmroz0gb3hz0iq",
+      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+      "publishedAt": "2026-08-17T07:22:08.000Z",
+      "discoveredAt": "2026-08-18T05:34:47.114Z",
+      "summary": "蚂蚁集团 inclusionAI 开源 ConceptEdit，一个基于概念缩放与密集监督的图像编辑数据生成管线。该管线通过三阶段流程（VLM 生成指令、FLUX 执行编辑、VQA 评估筛选）构建大规模、基于分类法的图像编辑数据集，并提供单概念与多概念两种变体。项目采用 MIT 许可证，支持断点续跑，需 OpenAI 兼容 VLM 端点与本地 FLUX 检查点。",
+      "category": "ai-products",
+      "score": 64,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsy8afig0mvmroz0gb3hz0iq"
       }
     }
   ]
