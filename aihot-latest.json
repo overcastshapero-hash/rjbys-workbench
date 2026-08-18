@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T22:26:32.195Z",
+  "generatedAt": "2026-08-18T23:24:46.890Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-18",
   "daily": {
@@ -236,6 +236,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmsz8gh3n06e4rodpl8l2syek",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "title_en": "How Claude is accelerating protein design and analytical chemistry",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "publishedAt": "2026-08-18T22:27:16.191Z",
+      "discoveredAt": "2026-08-18T22:27:16.191Z",
+      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+      "category": "paper",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek"
+      }
+    },
+    {
       "id": "cmsz79zol04j8rodpvun6zobl",
       "title": "Mojo 语言正式开源，编译器与工具链全面开放",
       "title_en": "Mojo 现已开源！",
@@ -395,24 +413,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsxwd7a40coxroz06g25sfaf"
-      }
-    },
-    {
-      "id": "cmsxv0p3v0bntroz0227a6b3j",
-      "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-      "title_en": "Build zero-trust AI agents with Google's Agent Development Kit",
-      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
-      "permalink": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j",
-      "source": "Google Developers Blog（RSS）",
-      "publishedAt": "2026-08-17T23:22:25.902Z",
-      "discoveredAt": "2026-08-17T23:22:25.902Z",
-      "summary": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
-      "category": "tip",
-      "score": 69,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j"
       }
     }
   ]
