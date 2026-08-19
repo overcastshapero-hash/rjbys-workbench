@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:38:52.874Z",
+  "generatedAt": "2026-08-19T19:28:03.102Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-19",
   "daily": {
@@ -214,24 +214,6 @@
   },
   "selectedItems": [
     {
-      "id": "cmt0fnprn03kkro2o3eip88pj",
-      "title": "Stripe 收购 OpenRouter：构建 AI 智能交换网络",
-      "title_en": "OpenRouter & Stripe： The Intelligence Network",
-      "url": "https://www.a16z.news/p/openrouter-and-stripe-the-intelligence",
-      "permalink": "https://aihot.virxact.com/items/cmt0fnprn03kkro2o3eip88pj",
-      "source": "a16z：News（RSS）",
-      "publishedAt": "2026-08-19T17:57:00.000Z",
-      "discoveredAt": "2026-08-19T18:36:36.989Z",
-      "summary": "Stripe 已签署协议收购 OpenRouter，双方将共同构建全球 AI 公司交换智能的可信、规模化且高性能网络。OpenRouter 已成为模型路由与清算的关键中立层，其工具 Ori Eval 可根据提示词与业务需求动态路由最优模型与供应商。此次收购被视为 AI 经济基础设施的重要支柱，有望让模型公司与应用公司实现双赢。",
-      "category": "industry",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt0fnprn03kkro2o3eip88pj"
-      }
-    },
-    {
       "id": "cmt0e7sxo01eiro2o4l4y9jmh",
       "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
       "title_en": "Blog Pushing the Limits of Serving DeepSeek-V4-Pro DeepSeek-V4-Pro is a 1.6-trillion-parameter Mixture-of-Experts （MoE） model released with both FP8 and FP4 weights. Models at this scale naturally benefit from accelerators such as NVIDIA Blackwell GPU… Tianyu Zhang， Yusong Gao， Yun Zhang",
@@ -247,24 +229,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh"
-      }
-    },
-    {
-      "id": "cmt0djvwn19s0rodpiy2xsspk",
-      "title": "OpenRouter 加入 Stripe 加速多模型使命",
-      "title_en": "OpenRouter is joining Stripe. We started OpenRouter with a simple mission： intelligence should be m…",
-      "url": "https://x.com/OpenRouter/status/2090127246430216403",
-      "permalink": "https://aihot.virxact.com/items/cmt0djvwn19s0rodpiy2xsspk",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-08-19T17:22:22.000Z",
-      "discoveredAt": "2026-08-19T17:37:37.418Z",
-      "summary": "OpenRouter 正在加入 Stripe。\n\n我们创立 OpenRouter 时怀揣一个简单的使命：智能应当是多元模型的。如今，我们是最大的 AI 市场与网关，每天在 400 多个模型上处理 10T+ token。\n\n加入 @Stripe 让我们有机会加速这一使命。",
-      "category": "industry",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt0djvwn19s0rodpiy2xsspk"
       }
     },
     {
