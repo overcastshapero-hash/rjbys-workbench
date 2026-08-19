@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T13:47:09.480Z",
+  "generatedAt": "2026-08-19T14:36:43.161Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-19",
   "daily": {
@@ -213,6 +213,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmt05zhyg139trodp6bxsy9e2",
+      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+      "title_en": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "permalink": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-08-19T13:48:49.000Z",
+      "discoveredAt": "2026-08-19T14:05:48.972Z",
+      "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
+      "category": "ai-models",
+      "score": 64,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2"
+      }
+    },
     {
       "id": "cmszeb2mx0b3srodpef1ub0j0",
       "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
