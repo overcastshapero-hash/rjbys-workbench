@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:31:37.712Z",
+  "generatedAt": "2026-08-19T11:27:33.054Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-19",
   "daily": {
@@ -319,42 +319,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78"
-      }
-    },
-    {
-      "id": "cmsz0hbsg05l0ro204080cotv",
-      "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
-      "title_en": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "permalink": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "discoveredAt": "2026-08-18T18:43:58.689Z",
-      "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的\"关键网络安全能力\"阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
-      "category": "tip",
-      "score": 65,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv"
-      }
-    },
-    {
-      "id": "cmsykcnkt0yh1roz0a9h404r5",
-      "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
-      "title_en": "Introducing ChatGPT for Teens： Built for learning， backed by protections",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "permalink": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "discoveredAt": "2026-08-18T11:12:25.733Z",
-      "summary": "OpenAI 发布 ChatGPT for Teens，为 13-17 岁用户自动启用，内置更强安全保护与家长控制。新增 Study Mode、负责任作业提醒、测验与学习可视化，以及可设定默认开启时段的 Study Hours，引导青少年分步解题而非直接给答案。OpenAI 同时宣布与 CodeAI 合作，帮助青少年理解、质疑并创造性地使用 AI。",
-      "category": "ai-products",
-      "score": 60,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5"
       }
     }
   ]
