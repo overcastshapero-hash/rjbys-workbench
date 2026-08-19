@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:34:17.811Z",
+  "generatedAt": "2026-08-19T17:29:09.261Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-19",
   "daily": {
@@ -247,6 +247,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0"
+      }
+    },
+    {
+      "id": "cmt0d2tsl1961rodpnvzxo4cc",
+      "title": "OpenRouter 宣布加入 Stripe",
+      "title_en": "OpenRouter is Joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "permalink": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc",
+      "source": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "discoveredAt": "2026-08-19T17:24:22.858Z",
+      "summary": "OpenRouter 宣布与 Stripe 合并，以加速推动全球经济增长。OpenRouter 目前每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，自成立以来推理量每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，产品与路线图不变，路由决策仍以用户利益为先，交易预计在未来数周内完成。",
+      "category": "industry",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc"
       }
     },
     {
