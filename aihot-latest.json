@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T17:32:02.681Z",
+  "generatedAt": "2026-08-20T18:42:36.999Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-20",
   "daily": {
@@ -197,6 +197,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmt1tonwa07i9roovrze0ll65",
+      "title": "Anthropic 如何开展 AI 教学",
+      "title_en": "Anthropic's approach to teaching and learning AI",
+      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "permalink": "https://aihot.virxact.com/items/cmt1tonwa07i9roovrze0ll65",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-08-20T17:56:58.396Z",
+      "discoveredAt": "2026-08-20T17:56:58.396Z",
+      "summary": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
+      "category": "ai-products",
+      "score": 60,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt1tonwa07i9roovrze0ll65"
+      }
+    },
+    {
       "id": "cmt1rv5n8066iroovaxgoej1b",
       "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
       "title_en": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
@@ -320,24 +338,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8"
-      }
-    },
-    {
-      "id": "cmt0e7sxo01eiro2o4l4y9jmh",
-      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
-      "title_en": "Blog Pushing the Limits of Serving DeepSeek-V4-Pro DeepSeek-V4-Pro is a 1.6-trillion-parameter Mixture-of-Experts （MoE） model released with both FP8 and FP4 weights. Models at this scale naturally benefit from accelerators such as NVIDIA Blackwell GPU… Tianyu Zhang， Yusong Gao， Yun Zhang",
-      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
-      "permalink": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-08-19T17:56:13.817Z",
-      "discoveredAt": "2026-08-19T17:56:13.817Z",
-      "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42×。",
-      "category": "paper",
-      "score": 73,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh"
       }
     }
   ]
