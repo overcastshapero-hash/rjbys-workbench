@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T15:36:08.579Z",
+  "generatedAt": "2026-08-20T16:38:02.846Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-20",
   "daily": {
@@ -196,6 +196,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmt1pkwbj04bxroovzkfca5c7",
+      "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+      "title_en": "Agentic Search. More accurate and efficient results from your AI systems. The retrieval layer that helps AI systems navigate， read， and verify information inside and across even the most complex documents.",
+      "url": "https://mistral.ai/news/agentic-search",
+      "permalink": "https://aihot.virxact.com/items/cmt1pkwbj04bxroovzkfca5c7",
+      "source": "Mistral AI：News（网页）",
+      "publishedAt": "2026-08-20T16:02:07.300Z",
+      "discoveredAt": "2026-08-20T16:02:07.300Z",
+      "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
+      "category": "ai-products",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt1pkwbj04bxroovzkfca5c7"
+      }
+    },
     {
       "id": "cmt1k19bn06qgrokx1p75h1gv",
       "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
