@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:33:51.886Z",
+  "generatedAt": "2026-08-20T20:31:20.977Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-20",
   "daily": {
@@ -197,21 +197,21 @@
   },
   "selectedItems": [
     {
-      "id": "cmt1x09r50as3roovomoabpif",
-      "title": "Claude Academy 上线，免费课程开放学习",
-      "title_en": "Claude Academy is now live. Whether you're figuring out what AI is or already using Claude every da…",
-      "url": "https://x.com/claudeai/status/2090518650251804742",
-      "permalink": "https://aihot.virxact.com/items/cmt1x09r50as3roovomoabpif",
-      "source": "X：Claude (@claudeai)",
-      "publishedAt": "2026-08-20T19:17:40.000Z",
-      "discoveredAt": "2026-08-20T19:30:00.807Z",
-      "summary": "Claude Academy 现已上线。\n\n无论你是刚开始了解 AI，还是每天都在使用 Claude，这里都有一条适合你的学习路径。课程和教程免费开放，任何人都可通过 https://academy.claude.com 访问。",
+      "id": "cmt1z1q5n0c93roovlvh40tew",
+      "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+      "title_en": "Build production agents with computer use， the Skills API， and the Files API",
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "permalink": "https://aihot.virxact.com/items/cmt1z1q5n0c93roovlvh40tew",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-08-20T20:27:01.660Z",
+      "discoveredAt": "2026-08-20T20:27:01.660Z",
+      "summary": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
       "category": "ai-products",
-      "score": 68,
+      "score": 63,
       "selected": true,
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt1x09r50as3roovomoabpif"
+        "canonical": "https://aihot.virxact.com/items/cmt1z1q5n0c93roovlvh40tew"
       }
     },
     {
