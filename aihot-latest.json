@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:31:20.977Z",
+  "generatedAt": "2026-08-20T21:30:31.290Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-20",
   "daily": {
@@ -338,24 +338,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob"
-      }
-    },
-    {
-      "id": "cmt0kxcuu07f2ro2owuqpbjc8",
-      "title": "FastMetal 让 Mac 本地 30 秒生成视频",
-      "title_en": "A 5-second 480P video， generated entirely on a Mac， in 30 seconds. No CUDA， no cloud， 3.9 GiB of mem…",
-      "url": "https://x.com/haoailab/status/2090177721913770407",
-      "permalink": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8",
-      "source": "X：Sky Computing Lab (@haoailab)",
-      "publishedAt": "2026-08-19T20:42:57.000Z",
-      "discoveredAt": "2026-08-19T21:04:04.391Z",
-      "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上运行，默认 INT8。\n\n三个模型：1.3B 支持 480P，5B 支持 720P，14B 追求画质。\n\n📷 博客：http://haoailab.com/blogs/fastmetal 📷 代码：http://github.com/hao-ai-lab/FastVideo 📷 模型：http://huggingface.co/collections/FastVideo/fastmetal",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8"
       }
     }
   ]
