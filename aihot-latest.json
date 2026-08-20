@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:43:10.210Z",
+  "generatedAt": "2026-08-20T08:41:28.876Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-20",
   "daily": {
@@ -212,24 +212,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob"
-      }
-    },
-    {
-      "id": "cmt0mqceo08lzro2o6xi3rlk4",
-      "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-      "title_en": "在网络关键能力时代推进模型开发",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "permalink": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-08-19T21:42:09.969Z",
-      "discoveredAt": "2026-08-19T21:54:37.175Z",
-      "summary": "Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到\"关键网络安全能力阈值\"，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练。公司已加强研究环境安全要求，包括工作负载隔离、网络隔离和持续安全测试，并扩大思维链监控范围。涉及 Astra 或网络模型的工作负载需满足最严格安全标准，部分训练和评估工作仍处于暂停状态。",
-      "category": "industry",
-      "score": 72,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4"
       }
     },
     {
