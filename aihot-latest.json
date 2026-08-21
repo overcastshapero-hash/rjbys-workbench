@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:48:39.237Z",
+  "generatedAt": "2026-08-21T14:37:52.791Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-21",
   "daily": {
@@ -230,6 +230,24 @@
   },
   "selectedItems": [
     {
+      "id": "cmt31oi0x0ehyro6tui3xycqe",
+      "title": "AI 原生 SDLC 实战手册：Anthropic 如何用 Claude 重塑软件开发生命周期",
+      "title_en": "The AI-Native SDLC playbook",
+      "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "permalink": "https://aihot.virxact.com/items/cmt31oi0x0ehyro6tui3xycqe",
+      "source": "Claude：Blog（网页）",
+      "publishedAt": "2026-08-21T14:28:27.351Z",
+      "discoveredAt": "2026-08-21T14:28:27.351Z",
+      "summary": "Anthropic 发布 AI 原生 SDLC 实战手册，提出将传统六阶段软件开发生命周期重构为 AI 嵌入各环节的闭环流程。手册指出，当代码不再是瓶颈时，规划、审查、部署等人速环节成为新约束，需通过 Claude 将需求压缩为 intent.md、以技能编码标准、用持续评测替代阶段门禁，并保留人工对关键代码的审查。",
+      "category": "tip",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt31oi0x0ehyro6tui3xycqe"
+      }
+    },
+    {
       "id": "cmt2yscvm0ca8ro6t0u6vtfnt",
       "title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
       "title_en": "🧮 Introducing MathForm， an open-source framework， dataset， and model for mathematical autoformaliza…",
@@ -281,6 +299,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmt2ry1sl04ywro6t5znttdrs"
+      }
+    },
+    {
+      "id": "cmt30vskr0e0wro6t19q13yic",
+      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
+      "title_en": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "permalink": "https://aihot.virxact.com/items/cmt30vskr0e0wro6t19q13yic",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "discoveredAt": "2026-08-21T14:06:17.786Z",
+      "summary": "Hugging Face 最新研究引入三项测试量化语音识别中的基准优化（benchmaxxing）现象。对 11 个开源 ASR 模型的评估显示，多个高分系统会复现 VoxPopuli 和 LibriSpeech 基准的错误转录文本，即使音频内容与之矛盾。部分模型甚至依赖声学线索识别基准来源，导致其得分高估了真实转录能力。",
+      "category": "paper",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt30vskr0e0wro6t19q13yic"
       }
     },
     {
