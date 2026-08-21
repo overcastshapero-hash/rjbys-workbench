@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T08:43:39.446Z",
+  "generatedAt": "2026-08-21T09:39:32.768Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-21",
   "daily": {
@@ -229,6 +229,24 @@
     "flashes": []
   },
   "selectedItems": [
+    {
+      "id": "cmt2qvfnj03zxro6tehwcikx4",
+      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "title_en": null,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
+      "permalink": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4",
+      "source": "DeepSeek：API 更新日志",
+      "publishedAt": "2026-08-21T09:26:04.727Z",
+      "discoveredAt": "2026-08-21T09:26:04.727Z",
+      "summary": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+      "category": "ai-models",
+      "score": 67,
+      "selected": true,
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4"
+      }
+    },
     {
       "id": "cmt1z1q5n0c93roovlvh40tew",
       "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
