@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T16:27:58.025Z",
+  "generatedAt": "2026-08-22T17:23:02.521Z",
   "source": "https://aihot.virxact.com",
   "date": "2026-08-22",
   "daily": {
@@ -236,24 +236,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmt3wt4qm13utro6t0hb6ga3y"
-      }
-    },
-    {
-      "id": "cmt396dpw0kj0ro6tdktqkp8s",
-      "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
-      "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-      "permalink": "https://aihot.virxact.com/items/cmt396dpw0kj0ro6tdktqkp8s",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-08-21T17:58:29.461Z",
-      "discoveredAt": "2026-08-21T17:58:29.461Z",
-      "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
-      "category": "ai-products",
-      "score": 61,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt396dpw0kj0ro6tdktqkp8s"
       }
     },
     {
